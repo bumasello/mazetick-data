@@ -1,0 +1,5564 @@
+{
+ "schema": "movers_v1",
+ "generated_at": "2026-09-14T13:56:09Z",
+ "source": "Smarkets public order book",
+ "note": "'percentile' is where this move sits among all moves we have measured for runners opening at a similar price. The median move is near zero in every band; what changes with price is the spread of outcomes.",
+ "baseline": {
+  "days": 27,
+  "bands": [
+   {
+    "from": 1.5,
+    "to": 3,
+    "n": 345,
+    "p5": -17.6,
+    "p25": -7.3,
+    "p50": 0.9,
+    "p75": 11.0,
+    "p95": 35.2
+   },
+   {
+    "from": 3,
+    "to": 5,
+    "n": 940,
+    "p5": -25.5,
+    "p25": -9.7,
+    "p50": 1.0,
+    "p75": 12.6,
+    "p95": 39.0
+   },
+   {
+    "from": 5,
+    "to": 8,
+    "n": 1496,
+    "p5": -31.0,
+    "p25": -11.2,
+    "p50": 0.4,
+    "p75": 13.3,
+    "p95": 48.3
+   },
+   {
+    "from": 8,
+    "to": 13,
+    "n": 1700,
+    "p5": -33.1,
+    "p25": -12.9,
+    "p50": 1.0,
+    "p75": 17.5,
+    "p95": 55.6
+   },
+   {
+    "from": 13,
+    "to": 20,
+    "n": 1329,
+    "p5": -38.0,
+    "p25": -14.7,
+    "p50": 2.1,
+    "p75": 22.8,
+    "p95": 65.6
+   },
+   {
+    "from": 20,
+    "to": 35,
+    "n": 1420,
+    "p5": -41.6,
+    "p25": -15.6,
+    "p50": 5.7,
+    "p75": 27.1,
+    "p95": 90.2
+   },
+   {
+    "from": 35,
+    "to": 100,
+    "n": 1567,
+    "p5": -55.7,
+    "p25": -26.8,
+    "p50": -2.7,
+    "p75": 20.4,
+    "p95": 64.7
+   }
+  ]
+ },
+ "runners": [
+  {
+   "race": "14:30",
+   "off_utc": "2026-09-14T13:30:00Z",
+   "runner": "Helmsley",
+   "first": {
+    "mins_to_off": 330,
+    "mid": 34.25
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 10.48,
+    "spread_pct": 9.6
+   },
+   "move_pct": -69.4,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 0,
+   "notable": true
+  },
+  {
+   "race": "14:51",
+   "off_utc": "2026-09-14T13:51:00Z",
+   "runner": "Ma Fille De Reve",
+   "first": {
+    "mins_to_off": 336,
+    "mid": 13.63
+   },
+   "latest": {
+    "mins_to_off": 6,
+    "mid": 7.52,
+    "spread_pct": null
+   },
+   "move_pct": -44.9,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 2,
+   "notable": true
+  },
+  {
+   "race": "17:30",
+   "off_utc": "2026-09-14T16:30:00Z",
+   "runner": "Ivat Ghia",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 12.2
+   },
+   "latest": {
+    "mins_to_off": 165,
+    "mid": 6.99,
+    "spread_pct": 5.7
+   },
+   "move_pct": -42.7,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 2,
+   "notable": true
+  },
+  {
+   "race": "14:21",
+   "off_utc": "2026-09-14T13:21:00Z",
+   "runner": "Hickton",
+   "first": {
+    "mins_to_off": 321,
+    "mid": 8.07
+   },
+   "latest": {
+    "mins_to_off": 6,
+    "mid": 13.49,
+    "spread_pct": 7.4
+   },
+   "move_pct": 67.2,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 97,
+   "notable": true
+  },
+  {
+   "race": "14:30",
+   "off_utc": "2026-09-14T13:30:00Z",
+   "runner": "Mighty Dink",
+   "first": {
+    "mins_to_off": 330,
+    "mid": 32.89
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 61.54,
+    "spread_pct": 24.4
+   },
+   "move_pct": 87.1,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 95,
+   "notable": true
+  },
+  {
+   "race": "15:00",
+   "off_utc": "2026-09-14T14:00:00Z",
+   "runner": "Uncle Al",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 8.18
+   },
+   "latest": {
+    "mins_to_off": 15,
+    "mid": 5.44,
+    "spread_pct": null
+   },
+   "move_pct": -33.5,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 5,
+   "notable": true
+  },
+  {
+   "race": "14:51",
+   "off_utc": "2026-09-14T13:51:00Z",
+   "runner": "Dream On Kent",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 30.17
+   },
+   "latest": {
+    "mins_to_off": 6,
+    "mid": 17.26,
+    "spread_pct": 2.9
+   },
+   "move_pct": -42.8,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 5,
+   "notable": true
+  },
+  {
+   "race": "14:30",
+   "off_utc": "2026-09-14T13:30:00Z",
+   "runner": "Mia Sunshine",
+   "first": {
+    "mins_to_off": 330,
+    "mid": 10.37
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 15.53,
+    "spread_pct": null
+   },
+   "move_pct": 49.8,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 94,
+   "notable": false
+  },
+  {
+   "race": "14:51",
+   "off_utc": "2026-09-14T13:51:00Z",
+   "runner": "Claret Time",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 6.72
+   },
+   "latest": {
+    "mins_to_off": 6,
+    "mid": 9.5,
+    "spread_pct": 2.1
+   },
+   "move_pct": 41.2,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 94,
+   "notable": false
+  },
+  {
+   "race": "14:21",
+   "off_utc": "2026-09-14T13:21:00Z",
+   "runner": "Off Spin",
+   "first": {
+    "mins_to_off": 321,
+    "mid": 6.46
+   },
+   "latest": {
+    "mins_to_off": 6,
+    "mid": 9.2,
+    "spread_pct": null
+   },
+   "move_pct": 42.4,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 94,
+   "notable": false
+  },
+  {
+   "race": "17:30",
+   "off_utc": "2026-09-14T16:30:00Z",
+   "runner": "Mbappe",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 20.08
+   },
+   "latest": {
+    "mins_to_off": 165,
+    "mid": 12.48,
+    "spread_pct": 8.0
+   },
+   "move_pct": -37.8,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 6,
+   "notable": false
+  },
+  {
+   "race": "17:30",
+   "off_utc": "2026-09-14T16:30:00Z",
+   "runner": "Wellwhatshappenin",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 4.89
+   },
+   "latest": {
+    "mins_to_off": 165,
+    "mid": 3.74,
+    "spread_pct": 8.0
+   },
+   "move_pct": -23.4,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 6,
+   "notable": false
+  },
+  {
+   "race": "14:00",
+   "off_utc": "2026-09-14T13:00:00Z",
+   "runner": "Parikarma",
+   "first": {
+    "mins_to_off": 300,
+    "mid": 5.99
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 4.42,
+    "spread_pct": null
+   },
+   "move_pct": -26.2,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 7,
+   "notable": false
+  },
+  {
+   "race": "14:21",
+   "off_utc": "2026-09-14T13:21:00Z",
+   "runner": "Clova Royale",
+   "first": {
+    "mins_to_off": 321,
+    "mid": 61.35
+   },
+   "latest": {
+    "mins_to_off": 21,
+    "mid": 95.69,
+    "spread_pct": 26.3
+   },
+   "move_pct": 56.0,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 93,
+   "notable": false
+  },
+  {
+   "race": "14:30",
+   "off_utc": "2026-09-14T13:30:00Z",
+   "runner": "You Be Lucky Jean",
+   "first": {
+    "mins_to_off": 330,
+    "mid": 4.65
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 6.19,
+    "spread_pct": 6.5
+   },
+   "move_pct": 33.3,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 92,
+   "notable": false
+  },
+  {
+   "race": "15:21",
+   "off_utc": "2026-09-14T14:21:00Z",
+   "runner": "Master Celeritas",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 16.05
+   },
+   "latest": {
+    "mins_to_off": 36,
+    "mid": 10.98,
+    "spread_pct": null
+   },
+   "move_pct": -31.6,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 8,
+   "notable": false
+  },
+  {
+   "race": "14:12",
+   "off_utc": "2026-09-14T13:12:00Z",
+   "runner": "Duchess Of Immatin",
+   "first": {
+    "mins_to_off": 312,
+    "mid": 8.8
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 6.4,
+    "spread_pct": null
+   },
+   "move_pct": -27.2,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 9,
+   "notable": false
+  },
+  {
+   "race": "14:51",
+   "off_utc": "2026-09-14T13:51:00Z",
+   "runner": "Sunrise At Dawn",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 24.39
+   },
+   "latest": {
+    "mins_to_off": 6,
+    "mid": 40.82,
+    "spread_pct": 14.8
+   },
+   "move_pct": 67.3,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 91,
+   "notable": false
+  },
+  {
+   "race": "14:51",
+   "off_utc": "2026-09-14T13:51:00Z",
+   "runner": "Baila Morena",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 52.49
+   },
+   "latest": {
+    "mins_to_off": 6,
+    "mid": 28.45,
+    "spread_pct": 10.6
+   },
+   "move_pct": -45.8,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 9,
+   "notable": false
+  },
+  {
+   "race": "13:42",
+   "off_utc": "2026-09-14T12:42:00Z",
+   "runner": "Ribenska",
+   "first": {
+    "mins_to_off": 282,
+    "mid": 30.86
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 21.01,
+    "spread_pct": null
+   },
+   "move_pct": -31.9,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 10,
+   "notable": false
+  },
+  {
+   "race": "14:51",
+   "off_utc": "2026-09-14T13:51:00Z",
+   "runner": "Mrs Mole",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 18.15
+   },
+   "latest": {
+    "mins_to_off": 6,
+    "mid": 26.42,
+    "spread_pct": 11.4
+   },
+   "move_pct": 45.6,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 90,
+   "notable": false
+  },
+  {
+   "race": "15:51",
+   "off_utc": "2026-09-14T14:51:00Z",
+   "runner": "Fan Mail",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 4.54
+   },
+   "latest": {
+    "mins_to_off": 66,
+    "mid": 3.67,
+    "spread_pct": null
+   },
+   "move_pct": -19.2,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 10,
+   "notable": false
+  },
+  {
+   "race": "17:30",
+   "off_utc": "2026-09-14T16:30:00Z",
+   "runner": "Celtic John",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 29.46
+   },
+   "latest": {
+    "mins_to_off": 165,
+    "mid": 20.08,
+    "spread_pct": 17.4
+   },
+   "move_pct": -31.8,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 10,
+   "notable": false
+  },
+  {
+   "race": "14:51",
+   "off_utc": "2026-09-14T13:51:00Z",
+   "runner": "Dadawada",
+   "first": {
+    "mins_to_off": 336,
+    "mid": 47.28
+   },
+   "latest": {
+    "mins_to_off": 21,
+    "mid": 68.49,
+    "spread_pct": 29.4
+   },
+   "move_pct": 44.9,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 89,
+   "notable": false
+  },
+  {
+   "race": "14:51",
+   "off_utc": "2026-09-14T13:51:00Z",
+   "runner": "Tiger In The Tree",
+   "first": {
+    "mins_to_off": 336,
+    "mid": 56.34
+   },
+   "latest": {
+    "mins_to_off": 6,
+    "mid": 32.73,
+    "spread_pct": 18.2
+   },
+   "move_pct": -41.9,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 11,
+   "notable": false
+  },
+  {
+   "race": "15:51",
+   "off_utc": "2026-09-14T14:51:00Z",
+   "runner": "Record Day",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 8.76
+   },
+   "latest": {
+    "mins_to_off": 66,
+    "mid": 11.74,
+    "spread_pct": 4.3
+   },
+   "move_pct": 34.1,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 89,
+   "notable": false
+  },
+  {
+   "race": "18:00",
+   "off_utc": "2026-09-14T17:00:00Z",
+   "runner": "Musashi",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 80.0
+   },
+   "latest": {
+    "mins_to_off": 225,
+    "mid": 46.3,
+    "spread_pct": 32.3
+   },
+   "move_pct": -42.1,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 11,
+   "notable": false
+  },
+  {
+   "race": "14:21",
+   "off_utc": "2026-09-14T13:21:00Z",
+   "runner": "Dream Of Ithaca",
+   "first": {
+    "mins_to_off": 321,
+    "mid": 6.03
+   },
+   "latest": {
+    "mins_to_off": 6,
+    "mid": 4.75,
+    "spread_pct": 2.1
+   },
+   "move_pct": -21.3,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 12,
+   "notable": false
+  },
+  {
+   "race": "15:21",
+   "off_utc": "2026-09-14T14:21:00Z",
+   "runner": "Diamondsforyou",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 3.15
+   },
+   "latest": {
+    "mins_to_off": 36,
+    "mid": 3.9,
+    "spread_pct": null
+   },
+   "move_pct": 23.9,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 86,
+   "notable": false
+  },
+  {
+   "race": "15:51",
+   "off_utc": "2026-09-14T14:51:00Z",
+   "runner": "Macedonian",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 6.14
+   },
+   "latest": {
+    "mins_to_off": 66,
+    "mid": 7.69,
+    "spread_pct": null
+   },
+   "move_pct": 25.2,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 86,
+   "notable": false
+  },
+  {
+   "race": "17:12",
+   "off_utc": "2026-09-14T16:12:00Z",
+   "runner": "Davorge Nation",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 29.33
+   },
+   "latest": {
+    "mins_to_off": 147,
+    "mid": 21.39,
+    "spread_pct": 14.0
+   },
+   "move_pct": -27.1,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 14,
+   "notable": false
+  },
+  {
+   "race": "18:30",
+   "off_utc": "2026-09-14T17:30:00Z",
+   "runner": "Rupert The Brave",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 7.26
+   },
+   "latest": {
+    "mins_to_off": 225,
+    "mid": 9.05,
+    "spread_pct": 15.5
+   },
+   "move_pct": 24.6,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 86,
+   "notable": false
+  },
+  {
+   "race": "15:12",
+   "off_utc": "2026-09-14T14:12:00Z",
+   "runner": "Baba Ganoush",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 39.06
+   },
+   "latest": {
+    "mins_to_off": 27,
+    "mid": 53.33,
+    "spread_pct": 22.1
+   },
+   "move_pct": 36.5,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 85,
+   "notable": false
+  },
+  {
+   "race": "15:00",
+   "off_utc": "2026-09-14T14:00:00Z",
+   "runner": "Bahtiyar",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 7.29
+   },
+   "latest": {
+    "mins_to_off": 15,
+    "mid": 8.89,
+    "spread_pct": null
+   },
+   "move_pct": 22.0,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 84,
+   "notable": false
+  },
+  {
+   "race": "14:12",
+   "off_utc": "2026-09-14T13:12:00Z",
+   "runner": "Instant Force",
+   "first": {
+    "mins_to_off": 312,
+    "mid": 6.59
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 8.1,
+    "spread_pct": null
+   },
+   "move_pct": 22.8,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 84,
+   "notable": false
+  },
+  {
+   "race": "16:21",
+   "off_utc": "2026-09-14T15:21:00Z",
+   "runner": "Showtown",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 16.16
+   },
+   "latest": {
+    "mins_to_off": 96,
+    "mid": 21.81,
+    "spread_pct": 18.3
+   },
+   "move_pct": 35.0,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 84,
+   "notable": false
+  },
+  {
+   "race": "13:42",
+   "off_utc": "2026-09-14T12:42:00Z",
+   "runner": "Mertoun",
+   "first": {
+    "mins_to_off": 282,
+    "mid": 7.7
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 6.4,
+    "spread_pct": null
+   },
+   "move_pct": -16.8,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 17,
+   "notable": false
+  },
+  {
+   "race": "14:21",
+   "off_utc": "2026-09-14T13:21:00Z",
+   "runner": "Caledonian Dream",
+   "first": {
+    "mins_to_off": 276,
+    "mid": 66.89
+   },
+   "latest": {
+    "mins_to_off": 6,
+    "mid": 88.89,
+    "spread_pct": 22.5
+   },
+   "move_pct": 32.9,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 83,
+   "notable": false
+  },
+  {
+   "race": "16:21",
+   "off_utc": "2026-09-14T15:21:00Z",
+   "runner": "Thornaby Annie",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 12.41
+   },
+   "latest": {
+    "mins_to_off": 96,
+    "mid": 10.03,
+    "spread_pct": 9.0
+   },
+   "move_pct": -19.2,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 17,
+   "notable": false
+  },
+  {
+   "race": "14:42",
+   "off_utc": "2026-09-14T13:42:00Z",
+   "runner": "Journalism",
+   "first": {
+    "mins_to_off": 342,
+    "mid": 15.71
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 20.66,
+    "spread_pct": 12.0
+   },
+   "move_pct": 31.5,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 82,
+   "notable": false
+  },
+  {
+   "race": "14:21",
+   "off_utc": "2026-09-14T13:21:00Z",
+   "runner": "Storm On Jura",
+   "first": {
+    "mins_to_off": 321,
+    "mid": 41.75
+   },
+   "latest": {
+    "mins_to_off": 6,
+    "mid": 27.4,
+    "spread_pct": 11.0
+   },
+   "move_pct": -34.4,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 18,
+   "notable": false
+  },
+  {
+   "race": "13:42",
+   "off_utc": "2026-09-14T12:42:00Z",
+   "runner": "Knowledge",
+   "first": {
+    "mins_to_off": 282,
+    "mid": 23.23
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 18.48,
+    "spread_pct": 5.5
+   },
+   "move_pct": -20.4,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 20,
+   "notable": false
+  },
+  {
+   "race": "14:51",
+   "off_utc": "2026-09-14T13:51:00Z",
+   "runner": "Le Ciel Noble",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 17.11
+   },
+   "latest": {
+    "mins_to_off": 6,
+    "mid": 21.95,
+    "spread_pct": 9.0
+   },
+   "move_pct": 28.3,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 80,
+   "notable": false
+  },
+  {
+   "race": "15:51",
+   "off_utc": "2026-09-14T14:51:00Z",
+   "runner": "Ganthorpe",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 60.79
+   },
+   "latest": {
+    "mins_to_off": 66,
+    "mid": 41.67,
+    "spread_pct": 19.3
+   },
+   "move_pct": -31.5,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 20,
+   "notable": false
+  },
+  {
+   "race": "14:00",
+   "off_utc": "2026-09-14T13:00:00Z",
+   "runner": "Fairlawn Skipper",
+   "first": {
+    "mins_to_off": 300,
+    "mid": 2.11
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 2.37,
+    "spread_pct": null
+   },
+   "move_pct": 12.5,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 79,
+   "notable": false
+  },
+  {
+   "race": "15:30",
+   "off_utc": "2026-09-14T14:30:00Z",
+   "runner": "Maggies Boy",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 13.49
+   },
+   "latest": {
+    "mins_to_off": 45,
+    "mid": 10.98,
+    "spread_pct": 9.0
+   },
+   "move_pct": -18.6,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 21,
+   "notable": false
+  },
+  {
+   "race": "16:00",
+   "off_utc": "2026-09-14T15:00:00Z",
+   "runner": "Beny Nahar Road",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 17.15
+   },
+   "latest": {
+    "mins_to_off": 75,
+    "mid": 13.98,
+    "spread_pct": null
+   },
+   "move_pct": -18.5,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 21,
+   "notable": false
+  },
+  {
+   "race": "16:30",
+   "off_utc": "2026-09-14T15:30:00Z",
+   "runner": "Character Testing",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 6.89
+   },
+   "latest": {
+    "mins_to_off": 105,
+    "mid": 5.9,
+    "spread_pct": 3.4
+   },
+   "move_pct": -14.4,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 21,
+   "notable": false
+  },
+  {
+   "race": "16:30",
+   "off_utc": "2026-09-14T15:30:00Z",
+   "runner": "Littletown Lad",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 2.36
+   },
+   "latest": {
+    "mins_to_off": 105,
+    "mid": 2.65,
+    "spread_pct": 3.8
+   },
+   "move_pct": 12.3,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 79,
+   "notable": false
+  },
+  {
+   "race": "14:21",
+   "off_utc": "2026-09-14T13:21:00Z",
+   "runner": "Alcanzor",
+   "first": {
+    "mins_to_off": 321,
+    "mid": 27.29
+   },
+   "latest": {
+    "mins_to_off": 6,
+    "mid": 22.4,
+    "spread_pct": 13.3
+   },
+   "move_pct": -17.9,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 22,
+   "notable": false
+  },
+  {
+   "race": "17:12",
+   "off_utc": "2026-09-14T16:12:00Z",
+   "runner": "So Smart",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 25.0
+   },
+   "latest": {
+    "mins_to_off": 147,
+    "mid": 20.39,
+    "spread_pct": 14.6
+   },
+   "move_pct": -18.5,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 22,
+   "notable": false
+  },
+  {
+   "race": "17:30",
+   "off_utc": "2026-09-14T16:30:00Z",
+   "runner": "Snooker McCrew",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 18.98
+   },
+   "latest": {
+    "mins_to_off": 165,
+    "mid": 15.71,
+    "spread_pct": 9.6
+   },
+   "move_pct": -17.2,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 22,
+   "notable": false
+  },
+  {
+   "race": "17:30",
+   "off_utc": "2026-09-14T16:30:00Z",
+   "runner": "Eulalia",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 18.71
+   },
+   "latest": {
+    "mins_to_off": 165,
+    "mid": 15.48,
+    "spread_pct": 6.5
+   },
+   "move_pct": -17.3,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 22,
+   "notable": false
+  },
+  {
+   "race": "17:21",
+   "off_utc": "2026-09-14T16:21:00Z",
+   "runner": "Avatar Jet",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 5.99
+   },
+   "latest": {
+    "mins_to_off": 156,
+    "mid": 5.19,
+    "spread_pct": 7.7
+   },
+   "move_pct": -13.4,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 22,
+   "notable": false
+  },
+  {
+   "race": "13:42",
+   "off_utc": "2026-09-14T12:42:00Z",
+   "runner": "Crafty Blue",
+   "first": {
+    "mins_to_off": 282,
+    "mid": 9.58
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 11.48,
+    "spread_pct": null
+   },
+   "move_pct": 19.8,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 77,
+   "notable": false
+  },
+  {
+   "race": "16:00",
+   "off_utc": "2026-09-14T15:00:00Z",
+   "runner": "Bodygroove",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 41.15
+   },
+   "latest": {
+    "mins_to_off": 75,
+    "mid": 29.46,
+    "spread_pct": 27.3
+   },
+   "move_pct": -28.4,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 23,
+   "notable": false
+  },
+  {
+   "race": "16:12",
+   "off_utc": "2026-09-14T15:12:00Z",
+   "runner": "Brigid's Well",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 6.29
+   },
+   "latest": {
+    "mins_to_off": 87,
+    "mid": 7.19,
+    "spread_pct": 5.6
+   },
+   "move_pct": 14.5,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 77,
+   "notable": false
+  },
+  {
+   "race": "17:30",
+   "off_utc": "2026-09-14T16:30:00Z",
+   "runner": "Knightmare",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 12.2
+   },
+   "latest": {
+    "mins_to_off": 165,
+    "mid": 10.48,
+    "spread_pct": 9.6
+   },
+   "move_pct": -14.1,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 23,
+   "notable": false
+  },
+  {
+   "race": "19:30",
+   "off_utc": "2026-09-14T18:30:00Z",
+   "runner": "March Of Time",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 22.99
+   },
+   "latest": {
+    "mins_to_off": 285,
+    "mid": 30.17,
+    "spread_pct": 33.1
+   },
+   "move_pct": 31.2,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 77,
+   "notable": false
+  },
+  {
+   "race": "15:00",
+   "off_utc": "2026-09-14T14:00:00Z",
+   "runner": "Jeteye",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 2.12
+   },
+   "latest": {
+    "mins_to_off": 15,
+    "mid": 2.36,
+    "spread_pct": null
+   },
+   "move_pct": 11.4,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 76,
+   "notable": false
+  },
+  {
+   "race": "14:12",
+   "off_utc": "2026-09-14T13:12:00Z",
+   "runner": "Time Teller",
+   "first": {
+    "mins_to_off": 312,
+    "mid": 68.73
+   },
+   "latest": {
+    "mins_to_off": 207,
+    "mid": 84.03,
+    "spread_pct": 96.3
+   },
+   "move_pct": 22.3,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 76,
+   "notable": false
+  },
+  {
+   "race": "13:42",
+   "off_utc": "2026-09-14T12:42:00Z",
+   "runner": "Newfangled",
+   "first": {
+    "mins_to_off": 282,
+    "mid": 5.35
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 6.1,
+    "spread_pct": 3.3
+   },
+   "move_pct": 14.1,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 76,
+   "notable": false
+  },
+  {
+   "race": "17:12",
+   "off_utc": "2026-09-14T16:12:00Z",
+   "runner": "Sandscreendeliverd",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 10.48
+   },
+   "latest": {
+    "mins_to_off": 147,
+    "mid": 12.48,
+    "spread_pct": 8.0
+   },
+   "move_pct": 19.2,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 76,
+   "notable": false
+  },
+  {
+   "race": "17:21",
+   "off_utc": "2026-09-14T16:21:00Z",
+   "runner": "The Childe Of Hale",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 4.9
+   },
+   "latest": {
+    "mins_to_off": 156,
+    "mid": 5.57,
+    "spread_pct": 14.3
+   },
+   "move_pct": 13.7,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 76,
+   "notable": false
+  },
+  {
+   "race": "17:21",
+   "off_utc": "2026-09-14T16:21:00Z",
+   "runner": "Evocative Spark",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 24.24
+   },
+   "latest": {
+    "mins_to_off": 156,
+    "mid": 31.3,
+    "spread_pct": 16.1
+   },
+   "move_pct": 29.1,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 76,
+   "notable": false
+  },
+  {
+   "race": "15:42",
+   "off_utc": "2026-09-14T14:42:00Z",
+   "runner": "Cypriot Diaspora",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 15.86
+   },
+   "latest": {
+    "mins_to_off": 57,
+    "mid": 13.71,
+    "spread_pct": 10.9
+   },
+   "move_pct": -13.6,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 26,
+   "notable": false
+  },
+  {
+   "race": "16:00",
+   "off_utc": "2026-09-14T15:00:00Z",
+   "runner": "Bannister",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 57.97
+   },
+   "latest": {
+    "mins_to_off": 75,
+    "mid": 68.49,
+    "spread_pct": 29.4
+   },
+   "move_pct": 18.2,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 74,
+   "notable": false
+  },
+  {
+   "race": "16:12",
+   "off_utc": "2026-09-14T15:12:00Z",
+   "runner": "Aravalli",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 8.64
+   },
+   "latest": {
+    "mins_to_off": 87,
+    "mid": 7.6,
+    "spread_pct": 5.2
+   },
+   "move_pct": -12.1,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 26,
+   "notable": false
+  },
+  {
+   "race": "15:00",
+   "off_utc": "2026-09-14T14:00:00Z",
+   "runner": "Davia",
+   "first": {
+    "mins_to_off": 105,
+    "mid": 2.8
+   },
+   "latest": {
+    "mins_to_off": 15,
+    "mid": 3.11,
+    "spread_pct": 51.5
+   },
+   "move_pct": 10.7,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 74,
+   "notable": false
+  },
+  {
+   "race": "14:42",
+   "off_utc": "2026-09-14T13:42:00Z",
+   "runner": "Song Of The Clouds",
+   "first": {
+    "mins_to_off": 342,
+    "mid": 3.94
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 4.4,
+    "spread_pct": 4.6
+   },
+   "move_pct": 11.5,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 73,
+   "notable": false
+  },
+  {
+   "race": "15:30",
+   "off_utc": "2026-09-14T14:30:00Z",
+   "runner": "Tom Creen",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 12.41
+   },
+   "latest": {
+    "mins_to_off": 45,
+    "mid": 10.98,
+    "spread_pct": 9.0
+   },
+   "move_pct": -11.6,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 27,
+   "notable": false
+  },
+  {
+   "race": "15:30",
+   "off_utc": "2026-09-14T14:30:00Z",
+   "runner": "Clean Getaway",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 7.29
+   },
+   "latest": {
+    "mins_to_off": 45,
+    "mid": 8.2,
+    "spread_pct": 4.9
+   },
+   "move_pct": 12.5,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 73,
+   "notable": false
+  },
+  {
+   "race": "15:42",
+   "off_utc": "2026-09-14T14:42:00Z",
+   "runner": "Strike",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 18.74
+   },
+   "latest": {
+    "mins_to_off": 57,
+    "mid": 16.22,
+    "spread_pct": 9.3
+   },
+   "move_pct": -13.5,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 27,
+   "notable": false
+  },
+  {
+   "race": "15:42",
+   "off_utc": "2026-09-14T14:42:00Z",
+   "runner": "Tiger Tulip",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 14.35
+   },
+   "latest": {
+    "mins_to_off": 57,
+    "mid": 12.48,
+    "spread_pct": null
+   },
+   "move_pct": -13.0,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 27,
+   "notable": false
+  },
+  {
+   "race": "15:42",
+   "off_utc": "2026-09-14T14:42:00Z",
+   "runner": "Riley Rocks",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 21.48
+   },
+   "latest": {
+    "mins_to_off": 57,
+    "mid": 26.95,
+    "spread_pct": 7.6
+   },
+   "move_pct": 25.5,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 73,
+   "notable": false
+  },
+  {
+   "race": "16:30",
+   "off_utc": "2026-09-14T15:30:00Z",
+   "runner": "Scoro",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 10.42
+   },
+   "latest": {
+    "mins_to_off": 105,
+    "mid": 9.2,
+    "spread_pct": null
+   },
+   "move_pct": -11.7,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 27,
+   "notable": false
+  },
+  {
+   "race": "15:12",
+   "off_utc": "2026-09-14T14:12:00Z",
+   "runner": "Marquetry",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 25.25
+   },
+   "latest": {
+    "mins_to_off": 27,
+    "mid": 31.3,
+    "spread_pct": 16.1
+   },
+   "move_pct": 23.9,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 72,
+   "notable": false
+  },
+  {
+   "race": "17:00",
+   "off_utc": "2026-09-14T16:00:00Z",
+   "runner": "Femme Fatale",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 2.19
+   },
+   "latest": {
+    "mins_to_off": 135,
+    "mid": 2.05,
+    "spread_pct": null
+   },
+   "move_pct": -6.4,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 28,
+   "notable": false
+  },
+  {
+   "race": "16:21",
+   "off_utc": "2026-09-14T15:21:00Z",
+   "runner": "Riffa Spirit",
+   "first": {
+    "mins_to_off": 321,
+    "mid": 99.01
+   },
+   "latest": {
+    "mins_to_off": 96,
+    "mid": 75.47,
+    "spread_pct": 33.3
+   },
+   "move_pct": -23.8,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 28,
+   "notable": false
+  },
+  {
+   "race": "15:30",
+   "off_utc": "2026-09-14T14:30:00Z",
+   "runner": "James Boy",
+   "first": {
+    "mins_to_off": 195,
+    "mid": 75.76
+   },
+   "latest": {
+    "mins_to_off": 45,
+    "mid": 57.8,
+    "spread_pct": 17249.8
+   },
+   "move_pct": -23.7,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 28,
+   "notable": false
+  },
+  {
+   "race": "15:30",
+   "off_utc": "2026-09-14T14:30:00Z",
+   "runner": "Seneca",
+   "first": {
+    "mins_to_off": 195,
+    "mid": 75.76
+   },
+   "latest": {
+    "mins_to_off": 45,
+    "mid": 57.8,
+    "spread_pct": 17249.8
+   },
+   "move_pct": -23.7,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 28,
+   "notable": false
+  },
+  {
+   "race": "15:30",
+   "off_utc": "2026-09-14T14:30:00Z",
+   "runner": "Grande Merci",
+   "first": {
+    "mins_to_off": 195,
+    "mid": 21.83
+   },
+   "latest": {
+    "mins_to_off": 45,
+    "mid": 19.14,
+    "spread_pct": 1108.9
+   },
+   "move_pct": -12.3,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 28,
+   "notable": false
+  },
+  {
+   "race": "15:30",
+   "off_utc": "2026-09-14T14:30:00Z",
+   "runner": "Reine Des Roses",
+   "first": {
+    "mins_to_off": 195,
+    "mid": 21.83
+   },
+   "latest": {
+    "mins_to_off": 45,
+    "mid": 19.14,
+    "spread_pct": 1108.9
+   },
+   "move_pct": -12.3,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 28,
+   "notable": false
+  },
+  {
+   "race": "14:51",
+   "off_utc": "2026-09-14T13:51:00Z",
+   "runner": "Big Bad Storm",
+   "first": {
+    "mins_to_off": 126,
+    "mid": 88.5
+   },
+   "latest": {
+    "mins_to_off": 6,
+    "mid": 67.34,
+    "spread_pct": 7.4
+   },
+   "move_pct": -23.9,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 28,
+   "notable": false
+  },
+  {
+   "race": "15:00",
+   "off_utc": "2026-09-14T14:00:00Z",
+   "runner": "Kaikomako",
+   "first": {
+    "mins_to_off": 105,
+    "mid": 75.76
+   },
+   "latest": {
+    "mins_to_off": 15,
+    "mid": 57.8,
+    "spread_pct": 17249.8
+   },
+   "move_pct": -23.7,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 28,
+   "notable": false
+  },
+  {
+   "race": "14:51",
+   "off_utc": "2026-09-14T13:51:00Z",
+   "runner": "Breaking The Habit",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 57.97
+   },
+   "latest": {
+    "mins_to_off": 6,
+    "mid": 66.67,
+    "spread_pct": 23.0
+   },
+   "move_pct": 15.0,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 71,
+   "notable": false
+  },
+  {
+   "race": "15:42",
+   "off_utc": "2026-09-14T14:42:00Z",
+   "runner": "Kiss And Run",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 8.09
+   },
+   "latest": {
+    "mins_to_off": 57,
+    "mid": 9.3,
+    "spread_pct": null
+   },
+   "move_pct": 14.9,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 71,
+   "notable": false
+  },
+  {
+   "race": "16:42",
+   "off_utc": "2026-09-14T15:42:00Z",
+   "runner": "Keeper Of Secrets",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 28.09
+   },
+   "latest": {
+    "mins_to_off": 132,
+    "mid": 25.0,
+    "spread_pct": 28.0
+   },
+   "move_pct": -11.0,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 29,
+   "notable": false
+  },
+  {
+   "race": "17:30",
+   "off_utc": "2026-09-14T16:30:00Z",
+   "runner": "Calaxy",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 33.9
+   },
+   "latest": {
+    "mins_to_off": 165,
+    "mid": 30.12,
+    "spread_pct": 23.2
+   },
+   "move_pct": -11.1,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 29,
+   "notable": false
+  },
+  {
+   "race": "18:00",
+   "off_utc": "2026-09-14T17:00:00Z",
+   "runner": "Unionville",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 6.19
+   },
+   "latest": {
+    "mins_to_off": 195,
+    "mid": 6.87,
+    "spread_pct": 14.6
+   },
+   "move_pct": 10.8,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 71,
+   "notable": false
+  },
+  {
+   "race": "13:42",
+   "off_utc": "2026-09-14T12:42:00Z",
+   "runner": "Marsh Benham",
+   "first": {
+    "mins_to_off": 282,
+    "mid": 5.55
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 6.1,
+    "spread_pct": 3.3
+   },
+   "move_pct": 9.9,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 70,
+   "notable": false
+  },
+  {
+   "race": "14:51",
+   "off_utc": "2026-09-14T13:51:00Z",
+   "runner": "Purrista",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 53.91
+   },
+   "latest": {
+    "mins_to_off": 6,
+    "mid": 61.54,
+    "spread_pct": 24.4
+   },
+   "move_pct": 14.2,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 70,
+   "notable": false
+  },
+  {
+   "race": "15:42",
+   "off_utc": "2026-09-14T14:42:00Z",
+   "runner": "Rebel Path",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 4.12
+   },
+   "latest": {
+    "mins_to_off": 57,
+    "mid": 4.5,
+    "spread_pct": 4.5
+   },
+   "move_pct": 9.2,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 70,
+   "notable": false
+  },
+  {
+   "race": "16:00",
+   "off_utc": "2026-09-14T15:00:00Z",
+   "runner": "Yanka Blue",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 15.86
+   },
+   "latest": {
+    "mins_to_off": 75,
+    "mid": 13.98,
+    "spread_pct": 7.1
+   },
+   "move_pct": -11.9,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 30,
+   "notable": false
+  },
+  {
+   "race": "16:30",
+   "off_utc": "2026-09-14T15:30:00Z",
+   "runner": "Twilight Safari",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 14.64
+   },
+   "latest": {
+    "mins_to_off": 105,
+    "mid": 17.26,
+    "spread_pct": null
+   },
+   "move_pct": 17.9,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 70,
+   "notable": false
+  },
+  {
+   "race": "16:51",
+   "off_utc": "2026-09-14T15:51:00Z",
+   "runner": "Donna Nook",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 4.74
+   },
+   "latest": {
+    "mins_to_off": 126,
+    "mid": 4.4,
+    "spread_pct": null
+   },
+   "move_pct": -7.2,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 30,
+   "notable": false
+  },
+  {
+   "race": "17:21",
+   "off_utc": "2026-09-14T16:21:00Z",
+   "runner": "Red Hat Eagle",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 4.7
+   },
+   "latest": {
+    "mins_to_off": 156,
+    "mid": 5.15,
+    "spread_pct": 5.8
+   },
+   "move_pct": 9.5,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 70,
+   "notable": false
+  },
+  {
+   "race": "17:21",
+   "off_utc": "2026-09-14T16:21:00Z",
+   "runner": "Folkene",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 12.48
+   },
+   "latest": {
+    "mins_to_off": 156,
+    "mid": 11.31,
+    "spread_pct": 26.6
+   },
+   "move_pct": -9.4,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 30,
+   "notable": false
+  },
+  {
+   "race": "15:00",
+   "off_utc": "2026-09-14T14:00:00Z",
+   "runner": "Rock My Ice",
+   "first": {
+    "mins_to_off": 105,
+    "mid": 11.61
+   },
+   "latest": {
+    "mins_to_off": 15,
+    "mid": 10.49,
+    "spread_pct": 154.3
+   },
+   "move_pct": -9.7,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 30,
+   "notable": false
+  },
+  {
+   "race": "19:30",
+   "off_utc": "2026-09-14T18:30:00Z",
+   "runner": "Encore",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 2.7
+   },
+   "latest": {
+    "mins_to_off": 285,
+    "mid": 2.55,
+    "spread_pct": 0.8
+   },
+   "move_pct": -5.5,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 30,
+   "notable": false
+  },
+  {
+   "race": "15:51",
+   "off_utc": "2026-09-14T14:51:00Z",
+   "runner": "Wodao",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 30.86
+   },
+   "latest": {
+    "mins_to_off": 66,
+    "mid": 27.97,
+    "spread_pct": null
+   },
+   "move_pct": -9.4,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 31,
+   "notable": false
+  },
+  {
+   "race": "15:51",
+   "off_utc": "2026-09-14T14:51:00Z",
+   "runner": "Lamlash Bay",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 7.18
+   },
+   "latest": {
+    "mins_to_off": 66,
+    "mid": 6.6,
+    "spread_pct": null
+   },
+   "move_pct": -8.0,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 31,
+   "notable": false
+  },
+  {
+   "race": "17:21",
+   "off_utc": "2026-09-14T16:21:00Z",
+   "runner": "Precious Spartan",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 42.02
+   },
+   "latest": {
+    "mins_to_off": 156,
+    "mid": 33.61,
+    "spread_pct": 32.8
+   },
+   "move_pct": -20.0,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 31,
+   "notable": false
+  },
+  {
+   "race": "17:12",
+   "off_utc": "2026-09-14T16:12:00Z",
+   "runner": "Pedros Dream",
+   "first": {
+    "mins_to_off": 207,
+    "mid": 88.5
+   },
+   "latest": {
+    "mins_to_off": 147,
+    "mid": 70.67,
+    "spread_pct": 99.7
+   },
+   "move_pct": -20.1,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 31,
+   "notable": false
+  },
+  {
+   "race": "16:42",
+   "off_utc": "2026-09-14T15:42:00Z",
+   "runner": "Time After Time",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 5.0
+   },
+   "latest": {
+    "mins_to_off": 117,
+    "mid": 5.45,
+    "spread_pct": 5.5
+   },
+   "move_pct": 8.9,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 68,
+   "notable": false
+  },
+  {
+   "race": "16:42",
+   "off_utc": "2026-09-14T15:42:00Z",
+   "runner": "Churchill's Spirit",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 49.38
+   },
+   "latest": {
+    "mins_to_off": 117,
+    "mid": 39.84,
+    "spread_pct": 35.3
+   },
+   "move_pct": -19.3,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 32,
+   "notable": false
+  },
+  {
+   "race": "17:12",
+   "off_utc": "2026-09-14T16:12:00Z",
+   "runner": "Faustus",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 6.98
+   },
+   "latest": {
+    "mins_to_off": 147,
+    "mid": 7.6,
+    "spread_pct": null
+   },
+   "move_pct": 8.9,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 68,
+   "notable": false
+  },
+  {
+   "race": "14:30",
+   "off_utc": "2026-09-14T13:30:00Z",
+   "runner": "Blue Topaz",
+   "first": {
+    "mins_to_off": 330,
+    "mid": 90.09
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 73.53,
+    "spread_pct": 26.9
+   },
+   "move_pct": -18.4,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 33,
+   "notable": false
+  },
+  {
+   "race": "15:00",
+   "off_utc": "2026-09-14T14:00:00Z",
+   "runner": "Aill Dubh",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 4.75
+   },
+   "latest": {
+    "mins_to_off": 15,
+    "mid": 4.45,
+    "spread_pct": 2.3
+   },
+   "move_pct": -6.2,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 33,
+   "notable": false
+  },
+  {
+   "race": "14:21",
+   "off_utc": "2026-09-14T13:21:00Z",
+   "runner": "Pop The Question",
+   "first": {
+    "mins_to_off": 321,
+    "mid": 23.34
+   },
+   "latest": {
+    "mins_to_off": 6,
+    "mid": 21.39,
+    "spread_pct": 14.0
+   },
+   "move_pct": -8.3,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 33,
+   "notable": false
+  },
+  {
+   "race": "15:12",
+   "off_utc": "2026-09-14T14:12:00Z",
+   "runner": "Queen Of Scotland",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 1.89
+   },
+   "latest": {
+    "mins_to_off": 27,
+    "mid": 1.81,
+    "spread_pct": 1.1
+   },
+   "move_pct": -4.5,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 33,
+   "notable": false
+  },
+  {
+   "race": "13:42",
+   "off_utc": "2026-09-14T12:42:00Z",
+   "runner": "Amused",
+   "first": {
+    "mins_to_off": 267,
+    "mid": 29.46
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 26.95,
+    "spread_pct": 7.6
+   },
+   "move_pct": -8.5,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 33,
+   "notable": false
+  },
+  {
+   "race": "16:12",
+   "off_utc": "2026-09-14T15:12:00Z",
+   "runner": "Great Bedwyn",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 7.3
+   },
+   "latest": {
+    "mins_to_off": 87,
+    "mid": 6.78,
+    "spread_pct": null
+   },
+   "move_pct": -7.2,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 33,
+   "notable": false
+  },
+  {
+   "race": "17:00",
+   "off_utc": "2026-09-14T16:00:00Z",
+   "runner": "Virtue Diligence",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 4.2
+   },
+   "latest": {
+    "mins_to_off": 135,
+    "mid": 4.54,
+    "spread_pct": 6.6
+   },
+   "move_pct": 8.3,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 67,
+   "notable": false
+  },
+  {
+   "race": "18:00",
+   "off_utc": "2026-09-14T17:00:00Z",
+   "runner": "Jackabi",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 39.92
+   },
+   "latest": {
+    "mins_to_off": 195,
+    "mid": 32.95,
+    "spread_pct": 36.4
+   },
+   "move_pct": -17.5,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 33,
+   "notable": false
+  },
+  {
+   "race": "19:30",
+   "off_utc": "2026-09-14T18:30:00Z",
+   "runner": "Pink Pyjamas",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 64.52
+   },
+   "latest": {
+    "mins_to_off": 285,
+    "mid": 71.94,
+    "spread_pct": 42.0
+   },
+   "move_pct": 11.5,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 67,
+   "notable": false
+  },
+  {
+   "race": "15:00",
+   "off_utc": "2026-09-14T14:00:00Z",
+   "runner": "Croagh Patrick",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 17.99
+   },
+   "latest": {
+    "mins_to_off": 15,
+    "mid": 20.66,
+    "spread_pct": 12.0
+   },
+   "move_pct": 14.9,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 66,
+   "notable": false
+  },
+  {
+   "race": "13:42",
+   "off_utc": "2026-09-14T12:42:00Z",
+   "runner": "Maria Da Silva",
+   "first": {
+    "mins_to_off": 282,
+    "mid": 32.89
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 30.44,
+    "spread_pct": 10.1
+   },
+   "move_pct": -7.5,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 34,
+   "notable": false
+  },
+  {
+   "race": "15:30",
+   "off_utc": "2026-09-14T14:30:00Z",
+   "runner": "Achille Des Rocs",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 5.79
+   },
+   "latest": {
+    "mins_to_off": 45,
+    "mid": 5.4,
+    "spread_pct": 3.7
+   },
+   "move_pct": -6.8,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 34,
+   "notable": false
+  },
+  {
+   "race": "15:21",
+   "off_utc": "2026-09-14T14:21:00Z",
+   "runner": "Majestic Jude",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 1.62
+   },
+   "latest": {
+    "mins_to_off": 36,
+    "mid": 1.55,
+    "spread_pct": 1.9
+   },
+   "move_pct": -4.2,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 34,
+   "notable": false
+  },
+  {
+   "race": "16:21",
+   "off_utc": "2026-09-14T15:21:00Z",
+   "runner": "Real Jack",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 5.08
+   },
+   "latest": {
+    "mins_to_off": 96,
+    "mid": 4.74,
+    "spread_pct": 10.5
+   },
+   "move_pct": -6.8,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 34,
+   "notable": false
+  },
+  {
+   "race": "16:51",
+   "off_utc": "2026-09-14T15:51:00Z",
+   "runner": "Ravishing Beauty",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 16.16
+   },
+   "latest": {
+    "mins_to_off": 126,
+    "mid": 18.45,
+    "spread_pct": null
+   },
+   "move_pct": 14.2,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 66,
+   "notable": false
+  },
+  {
+   "race": "17:21",
+   "off_utc": "2026-09-14T16:21:00Z",
+   "runner": "Jenni",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 25.38
+   },
+   "latest": {
+    "mins_to_off": 156,
+    "mid": 30.17,
+    "spread_pct": 33.1
+   },
+   "move_pct": 18.9,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 66,
+   "notable": false
+  },
+  {
+   "race": "16:12",
+   "off_utc": "2026-09-14T15:12:00Z",
+   "runner": "Macari",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 30.12
+   },
+   "latest": {
+    "mins_to_off": 87,
+    "mid": 27.97,
+    "spread_pct": 7.0
+   },
+   "move_pct": -7.1,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 35,
+   "notable": false
+  },
+  {
+   "race": "16:42",
+   "off_utc": "2026-09-14T15:42:00Z",
+   "runner": "Amalou",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 31.5
+   },
+   "latest": {
+    "mins_to_off": 117,
+    "mid": 29.46,
+    "spread_pct": 27.3
+   },
+   "move_pct": -6.5,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 35,
+   "notable": false
+  },
+  {
+   "race": "16:51",
+   "off_utc": "2026-09-14T15:51:00Z",
+   "runner": "Alessia Fernanda",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 19.88
+   },
+   "latest": {
+    "mins_to_off": 126,
+    "mid": 18.23,
+    "spread_pct": 8.2
+   },
+   "move_pct": -8.3,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 35,
+   "notable": false
+  },
+  {
+   "race": "16:51",
+   "off_utc": "2026-09-14T15:51:00Z",
+   "runner": "Reader",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 32.26
+   },
+   "latest": {
+    "mins_to_off": 126,
+    "mid": 37.88,
+    "spread_pct": 10.6
+   },
+   "move_pct": 17.4,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 65,
+   "notable": false
+  },
+  {
+   "race": "17:30",
+   "off_utc": "2026-09-14T16:30:00Z",
+   "runner": "Lady Margret",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 38.39
+   },
+   "latest": {
+    "mins_to_off": 165,
+    "mid": 32.1,
+    "spread_pct": 21.8
+   },
+   "move_pct": -16.4,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 35,
+   "notable": false
+  },
+  {
+   "race": "13:42",
+   "off_utc": "2026-09-14T12:42:00Z",
+   "runner": "Phantom Watch",
+   "first": {
+    "mins_to_off": 282,
+    "mid": 20.08
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 18.98,
+    "spread_pct": 5.3
+   },
+   "move_pct": -5.5,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 36,
+   "notable": false
+  },
+  {
+   "race": "13:42",
+   "off_utc": "2026-09-14T12:42:00Z",
+   "runner": "Virtue Patience",
+   "first": {
+    "mins_to_off": 282,
+    "mid": 28.09
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 26.42,
+    "spread_pct": 11.4
+   },
+   "move_pct": -5.9,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 36,
+   "notable": false
+  },
+  {
+   "race": "14:51",
+   "off_utc": "2026-09-14T13:51:00Z",
+   "runner": "Dissenter",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 4.89
+   },
+   "latest": {
+    "mins_to_off": 6,
+    "mid": 5.2,
+    "spread_pct": null
+   },
+   "move_pct": 6.3,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 64,
+   "notable": false
+  },
+  {
+   "race": "14:51",
+   "off_utc": "2026-09-14T13:51:00Z",
+   "runner": "Claret And Blues",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 14.59
+   },
+   "latest": {
+    "mins_to_off": 6,
+    "mid": 16.49,
+    "spread_pct": null
+   },
+   "move_pct": 13.0,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 64,
+   "notable": false
+  },
+  {
+   "race": "16:42",
+   "off_utc": "2026-09-14T15:42:00Z",
+   "runner": "Shabu Shabu",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 14.35
+   },
+   "latest": {
+    "mins_to_off": 117,
+    "mid": 16.22,
+    "spread_pct": 9.3
+   },
+   "move_pct": 13.1,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 64,
+   "notable": false
+  },
+  {
+   "race": "16:51",
+   "off_utc": "2026-09-14T15:51:00Z",
+   "runner": "Vega's Virtue",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 10.34
+   },
+   "latest": {
+    "mins_to_off": 126,
+    "mid": 9.69,
+    "spread_pct": 6.2
+   },
+   "move_pct": -6.3,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 36,
+   "notable": false
+  },
+  {
+   "race": "17:12",
+   "off_utc": "2026-09-14T16:12:00Z",
+   "runner": "Enter Sandman",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 19.1
+   },
+   "latest": {
+    "mins_to_off": 147,
+    "mid": 21.48,
+    "spread_pct": null
+   },
+   "move_pct": 12.5,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 64,
+   "notable": false
+  },
+  {
+   "race": "17:30",
+   "off_utc": "2026-09-14T16:30:00Z",
+   "runner": "Lovely Jubly",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 6.29
+   },
+   "latest": {
+    "mins_to_off": 165,
+    "mid": 5.94,
+    "spread_pct": 8.4
+   },
+   "move_pct": -5.5,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 36,
+   "notable": false
+  },
+  {
+   "race": "15:12",
+   "off_utc": "2026-09-14T14:12:00Z",
+   "runner": "Soul Of Appin",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 40.49
+   },
+   "latest": {
+    "mins_to_off": 27,
+    "mid": 34.78,
+    "spread_pct": 17.2
+   },
+   "move_pct": -14.1,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 37,
+   "notable": false
+  },
+  {
+   "race": "15:12",
+   "off_utc": "2026-09-14T14:12:00Z",
+   "runner": "Crown Of Crowns",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 3.37
+   },
+   "latest": {
+    "mins_to_off": 27,
+    "mid": 3.57,
+    "spread_pct": null
+   },
+   "move_pct": 5.9,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 63,
+   "notable": false
+  },
+  {
+   "race": "15:30",
+   "off_utc": "2026-09-14T14:30:00Z",
+   "runner": "Mr Mcwhinny",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 1.85
+   },
+   "latest": {
+    "mins_to_off": 45,
+    "mid": 1.96,
+    "spread_pct": 0.5
+   },
+   "move_pct": 5.4,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 63,
+   "notable": false
+  },
+  {
+   "race": "15:51",
+   "off_utc": "2026-09-14T14:51:00Z",
+   "runner": "Why Because",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 14.85
+   },
+   "latest": {
+    "mins_to_off": 66,
+    "mid": 16.5,
+    "spread_pct": null
+   },
+   "move_pct": 11.1,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 63,
+   "notable": false
+  },
+  {
+   "race": "15:51",
+   "off_utc": "2026-09-14T14:51:00Z",
+   "runner": "Dabbling",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 26.67
+   },
+   "latest": {
+    "mins_to_off": 66,
+    "mid": 25.25,
+    "spread_pct": 19.9
+   },
+   "move_pct": -5.3,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 37,
+   "notable": false
+  },
+  {
+   "race": "16:12",
+   "off_utc": "2026-09-14T15:12:00Z",
+   "runner": "King Of Berkshire",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 2.8
+   },
+   "latest": {
+    "mins_to_off": 87,
+    "mid": 2.95,
+    "spread_pct": null
+   },
+   "move_pct": 5.4,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 63,
+   "notable": false
+  },
+  {
+   "race": "16:21",
+   "off_utc": "2026-09-14T15:21:00Z",
+   "runner": "Kody B",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 13.24
+   },
+   "latest": {
+    "mins_to_off": 96,
+    "mid": 14.74,
+    "spread_pct": null
+   },
+   "move_pct": 11.3,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 63,
+   "notable": false
+  },
+  {
+   "race": "17:12",
+   "off_utc": "2026-09-14T16:12:00Z",
+   "runner": "Fletcher's Flight",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 62.89
+   },
+   "latest": {
+    "mins_to_off": 147,
+    "mid": 53.91,
+    "spread_pct": 35.0
+   },
+   "move_pct": -14.3,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 37,
+   "notable": false
+  },
+  {
+   "race": "17:21",
+   "off_utc": "2026-09-14T16:21:00Z",
+   "runner": "Novak",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 8.78
+   },
+   "latest": {
+    "mins_to_off": 156,
+    "mid": 8.24,
+    "spread_pct": 17.0
+   },
+   "move_pct": -6.2,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 37,
+   "notable": false
+  },
+  {
+   "race": "18:00",
+   "off_utc": "2026-09-14T17:00:00Z",
+   "runner": "Flyta",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 21.51
+   },
+   "latest": {
+    "mins_to_off": 195,
+    "mid": 20.39,
+    "spread_pct": 14.6
+   },
+   "move_pct": -5.2,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 37,
+   "notable": false
+  },
+  {
+   "race": "18:00",
+   "off_utc": "2026-09-14T17:00:00Z",
+   "runner": "Paranjape",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 17.87
+   },
+   "latest": {
+    "mins_to_off": 195,
+    "mid": 16.65,
+    "spread_pct": 14.9
+   },
+   "move_pct": -6.8,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 37,
+   "notable": false
+  },
+  {
+   "race": "14:51",
+   "off_utc": "2026-09-14T13:51:00Z",
+   "runner": "Bladey Lady",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 5.77
+   },
+   "latest": {
+    "mins_to_off": 6,
+    "mid": 6.1,
+    "spread_pct": 3.3
+   },
+   "move_pct": 5.6,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 62,
+   "notable": false
+  },
+  {
+   "race": "16:00",
+   "off_utc": "2026-09-14T15:00:00Z",
+   "runner": "Roadshow",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 17.95
+   },
+   "latest": {
+    "mins_to_off": 75,
+    "mid": 16.93,
+    "spread_pct": 11.7
+   },
+   "move_pct": -5.7,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 38,
+   "notable": false
+  },
+  {
+   "race": "17:12",
+   "off_utc": "2026-09-14T16:12:00Z",
+   "runner": "Dragon God",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 6.05
+   },
+   "latest": {
+    "mins_to_off": 147,
+    "mid": 5.75,
+    "spread_pct": null
+   },
+   "move_pct": -5.0,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 38,
+   "notable": false
+  },
+  {
+   "race": "20:00",
+   "off_utc": "2026-09-14T19:00:00Z",
+   "runner": "Sax Avoidance",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 7.26
+   },
+   "latest": {
+    "mins_to_off": 315,
+    "mid": 7.69,
+    "spread_pct": 7.8
+   },
+   "move_pct": 5.8,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 62,
+   "notable": false
+  },
+  {
+   "race": "16:00",
+   "off_utc": "2026-09-14T15:00:00Z",
+   "runner": "Superjet",
+   "first": {
+    "mins_to_off": 105,
+    "mid": 4.78
+   },
+   "latest": {
+    "mins_to_off": 75,
+    "mid": 5.06,
+    "spread_pct": 85.0
+   },
+   "move_pct": 5.8,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 62,
+   "notable": false
+  },
+  {
+   "race": "16:00",
+   "off_utc": "2026-09-14T15:00:00Z",
+   "runner": "Poldi's Liebling",
+   "first": {
+    "mins_to_off": 105,
+    "mid": 27.97
+   },
+   "latest": {
+    "mins_to_off": 75,
+    "mid": 26.63,
+    "spread_pct": 962.3
+   },
+   "move_pct": -4.8,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 38,
+   "notable": false
+  },
+  {
+   "race": "14:21",
+   "off_utc": "2026-09-14T13:21:00Z",
+   "runner": "Time Twister",
+   "first": {
+    "mins_to_off": 321,
+    "mid": 44.35
+   },
+   "latest": {
+    "mins_to_off": 6,
+    "mid": 38.76,
+    "spread_pct": 15.6
+   },
+   "move_pct": -12.6,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 39,
+   "notable": false
+  },
+  {
+   "race": "15:21",
+   "off_utc": "2026-09-14T14:21:00Z",
+   "runner": "Nicamoo",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 93.02
+   },
+   "latest": {
+    "mins_to_off": 51,
+    "mid": 98.04,
+    "spread_pct": 137.8
+   },
+   "move_pct": 5.4,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 61,
+   "notable": false
+  },
+  {
+   "race": "15:42",
+   "off_utc": "2026-09-14T14:42:00Z",
+   "runner": "Distant Rumble",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 10.25
+   },
+   "latest": {
+    "mins_to_off": 57,
+    "mid": 10.98,
+    "spread_pct": 9.0
+   },
+   "move_pct": 7.1,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 61,
+   "notable": false
+  },
+  {
+   "race": "16:12",
+   "off_utc": "2026-09-14T15:12:00Z",
+   "runner": "Zarakerjack",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 38.84
+   },
+   "latest": {
+    "mins_to_off": 87,
+    "mid": 41.15,
+    "spread_pct": 29.4
+   },
+   "move_pct": 6.0,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 61,
+   "notable": false
+  },
+  {
+   "race": "16:42",
+   "off_utc": "2026-09-14T15:42:00Z",
+   "runner": "Artavian",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 10.91
+   },
+   "latest": {
+    "mins_to_off": 117,
+    "mid": 11.7,
+    "spread_pct": 12.8
+   },
+   "move_pct": 7.3,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 61,
+   "notable": false
+  },
+  {
+   "race": "15:51",
+   "off_utc": "2026-09-14T14:51:00Z",
+   "runner": "Agric Ranger",
+   "first": {
+    "mins_to_off": 276,
+    "mid": 85.11
+   },
+   "latest": {
+    "mins_to_off": 111,
+    "mid": 89.69,
+    "spread_pct": 132.3
+   },
+   "move_pct": 5.4,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 61,
+   "notable": false
+  },
+  {
+   "race": "17:21",
+   "off_utc": "2026-09-14T16:21:00Z",
+   "runner": "Forest Caper",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 20.81
+   },
+   "latest": {
+    "mins_to_off": 156,
+    "mid": 20.08,
+    "spread_pct": 17.4
+   },
+   "move_pct": -3.5,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 39,
+   "notable": false
+  },
+  {
+   "race": "18:30",
+   "off_utc": "2026-09-14T17:30:00Z",
+   "runner": "Solar Swing",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 3.72
+   },
+   "latest": {
+    "mins_to_off": 225,
+    "mid": 3.6,
+    "spread_pct": null
+   },
+   "move_pct": -3.4,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 39,
+   "notable": false
+  },
+  {
+   "race": "15:00",
+   "off_utc": "2026-09-14T14:00:00Z",
+   "runner": "Great Again",
+   "first": {
+    "mins_to_off": 105,
+    "mid": 2.12
+   },
+   "latest": {
+    "mins_to_off": 15,
+    "mid": 2.06,
+    "spread_pct": 37.9
+   },
+   "move_pct": -2.9,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 39,
+   "notable": false
+  },
+  {
+   "race": "19:30",
+   "off_utc": "2026-09-14T18:30:00Z",
+   "runner": "Forbidden Colours",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 2.97
+   },
+   "latest": {
+    "mins_to_off": 285,
+    "mid": 3.12,
+    "spread_pct": 4.8
+   },
+   "move_pct": 5.0,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 61,
+   "notable": false
+  },
+  {
+   "race": "14:30",
+   "off_utc": "2026-09-14T13:30:00Z",
+   "runner": "Tralee Girl",
+   "first": {
+    "mins_to_off": 330,
+    "mid": 1.6
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 1.56,
+    "spread_pct": null
+   },
+   "move_pct": -2.4,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 40,
+   "notable": false
+  },
+  {
+   "race": "14:12",
+   "off_utc": "2026-09-14T13:12:00Z",
+   "runner": "Major Looktwice",
+   "first": {
+    "mins_to_off": 312,
+    "mid": 64.31
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 56.5,
+    "spread_pct": 26.4
+   },
+   "move_pct": -12.1,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 40,
+   "notable": false
+  },
+  {
+   "race": "16:00",
+   "off_utc": "2026-09-14T15:00:00Z",
+   "runner": "Tracker Issue",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 31.5
+   },
+   "latest": {
+    "mins_to_off": 75,
+    "mid": 30.72,
+    "spread_pct": 19.5
+   },
+   "move_pct": -2.5,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 40,
+   "notable": false
+  },
+  {
+   "race": "15:51",
+   "off_utc": "2026-09-14T14:51:00Z",
+   "runner": "Paroda Diva",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 6.09
+   },
+   "latest": {
+    "mins_to_off": 66,
+    "mid": 6.39,
+    "spread_pct": 6.3
+   },
+   "move_pct": 5.1,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 60,
+   "notable": false
+  },
+  {
+   "race": "16:30",
+   "off_utc": "2026-09-14T15:30:00Z",
+   "runner": "Karthala",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 15.36
+   },
+   "latest": {
+    "mins_to_off": 105,
+    "mid": 14.72,
+    "spread_pct": 10.2
+   },
+   "move_pct": -4.2,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 40,
+   "notable": false
+  },
+  {
+   "race": "16:30",
+   "off_utc": "2026-09-14T15:30:00Z",
+   "runner": "Mr Globalist",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 32.95
+   },
+   "latest": {
+    "mins_to_off": 105,
+    "mid": 32.1,
+    "spread_pct": 21.8
+   },
+   "move_pct": -2.6,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 40,
+   "notable": false
+  },
+  {
+   "race": "16:51",
+   "off_utc": "2026-09-14T15:51:00Z",
+   "runner": "Catton Lady",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 9.18
+   },
+   "latest": {
+    "mins_to_off": 126,
+    "mid": 9.79,
+    "spread_pct": null
+   },
+   "move_pct": 6.7,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 60,
+   "notable": false
+  },
+  {
+   "race": "17:12",
+   "off_utc": "2026-09-14T16:12:00Z",
+   "runner": "Balon D'or",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 14.14
+   },
+   "latest": {
+    "mins_to_off": 147,
+    "mid": 15.48,
+    "spread_pct": 6.5
+   },
+   "move_pct": 9.4,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 60,
+   "notable": false
+  },
+  {
+   "race": "18:00",
+   "off_utc": "2026-09-14T17:00:00Z",
+   "runner": "Ahead Of Fashion",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 22.6
+   },
+   "latest": {
+    "mins_to_off": 195,
+    "mid": 25.64,
+    "spread_pct": 23.4
+   },
+   "move_pct": 13.5,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 60,
+   "notable": false
+  },
+  {
+   "race": "15:30",
+   "off_utc": "2026-09-14T14:30:00Z",
+   "runner": "Harmonia",
+   "first": {
+    "mins_to_off": 195,
+    "mid": 51.81
+   },
+   "latest": {
+    "mins_to_off": 45,
+    "mid": 45.87,
+    "spread_pct": 21749.9
+   },
+   "move_pct": -11.5,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 40,
+   "notable": false
+  },
+  {
+   "race": "15:30",
+   "off_utc": "2026-09-14T14:30:00Z",
+   "runner": "Pluss",
+   "first": {
+    "mins_to_off": 195,
+    "mid": 51.81
+   },
+   "latest": {
+    "mins_to_off": 45,
+    "mid": 45.87,
+    "spread_pct": 21749.9
+   },
+   "move_pct": -11.5,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 40,
+   "notable": false
+  },
+  {
+   "race": "15:30",
+   "off_utc": "2026-09-14T14:30:00Z",
+   "runner": "Schildmaid",
+   "first": {
+    "mins_to_off": 195,
+    "mid": 51.81
+   },
+   "latest": {
+    "mins_to_off": 45,
+    "mid": 45.87,
+    "spread_pct": 21749.9
+   },
+   "move_pct": -11.5,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 40,
+   "notable": false
+  },
+  {
+   "race": "15:00",
+   "off_utc": "2026-09-14T14:00:00Z",
+   "runner": "Colori",
+   "first": {
+    "mins_to_off": 105,
+    "mid": 12.82
+   },
+   "latest": {
+    "mins_to_off": 15,
+    "mid": 12.29,
+    "spread_pct": 172.3
+   },
+   "move_pct": -4.1,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 40,
+   "notable": false
+  },
+  {
+   "race": "19:30",
+   "off_utc": "2026-09-14T18:30:00Z",
+   "runner": "Mystic Veil",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 12.41
+   },
+   "latest": {
+    "mins_to_off": 285,
+    "mid": 13.21,
+    "spread_pct": 11.4
+   },
+   "move_pct": 6.4,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 60,
+   "notable": false
+  },
+  {
+   "race": "14:12",
+   "off_utc": "2026-09-14T13:12:00Z",
+   "runner": "Crazee In Havana",
+   "first": {
+    "mins_to_off": 312,
+    "mid": 15.15
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 16.49,
+    "spread_pct": 6.1
+   },
+   "move_pct": 8.8,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 59,
+   "notable": false
+  },
+  {
+   "race": "14:12",
+   "off_utc": "2026-09-14T13:12:00Z",
+   "runner": "Go Go Girl",
+   "first": {
+    "mins_to_off": 312,
+    "mid": 31.3
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 30.72,
+    "spread_pct": null
+   },
+   "move_pct": -1.8,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 41,
+   "notable": false
+  },
+  {
+   "race": "14:21",
+   "off_utc": "2026-09-14T13:21:00Z",
+   "runner": "Satyress",
+   "first": {
+    "mins_to_off": 321,
+    "mid": 2.8
+   },
+   "latest": {
+    "mins_to_off": 6,
+    "mid": 2.75,
+    "spread_pct": null
+   },
+   "move_pct": -1.7,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 41,
+   "notable": false
+  },
+  {
+   "race": "16:00",
+   "off_utc": "2026-09-14T15:00:00Z",
+   "runner": "Lone Star",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 18.17
+   },
+   "latest": {
+    "mins_to_off": 75,
+    "mid": 17.48,
+    "spread_pct": null
+   },
+   "move_pct": -3.8,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 41,
+   "notable": false
+  },
+  {
+   "race": "16:12",
+   "off_utc": "2026-09-14T15:12:00Z",
+   "runner": "Son Of Man",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 45.77
+   },
+   "latest": {
+    "mins_to_off": 87,
+    "mid": 40.82,
+    "spread_pct": 14.8
+   },
+   "move_pct": -10.8,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 41,
+   "notable": false
+  },
+  {
+   "race": "16:21",
+   "off_utc": "2026-09-14T15:21:00Z",
+   "runner": "Mo Anam Chara",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 6.59
+   },
+   "latest": {
+    "mins_to_off": 96,
+    "mid": 6.37,
+    "spread_pct": 12.5
+   },
+   "move_pct": -3.3,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 41,
+   "notable": false
+  },
+  {
+   "race": "16:21",
+   "off_utc": "2026-09-14T15:21:00Z",
+   "runner": "Hatamoto",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 3.4
+   },
+   "latest": {
+    "mins_to_off": 96,
+    "mid": 3.55,
+    "spread_pct": 5.6
+   },
+   "move_pct": 4.3,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 59,
+   "notable": false
+  },
+  {
+   "race": "16:42",
+   "off_utc": "2026-09-14T15:42:00Z",
+   "runner": "Offiah's Boy",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 16.86
+   },
+   "latest": {
+    "mins_to_off": 117,
+    "mid": 16.22,
+    "spread_pct": 9.3
+   },
+   "move_pct": -3.8,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 41,
+   "notable": false
+  },
+  {
+   "race": "16:42",
+   "off_utc": "2026-09-14T15:42:00Z",
+   "runner": "Crazy Plan",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 4.88
+   },
+   "latest": {
+    "mins_to_off": 117,
+    "mid": 4.75,
+    "spread_pct": 2.1
+   },
+   "move_pct": -2.7,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 41,
+   "notable": false
+  },
+  {
+   "race": "18:00",
+   "off_utc": "2026-09-14T17:00:00Z",
+   "runner": "Decalogue",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 3.97
+   },
+   "latest": {
+    "mins_to_off": 195,
+    "mid": 4.15,
+    "spread_pct": null
+   },
+   "move_pct": 4.5,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 59,
+   "notable": false
+  },
+  {
+   "race": "19:00",
+   "off_utc": "2026-09-14T18:00:00Z",
+   "runner": "Guadalevin",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 4.14
+   },
+   "latest": {
+    "mins_to_off": 255,
+    "mid": 4.05,
+    "spread_pct": 2.5
+   },
+   "move_pct": -2.3,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 41,
+   "notable": false
+  },
+  {
+   "race": "20:00",
+   "off_utc": "2026-09-14T19:00:00Z",
+   "runner": "Knight Of Storms",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 20.81
+   },
+   "latest": {
+    "mins_to_off": 315,
+    "mid": 20.49,
+    "spread_pct": 22.0
+   },
+   "move_pct": -1.5,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 41,
+   "notable": false
+  },
+  {
+   "race": "16:00",
+   "off_utc": "2026-09-14T15:00:00Z",
+   "runner": "Ole Ole",
+   "first": {
+    "mins_to_off": 105,
+    "mid": 12.95
+   },
+   "latest": {
+    "mins_to_off": 75,
+    "mid": 13.72,
+    "spread_pct": 246.5
+   },
+   "move_pct": 6.0,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 59,
+   "notable": false
+  },
+  {
+   "race": "16:42",
+   "off_utc": "2026-09-14T15:42:00Z",
+   "runner": "Jimmy Mark",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 20.08
+   },
+   "latest": {
+    "mins_to_off": 117,
+    "mid": 20.08,
+    "spread_pct": 17.4
+   },
+   "move_pct": 0.0,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 42,
+   "notable": false
+  },
+  {
+   "race": "18:30",
+   "off_utc": "2026-09-14T17:30:00Z",
+   "runner": "Gut Reaction",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 49.38
+   },
+   "latest": {
+    "mins_to_off": 225,
+    "mid": 50.76,
+    "spread_pct": 31.2
+   },
+   "move_pct": 2.8,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 58,
+   "notable": false
+  },
+  {
+   "race": "19:00",
+   "off_utc": "2026-09-14T18:00:00Z",
+   "runner": "Photo Op",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 70.18
+   },
+   "latest": {
+    "mins_to_off": 255,
+    "mid": 62.89,
+    "spread_pct": 55.2
+   },
+   "move_pct": -10.4,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 42,
+   "notable": false
+  },
+  {
+   "race": "16:00",
+   "off_utc": "2026-09-14T15:00:00Z",
+   "runner": "Neriano",
+   "first": {
+    "mins_to_off": 105,
+    "mid": 57.8
+   },
+   "latest": {
+    "mins_to_off": 75,
+    "mid": 51.81,
+    "spread_pct": 19249.9
+   },
+   "move_pct": -10.4,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 42,
+   "notable": false
+  },
+  {
+   "race": "15:42",
+   "off_utc": "2026-09-14T14:42:00Z",
+   "runner": "Cape Toronada",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 9.9
+   },
+   "latest": {
+    "mins_to_off": 57,
+    "mid": 9.69,
+    "spread_pct": null
+   },
+   "move_pct": -2.1,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 43,
+   "notable": false
+  },
+  {
+   "race": "17:12",
+   "off_utc": "2026-09-14T16:12:00Z",
+   "runner": "Cameley Days",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 4.99
+   },
+   "latest": {
+    "mins_to_off": 147,
+    "mid": 4.9,
+    "spread_pct": 4.1
+   },
+   "move_pct": -1.9,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 43,
+   "notable": false
+  },
+  {
+   "race": "15:30",
+   "off_utc": "2026-09-14T14:30:00Z",
+   "runner": "Deia's Delight",
+   "first": {
+    "mins_to_off": 195,
+    "mid": 2.16
+   },
+   "latest": {
+    "mins_to_off": 45,
+    "mid": 2.14,
+    "spread_pct": 62.7
+   },
+   "move_pct": -1.2,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 43,
+   "notable": false
+  },
+  {
+   "race": "15:30",
+   "off_utc": "2026-09-14T14:30:00Z",
+   "runner": "Chista",
+   "first": {
+    "mins_to_off": 195,
+    "mid": 3.14
+   },
+   "latest": {
+    "mins_to_off": 45,
+    "mid": 3.07,
+    "spread_pct": 86.5
+   },
+   "move_pct": -2.0,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 43,
+   "notable": false
+  },
+  {
+   "race": "19:30",
+   "off_utc": "2026-09-14T18:30:00Z",
+   "runner": "Astronette",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 7.29
+   },
+   "latest": {
+    "mins_to_off": 285,
+    "mid": 7.09,
+    "spread_pct": 8.5
+   },
+   "move_pct": -2.7,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 43,
+   "notable": false
+  },
+  {
+   "race": "16:00",
+   "off_utc": "2026-09-14T15:00:00Z",
+   "runner": "Santino Corleone",
+   "first": {
+    "mins_to_off": 105,
+    "mid": 3.09
+   },
+   "latest": {
+    "mins_to_off": 75,
+    "mid": 3.04,
+    "spread_pct": 59.9
+   },
+   "move_pct": -1.6,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 43,
+   "notable": false
+  },
+  {
+   "race": "16:00",
+   "off_utc": "2026-09-14T15:00:00Z",
+   "runner": "Mr. Jury Twister",
+   "first": {
+    "mins_to_off": 105,
+    "mid": 3.09
+   },
+   "latest": {
+    "mins_to_off": 75,
+    "mid": 3.04,
+    "spread_pct": 59.9
+   },
+   "move_pct": -1.6,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 43,
+   "notable": false
+  },
+  {
+   "race": "15:42",
+   "off_utc": "2026-09-14T14:42:00Z",
+   "runner": "Thankuappreciate",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 18.8
+   },
+   "latest": {
+    "mins_to_off": 57,
+    "mid": 18.48,
+    "spread_pct": null
+   },
+   "move_pct": -1.7,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 44,
+   "notable": false
+  },
+  {
+   "race": "16:00",
+   "off_utc": "2026-09-14T15:00:00Z",
+   "runner": "Aimeric",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 5.05
+   },
+   "latest": {
+    "mins_to_off": 75,
+    "mid": 4.94,
+    "spread_pct": null
+   },
+   "move_pct": -2.1,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 44,
+   "notable": false
+  },
+  {
+   "race": "16:21",
+   "off_utc": "2026-09-14T15:21:00Z",
+   "runner": "Napolian",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 22.99
+   },
+   "latest": {
+    "mins_to_off": 96,
+    "mid": 25.25,
+    "spread_pct": 19.9
+   },
+   "move_pct": 9.8,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 56,
+   "notable": false
+  },
+  {
+   "race": "19:00",
+   "off_utc": "2026-09-14T18:00:00Z",
+   "runner": "Grey Tamam",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 4.7
+   },
+   "latest": {
+    "mins_to_off": 255,
+    "mid": 4.65,
+    "spread_pct": 2.1
+   },
+   "move_pct": -1.1,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 44,
+   "notable": false
+  },
+  {
+   "race": "20:00",
+   "off_utc": "2026-09-14T19:00:00Z",
+   "runner": "Valentine Boy",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 16.22
+   },
+   "latest": {
+    "mins_to_off": 315,
+    "mid": 15.94,
+    "spread_pct": 12.6
+   },
+   "move_pct": -1.8,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 44,
+   "notable": false
+  },
+  {
+   "race": "20:00",
+   "off_utc": "2026-09-14T19:00:00Z",
+   "runner": "Three Socks On",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 4.95
+   },
+   "latest": {
+    "mins_to_off": 315,
+    "mid": 4.89,
+    "spread_pct": 8.2
+   },
+   "move_pct": -1.1,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 44,
+   "notable": false
+  },
+  {
+   "race": "15:42",
+   "off_utc": "2026-09-14T14:42:00Z",
+   "runner": "Liosa",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 20.39
+   },
+   "latest": {
+    "mins_to_off": 57,
+    "mid": 20.66,
+    "spread_pct": 12.0
+   },
+   "move_pct": 1.3,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 45,
+   "notable": false
+  },
+  {
+   "race": "16:12",
+   "off_utc": "2026-09-14T15:12:00Z",
+   "runner": "John T",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 17.44
+   },
+   "latest": {
+    "mins_to_off": 87,
+    "mid": 17.21,
+    "spread_pct": 8.6
+   },
+   "move_pct": -1.3,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 45,
+   "notable": false
+  },
+  {
+   "race": "16:51",
+   "off_utc": "2026-09-14T15:51:00Z",
+   "runner": "Kiss Me My Love",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 11.11
+   },
+   "latest": {
+    "mins_to_off": 126,
+    "mid": 11.48,
+    "spread_pct": 8.7
+   },
+   "move_pct": 3.3,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 55,
+   "notable": false
+  },
+  {
+   "race": "18:00",
+   "off_utc": "2026-09-14T17:00:00Z",
+   "runner": "Bird Of War",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 4.88
+   },
+   "latest": {
+    "mins_to_off": 195,
+    "mid": 5.03,
+    "spread_pct": 13.9
+   },
+   "move_pct": 2.9,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 55,
+   "notable": false
+  },
+  {
+   "race": "14:12",
+   "off_utc": "2026-09-14T13:12:00Z",
+   "runner": "Red Blue Point",
+   "first": {
+    "mins_to_off": 312,
+    "mid": 2.11
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 2.17,
+    "spread_pct": null
+   },
+   "move_pct": 2.8,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 54,
+   "notable": false
+  },
+  {
+   "race": "15:12",
+   "off_utc": "2026-09-14T14:12:00Z",
+   "runner": "Seacole",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 10.79
+   },
+   "latest": {
+    "mins_to_off": 27,
+    "mid": 10.75,
+    "spread_pct": 4.6
+   },
+   "move_pct": -0.4,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 46,
+   "notable": false
+  },
+  {
+   "race": "16:00",
+   "off_utc": "2026-09-14T15:00:00Z",
+   "runner": "William Yeats",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 2.19
+   },
+   "latest": {
+    "mins_to_off": 75,
+    "mid": 2.25,
+    "spread_pct": null
+   },
+   "move_pct": 2.7,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 54,
+   "notable": false
+  },
+  {
+   "race": "16:30",
+   "off_utc": "2026-09-14T15:30:00Z",
+   "runner": "Red Trail",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 23.81
+   },
+   "latest": {
+    "mins_to_off": 105,
+    "mid": 24.39,
+    "spread_pct": 12.2
+   },
+   "move_pct": 2.4,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 46,
+   "notable": false
+  },
+  {
+   "race": "16:21",
+   "off_utc": "2026-09-14T15:21:00Z",
+   "runner": "Soca Star",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 17.15
+   },
+   "latest": {
+    "mins_to_off": 96,
+    "mid": 17.95,
+    "spread_pct": 11.2
+   },
+   "move_pct": 4.7,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 54,
+   "notable": false
+  },
+  {
+   "race": "16:51",
+   "off_utc": "2026-09-14T15:51:00Z",
+   "runner": "Fractional",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 4.69
+   },
+   "latest": {
+    "mins_to_off": 126,
+    "mid": 4.8,
+    "spread_pct": null
+   },
+   "move_pct": 2.3,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 54,
+   "notable": false
+  },
+  {
+   "race": "17:12",
+   "off_utc": "2026-09-14T16:12:00Z",
+   "runner": "Unico",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 21.91
+   },
+   "latest": {
+    "mins_to_off": 147,
+    "mid": 23.81,
+    "spread_pct": 16.8
+   },
+   "move_pct": 8.7,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 54,
+   "notable": false
+  },
+  {
+   "race": "17:21",
+   "off_utc": "2026-09-14T16:21:00Z",
+   "runner": "Surprised",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 34.31
+   },
+   "latest": {
+    "mins_to_off": 156,
+    "mid": 35.03,
+    "spread_pct": 34.2
+   },
+   "move_pct": 2.1,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 46,
+   "notable": false
+  },
+  {
+   "race": "18:00",
+   "off_utc": "2026-09-14T17:00:00Z",
+   "runner": "Loquella",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 29.46
+   },
+   "latest": {
+    "mins_to_off": 195,
+    "mid": 30.17,
+    "spread_pct": 33.1
+   },
+   "move_pct": 2.4,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 46,
+   "notable": false
+  },
+  {
+   "race": "18:00",
+   "off_utc": "2026-09-14T17:00:00Z",
+   "runner": "Berkshire Boom",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 5.99
+   },
+   "latest": {
+    "mins_to_off": 195,
+    "mid": 6.14,
+    "spread_pct": 8.2
+   },
+   "move_pct": 2.5,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 54,
+   "notable": false
+  },
+  {
+   "race": "18:30",
+   "off_utc": "2026-09-14T17:30:00Z",
+   "runner": "National Honour",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 2.97
+   },
+   "latest": {
+    "mins_to_off": 225,
+    "mid": 2.97,
+    "spread_pct": 2.0
+   },
+   "move_pct": 0.0,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 46,
+   "notable": false
+  },
+  {
+   "race": "19:00",
+   "off_utc": "2026-09-14T18:00:00Z",
+   "runner": "Nonrem",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 58.31
+   },
+   "latest": {
+    "mins_to_off": 255,
+    "mid": 54.05,
+    "spread_pct": 47.9
+   },
+   "move_pct": -7.3,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 46,
+   "notable": false
+  },
+  {
+   "race": "13:42",
+   "off_utc": "2026-09-14T12:42:00Z",
+   "runner": "Kiani King",
+   "first": {
+    "mins_to_off": 282,
+    "mid": 6.39
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 6.5,
+    "spread_pct": 3.1
+   },
+   "move_pct": 1.7,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 53,
+   "notable": false
+  },
+  {
+   "race": "14:21",
+   "off_utc": "2026-09-14T13:21:00Z",
+   "runner": "Muhib",
+   "first": {
+    "mins_to_off": 321,
+    "mid": 18.18
+   },
+   "latest": {
+    "mins_to_off": 6,
+    "mid": 18.23,
+    "spread_pct": 8.2
+   },
+   "move_pct": 0.3,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 47,
+   "notable": false
+  },
+  {
+   "race": "17:00",
+   "off_utc": "2026-09-14T16:00:00Z",
+   "runner": "Ramensky",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 3.3
+   },
+   "latest": {
+    "mins_to_off": 135,
+    "mid": 3.3,
+    "spread_pct": 3.0
+   },
+   "move_pct": 0.1,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 47,
+   "notable": false
+  },
+  {
+   "race": "15:30",
+   "off_utc": "2026-09-14T14:30:00Z",
+   "runner": "Commodus",
+   "first": {
+    "mins_to_off": 195,
+    "mid": 87.72
+   },
+   "latest": {
+    "mins_to_off": 45,
+    "mid": 87.72,
+    "spread_pct": 11349.8
+   },
+   "move_pct": 0.0,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 53,
+   "notable": false
+  },
+  {
+   "race": "15:30",
+   "off_utc": "2026-09-14T14:30:00Z",
+   "runner": "Megan's Cracker",
+   "first": {
+    "mins_to_off": 195,
+    "mid": 75.76
+   },
+   "latest": {
+    "mins_to_off": 165,
+    "mid": 75.76,
+    "spread_pct": 13149.8
+   },
+   "move_pct": 0.0,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 53,
+   "notable": false
+  },
+  {
+   "race": "15:30",
+   "off_utc": "2026-09-14T14:30:00Z",
+   "runner": "Sergei's Boy",
+   "first": {
+    "mins_to_off": 195,
+    "mid": 87.72
+   },
+   "latest": {
+    "mins_to_off": 45,
+    "mid": 87.72,
+    "spread_pct": 11349.8
+   },
+   "move_pct": 0.0,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 53,
+   "notable": false
+  },
+  {
+   "race": "15:30",
+   "off_utc": "2026-09-14T14:30:00Z",
+   "runner": "Norma Jean",
+   "first": {
+    "mins_to_off": 195,
+    "mid": 87.72
+   },
+   "latest": {
+    "mins_to_off": 45,
+    "mid": 87.72,
+    "spread_pct": 11349.8
+   },
+   "move_pct": 0.0,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 53,
+   "notable": false
+  },
+  {
+   "race": "19:00",
+   "off_utc": "2026-09-14T18:00:00Z",
+   "runner": "Blowing Up A Storm",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 9.9
+   },
+   "latest": {
+    "mins_to_off": 255,
+    "mid": 10.14,
+    "spread_pct": 6.9
+   },
+   "move_pct": 2.4,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 53,
+   "notable": false
+  },
+  {
+   "race": "15:00",
+   "off_utc": "2026-09-14T14:00:00Z",
+   "runner": "Rakaposhi",
+   "first": {
+    "mins_to_off": 105,
+    "mid": 45.87
+   },
+   "latest": {
+    "mins_to_off": 15,
+    "mid": 45.87,
+    "spread_pct": 21749.9
+   },
+   "move_pct": 0.0,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 53,
+   "notable": false
+  },
+  {
+   "race": "20:00",
+   "off_utc": "2026-09-14T19:00:00Z",
+   "runner": "Letmebetheboss",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 85.47
+   },
+   "latest": {
+    "mins_to_off": 315,
+    "mid": 85.47,
+    "spread_pct": 46.8
+   },
+   "move_pct": 0.0,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 53,
+   "notable": false
+  },
+  {
+   "race": "16:00",
+   "off_utc": "2026-09-14T15:00:00Z",
+   "runner": "Zashkhana",
+   "first": {
+    "mins_to_off": 105,
+    "mid": 75.76
+   },
+   "latest": {
+    "mins_to_off": 75,
+    "mid": 75.76,
+    "spread_pct": 13149.8
+   },
+   "move_pct": 0.0,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 53,
+   "notable": false
+  },
+  {
+   "race": "16:00",
+   "off_utc": "2026-09-14T15:00:00Z",
+   "runner": "Bi Bop",
+   "first": {
+    "mins_to_off": 105,
+    "mid": 39.92
+   },
+   "latest": {
+    "mins_to_off": 75,
+    "mid": 39.92,
+    "spread_pct": 24999.9
+   },
+   "move_pct": 0.0,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 53,
+   "notable": false
+  },
+  {
+   "race": "14:12",
+   "off_utc": "2026-09-14T13:12:00Z",
+   "runner": "Urumita",
+   "first": {
+    "mins_to_off": 312,
+    "mid": 7.87
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 7.99,
+    "spread_pct": null
+   },
+   "move_pct": 1.6,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 52,
+   "notable": false
+  },
+  {
+   "race": "14:51",
+   "off_utc": "2026-09-14T13:51:00Z",
+   "runner": "River Jordan",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 20.18
+   },
+   "latest": {
+    "mins_to_off": 6,
+    "mid": 20.94,
+    "spread_pct": 9.4
+   },
+   "move_pct": 3.8,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 48,
+   "notable": false
+  },
+  {
+   "race": "15:51",
+   "off_utc": "2026-09-14T14:51:00Z",
+   "runner": "Mare Of London",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 19.38
+   },
+   "latest": {
+    "mins_to_off": 66,
+    "mid": 20.08,
+    "spread_pct": 17.4
+   },
+   "move_pct": 3.6,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 52,
+   "notable": false
+  },
+  {
+   "race": "16:12",
+   "off_utc": "2026-09-14T15:12:00Z",
+   "runner": "Parisian Scholar",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 10.02
+   },
+   "latest": {
+    "mins_to_off": 87,
+    "mid": 10.25,
+    "spread_pct": 4.9
+   },
+   "move_pct": 2.3,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 52,
+   "notable": false
+  },
+  {
+   "race": "16:30",
+   "off_utc": "2026-09-14T15:30:00Z",
+   "runner": "Expert Analysis",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 7.78
+   },
+   "latest": {
+    "mins_to_off": 105,
+    "mid": 7.89,
+    "spread_pct": 7.6
+   },
+   "move_pct": 1.4,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 52,
+   "notable": false
+  },
+  {
+   "race": "18:30",
+   "off_utc": "2026-09-14T17:30:00Z",
+   "runner": "Farasan",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 5.15
+   },
+   "latest": {
+    "mins_to_off": 225,
+    "mid": 5.15,
+    "spread_pct": null
+   },
+   "move_pct": 0.0,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 48,
+   "notable": false
+  },
+  {
+   "race": "18:30",
+   "off_utc": "2026-09-14T17:30:00Z",
+   "runner": "Intangible Truth",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 26.42
+   },
+   "latest": {
+    "mins_to_off": 225,
+    "mid": 28.49,
+    "spread_pct": null
+   },
+   "move_pct": 7.8,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 52,
+   "notable": false
+  },
+  {
+   "race": "20:00",
+   "off_utc": "2026-09-14T19:00:00Z",
+   "runner": "Johnny Boom",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 44.84
+   },
+   "latest": {
+    "mins_to_off": 315,
+    "mid": 44.44,
+    "spread_pct": 22.5
+   },
+   "move_pct": -0.9,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 52,
+   "notable": false
+  },
+  {
+   "race": "20:00",
+   "off_utc": "2026-09-14T19:00:00Z",
+   "runner": "Extraterrestrial",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 6.57
+   },
+   "latest": {
+    "mins_to_off": 315,
+    "mid": 6.57,
+    "spread_pct": 12.1
+   },
+   "move_pct": 0.0,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 48,
+   "notable": false
+  },
+  {
+   "race": "20:00",
+   "off_utc": "2026-09-14T19:00:00Z",
+   "runner": "Hot Silk",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 3.47
+   },
+   "latest": {
+    "mins_to_off": 315,
+    "mid": 3.47,
+    "spread_pct": 4.3
+   },
+   "move_pct": 0.1,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 48,
+   "notable": false
+  },
+  {
+   "race": "14:00",
+   "off_utc": "2026-09-14T13:00:00Z",
+   "runner": "Paddy De Pole",
+   "first": {
+    "mins_to_off": 300,
+    "mid": 2.83
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 2.85,
+    "spread_pct": null
+   },
+   "move_pct": 0.9,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 49,
+   "notable": false
+  },
+  {
+   "race": "15:42",
+   "off_utc": "2026-09-14T14:42:00Z",
+   "runner": "Hierarchy",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 14.35
+   },
+   "latest": {
+    "mins_to_off": 57,
+    "mid": 14.72,
+    "spread_pct": 10.2
+   },
+   "move_pct": 2.6,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 51,
+   "notable": false
+  },
+  {
+   "race": "15:42",
+   "off_utc": "2026-09-14T14:42:00Z",
+   "runner": "Silky Robin",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 23.64
+   },
+   "latest": {
+    "mins_to_off": 57,
+    "mid": 24.84,
+    "spread_pct": 16.3
+   },
+   "move_pct": 5.1,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 49,
+   "notable": false
+  },
+  {
+   "race": "16:00",
+   "off_utc": "2026-09-14T15:00:00Z",
+   "runner": "Joto",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 28.09
+   },
+   "latest": {
+    "mins_to_off": 75,
+    "mid": 29.33,
+    "spread_pct": 17.1
+   },
+   "move_pct": 4.4,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 49,
+   "notable": false
+  },
+  {
+   "race": "16:21",
+   "off_utc": "2026-09-14T15:21:00Z",
+   "runner": "Derrygarran Lad",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 30.86
+   },
+   "latest": {
+    "mins_to_off": 96,
+    "mid": 32.89,
+    "spread_pct": 27.5
+   },
+   "move_pct": 6.6,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 51,
+   "notable": false
+  },
+  {
+   "race": "16:42",
+   "off_utc": "2026-09-14T15:42:00Z",
+   "runner": "Electric Bass",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 5.58
+   },
+   "latest": {
+    "mins_to_off": 117,
+    "mid": 5.65,
+    "spread_pct": 1.8
+   },
+   "move_pct": 1.2,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 51,
+   "notable": false
+  },
+  {
+   "race": "17:12",
+   "off_utc": "2026-09-14T16:12:00Z",
+   "runner": "Darkened Edge",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 7.38
+   },
+   "latest": {
+    "mins_to_off": 147,
+    "mid": 7.39,
+    "spread_pct": 5.4
+   },
+   "move_pct": 0.2,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 49,
+   "notable": false
+  },
+  {
+   "race": "17:21",
+   "off_utc": "2026-09-14T16:21:00Z",
+   "runner": "Camera Shy",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 22.22
+   },
+   "latest": {
+    "mins_to_off": 156,
+    "mid": 23.23,
+    "spread_pct": 21.4
+   },
+   "move_pct": 4.5,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 49,
+   "notable": false
+  },
+  {
+   "race": "15:30",
+   "off_utc": "2026-09-14T14:30:00Z",
+   "runner": "Phantom Stars",
+   "first": {
+    "mins_to_off": 195,
+    "mid": 13.35
+   },
+   "latest": {
+    "mins_to_off": 45,
+    "mid": 13.5,
+    "spread_pct": 312.7
+   },
+   "move_pct": 1.1,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 49,
+   "notable": false
+  },
+  {
+   "race": "19:00",
+   "off_utc": "2026-09-14T18:00:00Z",
+   "runner": "Bling",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 4.1
+   },
+   "latest": {
+    "mins_to_off": 255,
+    "mid": 4.15,
+    "spread_pct": 2.4
+   },
+   "move_pct": 1.3,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 51,
+   "notable": false
+  },
+  {
+   "race": "19:00",
+   "off_utc": "2026-09-14T18:00:00Z",
+   "runner": "Lady Jemima",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 19.96
+   },
+   "latest": {
+    "mins_to_off": 255,
+    "mid": 20.22,
+    "spread_pct": 7.5
+   },
+   "move_pct": 1.3,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 49,
+   "notable": false
+  },
+  {
+   "race": "20:00",
+   "off_utc": "2026-09-14T19:00:00Z",
+   "runner": "Hibernate",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 12.0
+   },
+   "latest": {
+    "mins_to_off": 315,
+    "mid": 12.2,
+    "spread_pct": 12.4
+   },
+   "move_pct": 1.6,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 51,
+   "notable": false
+  },
+  {
+   "race": "16:42",
+   "off_utc": "2026-09-14T15:42:00Z",
+   "runner": "Madame Passant",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 14.64
+   },
+   "latest": {
+    "mins_to_off": 117,
+    "mid": 14.94,
+    "spread_pct": 13.4
+   },
+   "move_pct": 2.0,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 50,
+   "notable": false
+  },
+  {
+   "race": "16:51",
+   "off_utc": "2026-09-14T15:51:00Z",
+   "runner": "Always Blue",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 7.26
+   },
+   "latest": {
+    "mins_to_off": 126,
+    "mid": 7.3,
+    "spread_pct": null
+   },
+   "move_pct": 0.5,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 50,
+   "notable": false
+  },
+  {
+   "race": "19:00",
+   "off_utc": "2026-09-14T18:00:00Z",
+   "runner": "Pure Majesty",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 9.0
+   },
+   "latest": {
+    "mins_to_off": 255,
+    "mid": 9.1,
+    "spread_pct": 2.2
+   },
+   "move_pct": 1.1,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 50,
+   "notable": false
+  },
+  {
+   "race": "19:30",
+   "off_utc": "2026-09-14T18:30:00Z",
+   "runner": "Missmisfortune",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 52.49
+   },
+   "latest": {
+    "mins_to_off": 285,
+    "mid": 51.02,
+    "spread_pct": 44.9
+   },
+   "move_pct": -2.8,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 50,
+   "notable": false
+  }
+ ]
+}
