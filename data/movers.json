@@ -1,6 +1,6 @@
 {
  "schema": "movers_v1",
- "generated_at": "2026-09-16T16:00:01Z",
+ "generated_at": "2026-09-16T21:30:01Z",
  "source": "Smarkets public order book",
  "note": "'percentile' is where this move sits among all moves we have measured for runners opening at a similar price. The median move is near zero in every band; what changes with price is the spread of outcomes.",
  "baseline": {
@@ -78,7 +78,7 @@
    }
   ]
  },
- "collected_through": "2026-09-16T15:45:02Z",
+ "collected_through": "2026-09-16T21:15:01Z",
  "runners": [
   {
    "slug": "clonmel-1535",
@@ -257,6 +257,28 @@
    "notable": true
   },
   {
+   "slug": "clonmel-1710",
+   "venue": "Clonmel",
+   "off_utc": "2026-09-16T17:10:00Z",
+   "runner": "Medieval Night",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 5.94
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 10.7,
+    "spread_pct": 14.0
+   },
+   "move_pct": 80.1,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 99,
+   "notable": true
+  },
+  {
    "slug": "sandown-1355",
    "venue": "Sandown",
    "off_utc": "2026-09-16T13:55:00Z",
@@ -389,45 +411,23 @@
    "notable": true
   },
   {
-   "slug": "clonmel-1605",
-   "venue": "Clonmel",
-   "off_utc": "2026-09-16T16:05:00Z",
-   "runner": "John La Bear",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 16.81
-   },
-   "latest": {
-    "mins_to_off": 20,
-    "mid": 32.73,
-    "spread_pct": 18.2
-   },
-   "move_pct": 94.8,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 98,
-   "notable": true
-  },
-  {
-   "slug": "beverley-1650",
+   "slug": "beverley-1620",
    "venue": "Beverley",
-   "off_utc": "2026-09-16T16:50:00Z",
-   "runner": "Dumfries",
+   "off_utc": "2026-09-16T16:20:00Z",
+   "runner": "Elettaria",
    "first": {
     "mins_to_off": 350,
-    "mid": 7.29
+    "mid": 8.76
    },
    "latest": {
-    "mins_to_off": 65,
-    "mid": 12.25,
-    "spread_pct": 4.0
+    "mins_to_off": 5,
+    "mid": 16.75,
+    "spread_pct": 3.0
    },
-   "move_pct": 68.1,
+   "move_pct": 91.3,
    "band": [
-    5,
-    8
+    8,
+    13
    ],
    "percentile": 98,
    "notable": true
@@ -450,6 +450,28 @@
    "band": [
     8,
     13
+   ],
+   "percentile": 97,
+   "notable": true
+  },
+  {
+   "slug": "kelso-1755",
+   "venue": "Kelso",
+   "off_utc": "2026-09-16T17:55:00Z",
+   "runner": "Roohu",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 16.45
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 31.3,
+    "spread_pct": 16.1
+   },
+   "move_pct": 90.3,
+   "band": [
+    13,
+    20
    ],
    "percentile": 97,
    "notable": true
@@ -521,25 +543,47 @@
    "notable": true
   },
   {
-   "slug": "yarmouth-1615",
-   "venue": "Yarmouth",
-   "off_utc": "2026-09-16T16:15:00Z",
-   "runner": "Q T Pie",
+   "slug": "kelso-1725",
+   "venue": "Kelso",
+   "off_utc": "2026-09-16T17:25:00Z",
+   "runner": "Garde Des Champs",
    "first": {
-    "mins_to_off": 360,
-    "mid": 49.38
+    "mins_to_off": 355,
+    "mid": 4.24
    },
    "latest": {
-    "mins_to_off": 30,
-    "mid": 84.75,
-    "spread_pct": 11.9
+    "mins_to_off": 10,
+    "mid": 6.05,
+    "spread_pct": 5.0
    },
-   "move_pct": 71.6,
+   "move_pct": 42.7,
    "band": [
-    35,
-    100
+    3,
+    5
    ],
    "percentile": 96,
+   "notable": true
+  },
+  {
+   "slug": "kelso-1755",
+   "venue": "Kelso",
+   "off_utc": "2026-09-16T17:55:00Z",
+   "runner": "Cape Warrior",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 2.57
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 2.06,
+    "spread_pct": 1.9
+   },
+   "move_pct": -19.9,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 4,
    "notable": true
   },
   {
@@ -609,25 +653,91 @@
    "notable": true
   },
   {
-   "slug": "clonmel-1710",
+   "slug": "clonmel-1605",
    "venue": "Clonmel",
-   "off_utc": "2026-09-16T17:10:00Z",
-   "runner": "Medieval Night",
+   "off_utc": "2026-09-16T16:05:00Z",
+   "runner": "John La Bear",
    "first": {
-    "mins_to_off": 355,
-    "mid": 5.94
+    "mins_to_off": 350,
+    "mid": 16.81
    },
    "latest": {
-    "mins_to_off": 85,
-    "mid": 8.9,
-    "spread_pct": 2.2
+    "mins_to_off": 5,
+    "mid": 28.49,
+    "spread_pct": 3.4
    },
-   "move_pct": 49.8,
+   "move_pct": 69.5,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 95,
+   "notable": true
+  },
+  {
+   "slug": "yarmouth-1615",
+   "venue": "Yarmouth",
+   "off_utc": "2026-09-16T16:15:00Z",
+   "runner": "Q T Pie",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 49.38
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 82.3,
+    "spread_pct": 5.8
+   },
+   "move_pct": 66.7,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 95,
+   "notable": true
+  },
+  {
+   "slug": "beverley-1650",
+   "venue": "Beverley",
+   "off_utc": "2026-09-16T16:50:00Z",
+   "runner": "Dumfries",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 7.29
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 10.75,
+    "spread_pct": 4.6
+   },
+   "move_pct": 47.5,
    "band": [
     5,
     8
    ],
    "percentile": 95,
+   "notable": true
+  },
+  {
+   "slug": "clonmel-1813",
+   "venue": "Clonmel",
+   "off_utc": "2026-09-16T18:13:00Z",
+   "runner": "Gallo Dell Cielo",
+   "first": {
+    "mins_to_off": 358,
+    "mid": 2.96
+   },
+   "latest": {
+    "mins_to_off": 13,
+    "mid": 2.42,
+    "spread_pct": 1.7
+   },
+   "move_pct": -18.3,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 5,
    "notable": true
   },
   {
@@ -741,23 +851,23 @@
    "notable": false
   },
   {
-   "slug": "kelso-1625",
-   "venue": "Kelso",
-   "off_utc": "2026-09-16T16:25:00Z",
-   "runner": "Dream's Ka",
+   "slug": "yarmouth-1615",
+   "venue": "Yarmouth",
+   "off_utc": "2026-09-16T16:15:00Z",
+   "runner": "Dark Brunette",
    "first": {
-    "mins_to_off": 355,
-    "mid": 17.47
+    "mins_to_off": 360,
+    "mid": 30.86
    },
    "latest": {
-    "mins_to_off": 40,
-    "mid": 27.86,
-    "spread_pct": 14.6
+    "mins_to_off": 0,
+    "mid": 57.31,
+    "spread_pct": 8.6
    },
-   "move_pct": 59.5,
+   "move_pct": 85.7,
    "band": [
-    13,
-    20
+    20,
+    35
    ],
    "percentile": 94,
    "notable": false
@@ -873,6 +983,72 @@
    "notable": false
   },
   {
+   "slug": "clonmel-1605",
+   "venue": "Clonmel",
+   "off_utc": "2026-09-16T16:05:00Z",
+   "runner": "Zitkala Sa",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 58.48
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 89.69,
+    "spread_pct": 11.7
+   },
+   "move_pct": 53.4,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 93,
+   "notable": false
+  },
+  {
+   "slug": "kelso-1625",
+   "venue": "Kelso",
+   "off_utc": "2026-09-16T16:25:00Z",
+   "runner": "Dream's Ka",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 17.47
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 27.51,
+    "spread_pct": 3.6
+   },
+   "move_pct": 57.5,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 93,
+   "notable": false
+  },
+  {
+   "slug": "clonmel-1743",
+   "venue": "Clonmel",
+   "off_utc": "2026-09-16T17:43:00Z",
+   "runner": "Tatateo",
+   "first": {
+    "mins_to_off": 358,
+    "mid": 64.52
+   },
+   "latest": {
+    "mins_to_off": 28,
+    "mid": 99.01,
+    "spread_pct": 50.4
+   },
+   "move_pct": 53.5,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 93,
+   "notable": false
+  },
+  {
    "slug": "yarmouth-1256",
    "venue": "Yarmouth",
    "off_utc": "2026-09-16T12:56:00Z",
@@ -912,6 +1088,50 @@
    "band": [
     8,
     13
+   ],
+   "percentile": 92,
+   "notable": false
+  },
+  {
+   "slug": "clonmel-1710",
+   "venue": "Clonmel",
+   "off_utc": "2026-09-16T17:10:00Z",
+   "runner": "Share The Treasure",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 24.72
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 16.16,
+    "spread_pct": 15.6
+   },
+   "move_pct": -34.7,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 8,
+   "notable": false
+  },
+  {
+   "slug": "clonmel-1813",
+   "venue": "Clonmel",
+   "off_utc": "2026-09-16T18:13:00Z",
+   "runner": "Cornmarket",
+   "first": {
+    "mins_to_off": 358,
+    "mid": 3.92
+   },
+   "latest": {
+    "mins_to_off": 13,
+    "mid": 5.2,
+    "spread_pct": null
+   },
+   "move_pct": 32.4,
+   "band": [
+    3,
+    5
    ],
    "percentile": 92,
    "notable": false
@@ -986,20 +1206,42 @@
    "slug": "yarmouth-1615",
    "venue": "Yarmouth",
    "off_utc": "2026-09-16T16:15:00Z",
-   "runner": "Dark Brunette",
+   "runner": "Thunderous Love",
    "first": {
     "mins_to_off": 360,
-    "mid": 30.86
+    "mid": 10.14
    },
    "latest": {
-    "mins_to_off": 30,
-    "mid": 51.28,
-    "spread_pct": 13.4
+    "mins_to_off": 0,
+    "mid": 14.24,
+    "spread_pct": 3.4
    },
-   "move_pct": 66.2,
+   "move_pct": 40.5,
    "band": [
-    20,
-    35
+    8,
+    13
+   ],
+   "percentile": 91,
+   "notable": false
+  },
+  {
+   "slug": "kelso-1755",
+   "venue": "Kelso",
+   "off_utc": "2026-09-16T17:55:00Z",
+   "runner": "Lady Scarphia",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 5.74
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 7.79,
+    "spread_pct": 5.1
+   },
+   "move_pct": 35.8,
+   "band": [
+    5,
+    8
    ],
    "percentile": 91,
    "notable": false
@@ -1071,45 +1313,89 @@
    "notable": false
   },
   {
-   "slug": "beverley-1620",
-   "venue": "Beverley",
-   "off_utc": "2026-09-16T16:20:00Z",
-   "runner": "Itszaboy",
+   "slug": "sandown-1610",
+   "venue": "Sandown",
+   "off_utc": "2026-09-16T16:10:00Z",
+   "runner": "Mmmbop",
    "first": {
-    "mins_to_off": 350,
-    "mid": 22.27
+    "mins_to_off": 355,
+    "mid": 8.39
    },
    "latest": {
-    "mins_to_off": 35,
-    "mid": 35.91,
-    "spread_pct": 11.2
+    "mins_to_off": 10,
+    "mid": 11.24,
+    "spread_pct": 4.4
    },
-   "move_pct": 61.2,
+   "move_pct": 34.0,
    "band": [
-    20,
-    35
+    8,
+    13
    ],
-   "percentile": 90,
+   "percentile": 88,
    "notable": false
   },
   {
-   "slug": "clonmel-1605",
-   "venue": "Clonmel",
-   "off_utc": "2026-09-16T16:05:00Z",
-   "runner": "Zitkala Sa",
+   "slug": "sandown-1610",
+   "venue": "Sandown",
+   "off_utc": "2026-09-16T16:10:00Z",
+   "runner": "Albertini Star",
    "first": {
-    "mins_to_off": 350,
-    "mid": 58.48
+    "mins_to_off": 355,
+    "mid": 8.49
    },
    "latest": {
-    "mins_to_off": 20,
-    "mid": 84.03,
-    "spread_pct": 96.3
+    "mins_to_off": 10,
+    "mid": 6.5,
+    "spread_pct": 3.1
    },
-   "move_pct": 43.7,
+   "move_pct": -23.4,
    "band": [
-    35,
-    100
+    8,
+    13
+   ],
+   "percentile": 12,
+   "notable": false
+  },
+  {
+   "slug": "kelso-1625",
+   "venue": "Kelso",
+   "off_utc": "2026-09-16T16:25:00Z",
+   "runner": "Starlyte",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 8.76
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 11.74,
+    "spread_pct": 4.3
+   },
+   "move_pct": 34.1,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 88,
+   "notable": false
+  },
+  {
+   "slug": "clonmel-1710",
+   "venue": "Clonmel",
+   "off_utc": "2026-09-16T17:10:00Z",
+   "runner": "Hastily",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 22.65
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 34.78,
+    "spread_pct": 17.2
+   },
+   "move_pct": 53.6,
+   "band": [
+    20,
+    35
    ],
    "percentile": 88,
    "notable": false
@@ -1250,22 +1536,44 @@
    "slug": "sandown-1610",
    "venue": "Sandown",
    "off_utc": "2026-09-16T16:10:00Z",
-   "runner": "Albertini Star",
+   "runner": "Mystic Music",
    "first": {
     "mins_to_off": 355,
-    "mid": 8.49
+    "mid": 61.54
    },
    "latest": {
-    "mins_to_off": 25,
-    "mid": 6.59,
-    "spread_pct": 6.0
+    "mins_to_off": 10,
+    "mid": 36.97,
+    "spread_pct": 5.5
    },
-   "move_pct": -22.3,
+   "move_pct": -39.9,
    "band": [
-    8,
-    13
+    35,
+    100
    ],
    "percentile": 13,
+   "notable": false
+  },
+  {
+   "slug": "beverley-1620",
+   "venue": "Beverley",
+   "off_utc": "2026-09-16T16:20:00Z",
+   "runner": "Itszaboy",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 22.27
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 33.9,
+    "spread_pct": 11.6
+   },
+   "move_pct": 52.2,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 87,
    "notable": false
   },
   {
@@ -1278,16 +1586,60 @@
     "mid": 57.8
    },
    "latest": {
-    "mins_to_off": 35,
-    "mid": 81.97,
-    "spread_pct": 18.2
+    "mins_to_off": 5,
+    "mid": 82.3,
+    "spread_pct": 5.8
    },
-   "move_pct": 41.8,
+   "move_pct": 42.4,
    "band": [
     35,
     100
    ],
    "percentile": 87,
+   "notable": false
+  },
+  {
+   "slug": "clonmel-1710",
+   "venue": "Clonmel",
+   "off_utc": "2026-09-16T17:10:00Z",
+   "runner": "Talking Tough",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 64.1
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 91.74,
+    "spread_pct": 16.6
+   },
+   "move_pct": 43.1,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 87,
+   "notable": false
+  },
+  {
+   "slug": "clonmel-1743",
+   "venue": "Clonmel",
+   "off_utc": "2026-09-16T17:43:00Z",
+   "runner": "Highwind",
+   "first": {
+    "mins_to_off": 358,
+    "mid": 7.49
+   },
+   "latest": {
+    "mins_to_off": 13,
+    "mid": 5.95,
+    "spread_pct": 1.7
+   },
+   "move_pct": -20.6,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 13,
    "notable": false
   },
   {
@@ -1330,50 +1682,6 @@
    "band": [
     3,
     5
-   ],
-   "percentile": 86,
-   "notable": false
-  },
-  {
-   "slug": "clonmel-1605",
-   "venue": "Clonmel",
-   "off_utc": "2026-09-16T16:05:00Z",
-   "runner": "Mare Crisium",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 7.11
-   },
-   "latest": {
-    "mins_to_off": 20,
-    "mid": 8.9,
-    "spread_pct": 2.2
-   },
-   "move_pct": 25.1,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 86,
-   "notable": false
-  },
-  {
-   "slug": "clonmel-1710",
-   "venue": "Clonmel",
-   "off_utc": "2026-09-16T17:10:00Z",
-   "runner": "Hastily",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 22.65
-   },
-   "latest": {
-    "mins_to_off": 85,
-    "mid": 33.9,
-    "spread_pct": 11.6
-   },
-   "move_pct": 49.7,
-   "band": [
-    20,
-    35
    ],
    "percentile": 86,
    "notable": false
@@ -1492,20 +1800,64 @@
    "slug": "yarmouth-1615",
    "venue": "Yarmouth",
    "off_utc": "2026-09-16T16:15:00Z",
-   "runner": "Romantic Twilight",
+   "runner": "Startled Lady",
    "first": {
     "mins_to_off": 360,
-    "mid": 39.6
+    "mid": 10.25
    },
    "latest": {
-    "mins_to_off": 30,
-    "mid": 54.5,
-    "spread_pct": 18.1
+    "mins_to_off": 0,
+    "mid": 13.24,
+    "spread_pct": 3.7
    },
-   "move_pct": 37.6,
+   "move_pct": 29.3,
    "band": [
-    35,
-    100
+    8,
+    13
+   ],
+   "percentile": 85,
+   "notable": false
+  },
+  {
+   "slug": "yarmouth-1615",
+   "venue": "Yarmouth",
+   "off_utc": "2026-09-16T16:15:00Z",
+   "runner": "Molly Mac",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 8.76
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 6.9,
+    "spread_pct": 2.9
+   },
+   "move_pct": -21.2,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 15,
+   "notable": false
+  },
+  {
+   "slug": "clonmel-1635",
+   "venue": "Clonmel",
+   "off_utc": "2026-09-16T16:35:00Z",
+   "runner": "Expound",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 11.31
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 14.74,
+    "spread_pct": 3.4
+   },
+   "move_pct": 30.4,
+   "band": [
+    8,
+    13
    ],
    "percentile": 85,
    "notable": false
@@ -1643,69 +1995,25 @@
    "notable": false
   },
   {
-   "slug": "clonmel-1605",
+   "slug": "clonmel-1813",
    "venue": "Clonmel",
-   "off_utc": "2026-09-16T16:05:00Z",
-   "runner": "Cadreville",
+   "off_utc": "2026-09-16T18:13:00Z",
+   "runner": "Rich Belief",
    "first": {
-    "mins_to_off": 350,
-    "mid": 7.78
+    "mins_to_off": 358,
+    "mid": 5.27
    },
    "latest": {
-    "mins_to_off": 20,
-    "mid": 6.37,
-    "spread_pct": null
+    "mins_to_off": 13,
+    "mid": 4.35,
+    "spread_pct": 2.3
    },
-   "move_pct": -18.1,
+   "move_pct": -17.5,
    "band": [
     5,
     8
    ],
    "percentile": 16,
-   "notable": false
-  },
-  {
-   "slug": "beverley-1620",
-   "venue": "Beverley",
-   "off_utc": "2026-09-16T16:20:00Z",
-   "runner": "Elettaria",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 8.76
-   },
-   "latest": {
-    "mins_to_off": 35,
-    "mid": 11.24,
-    "spread_pct": 4.4
-   },
-   "move_pct": 28.4,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 84,
-   "notable": false
-  },
-  {
-   "slug": "clonmel-1635",
-   "venue": "Clonmel",
-   "off_utc": "2026-09-16T16:35:00Z",
-   "runner": "A Pretty Penny",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 5.79
-   },
-   "latest": {
-    "mins_to_off": 50,
-    "mid": 7.1,
-    "spread_pct": 2.8
-   },
-   "move_pct": 22.5,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 84,
    "notable": false
   },
   {
@@ -1819,6 +2127,50 @@
    "notable": false
   },
   {
+   "slug": "clonmel-1605",
+   "venue": "Clonmel",
+   "off_utc": "2026-09-16T16:05:00Z",
+   "runner": "Ochtar Againn",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 92.59
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 59.52,
+    "spread_pct": 16.8
+   },
+   "move_pct": -35.7,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 17,
+   "notable": false
+  },
+  {
+   "slug": "clonmel-1710",
+   "venue": "Clonmel",
+   "off_utc": "2026-09-16T17:10:00Z",
+   "runner": "Jazz Dreamers",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 73.53
+   },
+   "latest": {
+    "mins_to_off": 40,
+    "mid": 98.04,
+    "spread_pct": 67.0
+   },
+   "move_pct": 33.3,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 83,
+   "notable": false
+  },
+  {
    "slug": "beverley-1418",
    "venue": "Beverley",
    "off_utc": "2026-09-16T14:18:00Z",
@@ -1882,6 +2234,72 @@
     100
    ],
    "percentile": 18,
+   "notable": false
+  },
+  {
+   "slug": "beverley-1620",
+   "venue": "Beverley",
+   "off_utc": "2026-09-16T16:20:00Z",
+   "runner": "Al Baahy",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 11.62
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 9.5,
+    "spread_pct": 2.1
+   },
+   "move_pct": -18.3,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 18,
+   "notable": false
+  },
+  {
+   "slug": "beverley-1650",
+   "venue": "Beverley",
+   "off_utc": "2026-09-16T16:50:00Z",
+   "runner": "Hostelry",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 6.39
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 7.7,
+    "spread_pct": 2.6
+   },
+   "move_pct": 20.4,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 82,
+   "notable": false
+  },
+  {
+   "slug": "clonmel-1743",
+   "venue": "Clonmel",
+   "off_utc": "2026-09-16T17:43:00Z",
+   "runner": "Teed Up",
+   "first": {
+    "mins_to_off": 358,
+    "mid": 22.6
+   },
+   "latest": {
+    "mins_to_off": 13,
+    "mid": 31.3,
+    "spread_pct": 16.1
+   },
+   "move_pct": 38.5,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 82,
    "notable": false
   },
   {
@@ -1951,20 +2369,64 @@
    "notable": false
   },
   {
-   "slug": "clonmel-1710",
+   "slug": "clonmel-1605",
    "venue": "Clonmel",
-   "off_utc": "2026-09-16T17:10:00Z",
-   "runner": "Reponse Finale",
+   "off_utc": "2026-09-16T16:05:00Z",
+   "runner": "Cadreville",
    "first": {
-    "mins_to_off": 355,
-    "mid": 5.25
+    "mins_to_off": 350,
+    "mid": 7.78
    },
    "latest": {
-    "mins_to_off": 85,
-    "mid": 4.45,
-    "spread_pct": 2.3
+    "mins_to_off": 5,
+    "mid": 6.59,
+    "spread_pct": null
    },
    "move_pct": -15.2,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 19,
+   "notable": false
+  },
+  {
+   "slug": "kelso-1725",
+   "venue": "Kelso",
+   "off_utc": "2026-09-16T17:25:00Z",
+   "runner": "Duke Of Luckley",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 3.96
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 3.47,
+    "spread_pct": null
+   },
+   "move_pct": -12.4,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 19,
+   "notable": false
+  },
+  {
+   "slug": "clonmel-1743",
+   "venue": "Clonmel",
+   "off_utc": "2026-09-16T17:43:00Z",
+   "runner": "Lady Plimsoll",
+   "first": {
+    "mins_to_off": 358,
+    "mid": 5.79
+   },
+   "latest": {
+    "mins_to_off": 13,
+    "mid": 4.9,
+    "spread_pct": 4.1
+   },
+   "move_pct": -15.4,
    "band": [
     5,
     8
@@ -2039,28 +2501,6 @@
    "notable": false
   },
   {
-   "slug": "kelso-1625",
-   "venue": "Kelso",
-   "off_utc": "2026-09-16T16:25:00Z",
-   "runner": "Heart Above",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 10.58
-   },
-   "latest": {
-    "mins_to_off": 40,
-    "mid": 8.8,
-    "spread_pct": 4.6
-   },
-   "move_pct": -16.9,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 20,
-   "notable": false
-  },
-  {
    "slug": "clonmel-1635",
    "venue": "Clonmel",
    "off_utc": "2026-09-16T16:35:00Z",
@@ -2070,7 +2510,7 @@
     "mid": 6.09
    },
    "latest": {
-    "mins_to_off": 50,
+    "mins_to_off": 5,
     "mid": 7.19,
     "spread_pct": 5.6
    },
@@ -2083,25 +2523,47 @@
    "notable": false
   },
   {
-   "slug": "clonmel-1710",
-   "venue": "Clonmel",
-   "off_utc": "2026-09-16T17:10:00Z",
-   "runner": "Share The Treasure",
+   "slug": "kelso-1655",
+   "venue": "Kelso",
+   "off_utc": "2026-09-16T16:55:00Z",
+   "runner": "Moonlightinthepark",
    "first": {
     "mins_to_off": 355,
-    "mid": 24.72
+    "mid": 5.35
    },
    "latest": {
-    "mins_to_off": 85,
-    "mid": 19.49,
-    "spread_pct": 5.1
+    "mins_to_off": 10,
+    "mid": 6.3,
+    "spread_pct": 3.2
    },
-   "move_pct": -21.2,
+   "move_pct": 17.8,
    "band": [
-    20,
-    35
+    5,
+    8
    ],
-   "percentile": 20,
+   "percentile": 80,
+   "notable": false
+  },
+  {
+   "slug": "clonmel-1743",
+   "venue": "Clonmel",
+   "off_utc": "2026-09-16T17:43:00Z",
+   "runner": "Jabbar",
+   "first": {
+    "mins_to_off": 358,
+    "mid": 41.67
+   },
+   "latest": {
+    "mins_to_off": 13,
+    "mid": 53.33,
+    "spread_pct": 22.1
+   },
+   "move_pct": 28.0,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 80,
    "notable": false
   },
   {
@@ -2193,50 +2655,6 @@
    "notable": false
   },
   {
-   "slug": "sandown-1610",
-   "venue": "Sandown",
-   "off_utc": "2026-09-16T16:10:00Z",
-   "runner": "Pangbourne",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 11.2
-   },
-   "latest": {
-    "mins_to_off": 25,
-    "mid": 13.75,
-    "spread_pct": 3.7
-   },
-   "move_pct": 22.7,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 79,
-   "notable": false
-  },
-  {
-   "slug": "clonmel-1813",
-   "venue": "Clonmel",
-   "off_utc": "2026-09-16T18:13:00Z",
-   "runner": "Peace Walk",
-   "first": {
-    "mins_to_off": 358,
-    "mid": 15.86
-   },
-   "latest": {
-    "mins_to_off": 148,
-    "mid": 20.22,
-    "spread_pct": 7.5
-   },
-   "move_pct": 27.5,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 79,
-   "notable": false
-  },
-  {
    "slug": "yarmouth-1331",
    "venue": "Yarmouth",
    "off_utc": "2026-09-16T13:31:00Z",
@@ -2325,108 +2743,20 @@
    "notable": false
   },
   {
-   "slug": "yarmouth-1615",
-   "venue": "Yarmouth",
-   "off_utc": "2026-09-16T16:15:00Z",
-   "runner": "Thunderous Love",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 10.14
-   },
-   "latest": {
-    "mins_to_off": 30,
-    "mid": 12.25,
-    "spread_pct": 4.0
-   },
-   "move_pct": 20.8,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 78,
-   "notable": false
-  },
-  {
-   "slug": "clonmel-1635",
+   "slug": "clonmel-1605",
    "venue": "Clonmel",
-   "off_utc": "2026-09-16T16:35:00Z",
-   "runner": "Expound",
+   "off_utc": "2026-09-16T16:05:00Z",
+   "runner": "Incredible Army",
    "first": {
     "mins_to_off": 350,
-    "mid": 11.31
+    "mid": 45.77
    },
    "latest": {
-    "mins_to_off": 50,
-    "mid": 13.75,
-    "spread_pct": 3.7
+    "mins_to_off": 5,
+    "mid": 57.31,
+    "spread_pct": 8.6
    },
-   "move_pct": 21.6,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 78,
-   "notable": false
-  },
-  {
-   "slug": "clonmel-1710",
-   "venue": "Clonmel",
-   "off_utc": "2026-09-16T17:10:00Z",
-   "runner": "Talking Tough",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 64.1
-   },
-   "latest": {
-    "mins_to_off": 100,
-    "mid": 80.0,
-    "spread_pct": 75.8
-   },
-   "move_pct": 24.8,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 78,
-   "notable": false
-  },
-  {
-   "slug": "clonmel-1743",
-   "venue": "Clonmel",
-   "off_utc": "2026-09-16T17:43:00Z",
-   "runner": "Teed Up",
-   "first": {
-    "mins_to_off": 358,
-    "mid": 22.6
-   },
-   "latest": {
-    "mins_to_off": 118,
-    "mid": 29.9,
-    "spread_pct": 13.5
-   },
-   "move_pct": 32.3,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 78,
-   "notable": false
-  },
-  {
-   "slug": "clonmel-1743",
-   "venue": "Clonmel",
-   "off_utc": "2026-09-16T17:43:00Z",
-   "runner": "Tatateo",
-   "first": {
-    "mins_to_off": 358,
-    "mid": 64.52
-   },
-   "latest": {
-    "mins_to_off": 118,
-    "mid": 80.65,
-    "spread_pct": 31.4
-   },
-   "move_pct": 25.0,
+   "move_pct": 25.2,
    "band": [
     35,
     100
@@ -2589,45 +2919,45 @@
    "notable": false
   },
   {
-   "slug": "clonmel-1605",
-   "venue": "Clonmel",
-   "off_utc": "2026-09-16T16:05:00Z",
-   "runner": "Ochtar Againn",
+   "slug": "beverley-1620",
+   "venue": "Beverley",
+   "off_utc": "2026-09-16T16:20:00Z",
+   "runner": "Kameel",
    "first": {
     "mins_to_off": 350,
-    "mid": 92.59
+    "mid": 13.33
    },
    "latest": {
-    "mins_to_off": 20,
-    "mid": 66.67,
-    "spread_pct": 23.0
+    "mins_to_off": 5,
+    "mid": 11.24,
+    "spread_pct": 4.4
    },
-   "move_pct": -28.0,
+   "move_pct": -15.7,
    "band": [
-    35,
-    100
+    13,
+    20
    ],
    "percentile": 23,
    "notable": false
   },
   {
-   "slug": "clonmel-1635",
-   "venue": "Clonmel",
-   "off_utc": "2026-09-16T16:35:00Z",
-   "runner": "Solomon Coop",
+   "slug": "beverley-1650",
+   "venue": "Beverley",
+   "off_utc": "2026-09-16T16:50:00Z",
+   "runner": "Willowinghurn",
    "first": {
-    "mins_to_off": 275,
-    "mid": 72.73
+    "mins_to_off": 350,
+    "mid": 8.58
    },
    "latest": {
-    "mins_to_off": 50,
-    "mid": 52.08,
-    "spread_pct": 26.5
+    "mins_to_off": 5,
+    "mid": 7.39,
+    "spread_pct": 5.4
    },
-   "move_pct": -28.4,
+   "move_pct": -13.8,
    "band": [
-    35,
-    100
+    8,
+    13
    ],
    "percentile": 23,
    "notable": false
@@ -2702,20 +3032,86 @@
    "slug": "clonmel-1605",
    "venue": "Clonmel",
    "off_utc": "2026-09-16T16:05:00Z",
-   "runner": "Incredible Army",
+   "runner": "Garryowen Green",
    "first": {
     "mins_to_off": 350,
-    "mid": 45.77
+    "mid": 20.24
    },
    "latest": {
-    "mins_to_off": 20,
-    "mid": 56.5,
-    "spread_pct": 26.4
+    "mins_to_off": 5,
+    "mid": 26.49,
+    "spread_pct": null
    },
-   "move_pct": 23.4,
+   "move_pct": 30.9,
    "band": [
-    35,
-    100
+    20,
+    35
+   ],
+   "percentile": 76,
+   "notable": false
+  },
+  {
+   "slug": "clonmel-1710",
+   "venue": "Clonmel",
+   "off_utc": "2026-09-16T17:10:00Z",
+   "runner": "Reponse Finale",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 5.25
+   },
+   "latest": {
+    "mins_to_off": 25,
+    "mid": 4.62,
+    "spread_pct": 15.2
+   },
+   "move_pct": -11.9,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 24,
+   "notable": false
+  },
+  {
+   "slug": "clonmel-1710",
+   "venue": "Clonmel",
+   "off_utc": "2026-09-16T17:10:00Z",
+   "runner": "Chant D'or",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 25.19
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 32.89,
+    "spread_pct": 27.5
+   },
+   "move_pct": 30.6,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 76,
+   "notable": false
+  },
+  {
+   "slug": "clonmel-1743",
+   "venue": "Clonmel",
+   "off_utc": "2026-09-16T17:43:00Z",
+   "runner": "Zanahiyr",
+   "first": {
+    "mins_to_off": 358,
+    "mid": 8.58
+   },
+   "latest": {
+    "mins_to_off": 13,
+    "mid": 10.25,
+    "spread_pct": 4.9
+   },
+   "move_pct": 19.4,
+   "band": [
+    8,
+    13
    ],
    "percentile": 76,
    "notable": false
@@ -2831,6 +3227,50 @@
    "notable": false
   },
   {
+   "slug": "sandown-1610",
+   "venue": "Sandown",
+   "off_utc": "2026-09-16T16:10:00Z",
+   "runner": "Pangbourne",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 11.2
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 13.24,
+    "spread_pct": 3.7
+   },
+   "move_pct": 18.2,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 75,
+   "notable": false
+  },
+  {
+   "slug": "yarmouth-1615",
+   "venue": "Yarmouth",
+   "off_utc": "2026-09-16T16:15:00Z",
+   "runner": "Minnie Idol",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 44.44
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 33.0,
+    "spread_pct": 5.9
+   },
+   "move_pct": -25.7,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 25,
+   "notable": false
+  },
+  {
    "slug": "beverley-1620",
    "venue": "Beverley",
    "off_utc": "2026-09-16T16:20:00Z",
@@ -2840,7 +3280,7 @@
     "mid": 4.69
    },
    "latest": {
-    "mins_to_off": 35,
+    "mins_to_off": 5,
     "mid": 4.25,
     "spread_pct": 2.3
    },
@@ -2853,47 +3293,47 @@
    "notable": false
   },
   {
-   "slug": "clonmel-1635",
-   "venue": "Clonmel",
-   "off_utc": "2026-09-16T16:35:00Z",
-   "runner": "Satono Chevalier",
+   "slug": "beverley-1650",
+   "venue": "Beverley",
+   "off_utc": "2026-09-16T16:50:00Z",
+   "runner": "Abu Royal",
    "first": {
     "mins_to_off": 350,
-    "mid": 19.88
+    "mid": 8.78
    },
    "latest": {
-    "mins_to_off": 50,
-    "mid": 17.08,
-    "spread_pct": 20.5
+    "mins_to_off": 5,
+    "mid": 7.7,
+    "spread_pct": 2.6
    },
-   "move_pct": -14.1,
+   "move_pct": -12.4,
    "band": [
-    13,
-    20
+    8,
+    13
    ],
    "percentile": 25,
    "notable": false
   },
   {
-   "slug": "kelso-1725",
-   "venue": "Kelso",
-   "off_utc": "2026-09-16T17:25:00Z",
-   "runner": "Garde Des Champs",
+   "slug": "clonmel-1743",
+   "venue": "Clonmel",
+   "off_utc": "2026-09-16T17:43:00Z",
+   "runner": "Not Just Any Eagle",
    "first": {
-    "mins_to_off": 355,
-    "mid": 4.24
+    "mins_to_off": 358,
+    "mid": 7.69
    },
    "latest": {
-    "mins_to_off": 100,
-    "mid": 4.75,
-    "spread_pct": null
+    "mins_to_off": 13,
+    "mid": 6.79,
+    "spread_pct": 5.8
    },
-   "move_pct": 12.0,
+   "move_pct": -11.7,
    "band": [
-    3,
-    5
+    5,
+    8
    ],
-   "percentile": 75,
+   "percentile": 25,
    "notable": false
   },
   {
@@ -2985,50 +3425,6 @@
    "notable": false
   },
   {
-   "slug": "sandown-1610",
-   "venue": "Sandown",
-   "off_utc": "2026-09-16T16:10:00Z",
-   "runner": "Topathemorning",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 52.49
-   },
-   "latest": {
-    "mins_to_off": 25,
-    "mid": 62.31,
-    "spread_pct": 8.1
-   },
-   "move_pct": 18.7,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 74,
-   "notable": false
-  },
-  {
-   "slug": "clonmel-1743",
-   "venue": "Clonmel",
-   "off_utc": "2026-09-16T17:43:00Z",
-   "runner": "Lady Plimsoll",
-   "first": {
-    "mins_to_off": 358,
-    "mid": 5.79
-   },
-   "latest": {
-    "mins_to_off": 118,
-    "mid": 5.15,
-    "spread_pct": 2.0
-   },
-   "move_pct": -11.1,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 26,
-   "notable": false
-  },
-  {
    "slug": "beverley-1308",
    "venue": "Beverley",
    "off_utc": "2026-09-16T13:08:00Z",
@@ -3051,45 +3447,45 @@
    "notable": false
   },
   {
-   "slug": "beverley-1650",
-   "venue": "Beverley",
-   "off_utc": "2026-09-16T16:50:00Z",
-   "runner": "Willowinghurn",
+   "slug": "sandown-1610",
+   "venue": "Sandown",
+   "off_utc": "2026-09-16T16:10:00Z",
+   "runner": "Sterling Fortune",
    "first": {
-    "mins_to_off": 350,
-    "mid": 8.58
+    "mins_to_off": 355,
+    "mid": 21.81
    },
    "latest": {
-    "mins_to_off": 65,
-    "mid": 7.6,
-    "spread_pct": null
+    "mins_to_off": 10,
+    "mid": 27.51,
+    "spread_pct": 3.6
    },
-   "move_pct": -11.4,
+   "move_pct": 26.1,
    "band": [
-    8,
-    13
+    20,
+    35
    ],
-   "percentile": 27,
+   "percentile": 73,
    "notable": false
   },
   {
-   "slug": "clonmel-1743",
+   "slug": "clonmel-1710",
    "venue": "Clonmel",
-   "off_utc": "2026-09-16T17:43:00Z",
-   "runner": "Michonne",
+   "off_utc": "2026-09-16T17:10:00Z",
+   "runner": "Brewel Hill",
    "first": {
-    "mins_to_off": 358,
-    "mid": 12.41
+    "mins_to_off": 355,
+    "mid": 22.27
    },
    "latest": {
-    "mins_to_off": 118,
-    "mid": 14.48,
-    "spread_pct": 6.8
+    "mins_to_off": 10,
+    "mid": 27.86,
+    "spread_pct": 14.6
    },
-   "move_pct": 16.7,
+   "move_pct": 25.1,
    "band": [
-    8,
-    13
+    20,
+    35
    ],
    "percentile": 73,
    "notable": false
@@ -3183,45 +3579,45 @@
    "notable": false
   },
   {
-   "slug": "kelso-1625",
-   "venue": "Kelso",
-   "off_utc": "2026-09-16T16:25:00Z",
-   "runner": "Starlyte",
+   "slug": "clonmel-1605",
+   "venue": "Clonmel",
+   "off_utc": "2026-09-16T16:05:00Z",
+   "runner": "Arizona Star",
    "first": {
-    "mins_to_off": 355,
-    "mid": 8.76
+    "mins_to_off": 350,
+    "mid": 6.37
    },
    "latest": {
-    "mins_to_off": 40,
-    "mid": 10.14,
-    "spread_pct": 6.9
+    "mins_to_off": 5,
+    "mid": 7.1,
+    "spread_pct": 2.8
    },
-   "move_pct": 15.8,
+   "move_pct": 11.4,
    "band": [
-    8,
-    13
+    5,
+    8
    ],
    "percentile": 72,
    "notable": false
   },
   {
-   "slug": "beverley-1620",
-   "venue": "Beverley",
-   "off_utc": "2026-09-16T16:20:00Z",
-   "runner": "Casilli",
+   "slug": "kelso-1655",
+   "venue": "Kelso",
+   "off_utc": "2026-09-16T16:55:00Z",
+   "runner": "Fairlawn Skipper",
    "first": {
-    "mins_to_off": 350,
-    "mid": 5.65
+    "mins_to_off": 355,
+    "mid": 3.07
    },
    "latest": {
-    "mins_to_off": 35,
-    "mid": 5.09,
-    "spread_pct": null
+    "mins_to_off": 10,
+    "mid": 2.81,
+    "spread_pct": 0.7
    },
-   "move_pct": -9.8,
+   "move_pct": -8.6,
    "band": [
-    5,
-    8
+    3,
+    5
    ],
    "percentile": 28,
    "notable": false
@@ -3236,7 +3632,7 @@
     "mid": 6.78
    },
    "latest": {
-    "mins_to_off": 65,
+    "mins_to_off": 5,
     "mid": 6.14,
     "spread_pct": null
    },
@@ -3244,6 +3640,50 @@
    "band": [
     5,
     8
+   ],
+   "percentile": 28,
+   "notable": false
+  },
+  {
+   "slug": "beverley-1650",
+   "venue": "Beverley",
+   "off_utc": "2026-09-16T16:50:00Z",
+   "runner": "Forever Twenty",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 23.64
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 29.5,
+    "spread_pct": 3.5
+   },
+   "move_pct": 24.8,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 72,
+   "notable": false
+  },
+  {
+   "slug": "clonmel-1710",
+   "venue": "Clonmel",
+   "off_utc": "2026-09-16T17:10:00Z",
+   "runner": "Guy's Girl",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 8.29
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 7.38,
+    "spread_pct": 10.9
+   },
+   "move_pct": -11.0,
+   "band": [
+    8,
+    13
    ],
    "percentile": 28,
    "notable": false
@@ -3293,89 +3733,23 @@
    "notable": false
   },
   {
-   "slug": "clonmel-1605",
-   "venue": "Clonmel",
-   "off_utc": "2026-09-16T16:05:00Z",
-   "runner": "Garryowen Green",
+   "slug": "beverley-1620",
+   "venue": "Beverley",
+   "off_utc": "2026-09-16T16:20:00Z",
+   "runner": "Diamond Aura",
    "first": {
     "mins_to_off": 350,
-    "mid": 20.24
+    "mid": 20.22
    },
    "latest": {
-    "mins_to_off": 20,
+    "mins_to_off": 5,
     "mid": 24.94,
     "spread_pct": 8.0
    },
-   "move_pct": 23.2,
+   "move_pct": 23.3,
    "band": [
     20,
     35
-   ],
-   "percentile": 71,
-   "notable": false
-  },
-  {
-   "slug": "sandown-1610",
-   "venue": "Sandown",
-   "off_utc": "2026-09-16T16:10:00Z",
-   "runner": "Champagne Beau",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 35.59
-   },
-   "latest": {
-    "mins_to_off": 25,
-    "mid": 40.98,
-    "spread_pct": 4.9
-   },
-   "move_pct": 15.2,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 71,
-   "notable": false
-  },
-  {
-   "slug": "yarmouth-1615",
-   "venue": "Yarmouth",
-   "off_utc": "2026-09-16T16:15:00Z",
-   "runner": "Startled Lady",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 10.25
-   },
-   "latest": {
-    "mins_to_off": 30,
-    "mid": 11.74,
-    "spread_pct": 4.3
-   },
-   "move_pct": 14.6,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 71,
-   "notable": false
-  },
-  {
-   "slug": "beverley-1650",
-   "venue": "Beverley",
-   "off_utc": "2026-09-16T16:50:00Z",
-   "runner": "Hostelry",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 6.39
-   },
-   "latest": {
-    "mins_to_off": 65,
-    "mid": 7.1,
-    "spread_pct": 2.8
-   },
-   "move_pct": 11.0,
-   "band": [
-    5,
-    8
    ],
    "percentile": 71,
    "notable": false
@@ -3557,64 +3931,20 @@
    "notable": false
   },
   {
-   "slug": "clonmel-1605",
+   "slug": "clonmel-1635",
    "venue": "Clonmel",
-   "off_utc": "2026-09-16T16:05:00Z",
-   "runner": "Ella's Gold",
+   "off_utc": "2026-09-16T16:35:00Z",
+   "runner": "Earthwatch",
    "first": {
     "mins_to_off": 350,
-    "mid": 9.39
+    "mid": 88.5
    },
    "latest": {
     "mins_to_off": 20,
-    "mid": 8.49,
-    "spread_pct": 7.1
+    "mid": 69.69,
+    "spread_pct": 14.7
    },
-   "move_pct": -9.6,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 30,
-   "notable": false
-  },
-  {
-   "slug": "clonmel-1605",
-   "venue": "Clonmel",
-   "off_utc": "2026-09-16T16:05:00Z",
-   "runner": "Sweetie Too",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 17.14
-   },
-   "latest": {
-    "mins_to_off": 20,
-    "mid": 15.24,
-    "spread_pct": 3.4
-   },
-   "move_pct": -11.1,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 30,
-   "notable": false
-  },
-  {
-   "slug": "sandown-1610",
-   "venue": "Sandown",
-   "off_utc": "2026-09-16T16:10:00Z",
-   "runner": "Mystic Music",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 61.54
-   },
-   "latest": {
-    "mins_to_off": 25,
-    "mid": 49.02,
-    "spread_pct": 3.9
-   },
-   "move_pct": -20.3,
+   "move_pct": -21.3,
    "band": [
     35,
     100
@@ -3623,89 +3953,23 @@
    "notable": false
   },
   {
-   "slug": "yarmouth-1615",
-   "venue": "Yarmouth",
-   "off_utc": "2026-09-16T16:15:00Z",
-   "runner": "Molly Mac",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 8.76
-   },
-   "latest": {
-    "mins_to_off": 30,
-    "mid": 7.9,
-    "spread_pct": 2.5
-   },
-   "move_pct": -9.8,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 30,
-   "notable": false
-  },
-  {
-   "slug": "clonmel-1710",
+   "slug": "clonmel-1635",
    "venue": "Clonmel",
-   "off_utc": "2026-09-16T17:10:00Z",
-   "runner": "Guy's Girl",
+   "off_utc": "2026-09-16T16:35:00Z",
+   "runner": "Solomon Coop",
    "first": {
-    "mins_to_off": 355,
-    "mid": 8.29
+    "mins_to_off": 275,
+    "mid": 72.73
    },
    "latest": {
-    "mins_to_off": 85,
-    "mid": 7.5,
-    "spread_pct": 2.6
-   },
-   "move_pct": -9.5,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 30,
-   "notable": false
-  },
-  {
-   "slug": "clonmel-1710",
-   "venue": "Clonmel",
-   "off_utc": "2026-09-16T17:10:00Z",
-   "runner": "Ardeur",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 19.55
-   },
-   "latest": {
-    "mins_to_off": 85,
-    "mid": 17.26,
-    "spread_pct": 2.9
-   },
-   "move_pct": -11.7,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 30,
-   "notable": false
-  },
-  {
-   "slug": "clonmel-1813",
-   "venue": "Clonmel",
-   "off_utc": "2026-09-16T18:13:00Z",
-   "runner": "Piatra Neamt",
-   "first": {
-    "mins_to_off": 358,
-    "mid": 19.49
-   },
-   "latest": {
-    "mins_to_off": 148,
-    "mid": 17.21,
+    "mins_to_off": 5,
+    "mid": 57.31,
     "spread_pct": 8.6
    },
-   "move_pct": -11.7,
+   "move_pct": -21.2,
    "band": [
-    13,
-    20
+    35,
+    100
    ],
    "percentile": 30,
    "notable": false
@@ -3821,45 +4085,67 @@
    "notable": false
   },
   {
-   "slug": "kelso-1625",
+   "slug": "kelso-1655",
    "venue": "Kelso",
-   "off_utc": "2026-09-16T16:25:00Z",
-   "runner": "Continuance",
+   "off_utc": "2026-09-16T16:55:00Z",
+   "runner": "Limerick Leader",
    "first": {
     "mins_to_off": 355,
-    "mid": 5.83
+    "mid": 3.15
    },
    "latest": {
-    "mins_to_off": 40,
-    "mid": 5.35,
-    "spread_pct": 1.9
+    "mins_to_off": 10,
+    "mid": 3.42,
+    "spread_pct": 1.4
    },
-   "move_pct": -8.2,
+   "move_pct": 8.8,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 69,
+   "notable": false
+  },
+  {
+   "slug": "beverley-1650",
+   "venue": "Beverley",
+   "off_utc": "2026-09-16T16:50:00Z",
+   "runner": "Evelyn's Phoenix",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 5.75
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 6.3,
+    "spread_pct": 3.2
+   },
+   "move_pct": 9.6,
    "band": [
     5,
     8
    ],
-   "percentile": 31,
+   "percentile": 69,
    "notable": false
   },
   {
    "slug": "clonmel-1813",
    "venue": "Clonmel",
    "off_utc": "2026-09-16T18:13:00Z",
-   "runner": "Gallo Dell Cielo",
+   "runner": "Miss Gitana",
    "first": {
     "mins_to_off": 358,
-    "mid": 2.96
+    "mid": 16.45
    },
    "latest": {
-    "mins_to_off": 148,
-    "mid": 2.8,
-    "spread_pct": 1.4
+    "mins_to_off": 13,
+    "mid": 14.72,
+    "spread_pct": 10.2
    },
-   "move_pct": -5.5,
+   "move_pct": -10.5,
    "band": [
-    1.5,
-    3
+    13,
+    20
    ],
    "percentile": 31,
    "notable": false
@@ -3909,67 +4195,23 @@
    "notable": false
   },
   {
-   "slug": "clonmel-1605",
-   "venue": "Clonmel",
-   "off_utc": "2026-09-16T16:05:00Z",
-   "runner": "Borora Aura",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 13.84
-   },
-   "latest": {
-    "mins_to_off": 20,
-    "mid": 12.48,
-    "spread_pct": 8.0
-   },
-   "move_pct": -9.8,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 32,
-   "notable": false
-  },
-  {
    "slug": "yarmouth-1615",
    "venue": "Yarmouth",
    "off_utc": "2026-09-16T16:15:00Z",
-   "runner": "Remi Mae",
+   "runner": "Court Drive",
    "first": {
     "mins_to_off": 360,
-    "mid": 10.58
+    "mid": 4.2
    },
    "latest": {
-    "mins_to_off": 30,
-    "mid": 9.7,
-    "spread_pct": 2.1
+    "mins_to_off": 0,
+    "mid": 4.55,
+    "spread_pct": 2.2
    },
-   "move_pct": -8.3,
+   "move_pct": 8.4,
    "band": [
-    8,
-    13
-   ],
-   "percentile": 32,
-   "notable": false
-  },
-  {
-   "slug": "clonmel-1635",
-   "venue": "Clonmel",
-   "off_utc": "2026-09-16T16:35:00Z",
-   "runner": "Sinbad My Dad",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 7.26
-   },
-   "latest": {
-    "mins_to_off": 50,
-    "mid": 7.9,
-    "spread_pct": 2.5
-   },
-   "move_pct": 8.7,
-   "band": [
-    5,
-    8
+    3,
+    5
    ],
    "percentile": 68,
    "notable": false
@@ -3997,89 +4239,89 @@
    "notable": false
   },
   {
-   "slug": "beverley-1650",
-   "venue": "Beverley",
-   "off_utc": "2026-09-16T16:50:00Z",
-   "runner": "Forever Twenty",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 23.64
-   },
-   "latest": {
-    "mins_to_off": 65,
-    "mid": 28.45,
-    "spread_pct": 10.6
-   },
-   "move_pct": 20.3,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 68,
-   "notable": false
-  },
-  {
    "slug": "clonmel-1743",
    "venue": "Clonmel",
    "off_utc": "2026-09-16T17:43:00Z",
-   "runner": "Highwind",
+   "runner": "Michonne",
    "first": {
     "mins_to_off": 358,
-    "mid": 7.49
+    "mid": 12.41
    },
    "latest": {
-    "mins_to_off": 118,
-    "mid": 6.89,
-    "spread_pct": 8.7
+    "mins_to_off": 13,
+    "mid": 13.98,
+    "spread_pct": 7.1
    },
-   "move_pct": -8.0,
+   "move_pct": 12.6,
    "band": [
-    5,
-    8
+    8,
+    13
    ],
-   "percentile": 32,
+   "percentile": 68,
    "notable": false
   },
   {
    "slug": "clonmel-1605",
    "venue": "Clonmel",
    "off_utc": "2026-09-16T16:05:00Z",
-   "runner": "Queen Of Astolat",
+   "runner": "Sweetie Too",
    "first": {
     "mins_to_off": 350,
-    "mid": 57.97
+    "mid": 17.14
    },
    "latest": {
-    "mins_to_off": 20,
-    "mid": 64.52,
-    "spread_pct": 15.6
+    "mins_to_off": 5,
+    "mid": 19.78,
+    "spread_pct": null
    },
-   "move_pct": 11.3,
+   "move_pct": 15.4,
    "band": [
-    35,
-    100
+    13,
+    20
    ],
    "percentile": 67,
    "notable": false
   },
   {
-   "slug": "yarmouth-1615",
-   "venue": "Yarmouth",
-   "off_utc": "2026-09-16T16:15:00Z",
-   "runner": "Marianne Mozart",
+   "slug": "kelso-1625",
+   "venue": "Kelso",
+   "off_utc": "2026-09-16T16:25:00Z",
+   "runner": "Continuance",
    "first": {
-    "mins_to_off": 360,
-    "mid": 31.6
+    "mins_to_off": 355,
+    "mid": 5.83
    },
    "latest": {
-    "mins_to_off": 30,
-    "mid": 28.99,
-    "spread_pct": 7.0
+    "mins_to_off": 10,
+    "mid": 5.4,
+    "spread_pct": 3.7
    },
-   "move_pct": -8.3,
+   "move_pct": -7.4,
    "band": [
-    20,
-    35
+    5,
+    8
+   ],
+   "percentile": 33,
+   "notable": false
+  },
+  {
+   "slug": "clonmel-1635",
+   "venue": "Clonmel",
+   "off_utc": "2026-09-16T16:35:00Z",
+   "runner": "Quatre Bras",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 5.48
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 5.1,
+    "spread_pct": null
+   },
+   "move_pct": -7.0,
+   "band": [
+    5,
+    8
    ],
    "percentile": 33,
    "notable": false
@@ -4151,69 +4393,25 @@
    "notable": false
   },
   {
-   "slug": "sandown-1610",
-   "venue": "Sandown",
-   "off_utc": "2026-09-16T16:10:00Z",
-   "runner": "Mmmbop",
+   "slug": "clonmel-1813",
+   "venue": "Clonmel",
+   "off_utc": "2026-09-16T18:13:00Z",
+   "runner": "Peace Walk",
    "first": {
-    "mins_to_off": 355,
-    "mid": 8.39
+    "mins_to_off": 358,
+    "mid": 15.86
    },
    "latest": {
-    "mins_to_off": 25,
-    "mid": 9.3,
-    "spread_pct": 2.1
+    "mins_to_off": 13,
+    "mid": 18.23,
+    "spread_pct": 8.2
    },
-   "move_pct": 10.8,
+   "move_pct": 14.9,
    "band": [
-    8,
-    13
+    13,
+    20
    ],
    "percentile": 66,
-   "notable": false
-  },
-  {
-   "slug": "kelso-1655",
-   "venue": "Kelso",
-   "off_utc": "2026-09-16T16:55:00Z",
-   "runner": "Rockstown Girl",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 5.79
-   },
-   "latest": {
-    "mins_to_off": 70,
-    "mid": 5.4,
-    "spread_pct": 3.7
-   },
-   "move_pct": -6.8,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 34,
-   "notable": false
-  },
-  {
-   "slug": "beverley-1650",
-   "venue": "Beverley",
-   "off_utc": "2026-09-16T16:50:00Z",
-   "runner": "Due To Shine",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 38.39
-   },
-   "latest": {
-    "mins_to_off": 65,
-    "mid": 32.1,
-    "spread_pct": 21.8
-   },
-   "move_pct": -16.4,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 34,
    "notable": false
   },
   {
@@ -4314,7 +4512,7 @@
     "mid": 2.99
    },
    "latest": {
-    "mins_to_off": 25,
+    "mins_to_off": 10,
     "mid": 3.17,
     "spread_pct": 1.6
    },
@@ -4330,39 +4528,17 @@
    "slug": "sandown-1610",
    "venue": "Sandown",
    "off_utc": "2026-09-16T16:10:00Z",
-   "runner": "Sterling Fortune",
+   "runner": "Topathemorning",
    "first": {
     "mins_to_off": 355,
-    "mid": 21.81
+    "mid": 52.49
    },
    "latest": {
-    "mins_to_off": 25,
-    "mid": 25.48,
-    "spread_pct": 3.8
+    "mins_to_off": 10,
+    "mid": 57.31,
+    "spread_pct": 8.6
    },
-   "move_pct": 16.8,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 65,
-   "notable": false
-  },
-  {
-   "slug": "clonmel-1710",
-   "venue": "Clonmel",
-   "off_utc": "2026-09-16T17:10:00Z",
-   "runner": "Jazz Dreamers",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 73.53
-   },
-   "latest": {
-    "mins_to_off": 100,
-    "mid": 80.0,
-    "spread_pct": 75.8
-   },
-   "move_pct": 8.8,
+   "move_pct": 9.2,
    "band": [
     35,
     100
@@ -4371,23 +4547,67 @@
    "notable": false
   },
   {
-   "slug": "clonmel-1813",
-   "venue": "Clonmel",
-   "off_utc": "2026-09-16T18:13:00Z",
-   "runner": "Rich Belief",
+   "slug": "yarmouth-1615",
+   "venue": "Yarmouth",
+   "off_utc": "2026-09-16T16:15:00Z",
+   "runner": "Romantic Twilight",
    "first": {
-    "mins_to_off": 358,
-    "mid": 5.27
+    "mins_to_off": 360,
+    "mid": 39.6
    },
    "latest": {
-    "mins_to_off": 148,
-    "mid": 5.65,
-    "spread_pct": 1.8
+    "mins_to_off": 0,
+    "mid": 43.01,
+    "spread_pct": 4.7
    },
-   "move_pct": 7.2,
+   "move_pct": 8.6,
    "band": [
-    5,
-    8
+    35,
+    100
+   ],
+   "percentile": 65,
+   "notable": false
+  },
+  {
+   "slug": "clonmel-1710",
+   "venue": "Clonmel",
+   "off_utc": "2026-09-16T17:10:00Z",
+   "runner": "Ardeur",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 19.55
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 17.95,
+    "spread_pct": 11.2
+   },
+   "move_pct": -8.2,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 35,
+   "notable": false
+  },
+  {
+   "slug": "clonmel-1743",
+   "venue": "Clonmel",
+   "off_utc": "2026-09-16T17:43:00Z",
+   "runner": "Filey Bay",
+   "first": {
+    "mins_to_off": 358,
+    "mid": 56.5
+   },
+   "latest": {
+    "mins_to_off": 13,
+    "mid": 61.54,
+    "spread_pct": 24.4
+   },
+   "move_pct": 8.9,
+   "band": [
+    35,
+    100
    ],
    "percentile": 65,
    "notable": false
@@ -4481,28 +4701,6 @@
    "notable": false
   },
   {
-   "slug": "clonmel-1605",
-   "venue": "Clonmel",
-   "off_utc": "2026-09-16T16:05:00Z",
-   "runner": "Concaire",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 6.09
-   },
-   "latest": {
-    "mins_to_off": 20,
-    "mid": 6.5,
-    "spread_pct": 3.1
-   },
-   "move_pct": 6.8,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 64,
-   "notable": false
-  },
-  {
    "slug": "yarmouth-1615",
    "venue": "Yarmouth",
    "off_utc": "2026-09-16T16:15:00Z",
@@ -4512,55 +4710,11 @@
     "mid": 5.9
    },
    "latest": {
-    "mins_to_off": 30,
-    "mid": 6.3,
-    "spread_pct": 3.2
-   },
-   "move_pct": 6.8,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 64,
-   "notable": false
-  },
-  {
-   "slug": "beverley-1620",
-   "venue": "Beverley",
-   "off_utc": "2026-09-16T16:20:00Z",
-   "runner": "Love You More",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 5.2
-   },
-   "latest": {
-    "mins_to_off": 35,
+    "mins_to_off": 0,
     "mid": 5.55,
     "spread_pct": 1.8
    },
-   "move_pct": 6.7,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 64,
-   "notable": false
-  },
-  {
-   "slug": "clonmel-1635",
-   "venue": "Clonmel",
-   "off_utc": "2026-09-16T16:35:00Z",
-   "runner": "Lough Leane",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 5.19
-   },
-   "latest": {
-    "mins_to_off": 50,
-    "mid": 4.89,
-    "spread_pct": null
-   },
-   "move_pct": -5.8,
+   "move_pct": -5.9,
    "band": [
     5,
     8
@@ -4569,23 +4723,89 @@
    "notable": false
   },
   {
-   "slug": "clonmel-1710",
-   "venue": "Clonmel",
-   "off_utc": "2026-09-16T17:10:00Z",
-   "runner": "Brewel Hill",
+   "slug": "kelso-1625",
+   "venue": "Kelso",
+   "off_utc": "2026-09-16T16:25:00Z",
+   "runner": "Heart Above",
    "first": {
     "mins_to_off": 355,
-    "mid": 22.27
+    "mid": 10.58
    },
    "latest": {
-    "mins_to_off": 85,
-    "mid": 25.97,
-    "spread_pct": 7.8
+    "mins_to_off": 10,
+    "mid": 9.9,
+    "spread_pct": 2.0
    },
-   "move_pct": 16.6,
+   "move_pct": -6.4,
    "band": [
-    20,
-    35
+    8,
+    13
+   ],
+   "percentile": 36,
+   "notable": false
+  },
+  {
+   "slug": "beverley-1620",
+   "venue": "Beverley",
+   "off_utc": "2026-09-16T16:20:00Z",
+   "runner": "Casilli",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 5.65
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 5.31,
+    "spread_pct": null
+   },
+   "move_pct": -5.9,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 36,
+   "notable": false
+  },
+  {
+   "slug": "kelso-1725",
+   "venue": "Kelso",
+   "off_utc": "2026-09-16T17:25:00Z",
+   "runner": "Conquer The Breeze",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 1.95
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 1.87,
+    "spread_pct": 1.6
+   },
+   "move_pct": -4.1,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 36,
+   "notable": false
+  },
+  {
+   "slug": "clonmel-1743",
+   "venue": "Clonmel",
+   "off_utc": "2026-09-16T17:43:00Z",
+   "runner": "Zoffman",
+   "first": {
+    "mins_to_off": 358,
+    "mid": 5.39
+   },
+   "latest": {
+    "mins_to_off": 13,
+    "mid": 5.74,
+    "spread_pct": null
+   },
+   "move_pct": 6.4,
+   "band": [
+    5,
+    8
    ],
    "percentile": 64,
    "notable": false
@@ -4635,157 +4855,25 @@
    "notable": false
   },
   {
-   "slug": "yarmouth-1615",
-   "venue": "Yarmouth",
-   "off_utc": "2026-09-16T16:15:00Z",
-   "runner": "Minnie Idol",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 44.44
-   },
-   "latest": {
-    "mins_to_off": 30,
-    "mid": 38.02,
-    "spread_pct": null
-   },
-   "move_pct": -14.4,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 37,
-   "notable": false
-  },
-  {
-   "slug": "beverley-1620",
-   "venue": "Beverley",
-   "off_utc": "2026-09-16T16:20:00Z",
-   "runner": "Kameel",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 13.33
-   },
-   "latest": {
-    "mins_to_off": 35,
-    "mid": 12.48,
-    "spread_pct": 8.0
-   },
-   "move_pct": -6.4,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 37,
-   "notable": false
-  },
-  {
-   "slug": "beverley-1620",
-   "venue": "Beverley",
-   "off_utc": "2026-09-16T16:20:00Z",
-   "runner": "Diamond Aura",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 20.22
-   },
-   "latest": {
-    "mins_to_off": 35,
-    "mid": 23.39,
-    "spread_pct": 12.9
-   },
-   "move_pct": 15.7,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 63,
-   "notable": false
-  },
-  {
-   "slug": "clonmel-1635",
-   "venue": "Clonmel",
-   "off_utc": "2026-09-16T16:35:00Z",
-   "runner": "Quatre Bras",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 5.48
-   },
-   "latest": {
-    "mins_to_off": 50,
-    "mid": 5.2,
-    "spread_pct": null
-   },
-   "move_pct": -5.2,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 37,
-   "notable": false
-  },
-  {
    "slug": "beverley-1650",
    "venue": "Beverley",
    "off_utc": "2026-09-16T16:50:00Z",
-   "runner": "She's A Goldigger",
+   "runner": "Due To Shine",
    "first": {
     "mins_to_off": 350,
-    "mid": 10.91
+    "mid": 38.39
    },
    "latest": {
-    "mins_to_off": 65,
-    "mid": 10.25,
-    "spread_pct": 4.9
+    "mins_to_off": 5,
+    "mid": 33.0,
+    "spread_pct": 5.9
    },
-   "move_pct": -6.1,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 37,
-   "notable": false
-  },
-  {
-   "slug": "clonmel-1710",
-   "venue": "Clonmel",
-   "off_utc": "2026-09-16T17:10:00Z",
-   "runner": "Miss Glenville",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 73.53
-   },
-   "latest": {
-    "mins_to_off": 85,
-    "mid": 62.89,
-    "spread_pct": 55.2
-   },
-   "move_pct": -14.5,
+   "move_pct": -14.0,
    "band": [
     35,
     100
    ],
    "percentile": 37,
-   "notable": false
-  },
-  {
-   "slug": "clonmel-1710",
-   "venue": "Clonmel",
-   "off_utc": "2026-09-16T17:10:00Z",
-   "runner": "Chou Chou",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 8.44
-   },
-   "latest": {
-    "mins_to_off": 85,
-    "mid": 9.2,
-    "spread_pct": 4.3
-   },
-   "move_pct": 8.9,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 63,
    "notable": false
   },
   {
@@ -4811,67 +4899,67 @@
    "notable": false
   },
   {
-   "slug": "kelso-1655",
-   "venue": "Kelso",
-   "off_utc": "2026-09-16T16:55:00Z",
-   "runner": "Fairlawn Skipper",
+   "slug": "sandown-1610",
+   "venue": "Sandown",
+   "off_utc": "2026-09-16T16:10:00Z",
+   "runner": "Sweet Horizon",
    "first": {
     "mins_to_off": 355,
-    "mid": 3.07
+    "mid": 13.49
    },
    "latest": {
-    "mins_to_off": 70,
-    "mid": 2.95,
-    "spread_pct": null
+    "mins_to_off": 10,
+    "mid": 12.75,
+    "spread_pct": 4.0
    },
-   "move_pct": -4.0,
+   "move_pct": -5.5,
    "band": [
-    3,
-    5
+    13,
+    20
    ],
    "percentile": 38,
    "notable": false
   },
   {
-   "slug": "kelso-1655",
-   "venue": "Kelso",
-   "off_utc": "2026-09-16T16:55:00Z",
-   "runner": "Limerick Leader",
+   "slug": "clonmel-1635",
+   "venue": "Clonmel",
+   "off_utc": "2026-09-16T16:35:00Z",
+   "runner": "Sinbad My Dad",
    "first": {
-    "mins_to_off": 355,
-    "mid": 3.15
+    "mins_to_off": 350,
+    "mid": 7.26
    },
    "latest": {
-    "mins_to_off": 70,
-    "mid": 3.33,
-    "spread_pct": null
+    "mins_to_off": 5,
+    "mid": 7.7,
+    "spread_pct": 2.6
    },
-   "move_pct": 5.6,
+   "move_pct": 6.0,
    "band": [
-    3,
-    5
+    5,
+    8
    ],
    "percentile": 62,
    "notable": false
   },
   {
-   "slug": "kelso-1725",
-   "venue": "Kelso",
-   "off_utc": "2026-09-16T17:25:00Z",
-   "runner": "Duke Of Luckley",
+   "slug": "clonmel-1813",
+   "venue": "Clonmel",
+   "off_utc": "2026-09-16T18:13:00Z",
+   "runner": "Duke Otto",
    "first": {
-    "mins_to_off": 355,
-    "mid": 3.96
+    "mins_to_off": 358,
+    "mid": 18.71
    },
    "latest": {
-    "mins_to_off": 100,
-    "mid": 3.8,
-    "spread_pct": null
+    "mins_to_off": 13,
+    "mid": 17.71,
+    "spread_pct": 8.3
    },
-   "move_pct": -4.2,
+   "move_pct": -5.3,
    "band": [
-    3,
-    5
+    13,
+    20
    ],
    "percentile": 38,
    "notable": false
@@ -4899,47 +4987,69 @@
    "notable": false
   },
   {
-   "slug": "kelso-1755",
+   "slug": "kelso-1625",
    "venue": "Kelso",
-   "off_utc": "2026-09-16T17:55:00Z",
-   "runner": "Cape Warrior",
+   "off_utc": "2026-09-16T16:25:00Z",
+   "runner": "Loriko",
    "first": {
     "mins_to_off": 355,
-    "mid": 2.57
+    "mid": 1.77
    },
    "latest": {
-    "mins_to_off": 130,
-    "mid": 2.7,
-    "spread_pct": 4.5
+    "mins_to_off": 10,
+    "mid": 1.73,
+    "spread_pct": 1.2
    },
-   "move_pct": 5.0,
+   "move_pct": -2.5,
    "band": [
     1.5,
     3
+   ],
+   "percentile": 39,
+   "notable": false
+  },
+  {
+   "slug": "beverley-1650",
+   "venue": "Beverley",
+   "off_utc": "2026-09-16T16:50:00Z",
+   "runner": "She's A Goldigger",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 10.91
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 11.74,
+    "spread_pct": 4.3
+   },
+   "move_pct": 7.6,
+   "band": [
+    8,
+    13
    ],
    "percentile": 61,
    "notable": false
   },
   {
-   "slug": "kelso-1755",
-   "venue": "Kelso",
-   "off_utc": "2026-09-16T17:55:00Z",
-   "runner": "Roohu",
+   "slug": "clonmel-1710",
+   "venue": "Clonmel",
+   "off_utc": "2026-09-16T17:10:00Z",
+   "runner": "Miss Glenville",
    "first": {
     "mins_to_off": 355,
-    "mid": 16.45
+    "mid": 73.53
    },
    "latest": {
-    "mins_to_off": 130,
-    "mid": 15.65,
-    "spread_pct": 16.1
+    "mins_to_off": 25,
+    "mid": 77.22,
+    "spread_pct": 39.2
    },
-   "move_pct": -4.9,
+   "move_pct": 5.0,
    "band": [
-    13,
-    20
+    35,
+    100
    ],
-   "percentile": 39,
+   "percentile": 61,
    "notable": false
   },
   {
@@ -5075,6 +5185,50 @@
    "notable": false
   },
   {
+   "slug": "clonmel-1605",
+   "venue": "Clonmel",
+   "off_utc": "2026-09-16T16:05:00Z",
+   "runner": "Mare Crisium",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 7.11
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 7.47,
+    "spread_pct": null
+   },
+   "move_pct": 5.0,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 60,
+   "notable": false
+  },
+  {
+   "slug": "yarmouth-1615",
+   "venue": "Yarmouth",
+   "off_utc": "2026-09-16T16:15:00Z",
+   "runner": "Marianne Mozart",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 31.6
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 31.01,
+    "spread_pct": 6.5
+   },
+   "move_pct": -1.9,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 40,
+   "notable": false
+  },
+  {
    "slug": "sandown-1245",
    "venue": "Sandown",
    "off_utc": "2026-09-16T12:45:00Z",
@@ -5163,47 +5317,69 @@
    "notable": false
   },
   {
-   "slug": "beverley-1620",
-   "venue": "Beverley",
-   "off_utc": "2026-09-16T16:20:00Z",
-   "runner": "Golden Samba",
+   "slug": "sandown-1610",
+   "venue": "Sandown",
+   "off_utc": "2026-09-16T16:10:00Z",
+   "runner": "Champagne Beau",
    "first": {
-    "mins_to_off": 350,
-    "mid": 20.81
+    "mins_to_off": 355,
+    "mid": 35.59
    },
    "latest": {
-    "mins_to_off": 35,
-    "mid": 23.47,
-    "spread_pct": 4.2
+    "mins_to_off": 10,
+    "mid": 36.97,
+    "spread_pct": 5.5
    },
-   "move_pct": 12.8,
+   "move_pct": 3.9,
    "band": [
-    20,
-    35
+    35,
+    100
    ],
    "percentile": 59,
    "notable": false
   },
   {
-   "slug": "clonmel-1710",
-   "venue": "Clonmel",
-   "off_utc": "2026-09-16T17:10:00Z",
-   "runner": "Chant D'or",
+   "slug": "yarmouth-1615",
+   "venue": "Yarmouth",
+   "off_utc": "2026-09-16T16:15:00Z",
+   "runner": "Remi Mae",
    "first": {
-    "mins_to_off": 355,
-    "mid": 25.19
+    "mins_to_off": 360,
+    "mid": 10.58
    },
    "latest": {
-    "mins_to_off": 85,
-    "mid": 28.45,
-    "spread_pct": 10.6
+    "mins_to_off": 0,
+    "mid": 11.24,
+    "spread_pct": 4.4
    },
-   "move_pct": 12.9,
+   "move_pct": 6.2,
    "band": [
-    20,
-    35
+    8,
+    13
    ],
    "percentile": 59,
+   "notable": false
+  },
+  {
+   "slug": "kelso-1655",
+   "venue": "Kelso",
+   "off_utc": "2026-09-16T16:55:00Z",
+   "runner": "Rockstown Girl",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 5.79
+   },
+   "latest": {
+    "mins_to_off": 25,
+    "mid": 5.6,
+    "spread_pct": 3.6
+   },
+   "move_pct": -3.3,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 41,
    "notable": false
   },
   {
@@ -5339,50 +5515,6 @@
    "notable": false
   },
   {
-   "slug": "yarmouth-1615",
-   "venue": "Yarmouth",
-   "off_utc": "2026-09-16T16:15:00Z",
-   "runner": "Court Drive",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 4.2
-   },
-   "latest": {
-    "mins_to_off": 30,
-    "mid": 4.35,
-    "spread_pct": 2.3
-   },
-   "move_pct": 3.6,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 58,
-   "notable": false
-  },
-  {
-   "slug": "kelso-1725",
-   "venue": "Kelso",
-   "off_utc": "2026-09-16T17:25:00Z",
-   "runner": "Conquer The Breeze",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 1.95
-   },
-   "latest": {
-    "mins_to_off": 100,
-    "mid": 1.92,
-    "spread_pct": null
-   },
-   "move_pct": -1.5,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 42,
-   "notable": false
-  },
-  {
    "slug": "beverley-1518",
    "venue": "Beverley",
    "off_utc": "2026-09-16T15:18:00Z",
@@ -5400,50 +5532,6 @@
    "band": [
     35,
     100
-   ],
-   "percentile": 42,
-   "notable": false
-  },
-  {
-   "slug": "clonmel-1813",
-   "venue": "Clonmel",
-   "off_utc": "2026-09-16T18:13:00Z",
-   "runner": "Cornmarket",
-   "first": {
-    "mins_to_off": 358,
-    "mid": 3.92
-   },
-   "latest": {
-    "mins_to_off": 148,
-    "mid": 4.07,
-    "spread_pct": null
-   },
-   "move_pct": 3.7,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 58,
-   "notable": false
-  },
-  {
-   "slug": "clonmel-1813",
-   "venue": "Clonmel",
-   "off_utc": "2026-09-16T18:13:00Z",
-   "runner": "Duke Otto",
-   "first": {
-    "mins_to_off": 358,
-    "mid": 18.71
-   },
-   "latest": {
-    "mins_to_off": 148,
-    "mid": 18.23,
-    "spread_pct": 2.7
-   },
-   "move_pct": -2.6,
-   "band": [
-    13,
-    20
    ],
    "percentile": 42,
    "notable": false
@@ -5493,20 +5581,20 @@
    "notable": false
   },
   {
-   "slug": "kelso-1655",
-   "venue": "Kelso",
-   "off_utc": "2026-09-16T16:55:00Z",
-   "runner": "Moonlightinthepark",
+   "slug": "clonmel-1605",
+   "venue": "Clonmel",
+   "off_utc": "2026-09-16T16:05:00Z",
+   "runner": "Concaire",
    "first": {
-    "mins_to_off": 355,
-    "mid": 5.35
+    "mins_to_off": 350,
+    "mid": 6.09
    },
    "latest": {
-    "mins_to_off": 70,
-    "mid": 5.55,
-    "spread_pct": 1.8
+    "mins_to_off": 5,
+    "mid": 6.3,
+    "spread_pct": 3.2
    },
-   "move_pct": 3.8,
+   "move_pct": 3.5,
    "band": [
     5,
     8
@@ -5515,18 +5603,40 @@
    "notable": false
   },
   {
-   "slug": "kelso-1755",
-   "venue": "Kelso",
-   "off_utc": "2026-09-16T17:55:00Z",
-   "runner": "Lady Scarphia",
+   "slug": "clonmel-1635",
+   "venue": "Clonmel",
+   "off_utc": "2026-09-16T16:35:00Z",
+   "runner": "Lough Leane",
    "first": {
-    "mins_to_off": 355,
-    "mid": 5.74
+    "mins_to_off": 350,
+    "mid": 5.19
    },
    "latest": {
-    "mins_to_off": 130,
-    "mid": 5.59,
-    "spread_pct": 7.2
+    "mins_to_off": 5,
+    "mid": 5.4,
+    "spread_pct": null
+   },
+   "move_pct": 4.0,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 57,
+   "notable": false
+  },
+  {
+   "slug": "clonmel-1635",
+   "venue": "Clonmel",
+   "off_utc": "2026-09-16T16:35:00Z",
+   "runner": "A Pretty Penny",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 5.79
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 5.65,
+    "spread_pct": 1.8
    },
    "move_pct": -2.5,
    "band": [
@@ -5647,69 +5757,25 @@
    "notable": false
   },
   {
-   "slug": "beverley-1620",
-   "venue": "Beverley",
-   "off_utc": "2026-09-16T16:20:00Z",
-   "runner": "Al Baahy",
+   "slug": "yarmouth-1615",
+   "venue": "Yarmouth",
+   "off_utc": "2026-09-16T16:15:00Z",
+   "runner": "Ironist",
    "first": {
-    "mins_to_off": 350,
-    "mid": 11.62
+    "mins_to_off": 360,
+    "mid": 13.93
    },
    "latest": {
-    "mins_to_off": 35,
-    "mid": 11.48,
-    "spread_pct": 8.7
+    "mins_to_off": 0,
+    "mid": 13.75,
+    "spread_pct": 3.7
    },
-   "move_pct": -1.2,
+   "move_pct": -1.3,
    "band": [
-    8,
-    13
+    13,
+    20
    ],
    "percentile": 44,
-   "notable": false
-  },
-  {
-   "slug": "beverley-1650",
-   "venue": "Beverley",
-   "off_utc": "2026-09-16T16:50:00Z",
-   "runner": "Power Of Chora",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 94.34
-   },
-   "latest": {
-    "mins_to_off": 200,
-    "mid": 95.24,
-    "spread_pct": 83.3
-   },
-   "move_pct": 1.0,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 56,
-   "notable": false
-  },
-  {
-   "slug": "clonmel-1743",
-   "venue": "Clonmel",
-   "off_utc": "2026-09-16T17:43:00Z",
-   "runner": "Filey Bay",
-   "first": {
-    "mins_to_off": 358,
-    "mid": 56.5
-   },
-   "latest": {
-    "mins_to_off": 118,
-    "mid": 56.98,
-    "spread_pct": 38.4
-   },
-   "move_pct": 0.9,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 56,
    "notable": false
   },
   {
@@ -5779,84 +5845,18 @@
    "notable": false
   },
   {
-   "slug": "sandown-1610",
-   "venue": "Sandown",
-   "off_utc": "2026-09-16T16:10:00Z",
-   "runner": "Sweet Horizon",
+   "slug": "beverley-1620",
+   "venue": "Beverley",
+   "off_utc": "2026-09-16T16:20:00Z",
+   "runner": "Love You More",
    "first": {
-    "mins_to_off": 355,
-    "mid": 13.49
+    "mins_to_off": 350,
+    "mid": 5.2
    },
    "latest": {
-    "mins_to_off": 25,
-    "mid": 14.24,
-    "spread_pct": 3.4
-   },
-   "move_pct": 5.6,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 55,
-   "notable": false
-  },
-  {
-   "slug": "sandown-1610",
-   "venue": "Sandown",
-   "off_utc": "2026-09-16T16:10:00Z",
-   "runner": "Mohaab",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 6.5
-   },
-   "latest": {
-    "mins_to_off": 25,
-    "mid": 6.4,
-    "spread_pct": null
-   },
-   "move_pct": -1.5,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 45,
-   "notable": false
-  },
-  {
-   "slug": "clonmel-1743",
-   "venue": "Clonmel",
-   "off_utc": "2026-09-16T17:43:00Z",
-   "runner": "Zanahiyr",
-   "first": {
-    "mins_to_off": 358,
-    "mid": 8.58
-   },
-   "latest": {
-    "mins_to_off": 118,
-    "mid": 8.9,
-    "spread_pct": 2.2
-   },
-   "move_pct": 3.7,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 55,
-   "notable": false
-  },
-  {
-   "slug": "clonmel-1743",
-   "venue": "Clonmel",
-   "off_utc": "2026-09-16T17:43:00Z",
-   "runner": "Zoffman",
-   "first": {
-    "mins_to_off": 358,
-    "mid": 5.39
-   },
-   "latest": {
-    "mins_to_off": 118,
-    "mid": 5.55,
-    "spread_pct": null
+    "mins_to_off": 5,
+    "mid": 5.35,
+    "spread_pct": 1.9
    },
    "move_pct": 2.9,
    "band": [
@@ -5867,23 +5867,89 @@
    "notable": false
   },
   {
-   "slug": "clonmel-1743",
+   "slug": "clonmel-1635",
    "venue": "Clonmel",
-   "off_utc": "2026-09-16T17:43:00Z",
-   "runner": "Not Just Any Eagle",
+   "off_utc": "2026-09-16T16:35:00Z",
+   "runner": "Satono Chevalier",
    "first": {
-    "mins_to_off": 358,
-    "mid": 7.69
+    "mins_to_off": 350,
+    "mid": 19.88
    },
    "latest": {
-    "mins_to_off": 118,
-    "mid": 7.9,
-    "spread_pct": 2.5
+    "mins_to_off": 5,
+    "mid": 19.74,
+    "spread_pct": 2.6
    },
-   "move_pct": 2.7,
+   "move_pct": -0.7,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 45,
+   "notable": false
+  },
+  {
+   "slug": "beverley-1650",
+   "venue": "Beverley",
+   "off_utc": "2026-09-16T16:50:00Z",
+   "runner": "Power Of Chora",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 94.34
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 87.34,
+    "spread_pct": 6.1
+   },
+   "move_pct": -7.4,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 45,
+   "notable": false
+  },
+  {
+   "slug": "clonmel-1710",
+   "venue": "Clonmel",
+   "off_utc": "2026-09-16T17:10:00Z",
+   "runner": "Alto Sax",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 6.37
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 6.29,
+    "spread_pct": 9.6
+   },
+   "move_pct": -1.4,
    "band": [
     5,
     8
+   ],
+   "percentile": 45,
+   "notable": false
+  },
+  {
+   "slug": "kelso-1755",
+   "venue": "Kelso",
+   "off_utc": "2026-09-16T17:55:00Z",
+   "runner": "Going On",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 3.45
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 3.55,
+    "spread_pct": 2.8
+   },
+   "move_pct": 3.0,
+   "band": [
+    3,
+    5
    ],
    "percentile": 55,
    "notable": false
@@ -5936,42 +6002,20 @@
    "slug": "clonmel-1605",
    "venue": "Clonmel",
    "off_utc": "2026-09-16T16:05:00Z",
-   "runner": "Arizona Star",
+   "runner": "Borora Aura",
    "first": {
     "mins_to_off": 350,
-    "mid": 6.37
+    "mid": 13.84
    },
    "latest": {
-    "mins_to_off": 20,
-    "mid": 6.3,
-    "spread_pct": 3.2
+    "mins_to_off": 5,
+    "mid": 13.75,
+    "spread_pct": 3.7
    },
-   "move_pct": -1.2,
+   "move_pct": -0.7,
    "band": [
-    5,
-    8
-   ],
-   "percentile": 46,
-   "notable": false
-  },
-  {
-   "slug": "clonmel-1635",
-   "venue": "Clonmel",
-   "off_utc": "2026-09-16T16:35:00Z",
-   "runner": "Earthwatch",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 88.5
-   },
-   "latest": {
-    "mins_to_off": 50,
-    "mid": 82.3,
-    "spread_pct": 5.8
-   },
-   "move_pct": -7.0,
-   "band": [
-    35,
-    100
+    13,
+    20
    ],
    "percentile": 46,
    "notable": false
@@ -5980,20 +6024,20 @@
    "slug": "clonmel-1710",
    "venue": "Clonmel",
    "off_utc": "2026-09-16T17:10:00Z",
-   "runner": "Alto Sax",
+   "runner": "Chou Chou",
    "first": {
     "mins_to_off": 355,
-    "mid": 6.37
+    "mid": 8.44
    },
    "latest": {
-    "mins_to_off": 85,
-    "mid": 6.5,
-    "spread_pct": 3.1
+    "mins_to_off": 10,
+    "mid": 8.69,
+    "spread_pct": 6.9
    },
-   "move_pct": 2.0,
+   "move_pct": 3.0,
    "band": [
-    5,
-    8
+    8,
+    13
    ],
    "percentile": 54,
    "notable": false
@@ -6002,22 +6046,22 @@
    "slug": "kelso-1755",
    "venue": "Kelso",
    "off_utc": "2026-09-16T17:55:00Z",
-   "runner": "Going On",
+   "runner": "Arc Kunoichi",
    "first": {
     "mins_to_off": 355,
-    "mid": 3.45
+    "mid": 12.32
    },
    "latest": {
-    "mins_to_off": 130,
-    "mid": 3.45,
-    "spread_pct": 5.8
+    "mins_to_off": 10,
+    "mid": 12.71,
+    "spread_pct": 11.7
    },
-   "move_pct": 0.0,
+   "move_pct": 3.1,
    "band": [
-    3,
-    5
+    8,
+    13
    ],
-   "percentile": 46,
+   "percentile": 54,
    "notable": false
   },
   {
@@ -6065,91 +6109,47 @@
    "notable": false
   },
   {
-   "slug": "beverley-1650",
-   "venue": "Beverley",
-   "off_utc": "2026-09-16T16:50:00Z",
-   "runner": "Evelyn's Phoenix",
+   "slug": "sandown-1610",
+   "venue": "Sandown",
+   "off_utc": "2026-09-16T16:10:00Z",
+   "runner": "Mohaab",
    "first": {
-    "mins_to_off": 350,
-    "mid": 5.75
+    "mins_to_off": 355,
+    "mid": 6.5
    },
    "latest": {
-    "mins_to_off": 65,
-    "mid": 5.85,
-    "spread_pct": 1.7
+    "mins_to_off": 10,
+    "mid": 6.5,
+    "spread_pct": 3.1
    },
-   "move_pct": 1.8,
+   "move_pct": 0.0,
    "band": [
     5,
     8
-   ],
-   "percentile": 53,
-   "notable": false
-  },
-  {
-   "slug": "clonmel-1743",
-   "venue": "Clonmel",
-   "off_utc": "2026-09-16T17:43:00Z",
-   "runner": "Jabbar",
-   "first": {
-    "mins_to_off": 358,
-    "mid": 41.67
-   },
-   "latest": {
-    "mins_to_off": 118,
-    "mid": 39.6,
-    "spread_pct": 20.4
-   },
-   "move_pct": -5.0,
-   "band": [
-    35,
-    100
    ],
    "percentile": 47,
    "notable": false
   },
   {
-   "slug": "kelso-1755",
-   "venue": "Kelso",
-   "off_utc": "2026-09-16T17:55:00Z",
-   "runner": "Arc Kunoichi",
+   "slug": "beverley-1620",
+   "venue": "Beverley",
+   "off_utc": "2026-09-16T16:20:00Z",
+   "runner": "Golden Samba",
    "first": {
-    "mins_to_off": 355,
-    "mid": 12.32
+    "mins_to_off": 350,
+    "mid": 20.81
    },
    "latest": {
-    "mins_to_off": 130,
-    "mid": 12.63,
-    "spread_pct": 19.9
+    "mins_to_off": 5,
+    "mid": 21.48,
+    "spread_pct": 4.5
    },
-   "move_pct": 2.5,
+   "move_pct": 3.2,
    "band": [
-    8,
-    13
+    20,
+    35
    ],
-   "percentile": 53,
-   "notable": false
-  },
-  {
-   "slug": "clonmel-1813",
-   "venue": "Clonmel",
-   "off_utc": "2026-09-16T18:13:00Z",
-   "runner": "Miss Gitana",
-   "first": {
-    "mins_to_off": 358,
-    "mid": 16.45
-   },
-   "latest": {
-    "mins_to_off": 148,
-    "mid": 17.21,
-    "spread_pct": 8.6
-   },
-   "move_pct": 4.6,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 53,
+   "percentile": 47,
    "notable": false
   },
   {
@@ -6219,6 +6219,28 @@
    "notable": false
   },
   {
+   "slug": "clonmel-1605",
+   "venue": "Clonmel",
+   "off_utc": "2026-09-16T16:05:00Z",
+   "runner": "Queen Of Astolat",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 57.97
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 57.31,
+    "spread_pct": 8.6
+   },
+   "move_pct": -1.1,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 52,
+   "notable": false
+  },
+  {
    "slug": "sandown-1505",
    "venue": "Sandown",
    "off_utc": "2026-09-16T15:05:00Z",
@@ -6260,50 +6282,6 @@
     13
    ],
    "percentile": 49,
-   "notable": false
-  },
-  {
-   "slug": "kelso-1625",
-   "venue": "Kelso",
-   "off_utc": "2026-09-16T16:25:00Z",
-   "runner": "Loriko",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 1.77
-   },
-   "latest": {
-    "mins_to_off": 40,
-    "mid": 1.79,
-    "spread_pct": 0.6
-   },
-   "move_pct": 1.2,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 51,
-   "notable": false
-  },
-  {
-   "slug": "beverley-1650",
-   "venue": "Beverley",
-   "off_utc": "2026-09-16T16:50:00Z",
-   "runner": "Abu Royal",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 8.78
-   },
-   "latest": {
-    "mins_to_off": 65,
-    "mid": 8.9,
-    "spread_pct": 2.2
-   },
-   "move_pct": 1.3,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 51,
    "notable": false
   },
   {
@@ -6373,23 +6351,23 @@
    "notable": false
   },
   {
-   "slug": "yarmouth-1615",
-   "venue": "Yarmouth",
-   "off_utc": "2026-09-16T16:15:00Z",
-   "runner": "Ironist",
+   "slug": "clonmel-1605",
+   "venue": "Clonmel",
+   "off_utc": "2026-09-16T16:05:00Z",
+   "runner": "Ella's Gold",
    "first": {
-    "mins_to_off": 360,
-    "mid": 13.93
+    "mins_to_off": 350,
+    "mid": 9.39
    },
    "latest": {
-    "mins_to_off": 30,
-    "mid": 14.24,
-    "spread_pct": 3.4
+    "mins_to_off": 5,
+    "mid": 9.5,
+    "spread_pct": 2.1
    },
-   "move_pct": 2.3,
+   "move_pct": 1.1,
    "band": [
-    13,
-    20
+    8,
+    13
    ],
    "percentile": 50,
    "notable": false
@@ -6404,11 +6382,33 @@
     "mid": 13.21
    },
    "latest": {
-    "mins_to_off": 118,
+    "mins_to_off": 13,
     "mid": 13.49,
     "spread_pct": 7.4
    },
    "move_pct": 2.1,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 50,
+   "notable": false
+  },
+  {
+   "slug": "clonmel-1813",
+   "venue": "Clonmel",
+   "off_utc": "2026-09-16T18:13:00Z",
+   "runner": "Piatra Neamt",
+   "first": {
+    "mins_to_off": 358,
+    "mid": 19.49
+   },
+   "latest": {
+    "mins_to_off": 13,
+    "mid": 19.96,
+    "spread_pct": 10.0
+   },
+   "move_pct": 2.4,
    "band": [
     13,
     20
