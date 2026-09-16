@@ -1,0 +1,105 @@
+# Vigia EXTERNO do mazetick — o "dead man's switch".
+#
+# POR QUE EXISTE
+# O watchdog rico (check_collectors.sh) roda no mazeserver, que fica atrás da
+# rede de uma casa. Em 2026-09-15 essa rede caiu por horas: a coleta continuou
+# normalmente no bspnode, mas NADA estava vigiando, e ninguém teria sido avisado
+# se ela tivesse parado. Vigia dentro da máquina vigiada não detecta silêncio —
+# e vigia atrás de um link doméstico também não.
+#
+# Este roda na infraestrutura do GitHub e não depende de nenhuma máquina nossa.
+# Ele NÃO substitui o de dentro: não vê disco, nem backup, nem coletor
+# individual. Ele vê o que o LEITOR vê, que é o que o produto promete.
+#
+# ⚠️ O tópico do ntfy vem de um segredo do repositório. Este repo é público:
+# tópico em texto claro deixaria qualquer um mandar alerta falso ou ler os
+# nossos.
+
+name: watchdog
+
+on:
+  schedule:
+    - cron: "17 * * * *"    # de hora em hora; minuto 17 para fugir do pico
+  workflow_dispatch:
+    inputs:
+      forcar_falha:
+        description: "Forca a falha, para provar que o alarme dispara (regra 2)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  vigia:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Conferir site e frescor do dado
+        id: check
+        env:
+          FORCAR: ${{ inputs.forcar_falha }}
+        run: |
+          set -uo pipefail
+          BASE=https://raw.githubusercontent.com/${{ github.repository }}/main/data
+          problemas=()
+          hora=$(date -u +%-H)
+
+          # ---------------------------------------------------- 1. o site responde
+          codigo=$(curl -s -o /dev/null -m 25 -w "%{http_code}" https://mazetick.com/ || echo "000")
+          if [ "$codigo" != "200" ]; then
+            problemas+=("mazetick.com devolveu HTTP $codigo")
+          else
+            echo "OK  site .................. 200"
+          fi
+
+          # ------------------------------------------- 2. o dado publicado e' fresco
+          # Coletores rodam 06-21 UTC. Fora de 08-23 o vao e' legitimo e nao se olha.
+          # Limiar de 7h: o maior intervalo entre execucoes na janela e' 5h30.
+          for arq in extra-places movers; do
+            corpo=$(curl -fsS -m 25 "$BASE/$arq.json" || echo "")
+            if [ -z "$corpo" ]; then
+              problemas+=("$arq.json inacessivel no GitHub")
+              continue
+            fi
+            ct=$(printf '%s' "$corpo" | python3 -c "import json,sys; print(json.load(sys.stdin).get('collected_through') or '')" 2>/dev/null || echo "")
+            n=$(printf '%s' "$corpo" | python3 -c "import json,sys; d=json.load(sys.stdin); print(len(d.get('races') or d.get('runners') or []))" 2>/dev/null || echo "0")
+            if [ -z "$ct" ]; then
+              problemas+=("$arq.json sem collected_through — contrato quebrado ou coleta ausente")
+              continue
+            fi
+            idade=$(( ( $(date -u +%s) - $(date -u -d "$ct" +%s) ) / 60 ))
+            if [ "$hora" -ge 8 ] && [ "$hora" -le 23 ] && [ "$idade" -gt 420 ]; then
+              problemas+=("$arq.json coletado ha $((idade/60))h — a pagina mostra dado velho com cara de dado bom")
+            else
+              echo "OK  $arq ... coletado ha ${idade} min, $n itens"
+            fi
+          done
+
+          if [ "${FORCAR:-false}" = "true" ]; then
+            problemas+=("TESTE MANUAL — este alerta foi forcado de proposito, ignore")
+          fi
+
+          if [ ${#problemas[@]} -eq 0 ]; then
+            echo "resumo=tudo certo" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          printf 'PROBLEMA: %s\n' "${problemas[@]}"
+          { echo "msg<<FIM"; printf '%s\n' "${problemas[@]}"; echo "FIM"; } >> "$GITHUB_OUTPUT"
+          exit 1
+
+      - name: Avisar no ntfy
+        if: failure()
+        env:
+          TOPICO: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          if [ -z "${TOPICO:-}" ]; then
+            echo "::warning::NTFY_TOPIC nao configurado — alarme silencioso"
+            exit 0
+          fi
+          corpo="${{ steps.check.outputs.msg }}"
+          [ -z "$corpo" ] && corpo="watchdog externo falhou antes de diagnosticar"
+          link="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          curl -s -m 15 -H "Title: mazetick VIGIA EXTERNO" -H "Priority: high" \
+               -d "$(printf '%s\n\n%s' "$corpo" "$link")" \
+               "https://ntfy.sh/$TOPICO" > /dev/null
+          echo "alerta enviado"
