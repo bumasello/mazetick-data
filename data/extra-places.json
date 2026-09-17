@@ -1,10 +1,10 @@
 {
  "schema": "extra_places_v1",
- "generated_at": "2026-09-17T16:00:02Z",
+ "generated_at": "2026-09-17T21:30:01Z",
  "source": "Paddy Power public race pages",
  "note": "'extra_place' compares the bookmaker's offer with the bookmaker's own ladder, derived from our collection — not with the classic each-way table, which it does not follow.",
  "ladder_days": 12,
- "collected_through": "2026-09-17T15:00:01Z",
+ "collected_through": "2026-09-17T21:00:01Z",
  "races": [
   {
    "slug": "ayr-1230",
@@ -1366,20 +1366,20 @@
    "name": "1m2f Hcap",
    "handicap": true,
    "each_way": true,
-   "field_size": 14,
+   "field_size": 13,
    "terms": {
     "places": 4,
     "fraction": [
      1,
      5
     ],
-    "bog": false
+    "bog": true
    },
    "house_standard": {
     "places": 3,
     "fraction": [
      1,
-     4
+     5
     ]
    },
    "extra_place": true,
@@ -1396,6 +1396,15 @@
     {
      "at": "2026-09-16T09:00:01Z",
      "field_size": 14,
+     "places": 4,
+     "fraction": [
+      1,
+      5
+     ]
+    },
+    {
+     "at": "2026-09-17T16:00:02Z",
+     "field_size": 13,
      "places": 4,
      "fraction": [
       1,
@@ -3478,20 +3487,20 @@
    "name": "1m1f Hcap",
    "handicap": true,
    "each_way": true,
-   "field_size": 10,
+   "field_size": 9,
    "terms": {
-    "places": 3,
+    "places": 2,
     "fraction": [
      1,
-     5
+     4
     ],
-    "bog": false
+    "bog": true
    },
    "house_standard": {
-    "places": 3,
+    "places": 2,
     "fraction": [
      1,
-     5
+     4
     ]
    },
    "extra_place": false,
@@ -3503,6 +3512,15 @@
      "fraction": [
       1,
       5
+     ]
+    },
+    {
+     "at": "2026-09-17T17:00:01Z",
+     "field_size": 9,
+     "places": 2,
+     "fraction": [
+      1,
+      4
      ]
     }
    ]

@@ -1,6 +1,6 @@
 {
  "schema": "movers_v1",
- "generated_at": "2026-09-17T16:00:02Z",
+ "generated_at": "2026-09-17T21:30:01Z",
  "source": "Smarkets public order book",
  "note": "'percentile' is where this move sits among all moves we have measured for runners opening at a similar price. The median move is near zero in every band; what changes with price is the spread of outcomes.",
  "baseline": {
@@ -78,7 +78,7 @@
    }
   ]
  },
- "collected_through": "2026-09-17T15:45:01Z",
+ "collected_through": "2026-09-17T21:15:01Z",
  "runners": [
   {
    "slug": "ayr-1430",
@@ -122,6 +122,28 @@
     8
    ],
    "percentile": 0,
+   "notable": true
+  },
+  {
+   "slug": "naas-1632",
+   "venue": "Naas",
+   "off_utc": "2026-09-17T16:32:00Z",
+   "runner": "Vienna Waltz",
+   "first": {
+    "mins_to_off": 347,
+    "mid": 4.11
+   },
+   "latest": {
+    "mins_to_off": 2,
+    "mid": 10.14,
+    "spread_pct": 6.9
+   },
+   "move_pct": 147.0,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 100,
    "notable": true
   },
   {
@@ -414,17 +436,39 @@
    "slug": "naas-1632",
    "venue": "Naas",
    "off_utc": "2026-09-17T16:32:00Z",
-   "runner": "Vienna Waltz",
+   "runner": "Nouveau Grey",
    "first": {
     "mins_to_off": 347,
-    "mid": 4.11
+    "mid": 9.97
    },
    "latest": {
-    "mins_to_off": 47,
-    "mid": 6.89,
-    "spread_pct": 8.7
+    "mins_to_off": 2,
+    "mid": 5.2,
+    "spread_pct": 3.8
    },
-   "move_pct": 67.7,
+   "move_pct": -47.9,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 1,
+   "notable": true
+  },
+  {
+   "slug": "southwell-1700",
+   "venue": "Southwell",
+   "off_utc": "2026-09-17T17:00:00Z",
+   "runner": "Storm Force Ten",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 3.17
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 5.25,
+    "spread_pct": 1.9
+   },
+   "move_pct": 65.8,
    "band": [
     3,
     5
@@ -565,23 +609,23 @@
    "notable": true
   },
   {
-   "slug": "naas-1632",
-   "venue": "Naas",
-   "off_utc": "2026-09-17T16:32:00Z",
-   "runner": "Nouveau Grey",
+   "slug": "pontefract-1608",
+   "venue": "Pontefract",
+   "off_utc": "2026-09-17T16:08:00Z",
+   "runner": "Sunny Orange",
    "first": {
-    "mins_to_off": 347,
-    "mid": 9.97
+    "mins_to_off": 353,
+    "mid": 7.69
    },
    "latest": {
-    "mins_to_off": 47,
-    "mid": 5.75,
-    "spread_pct": 5.2
+    "mins_to_off": 8,
+    "mid": 4.65,
+    "spread_pct": 2.1
    },
-   "move_pct": -42.4,
+   "move_pct": -39.5,
    "band": [
-    8,
-    13
+    5,
+    8
    ],
    "percentile": 2,
    "notable": true
@@ -763,23 +807,23 @@
    "notable": true
   },
   {
-   "slug": "ayr-1601",
-   "venue": "Ayr",
-   "off_utc": "2026-09-17T16:01:00Z",
-   "runner": "Golden West",
+   "slug": "southwell-1900",
+   "venue": "Southwell",
+   "off_utc": "2026-09-17T19:00:00Z",
+   "runner": "One For Harvey",
    "first": {
-    "mins_to_off": 346,
-    "mid": 9.9
+    "mins_to_off": 360,
+    "mid": 7.6
    },
    "latest": {
-    "mins_to_off": 16,
-    "mid": 6.19,
-    "spread_pct": 6.5
+    "mins_to_off": 0,
+    "mid": 4.85,
+    "spread_pct": 2.0
    },
-   "move_pct": -37.4,
+   "move_pct": -36.2,
    "band": [
-    8,
-    13
+    5,
+    8
    ],
    "percentile": 3,
    "notable": true
@@ -1049,23 +1093,45 @@
    "notable": true
   },
   {
-   "slug": "yarmouth-1615",
-   "venue": "Yarmouth",
-   "off_utc": "2026-09-17T16:15:00Z",
-   "runner": "Mountain Of Light",
+   "slug": "ayr-1601",
+   "venue": "Ayr",
+   "off_utc": "2026-09-17T16:01:00Z",
+   "runner": "Pearl Eye",
    "first": {
-    "mins_to_off": 360,
-    "mid": 9.69
+    "mins_to_off": 346,
+    "mid": 17.95
    },
    "latest": {
-    "mins_to_off": 30,
-    "mid": 6.39,
-    "spread_pct": 6.3
+    "mins_to_off": 1,
+    "mid": 10.98,
+    "spread_pct": 9.0
    },
-   "move_pct": -34.0,
+   "move_pct": -38.9,
    "band": [
-    8,
-    13
+    13,
+    20
+   ],
+   "percentile": 4,
+   "notable": true
+  },
+  {
+   "slug": "southwell-1730",
+   "venue": "Southwell",
+   "off_utc": "2026-09-17T17:30:00Z",
+   "runner": "Leo Cee",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 49.63
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 20.66,
+    "spread_pct": 12.0
+   },
+   "move_pct": -58.4,
+   "band": [
+    35,
+    100
    ],
    "percentile": 4,
    "notable": true
@@ -1181,23 +1247,89 @@
    "notable": true
   },
   {
-   "slug": "southwell-1625",
+   "slug": "southwell-1800",
    "venue": "Southwell",
-   "off_utc": "2026-09-17T16:25:00Z",
-   "runner": "Dojin",
+   "off_utc": "2026-09-17T18:00:00Z",
+   "runner": "Cool Molly",
    "first": {
-    "mins_to_off": 355,
-    "mid": 5.88
+    "mins_to_off": 360,
+    "mid": 4.84
    },
    "latest": {
-    "mins_to_off": 40,
-    "mid": 8.38,
-    "spread_pct": 9.6
+    "mins_to_off": 0,
+    "mid": 6.79,
+    "spread_pct": 5.8
    },
-   "move_pct": 42.5,
+   "move_pct": 40.2,
    "band": [
-    5,
-    8
+    3,
+    5
+   ],
+   "percentile": 95,
+   "notable": true
+  },
+  {
+   "slug": "southwell-1830",
+   "venue": "Southwell",
+   "off_utc": "2026-09-17T18:30:00Z",
+   "runner": "Palmarian",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 18.08
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 30.72,
+    "spread_pct": 19.5
+   },
+   "move_pct": 69.9,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 95,
+   "notable": true
+  },
+  {
+   "slug": "yarmouth-1615",
+   "venue": "Yarmouth",
+   "off_utc": "2026-09-17T16:15:00Z",
+   "runner": "Mountain Of Light",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 9.69
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 6.7,
+    "spread_pct": 2.9
+   },
+   "move_pct": -30.9,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 6,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1601",
+   "venue": "Ayr",
+   "off_utc": "2026-09-17T16:01:00Z",
+   "runner": "Northwest Passage",
+   "first": {
+    "mins_to_off": 346,
+    "mid": 10.91
+   },
+   "latest": {
+    "mins_to_off": 1,
+    "mid": 16.99,
+    "spread_pct": 6.0
+   },
+   "move_pct": 55.7,
+   "band": [
+    8,
+    13
    ],
    "percentile": 94,
    "notable": false
@@ -1335,23 +1467,89 @@
    "notable": false
   },
   {
-   "slug": "yarmouth-1615",
-   "venue": "Yarmouth",
-   "off_utc": "2026-09-17T16:15:00Z",
-   "runner": "Forever Endless",
+   "slug": "pontefract-1608",
+   "venue": "Pontefract",
+   "off_utc": "2026-09-17T16:08:00Z",
+   "runner": "Hill O Rue",
    "first": {
-    "mins_to_off": 360,
-    "mid": 69.69
+    "mins_to_off": 353,
+    "mid": 52.49
    },
    "latest": {
-    "mins_to_off": 30,
-    "mid": 34.78,
-    "spread_pct": 17.2
+    "mins_to_off": 8,
+    "mid": 26.42,
+    "spread_pct": 11.4
    },
-   "move_pct": -50.1,
+   "move_pct": -49.7,
    "band": [
     35,
     100
+   ],
+   "percentile": 7,
+   "notable": false
+  },
+  {
+   "slug": "naas-1632",
+   "venue": "Naas",
+   "off_utc": "2026-09-17T16:32:00Z",
+   "runner": "Raygani",
+   "first": {
+    "mins_to_off": 347,
+    "mid": 16.95
+   },
+   "latest": {
+    "mins_to_off": 2,
+    "mid": 26.42,
+    "spread_pct": 11.4
+   },
+   "move_pct": 55.9,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 93,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1700",
+   "venue": "Southwell",
+   "off_utc": "2026-09-17T17:00:00Z",
+   "runner": "Bullrider",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 4.44
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 3.5,
+    "spread_pct": 2.9
+   },
+   "move_pct": -21.3,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 7,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1930",
+   "venue": "Southwell",
+   "off_utc": "2026-09-17T19:30:00Z",
+   "runner": "The Pug",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 8.69
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 6.19,
+    "spread_pct": 6.5
+   },
+   "move_pct": -28.7,
+   "band": [
+    8,
+    13
    ],
    "percentile": 7,
    "notable": false
@@ -1467,25 +1665,69 @@
    "notable": false
   },
   {
-   "slug": "naas-1632",
-   "venue": "Naas",
-   "off_utc": "2026-09-17T16:32:00Z",
-   "runner": "Champion Basma",
+   "slug": "yarmouth-1615",
+   "venue": "Yarmouth",
+   "off_utc": "2026-09-17T16:15:00Z",
+   "runner": "Forever Endless",
    "first": {
-    "mins_to_off": 347,
-    "mid": 90.91
+    "mins_to_off": 360,
+    "mid": 69.69
    },
    "latest": {
-    "mins_to_off": 47,
-    "mid": 46.3,
-    "spread_pct": 62.6
+    "mins_to_off": 0,
+    "mid": 36.76,
+    "spread_pct": 16.3
    },
-   "move_pct": -49.1,
+   "move_pct": -47.2,
    "band": [
     35,
     100
    ],
    "percentile": 8,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1601",
+   "venue": "Ayr",
+   "off_utc": "2026-09-17T16:01:00Z",
+   "runner": "Elsass",
+   "first": {
+    "mins_to_off": 346,
+    "mid": 7.58
+   },
+   "latest": {
+    "mins_to_off": 1,
+    "mid": 5.7,
+    "spread_pct": 3.5
+   },
+   "move_pct": -24.8,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 8,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1830",
+   "venue": "Southwell",
+   "off_utc": "2026-09-17T18:30:00Z",
+   "runner": "Aspull",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 22.32
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 38.76,
+    "spread_pct": 15.6
+   },
+   "move_pct": 73.6,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 92,
    "notable": false
   },
   {
@@ -1775,6 +2017,94 @@
    "notable": false
   },
   {
+   "slug": "yarmouth-1615",
+   "venue": "Yarmouth",
+   "off_utc": "2026-09-17T16:15:00Z",
+   "runner": "New Bay Star",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 47.96
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 25.97,
+    "spread_pct": 7.8
+   },
+   "move_pct": -45.8,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 9,
+   "notable": false
+  },
+  {
+   "slug": "naas-1632",
+   "venue": "Naas",
+   "off_utc": "2026-09-17T16:32:00Z",
+   "runner": "Miss Hong Kong",
+   "first": {
+    "mins_to_off": 347,
+    "mid": 5.55
+   },
+   "latest": {
+    "mins_to_off": 2,
+    "mid": 4.25,
+    "spread_pct": 2.3
+   },
+   "move_pct": -23.4,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 9,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1830",
+   "venue": "Southwell",
+   "off_utc": "2026-09-17T18:30:00Z",
+   "runner": "Ernie's Valentine",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 8.3
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 6.1,
+    "spread_pct": 3.3
+   },
+   "move_pct": -26.6,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 9,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1900",
+   "venue": "Southwell",
+   "off_utc": "2026-09-17T19:00:00Z",
+   "runner": "Hvar",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 12.98
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 18.23,
+    "spread_pct": 8.2
+   },
+   "move_pct": 40.5,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 91,
+   "notable": false
+  },
+  {
    "slug": "ayr-1330",
    "venue": "Ayr",
    "off_utc": "2026-09-17T13:30:00Z",
@@ -1951,69 +2281,25 @@
    "notable": false
   },
   {
-   "slug": "yarmouth-1615",
-   "venue": "Yarmouth",
-   "off_utc": "2026-09-17T16:15:00Z",
-   "runner": "Timely Affair",
+   "slug": "southwell-1625",
+   "venue": "Southwell",
+   "off_utc": "2026-09-17T16:25:00Z",
+   "runner": "Dojin",
    "first": {
-    "mins_to_off": 360,
-    "mid": 7.69
+    "mins_to_off": 355,
+    "mid": 5.88
    },
    "latest": {
-    "mins_to_off": 30,
-    "mid": 10.25,
-    "spread_pct": 4.9
+    "mins_to_off": 10,
+    "mid": 7.79,
+    "spread_pct": 5.1
    },
-   "move_pct": 33.2,
+   "move_pct": 32.5,
    "band": [
     5,
     8
    ],
    "percentile": 90,
-   "notable": false
-  },
-  {
-   "slug": "ayr-1601",
-   "venue": "Ayr",
-   "off_utc": "2026-09-17T16:01:00Z",
-   "runner": "Minstrel Knight",
-   "first": {
-    "mins_to_off": 346,
-    "mid": 8.38
-   },
-   "latest": {
-    "mins_to_off": 16,
-    "mid": 6.19,
-    "spread_pct": 6.5
-   },
-   "move_pct": -26.1,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 10,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1900",
-   "venue": "Southwell",
-   "off_utc": "2026-09-17T19:00:00Z",
-   "runner": "Tommie's Angel",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 49.51
-   },
-   "latest": {
-    "mins_to_off": 195,
-    "mid": 27.43,
-    "spread_pct": 29.4
-   },
-   "move_pct": -44.6,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 10,
    "notable": false
   },
   {
@@ -2215,23 +2501,67 @@
    "notable": false
   },
   {
-   "slug": "southwell-1830",
-   "venue": "Southwell",
-   "off_utc": "2026-09-17T18:30:00Z",
-   "runner": "Dolo's Star",
+   "slug": "yarmouth-1615",
+   "venue": "Yarmouth",
+   "off_utc": "2026-09-17T16:15:00Z",
+   "runner": "Guest House",
    "first": {
-    "mins_to_off": 345,
-    "mid": 93.46
+    "mins_to_off": 360,
+    "mid": 10.7
    },
    "latest": {
-    "mins_to_off": 165,
-    "mid": 54.05,
-    "spread_pct": 47.9
+    "mins_to_off": 0,
+    "mid": 14.48,
+    "spread_pct": 6.8
    },
-   "move_pct": -42.2,
+   "move_pct": 35.4,
    "band": [
-    35,
-    100
+    8,
+    13
+   ],
+   "percentile": 89,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1601",
+   "venue": "Ayr",
+   "off_utc": "2026-09-17T16:01:00Z",
+   "runner": "Ashnak",
+   "first": {
+    "mins_to_off": 346,
+    "mid": 4.64
+   },
+   "latest": {
+    "mins_to_off": 1,
+    "mid": 5.9,
+    "spread_pct": 3.4
+   },
+   "move_pct": 27.2,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 89,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1700",
+   "venue": "Southwell",
+   "off_utc": "2026-09-17T17:00:00Z",
+   "runner": "Cool King",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 3.63
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 2.98,
+    "spread_pct": 1.3
+   },
+   "move_pct": -18.0,
+   "band": [
+    3,
+    5
    ],
    "percentile": 11,
    "notable": false
@@ -2369,23 +2699,23 @@
    "notable": false
   },
   {
-   "slug": "pontefract-1608",
-   "venue": "Pontefract",
-   "off_utc": "2026-09-17T16:08:00Z",
-   "runner": "Hill O Rue",
+   "slug": "naas-1632",
+   "venue": "Naas",
+   "off_utc": "2026-09-17T16:32:00Z",
+   "runner": "First Watch",
    "first": {
-    "mins_to_off": 353,
-    "mid": 52.49
+    "mins_to_off": 347,
+    "mid": 9.9
    },
    "latest": {
-    "mins_to_off": 23,
-    "mid": 31.3,
-    "spread_pct": 16.1
+    "mins_to_off": 2,
+    "mid": 7.5,
+    "spread_pct": 2.6
    },
-   "move_pct": -40.4,
+   "move_pct": -24.3,
    "band": [
-    35,
-    100
+    8,
+    13
    ],
    "percentile": 12,
    "notable": false
@@ -2589,25 +2919,47 @@
    "notable": false
   },
   {
-   "slug": "southwell-1730",
-   "venue": "Southwell",
-   "off_utc": "2026-09-17T17:30:00Z",
-   "runner": "Sayidah Iffraaj",
+   "slug": "naas-1632",
+   "venue": "Naas",
+   "off_utc": "2026-09-17T16:32:00Z",
+   "runner": "Boxwood Hill",
    "first": {
-    "mins_to_off": 360,
-    "mid": 18.94
+    "mins_to_off": 347,
+    "mid": 50.51
    },
    "latest": {
-    "mins_to_off": 105,
-    "mid": 26.25,
-    "spread_pct": 19.1
+    "mins_to_off": 17,
+    "mid": 71.68,
+    "spread_pct": 21.0
    },
-   "move_pct": 38.6,
+   "move_pct": 41.9,
    "band": [
-    13,
-    20
+    35,
+    100
    ],
    "percentile": 87,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1700",
+   "venue": "Southwell",
+   "off_utc": "2026-09-17T17:00:00Z",
+   "runner": "Galactic Affair",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 31.6
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 22.83,
+    "spread_pct": 17.5
+   },
+   "move_pct": -27.7,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 13,
    "notable": false
   },
   {
@@ -2743,23 +3095,45 @@
    "notable": false
   },
   {
-   "slug": "ayr-1601",
-   "venue": "Ayr",
-   "off_utc": "2026-09-17T16:01:00Z",
-   "runner": "Azahara Palace",
+   "slug": "southwell-1900",
+   "venue": "Southwell",
+   "off_utc": "2026-09-17T19:00:00Z",
+   "runner": "Phoenix Beach",
    "first": {
-    "mins_to_off": 346,
-    "mid": 25.64
+    "mins_to_off": 360,
+    "mid": 5.35
    },
    "latest": {
-    "mins_to_off": 16,
-    "mid": 18.94,
-    "spread_pct": 10.6
+    "mins_to_off": 0,
+    "mid": 6.7,
+    "spread_pct": 2.9
    },
-   "move_pct": -26.1,
+   "move_pct": 25.3,
    "band": [
-    20,
-    35
+    5,
+    8
+   ],
+   "percentile": 86,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1930",
+   "venue": "Southwell",
+   "off_utc": "2026-09-17T19:30:00Z",
+   "runner": "Spec Of Light",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 8.29
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 6.5,
+    "spread_pct": 3.1
+   },
+   "move_pct": -21.6,
+   "band": [
+    8,
+    13
    ],
    "percentile": 14,
    "notable": false
@@ -2853,20 +3227,42 @@
    "notable": false
   },
   {
-   "slug": "yarmouth-1615",
-   "venue": "Yarmouth",
-   "off_utc": "2026-09-17T16:15:00Z",
-   "runner": "New Bay Star",
+   "slug": "naas-1632",
+   "venue": "Naas",
+   "off_utc": "2026-09-17T16:32:00Z",
+   "runner": "Johntom",
    "first": {
-    "mins_to_off": 360,
-    "mid": 47.96
+    "mins_to_off": 347,
+    "mid": 21.25
    },
    "latest": {
-    "mins_to_off": 30,
-    "mid": 29.9,
-    "spread_pct": 13.5
+    "mins_to_off": 2,
+    "mid": 31.3,
+    "spread_pct": 16.1
    },
-   "move_pct": -37.7,
+   "move_pct": 47.3,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 85,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1830",
+   "venue": "Southwell",
+   "off_utc": "2026-09-17T18:30:00Z",
+   "runner": "Nordic Norm",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 40.49
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 25.41,
+    "spread_pct": 12.0
+   },
+   "move_pct": -37.2,
    "band": [
     35,
     100
@@ -2875,25 +3271,25 @@
    "notable": false
   },
   {
-   "slug": "naas-1632",
-   "venue": "Naas",
-   "off_utc": "2026-09-17T16:32:00Z",
-   "runner": "Raqi",
+   "slug": "southwell-1900",
+   "venue": "Southwell",
+   "off_utc": "2026-09-17T19:00:00Z",
+   "runner": "Mademoiselle Belle",
    "first": {
-    "mins_to_off": 347,
-    "mid": 8.24
+    "mins_to_off": 360,
+    "mid": 30.12
    },
    "latest": {
-    "mins_to_off": 47,
-    "mid": 10.7,
-    "spread_pct": 14.0
+    "mins_to_off": 0,
+    "mid": 22.4,
+    "spread_pct": 13.3
    },
-   "move_pct": 29.8,
+   "move_pct": -25.6,
    "band": [
-    8,
-    13
+    20,
+    35
    ],
-   "percentile": 85,
+   "percentile": 15,
    "notable": false
   },
   {
@@ -3112,6 +3508,72 @@
    "band": [
     13,
     20
+   ],
+   "percentile": 84,
+   "notable": false
+  },
+  {
+   "slug": "pontefract-1608",
+   "venue": "Pontefract",
+   "off_utc": "2026-09-17T16:08:00Z",
+   "runner": "Skinny Malinka",
+   "first": {
+    "mins_to_off": 353,
+    "mid": 17.44
+   },
+   "latest": {
+    "mins_to_off": 8,
+    "mid": 13.49,
+    "spread_pct": 7.4
+   },
+   "move_pct": -22.7,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 16,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1830",
+   "venue": "Southwell",
+   "off_utc": "2026-09-17T18:30:00Z",
+   "runner": "Dolo's Star",
+   "first": {
+    "mins_to_off": 345,
+    "mid": 93.46
+   },
+   "latest": {
+    "mins_to_off": 15,
+    "mid": 59.52,
+    "spread_pct": 16.8
+   },
+   "move_pct": -36.3,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 16,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1930",
+   "venue": "Southwell",
+   "off_utc": "2026-09-17T19:30:00Z",
+   "runner": "Glitter Code",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 7.89
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 9.69,
+    "spread_pct": 6.2
+   },
+   "move_pct": 22.9,
+   "band": [
+    5,
+    8
    ],
    "percentile": 84,
    "notable": false
@@ -3359,23 +3821,67 @@
    "notable": false
   },
   {
-   "slug": "ayr-1601",
-   "venue": "Ayr",
-   "off_utc": "2026-09-17T16:01:00Z",
-   "runner": "Ashnak",
+   "slug": "pontefract-1608",
+   "venue": "Pontefract",
+   "off_utc": "2026-09-17T16:08:00Z",
+   "runner": "Distinction",
    "first": {
-    "mins_to_off": 346,
-    "mid": 4.64
+    "mins_to_off": 353,
+    "mid": 22.22
    },
    "latest": {
-    "mins_to_off": 16,
-    "mid": 5.55,
-    "spread_pct": 1.8
+    "mins_to_off": 8,
+    "mid": 16.99,
+    "spread_pct": 6.0
    },
-   "move_pct": 19.7,
+   "move_pct": -23.5,
    "band": [
-    3,
-    5
+    20,
+    35
+   ],
+   "percentile": 17,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1730",
+   "venue": "Southwell",
+   "off_utc": "2026-09-17T17:30:00Z",
+   "runner": "Son Of Light",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 19.78
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 15.48,
+    "spread_pct": 6.5
+   },
+   "move_pct": -21.7,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 17,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1830",
+   "venue": "Southwell",
+   "off_utc": "2026-09-17T18:30:00Z",
+   "runner": "Age Of Baroque",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 8.8
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 11.24,
+    "spread_pct": 4.4
+   },
+   "move_pct": 27.8,
+   "band": [
+    8,
+    13
    ],
    "percentile": 83,
    "notable": false
@@ -3557,25 +4063,25 @@
    "notable": false
   },
   {
-   "slug": "southwell-1700",
-   "venue": "Southwell",
-   "off_utc": "2026-09-17T17:00:00Z",
-   "runner": "Nouva Stella",
+   "slug": "naas-1632",
+   "venue": "Naas",
+   "off_utc": "2026-09-17T16:32:00Z",
+   "runner": "Soldat",
    "first": {
-    "mins_to_off": 360,
-    "mid": 13.84
+    "mins_to_off": 347,
+    "mid": 8.24
    },
    "latest": {
-    "mins_to_off": 75,
-    "mid": 18.17,
-    "spread_pct": null
+    "mins_to_off": 2,
+    "mid": 6.7,
+    "spread_pct": 2.9
    },
-   "move_pct": 31.2,
+   "move_pct": -18.7,
    "band": [
-    13,
-    20
+    8,
+    13
    ],
-   "percentile": 82,
+   "percentile": 18,
    "notable": false
   },
   {
@@ -3711,23 +4217,89 @@
    "notable": false
   },
   {
-   "slug": "ayr-1601",
-   "venue": "Ayr",
-   "off_utc": "2026-09-17T16:01:00Z",
-   "runner": "Northwest Passage",
+   "slug": "yarmouth-1615",
+   "venue": "Yarmouth",
+   "off_utc": "2026-09-17T16:15:00Z",
+   "runner": "Timely Affair",
    "first": {
-    "mins_to_off": 346,
-    "mid": 10.91
+    "mins_to_off": 360,
+    "mid": 7.69
    },
    "latest": {
-    "mins_to_off": 16,
-    "mid": 13.75,
-    "spread_pct": 3.7
+    "mins_to_off": 0,
+    "mid": 9.2,
+    "spread_pct": 4.3
    },
-   "move_pct": 26.0,
+   "move_pct": 19.6,
    "band": [
-    8,
-    13
+    5,
+    8
+   ],
+   "percentile": 81,
+   "notable": false
+  },
+  {
+   "slug": "naas-1632",
+   "venue": "Naas",
+   "off_utc": "2026-09-17T16:32:00Z",
+   "runner": "Champion Basma",
+   "first": {
+    "mins_to_off": 347,
+    "mid": 90.91
+   },
+   "latest": {
+    "mins_to_off": 2,
+    "mid": 61.54,
+    "spread_pct": 24.4
+   },
+   "move_pct": -32.3,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 19,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1730",
+   "venue": "Southwell",
+   "off_utc": "2026-09-17T17:30:00Z",
+   "runner": "Don't Stop Movin",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 3.45
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 4.05,
+    "spread_pct": 2.5
+   },
+   "move_pct": 17.4,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 81,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1930",
+   "venue": "Southwell",
+   "off_utc": "2026-09-17T19:30:00Z",
+   "runner": "Golspie",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 2.79
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 3.15,
+    "spread_pct": 3.2
+   },
+   "move_pct": 12.9,
+   "band": [
+    1.5,
+    3
    ],
    "percentile": 81,
    "notable": false
@@ -3821,45 +4393,45 @@
    "notable": false
   },
   {
-   "slug": "naas-1632",
-   "venue": "Naas",
-   "off_utc": "2026-09-17T16:32:00Z",
-   "runner": "Soldat",
-   "first": {
-    "mins_to_off": 347,
-    "mid": 8.24
-   },
-   "latest": {
-    "mins_to_off": 47,
-    "mid": 6.89,
-    "spread_pct": 8.7
-   },
-   "move_pct": -16.4,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 20,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1930",
+   "slug": "southwell-1700",
    "venue": "Southwell",
-   "off_utc": "2026-09-17T19:30:00Z",
-   "runner": "Palazzo Persico",
+   "off_utc": "2026-09-17T17:00:00Z",
+   "runner": "Angel Of Heaven",
    "first": {
     "mins_to_off": 360,
-    "mid": 14.14
+    "mid": 18.23
    },
    "latest": {
-    "mins_to_off": 225,
-    "mid": 11.42,
-    "spread_pct": 17.5
+    "mins_to_off": 0,
+    "mid": 23.39,
+    "spread_pct": 12.9
    },
-   "move_pct": -19.3,
+   "move_pct": 28.3,
    "band": [
     13,
     20
+   ],
+   "percentile": 80,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1800",
+   "venue": "Southwell",
+   "off_utc": "2026-09-17T18:00:00Z",
+   "runner": "Indefensible",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 8.67
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 7.19,
+    "spread_pct": 5.6
+   },
+   "move_pct": -17.0,
+   "band": [
+    8,
+    13
    ],
    "percentile": 20,
    "notable": false
@@ -3931,23 +4503,67 @@
    "notable": false
   },
   {
-   "slug": "ayr-1601",
-   "venue": "Ayr",
-   "off_utc": "2026-09-17T16:01:00Z",
-   "runner": "Elsass",
+   "slug": "pontefract-1608",
+   "venue": "Pontefract",
+   "off_utc": "2026-09-17T16:08:00Z",
+   "runner": "Grindleton",
    "first": {
-    "mins_to_off": 346,
-    "mid": 7.58
+    "mins_to_off": 353,
+    "mid": 8.18
    },
    "latest": {
-    "mins_to_off": 16,
-    "mid": 8.9,
-    "spread_pct": 2.2
+    "mins_to_off": 8,
+    "mid": 6.9,
+    "spread_pct": 2.9
    },
-   "move_pct": 17.4,
+   "move_pct": -15.7,
    "band": [
-    5,
-    8
+    8,
+    13
+   ],
+   "percentile": 21,
+   "notable": false
+  },
+  {
+   "slug": "yarmouth-1615",
+   "venue": "Yarmouth",
+   "off_utc": "2026-09-17T16:15:00Z",
+   "runner": "Rusheen Boy",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 24.01
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 32.1,
+    "spread_pct": 21.8
+   },
+   "move_pct": 33.7,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 79,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1900",
+   "venue": "Southwell",
+   "off_utc": "2026-09-17T19:00:00Z",
+   "runner": "El Ghuwah",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 10.37
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 12.75,
+    "spread_pct": 4.0
+   },
+   "move_pct": 22.9,
+   "band": [
+    8,
+    13
    ],
    "percentile": 79,
    "notable": false
@@ -3994,6 +4610,28 @@
     35
    ],
    "percentile": 22,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1601",
+   "venue": "Ayr",
+   "off_utc": "2026-09-17T16:01:00Z",
+   "runner": "Humble Spark",
+   "first": {
+    "mins_to_off": 346,
+    "mid": 16.65
+   },
+   "latest": {
+    "mins_to_off": 1,
+    "mid": 20.94,
+    "spread_pct": 9.4
+   },
+   "move_pct": 25.8,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 78,
    "notable": false
   },
   {
@@ -4107,18 +4745,18 @@
    "notable": false
   },
   {
-   "slug": "ayr-1601",
-   "venue": "Ayr",
-   "off_utc": "2026-09-17T16:01:00Z",
-   "runner": "Pearl Eye",
+   "slug": "southwell-1625",
+   "venue": "Southwell",
+   "off_utc": "2026-09-17T16:25:00Z",
+   "runner": "New York Minute",
    "first": {
-    "mins_to_off": 346,
-    "mid": 17.95
+    "mins_to_off": 355,
+    "mid": 13.01
    },
    "latest": {
-    "mins_to_off": 16,
-    "mid": 22.4,
-    "spread_pct": 13.3
+    "mins_to_off": 10,
+    "mid": 16.22,
+    "spread_pct": 9.3
    },
    "move_pct": 24.7,
    "band": [
@@ -4126,28 +4764,6 @@
     20
    ],
    "percentile": 77,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1700",
-   "venue": "Southwell",
-   "off_utc": "2026-09-17T17:00:00Z",
-   "runner": "Galactic Affair",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 31.6
-   },
-   "latest": {
-    "mins_to_off": 75,
-    "mid": 26.42,
-    "spread_pct": 11.4
-   },
-   "move_pct": -16.4,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 23,
    "notable": false
   },
   {
@@ -4217,23 +4833,45 @@
    "notable": false
   },
   {
-   "slug": "southwell-1730",
-   "venue": "Southwell",
-   "off_utc": "2026-09-17T17:30:00Z",
-   "runner": "Leo Cee",
+   "slug": "ayr-1601",
+   "venue": "Ayr",
+   "off_utc": "2026-09-17T16:01:00Z",
+   "runner": "Golden West",
    "first": {
-    "mins_to_off": 360,
-    "mid": 49.63
+    "mins_to_off": 346,
+    "mid": 9.9
    },
    "latest": {
-    "mins_to_off": 105,
-    "mid": 61.35,
-    "spread_pct": 59.8
+    "mins_to_off": 1,
+    "mid": 8.6,
+    "spread_pct": 4.6
    },
-   "move_pct": 23.6,
+   "move_pct": -13.2,
    "band": [
-    35,
-    100
+    8,
+    13
+   ],
+   "percentile": 24,
+   "notable": false
+  },
+  {
+   "slug": "naas-1632",
+   "venue": "Naas",
+   "off_utc": "2026-09-17T16:32:00Z",
+   "runner": "Raqi",
+   "first": {
+    "mins_to_off": 347,
+    "mid": 8.24
+   },
+   "latest": {
+    "mins_to_off": 2,
+    "mid": 9.79,
+    "spread_pct": 4.1
+   },
+   "move_pct": 18.9,
+   "band": [
+    8,
+    13
    ],
    "percentile": 76,
    "notable": false
@@ -4415,25 +5053,91 @@
    "notable": false
   },
   {
-   "slug": "ayr-1601",
-   "venue": "Ayr",
-   "off_utc": "2026-09-17T16:01:00Z",
-   "runner": "Strassia",
+   "slug": "yarmouth-1615",
+   "venue": "Yarmouth",
+   "off_utc": "2026-09-17T16:15:00Z",
+   "runner": "Born A Rebel",
    "first": {
-    "mins_to_off": 346,
-    "mid": 46.3
+    "mins_to_off": 360,
+    "mid": 15.71
    },
    "latest": {
-    "mins_to_off": 16,
-    "mid": 56.5,
-    "spread_pct": 26.4
+    "mins_to_off": 0,
+    "mid": 13.49,
+    "spread_pct": 7.4
    },
-   "move_pct": 22.0,
+   "move_pct": -14.2,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 25,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1700",
+   "venue": "Southwell",
+   "off_utc": "2026-09-17T17:00:00Z",
+   "runner": "Solar Major",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 33.56
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 28.45,
+    "spread_pct": 10.6
+   },
+   "move_pct": -15.2,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 25,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1830",
+   "venue": "Southwell",
+   "off_utc": "2026-09-17T18:30:00Z",
+   "runner": "Sailor's Return",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 7.78
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 6.9,
+    "spread_pct": 2.9
+   },
+   "move_pct": -11.3,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 25,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1930",
+   "venue": "Southwell",
+   "off_utc": "2026-09-17T19:30:00Z",
+   "runner": "Cavalry Call",
+   "first": {
+    "mins_to_off": 135,
+    "mid": 99.01
+   },
+   "latest": {
+    "mins_to_off": 15,
+    "mid": 73.53,
+    "spread_pct": 26.9
+   },
+   "move_pct": -25.7,
    "band": [
     35,
     100
    ],
-   "percentile": 75,
+   "percentile": 25,
    "notable": false
   },
   {
@@ -4525,47 +5229,25 @@
    "notable": false
   },
   {
-   "slug": "southwell-1900",
+   "slug": "southwell-1830",
    "venue": "Southwell",
-   "off_utc": "2026-09-17T19:00:00Z",
-   "runner": "Mademoiselle Belle",
+   "off_utc": "2026-09-17T18:30:00Z",
+   "runner": "Dream Illusion",
    "first": {
     "mins_to_off": 360,
-    "mid": 30.12
+    "mid": 6.49
    },
    "latest": {
-    "mins_to_off": 195,
-    "mid": 25.84,
-    "spread_pct": 15.6
+    "mins_to_off": 0,
+    "mid": 5.8,
+    "spread_pct": 3.4
    },
-   "move_pct": -14.2,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 26,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1930",
-   "venue": "Southwell",
-   "off_utc": "2026-09-17T19:30:00Z",
-   "runner": "Power Of Prayer",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 6.89
-   },
-   "latest": {
-    "mins_to_off": 225,
-    "mid": 7.78,
-    "spread_pct": 10.2
-   },
-   "move_pct": 13.0,
+   "move_pct": -10.6,
    "band": [
     5,
     8
    ],
-   "percentile": 74,
+   "percentile": 26,
    "notable": false
   },
   {
@@ -4632,28 +5314,6 @@
     13
    ],
    "percentile": 73,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1830",
-   "venue": "Southwell",
-   "off_utc": "2026-09-17T18:30:00Z",
-   "runner": "Soames Forsyte",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 22.83
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 19.78,
-    "spread_pct": 20.2
-   },
-   "move_pct": -13.4,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 27,
    "notable": false
   },
   {
@@ -4789,28 +5449,6 @@
    "notable": false
   },
   {
-   "slug": "southwell-1730",
-   "venue": "Southwell",
-   "off_utc": "2026-09-17T17:30:00Z",
-   "runner": "Peaberry",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 4.07
-   },
-   "latest": {
-    "mins_to_off": 105,
-    "mid": 4.5,
-    "spread_pct": 4.5
-   },
-   "move_pct": 10.5,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 72,
-   "notable": false
-  },
-  {
    "slug": "ayr-1300",
    "venue": "Ayr",
    "off_utc": "2026-09-17T13:00:00Z",
@@ -4902,44 +5540,22 @@
    "slug": "yarmouth-1615",
    "venue": "Yarmouth",
    "off_utc": "2026-09-17T16:15:00Z",
-   "runner": "Man Of Desert",
+   "runner": "Dashing Dick",
    "first": {
     "mins_to_off": 360,
-    "mid": 29.5
+    "mid": 8.38
    },
    "latest": {
-    "mins_to_off": 30,
-    "mid": 26.42,
-    "spread_pct": 11.4
+    "mins_to_off": 0,
+    "mid": 7.5,
+    "spread_pct": 2.6
    },
-   "move_pct": -10.4,
+   "move_pct": -10.5,
    "band": [
-    20,
-    35
+    8,
+    13
    ],
    "percentile": 29,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1625",
-   "venue": "Southwell",
-   "off_utc": "2026-09-17T16:25:00Z",
-   "runner": "New York Minute",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 13.01
-   },
-   "latest": {
-    "mins_to_off": 40,
-    "mid": 15.43,
-    "spread_pct": 13.0
-   },
-   "move_pct": 18.6,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 71,
    "notable": false
   },
   {
@@ -5119,16 +5735,38 @@
    "notable": false
   },
   {
-   "slug": "yarmouth-1615",
-   "venue": "Yarmouth",
-   "off_utc": "2026-09-17T16:15:00Z",
-   "runner": "Dashing Dick",
+   "slug": "pontefract-1608",
+   "venue": "Pontefract",
+   "off_utc": "2026-09-17T16:08:00Z",
+   "runner": "Rory's Gold",
    "first": {
-    "mins_to_off": 360,
+    "mins_to_off": 353,
+    "mid": 14.43
+   },
+   "latest": {
+    "mins_to_off": 8,
+    "mid": 12.75,
+    "spread_pct": 4.0
+   },
+   "move_pct": -11.7,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 30,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1601",
+   "venue": "Ayr",
+   "off_utc": "2026-09-17T16:01:00Z",
+   "runner": "Minstrel Knight",
+   "first": {
+    "mins_to_off": 346,
     "mid": 8.38
    },
    "latest": {
-    "mins_to_off": 30,
+    "mins_to_off": 1,
     "mid": 7.6,
     "spread_pct": 5.2
    },
@@ -5138,6 +5776,50 @@
     13
    ],
    "percentile": 30,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1601",
+   "venue": "Ayr",
+   "off_utc": "2026-09-17T16:01:00Z",
+   "runner": "High Point",
+   "first": {
+    "mins_to_off": 346,
+    "mid": 84.39
+   },
+   "latest": {
+    "mins_to_off": 1,
+    "mid": 66.67,
+    "spread_pct": 23.0
+   },
+   "move_pct": -21.0,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 30,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1900",
+   "venue": "Southwell",
+   "off_utc": "2026-09-17T19:00:00Z",
+   "runner": "Zonnebloem",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 22.22
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 27.4,
+    "spread_pct": 11.0
+   },
+   "move_pct": 23.3,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 70,
    "notable": false
   },
   {
@@ -5202,50 +5884,6 @@
    "band": [
     5,
     8
-   ],
-   "percentile": 31,
-   "notable": false
-  },
-  {
-   "slug": "yarmouth-1615",
-   "venue": "Yarmouth",
-   "off_utc": "2026-09-17T16:15:00Z",
-   "runner": "Rusheen Boy",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 24.01
-   },
-   "latest": {
-    "mins_to_off": 30,
-    "mid": 29.33,
-    "spread_pct": 17.1
-   },
-   "move_pct": 22.1,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 69,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1730",
-   "venue": "Southwell",
-   "off_utc": "2026-09-17T17:30:00Z",
-   "runner": "Dontworryaboutme",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 3.55
-   },
-   "latest": {
-    "mins_to_off": 105,
-    "mid": 3.3,
-    "spread_pct": 3.0
-   },
-   "move_pct": -7.0,
-   "band": [
-    3,
-    5
    ],
    "percentile": 31,
    "notable": false
@@ -5334,6 +5972,50 @@
    "band": [
     5,
     8
+   ],
+   "percentile": 32,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1800",
+   "venue": "Southwell",
+   "off_utc": "2026-09-17T18:00:00Z",
+   "runner": "Roi De Coeur",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 2.52
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 2.39,
+    "spread_pct": 2.5
+   },
+   "move_pct": -5.1,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 32,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1830",
+   "venue": "Southwell",
+   "off_utc": "2026-09-17T18:30:00Z",
+   "runner": "Gladiadora",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 9.13
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 8.39,
+    "spread_pct": 4.8
+   },
+   "move_pct": -8.1,
+   "band": [
+    8,
+    13
    ],
    "percentile": 32,
    "notable": false
@@ -5471,47 +6153,25 @@
    "notable": false
   },
   {
-   "slug": "yarmouth-1615",
-   "venue": "Yarmouth",
-   "off_utc": "2026-09-17T16:15:00Z",
-   "runner": "Eduardo Calderon",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 7.39
-   },
-   "latest": {
-    "mins_to_off": 30,
-    "mid": 7.99,
-    "spread_pct": 5.0
-   },
-   "move_pct": 8.1,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 67,
-   "notable": false
-  },
-  {
    "slug": "southwell-1900",
    "venue": "Southwell",
    "off_utc": "2026-09-17T19:00:00Z",
-   "runner": "Mimime",
+   "runner": "Tommie's Angel",
    "first": {
     "mins_to_off": 360,
-    "mid": 5.88
+    "mid": 49.51
    },
    "latest": {
-    "mins_to_off": 195,
-    "mid": 6.39,
-    "spread_pct": 6.3
+    "mins_to_off": 0,
+    "mid": 40.82,
+    "spread_pct": 14.8
    },
-   "move_pct": 8.7,
+   "move_pct": -17.6,
    "band": [
-    5,
-    8
+    35,
+    100
    ],
-   "percentile": 67,
+   "percentile": 33,
    "notable": false
   },
   {
@@ -5647,89 +6307,45 @@
    "notable": false
   },
   {
-   "slug": "pontefract-1608",
-   "venue": "Pontefract",
-   "off_utc": "2026-09-17T16:08:00Z",
-   "runner": "Skinny Malinka",
-   "first": {
-    "mins_to_off": 353,
-    "mid": 17.44
-   },
-   "latest": {
-    "mins_to_off": 23,
-    "mid": 15.99,
-    "spread_pct": 6.2
-   },
-   "move_pct": -8.3,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 34,
-   "notable": false
-  },
-  {
-   "slug": "pontefract-1608",
-   "venue": "Pontefract",
-   "off_utc": "2026-09-17T16:08:00Z",
-   "runner": "Distinction",
-   "first": {
-    "mins_to_off": 353,
-    "mid": 22.22
-   },
-   "latest": {
-    "mins_to_off": 23,
-    "mid": 20.66,
-    "spread_pct": 12.0
-   },
-   "move_pct": -7.0,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 34,
-   "notable": false
-  },
-  {
-   "slug": "naas-1632",
-   "venue": "Naas",
-   "off_utc": "2026-09-17T16:32:00Z",
-   "runner": "First Watch",
-   "first": {
-    "mins_to_off": 347,
-    "mid": 9.9
-   },
-   "latest": {
-    "mins_to_off": 47,
-    "mid": 9.18,
-    "spread_pct": 8.6
-   },
-   "move_pct": -7.3,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 34,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1700",
-   "venue": "Southwell",
-   "off_utc": "2026-09-17T17:00:00Z",
-   "runner": "Solar Major",
+   "slug": "yarmouth-1615",
+   "venue": "Yarmouth",
+   "off_utc": "2026-09-17T16:15:00Z",
+   "runner": "Man Of Desert",
    "first": {
     "mins_to_off": 360,
-    "mid": 33.56
+    "mid": 29.5
    },
    "latest": {
-    "mins_to_off": 75,
-    "mid": 31.3,
-    "spread_pct": 16.1
+    "mins_to_off": 0,
+    "mid": 27.4,
+    "spread_pct": 11.0
    },
-   "move_pct": -6.7,
+   "move_pct": -7.1,
    "band": [
     20,
     35
+   ],
+   "percentile": 34,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1601",
+   "venue": "Ayr",
+   "off_utc": "2026-09-17T16:01:00Z",
+   "runner": "Strassia",
+   "first": {
+    "mins_to_off": 346,
+    "mid": 46.3
+   },
+   "latest": {
+    "mins_to_off": 1,
+    "mid": 38.76,
+    "spread_pct": 15.6
+   },
+   "move_pct": -16.3,
+   "band": [
+    35,
+    100
    ],
    "percentile": 34,
    "notable": false
@@ -5738,20 +6354,20 @@
    "slug": "southwell-1930",
    "venue": "Southwell",
    "off_utc": "2026-09-17T19:30:00Z",
-   "runner": "Spec Of Light",
+   "runner": "Palazzo Persico",
    "first": {
     "mins_to_off": 360,
-    "mid": 8.29
+    "mid": 14.14
    },
    "latest": {
-    "mins_to_off": 225,
-    "mid": 7.69,
-    "spread_pct": 7.8
+    "mins_to_off": 0,
+    "mid": 12.98,
+    "spread_pct": 7.7
    },
-   "move_pct": -7.2,
+   "move_pct": -8.2,
    "band": [
-    8,
-    13
+    13,
+    20
    ],
    "percentile": 34,
    "notable": false
@@ -5911,6 +6527,50 @@
    "notable": false
   },
   {
+   "slug": "southwell-1700",
+   "venue": "Southwell",
+   "off_utc": "2026-09-17T17:00:00Z",
+   "runner": "Nouva Stella",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 13.84
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 15.71,
+    "spread_pct": 9.6
+   },
+   "move_pct": 13.5,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 65,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1930",
+   "venue": "Southwell",
+   "off_utc": "2026-09-17T19:30:00Z",
+   "runner": "Wrist Art",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 19.38
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 21.95,
+    "spread_pct": 9.0
+   },
+   "move_pct": 13.3,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 65,
+   "notable": false
+  },
+  {
    "slug": "pontefract-1308",
    "venue": "Pontefract",
    "off_utc": "2026-09-17T13:08:00Z",
@@ -5986,7 +6646,7 @@
     "mid": 45.66
    },
    "latest": {
-    "mins_to_off": 30,
+    "mins_to_off": 0,
     "mid": 38.76,
     "spread_pct": 15.6
    },
@@ -5999,69 +6659,47 @@
    "notable": false
   },
   {
-   "slug": "ayr-1601",
-   "venue": "Ayr",
-   "off_utc": "2026-09-17T16:01:00Z",
-   "runner": "High Point",
+   "slug": "southwell-1730",
+   "venue": "Southwell",
+   "off_utc": "2026-09-17T17:30:00Z",
+   "runner": "Sayidah Iffraaj",
    "first": {
-    "mins_to_off": 346,
-    "mid": 84.39
+    "mins_to_off": 360,
+    "mid": 18.94
    },
    "latest": {
-    "mins_to_off": 16,
-    "mid": 91.74,
-    "spread_pct": 16.6
+    "mins_to_off": 0,
+    "mid": 21.39,
+    "spread_pct": 14.0
    },
-   "move_pct": 8.7,
+   "move_pct": 12.9,
    "band": [
-    35,
-    100
+    13,
+    20
    ],
    "percentile": 64,
-   "notable": false
-  },
-  {
-   "slug": "naas-1632",
-   "venue": "Naas",
-   "off_utc": "2026-09-17T16:32:00Z",
-   "runner": "Boxwood Hill",
-   "first": {
-    "mins_to_off": 347,
-    "mid": 50.51
-   },
-   "latest": {
-    "mins_to_off": 47,
-    "mid": 43.38,
-    "spread_pct": 59.6
-   },
-   "move_pct": -14.1,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 36,
    "notable": false
   },
   {
    "slug": "southwell-1800",
    "venue": "Southwell",
    "off_utc": "2026-09-17T18:00:00Z",
-   "runner": "Cool Molly",
+   "runner": "Sandy Craic",
    "first": {
     "mins_to_off": 360,
-    "mid": 4.84
+    "mid": 6.79
    },
    "latest": {
-    "mins_to_off": 135,
-    "mid": 5.15,
-    "spread_pct": 2.0
+    "mins_to_off": 0,
+    "mid": 6.39,
+    "spread_pct": 6.3
    },
-   "move_pct": 6.3,
+   "move_pct": -5.9,
    "band": [
-    3,
-    5
+    5,
+    8
    ],
-   "percentile": 64,
+   "percentile": 36,
    "notable": false
   },
   {
@@ -6175,113 +6813,47 @@
    "notable": false
   },
   {
-   "slug": "pontefract-1608",
-   "venue": "Pontefract",
-   "off_utc": "2026-09-17T16:08:00Z",
-   "runner": "Kartini",
-   "first": {
-    "mins_to_off": 353,
-    "mid": 16.72
-   },
-   "latest": {
-    "mins_to_off": 23,
-    "mid": 18.71,
-    "spread_pct": 8.1
-   },
-   "move_pct": 11.9,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 63,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1700",
-   "venue": "Southwell",
-   "off_utc": "2026-09-17T17:00:00Z",
-   "runner": "Angel Of Heaven",
+   "slug": "yarmouth-1615",
+   "venue": "Yarmouth",
+   "off_utc": "2026-09-17T16:15:00Z",
+   "runner": "Eduardo Calderon",
    "first": {
     "mins_to_off": 360,
-    "mid": 18.23
+    "mid": 7.39
    },
    "latest": {
-    "mins_to_off": 75,
-    "mid": 20.39,
-    "spread_pct": null
+    "mins_to_off": 0,
+    "mid": 6.99,
+    "spread_pct": 5.7
    },
-   "move_pct": 11.8,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 63,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1730",
-   "venue": "Southwell",
-   "off_utc": "2026-09-17T17:30:00Z",
-   "runner": "Don't Stop Movin",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 3.45
-   },
-   "latest": {
-    "mins_to_off": 105,
-    "mid": 3.3,
-    "spread_pct": 3.0
-   },
-   "move_pct": -4.4,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 37,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1830",
-   "venue": "Southwell",
-   "off_utc": "2026-09-17T18:30:00Z",
-   "runner": "Dream Illusion",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 6.49
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 6.89,
-    "spread_pct": 8.7
-   },
-   "move_pct": 6.2,
+   "move_pct": -5.4,
    "band": [
     5,
     8
    ],
-   "percentile": 63,
+   "percentile": 37,
    "notable": false
   },
   {
    "slug": "southwell-1830",
    "venue": "Southwell",
    "off_utc": "2026-09-17T18:30:00Z",
-   "runner": "Gladiadora",
+   "runner": "Soames Forsyte",
    "first": {
     "mins_to_off": 360,
-    "mid": 9.13
+    "mid": 22.83
    },
    "latest": {
-    "mins_to_off": 165,
-    "mid": 8.6,
-    "spread_pct": 4.6
+    "mins_to_off": 0,
+    "mid": 26.42,
+    "spread_pct": 11.4
    },
-   "move_pct": -5.8,
+   "move_pct": 15.7,
    "band": [
-    8,
-    13
+    20,
+    35
    ],
-   "percentile": 37,
+   "percentile": 63,
    "notable": false
   },
   {
@@ -6373,113 +6945,25 @@
    "notable": false
   },
   {
-   "slug": "yarmouth-1615",
-   "venue": "Yarmouth",
-   "off_utc": "2026-09-17T16:15:00Z",
-   "runner": "Makes Me Wonder",
+   "slug": "pontefract-1608",
+   "venue": "Pontefract",
+   "off_utc": "2026-09-17T16:08:00Z",
+   "runner": "Regulus Black",
    "first": {
-    "mins_to_off": 360,
-    "mid": 21.51
+    "mins_to_off": 353,
+    "mid": 8.09
    },
    "latest": {
-    "mins_to_off": 30,
-    "mid": 20.66,
-    "spread_pct": 12.0
+    "mins_to_off": 8,
+    "mid": 7.7,
+    "spread_pct": 2.6
    },
-   "move_pct": -3.9,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 38,
-   "notable": false
-  },
-  {
-   "slug": "naas-1632",
-   "venue": "Naas",
-   "off_utc": "2026-09-17T16:32:00Z",
-   "runner": "Johntom",
-   "first": {
-    "mins_to_off": 347,
-    "mid": 21.25
-   },
-   "latest": {
-    "mins_to_off": 47,
-    "mid": 20.49,
-    "spread_pct": 22.0
-   },
-   "move_pct": -3.6,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 38,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1830",
-   "venue": "Southwell",
-   "off_utc": "2026-09-17T18:30:00Z",
-   "runner": "Age Of Baroque",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 8.8
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 9.49,
-    "spread_pct": 6.4
-   },
-   "move_pct": 7.9,
+   "move_pct": -4.9,
    "band": [
     8,
     13
    ],
-   "percentile": 62,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1830",
-   "venue": "Southwell",
-   "off_utc": "2026-09-17T18:30:00Z",
-   "runner": "Sailor's Return",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 7.78
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 7.39,
-    "spread_pct": 5.4
-   },
-   "move_pct": -5.0,
-   "band": [
-    5,
-    8
-   ],
    "percentile": 38,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1900",
-   "venue": "Southwell",
-   "off_utc": "2026-09-17T19:00:00Z",
-   "runner": "El Ghuwah",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 10.37
-   },
-   "latest": {
-    "mins_to_off": 195,
-    "mid": 11.2,
-    "spread_pct": 13.4
-   },
-   "move_pct": 8.1,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 62,
    "notable": false
   },
   {
@@ -6492,7 +6976,51 @@
     "mid": 92.59
    },
    "latest": {
-    "mins_to_off": 195,
+    "mins_to_off": 0,
+    "mid": 99.5,
+    "spread_pct": 35.9
+   },
+   "move_pct": 7.5,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 62,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1930",
+   "venue": "Southwell",
+   "off_utc": "2026-09-17T19:30:00Z",
+   "runner": "Power Of Prayer",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 6.89
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 7.3,
+    "spread_pct": 2.8
+   },
+   "move_pct": 6.0,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 62,
+   "notable": false
+  },
+  {
+   "slug": "naas-1632",
+   "venue": "Naas",
+   "off_utc": "2026-09-17T16:32:00Z",
+   "runner": "Layla Belle",
+   "first": {
+    "mins_to_off": 152,
+    "mid": 92.59
+   },
+   "latest": {
+    "mins_to_off": 17,
     "mid": 99.01,
     "spread_pct": 20.0
    },
@@ -6546,6 +7074,28 @@
     35
    ],
    "percentile": 39,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1900",
+   "venue": "Southwell",
+   "off_utc": "2026-09-17T19:00:00Z",
+   "runner": "Mariselle",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 72.73
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 76.63,
+    "spread_pct": 19.3
+   },
+   "move_pct": 5.4,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 61,
    "notable": false
   },
   {
@@ -6637,18 +7187,40 @@
    "notable": false
   },
   {
-   "slug": "southwell-1625",
-   "venue": "Southwell",
-   "off_utc": "2026-09-17T16:25:00Z",
-   "runner": "Charging Thunder",
+   "slug": "pontefract-1608",
+   "venue": "Pontefract",
+   "off_utc": "2026-09-17T16:08:00Z",
+   "runner": "Kartini",
    "first": {
-    "mins_to_off": 355,
-    "mid": 12.82
+    "mins_to_off": 353,
+    "mid": 16.72
    },
    "latest": {
-    "mins_to_off": 40,
-    "mid": 13.71,
-    "spread_pct": 10.9
+    "mins_to_off": 8,
+    "mid": 18.23,
+    "spread_pct": 8.2
+   },
+   "move_pct": 9.0,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 60,
+   "notable": false
+  },
+  {
+   "slug": "yarmouth-1615",
+   "venue": "Yarmouth",
+   "off_utc": "2026-09-17T16:15:00Z",
+   "runner": "Khuskhas",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 11.92
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 12.75,
+    "spread_pct": 4.0
    },
    "move_pct": 6.9,
    "band": [
@@ -6656,28 +7228,6 @@
     13
    ],
    "percentile": 60,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1830",
-   "venue": "Southwell",
-   "off_utc": "2026-09-17T18:30:00Z",
-   "runner": "Ceinture D'orion",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 19.78
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 18.94,
-    "spread_pct": 10.6
-   },
-   "move_pct": -4.3,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 40,
    "notable": false
   },
   {
@@ -6857,86 +7407,20 @@
    "notable": false
   },
   {
-   "slug": "pontefract-1608",
-   "venue": "Pontefract",
-   "off_utc": "2026-09-17T16:08:00Z",
-   "runner": "Thunder Goddess",
-   "first": {
-    "mins_to_off": 353,
-    "mid": 4.91
-   },
-   "latest": {
-    "mins_to_off": 23,
-    "mid": 4.78,
-    "spread_pct": null
-   },
-   "move_pct": -2.6,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 41,
-   "notable": false
-  },
-  {
-   "slug": "pontefract-1608",
-   "venue": "Pontefract",
-   "off_utc": "2026-09-17T16:08:00Z",
-   "runner": "Regulus Black",
-   "first": {
-    "mins_to_off": 353,
-    "mid": 8.09
-   },
-   "latest": {
-    "mins_to_off": 23,
-    "mid": 8.6,
-    "spread_pct": 4.6
-   },
-   "move_pct": 6.3,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 59,
-   "notable": false
-  },
-  {
    "slug": "yarmouth-1615",
    "venue": "Yarmouth",
    "off_utc": "2026-09-17T16:15:00Z",
-   "runner": "Born A Rebel",
+   "runner": "Makes Me Wonder",
    "first": {
     "mins_to_off": 360,
-    "mid": 15.71
+    "mid": 21.51
    },
    "latest": {
-    "mins_to_off": 30,
-    "mid": 15.21,
-    "spread_pct": 9.9
+    "mins_to_off": 0,
+    "mid": 21.39,
+    "spread_pct": 14.0
    },
-   "move_pct": -3.2,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 41,
-   "notable": false
-  },
-  {
-   "slug": "yarmouth-1615",
-   "venue": "Yarmouth",
-   "off_utc": "2026-09-17T16:15:00Z",
-   "runner": "Tactical Plan",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 21.1
-   },
-   "latest": {
-    "mins_to_off": 30,
-    "mid": 20.94,
-    "spread_pct": 9.4
-   },
-   "move_pct": -0.7,
+   "move_pct": -0.5,
    "band": [
     20,
     35
@@ -6962,28 +7446,6 @@
    "band": [
     35,
     100
-   ],
-   "percentile": 41,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1700",
-   "venue": "Southwell",
-   "off_utc": "2026-09-17T17:00:00Z",
-   "runner": "Cool King",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 3.63
-   },
-   "latest": {
-    "mins_to_off": 75,
-    "mid": 3.53,
-    "spread_pct": null
-   },
-   "move_pct": -2.7,
-   "band": [
-    3,
-    5
    ],
    "percentile": 41,
    "notable": false
@@ -7055,133 +7517,23 @@
    "notable": false
   },
   {
-   "slug": "yarmouth-1615",
-   "venue": "Yarmouth",
-   "off_utc": "2026-09-17T16:15:00Z",
-   "runner": "Guest House",
+   "slug": "pontefract-1608",
+   "venue": "Pontefract",
+   "off_utc": "2026-09-17T16:08:00Z",
+   "runner": "Thunder Goddess",
    "first": {
-    "mins_to_off": 360,
-    "mid": 10.7
+    "mins_to_off": 353,
+    "mid": 4.91
    },
    "latest": {
-    "mins_to_off": 30,
-    "mid": 11.24,
-    "spread_pct": 4.4
+    "mins_to_off": 8,
+    "mid": 5.1,
+    "spread_pct": 3.9
    },
-   "move_pct": 5.1,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 58,
-   "notable": false
-  },
-  {
-   "slug": "ayr-1601",
-   "venue": "Ayr",
-   "off_utc": "2026-09-17T16:01:00Z",
-   "runner": "Spirit Of Acklam",
-   "first": {
-    "mins_to_off": 346,
-    "mid": 7.58
-   },
-   "latest": {
-    "mins_to_off": 16,
-    "mid": 7.9,
-    "spread_pct": 2.5
-   },
-   "move_pct": 4.2,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 58,
-   "notable": false
-  },
-  {
-   "slug": "ayr-1601",
-   "venue": "Ayr",
-   "off_utc": "2026-09-17T16:01:00Z",
-   "runner": "Humble Spark",
-   "first": {
-    "mins_to_off": 346,
-    "mid": 16.65
-   },
-   "latest": {
-    "mins_to_off": 16,
-    "mid": 16.22,
-    "spread_pct": 9.3
-   },
-   "move_pct": -2.6,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 42,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1700",
-   "venue": "Southwell",
-   "off_utc": "2026-09-17T17:00:00Z",
-   "runner": "Bullrider",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 4.44
-   },
-   "latest": {
-    "mins_to_off": 75,
-    "mid": 4.62,
-    "spread_pct": null
-   },
-   "move_pct": 4.0,
+   "move_pct": 3.8,
    "band": [
     3,
     5
-   ],
-   "percentile": 58,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1730",
-   "venue": "Southwell",
-   "off_utc": "2026-09-17T17:30:00Z",
-   "runner": "Son Of Light",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 19.78
-   },
-   "latest": {
-    "mins_to_off": 105,
-    "mid": 19.21,
-    "spread_pct": 7.9
-   },
-   "move_pct": -2.9,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 42,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1830",
-   "venue": "Southwell",
-   "off_utc": "2026-09-17T18:30:00Z",
-   "runner": "Nordic Norm",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 40.49
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 41.67,
-    "spread_pct": 19.3
-   },
-   "move_pct": 2.9,
-   "band": [
-    35,
-    100
    ],
    "percentile": 58,
    "notable": false
@@ -7275,18 +7627,40 @@
    "notable": false
   },
   {
-   "slug": "naas-1632",
-   "venue": "Naas",
-   "off_utc": "2026-09-17T16:32:00Z",
-   "runner": "Miss Hong Kong",
+   "slug": "ayr-1601",
+   "venue": "Ayr",
+   "off_utc": "2026-09-17T16:01:00Z",
+   "runner": "Spirit Of Acklam",
    "first": {
-    "mins_to_off": 347,
-    "mid": 5.55
+    "mins_to_off": 346,
+    "mid": 7.58
    },
    "latest": {
-    "mins_to_off": 47,
-    "mid": 5.4,
-    "spread_pct": 3.7
+    "mins_to_off": 1,
+    "mid": 7.39,
+    "spread_pct": 5.4
+   },
+   "move_pct": -2.4,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 43,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1800",
+   "venue": "Southwell",
+   "off_utc": "2026-09-17T18:00:00Z",
+   "runner": "Rogue Supremacy",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 7.09
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 6.9,
+    "spread_pct": 2.9
    },
    "move_pct": -2.7,
    "band": [
@@ -7297,155 +7671,23 @@
    "notable": false
   },
   {
-   "slug": "southwell-1700",
-   "venue": "Southwell",
-   "off_utc": "2026-09-17T17:00:00Z",
-   "runner": "Storm Force Ten",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 3.17
-   },
-   "latest": {
-    "mins_to_off": 75,
-    "mid": 3.12,
-    "spread_pct": null
-   },
-   "move_pct": -1.5,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 43,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1800",
-   "venue": "Southwell",
-   "off_utc": "2026-09-17T18:00:00Z",
-   "runner": "Roi De Coeur",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 2.52
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 2.48,
-    "spread_pct": 1.6
-   },
-   "move_pct": -1.6,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 43,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1800",
-   "venue": "Southwell",
-   "off_utc": "2026-09-17T18:00:00Z",
-   "runner": "Indefensible",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 8.67
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 8.49,
-    "spread_pct": 7.1
-   },
-   "move_pct": -2.1,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 43,
-   "notable": false
-  },
-  {
    "slug": "southwell-1900",
    "venue": "Southwell",
    "off_utc": "2026-09-17T19:00:00Z",
-   "runner": "Hvar",
+   "runner": "Mimime",
    "first": {
     "mins_to_off": 360,
-    "mid": 12.98
+    "mid": 5.88
    },
    "latest": {
-    "mins_to_off": 195,
-    "mid": 12.71,
-    "spread_pct": 11.7
+    "mins_to_off": 0,
+    "mid": 6.1,
+    "spread_pct": 3.3
    },
-   "move_pct": -2.1,
+   "move_pct": 3.6,
    "band": [
-    8,
-    13
-   ],
-   "percentile": 43,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1900",
-   "venue": "Southwell",
-   "off_utc": "2026-09-17T19:00:00Z",
-   "runner": "Beach Partee",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 10.91
-   },
-   "latest": {
-    "mins_to_off": 195,
-    "mid": 10.7,
-    "spread_pct": 14.0
-   },
-   "move_pct": -2.0,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 43,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1930",
-   "venue": "Southwell",
-   "off_utc": "2026-09-17T19:30:00Z",
-   "runner": "Golspie",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 2.79
-   },
-   "latest": {
-    "mins_to_off": 225,
-    "mid": 2.87,
-    "spread_pct": 3.5
-   },
-   "move_pct": 2.9,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 57,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1930",
-   "venue": "Southwell",
-   "off_utc": "2026-09-17T19:30:00Z",
-   "runner": "Cougar",
-   "first": {
-    "mins_to_off": 300,
-    "mid": 93.02
-   },
-   "latest": {
-    "mins_to_off": 225,
-    "mid": 95.24,
-    "spread_pct": 181.3
-   },
-   "move_pct": 2.4,
-   "band": [
-    35,
-    100
+    5,
+    8
    ],
    "percentile": 57,
    "notable": false
@@ -7715,72 +7957,6 @@
    "notable": false
   },
   {
-   "slug": "pontefract-1608",
-   "venue": "Pontefract",
-   "off_utc": "2026-09-17T16:08:00Z",
-   "runner": "Grindleton",
-   "first": {
-    "mins_to_off": 353,
-    "mid": 8.18
-   },
-   "latest": {
-    "mins_to_off": 23,
-    "mid": 8.49,
-    "spread_pct": 7.1
-   },
-   "move_pct": 3.8,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 55,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1800",
-   "venue": "Southwell",
-   "off_utc": "2026-09-17T18:00:00Z",
-   "runner": "Rogue Supremacy",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 7.09
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 6.99,
-    "spread_pct": 5.7
-   },
-   "move_pct": -1.3,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 45,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1900",
-   "venue": "Southwell",
-   "off_utc": "2026-09-17T19:00:00Z",
-   "runner": "One For Harvey",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 7.6
-   },
-   "latest": {
-    "mins_to_off": 195,
-    "mid": 7.5,
-    "spread_pct": 2.6
-   },
-   "move_pct": -1.3,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 45,
-   "notable": false
-  },
-  {
    "slug": "southwell-1900",
    "venue": "Southwell",
    "off_utc": "2026-09-17T19:00:00Z",
@@ -7790,31 +7966,9 @@
     "mid": 7.79
    },
    "latest": {
-    "mins_to_off": 195,
-    "mid": 7.69,
-    "spread_pct": 7.8
-   },
-   "move_pct": -1.3,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 45,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1930",
-   "venue": "Southwell",
-   "off_utc": "2026-09-17T19:30:00Z",
-   "runner": "Glitter Code",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 7.89
-   },
-   "latest": {
-    "mins_to_off": 225,
-    "mid": 7.79,
-    "spread_pct": 5.1
+    "mins_to_off": 0,
+    "mid": 7.7,
+    "spread_pct": 2.6
    },
    "move_pct": -1.2,
    "band": [
@@ -8023,67 +8177,23 @@
    "notable": false
   },
   {
-   "slug": "southwell-1730",
-   "venue": "Southwell",
-   "off_utc": "2026-09-17T17:30:00Z",
-   "runner": "Otis Bay",
+   "slug": "ayr-1601",
+   "venue": "Ayr",
+   "off_utc": "2026-09-17T16:01:00Z",
+   "runner": "Azahara Palace",
    "first": {
-    "mins_to_off": 360,
-    "mid": 14.43
+    "mins_to_off": 346,
+    "mid": 25.64
    },
    "latest": {
-    "mins_to_off": 105,
-    "mid": 15.21,
-    "spread_pct": 9.9
+    "mins_to_off": 1,
+    "mid": 26.42,
+    "spread_pct": 11.4
    },
-   "move_pct": 5.4,
+   "move_pct": 3.0,
    "band": [
-    13,
-    20
-   ],
-   "percentile": 54,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1830",
-   "venue": "Southwell",
-   "off_utc": "2026-09-17T18:30:00Z",
-   "runner": "No Knee Never",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 8.2
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 8.2,
-    "spread_pct": 4.9
-   },
-   "move_pct": 0.0,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 46,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1830",
-   "venue": "Southwell",
-   "off_utc": "2026-09-17T18:30:00Z",
-   "runner": "Ernie's Valentine",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 8.3
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 8.3,
-    "spread_pct": null
-   },
-   "move_pct": 0.0,
-   "band": [
-    8,
-    13
+    20,
+    35
    ],
    "percentile": 46,
    "notable": false
@@ -8092,20 +8202,42 @@
    "slug": "southwell-1900",
    "venue": "Southwell",
    "off_utc": "2026-09-17T19:00:00Z",
-   "runner": "Phoenix Beach",
+   "runner": "Beach Partee",
    "first": {
     "mins_to_off": 360,
-    "mid": 5.35
+    "mid": 10.91
    },
    "latest": {
-    "mins_to_off": 195,
-    "mid": 5.3,
-    "spread_pct": 3.8
+    "mins_to_off": 0,
+    "mid": 11.24,
+    "spread_pct": 4.4
    },
-   "move_pct": -0.9,
+   "move_pct": 3.0,
    "band": [
-    5,
-    8
+    8,
+    13
+   ],
+   "percentile": 54,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1930",
+   "venue": "Southwell",
+   "off_utc": "2026-09-17T19:30:00Z",
+   "runner": "Cougar",
+   "first": {
+    "mins_to_off": 300,
+    "mid": 93.02
+   },
+   "latest": {
+    "mins_to_off": 15,
+    "mid": 87.34,
+    "spread_pct": 6.1
+   },
+   "move_pct": -6.1,
+   "band": [
+    35,
+    100
    ],
    "percentile": 46,
    "notable": false
@@ -8199,89 +8331,23 @@
    "notable": false
   },
   {
-   "slug": "pontefract-1608",
-   "venue": "Pontefract",
-   "off_utc": "2026-09-17T16:08:00Z",
-   "runner": "Rory's Gold",
-   "first": {
-    "mins_to_off": 353,
-    "mid": 14.43
-   },
-   "latest": {
-    "mins_to_off": 23,
-    "mid": 14.98,
-    "spread_pct": 6.7
-   },
-   "move_pct": 3.8,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 53,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1800",
-   "venue": "Southwell",
-   "off_utc": "2026-09-17T18:00:00Z",
-   "runner": "Sandy Craic",
+   "slug": "yarmouth-1615",
+   "venue": "Yarmouth",
+   "off_utc": "2026-09-17T16:15:00Z",
+   "runner": "Tactical Plan",
    "first": {
     "mins_to_off": 360,
-    "mid": 6.79
+    "mid": 21.1
    },
    "latest": {
-    "mins_to_off": 135,
-    "mid": 6.79,
-    "spread_pct": 5.8
+    "mins_to_off": 0,
+    "mid": 22.94,
+    "spread_pct": 8.7
    },
-   "move_pct": 0.0,
+   "move_pct": 8.7,
    "band": [
-    5,
-    8
-   ],
-   "percentile": 47,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1900",
-   "venue": "Southwell",
-   "off_utc": "2026-09-17T19:00:00Z",
-   "runner": "Mariselle",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 72.73
-   },
-   "latest": {
-    "mins_to_off": 195,
-    "mid": 68.73,
-    "spread_pct": 87.1
-   },
-   "move_pct": -5.5,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 47,
-   "notable": false
-  },
-  {
-   "slug": "naas-1632",
-   "venue": "Naas",
-   "off_utc": "2026-09-17T16:32:00Z",
-   "runner": "Layla Belle",
-   "first": {
-    "mins_to_off": 152,
-    "mid": 92.59
-   },
-   "latest": {
-    "mins_to_off": 47,
-    "mid": 92.59,
-    "spread_pct": 32.3
-   },
-   "move_pct": 0.0,
-   "band": [
-    35,
-    100
+    20,
+    35
    ],
    "percentile": 53,
    "notable": false
@@ -8397,47 +8463,25 @@
    "notable": false
   },
   {
-   "slug": "southwell-1830",
+   "slug": "southwell-1730",
    "venue": "Southwell",
-   "off_utc": "2026-09-17T18:30:00Z",
-   "runner": "Palmarian",
+   "off_utc": "2026-09-17T17:30:00Z",
+   "runner": "Peaberry",
    "first": {
     "mins_to_off": 360,
-    "mid": 18.08
+    "mid": 4.07
    },
    "latest": {
-    "mins_to_off": 165,
-    "mid": 18.17,
-    "spread_pct": 13.7
+    "mins_to_off": 0,
+    "mid": 4.15,
+    "spread_pct": 2.4
    },
-   "move_pct": 0.5,
+   "move_pct": 1.9,
    "band": [
-    13,
-    20
+    3,
+    5
    ],
-   "percentile": 48,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1900",
-   "venue": "Southwell",
-   "off_utc": "2026-09-17T19:00:00Z",
-   "runner": "Zonnebloem",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 22.22
-   },
-   "latest": {
-    "mins_to_off": 195,
-    "mid": 23.23,
-    "spread_pct": 21.4
-   },
-   "move_pct": 4.5,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 48,
+   "percentile": 52,
    "notable": false
   },
   {
@@ -8463,111 +8507,23 @@
    "notable": false
   },
   {
-   "slug": "pontefract-1608",
-   "venue": "Pontefract",
-   "off_utc": "2026-09-17T16:08:00Z",
-   "runner": "Sunny Orange",
-   "first": {
-    "mins_to_off": 353,
-    "mid": 7.69
-   },
-   "latest": {
-    "mins_to_off": 23,
-    "mid": 7.79,
-    "spread_pct": 5.1
-   },
-   "move_pct": 1.4,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 51,
-   "notable": false
-  },
-  {
-   "slug": "yarmouth-1615",
-   "venue": "Yarmouth",
-   "off_utc": "2026-09-17T16:15:00Z",
-   "runner": "Khuskhas",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 11.92
-   },
-   "latest": {
-    "mins_to_off": 30,
-    "mid": 11.98,
-    "spread_pct": 8.4
-   },
-   "move_pct": 0.5,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 49,
-   "notable": false
-  },
-  {
-   "slug": "naas-1632",
-   "venue": "Naas",
-   "off_utc": "2026-09-17T16:32:00Z",
-   "runner": "Raygani",
-   "first": {
-    "mins_to_off": 347,
-    "mid": 16.95
-   },
-   "latest": {
-    "mins_to_off": 47,
-    "mid": 17.15,
-    "spread_pct": 14.5
-   },
-   "move_pct": 1.2,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 49,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1830",
+   "slug": "southwell-1730",
    "venue": "Southwell",
-   "off_utc": "2026-09-17T18:30:00Z",
-   "runner": "Aspull",
+   "off_utc": "2026-09-17T17:30:00Z",
+   "runner": "Dontworryaboutme",
    "first": {
     "mins_to_off": 360,
-    "mid": 22.32
+    "mid": 3.55
    },
    "latest": {
-    "mins_to_off": 165,
-    "mid": 23.81,
-    "spread_pct": 16.8
+    "mins_to_off": 0,
+    "mid": 3.57,
+    "spread_pct": 1.4
    },
-   "move_pct": 6.7,
+   "move_pct": 0.8,
    "band": [
-    20,
-    35
-   ],
-   "percentile": 51,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1930",
-   "venue": "Southwell",
-   "off_utc": "2026-09-17T19:30:00Z",
-   "runner": "Wrist Art",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 19.38
-   },
-   "latest": {
-    "mins_to_off": 225,
-    "mid": 19.67,
-    "spread_pct": 12.8
-   },
-   "move_pct": 1.5,
-   "band": [
-    13,
-    20
+    3,
+    5
    ],
    "percentile": 49,
    "notable": false
@@ -8617,23 +8573,89 @@
    "notable": false
   },
   {
-   "slug": "southwell-1930",
+   "slug": "southwell-1625",
    "venue": "Southwell",
-   "off_utc": "2026-09-17T19:30:00Z",
-   "runner": "The Pug",
+   "off_utc": "2026-09-17T16:25:00Z",
+   "runner": "Charging Thunder",
    "first": {
-    "mins_to_off": 360,
-    "mid": 8.69
+    "mins_to_off": 355,
+    "mid": 12.82
    },
    "latest": {
-    "mins_to_off": 225,
-    "mid": 8.78,
-    "spread_pct": 9.1
+    "mins_to_off": 10,
+    "mid": 12.98,
+    "spread_pct": 7.7
+   },
+   "move_pct": 1.2,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 50,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1730",
+   "venue": "Southwell",
+   "off_utc": "2026-09-17T17:30:00Z",
+   "runner": "Otis Bay",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 14.43
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 14.74,
+    "spread_pct": 3.4
+   },
+   "move_pct": 2.1,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 50,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1830",
+   "venue": "Southwell",
+   "off_utc": "2026-09-17T18:30:00Z",
+   "runner": "No Knee Never",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 8.2
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 8.29,
+    "spread_pct": 7.2
    },
    "move_pct": 1.1,
    "band": [
     8,
     13
+   ],
+   "percentile": 50,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1830",
+   "venue": "Southwell",
+   "off_utc": "2026-09-17T18:30:00Z",
+   "runner": "Ceinture D'orion",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 19.78
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 20.22,
+    "spread_pct": 7.5
+   },
+   "move_pct": 2.2,
+   "band": [
+    13,
+    20
    ],
    "percentile": 50,
    "notable": false
