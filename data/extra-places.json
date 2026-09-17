@@ -1,10 +1,10 @@
 {
  "schema": "extra_places_v1",
- "generated_at": "2026-09-17T12:00:01Z",
+ "generated_at": "2026-09-17T16:00:02Z",
  "source": "Paddy Power public race pages",
  "note": "'extra_place' compares the bookmaker's offer with the bookmaker's own ladder, derived from our collection — not with the classic each-way table, which it does not follow.",
  "ladder_days": 12,
- "collected_through": "2026-09-17T11:00:01Z",
+ "collected_through": "2026-09-17T15:00:01Z",
  "races": [
   {
    "slug": "ayr-1230",
@@ -14,14 +14,14 @@
    "name": "1m Nov Stks",
    "handicap": false,
    "each_way": true,
-   "field_size": 13,
+   "field_size": 12,
    "terms": {
     "places": 3,
     "fraction": [
      1,
      5
     ],
-    "bog": false
+    "bog": true
    },
    "house_standard": {
     "places": 3,
@@ -35,6 +35,15 @@
     {
      "at": "2026-09-16T06:00:02Z",
      "field_size": 13,
+     "places": 3,
+     "fraction": [
+      1,
+      5
+     ]
+    },
+    {
+     "at": "2026-09-17T12:00:01Z",
+     "field_size": 12,
      "places": 3,
      "fraction": [
       1,
@@ -1403,14 +1412,14 @@
    "name": "1m Hcap",
    "handicap": true,
    "each_way": true,
-   "field_size": 17,
+   "field_size": 16,
    "terms": {
     "places": 4,
     "fraction": [
      1,
      5
     ],
-    "bog": false
+    "bog": true
    },
    "house_standard": {
     "places": 3,
@@ -1433,6 +1442,15 @@
     {
      "at": "2026-09-16T09:00:01Z",
      "field_size": 17,
+     "places": 4,
+     "fraction": [
+      1,
+      5
+     ]
+    },
+    {
+     "at": "2026-09-17T15:00:01Z",
+     "field_size": 16,
      "places": 4,
      "fraction": [
       1,
@@ -2073,7 +2091,7 @@
    "venue": "Ayr",
    "country": "GB",
    "off_utc": "2026-09-18T13:30:00Z",
-   "name": "5f Listed",
+   "name": "5f Listed Stks",
    "handicap": false,
    "each_way": true,
    "field_size": 10,
@@ -2239,10 +2257,10 @@
    "venue": "Ayr",
    "country": "GB",
    "off_utc": "2026-09-18T14:05:00Z",
-   "name": "6f Listed",
+   "name": "6f Listed Stks",
    "handicap": false,
    "each_way": true,
-   "field_size": 17,
+   "field_size": 16,
    "terms": {
     "places": 4,
     "fraction": [
@@ -2272,6 +2290,15 @@
     {
      "at": "2026-09-17T11:00:01Z",
      "field_size": 17,
+     "places": 4,
+     "fraction": [
+      1,
+      5
+     ]
+    },
+    {
+     "at": "2026-09-17T13:00:01Z",
+     "field_size": 16,
      "places": 4,
      "fraction": [
       1,
@@ -2325,7 +2352,7 @@
    "name": "2m2f Hcap Hrd",
    "handicap": true,
    "each_way": true,
-   "field_size": 16,
+   "field_size": 14,
    "terms": {
     "places": 4,
     "fraction": [
@@ -2355,6 +2382,24 @@
     {
      "at": "2026-09-17T11:00:01Z",
      "field_size": 16,
+     "places": 4,
+     "fraction": [
+      1,
+      5
+     ]
+    },
+    {
+     "at": "2026-09-17T12:00:01Z",
+     "field_size": 15,
+     "places": 4,
+     "fraction": [
+      1,
+      5
+     ]
+    },
+    {
+     "at": "2026-09-17T15:00:01Z",
+     "field_size": 14,
      "places": 4,
      "fraction": [
       1,
@@ -2393,6 +2438,43 @@
      "at": "2026-09-17T06:00:01Z",
      "field_size": 12,
      "places": 3,
+     "fraction": [
+      1,
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "ayr-1440",
+   "venue": "Ayr",
+   "country": "GB",
+   "off_utc": "2026-09-18T14:40:00Z",
+   "name": "6f Hcap",
+   "handicap": true,
+   "each_way": true,
+   "field_size": 26,
+   "terms": {
+    "places": 6,
+    "fraction": [
+     1,
+     5
+    ],
+    "bog": false
+   },
+   "house_standard": {
+    "places": 5,
+    "fraction": [
+     1,
+     5
+    ]
+   },
+   "extra_place": true,
+   "history": [
+    {
+     "at": "2026-09-17T12:00:01Z",
+     "field_size": 26,
+     "places": 6,
      "fraction": [
       1,
       5
@@ -2516,7 +2598,7 @@
    "venue": "Newbury",
    "country": "GB",
    "off_utc": "2026-09-18T15:07:00Z",
-   "name": "7f Listed",
+   "name": "7f Listed Stks",
    "handicap": false,
    "each_way": true,
    "field_size": 12,
