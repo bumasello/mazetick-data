@@ -53,22 +53,44 @@ jobs:
           fi
 
           # ------------------------------------------- 2. o dado publicado e' fresco
-          # Coletores rodam 06-21 UTC. Fora de 08-23 o vao e' legitimo e nao se olha.
-          # Limiar de 7h: o maior intervalo entre execucoes na janela e' 5h30.
-          for arq in extra-places movers; do
+          # Cada arquivo tem a janela do SEU coletor: pp_ew abre 06 UTC, smarkets
+          # abre 08. O publicador roda as 07, entao movers.json nasce todo dia com
+          # `collected_through: null` — legitimo, e a pagina ate diz isso. Alarmar
+          # ali e' falso positivo, e foi o que aconteceu em 2026-09-17T07:40.
+          #
+          # ⚠️ Chave AUSENTE e valor NULO nao sao a mesma coisa, e a versao
+          # anterior confundia: `.get(...) or ''` achata os dois. Ausente e'
+          # contrato quebrado e alarma sempre; nulo so' alarma dentro da janela.
+          for spec in "extra-places:7" "movers:9"; do
+            arq="${spec%%:*}"; abre="${spec##*:}"
             corpo=$(curl -fsS -m 25 "$BASE/$arq.json" || echo "")
             if [ -z "$corpo" ]; then
               problemas+=("$arq.json inacessivel no GitHub")
               continue
             fi
-            ct=$(printf '%s' "$corpo" | python3 -c "import json,sys; print(json.load(sys.stdin).get('collected_through') or '')" 2>/dev/null || echo "")
-            n=$(printf '%s' "$corpo" | python3 -c "import json,sys; d=json.load(sys.stdin); print(len(d.get('races') or d.get('runners') or []))" 2>/dev/null || echo "0")
+            # Uma linha so' de proposito: linha em coluna 0 dentro de um bloco
+            # `|` do YAML quebra o escalar, e indentar o Python quebra o Python.
+            leitura=$(printf '%s' "$corpo" | python3 -c "import json,sys; d=json.load(sys.stdin); print(('1' if 'collected_through' in d else '0')+'|'+(d.get('collected_through') or '')+'|'+str(len(d.get('races') or d.get('runners') or [])))" 2>/dev/null || echo "")
+            if [ -z "$leitura" ]; then
+              problemas+=("$arq.json nao parseia")
+              continue
+            fi
+            tem="${leitura%%|*}"; resto="${leitura#*|}"; ct="${resto%%|*}"; n="${resto##*|}"
+
+            if [ "$tem" != "1" ]; then
+              problemas+=("$arq.json SEM a chave collected_through — contrato quebrado")
+              continue
+            fi
             if [ -z "$ct" ]; then
-              problemas+=("$arq.json sem collected_through — contrato quebrado ou coleta ausente")
+              if [ "$hora" -ge "$abre" ] && [ "$hora" -le 23 ]; then
+                problemas+=("$arq.json com collected_through nulo dentro da janela do coletor — nada foi coletado hoje")
+              else
+                echo "OK  $arq ... sem coleta ainda (coletor abre depois das ${abre}h UTC)"
+              fi
               continue
             fi
             idade=$(( ( $(date -u +%s) - $(date -u -d "$ct" +%s) ) / 60 ))
-            if [ "$hora" -ge 8 ] && [ "$hora" -le 23 ] && [ "$idade" -gt 420 ]; then
+            if [ "$hora" -ge "$abre" ] && [ "$hora" -le 23 ] && [ "$idade" -gt 420 ]; then
               problemas+=("$arq.json coletado ha $((idade/60))h — a pagina mostra dado velho com cara de dado bom")
             else
               echo "OK  $arq ... coletado ha ${idade} min, $n itens"
