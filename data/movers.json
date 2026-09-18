@@ -1,6 +1,6 @@
 {
  "schema": "movers_v1",
- "generated_at": "2026-09-18T16:27:57Z",
+ "generated_at": "2026-09-18T21:30:01Z",
  "source": "Smarkets public order book",
  "note": "'percentile' is where this move sits among all moves we have measured for runners opening at a similar price. The median move is near zero in every band; what changes with price is the spread of outcomes.",
  "baseline": {
@@ -78,7 +78,7 @@
    }
   ]
  },
- "collected_through": "2026-09-18T16:15:01Z",
+ "collected_through": "2026-09-18T21:15:01Z",
  "runners": [
   {
    "slug": "downpatrick-1347",
@@ -164,6 +164,50 @@
    "band": [
     20,
     35
+   ],
+   "percentile": 100,
+   "notable": true
+  },
+  {
+   "slug": "downpatrick-1637",
+   "venue": "Downpatrick",
+   "off_utc": "2026-09-18T16:37:00Z",
+   "runner": "Hadahi",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 7.47
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 3.27,
+    "spread_pct": 1.5
+   },
+   "move_pct": -56.1,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 0,
+   "notable": true
+  },
+  {
+   "slug": "dundalk-1730",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T17:30:00Z",
+   "runner": "Thaloria",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 8.25
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 32.1,
+    "spread_pct": 21.8
+   },
+   "move_pct": 289.1,
+   "band": [
+    8,
+    13
    ],
    "percentile": 100,
    "notable": true
@@ -367,25 +411,69 @@
    "notable": true
   },
   {
+   "slug": "newton-abbot-1630",
+   "venue": "Newton Abbot",
+   "off_utc": "2026-09-18T16:30:00Z",
+   "runner": "Raffles Nobu",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 7.78
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 14.48,
+    "spread_pct": 6.8
+   },
+   "move_pct": 86.2,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 99,
+   "notable": true
+  },
+  {
+   "slug": "wolverhampton-1715",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-09-18T17:15:00Z",
+   "runner": "Powder Monkey",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 3.55
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 2.3,
+    "spread_pct": 1.7
+   },
+   "move_pct": -35.2,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 1,
+   "notable": true
+  },
+  {
    "slug": "dundalk-1730",
    "venue": "Dundalk",
    "off_utc": "2026-09-18T17:30:00Z",
-   "runner": "Thaloria",
+   "runner": "Slight Of Foot",
    "first": {
     "mins_to_off": 360,
-    "mid": 8.25
+    "mid": 10.5
    },
    "latest": {
-    "mins_to_off": 75,
-    "mid": 17.01,
-    "spread_pct": 55.8
+    "mins_to_off": 0,
+    "mid": 5.25,
+    "spread_pct": 1.9
    },
-   "move_pct": 106.1,
+   "move_pct": -50.0,
    "band": [
     8,
     13
    ],
-   "percentile": 99,
+   "percentile": 1,
    "notable": true
   },
   {
@@ -543,23 +631,89 @@
    "notable": true
   },
   {
-   "slug": "dundalk-1730",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T17:30:00Z",
-   "runner": "Free Solo",
+   "slug": "downpatrick-1637",
+   "venue": "Downpatrick",
+   "off_utc": "2026-09-18T16:37:00Z",
+   "runner": "Orderly Conduct",
    "first": {
-    "mins_to_off": 360,
-    "mid": 10.05
+    "mins_to_off": 352,
+    "mid": 7.75
    },
    "latest": {
-    "mins_to_off": 75,
-    "mid": 18.45,
-    "spread_pct": 10.7
+    "mins_to_off": 7,
+    "mid": 13.49,
+    "spread_pct": 7.4
    },
-   "move_pct": 83.6,
+   "move_pct": 73.9,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 98,
+   "notable": true
+  },
+  {
+   "slug": "dundalk-1700",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T17:00:00Z",
+   "runner": "Tio Joao",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 12.32
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 7.1,
+    "spread_pct": 2.8
+   },
+   "move_pct": -42.4,
    "band": [
     8,
     13
+   ],
+   "percentile": 2,
+   "notable": true
+  },
+  {
+   "slug": "wolverhampton-1715",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-09-18T17:15:00Z",
+   "runner": "Captain Parma",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 6.69
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 10.98,
+    "spread_pct": 9.0
+   },
+   "move_pct": 64.2,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 98,
+   "notable": true
+  },
+  {
+   "slug": "wolverhampton-1715",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-09-18T17:15:00Z",
+   "runner": "Yaajooz",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 7.96
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 12.98,
+    "spread_pct": 7.7
+   },
+   "move_pct": 63.1,
+   "band": [
+    5,
+    8
    ],
    "percentile": 98,
    "notable": true
@@ -568,22 +722,66 @@
    "slug": "dundalk-1730",
    "venue": "Dundalk",
    "off_utc": "2026-09-18T17:30:00Z",
-   "runner": "Prince Andorra",
+   "runner": "Una Matata",
    "first": {
     "mins_to_off": 360,
-    "mid": 29.41
+    "mid": 12.16
    },
    "latest": {
-    "mins_to_off": 75,
-    "mid": 71.68,
-    "spread_pct": 21.0
+    "mins_to_off": 0,
+    "mid": 7.1,
+    "spread_pct": 2.8
    },
-   "move_pct": 143.7,
+   "move_pct": -41.6,
    "band": [
-    20,
-    35
+    8,
+    13
    ],
-   "percentile": 98,
+   "percentile": 2,
+   "notable": true
+  },
+  {
+   "slug": "wolverhampton-1815",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-09-18T18:15:00Z",
+   "runner": "Lilly Lux",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 10.25
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 6.19,
+    "spread_pct": 6.5
+   },
+   "move_pct": -39.6,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 2,
+   "notable": true
+  },
+  {
+   "slug": "wolverhampton-1915",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-09-18T19:15:00Z",
+   "runner": "Million Gold",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 70.67
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 26.42,
+    "spread_pct": 11.4
+   },
+   "move_pct": -62.6,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 2,
    "notable": true
   },
   {
@@ -741,6 +939,72 @@
    "notable": true
   },
   {
+   "slug": "dundalk-1830",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T18:30:00Z",
+   "runner": "Trishuli River",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 19.1
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 36.76,
+    "spread_pct": 16.3
+   },
+   "move_pct": 92.5,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 97,
+   "notable": true
+  },
+  {
+   "slug": "wolverhampton-1845",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-09-18T18:45:00Z",
+   "runner": "Wedonttellthetruth",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 8.87
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 15.43,
+    "spread_pct": 13.0
+   },
+   "move_pct": 73.9,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 97,
+   "notable": true
+  },
+  {
+   "slug": "dundalk-1900",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T19:00:00Z",
+   "runner": "Coul Dore",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 19.9
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 36.76,
+    "spread_pct": 16.3
+   },
+   "move_pct": 84.7,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 97,
+   "notable": true
+  },
+  {
    "slug": "downpatrick-1237",
    "venue": "Downpatrick",
    "off_utc": "2026-09-18T12:37:00Z",
@@ -873,25 +1137,135 @@
    "notable": true
   },
   {
-   "slug": "taif-ksa-1735",
-   "venue": "Taif Ksa",
-   "off_utc": "2026-09-18T17:35:00Z",
-   "runner": "Aldhahaak",
+   "slug": "newton-abbot-1630",
+   "venue": "Newton Abbot",
+   "off_utc": "2026-09-18T16:30:00Z",
+   "runner": "Warfleet",
    "first": {
-    "mins_to_off": 260,
-    "mid": 8.25
+    "mins_to_off": 360,
+    "mid": 10.91
    },
    "latest": {
-    "mins_to_off": 80,
-    "mid": 5.34,
-    "spread_pct": 110.4
+    "mins_to_off": 0,
+    "mid": 18.48,
+    "spread_pct": 5.5
    },
-   "move_pct": -35.3,
+   "move_pct": 69.4,
    "band": [
     8,
     13
    ],
-   "percentile": 4,
+   "percentile": 96,
+   "notable": true
+  },
+  {
+   "slug": "dundalk-1730",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T17:30:00Z",
+   "runner": "Faoladh",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 10.42
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 17.21,
+    "spread_pct": 8.6
+   },
+   "move_pct": 65.2,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 96,
+   "notable": true
+  },
+  {
+   "slug": "dundalk-1730",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T17:30:00Z",
+   "runner": "Prince Andorra",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 29.41
+   },
+   "latest": {
+    "mins_to_off": 15,
+    "mid": 58.31,
+    "spread_pct": 34.2
+   },
+   "move_pct": 98.3,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 96,
+   "notable": true
+  },
+  {
+   "slug": "wolverhampton-1845",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-09-18T18:45:00Z",
+   "runner": "Shopaholic",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 3.77
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 5.45,
+    "spread_pct": 1.9
+   },
+   "move_pct": 44.4,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 96,
+   "notable": true
+  },
+  {
+   "slug": "dundalk-1900",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T19:00:00Z",
+   "runner": "Wild Berries",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 21.6
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 44.84,
+    "spread_pct": 13.5
+   },
+   "move_pct": 107.6,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 96,
+   "notable": true
+  },
+  {
+   "slug": "dundalk-1930",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T19:30:00Z",
+   "runner": "Ask Me Again",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 8.84
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 14.74,
+    "spread_pct": 27.2
+   },
+   "move_pct": 66.7,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 96,
    "notable": true
   },
   {
@@ -1005,23 +1379,89 @@
    "notable": true
   },
   {
+   "slug": "newbury-1650",
+   "venue": "Newbury",
+   "off_utc": "2026-09-18T16:50:00Z",
+   "runner": "Empirical",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 4.85
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 3.62,
+    "spread_pct": 1.4
+   },
+   "move_pct": -25.3,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 5,
+   "notable": true
+  },
+  {
+   "slug": "wolverhampton-1715",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-09-18T17:15:00Z",
+   "runner": "Ziggy's Condor",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 20.55
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 38.76,
+    "spread_pct": 15.6
+   },
+   "move_pct": 88.6,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 95,
+   "notable": true
+  },
+  {
    "slug": "dundalk-1730",
    "venue": "Dundalk",
    "off_utc": "2026-09-18T17:30:00Z",
-   "runner": "In A Hurry",
+   "runner": "Mickey The Steel",
    "first": {
     "mins_to_off": 360,
-    "mid": 50.51
+    "mid": 21.95
    },
    "latest": {
-    "mins_to_off": 75,
-    "mid": 84.03,
-    "spread_pct": 23.9
+    "mins_to_off": 0,
+    "mid": 12.98,
+    "spread_pct": 7.7
    },
-   "move_pct": 66.4,
+   "move_pct": -40.9,
    "band": [
-    35,
-    100
+    20,
+    35
+   ],
+   "percentile": 5,
+   "notable": true
+  },
+  {
+   "slug": "dundalk-1830",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T18:30:00Z",
+   "runner": "Diamond Exchange",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 11.11
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 17.71,
+    "spread_pct": 8.3
+   },
+   "move_pct": 59.4,
+   "band": [
+    8,
+    13
    ],
    "percentile": 95,
    "notable": true
@@ -1335,45 +1775,45 @@
    "notable": false
   },
   {
-   "slug": "dundalk-1700",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T17:00:00Z",
-   "runner": "Tio Joao",
+   "slug": "wolverhampton-1645",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-09-18T16:45:00Z",
+   "runner": "Elias Escape",
    "first": {
     "mins_to_off": 360,
-    "mid": 12.32
+    "mid": 9.47
    },
    "latest": {
-    "mins_to_off": 45,
-    "mid": 8.58,
-    "spread_pct": 9.4
+    "mins_to_off": 0,
+    "mid": 14.48,
+    "spread_pct": 6.8
    },
-   "move_pct": -30.4,
+   "move_pct": 52.9,
    "band": [
     8,
     13
    ],
-   "percentile": 6,
+   "percentile": 94,
    "notable": false
   },
   {
-   "slug": "dundalk-1730",
+   "slug": "dundalk-1930",
    "venue": "Dundalk",
-   "off_utc": "2026-09-18T17:30:00Z",
-   "runner": "Little Wing",
+   "off_utc": "2026-09-18T19:30:00Z",
+   "runner": "Scorcher's Son",
    "first": {
     "mins_to_off": 360,
-    "mid": 56.5
+    "mid": 13.38
    },
    "latest": {
-    "mins_to_off": 75,
-    "mid": 88.89,
-    "spread_pct": 22.5
+    "mins_to_off": 0,
+    "mid": 21.95,
+    "spread_pct": 31.7
    },
-   "move_pct": 57.3,
+   "move_pct": 64.1,
    "band": [
-    35,
-    100
+    13,
+    20
    ],
    "percentile": 94,
    "notable": false
@@ -1555,20 +1995,42 @@
    "notable": false
   },
   {
-   "slug": "dundalk-1730",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T17:30:00Z",
-   "runner": "Una Matata",
+   "slug": "newbury-1650",
+   "venue": "Newbury",
+   "off_utc": "2026-09-18T16:50:00Z",
+   "runner": "Double Red",
    "first": {
-    "mins_to_off": 360,
-    "mid": 12.16
+    "mins_to_off": 350,
+    "mid": 18.67
    },
    "latest": {
-    "mins_to_off": 75,
-    "mid": 8.67,
-    "spread_pct": 11.6
+    "mins_to_off": 5,
+    "mid": 29.9,
+    "spread_pct": 13.5
    },
-   "move_pct": -28.7,
+   "move_pct": 60.1,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 93,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1715",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-09-18T17:15:00Z",
+   "runner": "North View",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 10.25
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 7.19,
+    "spread_pct": 5.6
+   },
+   "move_pct": -29.8,
    "band": [
     8,
     13
@@ -1577,25 +2039,47 @@
    "notable": false
   },
   {
+   "slug": "dundalk-1730",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T17:30:00Z",
+   "runner": "The Bear Trap",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 8.4
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 12.48,
+    "spread_pct": 8.0
+   },
+   "move_pct": 48.6,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 93,
+   "notable": false
+  },
+  {
    "slug": "dundalk-1830",
    "venue": "Dundalk",
    "off_utc": "2026-09-18T18:30:00Z",
-   "runner": "Wandering Rocks",
+   "runner": "Daonethatgotaway",
    "first": {
     "mins_to_off": 360,
-    "mid": 58.48
+    "mid": 12.63
    },
    "latest": {
-    "mins_to_off": 135,
-    "mid": 29.46,
-    "spread_pct": 27.3
+    "mins_to_off": 0,
+    "mid": 18.71,
+    "spread_pct": 8.1
    },
-   "move_pct": -49.6,
+   "move_pct": 48.2,
    "band": [
-    35,
-    100
+    8,
+    13
    ],
-   "percentile": 7,
+   "percentile": 93,
    "notable": false
   },
   {
@@ -1616,6 +2100,28 @@
    "band": [
     13,
     20
+   ],
+   "percentile": 93,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1930",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T19:30:00Z",
+   "runner": "Coolnagrattan",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 49.38
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 77.22,
+    "spread_pct": 39.2
+   },
+   "move_pct": 56.4,
+   "band": [
+    35,
+    100
    ],
    "percentile": 93,
    "notable": false
@@ -1731,47 +2237,91 @@
    "notable": false
   },
   {
-   "slug": "dundalk-1730",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T17:30:00Z",
-   "runner": "Battle Borne",
+   "slug": "newton-abbot-1630",
+   "venue": "Newton Abbot",
+   "off_utc": "2026-09-18T16:30:00Z",
+   "runner": "Son Of Hypnos",
    "first": {
     "mins_to_off": 360,
-    "mid": 56.5
+    "mid": 9.3
    },
    "latest": {
-    "mins_to_off": 75,
-    "mid": 85.84,
-    "spread_pct": 28.9
+    "mins_to_off": 0,
+    "mid": 6.7,
+    "spread_pct": 2.9
    },
-   "move_pct": 51.9,
+   "move_pct": -28.0,
    "band": [
-    35,
-    100
+    8,
+    13
+   ],
+   "percentile": 8,
+   "notable": false
+  },
+  {
+   "slug": "newton-abbot-1630",
+   "venue": "Newton Abbot",
+   "off_utc": "2026-09-18T16:30:00Z",
+   "runner": "God Of Fire",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 5.19
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 3.85,
+    "spread_pct": 2.6
+   },
+   "move_pct": -25.9,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 8,
+   "notable": false
+  },
+  {
+   "slug": "downpatrick-1637",
+   "venue": "Downpatrick",
+   "off_utc": "2026-09-18T16:37:00Z",
+   "runner": "Guitar Star",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 9.78
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 13.98,
+    "spread_pct": 7.1
+   },
+   "move_pct": 42.9,
+   "band": [
+    8,
+    13
    ],
    "percentile": 92,
    "notable": false
   },
   {
-   "slug": "wolverhampton-1745",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T17:45:00Z",
-   "runner": "Luan",
+   "slug": "dundalk-1830",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T18:30:00Z",
+   "runner": "Pavilion End",
    "first": {
     "mins_to_off": 360,
-    "mid": 4.2
+    "mid": 5.55
    },
    "latest": {
-    "mins_to_off": 90,
-    "mid": 5.6,
-    "spread_pct": 3.6
+    "mins_to_off": 0,
+    "mid": 4.1,
+    "spread_pct": 4.9
    },
-   "move_pct": 33.4,
+   "move_pct": -26.1,
    "band": [
-    3,
-    5
+    5,
+    8
    ],
-   "percentile": 92,
+   "percentile": 8,
    "notable": false
   },
   {
@@ -1995,23 +2545,45 @@
    "notable": false
   },
   {
-   "slug": "newton-abbot-1630",
-   "venue": "Newton Abbot",
-   "off_utc": "2026-09-18T16:30:00Z",
-   "runner": "Raffles Nobu",
+   "slug": "wolverhampton-1715",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-09-18T17:15:00Z",
+   "runner": "Havanagreattime",
    "first": {
     "mins_to_off": 360,
-    "mid": 7.78
+    "mid": 64.31
    },
    "latest": {
     "mins_to_off": 15,
-    "mid": 10.48,
-    "spread_pct": 9.6
+    "mid": 96.15,
+    "spread_pct": 42.1
    },
-   "move_pct": 34.7,
+   "move_pct": 49.5,
    "band": [
-    5,
-    8
+    35,
+    100
+   ],
+   "percentile": 91,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1830",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T18:30:00Z",
+   "runner": "Direct Approach",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 44.44
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 66.67,
+    "spread_pct": 23.0
+   },
+   "move_pct": 50.0,
+   "band": [
+    35,
+    100
    ],
    "percentile": 91,
    "notable": false
@@ -2097,6 +2669,50 @@
     "spread_pct": 11349.8
    },
    "move_pct": 51.8,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 91,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1930",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T19:30:00Z",
+   "runner": "Navy Guitar",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 29.41
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 49.51,
+    "spread_pct": 50.4
+   },
+   "move_pct": 68.3,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 91,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1930",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T19:30:00Z",
+   "runner": "Brigids Charm",
+   "first": {
+    "mins_to_off": 195,
+    "mid": 66.01
+   },
+   "latest": {
+    "mins_to_off": 150,
+    "mid": 99.01,
+    "spread_pct": 449.5
+   },
+   "move_pct": 50.0,
    "band": [
     35,
     100
@@ -2215,47 +2831,25 @@
    "notable": false
   },
   {
-   "slug": "downpatrick-1637",
-   "venue": "Downpatrick",
-   "off_utc": "2026-09-18T16:37:00Z",
-   "runner": "Hadahi",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 7.47
-   },
-   "latest": {
-    "mins_to_off": 22,
-    "mid": 5.75,
-    "spread_pct": 5.2
-   },
-   "move_pct": -23.0,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 10,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1715",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T17:15:00Z",
-   "runner": "Yaajooz",
+   "slug": "dundalk-1800",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T18:00:00Z",
+   "runner": "Angel Of Promise",
    "first": {
     "mins_to_off": 360,
-    "mid": 7.96
+    "mid": 33.61
    },
    "latest": {
-    "mins_to_off": 60,
-    "mid": 10.48,
-    "spread_pct": 9.6
+    "mins_to_off": 0,
+    "mid": 22.94,
+    "spread_pct": 8.7
    },
-   "move_pct": 31.7,
+   "move_pct": -31.8,
    "band": [
-    5,
-    8
+    20,
+    35
    ],
-   "percentile": 90,
+   "percentile": 10,
    "notable": false
   },
   {
@@ -2276,6 +2870,28 @@
    "band": [
     20,
     35
+   ],
+   "percentile": 90,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1900",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T19:00:00Z",
+   "runner": "He Knows When",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 10.99
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 15.48,
+    "spread_pct": 6.5
+   },
+   "move_pct": 40.9,
+   "band": [
+    8,
+    13
    ],
    "percentile": 90,
    "notable": false
@@ -2438,44 +3054,22 @@
    "slug": "newton-abbot-1630",
    "venue": "Newton Abbot",
    "off_utc": "2026-09-18T16:30:00Z",
-   "runner": "Farhh Echo",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 8.38
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 6.3,
-    "spread_pct": 3.2
-   },
-   "move_pct": -24.9,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 11,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1800",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T18:00:00Z",
-   "runner": "Angel Of Promise",
+   "runner": "Enziya",
    "first": {
     "mins_to_off": 360,
     "mid": 33.61
    },
    "latest": {
-    "mins_to_off": 105,
-    "mid": 23.64,
-    "spread_pct": 25.5
+    "mins_to_off": 0,
+    "mid": 53.33,
+    "spread_pct": 22.1
    },
-   "move_pct": -29.7,
+   "move_pct": 58.7,
    "band": [
     20,
     35
    ],
-   "percentile": 11,
+   "percentile": 89,
    "notable": false
   },
   {
@@ -2520,6 +3114,28 @@
     100
    ],
    "percentile": 89,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1900",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T19:00:00Z",
+   "runner": "Without Love",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 4.14
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 3.4,
+    "spread_pct": 2.9
+   },
+   "move_pct": -18.0,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 11,
    "notable": false
   },
   {
@@ -2809,25 +3425,113 @@
    "notable": false
   },
   {
-   "slug": "newbury-1650",
-   "venue": "Newbury",
-   "off_utc": "2026-09-18T16:50:00Z",
-   "runner": "Double Red",
+   "slug": "newton-abbot-1630",
+   "venue": "Newton Abbot",
+   "off_utc": "2026-09-18T16:30:00Z",
+   "runner": "Clear Sky",
    "first": {
-    "mins_to_off": 350,
-    "mid": 18.67
+    "mins_to_off": 360,
+    "mid": 57.14
    },
    "latest": {
-    "mins_to_off": 35,
-    "mid": 26.42,
-    "spread_pct": 11.4
+    "mins_to_off": 0,
+    "mid": 81.97,
+    "spread_pct": 18.2
    },
-   "move_pct": 41.5,
+   "move_pct": 43.4,
    "band": [
-    13,
-    20
+    35,
+    100
    ],
    "percentile": 88,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1700",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T17:00:00Z",
+   "runner": "Jubel",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 69.93
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 40.82,
+    "spread_pct": 14.8
+   },
+   "move_pct": -41.6,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 12,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1730",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T17:30:00Z",
+   "runner": "Free Solo",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 10.05
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 13.49,
+    "spread_pct": 7.4
+   },
+   "move_pct": 34.2,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 88,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1745",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-09-18T17:45:00Z",
+   "runner": "Luan",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 4.2
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 5.3,
+    "spread_pct": 3.8
+   },
+   "move_pct": 26.2,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 88,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1800",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T18:00:00Z",
+   "runner": "Beat The Devil",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 5.9
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 4.65,
+    "spread_pct": 2.1
+   },
+   "move_pct": -21.2,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 12,
    "notable": false
   },
   {
@@ -3205,25 +3909,25 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1645",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T16:45:00Z",
-   "runner": "Tortola",
+   "slug": "newton-abbot-1630",
+   "venue": "Newton Abbot",
+   "off_utc": "2026-09-18T16:30:00Z",
+   "runner": "Farhh Echo",
    "first": {
     "mins_to_off": 360,
-    "mid": 6.19
+    "mid": 8.38
    },
    "latest": {
-    "mins_to_off": 30,
-    "mid": 7.84,
-    "spread_pct": 17.9
+    "mins_to_off": 0,
+    "mid": 6.59,
+    "spread_pct": 6.0
    },
-   "move_pct": 26.5,
+   "move_pct": -21.3,
    "band": [
-    5,
-    8
+    8,
+    13
    ],
-   "percentile": 86,
+   "percentile": 14,
    "notable": false
   },
   {
@@ -3266,6 +3970,28 @@
    "band": [
     35,
     100
+   ],
+   "percentile": 86,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1915",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-09-18T19:15:00Z",
+   "runner": "Flash Rascal",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 18.45
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 25.41,
+    "spread_pct": 12.0
+   },
+   "move_pct": 37.7,
+   "band": [
+    13,
+    20
    ],
    "percentile": 86,
    "notable": false
@@ -3469,6 +4195,28 @@
    "notable": false
   },
   {
+   "slug": "dundalk-1800",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T18:00:00Z",
+   "runner": "Usuario Amigo",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 7.15
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 8.9,
+    "spread_pct": 2.2
+   },
+   "move_pct": 24.5,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 85,
+   "notable": false
+  },
+  {
    "slug": "taif-ksa-1350",
    "venue": "Taif Ksa",
    "off_utc": "2026-09-18T13:50:00Z",
@@ -3508,6 +4256,50 @@
    "band": [
     20,
     35
+   ],
+   "percentile": 15,
+   "notable": false
+  },
+  {
+   "slug": "taif-ksa-1735",
+   "venue": "Taif Ksa",
+   "off_utc": "2026-09-18T17:35:00Z",
+   "runner": "Jasour",
+   "first": {
+    "mins_to_off": 260,
+    "mid": 19.05
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 25.97,
+    "spread_pct": 633.6
+   },
+   "move_pct": 36.4,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 85,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1745",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-09-18T17:45:00Z",
+   "runner": "Six Blue",
+   "first": {
+    "mins_to_off": 105,
+    "mid": 85.47
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 53.33,
+    "spread_pct": 22.1
+   },
+   "move_pct": -37.6,
+   "band": [
+    35,
+    100
    ],
    "percentile": 15,
    "notable": false
@@ -3560,130 +4352,42 @@
    "slug": "downpatrick-1637",
    "venue": "Downpatrick",
    "off_utc": "2026-09-18T16:37:00Z",
-   "runner": "Orderly Conduct",
+   "runner": "Myluckymaker",
    "first": {
     "mins_to_off": 352,
-    "mid": 7.75
+    "mid": 4.72
    },
    "latest": {
-    "mins_to_off": 22,
-    "mid": 9.58,
-    "spread_pct": 8.4
+    "mins_to_off": 7,
+    "mid": 5.75,
+    "spread_pct": 1.7
    },
-   "move_pct": 23.6,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 84,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1730",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T17:30:00Z",
-   "runner": "Send Harry",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 4.44
-   },
-   "latest": {
-    "mins_to_off": 75,
-    "mid": 3.82,
-    "spread_pct": 3.9
-   },
-   "move_pct": -14.0,
+   "move_pct": 21.7,
    "band": [
     3,
     5
    ],
-   "percentile": 16,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1830",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T18:30:00Z",
-   "runner": "Daonethatgotaway",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 12.63
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 16.35,
-    "spread_pct": 18.3
-   },
-   "move_pct": 29.5,
-   "band": [
-    8,
-    13
-   ],
    "percentile": 84,
    "notable": false
   },
   {
-   "slug": "dundalk-1830",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T18:30:00Z",
-   "runner": "Trishuli River",
+   "slug": "wolverhampton-1645",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-09-18T16:45:00Z",
+   "runner": "Enjoy The Night",
    "first": {
     "mins_to_off": 360,
-    "mid": 19.1
+    "mid": 6.29
    },
    "latest": {
-    "mins_to_off": 135,
-    "mid": 25.84,
-    "spread_pct": 15.6
+    "mins_to_off": 0,
+    "mid": 5.2,
+    "spread_pct": 3.8
    },
-   "move_pct": 35.3,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 84,
-   "notable": false
-  },
-  {
-   "slug": "taif-ksa-1735",
-   "venue": "Taif Ksa",
-   "off_utc": "2026-09-18T17:35:00Z",
-   "runner": "Raakeb",
-   "first": {
-    "mins_to_off": 260,
-    "mid": 7.45
-   },
-   "latest": {
-    "mins_to_off": 80,
-    "mid": 9.15,
-    "spread_pct": 212.1
-   },
-   "move_pct": 22.9,
+   "move_pct": -17.3,
    "band": [
     5,
     8
-   ],
-   "percentile": 84,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1915",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T19:15:00Z",
-   "runner": "Million Gold",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 70.67
-   },
-   "latest": {
-    "mins_to_off": 180,
-    "mid": 44.94,
-    "spread_pct": 37.7
-   },
-   "move_pct": -36.4,
-   "band": [
-    35,
-    100
    ],
    "percentile": 16,
    "notable": false
@@ -3799,69 +4503,25 @@
    "notable": false
   },
   {
-   "slug": "dundalk-1700",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T17:00:00Z",
-   "runner": "Kindacan",
+   "slug": "downpatrick-1637",
+   "venue": "Downpatrick",
+   "off_utc": "2026-09-18T16:37:00Z",
+   "runner": "Ifuknowuknow",
    "first": {
-    "mins_to_off": 360,
-    "mid": 3.35
+    "mins_to_off": 352,
+    "mid": 4.72
    },
    "latest": {
-    "mins_to_off": 45,
-    "mid": 4.02,
-    "spread_pct": 3.7
+    "mins_to_off": 7,
+    "mid": 5.7,
+    "spread_pct": 3.5
    },
-   "move_pct": 20.2,
+   "move_pct": 20.6,
    "band": [
     3,
     5
    ],
    "percentile": 83,
-   "notable": false
-  },
-  {
-   "slug": "newbury-1650",
-   "venue": "Newbury",
-   "off_utc": "2026-09-18T16:50:00Z",
-   "runner": "Lucky Luna",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 20.66
-   },
-   "latest": {
-    "mins_to_off": 35,
-    "mid": 29.9,
-    "spread_pct": 13.5
-   },
-   "move_pct": 44.7,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 83,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1715",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T17:15:00Z",
-   "runner": "Powder Monkey",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 3.55
-   },
-   "latest": {
-    "mins_to_off": 60,
-    "mid": 3.07,
-    "spread_pct": 1.6
-   },
-   "move_pct": -13.3,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 17,
    "notable": false
   },
   {
@@ -4014,6 +4674,72 @@
    "band": [
     8,
     13
+   ],
+   "percentile": 18,
+   "notable": false
+  },
+  {
+   "slug": "newbury-1650",
+   "venue": "Newbury",
+   "off_utc": "2026-09-18T16:50:00Z",
+   "runner": "Lucky Luna",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 20.66
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 29.33,
+    "spread_pct": 17.1
+   },
+   "move_pct": 41.9,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 82,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1715",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-09-18T17:15:00Z",
+   "runner": "Ash Wednesday",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 10.48
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 13.24,
+    "spread_pct": 3.7
+   },
+   "move_pct": 26.4,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 82,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1830",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T18:30:00Z",
+   "runner": "Wandering Rocks",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 58.48
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 38.76,
+    "spread_pct": 15.6
+   },
+   "move_pct": -33.7,
+   "band": [
+    35,
+    100
    ],
    "percentile": 18,
    "notable": false
@@ -4371,20 +5097,42 @@
    "notable": false
   },
   {
+   "slug": "newbury-1650",
+   "venue": "Newbury",
+   "off_utc": "2026-09-18T16:50:00Z",
+   "runner": "Interstate",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 3.95
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 4.65,
+    "spread_pct": 2.1
+   },
+   "move_pct": 17.7,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 81,
+   "notable": false
+  },
+  {
    "slug": "dundalk-1800",
    "venue": "Dundalk",
    "off_utc": "2026-09-18T18:00:00Z",
-   "runner": "Usuario Amigo",
+   "runner": "Perfect Judgement",
    "first": {
     "mins_to_off": 360,
-    "mid": 7.15
+    "mid": 5.19
    },
    "latest": {
-    "mins_to_off": 105,
-    "mid": 8.58,
-    "spread_pct": 9.4
+    "mins_to_off": 0,
+    "mid": 6.19,
+    "spread_pct": 6.5
    },
-   "move_pct": 20.0,
+   "move_pct": 19.3,
    "band": [
     5,
     8
@@ -4434,28 +5182,6 @@
     100
    ],
    "percentile": 81,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1930",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T19:30:00Z",
-   "runner": "Drummond Hill",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 56.98
-   },
-   "latest": {
-    "mins_to_off": 195,
-    "mid": 38.17,
-    "spread_pct": 99.3
-   },
-   "move_pct": -33.0,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 19,
    "notable": false
   },
   {
@@ -4591,50 +5317,6 @@
    "notable": false
   },
   {
-   "slug": "downpatrick-1637",
-   "venue": "Downpatrick",
-   "off_utc": "2026-09-18T16:37:00Z",
-   "runner": "Myluckymaker",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 4.72
-   },
-   "latest": {
-    "mins_to_off": 22,
-    "mid": 5.55,
-    "spread_pct": 5.4
-   },
-   "move_pct": 17.4,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 80,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1745",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T17:45:00Z",
-   "runner": "Tenadaay",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 4.24
-   },
-   "latest": {
-    "mins_to_off": 90,
-    "mid": 3.75,
-    "spread_pct": 2.7
-   },
-   "move_pct": -11.7,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 20,
-   "notable": false
-  },
-  {
    "slug": "dundalk-1800",
    "venue": "Dundalk",
    "off_utc": "2026-09-18T18:00:00Z",
@@ -4644,16 +5326,60 @@
     "mid": 27.29
    },
    "latest": {
-    "mins_to_off": 105,
-    "mid": 37.11,
-    "spread_pct": 32.3
+    "mins_to_off": 0,
+    "mid": 36.76,
+    "spread_pct": 16.3
    },
-   "move_pct": 36.0,
+   "move_pct": 34.7,
    "band": [
     20,
     35
    ],
    "percentile": 80,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1830",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T18:30:00Z",
+   "runner": "Kilcrea Rock",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 7.39
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 6.3,
+    "spread_pct": 3.2
+   },
+   "move_pct": -14.8,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 20,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1845",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-09-18T18:45:00Z",
+   "runner": "Niffler",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 1.85
+   },
+   "latest": {
+    "mins_to_off": 30,
+    "mid": 1.68,
+    "spread_pct": 1.2
+   },
+   "move_pct": -9.4,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 20,
    "notable": false
   },
   {
@@ -4833,23 +5559,45 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1745",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T17:45:00Z",
-   "runner": "Nora Barnacle",
+   "slug": "downpatrick-1637",
+   "venue": "Downpatrick",
+   "off_utc": "2026-09-18T16:37:00Z",
+   "runner": "Loves A Laugh",
    "first": {
-    "mins_to_off": 345,
-    "mid": 92.59
+    "mins_to_off": 352,
+    "mid": 22.99
    },
    "latest": {
-    "mins_to_off": 90,
-    "mid": 63.49,
-    "spread_pct": 31.9
+    "mins_to_off": 7,
+    "mid": 18.71,
+    "spread_pct": 8.1
    },
-   "move_pct": -31.4,
+   "move_pct": -18.6,
    "band": [
-    35,
-    100
+    20,
+    35
+   ],
+   "percentile": 21,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1830",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T18:30:00Z",
+   "runner": "Nakasero",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 6.79
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 5.85,
+    "spread_pct": 1.7
+   },
+   "move_pct": -13.9,
+   "band": [
+    5,
+    8
    ],
    "percentile": 21,
    "notable": false
@@ -4869,6 +5617,50 @@
     "spread_pct": 17249.8
    },
    "move_pct": 26.0,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 79,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1900",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T19:00:00Z",
+   "runner": "Jazz Forever",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 20.39
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 27.4,
+    "spread_pct": 11.0
+   },
+   "move_pct": 34.4,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 79,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1930",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T19:30:00Z",
+   "runner": "Drummond Hill",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 56.98
+   },
+   "latest": {
+    "mins_to_off": 15,
+    "mid": 71.68,
+    "spread_pct": 21.0
+   },
+   "move_pct": 25.8,
    "band": [
     35,
     100
@@ -5009,25 +5801,69 @@
    "notable": false
   },
   {
-   "slug": "dundalk-1730",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T17:30:00Z",
-   "runner": "Mickey The Steel",
+   "slug": "downpatrick-1637",
+   "venue": "Downpatrick",
+   "off_utc": "2026-09-18T16:37:00Z",
+   "runner": "S T Hamo",
    "first": {
-    "mins_to_off": 360,
-    "mid": 21.95
+    "mins_to_off": 352,
+    "mid": 9.39
    },
    "latest": {
-    "mins_to_off": 75,
-    "mid": 18.17,
-    "spread_pct": 13.7
+    "mins_to_off": 7,
+    "mid": 11.48,
+    "spread_pct": 8.7
    },
-   "move_pct": -17.3,
+   "move_pct": 22.3,
    "band": [
-    20,
-    35
+    8,
+    13
    ],
-   "percentile": 22,
+   "percentile": 78,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1700",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T17:00:00Z",
+   "runner": "The Pipeman",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 4.59
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 5.3,
+    "spread_pct": 3.8
+   },
+   "move_pct": 15.4,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 78,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1845",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-09-18T18:45:00Z",
+   "runner": "Hellion",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 76.34
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 95.69,
+    "spread_pct": 26.3
+   },
+   "move_pct": 25.4,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 78,
    "notable": false
   },
   {
@@ -5097,47 +5933,25 @@
    "notable": false
   },
   {
-   "slug": "taif-ksa-1735",
-   "venue": "Taif Ksa",
-   "off_utc": "2026-09-18T17:35:00Z",
-   "runner": "Jasour",
+   "slug": "wolverhampton-1915",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-09-18T19:15:00Z",
+   "runner": "Obsidian Verse",
    "first": {
-    "mins_to_off": 260,
-    "mid": 19.05
+    "mins_to_off": 360,
+    "mid": 17.95
    },
    "latest": {
-    "mins_to_off": 80,
-    "mid": 23.98,
-    "spread_pct": 41650.0
+    "mins_to_off": 0,
+    "mid": 22.83,
+    "spread_pct": 17.5
    },
-   "move_pct": 25.9,
+   "move_pct": 27.2,
    "band": [
     13,
     20
    ],
    "percentile": 78,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1915",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T19:15:00Z",
-   "runner": "Beauzon",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 98.04
-   },
-   "latest": {
-    "mins_to_off": 180,
-    "mid": 68.73,
-    "spread_pct": 87.1
-   },
-   "move_pct": -29.9,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 22,
    "notable": false
   },
   {
@@ -5207,91 +6021,47 @@
    "notable": false
   },
   {
-   "slug": "downpatrick-1637",
-   "venue": "Downpatrick",
-   "off_utc": "2026-09-18T16:37:00Z",
-   "runner": "Loves A Laugh",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 22.99
-   },
-   "latest": {
-    "mins_to_off": 22,
-    "mid": 19.1,
-    "spread_pct": 18.3
-   },
-   "move_pct": -16.9,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 23,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1645",
+   "slug": "wolverhampton-1715",
    "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T16:45:00Z",
-   "runner": "Nubough",
+   "off_utc": "2026-09-18T17:15:00Z",
+   "runner": "King Of Ithaca",
    "first": {
     "mins_to_off": 360,
-    "mid": 33.61
+    "mid": 19.49
    },
    "latest": {
-    "mins_to_off": 30,
-    "mid": 27.86,
-    "spread_pct": 14.6
+    "mins_to_off": 0,
+    "mid": 24.48,
+    "spread_pct": 4.2
    },
-   "move_pct": -17.1,
+   "move_pct": 25.6,
    "band": [
-    20,
-    35
+    13,
+    20
+   ],
+   "percentile": 77,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1745",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-09-18T17:45:00Z",
+   "runner": "Belle Amie",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 3.06
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 2.75,
+    "spread_pct": 2.2
+   },
+   "move_pct": -10.2,
+   "band": [
+    3,
+    5
    ],
    "percentile": 23,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1700",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T17:00:00Z",
-   "runner": "Tavernise",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 7.26
-   },
-   "latest": {
-    "mins_to_off": 45,
-    "mid": 8.39,
-    "spread_pct": 4.8
-   },
-   "move_pct": 15.5,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 77,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1800",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T18:00:00Z",
-   "runner": "Perfect Judgement",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 5.19
-   },
-   "latest": {
-    "mins_to_off": 105,
-    "mid": 5.99,
-    "spread_pct": 6.7
-   },
-   "move_pct": 15.4,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 77,
    "notable": false
   },
   {
@@ -5361,67 +6131,67 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1645",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T16:45:00Z",
-   "runner": "Vitalline",
+   "slug": "newton-abbot-1630",
+   "venue": "Newton Abbot",
+   "off_utc": "2026-09-18T16:30:00Z",
+   "runner": "Saucats",
    "first": {
     "mins_to_off": 360,
-    "mid": 10.91
+    "mid": 10.03
    },
    "latest": {
-    "mins_to_off": 30,
-    "mid": 9.47,
-    "spread_pct": 10.5
+    "mins_to_off": 0,
+    "mid": 11.98,
+    "spread_pct": 8.4
    },
-   "move_pct": -13.2,
+   "move_pct": 19.4,
    "band": [
     8,
     13
    ],
-   "percentile": 24,
+   "percentile": 76,
    "notable": false
   },
   {
    "slug": "wolverhampton-1715",
    "venue": "Wolverhampton",
    "off_utc": "2026-09-18T17:15:00Z",
-   "runner": "North View",
+   "runner": "Velvet Rhythm",
    "first": {
     "mins_to_off": 360,
-    "mid": 10.25
+    "mid": 9.2
    },
    "latest": {
-    "mins_to_off": 60,
-    "mid": 8.89,
-    "spread_pct": 6.8
+    "mins_to_off": 0,
+    "mid": 10.98,
+    "spread_pct": 9.0
    },
-   "move_pct": -13.3,
+   "move_pct": 19.4,
    "band": [
     8,
     13
    ],
-   "percentile": 24,
+   "percentile": 76,
    "notable": false
   },
   {
    "slug": "dundalk-1730",
    "venue": "Dundalk",
    "off_utc": "2026-09-18T17:30:00Z",
-   "runner": "The Bear Trap",
+   "runner": "Send Harry",
    "first": {
     "mins_to_off": 360,
-    "mid": 8.4
+    "mid": 4.44
    },
    "latest": {
-    "mins_to_off": 75,
-    "mid": 10.02,
-    "spread_pct": 18.0
+    "mins_to_off": 0,
+    "mid": 5.05,
+    "spread_pct": 2.0
    },
-   "move_pct": 19.3,
+   "move_pct": 13.6,
    "band": [
-    8,
-    13
+    3,
+    5
    ],
    "percentile": 76,
    "notable": false
@@ -5468,6 +6238,50 @@
     35
    ],
    "percentile": 76,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1900",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T19:00:00Z",
+   "runner": "Suerte",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 19.49
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 16.49,
+    "spread_pct": 6.1
+   },
+   "move_pct": -15.4,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 24,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1900",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T19:00:00Z",
+   "runner": "Aiteall",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 15.94
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 13.49,
+    "spread_pct": 7.4
+   },
+   "move_pct": -15.4,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 24,
    "notable": false
   },
   {
@@ -5603,67 +6417,23 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1645",
+   "slug": "wolverhampton-1845",
    "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T16:45:00Z",
-   "runner": "Elias Escape",
+   "off_utc": "2026-09-18T18:45:00Z",
+   "runner": "Billy Bathgate",
    "first": {
     "mins_to_off": 360,
-    "mid": 9.47
+    "mid": 21.25
    },
    "latest": {
-    "mins_to_off": 30,
-    "mid": 8.29,
-    "spread_pct": 7.2
+    "mins_to_off": 0,
+    "mid": 27.4,
+    "spread_pct": 11.0
    },
-   "move_pct": -12.5,
+   "move_pct": 28.9,
    "band": [
-    8,
-    13
-   ],
-   "percentile": 25,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1700",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T17:00:00Z",
-   "runner": "Arrowstock",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 15.36
-   },
-   "latest": {
-    "mins_to_off": 45,
-    "mid": 13.21,
-    "spread_pct": 11.4
-   },
-   "move_pct": -14.0,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 25,
-   "notable": false
-  },
-  {
-   "slug": "newbury-1650",
-   "venue": "Newbury",
-   "off_utc": "2026-09-18T16:50:00Z",
-   "runner": "Military Air",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 81.97
-   },
-   "latest": {
-    "mins_to_off": 35,
-    "mid": 99.01,
-    "spread_pct": 20.0
-   },
-   "move_pct": 20.8,
-   "band": [
-    35,
-    100
+    20,
+    35
    ],
    "percentile": 75,
    "notable": false
@@ -5688,6 +6458,50 @@
     8
    ],
    "percentile": 75,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1900",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T19:00:00Z",
+   "runner": "Whosethebestboy",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 9.69
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 8.5,
+    "spread_pct": 2.3
+   },
+   "move_pct": -12.3,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 25,
+   "notable": false
+  },
+  {
+   "slug": "taif-ksa-1735",
+   "venue": "Taif Ksa",
+   "off_utc": "2026-09-18T17:35:00Z",
+   "runner": "Aldhahaak",
+   "first": {
+    "mins_to_off": 260,
+    "mid": 8.25
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 7.19,
+    "spread_pct": 119.6
+   },
+   "move_pct": -12.9,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 25,
    "notable": false
   },
   {
@@ -5801,69 +6615,91 @@
    "notable": false
   },
   {
-   "slug": "dundalk-1700",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T17:00:00Z",
-   "runner": "Jubel",
+   "slug": "wolverhampton-1645",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-09-18T16:45:00Z",
+   "runner": "Vitalline",
    "first": {
     "mins_to_off": 360,
-    "mid": 69.93
+    "mid": 10.91
    },
    "latest": {
-    "mins_to_off": 45,
-    "mid": 52.08,
-    "spread_pct": 26.5
+    "mins_to_off": 0,
+    "mid": 9.6,
+    "spread_pct": 4.2
    },
-   "move_pct": -25.5,
+   "move_pct": -12.0,
    "band": [
-    35,
-    100
+    8,
+    13
    ],
    "percentile": 26,
    "notable": false
   },
   {
-   "slug": "dundalk-1800",
+   "slug": "dundalk-1700",
    "venue": "Dundalk",
-   "off_utc": "2026-09-18T18:00:00Z",
-   "runner": "Famous Enough",
+   "off_utc": "2026-09-18T17:00:00Z",
+   "runner": "Always Magic",
    "first": {
     "mins_to_off": 360,
-    "mid": 14.14
+    "mid": 13.63
    },
    "latest": {
-    "mins_to_off": 105,
-    "mid": 12.2,
-    "spread_pct": 12.4
+    "mins_to_off": 0,
+    "mid": 16.72,
+    "spread_pct": 9.0
    },
-   "move_pct": -13.7,
+   "move_pct": 22.7,
    "band": [
     13,
     20
    ],
-   "percentile": 26,
+   "percentile": 74,
    "notable": false
   },
   {
-   "slug": "wolverhampton-1845",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T18:45:00Z",
-   "runner": "Al's River",
+   "slug": "dundalk-1730",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T17:30:00Z",
+   "runner": "Battle Borne",
    "first": {
     "mins_to_off": 360,
-    "mid": 41.15
+    "mid": 56.5
    },
    "latest": {
-    "mins_to_off": 150,
-    "mid": 30.86,
-    "spread_pct": 29.0
+    "mins_to_off": 0,
+    "mid": 66.67,
+    "spread_pct": 23.0
    },
-   "move_pct": -25.0,
+   "move_pct": 18.0,
    "band": [
     35,
     100
    ],
-   "percentile": 26,
+   "percentile": 74,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1815",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-09-18T18:15:00Z",
+   "runner": "Melting Snow",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 2.54
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 2.78,
+    "spread_pct": 1.4
+   },
+   "move_pct": 9.5,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 74,
    "notable": false
   },
   {
@@ -6065,6 +6901,28 @@
    "notable": false
   },
   {
+   "slug": "wolverhampton-1715",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-09-18T17:15:00Z",
+   "runner": "Lerwick",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 58.48
+   },
+   "latest": {
+    "mins_to_off": 15,
+    "mid": 68.49,
+    "spread_pct": 29.4
+   },
+   "move_pct": 17.1,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 73,
+   "notable": false
+  },
+  {
    "slug": "taif-ksa-1440",
    "venue": "Taif Ksa",
    "off_utc": "2026-09-18T14:40:00Z",
@@ -6082,28 +6940,6 @@
    "band": [
     20,
     35
-   ],
-   "percentile": 73,
-   "notable": false
-  },
-  {
-   "slug": "taif-ksa-1735",
-   "venue": "Taif Ksa",
-   "off_utc": "2026-09-18T17:35:00Z",
-   "runner": "Reyman",
-   "first": {
-    "mins_to_off": 260,
-    "mid": 14.42
-   },
-   "latest": {
-    "mins_to_off": 80,
-    "mid": 17.54,
-    "spread_pct": 1023.0
-   },
-   "move_pct": 21.7,
-   "band": [
-    13,
-    20
    ],
    "percentile": 73,
    "notable": false
@@ -6329,23 +7165,89 @@
    "notable": false
   },
   {
-   "slug": "dundalk-1700",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T17:00:00Z",
-   "runner": "Spirit Of The Nite",
+   "slug": "wolverhampton-1645",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-09-18T16:45:00Z",
+   "runner": "Sanditon",
    "first": {
     "mins_to_off": 360,
-    "mid": 33.61
+    "mid": 5.69
    },
    "latest": {
-    "mins_to_off": 45,
-    "mid": 29.46,
-    "spread_pct": 27.3
+    "mins_to_off": 0,
+    "mid": 5.15,
+    "spread_pct": 2.0
    },
-   "move_pct": -12.4,
+   "move_pct": -9.6,
    "band": [
-    20,
-    35
+    5,
+    8
+   ],
+   "percentile": 28,
+   "notable": false
+  },
+  {
+   "slug": "newbury-1650",
+   "venue": "Newbury",
+   "off_utc": "2026-09-18T16:50:00Z",
+   "runner": "Due To Henry",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 14.94
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 17.99,
+    "spread_pct": 5.4
+   },
+   "move_pct": 20.4,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 72,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1815",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-09-18T18:15:00Z",
+   "runner": "Speculative",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 55.56
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 64.52,
+    "spread_pct": 15.6
+   },
+   "move_pct": 16.1,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 72,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1830",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T18:30:00Z",
+   "runner": "Merlin The Wizard",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 8.3
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 7.39,
+    "spread_pct": 5.4
+   },
+   "move_pct": -10.9,
+   "band": [
+    8,
+    13
    ],
    "percentile": 28,
    "notable": false
@@ -6505,47 +7407,25 @@
    "notable": false
   },
   {
-   "slug": "taif-ksa-1735",
-   "venue": "Taif Ksa",
-   "off_utc": "2026-09-18T17:35:00Z",
-   "runner": "Wayak",
-   "first": {
-    "mins_to_off": 260,
-    "mid": 75.76
-   },
-   "latest": {
-    "mins_to_off": 80,
-    "mid": 87.72,
-    "spread_pct": 11349.8
-   },
-   "move_pct": 15.8,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 72,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1915",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T19:15:00Z",
-   "runner": "Come On Over",
+   "slug": "dundalk-1900",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T19:00:00Z",
+   "runner": "Alto Sax",
    "first": {
     "mins_to_off": 360,
-    "mid": 3.52
+    "mid": 11.42
    },
    "latest": {
-    "mins_to_off": 180,
-    "mid": 3.9,
-    "spread_pct": 2.5
+    "mins_to_off": 0,
+    "mid": 10.14,
+    "spread_pct": 6.9
    },
-   "move_pct": 10.7,
+   "move_pct": -11.2,
    "band": [
-    3,
-    5
+    8,
+    13
    ],
-   "percentile": 72,
+   "percentile": 28,
    "notable": false
   },
   {
@@ -6593,111 +7473,89 @@
    "notable": false
   },
   {
-   "slug": "newton-abbot-1630",
-   "venue": "Newton Abbot",
-   "off_utc": "2026-09-18T16:30:00Z",
-   "runner": "Enziya",
+   "slug": "downpatrick-1637",
+   "venue": "Downpatrick",
+   "off_utc": "2026-09-18T16:37:00Z",
+   "runner": "Thranduil",
    "first": {
-    "mins_to_off": 360,
-    "mid": 33.61
+    "mins_to_off": 352,
+    "mid": 21.6
    },
    "latest": {
-    "mins_to_off": 15,
-    "mid": 29.9,
-    "spread_pct": 13.5
+    "mins_to_off": 7,
+    "mid": 26.85,
+    "spread_pct": 14.8
    },
-   "move_pct": -11.1,
+   "move_pct": 24.3,
    "band": [
     20,
     35
    ],
-   "percentile": 29,
+   "percentile": 71,
    "notable": false
   },
   {
-   "slug": "wolverhampton-1645",
+   "slug": "wolverhampton-1715",
    "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T16:45:00Z",
-   "runner": "Enjoy The Night",
+   "off_utc": "2026-09-18T17:15:00Z",
+   "runner": "Kit Gabriel",
    "first": {
     "mins_to_off": 360,
-    "mid": 6.29
+    "mid": 75.47
    },
    "latest": {
-    "mins_to_off": 30,
-    "mid": 5.7,
-    "spread_pct": 3.5
+    "mins_to_off": 15,
+    "mid": 86.96,
+    "spread_pct": 17.5
    },
-   "move_pct": -9.3,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 29,
-   "notable": false
-  },
-  {
-   "slug": "newbury-1650",
-   "venue": "Newbury",
-   "off_utc": "2026-09-18T16:50:00Z",
-   "runner": "Interstate",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 3.95
-   },
-   "latest": {
-    "mins_to_off": 35,
-    "mid": 3.65,
-    "spread_pct": 2.7
-   },
-   "move_pct": -7.6,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 29,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1800",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T18:00:00Z",
-   "runner": "Storm Eric",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 42.46
-   },
-   "latest": {
-    "mins_to_off": 105,
-    "mid": 32.89,
-    "spread_pct": 27.5
-   },
-   "move_pct": -22.5,
+   "move_pct": 15.2,
    "band": [
     35,
     100
    ],
-   "percentile": 29,
+   "percentile": 71,
    "notable": false
   },
   {
-   "slug": "wolverhampton-1845",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T18:45:00Z",
-   "runner": "Shopaholic",
+   "slug": "dundalk-1730",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T17:30:00Z",
+   "runner": "In A Hurry",
    "first": {
     "mins_to_off": 360,
-    "mid": 3.77
+    "mid": 50.51
    },
    "latest": {
-    "mins_to_off": 150,
-    "mid": 4.15,
-    "spread_pct": 2.4
+    "mins_to_off": 0,
+    "mid": 58.31,
+    "spread_pct": 34.2
    },
-   "move_pct": 10.0,
+   "move_pct": 15.5,
    "band": [
-    3,
-    5
+    35,
+    100
+   ],
+   "percentile": 71,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1745",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-09-18T17:45:00Z",
+   "runner": "Wonderful Wendy",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 10.58
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 12.25,
+    "spread_pct": 4.0
+   },
+   "move_pct": 15.7,
+   "band": [
+    8,
+    13
    ],
    "percentile": 71,
    "notable": false
@@ -6720,28 +7578,6 @@
    "band": [
     35,
     100
-   ],
-   "percentile": 71,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1900",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T19:00:00Z",
-   "runner": "Syosset",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 19.9
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 23.81,
-    "spread_pct": 16.8
-   },
-   "move_pct": 19.6,
-   "band": [
-    13,
-    20
    ],
    "percentile": 71,
    "notable": false
@@ -6901,28 +7737,6 @@
    "notable": false
   },
   {
-   "slug": "newton-abbot-1630",
-   "venue": "Newton Abbot",
-   "off_utc": "2026-09-18T16:30:00Z",
-   "runner": "Begin The Luck",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 68.03
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 53.33,
-    "spread_pct": 22.1
-   },
-   "move_pct": -21.6,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 30,
-   "notable": false
-  },
-  {
    "slug": "ayr-1620",
    "venue": "Ayr",
    "off_utc": "2026-09-18T16:20:00Z",
@@ -6945,20 +7759,20 @@
    "notable": false
   },
   {
-   "slug": "dundalk-1730",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T17:30:00Z",
-   "runner": "Faoladh",
+   "slug": "wolverhampton-1815",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-09-18T18:15:00Z",
+   "runner": "Little Miss India",
    "first": {
     "mins_to_off": 360,
-    "mid": 10.42
+    "mid": 9.09
    },
    "latest": {
-    "mins_to_off": 75,
-    "mid": 11.92,
-    "spread_pct": 16.8
+    "mins_to_off": 0,
+    "mid": 10.48,
+    "spread_pct": 9.6
    },
-   "move_pct": 14.4,
+   "move_pct": 15.2,
    "band": [
     8,
     13
@@ -6967,91 +7781,25 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1745",
+   "slug": "wolverhampton-1815",
    "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T17:45:00Z",
-   "runner": "Wonderful Wendy",
+   "off_utc": "2026-09-18T18:15:00Z",
+   "runner": "Symphony's Song",
    "first": {
     "mins_to_off": 360,
-    "mid": 10.58
+    "mid": 5.88
    },
    "latest": {
-    "mins_to_off": 90,
-    "mid": 9.58,
-    "spread_pct": 8.4
+    "mins_to_off": 0,
+    "mid": 6.5,
+    "spread_pct": 3.1
    },
-   "move_pct": -9.4,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 30,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1830",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T18:30:00Z",
-   "runner": "Pavilion End",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 5.55
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 5.05,
-    "spread_pct": 2.0
-   },
-   "move_pct": -9.0,
+   "move_pct": 10.5,
    "band": [
     5,
     8
    ],
-   "percentile": 30,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1900",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T19:00:00Z",
-   "runner": "Without Love",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 4.14
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 3.85,
-    "spread_pct": 2.6
-   },
-   "move_pct": -7.1,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 30,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1915",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T19:15:00Z",
-   "runner": "Santiago Boy",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 18.38
-   },
-   "latest": {
-    "mins_to_off": 180,
-    "mid": 16.35,
-    "spread_pct": 18.3
-   },
-   "move_pct": -11.0,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 30,
+   "percentile": 70,
    "notable": false
   },
   {
@@ -7121,40 +7869,106 @@
    "notable": false
   },
   {
-   "slug": "dundalk-1800",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T18:00:00Z",
-   "runner": "Beat The Devil",
+   "slug": "wolverhampton-1645",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-09-18T16:45:00Z",
+   "runner": "Nubough",
    "first": {
     "mins_to_off": 360,
-    "mid": 5.9
+    "mid": 33.61
    },
    "latest": {
-    "mins_to_off": 105,
-    "mid": 5.4,
-    "spread_pct": 3.7
+    "mins_to_off": 0,
+    "mid": 30.44,
+    "spread_pct": 10.1
    },
-   "move_pct": -8.5,
+   "move_pct": -9.4,
    "band": [
-    5,
-    8
+    20,
+    35
    ],
    "percentile": 31,
    "notable": false
   },
   {
-   "slug": "wolverhampton-1845",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T18:45:00Z",
-   "runner": "Niffler",
+   "slug": "dundalk-1700",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T17:00:00Z",
+   "runner": "Thumama Glory",
    "first": {
     "mins_to_off": 360,
-    "mid": 1.85
+    "mid": 74.91
    },
    "latest": {
-    "mins_to_off": 150,
-    "mid": 1.75,
-    "spread_pct": 1.7
+    "mins_to_off": 15,
+    "mid": 60.06,
+    "spread_pct": 41.9
+   },
+   "move_pct": -19.8,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 31,
+   "notable": false
+  },
+  {
+   "slug": "newbury-1650",
+   "venue": "Newbury",
+   "off_utc": "2026-09-18T16:50:00Z",
+   "runner": "Law Court",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 3.4
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 3.17,
+    "spread_pct": 1.6
+   },
+   "move_pct": -6.6,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 31,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1730",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T17:30:00Z",
+   "runner": "Kc Bear",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 10.81
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 12.25,
+    "spread_pct": 4.0
+   },
+   "move_pct": 13.3,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 69,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1930",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T19:30:00Z",
+   "runner": "Numantia",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 1.68
+   },
+   "latest": {
+    "mins_to_off": 15,
+    "mid": 1.59,
+    "spread_pct": 1.9
    },
    "move_pct": -5.3,
    "band": [
@@ -7341,47 +8155,25 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1645",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T16:45:00Z",
-   "runner": "Al Suil Eile",
+   "slug": "newton-abbot-1630",
+   "venue": "Newton Abbot",
+   "off_utc": "2026-09-18T16:30:00Z",
+   "runner": "Reteti",
    "first": {
     "mins_to_off": 360,
-    "mid": 47.96
+    "mid": 10.58
    },
    "latest": {
-    "mins_to_off": 30,
-    "mid": 53.91,
-    "spread_pct": 35.0
+    "mins_to_off": 0,
+    "mid": 11.98,
+    "spread_pct": 8.4
    },
-   "move_pct": 12.4,
+   "move_pct": 13.2,
    "band": [
-    35,
-    100
+    8,
+    13
    ],
    "percentile": 68,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1800",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T18:00:00Z",
-   "runner": "Manhattan Dandy",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 62.89
-   },
-   "latest": {
-    "mins_to_off": 105,
-    "mid": 50.89,
-    "spread_pct": 58.8
-   },
-   "move_pct": -19.1,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 32,
    "notable": false
   },
   {
@@ -7407,25 +8199,25 @@
    "notable": false
   },
   {
-   "slug": "dundalk-1930",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T19:30:00Z",
-   "runner": "Coolnagrattan",
+   "slug": "wolverhampton-1915",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-09-18T19:15:00Z",
+   "runner": "Hayynah",
    "first": {
     "mins_to_off": 360,
-    "mid": 49.38
+    "mid": 50.89
    },
    "latest": {
-    "mins_to_off": 195,
-    "mid": 40.0,
-    "spread_pct": 74.6
+    "mins_to_off": 0,
+    "mid": 57.31,
+    "spread_pct": 8.6
    },
-   "move_pct": -19.0,
+   "move_pct": 12.6,
    "band": [
     35,
     100
    ],
-   "percentile": 32,
+   "percentile": 68,
    "notable": false
   },
   {
@@ -7561,23 +8353,23 @@
    "notable": false
   },
   {
-   "slug": "newton-abbot-1630",
-   "venue": "Newton Abbot",
-   "off_utc": "2026-09-18T16:30:00Z",
-   "runner": "Warfleet",
+   "slug": "dundalk-1700",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T17:00:00Z",
+   "runner": "Kindacan",
    "first": {
     "mins_to_off": 360,
-    "mid": 10.91
+    "mid": 3.35
    },
    "latest": {
-    "mins_to_off": 15,
-    "mid": 12.25,
-    "spread_pct": 4.0
+    "mins_to_off": 0,
+    "mid": 3.62,
+    "spread_pct": 1.4
    },
-   "move_pct": 12.2,
+   "move_pct": 8.3,
    "band": [
-    8,
-    13
+    3,
+    5
    ],
    "percentile": 67,
    "notable": false
@@ -7586,20 +8378,42 @@
    "slug": "dundalk-1730",
    "venue": "Dundalk",
    "off_utc": "2026-09-18T17:30:00Z",
-   "runner": "Kc Bear",
+   "runner": "Smoke Them Out",
    "first": {
     "mins_to_off": 360,
-    "mid": 10.81
+    "mid": 27.1
    },
    "latest": {
-    "mins_to_off": 75,
-    "mid": 12.12,
-    "spread_pct": 20.6
+    "mins_to_off": 0,
+    "mid": 32.73,
+    "spread_pct": 18.2
    },
-   "move_pct": 12.1,
+   "move_pct": 20.8,
    "band": [
-    8,
-    13
+    20,
+    35
+   ],
+   "percentile": 67,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1800",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T18:00:00Z",
+   "runner": "Limbocall",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 50.89
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 56.5,
+    "spread_pct": 26.4
+   },
+   "move_pct": 11.0,
+   "band": [
+    35,
+    100
    ],
    "percentile": 67,
    "notable": false
@@ -7671,45 +8485,23 @@
    "notable": false
   },
   {
-   "slug": "taif-ksa-1735",
-   "venue": "Taif Ksa",
-   "off_utc": "2026-09-18T17:35:00Z",
-   "runner": "Ashwas",
-   "first": {
-    "mins_to_off": 260,
-    "mid": 51.81
-   },
-   "latest": {
-    "mins_to_off": 80,
-    "mid": 57.8,
-    "spread_pct": 17249.8
-   },
-   "move_pct": 11.6,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 67,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1930",
+   "slug": "dundalk-1900",
    "venue": "Dundalk",
-   "off_utc": "2026-09-18T19:30:00Z",
-   "runner": "Ask Me Again",
+   "off_utc": "2026-09-18T19:00:00Z",
+   "runner": "Anchors Away",
    "first": {
     "mins_to_off": 360,
-    "mid": 8.84
+    "mid": 25.84
    },
    "latest": {
-    "mins_to_off": 195,
-    "mid": 9.92,
-    "spread_pct": 11.1
+    "mins_to_off": 0,
+    "mid": 31.3,
+    "spread_pct": 16.1
    },
-   "move_pct": 12.2,
+   "move_pct": 21.1,
    "band": [
-    8,
-    13
+    20,
+    35
    ],
    "percentile": 67,
    "notable": false
@@ -7847,28 +8639,6 @@
    "notable": false
   },
   {
-   "slug": "newton-abbot-1630",
-   "venue": "Newton Abbot",
-   "off_utc": "2026-09-18T16:30:00Z",
-   "runner": "Ocean Heights",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 9.18
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 10.25,
-    "spread_pct": 4.9
-   },
-   "move_pct": 11.6,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 66,
-   "notable": false
-  },
-  {
    "slug": "ayr-1620",
    "venue": "Ayr",
    "off_utc": "2026-09-18T16:20:00Z",
@@ -7891,64 +8661,20 @@
    "notable": false
   },
   {
-   "slug": "dundalk-1700",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T17:00:00Z",
-   "runner": "Cat Blade",
+   "slug": "newbury-1650",
+   "venue": "Newbury",
+   "off_utc": "2026-09-18T16:50:00Z",
+   "runner": "Sweet Reward",
    "first": {
-    "mins_to_off": 360,
-    "mid": 53.91
+    "mins_to_off": 350,
+    "mid": 13.71
    },
    "latest": {
-    "mins_to_off": 45,
-    "mid": 44.84,
-    "spread_pct": 13.5
+    "mins_to_off": 5,
+    "mid": 15.71,
+    "spread_pct": 9.6
    },
-   "move_pct": -16.8,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 34,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1815",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T18:15:00Z",
-   "runner": "Renesmee",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 12.93
-   },
-   "latest": {
-    "mins_to_off": 120,
-    "mid": 14.43,
-    "spread_pct": 13.9
-   },
-   "move_pct": 11.6,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 66,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1900",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T19:00:00Z",
-   "runner": "Coul Dore",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 19.9
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 22.83,
-    "spread_pct": 17.5
-   },
-   "move_pct": 14.7,
+   "move_pct": 14.6,
    "band": [
     13,
     20
@@ -8001,86 +8727,20 @@
    "notable": false
   },
   {
-   "slug": "downpatrick-1637",
-   "venue": "Downpatrick",
-   "off_utc": "2026-09-18T16:37:00Z",
-   "runner": "Old Court",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 84.03
-   },
-   "latest": {
-    "mins_to_off": 22,
-    "mid": 70.67,
-    "spread_pct": 99.7
-   },
-   "move_pct": -15.9,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 35,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1700",
+   "slug": "dundalk-1730",
    "venue": "Dundalk",
-   "off_utc": "2026-09-18T17:00:00Z",
-   "runner": "Value Pending",
+   "off_utc": "2026-09-18T17:30:00Z",
+   "runner": "Little Wing",
    "first": {
     "mins_to_off": 360,
-    "mid": 18.17
+    "mid": 56.5
    },
    "latest": {
-    "mins_to_off": 45,
-    "mid": 16.72,
-    "spread_pct": 9.0
+    "mins_to_off": 15,
+    "mid": 61.54,
+    "spread_pct": 24.4
    },
-   "move_pct": -7.9,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 35,
-   "notable": false
-  },
-  {
-   "slug": "newbury-1650",
-   "venue": "Newbury",
-   "off_utc": "2026-09-18T16:50:00Z",
-   "runner": "Due To Henry",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 14.94
-   },
-   "latest": {
-    "mins_to_off": 35,
-    "mid": 16.99,
-    "spread_pct": 6.0
-   },
-   "move_pct": 13.8,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 65,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1800",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T18:00:00Z",
-   "runner": "Limbocall",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 50.89
-   },
-   "latest": {
-    "mins_to_off": 105,
-    "mid": 55.56,
-    "spread_pct": 42.9
-   },
-   "move_pct": 9.2,
+   "move_pct": 8.9,
    "band": [
     35,
     100
@@ -8130,28 +8790,6 @@
     5
    ],
    "percentile": 35,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1900",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T19:00:00Z",
-   "runner": "Doctor Grace",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 9.58
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 10.58,
-    "spread_pct": 16.0
-   },
-   "move_pct": 10.5,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 65,
    "notable": false
   },
   {
@@ -8287,91 +8925,25 @@
    "notable": false
   },
   {
-   "slug": "dundalk-1700",
+   "slug": "dundalk-1800",
    "venue": "Dundalk",
-   "off_utc": "2026-09-18T17:00:00Z",
-   "runner": "Thumama Glory",
+   "off_utc": "2026-09-18T18:00:00Z",
+   "runner": "Starflow",
    "first": {
     "mins_to_off": 360,
-    "mid": 74.91
+    "mid": 14.43
    },
    "latest": {
-    "mins_to_off": 45,
-    "mid": 63.49,
-    "spread_pct": 31.9
+    "mins_to_off": 0,
+    "mid": 13.49,
+    "spread_pct": 7.4
    },
-   "move_pct": -15.2,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 36,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1700",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T17:00:00Z",
-   "runner": "Always Magic",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 13.63
-   },
-   "latest": {
-    "mins_to_off": 45,
-    "mid": 12.71,
-    "spread_pct": 11.7
-   },
-   "move_pct": -6.8,
+   "move_pct": -6.5,
    "band": [
     13,
     20
    ],
    "percentile": 36,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1715",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T17:15:00Z",
-   "runner": "Ziggy's Condor",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 20.55
-   },
-   "latest": {
-    "mins_to_off": 60,
-    "mid": 23.95,
-    "spread_pct": 8.4
-   },
-   "move_pct": 16.5,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 64,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1715",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T17:15:00Z",
-   "runner": "Ash Wednesday",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 10.48
-   },
-   "latest": {
-    "mins_to_off": 60,
-    "mid": 11.48,
-    "spread_pct": 8.7
-   },
-   "move_pct": 9.6,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 64,
    "notable": false
   },
   {
@@ -8460,6 +9032,28 @@
     20
    ],
    "percentile": 64,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1915",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-09-18T19:15:00Z",
+   "runner": "Santiago Boy",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 18.38
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 17.21,
+    "spread_pct": 8.6
+   },
+   "move_pct": -6.4,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 36,
    "notable": false
   },
   {
@@ -8639,69 +9233,69 @@
    "notable": false
   },
   {
-   "slug": "newbury-1650",
-   "venue": "Newbury",
-   "off_utc": "2026-09-18T16:50:00Z",
-   "runner": "Law Court",
+   "slug": "downpatrick-1637",
+   "venue": "Downpatrick",
+   "off_utc": "2026-09-18T16:37:00Z",
+   "runner": "Old Court",
    "first": {
-    "mins_to_off": 350,
-    "mid": 3.4
+    "mins_to_off": 352,
+    "mid": 84.03
    },
    "latest": {
-    "mins_to_off": 35,
-    "mid": 3.25,
-    "spread_pct": 3.1
+    "mins_to_off": 7,
+    "mid": 71.68,
+    "spread_pct": 21.0
    },
-   "move_pct": -4.4,
+   "move_pct": -14.7,
    "band": [
-    3,
-    5
+    35,
+    100
    ],
    "percentile": 37,
    "notable": false
   },
   {
-   "slug": "wolverhampton-1715",
+   "slug": "wolverhampton-1645",
    "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T17:15:00Z",
-   "runner": "King Of Ithaca",
+   "off_utc": "2026-09-18T16:45:00Z",
+   "runner": "Tortola",
    "first": {
     "mins_to_off": 360,
-    "mid": 19.49
+    "mid": 6.19
    },
    "latest": {
-    "mins_to_off": 60,
-    "mid": 21.81,
-    "spread_pct": 18.3
+    "mins_to_off": 0,
+    "mid": 6.59,
+    "spread_pct": 6.0
    },
-   "move_pct": 11.9,
+   "move_pct": 6.5,
    "band": [
-    13,
-    20
+    5,
+    8
    ],
    "percentile": 63,
    "notable": false
   },
   {
-   "slug": "dundalk-1730",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T17:30:00Z",
-   "runner": "Smoke Them Out",
+   "slug": "wolverhampton-1645",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-09-18T16:45:00Z",
+   "runner": "Gloriola",
    "first": {
     "mins_to_off": 360,
-    "mid": 27.1
+    "mid": 20.22
    },
    "latest": {
-    "mins_to_off": 75,
-    "mid": 25.84,
-    "spread_pct": 15.6
+    "mins_to_off": 0,
+    "mid": 23.39,
+    "spread_pct": 12.9
    },
-   "move_pct": -4.7,
+   "move_pct": 15.7,
    "band": [
     20,
     35
    ],
-   "percentile": 37,
+   "percentile": 63,
    "notable": false
   },
   {
@@ -8741,6 +9335,28 @@
     "spread_pct": 100.1
    },
    "move_pct": -4.2,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 37,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1915",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-09-18T19:15:00Z",
+   "runner": "Acclaimed Freedom",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 4.54
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 4.35,
+    "spread_pct": 2.3
+   },
+   "move_pct": -4.3,
    "band": [
     3,
     5
@@ -8793,152 +9409,42 @@
    "notable": false
   },
   {
-   "slug": "newton-abbot-1630",
-   "venue": "Newton Abbot",
-   "off_utc": "2026-09-18T16:30:00Z",
-   "runner": "God Of Fire",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 5.19
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 4.95,
-    "spread_pct": 2.0
-   },
-   "move_pct": -4.7,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 38,
-   "notable": false
-  },
-  {
-   "slug": "downpatrick-1637",
-   "venue": "Downpatrick",
-   "off_utc": "2026-09-18T16:37:00Z",
-   "runner": "Ifuknowuknow",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 4.72
-   },
-   "latest": {
-    "mins_to_off": 22,
-    "mid": 5.0,
-    "spread_pct": 4.0
-   },
-   "move_pct": 5.8,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 62,
-   "notable": false
-  },
-  {
-   "slug": "downpatrick-1637",
-   "venue": "Downpatrick",
-   "off_utc": "2026-09-18T16:37:00Z",
-   "runner": "Thranduil",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 21.6
-   },
-   "latest": {
-    "mins_to_off": 22,
-    "mid": 20.66,
-    "spread_pct": 12.0
-   },
-   "move_pct": -4.3,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 38,
-   "notable": false
-  },
-  {
-   "slug": "newbury-1650",
-   "venue": "Newbury",
-   "off_utc": "2026-09-18T16:50:00Z",
-   "runner": "Sweet Reward",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 13.71
-   },
-   "latest": {
-    "mins_to_off": 35,
-    "mid": 15.21,
-    "spread_pct": 9.9
-   },
-   "move_pct": 11.0,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 62,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1715",
+   "slug": "wolverhampton-1745",
    "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T17:15:00Z",
-   "runner": "Havanagreattime",
+   "off_utc": "2026-09-18T17:45:00Z",
+   "runner": "Trojan Truth",
    "first": {
     "mins_to_off": 360,
-    "mid": 64.31
+    "mid": 10.14
    },
    "latest": {
-    "mins_to_off": 60,
-    "mid": 68.26,
-    "spread_pct": 51.5
+    "mins_to_off": 0,
+    "mid": 10.98,
+    "spread_pct": 9.0
    },
-   "move_pct": 6.1,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 62,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1730",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T17:30:00Z",
-   "runner": "Slight Of Foot",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 10.5
-   },
-   "latest": {
-    "mins_to_off": 75,
-    "mid": 10.02,
-    "spread_pct": 18.0
-   },
-   "move_pct": -4.6,
+   "move_pct": 8.3,
    "band": [
     8,
     13
    ],
-   "percentile": 38,
+   "percentile": 62,
    "notable": false
   },
   {
    "slug": "dundalk-1800",
    "venue": "Dundalk",
    "off_utc": "2026-09-18T18:00:00Z",
-   "runner": "Kitty Bear",
+   "runner": "Leannespour",
    "first": {
     "mins_to_off": 360,
-    "mid": 11.2
+    "mid": 9.39
    },
    "latest": {
-    "mins_to_off": 105,
-    "mid": 10.7,
-    "spread_pct": 14.0
+    "mins_to_off": 0,
+    "mid": 8.89,
+    "spread_pct": 6.8
    },
-   "move_pct": -4.5,
+   "move_pct": -5.3,
    "band": [
     8,
     13
@@ -8950,22 +9456,22 @@
    "slug": "dundalk-1830",
    "venue": "Dundalk",
    "off_utc": "2026-09-18T18:30:00Z",
-   "runner": "Nakasero",
+   "runner": "Celtic Druid",
    "first": {
     "mins_to_off": 360,
-    "mid": 6.79
+    "mid": 8.04
    },
    "latest": {
-    "mins_to_off": 135,
-    "mid": 6.49,
-    "spread_pct": 9.2
+    "mins_to_off": 0,
+    "mid": 8.7,
+    "spread_pct": 2.3
    },
-   "move_pct": -4.5,
+   "move_pct": 8.2,
    "band": [
-    5,
-    8
+    8,
+    13
    ],
-   "percentile": 38,
+   "percentile": 62,
    "notable": false
   },
   {
@@ -9192,20 +9698,64 @@
    "slug": "newton-abbot-1630",
    "venue": "Newton Abbot",
    "off_utc": "2026-09-18T16:30:00Z",
-   "runner": "Son Of Hypnos",
+   "runner": "Begin The Luck",
    "first": {
     "mins_to_off": 360,
-    "mid": 9.3
+    "mid": 68.03
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 71.68,
+    "spread_pct": 21.0
+   },
+   "move_pct": 5.4,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 61,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1700",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T17:00:00Z",
+   "runner": "Cat Blade",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 53.91
    },
    "latest": {
     "mins_to_off": 15,
-    "mid": 8.9,
-    "spread_pct": 2.2
+    "mid": 56.98,
+    "spread_pct": 38.4
    },
-   "move_pct": -4.3,
+   "move_pct": 5.7,
    "band": [
-    8,
-    13
+    35,
+    100
+   ],
+   "percentile": 61,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1745",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-09-18T17:45:00Z",
+   "runner": "Tenadaay",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 4.24
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 4.1,
+    "spread_pct": 4.9
+   },
+   "move_pct": -3.5,
+   "band": [
+    3,
+    5
    ],
    "percentile": 39,
    "notable": false
@@ -9214,44 +9764,22 @@
    "slug": "dundalk-1800",
    "venue": "Dundalk",
    "off_utc": "2026-09-18T18:00:00Z",
-   "runner": "Hot To Foxtrot",
+   "runner": "Storm Eric",
    "first": {
     "mins_to_off": 360,
-    "mid": 21.21
+    "mid": 42.46
    },
    "latest": {
-    "mins_to_off": 105,
-    "mid": 20.66,
-    "spread_pct": 12.0
+    "mins_to_off": 0,
+    "mid": 44.84,
+    "spread_pct": 13.5
    },
-   "move_pct": -2.6,
+   "move_pct": 5.6,
    "band": [
-    20,
-    35
+    35,
+    100
    ],
-   "percentile": 39,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1800",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T18:00:00Z",
-   "runner": "Leannespour",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 9.39
-   },
-   "latest": {
-    "mins_to_off": 105,
-    "mid": 8.98,
-    "spread_pct": 8.9
-   },
-   "move_pct": -4.3,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 39,
+   "percentile": 61,
    "notable": false
   },
   {
@@ -9390,86 +9918,64 @@
    "slug": "dundalk-1900",
    "venue": "Dundalk",
    "off_utc": "2026-09-18T19:00:00Z",
-   "runner": "Aiteall",
+   "runner": "Syosset",
    "first": {
     "mins_to_off": 360,
-    "mid": 15.94
+    "mid": 19.9
    },
    "latest": {
-    "mins_to_off": 165,
-    "mid": 15.15,
-    "spread_pct": 16.5
+    "mins_to_off": 0,
+    "mid": 21.95,
+    "spread_pct": 9.0
    },
-   "move_pct": -4.9,
+   "move_pct": 10.3,
    "band": [
     13,
     20
+   ],
+   "percentile": 61,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1900",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T19:00:00Z",
+   "runner": "Doctor Grace",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 9.58
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 9.18,
+    "spread_pct": 8.6
+   },
+   "move_pct": -4.1,
+   "band": [
+    8,
+    13
    ],
    "percentile": 39,
    "notable": false
   },
   {
-   "slug": "wolverhampton-1915",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T19:15:00Z",
-   "runner": "Obsidian Verse",
+   "slug": "taif-ksa-1735",
+   "venue": "Taif Ksa",
+   "off_utc": "2026-09-18T17:35:00Z",
+   "runner": "Farough",
    "first": {
-    "mins_to_off": 360,
-    "mid": 17.95
+    "mins_to_off": 260,
+    "mid": 1.67
    },
    "latest": {
-    "mins_to_off": 180,
-    "mid": 19.78,
-    "spread_pct": 20.2
+    "mins_to_off": 5,
+    "mid": 1.74,
+    "spread_pct": 43.7
    },
-   "move_pct": 10.2,
+   "move_pct": 4.5,
    "band": [
-    13,
-    20
-   ],
-   "percentile": 61,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1930",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T19:30:00Z",
-   "runner": "Navy Guitar",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 29.41
-   },
-   "latest": {
-    "mins_to_off": 195,
-    "mid": 33.61,
-    "spread_pct": 41.7
-   },
-   "move_pct": 14.3,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 61,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1930",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T19:30:00Z",
-   "runner": "Scorcher's Son",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 13.38
-   },
-   "latest": {
-    "mins_to_off": 195,
-    "mid": 14.74,
-    "spread_pct": 27.2
-   },
-   "move_pct": 10.2,
-   "band": [
-    13,
-    20
+    1.5,
+    3
    ],
    "percentile": 61,
    "notable": false
@@ -9654,130 +10160,64 @@
    "slug": "wolverhampton-1645",
    "venue": "Wolverhampton",
    "off_utc": "2026-09-18T16:45:00Z",
+   "runner": "Al Suil Eile",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 47.96
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 50.13,
+    "spread_pct": 17.7
+   },
+   "move_pct": 4.5,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 60,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1645",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-09-18T16:45:00Z",
    "runner": "Twitch",
    "first": {
     "mins_to_off": 360,
     "mid": 5.25
    },
    "latest": {
-    "mins_to_off": 30,
+    "mins_to_off": 0,
     "mid": 5.05,
-    "spread_pct": 6.0
-   },
-   "move_pct": -3.8,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 40,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1800",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T18:00:00Z",
-   "runner": "Starflow",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 14.43
-   },
-   "latest": {
-    "mins_to_off": 105,
-    "mid": 13.93,
-    "spread_pct": 14.3
-   },
-   "move_pct": -3.5,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 40,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1815",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T18:15:00Z",
-   "runner": "Symphony's Song",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 5.88
-   },
-   "latest": {
-    "mins_to_off": 120,
-    "mid": 6.19,
-    "spread_pct": 6.5
-   },
-   "move_pct": 5.3,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 60,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1815",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T18:15:00Z",
-   "runner": "Evening Fades",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 7.29
-   },
-   "latest": {
-    "mins_to_off": 120,
-    "mid": 6.99,
-    "spread_pct": 5.7
-   },
-   "move_pct": -4.0,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 40,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1830",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T18:30:00Z",
-   "runner": "Merlin The Wizard",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 8.3
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 7.99,
-    "spread_pct": 5.0
+    "spread_pct": 2.0
    },
    "move_pct": -3.7,
    "band": [
-    8,
-    13
+    5,
+    8
    ],
    "percentile": 40,
    "notable": false
   },
   {
-   "slug": "wolverhampton-1845",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T18:45:00Z",
-   "runner": "Wedonttellthetruth",
+   "slug": "newbury-1650",
+   "venue": "Newbury",
+   "off_utc": "2026-09-18T16:50:00Z",
+   "runner": "Military Air",
    "first": {
-    "mins_to_off": 360,
-    "mid": 8.87
+    "mins_to_off": 350,
+    "mid": 81.97
    },
    "latest": {
-    "mins_to_off": 150,
-    "mid": 9.49,
-    "spread_pct": 6.4
+    "mins_to_off": 5,
+    "mid": 85.84,
+    "spread_pct": 28.9
    },
-   "move_pct": 7.0,
+   "move_pct": 4.7,
    "band": [
-    8,
-    13
+    35,
+    100
    ],
    "percentile": 60,
    "notable": false
@@ -9827,69 +10267,25 @@
    "notable": false
   },
   {
-   "slug": "dundalk-1900",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T19:00:00Z",
-   "runner": "Suerte",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 19.49
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 18.67,
-    "spread_pct": 13.3
-   },
-   "move_pct": -4.2,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 40,
-   "notable": false
-  },
-  {
    "slug": "wolverhampton-1915",
    "venue": "Wolverhampton",
    "off_utc": "2026-09-18T19:15:00Z",
-   "runner": "Flash Rascal",
+   "runner": "Come On Over",
    "first": {
     "mins_to_off": 360,
-    "mid": 18.45
+    "mid": 3.52
    },
    "latest": {
-    "mins_to_off": 180,
-    "mid": 17.67,
-    "spread_pct": 14.2
+    "mins_to_off": 0,
+    "mid": 3.7,
+    "spread_pct": 2.7
    },
-   "move_pct": -4.2,
+   "move_pct": 5.0,
    "band": [
-    13,
-    20
+    3,
+    5
    ],
-   "percentile": 40,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1915",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T19:15:00Z",
-   "runner": "Horace Wallace",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 6.87
-   },
-   "latest": {
-    "mins_to_off": 180,
-    "mid": 6.59,
-    "spread_pct": 6.0
-   },
-   "move_pct": -4.0,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 40,
+   "percentile": 60,
    "notable": false
   },
   {
@@ -10069,91 +10465,69 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1645",
+   "slug": "wolverhampton-1745",
    "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T16:45:00Z",
-   "runner": "Gloriola",
+   "off_utc": "2026-09-18T17:45:00Z",
+   "runner": "Nora Barnacle",
    "first": {
-    "mins_to_off": 360,
-    "mid": 20.22
+    "mins_to_off": 345,
+    "mid": 92.59
    },
    "latest": {
-    "mins_to_off": 30,
-    "mid": 20.08,
-    "spread_pct": 17.4
+    "mins_to_off": 0,
+    "mid": 82.3,
+    "spread_pct": 5.8
    },
-   "move_pct": -0.7,
+   "move_pct": -11.1,
    "band": [
-    20,
-    35
+    35,
+    100
    ],
    "percentile": 41,
    "notable": false
   },
   {
-   "slug": "wolverhampton-1815",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T18:15:00Z",
-   "runner": "Lilly Lux",
+   "slug": "taif-ksa-1735",
+   "venue": "Taif Ksa",
+   "off_utc": "2026-09-18T17:35:00Z",
+   "runner": "Raakeb",
    "first": {
-    "mins_to_off": 360,
-    "mid": 10.25
+    "mins_to_off": 260,
+    "mid": 7.45
    },
    "latest": {
-    "mins_to_off": 120,
-    "mid": 9.92,
-    "spread_pct": 11.1
+    "mins_to_off": 5,
+    "mid": 7.19,
+    "spread_pct": 119.6
    },
-   "move_pct": -3.2,
+   "move_pct": -3.5,
    "band": [
-    8,
-    13
+    5,
+    8
    ],
    "percentile": 41,
    "notable": false
   },
   {
-   "slug": "dundalk-1830",
+   "slug": "dundalk-1930",
    "venue": "Dundalk",
-   "off_utc": "2026-09-18T18:30:00Z",
-   "runner": "Celtic Druid",
+   "off_utc": "2026-09-18T19:30:00Z",
+   "runner": "Trustmore",
    "first": {
     "mins_to_off": 360,
-    "mid": 8.04
+    "mid": 7.06
    },
    "latest": {
-    "mins_to_off": 135,
-    "mid": 7.78,
-    "spread_pct": 10.2
+    "mins_to_off": 15,
+    "mid": 7.39,
+    "spread_pct": 5.4
    },
-   "move_pct": -3.3,
+   "move_pct": 4.7,
    "band": [
-    8,
-    13
+    5,
+    8
    ],
-   "percentile": 41,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1900",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T19:00:00Z",
-   "runner": "Jazz Forever",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 20.39
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 20.39,
-    "spread_pct": 14.6
-   },
-   "move_pct": 0.0,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 41,
+   "percentile": 59,
    "notable": false
   },
   {
@@ -10311,25 +10685,69 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1715",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T17:15:00Z",
-   "runner": "Lerwick",
+   "slug": "dundalk-1700",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T17:00:00Z",
+   "runner": "Arrowstock",
    "first": {
     "mins_to_off": 360,
-    "mid": 58.48
+    "mid": 15.36
    },
    "latest": {
-    "mins_to_off": 60,
-    "mid": 60.06,
-    "spread_pct": 41.9
+    "mins_to_off": 0,
+    "mid": 14.98,
+    "spread_pct": 6.7
    },
-   "move_pct": 2.7,
+   "move_pct": -2.5,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 42,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1700",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T17:00:00Z",
+   "runner": "Value Pending",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 18.17
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 17.71,
+    "spread_pct": 8.3
+   },
+   "move_pct": -2.5,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 42,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1800",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T18:00:00Z",
+   "runner": "Manhattan Dandy",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 62.89
+   },
+   "latest": {
+    "mins_to_off": 15,
+    "mid": 56.5,
+    "spread_pct": 26.4
+   },
+   "move_pct": -10.2,
    "band": [
     35,
     100
    ],
-   "percentile": 58,
+   "percentile": 42,
    "notable": false
   },
   {
@@ -10352,72 +10770,6 @@
     100
    ],
    "percentile": 42,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1900",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T19:00:00Z",
-   "runner": "Star Mind",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 51.02
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 52.49,
-    "spread_pct": 53.2
-   },
-   "move_pct": 2.9,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 58,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1900",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T19:00:00Z",
-   "runner": "Whosethebestboy",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 9.69
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 9.47,
-    "spread_pct": 10.5
-   },
-   "move_pct": -2.3,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 42,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1915",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T19:15:00Z",
-   "runner": "Acclaimed Freedom",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 4.54
-   },
-   "latest": {
-    "mins_to_off": 180,
-    "mid": 4.75,
-    "spread_pct": 6.3
-   },
-   "move_pct": 4.4,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 58,
    "notable": false
   },
   {
@@ -10531,135 +10883,47 @@
    "notable": false
   },
   {
-   "slug": "downpatrick-1637",
-   "venue": "Downpatrick",
-   "off_utc": "2026-09-18T16:37:00Z",
-   "runner": "Guitar Star",
+   "slug": "dundalk-1800",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T18:00:00Z",
+   "runner": "Kitty Bear",
    "first": {
-    "mins_to_off": 352,
-    "mid": 9.78
+    "mins_to_off": 360,
+    "mid": 11.2
    },
    "latest": {
-    "mins_to_off": 22,
-    "mid": 9.58,
-    "spread_pct": 8.4
+    "mins_to_off": 0,
+    "mid": 11.74,
+    "spread_pct": 4.3
    },
-   "move_pct": -2.0,
+   "move_pct": 4.8,
    "band": [
     8,
     13
    ],
-   "percentile": 43,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1715",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T17:15:00Z",
-   "runner": "Kit Gabriel",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 75.47
-   },
-   "latest": {
-    "mins_to_off": 60,
-    "mid": 68.26,
-    "spread_pct": 51.5
-   },
-   "move_pct": -9.6,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 43,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1745",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T17:45:00Z",
-   "runner": "Belle Amie",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 3.06
-   },
-   "latest": {
-    "mins_to_off": 90,
-    "mid": 3.01,
-    "spread_pct": 2.3
-   },
-   "move_pct": -1.6,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 43,
+   "percentile": 57,
    "notable": false
   },
   {
    "slug": "wolverhampton-1815",
    "venue": "Wolverhampton",
    "off_utc": "2026-09-18T18:15:00Z",
-   "runner": "Speculative",
+   "runner": "Renesmee",
    "first": {
     "mins_to_off": 360,
-    "mid": 55.56
+    "mid": 12.93
    },
    "latest": {
-    "mins_to_off": 120,
-    "mid": 56.5,
-    "spread_pct": 26.4
+    "mins_to_off": 0,
+    "mid": 12.71,
+    "spread_pct": 11.7
    },
-   "move_pct": 1.7,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 57,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1830",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T18:30:00Z",
-   "runner": "Diamond Exchange",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 11.11
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 10.91,
-    "spread_pct": 18.4
-   },
-   "move_pct": -1.8,
+   "move_pct": -1.7,
    "band": [
     8,
     13
    ],
    "percentile": 43,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1845",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T18:45:00Z",
-   "runner": "Billy Bathgate",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 21.25
-   },
-   "latest": {
-    "mins_to_off": 150,
-    "mid": 23.64,
-    "spread_pct": 25.5
-   },
-   "move_pct": 11.2,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 57,
    "notable": false
   },
   {
@@ -10729,155 +10993,45 @@
    "notable": false
   },
   {
-   "slug": "downpatrick-1637",
-   "venue": "Downpatrick",
-   "off_utc": "2026-09-18T16:37:00Z",
-   "runner": "S T Hamo",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 9.39
-   },
-   "latest": {
-    "mins_to_off": 22,
-    "mid": 9.28,
-    "spread_pct": 10.8
-   },
-   "move_pct": -1.2,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 44,
-   "notable": false
-  },
-  {
    "slug": "dundalk-1700",
    "venue": "Dundalk",
    "off_utc": "2026-09-18T17:00:00Z",
-   "runner": "The Pipeman",
+   "runner": "Tavernise",
    "first": {
     "mins_to_off": 360,
-    "mid": 4.59
+    "mid": 7.26
    },
    "latest": {
-    "mins_to_off": 45,
-    "mid": 4.75,
-    "spread_pct": 6.3
+    "mins_to_off": 0,
+    "mid": 7.1,
+    "spread_pct": 2.8
    },
-   "move_pct": 3.3,
+   "move_pct": -2.3,
    "band": [
-    3,
-    5
-   ],
-   "percentile": 56,
-   "notable": false
-  },
-  {
-   "slug": "newbury-1650",
-   "venue": "Newbury",
-   "off_utc": "2026-09-18T16:50:00Z",
-   "runner": "Empirical",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 4.85
-   },
-   "latest": {
-    "mins_to_off": 35,
-    "mid": 4.8,
-    "spread_pct": 4.2
-   },
-   "move_pct": -1.1,
-   "band": [
-    3,
-    5
+    5,
+    8
    ],
    "percentile": 44,
    "notable": false
   },
   {
-   "slug": "wolverhampton-1715",
+   "slug": "wolverhampton-1845",
    "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T17:15:00Z",
-   "runner": "Captain Parma",
+   "off_utc": "2026-09-18T18:45:00Z",
+   "runner": "Al's River",
    "first": {
     "mins_to_off": 360,
-    "mid": 6.69
+    "mid": 41.15
    },
    "latest": {
-    "mins_to_off": 60,
-    "mid": 6.9,
-    "spread_pct": 2.9
+    "mins_to_off": 0,
+    "mid": 37.59,
+    "spread_pct": 21.3
    },
-   "move_pct": 3.1,
+   "move_pct": -8.6,
    "band": [
-    5,
-    8
-   ],
-   "percentile": 56,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1900",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T19:00:00Z",
-   "runner": "Wild Berries",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 21.6
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 23.81,
-    "spread_pct": 16.8
-   },
-   "move_pct": 10.2,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 56,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1900",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T19:00:00Z",
-   "runner": "Alto Sax",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 11.42
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 11.92,
-    "spread_pct": 16.8
-   },
-   "move_pct": 4.4,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 56,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1915",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T19:15:00Z",
-   "runner": "Korbut",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 6.19
-   },
-   "latest": {
-    "mins_to_off": 180,
-    "mid": 6.05,
-    "spread_pct": 5.0
-   },
-   "move_pct": -2.4,
-   "band": [
-    5,
-    8
+    35,
+    100
    ],
    "percentile": 44,
    "notable": false
@@ -11059,25 +11213,47 @@
    "notable": false
   },
   {
-   "slug": "dundalk-1830",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T18:30:00Z",
-   "runner": "Kilcrea Rock",
+   "slug": "newton-abbot-1630",
+   "venue": "Newton Abbot",
+   "off_utc": "2026-09-18T16:30:00Z",
+   "runner": "Ocean Heights",
    "first": {
     "mins_to_off": 360,
-    "mid": 7.39
+    "mid": 9.18
    },
    "latest": {
-    "mins_to_off": 135,
-    "mid": 7.29,
-    "spread_pct": 8.2
+    "mins_to_off": 0,
+    "mid": 9.09,
+    "spread_pct": 6.6
    },
-   "move_pct": -1.5,
+   "move_pct": -1.0,
    "band": [
-    5,
-    8
+    8,
+    13
    ],
    "percentile": 45,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1800",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T18:00:00Z",
+   "runner": "Famous Enough",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 14.14
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 14.98,
+    "spread_pct": 6.7
+   },
+   "move_pct": 5.9,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 55,
    "notable": false
   },
   {
@@ -11112,7 +11288,7 @@
     "mid": 31.95
    },
    "latest": {
-    "mins_to_off": 80,
+    "mins_to_off": 5,
     "mid": 34.97,
     "spread_pct": 28549.9
    },
@@ -11120,6 +11296,28 @@
    "band": [
     20,
     35
+   ],
+   "percentile": 55,
+   "notable": false
+  },
+  {
+   "slug": "taif-ksa-1735",
+   "venue": "Taif Ksa",
+   "off_utc": "2026-09-18T17:35:00Z",
+   "runner": "Reyman",
+   "first": {
+    "mins_to_off": 260,
+    "mid": 14.42
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 15.34,
+    "spread_pct": 240.5
+   },
+   "move_pct": 6.4,
+   "band": [
+    13,
+    20
    ],
    "percentile": 55,
    "notable": false
@@ -11389,25 +11587,25 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1715",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T17:15:00Z",
-   "runner": "Velvet Rhythm",
+   "slug": "dundalk-1700",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T17:00:00Z",
+   "runner": "Spirit Of The Nite",
    "first": {
     "mins_to_off": 360,
-    "mid": 9.2
+    "mid": 33.61
    },
    "latest": {
-    "mins_to_off": 60,
-    "mid": 9.49,
-    "spread_pct": 6.4
+    "mins_to_off": 0,
+    "mid": 34.78,
+    "spread_pct": 17.2
    },
-   "move_pct": 3.2,
+   "move_pct": 3.5,
    "band": [
-    8,
-    13
+    20,
+    35
    ],
-   "percentile": 54,
+   "percentile": 46,
    "notable": false
   },
   {
@@ -11494,94 +11692,6 @@
    "band": [
     20,
     35
-   ],
-   "percentile": 54,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1900",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T19:00:00Z",
-   "runner": "Anchors Away",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 25.84
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 26.67,
-    "spread_pct": 22.7
-   },
-   "move_pct": 3.2,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 46,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1900",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T19:00:00Z",
-   "runner": "Onyeisi",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 62.7
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 58.65,
-    "spread_pct": 46.2
-   },
-   "move_pct": -6.5,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 46,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1900",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T19:00:00Z",
-   "runner": "He Knows When",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 10.99
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 10.98,
-    "spread_pct": 9.0
-   },
-   "move_pct": -0.1,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 46,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1930",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T19:30:00Z",
-   "runner": "Numantia",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 1.68
-   },
-   "latest": {
-    "mins_to_off": 195,
-    "mid": 1.72,
-    "spread_pct": 6.4
-   },
-   "move_pct": 2.3,
-   "band": [
-    1.5,
-    3
    ],
    "percentile": 54,
    "notable": false
@@ -11697,23 +11807,23 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1815",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T18:15:00Z",
-   "runner": "Melting Snow",
+   "slug": "dundalk-1800",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T18:00:00Z",
+   "runner": "Hot To Foxtrot",
    "first": {
     "mins_to_off": 360,
-    "mid": 2.54
+    "mid": 21.21
    },
    "latest": {
-    "mins_to_off": 120,
-    "mid": 2.54,
-    "spread_pct": 3.2
+    "mins_to_off": 0,
+    "mid": 21.95,
+    "spread_pct": 9.0
    },
-   "move_pct": 0.0,
+   "move_pct": 3.5,
    "band": [
-    1.5,
-    3
+    20,
+    35
    ],
    "percentile": 47,
    "notable": false
@@ -11920,22 +12030,22 @@
    "slug": "taif-ksa-1735",
    "venue": "Taif Ksa",
    "off_utc": "2026-09-18T17:35:00Z",
-   "runner": "Farough",
+   "runner": "Ashwas",
    "first": {
     "mins_to_off": 260,
-    "mid": 1.67
+    "mid": 51.81
    },
    "latest": {
-    "mins_to_off": 80,
-    "mid": 1.66,
-    "spread_pct": 50.6
+    "mins_to_off": 5,
+    "mid": 51.81,
+    "spread_pct": 19249.9
    },
-   "move_pct": -0.3,
+   "move_pct": 0.0,
    "band": [
-    1.5,
-    3
+    35,
+    100
    ],
-   "percentile": 47,
+   "percentile": 53,
    "notable": false
   },
   {
@@ -11948,7 +12058,7 @@
     "mid": 57.8
    },
    "latest": {
-    "mins_to_off": 80,
+    "mins_to_off": 5,
     "mid": 57.8,
     "spread_pct": 17249.8
    },
@@ -11961,18 +12071,40 @@
    "notable": false
   },
   {
-   "slug": "dundalk-1930",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T19:30:00Z",
-   "runner": "Trustmore",
+   "slug": "taif-ksa-1735",
+   "venue": "Taif Ksa",
+   "off_utc": "2026-09-18T17:35:00Z",
+   "runner": "Wayak",
    "first": {
-    "mins_to_off": 360,
-    "mid": 7.06
+    "mins_to_off": 260,
+    "mid": 75.76
    },
    "latest": {
-    "mins_to_off": 195,
-    "mid": 7.06,
-    "spread_pct": 14.1
+    "mins_to_off": 5,
+    "mid": 75.76,
+    "spread_pct": 13149.8
+   },
+   "move_pct": 0.0,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 53,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1915",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-09-18T19:15:00Z",
+   "runner": "Korbut",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 6.19
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 6.19,
+    "spread_pct": 6.5
    },
    "move_pct": 0.0,
    "band": [
@@ -11980,6 +12112,50 @@
     8
    ],
    "percentile": 47,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1915",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-09-18T19:15:00Z",
+   "runner": "Horace Wallace",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 6.87
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 6.99,
+    "spread_pct": 5.7
+   },
+   "move_pct": 1.9,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 53,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1930",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T19:30:00Z",
+   "runner": "Vivere A Colori",
+   "first": {
+    "mins_to_off": 180,
+    "mid": 99.5
+   },
+   "latest": {
+    "mins_to_off": 15,
+    "mid": 99.01,
+    "spread_pct": 20.0
+   },
+   "move_pct": -0.5,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 53,
    "notable": false
   },
   {
@@ -12088,50 +12264,6 @@
    "band": [
     8,
     13
-   ],
-   "percentile": 52,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1745",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T17:45:00Z",
-   "runner": "Trojan Truth",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 10.14
-   },
-   "latest": {
-    "mins_to_off": 90,
-    "mid": 10.37,
-    "spread_pct": 11.5
-   },
-   "move_pct": 2.3,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 52,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1845",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T18:45:00Z",
-   "runner": "Hellion",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 76.34
-   },
-   "latest": {
-    "mins_to_off": 150,
-    "mid": 75.47,
-    "spread_pct": 86.8
-   },
-   "move_pct": -1.1,
-   "band": [
-    35,
-    100
    ],
    "percentile": 52,
    "notable": false
@@ -12247,91 +12379,25 @@
    "notable": false
   },
   {
-   "slug": "newton-abbot-1630",
-   "venue": "Newton Abbot",
-   "off_utc": "2026-09-18T16:30:00Z",
-   "runner": "Reteti",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 10.58
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 10.75,
-    "spread_pct": 4.6
-   },
-   "move_pct": 1.6,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 51,
-   "notable": false
-  },
-  {
-   "slug": "newton-abbot-1630",
-   "venue": "Newton Abbot",
-   "off_utc": "2026-09-18T16:30:00Z",
-   "runner": "Clear Sky",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 57.14
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 55.25,
-    "spread_pct": 30.5
-   },
-   "move_pct": -3.3,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 49,
-   "notable": false
-  },
-  {
-   "slug": "newton-abbot-1630",
-   "venue": "Newton Abbot",
-   "off_utc": "2026-09-18T16:30:00Z",
-   "runner": "Saucats",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 10.03
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 10.25,
-    "spread_pct": 4.9
-   },
-   "move_pct": 2.2,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 51,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1645",
+   "slug": "wolverhampton-1815",
    "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T16:45:00Z",
-   "runner": "Sanditon",
+   "off_utc": "2026-09-18T18:15:00Z",
+   "runner": "Evening Fades",
    "first": {
     "mins_to_off": 360,
-    "mid": 5.69
+    "mid": 7.29
    },
    "latest": {
-    "mins_to_off": 30,
-    "mid": 5.77,
-    "spread_pct": 13.9
+    "mins_to_off": 0,
+    "mid": 7.3,
+    "spread_pct": 2.8
    },
-   "move_pct": 1.4,
+   "move_pct": 0.2,
    "band": [
     5,
     8
    ],
-   "percentile": 51,
+   "percentile": 49,
    "notable": false
   },
   {
@@ -12376,6 +12442,72 @@
     35
    ],
    "percentile": 49,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1900",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T19:00:00Z",
+   "runner": "Star Mind",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 51.02
+   },
+   "latest": {
+    "mins_to_off": 15,
+    "mid": 49.02,
+    "spread_pct": 3.9
+   },
+   "move_pct": -3.9,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 49,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1900",
+   "venue": "Dundalk",
+   "off_utc": "2026-09-18T19:00:00Z",
+   "runner": "Onyeisi",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 62.7
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 61.54,
+    "spread_pct": 24.4
+   },
+   "move_pct": -1.8,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 51,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1915",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-09-18T19:15:00Z",
+   "runner": "Beauzon",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 98.04
+   },
+   "latest": {
+    "mins_to_off": 75,
+    "mid": 96.15,
+    "spread_pct": 42.1
+   },
+   "move_pct": -1.9,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 51,
    "notable": false
   },
   {
@@ -12459,72 +12591,6 @@
     "spread_pct": 19.3
    },
    "move_pct": -2.9,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 50,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1815",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T18:15:00Z",
-   "runner": "Little Miss India",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 9.09
-   },
-   "latest": {
-    "mins_to_off": 120,
-    "mid": 9.2,
-    "spread_pct": 4.3
-   },
-   "move_pct": 1.1,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 50,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1830",
-   "venue": "Dundalk",
-   "off_utc": "2026-09-18T18:30:00Z",
-   "runner": "Direct Approach",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 44.44
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 43.2,
-    "spread_pct": 27.7
-   },
-   "move_pct": -2.8,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 50,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1915",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-09-18T19:15:00Z",
-   "runner": "Hayynah",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 50.89
-   },
-   "latest": {
-    "mins_to_off": 180,
-    "mid": 49.38,
-    "spread_pct": 36.2
-   },
-   "move_pct": -3.0,
    "band": [
     35,
     100
