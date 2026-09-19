@@ -1,13 +1,19 @@
 {
  "schema": "horses_v1",
- "generated_at": "2026-09-19T21:30:07Z",
- "source": "Historical race results (2019-04-28 onwards)",
- "note": "Every figure is computed using only races run STRICTLY BEFORE the race it describes — the `as_of` date on each horse. Groups with fewer than two runs are omitted rather than shown as a rate, because a 100% strike rate over one run is noise wearing the clothes of a finding.",
+ "generated_at": "2026-09-19T21:57:19Z",
+ "source": "Historical race results",
+ "note": "Every figure is computed using only races run STRICTLY BEFORE the race it describes — the `as_of` date on each horse. Groups with fewer than two runs are omitted rather than shown as a rate, because a 100% strike rate over one run is noise wearing the clothes of a finding. Our archive runs to 2026-09-18: a horse that ran after that date has those runs missing here, so read `career` as what we hold, not as a complete record.",
  "history_depth": {
   "from": "2019-04-28",
+  "through": "2026-09-18",
   "horses": 74468
  },
- "debutants": 63,
+ "debutants": 37,
+ "no_record": 26,
+ "name_collisions": {
+  "horses": 8,
+  "runs_removed": 40
+ },
  "horses": [
   {
    "slug": "english-oak",
@@ -19,6 +25,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 19,
     "wins": 3,
@@ -68,6 +75,14 @@
      "places": 0,
      "win_pct": 0.0,
      "place_pct": 0.0
+    },
+    {
+     "key": "Newmarket",
+     "runs": 2,
+     "wins": 0,
+     "places": 2,
+     "win_pct": 0.0,
+     "place_pct": 100.0
     },
     {
      "key": "Haydock",
@@ -131,6 +146,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 47,
     "wins": 8,
@@ -212,6 +228,14 @@
      "places": 1,
      "win_pct": 0.0,
      "place_pct": 50.0
+    },
+    {
+     "key": "Newmarket",
+     "runs": 2,
+     "wins": 0,
+     "places": 0,
+     "win_pct": 0.0,
+     "place_pct": 0.0
     }
    ],
    "by_distance": [
@@ -259,6 +283,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -296,6 +321,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 16,
     "wins": 1,
@@ -337,6 +363,14 @@
      "places": 1,
      "win_pct": 0.0,
      "place_pct": 33.3
+    },
+    {
+     "key": "Newmarket",
+     "runs": 2,
+     "wins": 0,
+     "places": 0,
+     "win_pct": 0.0,
+     "place_pct": 0.0
     },
     {
      "key": "Ascot",
@@ -392,6 +426,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 25,
     "wins": 5,
@@ -536,6 +571,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 25,
     "wins": 2,
@@ -648,6 +684,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 5,
     "wins": 1,
@@ -711,6 +748,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 14,
     "wins": 4,
@@ -807,6 +845,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 5,
     "wins": 3,
@@ -870,6 +909,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -907,6 +947,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 0,
@@ -979,6 +1020,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 11,
     "wins": 3,
@@ -1059,6 +1101,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 11,
     "wins": 2,
@@ -1171,6 +1214,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 7,
     "wins": 1,
@@ -1235,6 +1279,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 1,
@@ -1290,6 +1335,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 10,
     "wins": 4,
@@ -1378,6 +1424,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -1415,6 +1462,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 22,
     "wins": 6,
@@ -1464,6 +1512,14 @@
      "places": 2,
      "win_pct": 33.3,
      "place_pct": 66.7
+    },
+    {
+     "key": "Newmarket",
+     "runs": 2,
+     "wins": 0,
+     "places": 1,
+     "win_pct": 0.0,
+     "place_pct": 50.0
     },
     {
      "key": "York",
@@ -1527,6 +1583,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 5,
     "wins": 1,
@@ -1590,6 +1647,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 14,
     "wins": 6,
@@ -1678,6 +1736,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 8,
     "wins": 1,
@@ -1750,6 +1809,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 18,
     "wins": 6,
@@ -1862,6 +1922,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 7,
     "wins": 1,
@@ -1934,6 +1995,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 12,
     "wins": 2,
@@ -2030,6 +2092,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 1,
@@ -2067,6 +2130,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 6,
     "wins": 0,
@@ -2139,6 +2203,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 51,
     "wins": 10,
@@ -2307,6 +2372,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 28,
     "wins": 5,
@@ -2427,6 +2493,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 16,
     "wins": 2,
@@ -2531,6 +2598,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 21,
     "wins": 3,
@@ -2635,6 +2703,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 17,
     "wins": 4,
@@ -2747,6 +2816,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 26,
     "wins": 5,
@@ -2775,19 +2845,11 @@
    "by_course": [
     {
      "key": "Newmarket",
-     "runs": 5,
-     "wins": 2,
-     "places": 4,
-     "win_pct": 40.0,
-     "place_pct": 80.0
-    },
-    {
-     "key": "Newmarket (July)",
-     "runs": 4,
-     "wins": 1,
-     "places": 1,
-     "win_pct": 25.0,
-     "place_pct": 25.0
+     "runs": 9,
+     "wins": 3,
+     "places": 5,
+     "win_pct": 33.3,
+     "place_pct": 55.6
     },
     {
      "key": "Doncaster",
@@ -2883,37 +2945,38 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
-    "runs": 37,
-    "wins": 6,
-    "places": 15,
-    "win_pct": 16.2,
-    "place_pct": 40.5
+    "runs": 33,
+    "wins": 5,
+    "places": 13,
+    "win_pct": 15.2,
+    "place_pct": 39.4
    },
    "by_going": [
     {
      "key": "good",
-     "runs": 17,
+     "runs": 16,
      "wins": 2,
      "places": 5,
-     "win_pct": 11.8,
-     "place_pct": 29.4
+     "win_pct": 12.5,
+     "place_pct": 31.2
     },
     {
      "key": "soft",
-     "runs": 16,
-     "wins": 2,
-     "places": 7,
-     "win_pct": 12.5,
-     "place_pct": 43.8
+     "runs": 14,
+     "wins": 1,
+     "places": 6,
+     "win_pct": 7.1,
+     "place_pct": 42.9
     },
     {
      "key": "heavy",
-     "runs": 4,
+     "runs": 3,
      "wins": 2,
-     "places": 3,
-     "win_pct": 50.0,
-     "place_pct": 75.0
+     "places": 2,
+     "win_pct": 66.7,
+     "place_pct": 66.7
     }
    ],
    "by_course": [
@@ -2927,11 +2990,11 @@
     },
     {
      "key": "York",
-     "runs": 6,
+     "runs": 5,
      "wins": 0,
      "places": 1,
      "win_pct": 0.0,
-     "place_pct": 16.7
+     "place_pct": 20.0
     },
     {
      "key": "Pontefract",
@@ -2956,14 +3019,6 @@
      "places": 0,
      "win_pct": 0.0,
      "place_pct": 0.0
-    },
-    {
-     "key": "Beverley",
-     "runs": 2,
-     "wins": 2,
-     "places": 2,
-     "win_pct": 100.0,
-     "place_pct": 100.0
     },
     {
      "key": "Hamilton",
@@ -3011,6 +3066,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 11,
     "wins": 1,
@@ -3107,6 +3163,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 16,
     "wins": 3,
@@ -3203,6 +3260,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 6,
     "wins": 1,
@@ -3283,6 +3341,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 6,
     "wins": 2,
@@ -3347,6 +3406,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 12,
     "wins": 5,
@@ -3427,6 +3487,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 33,
     "wins": 9,
@@ -3547,6 +3608,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 14,
     "wins": 1,
@@ -3627,6 +3689,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 40,
     "wins": 8,
@@ -3763,6 +3826,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 22,
     "wins": 4,
@@ -3851,6 +3915,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 8,
     "wins": 2,
@@ -3923,6 +3988,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 6,
     "wins": 2,
@@ -3986,6 +4052,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 14,
     "wins": 1,
@@ -4058,6 +4125,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 43,
     "wins": 4,
@@ -4178,6 +4246,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 1,
@@ -4233,6 +4302,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -4270,6 +4340,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -4307,6 +4378,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 1,
@@ -4344,6 +4416,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 1,
@@ -4390,6 +4463,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 1,
@@ -4445,6 +4519,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 1,
@@ -4482,6 +4557,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -4519,6 +4595,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 1,
@@ -4556,6 +4633,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 30,
     "wins": 6,
@@ -4615,6 +4693,14 @@
      "place_pct": 66.7
     },
     {
+     "key": "Newmarket",
+     "runs": 3,
+     "wins": 1,
+     "places": 2,
+     "win_pct": 33.3,
+     "place_pct": 66.7
+    },
+    {
      "key": "Haydock",
      "runs": 3,
      "wins": 0,
@@ -4629,14 +4715,6 @@
      "places": 1,
      "win_pct": 0.0,
      "place_pct": 50.0
-    },
-    {
-     "key": "Newmarket",
-     "runs": 2,
-     "wins": 1,
-     "places": 2,
-     "win_pct": 50.0,
-     "place_pct": 100.0
     },
     {
      "key": "Lingfield (AW)",
@@ -4692,6 +4770,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 9,
     "wins": 2,
@@ -4718,6 +4797,14 @@
     }
    ],
    "by_course": [
+    {
+     "key": "Newmarket",
+     "runs": 2,
+     "wins": 1,
+     "places": 1,
+     "win_pct": 50.0,
+     "place_pct": 50.0
+    },
     {
      "key": "Ascot",
      "runs": 2,
@@ -4772,6 +4859,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 22,
     "wins": 5,
@@ -4884,6 +4972,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 15,
     "wins": 6,
@@ -4996,6 +5085,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 11,
     "wins": 3,
@@ -5076,6 +5166,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 25,
     "wins": 2,
@@ -5111,12 +5202,12 @@
      "place_pct": 37.5
     },
     {
-     "key": "Newmarket (July)",
-     "runs": 4,
+     "key": "Newmarket",
+     "runs": 6,
      "wins": 0,
-     "places": 1,
+     "places": 3,
      "win_pct": 0.0,
-     "place_pct": 25.0
+     "place_pct": 50.0
     },
     {
      "key": "York",
@@ -5125,14 +5216,6 @@
      "places": 0,
      "win_pct": 0.0,
      "place_pct": 0.0
-    },
-    {
-     "key": "Newmarket",
-     "runs": 2,
-     "wins": 0,
-     "places": 2,
-     "win_pct": 0.0,
-     "place_pct": 100.0
     },
     {
      "key": "Ayr",
@@ -5188,6 +5271,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 9,
     "wins": 3,
@@ -5260,6 +5344,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 13,
     "wins": 3,
@@ -5332,6 +5417,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 6,
     "wins": 1,
@@ -5396,6 +5482,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 9,
     "wins": 3,
@@ -5476,6 +5563,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 6,
     "wins": 2,
@@ -5539,6 +5627,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 26,
     "wins": 4,
@@ -5566,20 +5655,12 @@
    ],
    "by_course": [
     {
-     "key": "Newmarket (July)",
-     "runs": 5,
+     "key": "Newmarket",
+     "runs": 9,
      "wins": 2,
      "places": 4,
-     "win_pct": 40.0,
-     "place_pct": 80.0
-    },
-    {
-     "key": "Newmarket",
-     "runs": 4,
-     "wins": 0,
-     "places": 0,
-     "win_pct": 0.0,
-     "place_pct": 0.0
+     "win_pct": 22.2,
+     "place_pct": 44.4
     },
     {
      "key": "Ascot",
@@ -5659,6 +5740,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 13,
     "wins": 3,
@@ -5739,6 +5821,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 9,
     "wins": 3,
@@ -5827,6 +5910,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 7,
     "wins": 1,
@@ -5891,6 +5975,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 14,
     "wins": 4,
@@ -5987,6 +6072,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 10,
     "wins": 3,
@@ -6059,6 +6145,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 17,
     "wins": 3,
@@ -6086,20 +6173,20 @@
    ],
    "by_course": [
     {
+     "key": "Newmarket",
+     "runs": 4,
+     "wins": 1,
+     "places": 1,
+     "win_pct": 25.0,
+     "place_pct": 25.0
+    },
+    {
      "key": "York",
      "runs": 3,
      "wins": 0,
      "places": 2,
      "win_pct": 0.0,
      "place_pct": 66.7
-    },
-    {
-     "key": "Newmarket",
-     "runs": 3,
-     "wins": 1,
-     "places": 1,
-     "win_pct": 33.3,
-     "place_pct": 33.3
     },
     {
      "key": "Goodwood",
@@ -6163,6 +6250,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 17,
     "wins": 4,
@@ -6251,6 +6339,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 6,
     "wins": 0,
@@ -6323,6 +6412,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 13,
     "wins": 5,
@@ -6411,6 +6501,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 13,
     "wins": 4,
@@ -6483,6 +6574,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 7,
     "wins": 1,
@@ -6555,6 +6647,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 12,
     "wins": 3,
@@ -6651,6 +6744,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 31,
     "wins": 5,
@@ -6678,6 +6772,14 @@
    ],
    "by_course": [
     {
+     "key": "Newmarket",
+     "runs": 8,
+     "wins": 3,
+     "places": 3,
+     "win_pct": 37.5,
+     "place_pct": 37.5
+    },
+    {
      "key": "Ascot",
      "runs": 6,
      "wins": 0,
@@ -6686,28 +6788,12 @@
      "place_pct": 33.3
     },
     {
-     "key": "Newmarket",
-     "runs": 5,
-     "wins": 1,
-     "places": 1,
-     "win_pct": 20.0,
-     "place_pct": 20.0
-    },
-    {
      "key": "Newbury",
      "runs": 3,
      "wins": 0,
      "places": 1,
      "win_pct": 0.0,
      "place_pct": 33.3
-    },
-    {
-     "key": "Newmarket (July)",
-     "runs": 3,
-     "wins": 2,
-     "places": 2,
-     "win_pct": 66.7,
-     "place_pct": 66.7
     },
     {
      "key": "Goodwood",
@@ -6779,6 +6865,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "no_record",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -6816,6 +6903,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "no_record",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -6853,6 +6941,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "debut",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -6890,6 +6979,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -6927,6 +7017,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "debut",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -6964,6 +7055,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "debut",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -7001,6 +7093,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "debut",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -7038,6 +7131,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -7075,6 +7169,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -7121,6 +7216,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 23,
     "wins": 8,
@@ -7217,6 +7313,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 20,
     "wins": 1,
@@ -7268,7 +7365,7 @@
      "place_pct": 0.0
     },
     {
-     "key": "Newmarket (July)",
+     "key": "Newmarket",
      "runs": 2,
      "wins": 0,
      "places": 0,
@@ -7353,6 +7450,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 41,
     "wins": 4,
@@ -7481,6 +7579,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 22,
     "wins": 7,
@@ -7601,6 +7700,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 32,
     "wins": 6,
@@ -7737,6 +7837,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 7,
     "wins": 2,
@@ -7817,6 +7918,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 21,
     "wins": 1,
@@ -7913,6 +8015,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 10,
     "wins": 2,
@@ -8001,6 +8104,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 7,
     "wins": 0,
@@ -8073,6 +8177,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 54,
     "wins": 13,
@@ -8201,6 +8306,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 1,
@@ -8256,6 +8362,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 9,
     "wins": 2,
@@ -8344,6 +8451,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 22,
     "wins": 2,
@@ -8448,6 +8556,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 23,
     "wins": 4,
@@ -8475,6 +8584,14 @@
    ],
    "by_course": [
     {
+     "key": "Newmarket",
+     "runs": 4,
+     "wins": 0,
+     "places": 2,
+     "win_pct": 0.0,
+     "place_pct": 50.0
+    },
+    {
      "key": "Thirsk",
      "runs": 3,
      "wins": 0,
@@ -8500,22 +8617,6 @@
     },
     {
      "key": "Ascot",
-     "runs": 2,
-     "wins": 0,
-     "places": 1,
-     "win_pct": 0.0,
-     "place_pct": 50.0
-    },
-    {
-     "key": "Newmarket (July)",
-     "runs": 2,
-     "wins": 0,
-     "places": 1,
-     "win_pct": 0.0,
-     "place_pct": 50.0
-    },
-    {
-     "key": "Newmarket",
      "runs": 2,
      "wins": 0,
      "places": 1,
@@ -8584,6 +8685,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 1,
@@ -8621,6 +8723,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -8658,6 +8761,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 0,
@@ -8704,6 +8808,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -8741,6 +8846,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -8778,6 +8884,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "debut",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -8815,6 +8922,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 5,
     "wins": 0,
@@ -8861,6 +8969,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 0,
@@ -8907,6 +9016,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -8953,6 +9063,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -8990,6 +9101,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 5,
     "wins": 1,
@@ -9062,6 +9174,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 0,
@@ -9117,6 +9230,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 0,
@@ -9163,6 +9277,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 0,
@@ -9218,6 +9333,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 0,
@@ -9272,6 +9388,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 1,
@@ -9326,6 +9443,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "no_record",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -9363,6 +9481,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 0,
@@ -9409,6 +9528,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 5,
     "wins": 1,
@@ -9481,6 +9601,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 14,
     "wins": 0,
@@ -9577,6 +9698,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 13,
     "wins": 2,
@@ -9657,6 +9779,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 26,
     "wins": 4,
@@ -9706,6 +9829,14 @@
      "places": 2,
      "win_pct": 33.3,
      "place_pct": 66.7
+    },
+    {
+     "key": "Newmarket",
+     "runs": 2,
+     "wins": 1,
+     "places": 2,
+     "win_pct": 50.0,
+     "place_pct": 100.0
     },
     {
      "key": "Wolverhampton (AW)",
@@ -9769,6 +9900,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 41,
     "wins": 4,
@@ -9913,6 +10045,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 1,
@@ -9977,6 +10110,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 26,
     "wins": 5,
@@ -10081,6 +10215,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -10118,6 +10253,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 10,
     "wins": 1,
@@ -10206,6 +10342,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 14,
     "wins": 3,
@@ -10294,6 +10431,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 10,
     "wins": 2,
@@ -10366,6 +10504,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 12,
     "wins": 1,
@@ -10445,6 +10584,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 22,
     "wins": 5,
@@ -10565,6 +10705,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 8,
     "wins": 2,
@@ -10584,7 +10725,7 @@
    ],
    "by_course": [
     {
-     "key": "Newmarket (July)",
+     "key": "Newmarket",
      "runs": 2,
      "wins": 0,
      "places": 0,
@@ -10629,6 +10770,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 13,
     "wins": 1,
@@ -10725,6 +10867,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 49,
     "wins": 5,
@@ -10893,6 +11036,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 1,
@@ -10965,6 +11109,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 15,
     "wins": 3,
@@ -11053,6 +11198,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 9,
     "wins": 0,
@@ -11125,6 +11271,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 49,
     "wins": 6,
@@ -11245,6 +11392,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 12,
     "wins": 2,
@@ -11333,6 +11481,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 7,
     "wins": 3,
@@ -11405,6 +11554,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 17,
     "wins": 3,
@@ -11509,6 +11659,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 42,
     "wins": 5,
@@ -11669,6 +11820,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 19,
     "wins": 3,
@@ -11781,6 +11933,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 30,
     "wins": 4,
@@ -11909,6 +12062,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 56,
     "wins": 9,
@@ -12037,6 +12191,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 13,
     "wins": 2,
@@ -12117,6 +12272,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 48,
     "wins": 8,
@@ -12277,6 +12433,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 8,
     "wins": 1,
@@ -12349,6 +12506,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 59,
     "wins": 10,
@@ -12509,6 +12667,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 10,
     "wins": 2,
@@ -12597,6 +12756,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 5,
     "wins": 0,
@@ -12652,6 +12812,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 32,
     "wins": 5,
@@ -12748,6 +12909,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 23,
     "wins": 4,
@@ -12868,6 +13030,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 45,
     "wins": 7,
@@ -13012,6 +13175,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 8,
     "wins": 1,
@@ -13092,6 +13256,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 74,
     "wins": 10,
@@ -13244,6 +13409,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 80,
     "wins": 14,
@@ -13420,6 +13586,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 31,
     "wins": 4,
@@ -13556,6 +13723,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 8,
     "wins": 2,
@@ -13644,6 +13812,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 24,
     "wins": 3,
@@ -13679,6 +13848,14 @@
      "place_pct": 50.0
     },
     {
+     "key": "Newmarket",
+     "runs": 5,
+     "wins": 0,
+     "places": 2,
+     "win_pct": 0.0,
+     "place_pct": 40.0
+    },
+    {
      "key": "Ascot",
      "runs": 5,
      "wins": 0,
@@ -13687,28 +13864,12 @@
      "place_pct": 0.0
     },
     {
-     "key": "Newmarket (July)",
-     "runs": 3,
-     "wins": 0,
-     "places": 1,
-     "win_pct": 0.0,
-     "place_pct": 33.3
-    },
-    {
      "key": "Kempton (AW)",
      "runs": 2,
      "wins": 0,
      "places": 2,
      "win_pct": 0.0,
      "place_pct": 100.0
-    },
-    {
-     "key": "Newmarket",
-     "runs": 2,
-     "wins": 0,
-     "places": 1,
-     "win_pct": 0.0,
-     "place_pct": 50.0
     }
    ],
    "by_distance": [
@@ -13756,6 +13917,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 34,
     "wins": 4,
@@ -13892,6 +14054,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 12,
     "wins": 2,
@@ -13980,6 +14143,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 1,
@@ -14017,6 +14181,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -14063,6 +14228,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 6,
     "wins": 2,
@@ -14118,6 +14284,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 12,
     "wins": 2,
@@ -14206,6 +14373,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 8,
     "wins": 1,
@@ -14278,6 +14446,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 12,
     "wins": 3,
@@ -14366,6 +14535,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 1,
@@ -14421,6 +14591,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 56,
     "wins": 7,
@@ -14589,6 +14760,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 18,
     "wins": 4,
@@ -14701,6 +14873,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 0,
@@ -14756,65 +14929,33 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
-    "runs": 24,
-    "wins": 6,
-    "places": 12,
-    "win_pct": 25.0,
-    "place_pct": 50.0
+    "runs": 9,
+    "wins": 3,
+    "places": 3,
+    "win_pct": 33.3,
+    "place_pct": 33.3
    },
    "by_going": [
     {
      "key": "soft",
-     "runs": 18,
-     "wins": 4,
-     "places": 7,
-     "win_pct": 22.2,
-     "place_pct": 38.9
-    },
-    {
-     "key": "heavy",
-     "runs": 5,
-     "wins": 2,
-     "places": 4,
-     "win_pct": 40.0,
-     "place_pct": 80.0
+     "runs": 8,
+     "wins": 3,
+     "places": 3,
+     "win_pct": 37.5,
+     "place_pct": 37.5
     }
    ],
-   "by_course": [
-    {
-     "key": "Leopardstown",
-     "runs": 5,
-     "wins": 1,
-     "places": 2,
-     "win_pct": 20.0,
-     "place_pct": 40.0
-    },
-    {
-     "key": "Punchestown",
-     "runs": 3,
-     "wins": 0,
-     "places": 2,
-     "win_pct": 0.0,
-     "place_pct": 66.7
-    },
-    {
-     "key": "Cheltenham",
-     "runs": 3,
-     "wins": 0,
-     "places": 1,
-     "win_pct": 0.0,
-     "place_pct": 33.3
-    }
-   ],
+   "by_course": [],
    "by_distance": [
     {
      "key": "staying",
-     "runs": 21,
-     "wins": 6,
-     "places": 12,
-     "win_pct": 28.6,
-     "place_pct": 57.1
+     "runs": 6,
+     "wins": 3,
+     "places": 3,
+     "win_pct": 50.0,
+     "place_pct": 50.0
     },
     {
      "key": "middle",
@@ -14852,6 +14993,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 43,
     "wins": 8,
@@ -14996,6 +15138,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 11,
     "wins": 2,
@@ -15076,6 +15219,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 7,
     "wins": 1,
@@ -15147,6 +15291,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "no_record",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -15184,6 +15329,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 32,
     "wins": 5,
@@ -15336,6 +15482,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 0,
@@ -15399,6 +15546,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 0,
@@ -15454,6 +15602,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 7,
     "wins": 0,
@@ -15550,6 +15699,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 30,
     "wins": 8,
@@ -15662,6 +15812,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 13,
     "wins": 3,
@@ -15734,6 +15885,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 13,
     "wins": 3,
@@ -15822,6 +15974,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 22,
     "wins": 5,
@@ -15889,6 +16042,14 @@
      "place_pct": 100.0
     },
     {
+     "key": "Newmarket",
+     "runs": 2,
+     "wins": 0,
+     "places": 1,
+     "win_pct": 0.0,
+     "place_pct": 50.0
+    },
+    {
      "key": "Ascot",
      "runs": 2,
      "wins": 1,
@@ -15942,6 +16103,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 15,
     "wins": 4,
@@ -16030,6 +16192,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 7,
     "wins": 1,
@@ -16056,6 +16219,14 @@
     }
    ],
    "by_course": [
+    {
+     "key": "Newmarket",
+     "runs": 2,
+     "wins": 0,
+     "places": 1,
+     "win_pct": 0.0,
+     "place_pct": 50.0
+    },
     {
      "key": "Goodwood",
      "runs": 2,
@@ -16102,6 +16273,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 9,
     "wins": 1,
@@ -16182,6 +16354,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 1,
@@ -16237,6 +16410,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 22,
     "wins": 6,
@@ -16349,6 +16523,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 12,
     "wins": 4,
@@ -16429,6 +16604,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 6,
     "wins": 3,
@@ -16484,6 +16660,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 27,
     "wins": 6,
@@ -16535,7 +16712,7 @@
      "place_pct": 50.0
     },
     {
-     "key": "Newmarket (July)",
+     "key": "Newmarket",
      "runs": 2,
      "wins": 0,
      "places": 1,
@@ -16596,6 +16773,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 9,
     "wins": 2,
@@ -16622,6 +16800,14 @@
     }
    ],
    "by_course": [
+    {
+     "key": "Newmarket",
+     "runs": 2,
+     "wins": 0,
+     "places": 0,
+     "win_pct": 0.0,
+     "place_pct": 0.0
+    },
     {
      "key": "Newbury",
      "runs": 2,
@@ -16676,6 +16862,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 9,
     "wins": 3,
@@ -16764,6 +16951,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 10,
     "wins": 1,
@@ -16852,6 +17040,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 16,
     "wins": 3,
@@ -16901,6 +17090,14 @@
      "places": 2,
      "win_pct": 50.0,
      "place_pct": 100.0
+    },
+    {
+     "key": "Newmarket",
+     "runs": 2,
+     "wins": 0,
+     "places": 0,
+     "win_pct": 0.0,
+     "place_pct": 0.0
     }
    ],
    "by_distance": [
@@ -16948,6 +17145,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 8,
     "wins": 3,
@@ -17028,6 +17226,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 17,
     "wins": 3,
@@ -17063,6 +17262,14 @@
      "place_pct": 25.0
     },
     {
+     "key": "Newmarket",
+     "runs": 3,
+     "wins": 0,
+     "places": 2,
+     "win_pct": 0.0,
+     "place_pct": 66.7
+    },
+    {
      "key": "Nottingham",
      "runs": 2,
      "wins": 0,
@@ -17084,14 +17291,6 @@
      "wins": 1,
      "places": 1,
      "win_pct": 50.0,
-     "place_pct": 50.0
-    },
-    {
-     "key": "Newmarket (July)",
-     "runs": 2,
-     "wins": 0,
-     "places": 1,
-     "win_pct": 0.0,
      "place_pct": 50.0
     }
    ],
@@ -17140,6 +17339,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 12,
     "wins": 4,
@@ -17236,6 +17436,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 13,
     "wins": 5,
@@ -17324,29 +17525,30 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
-    "runs": 13,
+    "runs": 11,
     "wins": 2,
-    "places": 7,
-    "win_pct": 15.4,
-    "place_pct": 53.8
+    "places": 6,
+    "win_pct": 18.2,
+    "place_pct": 54.5
    },
    "by_going": [
     {
      "key": "good",
-     "runs": 7,
+     "runs": 6,
      "wins": 1,
      "places": 3,
-     "win_pct": 14.3,
-     "place_pct": 42.9
+     "win_pct": 16.7,
+     "place_pct": 50.0
     },
     {
      "key": "soft",
-     "runs": 6,
+     "runs": 5,
      "wins": 1,
-     "places": 4,
-     "win_pct": 16.7,
-     "place_pct": 66.7
+     "places": 3,
+     "win_pct": 20.0,
+     "place_pct": 60.0
     }
    ],
    "by_course": [
@@ -17378,11 +17580,11 @@
    "by_distance": [
     {
      "key": "middle",
-     "runs": 7,
+     "runs": 6,
      "wins": 1,
-     "places": 5,
-     "win_pct": 14.3,
-     "place_pct": 71.4
+     "places": 4,
+     "win_pct": 16.7,
+     "place_pct": 66.7
     },
     {
      "key": "mile",
@@ -17420,6 +17622,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 32,
     "wins": 3,
@@ -17447,6 +17650,14 @@
    ],
    "by_course": [
     {
+     "key": "Newmarket",
+     "runs": 5,
+     "wins": 1,
+     "places": 2,
+     "win_pct": 20.0,
+     "place_pct": 40.0
+    },
+    {
      "key": "Ascot",
      "runs": 4,
      "wins": 1,
@@ -17473,22 +17684,6 @@
     {
      "key": "Newbury",
      "runs": 3,
-     "wins": 0,
-     "places": 0,
-     "win_pct": 0.0,
-     "place_pct": 0.0
-    },
-    {
-     "key": "Newmarket (July)",
-     "runs": 3,
-     "wins": 1,
-     "places": 2,
-     "win_pct": 33.3,
-     "place_pct": 66.7
-    },
-    {
-     "key": "Newmarket",
-     "runs": 2,
      "wins": 0,
      "places": 0,
      "win_pct": 0.0,
@@ -17564,6 +17759,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 10,
     "wins": 1,
@@ -17652,6 +17848,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 3,
@@ -17707,6 +17904,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 0,
@@ -17753,6 +17951,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -17790,6 +17989,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -17827,6 +18027,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -17864,6 +18065,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 2,
@@ -17919,6 +18121,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 1,
@@ -17956,6 +18159,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -17993,6 +18197,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 18,
     "wins": 4,
@@ -18052,6 +18257,14 @@
      "place_pct": 100.0
     },
     {
+     "key": "Newmarket",
+     "runs": 2,
+     "wins": 0,
+     "places": 1,
+     "win_pct": 0.0,
+     "place_pct": 50.0
+    },
+    {
      "key": "Haydock",
      "runs": 2,
      "wins": 0,
@@ -18105,6 +18318,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 10,
     "wins": 3,
@@ -18177,6 +18391,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -18223,6 +18438,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 9,
     "wins": 2,
@@ -18295,6 +18511,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 12,
     "wins": 1,
@@ -18336,6 +18553,14 @@
      "places": 1,
      "win_pct": 0.0,
      "place_pct": 50.0
+    },
+    {
+     "key": "Newmarket",
+     "runs": 2,
+     "wins": 0,
+     "places": 0,
+     "win_pct": 0.0,
+     "place_pct": 0.0
     }
    ],
    "by_distance": [
@@ -18383,67 +18608,17 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
-    "runs": 13,
-    "wins": 2,
-    "places": 5,
-    "win_pct": 15.4,
-    "place_pct": 38.5
+    "runs": 1,
+    "wins": 0,
+    "places": 1,
+    "win_pct": 0.0,
+    "place_pct": 100.0
    },
-   "by_going": [
-    {
-     "key": "good",
-     "runs": 9,
-     "wins": 1,
-     "places": 4,
-     "win_pct": 11.1,
-     "place_pct": 44.4
-    },
-    {
-     "key": "soft",
-     "runs": 3,
-     "wins": 1,
-     "places": 1,
-     "win_pct": 33.3,
-     "place_pct": 33.3
-    }
-   ],
-   "by_course": [
-    {
-     "key": "Worcester",
-     "runs": 2,
-     "wins": 0,
-     "places": 1,
-     "win_pct": 0.0,
-     "place_pct": 50.0
-    },
-    {
-     "key": "Uttoxeter",
-     "runs": 2,
-     "wins": 0,
-     "places": 0,
-     "win_pct": 0.0,
-     "place_pct": 0.0
-    }
-   ],
-   "by_distance": [
-    {
-     "key": "staying",
-     "runs": 10,
-     "wins": 1,
-     "places": 2,
-     "win_pct": 10.0,
-     "place_pct": 20.0
-    },
-    {
-     "key": "mile",
-     "runs": 2,
-     "wins": 0,
-     "places": 2,
-     "win_pct": 0.0,
-     "place_pct": 100.0
-    }
-   ],
+   "by_going": [],
+   "by_course": [],
+   "by_distance": [],
    "jockey": {
     "name": "Ryan Moore",
     "runs": 2515,
@@ -18471,6 +18646,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 46,
     "wins": 9,
@@ -18639,6 +18815,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 21,
     "wins": 5,
@@ -18674,6 +18851,14 @@
      "place_pct": 66.7
     },
     {
+     "key": "Newmarket",
+     "runs": 3,
+     "wins": 1,
+     "places": 2,
+     "win_pct": 33.3,
+     "place_pct": 66.7
+    },
+    {
      "key": "Southwell (AW)",
      "runs": 2,
      "wins": 1,
@@ -18688,14 +18873,6 @@
      "places": 1,
      "win_pct": 50.0,
      "place_pct": 50.0
-    },
-    {
-     "key": "Newmarket (July)",
-     "runs": 2,
-     "wins": 1,
-     "places": 2,
-     "win_pct": 50.0,
-     "place_pct": 100.0
     },
     {
      "key": "York",
@@ -18751,6 +18928,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 7,
     "wins": 2,
@@ -18839,6 +19017,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 1,
@@ -18894,6 +19073,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 2,
@@ -18958,6 +19138,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 48,
     "wins": 9,
@@ -19065,6 +19246,14 @@
      "place_pct": 0.0
     },
     {
+     "key": "Newmarket",
+     "runs": 2,
+     "wins": 1,
+     "places": 2,
+     "win_pct": 50.0,
+     "place_pct": 100.0
+    },
+    {
      "key": "Southwell (AW)",
      "runs": 2,
      "wins": 1,
@@ -19118,6 +19307,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 13,
     "wins": 3,
@@ -19144,6 +19334,14 @@
     }
    ],
    "by_course": [
+    {
+     "key": "Newmarket",
+     "runs": 2,
+     "wins": 0,
+     "places": 0,
+     "win_pct": 0.0,
+     "place_pct": 0.0
+    },
     {
      "key": "Southwell (AW)",
      "runs": 2,
@@ -19198,6 +19396,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 1,
@@ -19235,6 +19434,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 1,
@@ -19281,6 +19481,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "debut",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -19318,6 +19519,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -19364,6 +19566,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "debut",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -19401,6 +19604,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "debut",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -19438,6 +19642,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "debut",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -19475,6 +19680,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -19512,6 +19718,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -19549,6 +19756,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -19586,6 +19794,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -19623,6 +19832,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "debut",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -19660,6 +19870,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "no_record",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -19697,6 +19908,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -19734,6 +19946,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "debut",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -19771,6 +19984,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -19808,6 +20022,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -19845,6 +20060,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 9,
     "wins": 2,
@@ -19925,6 +20141,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 28,
     "wins": 4,
@@ -20000,7 +20217,7 @@
      "place_pct": 0.0
     },
     {
-     "key": "Newmarket (July)",
+     "key": "Newmarket",
      "runs": 2,
      "wins": 0,
      "places": 1,
@@ -20053,6 +20270,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 12,
     "wins": 1,
@@ -20088,7 +20306,7 @@
      "place_pct": 50.0
     },
     {
-     "key": "Newmarket (July)",
+     "key": "Newmarket",
      "runs": 2,
      "wins": 0,
      "places": 1,
@@ -20141,6 +20359,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 52,
     "wins": 6,
@@ -20200,6 +20419,14 @@
      "place_pct": 40.0
     },
     {
+     "key": "Newmarket",
+     "runs": 4,
+     "wins": 0,
+     "places": 1,
+     "win_pct": 0.0,
+     "place_pct": 25.0
+    },
+    {
      "key": "Newcastle (AW)",
      "runs": 4,
      "wins": 1,
@@ -20222,14 +20449,6 @@
      "places": 3,
      "win_pct": 66.7,
      "place_pct": 100.0
-    },
-    {
-     "key": "Newmarket (July)",
-     "runs": 3,
-     "wins": 0,
-     "places": 1,
-     "win_pct": 0.0,
-     "place_pct": 33.3
     },
     {
      "key": "Doncaster",
@@ -20285,6 +20504,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 19,
     "wins": 2,
@@ -20312,12 +20532,12 @@
    ],
    "by_course": [
     {
-     "key": "Newmarket (July)",
-     "runs": 5,
+     "key": "Newmarket",
+     "runs": 7,
      "wins": 2,
-     "places": 4,
-     "win_pct": 40.0,
-     "place_pct": 80.0
+     "places": 5,
+     "win_pct": 28.6,
+     "place_pct": 71.4
     },
     {
      "key": "Ascot",
@@ -20326,14 +20546,6 @@
      "places": 2,
      "win_pct": 0.0,
      "place_pct": 40.0
-    },
-    {
-     "key": "Newmarket",
-     "runs": 2,
-     "wins": 0,
-     "places": 1,
-     "win_pct": 0.0,
-     "place_pct": 50.0
     },
     {
      "key": "York",
@@ -20389,55 +20601,40 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
-    "runs": 15,
+    "runs": 13,
     "wins": 2,
     "places": 5,
-    "win_pct": 13.3,
-    "place_pct": 33.3
+    "win_pct": 15.4,
+    "place_pct": 38.5
    },
    "by_going": [
     {
      "key": "good",
-     "runs": 14,
+     "runs": 12,
      "wins": 2,
      "places": 5,
-     "win_pct": 14.3,
-     "place_pct": 35.7
+     "win_pct": 16.7,
+     "place_pct": 41.7
     }
    ],
    "by_course": [
     {
-     "key": "Goodwood",
-     "runs": 4,
-     "wins": 1,
-     "places": 1,
-     "win_pct": 25.0,
-     "place_pct": 25.0
-    },
-    {
-     "key": "Newmarket (July)",
-     "runs": 4,
-     "wins": 0,
-     "places": 3,
-     "win_pct": 0.0,
-     "place_pct": 75.0
-    },
-    {
      "key": "Newmarket",
-     "runs": 2,
+     "runs": 6,
      "wins": 1,
-     "places": 1,
-     "win_pct": 50.0,
-     "place_pct": 50.0
+     "places": 4,
+     "win_pct": 16.7,
+     "place_pct": 66.7
     },
     {
-     "key": "Ascot",
-     "runs": 2,
-     "wins": 0,
-     "places": 0,
-     "win_pct": 0.0,
-     "place_pct": 0.0
+     "key": "Goodwood",
+     "runs": 3,
+     "wins": 1,
+     "places": 1,
+     "win_pct": 33.3,
+     "place_pct": 33.3
     }
    ],
    "by_distance": [
@@ -20477,6 +20674,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 15,
     "wins": 2,
@@ -20581,6 +20779,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 5,
     "wins": 1,
@@ -20645,6 +20844,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 14,
     "wins": 5,
@@ -20716,6 +20916,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 51,
     "wins": 9,
@@ -20751,6 +20952,14 @@
    ],
    "by_course": [
     {
+     "key": "Newmarket",
+     "runs": 10,
+     "wins": 1,
+     "places": 4,
+     "win_pct": 10.0,
+     "place_pct": 40.0
+    },
+    {
      "key": "Ascot",
      "runs": 8,
      "wins": 1,
@@ -20767,14 +20976,6 @@
      "place_pct": 85.7
     },
     {
-     "key": "Newmarket (July)",
-     "runs": 6,
-     "wins": 1,
-     "places": 3,
-     "win_pct": 16.7,
-     "place_pct": 50.0
-    },
-    {
      "key": "Wolverhampton (AW)",
      "runs": 5,
      "wins": 1,
@@ -20789,14 +20990,6 @@
      "places": 2,
      "win_pct": 50.0,
      "place_pct": 50.0
-    },
-    {
-     "key": "Newmarket",
-     "runs": 4,
-     "wins": 0,
-     "places": 1,
-     "win_pct": 0.0,
-     "place_pct": 25.0
     },
     {
      "key": "Doncaster",
@@ -20884,6 +21077,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 2,
@@ -20948,6 +21142,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 23,
     "wins": 3,
@@ -20991,20 +21186,20 @@
      "place_pct": 50.0
     },
     {
+     "key": "Newmarket",
+     "runs": 3,
+     "wins": 1,
+     "places": 1,
+     "win_pct": 33.3,
+     "place_pct": 33.3
+    },
+    {
      "key": "Goodwood",
      "runs": 3,
      "wins": 0,
      "places": 0,
      "win_pct": 0.0,
      "place_pct": 0.0
-    },
-    {
-     "key": "Newmarket",
-     "runs": 2,
-     "wins": 1,
-     "places": 1,
-     "win_pct": 50.0,
-     "place_pct": 50.0
     },
     {
      "key": "Epsom",
@@ -21052,6 +21247,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 1,
@@ -21116,6 +21312,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 20,
     "wins": 5,
@@ -21236,6 +21433,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 1,
@@ -21291,6 +21489,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 21,
     "wins": 3,
@@ -21350,7 +21549,7 @@
      "place_pct": 0.0
     },
     {
-     "key": "Newmarket (July)",
+     "key": "Newmarket",
      "runs": 2,
      "wins": 0,
      "places": 2,
@@ -21395,6 +21594,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 8,
     "wins": 2,
@@ -21475,6 +21675,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 7,
     "wins": 1,
@@ -21547,6 +21748,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 12,
     "wins": 2,
@@ -21627,6 +21829,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 9,
     "wins": 1,
@@ -21707,6 +21910,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 2,
@@ -21762,6 +21966,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 6,
     "wins": 2,
@@ -21825,6 +22030,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 7,
     "wins": 3,
@@ -21897,6 +22103,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 0,
@@ -21951,6 +22158,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 9,
     "wins": 2,
@@ -22023,6 +22231,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -22060,6 +22269,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "no_record",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -22097,6 +22307,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 1,
@@ -22152,6 +22363,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 0,
@@ -22216,6 +22428,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 7,
     "wins": 0,
@@ -22280,6 +22493,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 46,
     "wins": 2,
@@ -22424,6 +22638,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 9,
     "wins": 0,
@@ -22504,6 +22719,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 28,
     "wins": 1,
@@ -22648,6 +22864,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 22,
     "wins": 0,
@@ -22776,6 +22993,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 44,
     "wins": 6,
@@ -22944,6 +23162,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 5,
     "wins": 0,
@@ -22999,6 +23218,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 13,
     "wins": 2,
@@ -23079,6 +23299,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 0,
@@ -23134,6 +23355,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 23,
     "wins": 1,
@@ -23286,6 +23508,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 11,
     "wins": 1,
@@ -23382,6 +23605,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 6,
     "wins": 0,
@@ -23454,6 +23678,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 11,
     "wins": 0,
@@ -23550,6 +23775,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 0,
@@ -23605,6 +23831,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 1,
@@ -23651,6 +23878,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 0,
@@ -23706,6 +23934,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 0,
@@ -23761,6 +23990,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 9,
     "wins": 0,
@@ -23849,6 +24079,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 8,
     "wins": 0,
@@ -23913,6 +24144,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 5,
     "wins": 0,
@@ -23977,6 +24209,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 6,
     "wins": 0,
@@ -24048,6 +24281,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 5,
     "wins": 0,
@@ -24103,6 +24337,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 0,
@@ -24167,6 +24402,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 8,
     "wins": 0,
@@ -24247,6 +24483,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 0,
@@ -24310,6 +24547,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -24356,6 +24594,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -24393,6 +24632,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "debut",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -24430,6 +24670,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "debut",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -24467,6 +24708,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 0,
@@ -24521,6 +24763,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -24558,6 +24801,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -24595,6 +24839,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "debut",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -24632,6 +24877,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -24669,6 +24915,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -24706,6 +24953,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "debut",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -24743,6 +24991,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "no_record",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -24780,6 +25029,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "debut",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -24817,6 +25067,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -24854,6 +25105,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "debut",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -24891,6 +25143,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -24928,6 +25181,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -24965,6 +25219,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 22,
     "wins": 6,
@@ -25069,6 +25324,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 27,
     "wins": 6,
@@ -25189,6 +25445,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 13,
     "wins": 3,
@@ -25277,6 +25534,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 9,
     "wins": 2,
@@ -25349,6 +25607,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 44,
     "wins": 7,
@@ -25485,6 +25744,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 21,
     "wins": 2,
@@ -25581,6 +25841,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 20,
     "wins": 1,
@@ -25669,6 +25930,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 18,
     "wins": 3,
@@ -25757,6 +26019,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 12,
     "wins": 2,
@@ -25853,6 +26116,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 18,
     "wins": 4,
@@ -25949,6 +26213,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 6,
     "wins": 1,
@@ -26012,6 +26277,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 26,
     "wins": 4,
@@ -26124,6 +26390,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 16,
     "wins": 1,
@@ -26228,6 +26495,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 88,
     "wins": 10,
@@ -26412,6 +26680,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 0,
@@ -26467,6 +26736,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 0,
@@ -26530,6 +26800,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 6,
     "wins": 0,
@@ -26602,6 +26873,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 42,
     "wins": 4,
@@ -26738,6 +27010,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 30,
     "wins": 3,
@@ -26858,6 +27131,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 18,
     "wins": 0,
@@ -26954,6 +27228,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 11,
     "wins": 1,
@@ -27034,6 +27309,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 5,
     "wins": 0,
@@ -27106,6 +27382,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 10,
     "wins": 3,
@@ -27186,6 +27463,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 13,
     "wins": 2,
@@ -27266,6 +27544,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 28,
     "wins": 2,
@@ -27362,6 +27641,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 20,
     "wins": 3,
@@ -27458,6 +27738,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 15,
     "wins": 0,
@@ -27493,7 +27774,7 @@
      "place_pct": 100.0
     },
     {
-     "key": "Newmarket (July)",
+     "key": "Newmarket",
      "runs": 2,
      "wins": 0,
      "places": 0,
@@ -27578,6 +27859,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 0,
@@ -27633,6 +27915,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 60,
     "wins": 5,
@@ -27745,6 +28028,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 11,
     "wins": 0,
@@ -27841,6 +28125,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 9,
     "wins": 1,
@@ -27921,6 +28206,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 30,
     "wins": 4,
@@ -28041,6 +28327,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 20,
     "wins": 2,
@@ -28145,6 +28432,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 49,
     "wins": 5,
@@ -28281,6 +28569,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 53,
     "wins": 9,
@@ -28409,6 +28698,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 9,
     "wins": 0,
@@ -28497,6 +28787,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 10,
     "wins": 1,
@@ -28585,6 +28876,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 34,
     "wins": 5,
@@ -28705,6 +28997,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 21,
     "wins": 0,
@@ -28801,6 +29094,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 21,
     "wins": 2,
@@ -28905,6 +29199,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 27,
     "wins": 1,
@@ -29041,6 +29336,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 43,
     "wins": 6,
@@ -29169,6 +29465,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 34,
     "wins": 2,
@@ -29305,6 +29602,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 31,
     "wins": 3,
@@ -29441,6 +29739,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 21,
     "wins": 1,
@@ -29545,6 +29844,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 31,
     "wins": 3,
@@ -29657,6 +29957,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 7,
     "wins": 0,
@@ -29737,6 +30038,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 9,
     "wins": 1,
@@ -29817,6 +30119,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 37,
     "wins": 2,
@@ -29953,6 +30256,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 5,
     "wins": 0,
@@ -30017,6 +30321,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "debut",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -30054,6 +30359,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -30091,6 +30397,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "debut",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -30128,6 +30435,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -30183,6 +30491,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -30238,6 +30547,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -30275,6 +30585,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "debut",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -30312,6 +30623,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 0,
@@ -30367,6 +30679,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 5,
     "wins": 2,
@@ -30385,6 +30698,14 @@
     }
    ],
    "by_course": [
+    {
+     "key": "Newmarket",
+     "runs": 2,
+     "wins": 0,
+     "places": 0,
+     "win_pct": 0.0,
+     "place_pct": 0.0
+    },
     {
      "key": "Carlisle",
      "runs": 2,
@@ -30431,6 +30752,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 5,
     "wins": 1,
@@ -30494,6 +30816,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 1,
@@ -30540,6 +30863,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 6,
     "wins": 1,
@@ -30603,6 +30927,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 5,
     "wins": 1,
@@ -30675,6 +31000,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 2,
@@ -30730,6 +31056,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 1,
@@ -30785,6 +31112,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 5,
     "wins": 1,
@@ -30857,6 +31185,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 10,
     "wins": 2,
@@ -30929,6 +31258,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 21,
     "wins": 2,
@@ -30956,12 +31286,12 @@
    ],
    "by_course": [
     {
-     "key": "Newmarket (July)",
-     "runs": 3,
+     "key": "Newmarket",
+     "runs": 5,
      "wins": 1,
      "places": 2,
-     "win_pct": 33.3,
-     "place_pct": 66.7
+     "win_pct": 20.0,
+     "place_pct": 40.0
     },
     {
      "key": "Newbury",
@@ -30978,14 +31308,6 @@
      "places": 1,
      "win_pct": 0.0,
      "place_pct": 50.0
-    },
-    {
-     "key": "Newmarket",
-     "runs": 2,
-     "wins": 0,
-     "places": 0,
-     "win_pct": 0.0,
-     "place_pct": 0.0
     },
     {
      "key": "Goodwood",
@@ -31057,6 +31379,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 8,
     "wins": 2,
@@ -31145,6 +31468,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 1,
@@ -31191,6 +31515,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 12,
     "wins": 1,
@@ -31219,6 +31544,14 @@
    "by_course": [
     {
      "key": "Newbury",
+     "runs": 2,
+     "wins": 0,
+     "places": 0,
+     "win_pct": 0.0,
+     "place_pct": 0.0
+    },
+    {
+     "key": "Newmarket",
      "runs": 2,
      "wins": 0,
      "places": 0,
@@ -31271,6 +31604,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 7,
     "wins": 1,
@@ -31296,7 +31630,16 @@
      "place_pct": 50.0
     }
    ],
-   "by_course": [],
+   "by_course": [
+    {
+     "key": "Newmarket",
+     "runs": 2,
+     "wins": 0,
+     "places": 0,
+     "win_pct": 0.0,
+     "place_pct": 0.0
+    }
+   ],
    "by_distance": [
     {
      "key": "sprint",
@@ -31342,21 +31685,22 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
-    "runs": 17,
-    "wins": 4,
-    "places": 6,
-    "win_pct": 23.5,
-    "place_pct": 35.3
+    "runs": 14,
+    "wins": 3,
+    "places": 5,
+    "win_pct": 21.4,
+    "place_pct": 35.7
    },
    "by_going": [
     {
      "key": "good",
-     "runs": 13,
-     "wins": 3,
-     "places": 5,
-     "win_pct": 23.1,
-     "place_pct": 38.5
+     "runs": 10,
+     "wins": 2,
+     "places": 4,
+     "win_pct": 20.0,
+     "place_pct": 40.0
     },
     {
      "key": "soft",
@@ -31377,30 +31721,30 @@
      "place_pct": 33.3
     },
     {
-     "key": "Redcar",
-     "runs": 3,
-     "wins": 1,
-     "places": 1,
-     "win_pct": 33.3,
-     "place_pct": 33.3
-    },
-    {
      "key": "Pontefract",
      "runs": 2,
      "wins": 0,
      "places": 0,
      "win_pct": 0.0,
      "place_pct": 0.0
+    },
+    {
+     "key": "Redcar",
+     "runs": 2,
+     "wins": 1,
+     "places": 1,
+     "win_pct": 50.0,
+     "place_pct": 50.0
     }
    ],
    "by_distance": [
     {
      "key": "mile",
-     "runs": 11,
-     "wins": 3,
-     "places": 5,
-     "win_pct": 27.3,
-     "place_pct": 45.5
+     "runs": 10,
+     "wins": 2,
+     "places": 4,
+     "win_pct": 20.0,
+     "place_pct": 40.0
     },
     {
      "key": "sprint",
@@ -31438,6 +31782,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 8,
     "wins": 2,
@@ -31471,6 +31816,14 @@
      "places": 0,
      "win_pct": 0.0,
      "place_pct": 0.0
+    },
+    {
+     "key": "Newmarket",
+     "runs": 2,
+     "wins": 0,
+     "places": 1,
+     "win_pct": 0.0,
+     "place_pct": 50.0
     }
    ],
    "by_distance": [
@@ -31510,6 +31863,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 5,
     "wins": 0,
@@ -31565,6 +31919,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 12,
     "wins": 2,
@@ -31653,6 +32008,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 30,
     "wins": 6,
@@ -31702,6 +32058,14 @@
      "places": 1,
      "win_pct": 0.0,
      "place_pct": 33.3
+    },
+    {
+     "key": "Newmarket",
+     "runs": 3,
+     "wins": 1,
+     "places": 2,
+     "win_pct": 33.3,
+     "place_pct": 66.7
     },
     {
      "key": "Wolverhampton (AW)",
@@ -31758,14 +32122,6 @@
      "places": 1,
      "win_pct": 50.0,
      "place_pct": 50.0
-    },
-    {
-     "key": "Newmarket",
-     "runs": 2,
-     "wins": 0,
-     "places": 1,
-     "win_pct": 0.0,
-     "place_pct": 50.0
     }
    ],
    "by_distance": [
@@ -31821,6 +32177,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 9,
     "wins": 1,
@@ -31901,6 +32258,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 16,
     "wins": 2,
@@ -31928,20 +32286,20 @@
    ],
    "by_course": [
     {
+     "key": "Newmarket",
+     "runs": 3,
+     "wins": 0,
+     "places": 1,
+     "win_pct": 0.0,
+     "place_pct": 33.3
+    },
+    {
      "key": "Nottingham",
      "runs": 2,
      "wins": 0,
      "places": 2,
      "win_pct": 0.0,
      "place_pct": 100.0
-    },
-    {
-     "key": "Newmarket (July)",
-     "runs": 2,
-     "wins": 0,
-     "places": 0,
-     "win_pct": 0.0,
-     "place_pct": 0.0
     },
     {
      "key": "Sandown",
@@ -31997,6 +32355,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 0,
@@ -32052,6 +32411,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 7,
     "wins": 1,
@@ -32124,6 +32484,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 39,
     "wins": 9,
@@ -32151,7 +32512,7 @@
    ],
    "by_course": [
     {
-     "key": "Newmarket (July)",
+     "key": "Newmarket",
      "runs": 6,
      "wins": 3,
      "places": 4,
@@ -32260,6 +32621,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 18,
     "wins": 3,
@@ -32287,12 +32649,12 @@
    ],
    "by_course": [
     {
-     "key": "Newmarket (July)",
-     "runs": 4,
-     "wins": 1,
-     "places": 2,
-     "win_pct": 25.0,
-     "place_pct": 50.0
+     "key": "Newmarket",
+     "runs": 6,
+     "wins": 2,
+     "places": 4,
+     "win_pct": 33.3,
+     "place_pct": 66.7
     },
     {
      "key": "Goodwood",
@@ -32309,14 +32671,6 @@
      "places": 1,
      "win_pct": 50.0,
      "place_pct": 50.0
-    },
-    {
-     "key": "Newmarket",
-     "runs": 2,
-     "wins": 1,
-     "places": 2,
-     "win_pct": 50.0,
-     "place_pct": 100.0
     },
     {
      "key": "York",
@@ -32380,6 +32734,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 20,
     "wins": 3,
@@ -32408,19 +32763,11 @@
    "by_course": [
     {
      "key": "Newmarket",
-     "runs": 5,
-     "wins": 1,
-     "places": 3,
-     "win_pct": 20.0,
-     "place_pct": 60.0
-    },
-    {
-     "key": "Newmarket (July)",
-     "runs": 3,
-     "wins": 1,
-     "places": 1,
-     "win_pct": 33.3,
-     "place_pct": 33.3
+     "runs": 8,
+     "wins": 2,
+     "places": 4,
+     "win_pct": 25.0,
+     "place_pct": 50.0
     },
     {
      "key": "Ascot",
@@ -32492,6 +32839,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 12,
     "wins": 3,
@@ -32519,12 +32867,12 @@
    ],
    "by_course": [
     {
-     "key": "Newmarket (July)",
-     "runs": 4,
+     "key": "Newmarket",
+     "runs": 5,
      "wins": 0,
-     "places": 3,
+     "places": 4,
      "win_pct": 0.0,
-     "place_pct": 75.0
+     "place_pct": 80.0
     },
     {
      "key": "Chelmsford (AW)",
@@ -32580,6 +32928,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 49,
     "wins": 6,
@@ -32740,6 +33089,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 25,
     "wins": 4,
@@ -32791,6 +33141,14 @@
      "place_pct": 100.0
     },
     {
+     "key": "Newmarket",
+     "runs": 2,
+     "wins": 0,
+     "places": 0,
+     "win_pct": 0.0,
+     "place_pct": 0.0
+    },
+    {
      "key": "Haydock",
      "runs": 2,
      "wins": 1,
@@ -32836,6 +33194,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 37,
     "wins": 6,
@@ -32863,6 +33222,14 @@
    ],
    "by_course": [
     {
+     "key": "Newmarket",
+     "runs": 8,
+     "wins": 1,
+     "places": 1,
+     "win_pct": 12.5,
+     "place_pct": 12.5
+    },
+    {
      "key": "Kempton (AW)",
      "runs": 7,
      "wins": 1,
@@ -32877,22 +33244,6 @@
      "places": 1,
      "win_pct": 16.7,
      "place_pct": 16.7
-    },
-    {
-     "key": "Newmarket",
-     "runs": 4,
-     "wins": 0,
-     "places": 0,
-     "win_pct": 0.0,
-     "place_pct": 0.0
-    },
-    {
-     "key": "Newmarket (July)",
-     "runs": 4,
-     "wins": 1,
-     "places": 1,
-     "win_pct": 25.0,
-     "place_pct": 25.0
     },
     {
      "key": "Ascot",
@@ -32972,6 +33323,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 5,
     "wins": 1,
@@ -33036,6 +33388,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 0,
@@ -33100,6 +33453,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 8,
     "wins": 2,
@@ -33180,6 +33534,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 7,
     "wins": 2,
@@ -33235,6 +33590,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 7,
     "wins": 3,
@@ -33263,19 +33619,11 @@
    "by_course": [
     {
      "key": "Newmarket",
-     "runs": 2,
-     "wins": 0,
-     "places": 0,
-     "win_pct": 0.0,
-     "place_pct": 0.0
-    },
-    {
-     "key": "Newmarket (July)",
-     "runs": 2,
+     "runs": 4,
      "wins": 2,
      "places": 2,
-     "win_pct": 100.0,
-     "place_pct": 100.0
+     "win_pct": 50.0,
+     "place_pct": 50.0
     }
    ],
    "by_distance": [
@@ -33315,6 +33663,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 1,
@@ -33370,6 +33719,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 23,
     "wins": 5,
@@ -33429,7 +33779,7 @@
      "place_pct": 0.0
     },
     {
-     "key": "Newmarket (July)",
+     "key": "Newmarket",
      "runs": 2,
      "wins": 0,
      "places": 1,
@@ -33482,6 +33832,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 9,
     "wins": 3,
@@ -33537,6 +33888,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 1,
@@ -33583,6 +33935,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 1,
@@ -33638,6 +33991,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 16,
     "wins": 2,
@@ -33742,6 +34096,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 29,
     "wins": 4,
@@ -33878,6 +34233,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 20,
     "wins": 4,
@@ -33982,6 +34338,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 5,
     "wins": 0,
@@ -34037,6 +34394,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 22,
     "wins": 0,
@@ -34063,6 +34421,14 @@
     }
    ],
    "by_course": [
+    {
+     "key": "Newmarket",
+     "runs": 3,
+     "wins": 0,
+     "places": 2,
+     "win_pct": 0.0,
+     "place_pct": 66.7
+    },
     {
      "key": "York",
      "runs": 3,
@@ -34097,14 +34463,6 @@
     },
     {
      "key": "Doncaster",
-     "runs": 2,
-     "wins": 0,
-     "places": 1,
-     "win_pct": 0.0,
-     "place_pct": 50.0
-    },
-    {
-     "key": "Newmarket",
      "runs": 2,
      "wins": 0,
      "places": 1,
@@ -34157,6 +34515,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 44,
     "wins": 10,
@@ -34325,6 +34684,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 13,
     "wins": 1,
@@ -34429,6 +34789,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 8,
     "wins": 0,
@@ -34509,6 +34870,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 1,
@@ -34546,6 +34908,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -34592,6 +34955,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -34629,6 +34993,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -34666,6 +35031,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -34703,6 +35069,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "debut",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -34740,6 +35107,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "no_record",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -34777,6 +35145,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "no_record",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -34814,6 +35183,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -34851,6 +35221,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -34897,6 +35268,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 0,
@@ -34969,6 +35341,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 16,
     "wins": 7,
@@ -35065,6 +35438,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 21,
     "wins": 4,
@@ -35153,6 +35527,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -35199,6 +35574,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 10,
     "wins": 2,
@@ -35287,6 +35663,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 12,
     "wins": 4,
@@ -35383,6 +35760,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 10,
     "wins": 3,
@@ -35479,6 +35857,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 20,
     "wins": 4,
@@ -35583,6 +35962,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 1,
@@ -35638,6 +36018,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "no_record",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -35675,6 +36056,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 53,
     "wins": 5,
@@ -35843,6 +36225,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 45,
     "wins": 4,
@@ -35971,6 +36354,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 8,
     "wins": 0,
@@ -36059,6 +36443,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 43,
     "wins": 6,
@@ -36227,6 +36612,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "no_record",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -36264,6 +36650,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -36301,6 +36688,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 13,
     "wins": 2,
@@ -36405,6 +36793,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 14,
     "wins": 0,
@@ -36493,6 +36882,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 1,
@@ -36557,6 +36947,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 5,
     "wins": 0,
@@ -36621,6 +37012,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -36676,6 +37068,7 @@
     "distance": "sprint"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 15,
     "wins": 1,
@@ -36703,20 +37096,20 @@
    ],
    "by_course": [
     {
+     "key": "Newmarket",
+     "runs": 3,
+     "wins": 0,
+     "places": 1,
+     "win_pct": 0.0,
+     "place_pct": 33.3
+    },
+    {
      "key": "York",
      "runs": 2,
      "wins": 1,
      "places": 1,
      "win_pct": 50.0,
      "place_pct": 50.0
-    },
-    {
-     "key": "Newmarket (July)",
-     "runs": 2,
-     "wins": 0,
-     "places": 0,
-     "win_pct": 0.0,
-     "place_pct": 0.0
     }
    ],
    "by_distance": [
@@ -36756,6 +37149,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -36793,6 +37187,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "debut",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -36830,6 +37225,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -36876,6 +37272,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 0,
@@ -36931,6 +37328,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -36977,6 +37375,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "debut",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -37014,6 +37413,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "debut",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -37051,6 +37451,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -37097,6 +37498,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -37152,6 +37554,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -37216,6 +37619,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "debut",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -37253,6 +37657,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -37290,6 +37695,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "debut",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -37327,6 +37733,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -37364,6 +37771,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -37401,6 +37809,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "debut",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -37438,6 +37847,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "no_record",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -37475,6 +37885,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "debut",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -37512,6 +37923,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -37558,6 +37970,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "debut",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -37595,6 +38008,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -37632,6 +38046,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "debut",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -37669,6 +38084,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 0,
@@ -37724,6 +38140,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 2,
@@ -37779,6 +38196,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 0,
@@ -37851,6 +38269,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 1,
@@ -37923,6 +38342,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 0,
@@ -37987,6 +38407,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 0,
@@ -38042,6 +38463,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 0,
@@ -38097,6 +38519,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -38134,6 +38557,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -38171,6 +38595,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 1,
@@ -38226,34 +38651,17 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
-    "runs": 2,
+    "runs": 1,
     "wins": 0,
     "places": 1,
     "win_pct": 0.0,
-    "place_pct": 50.0
+    "place_pct": 100.0
    },
-   "by_going": [
-    {
-     "key": "good",
-     "runs": 2,
-     "wins": 0,
-     "places": 1,
-     "win_pct": 0.0,
-     "place_pct": 50.0
-    }
-   ],
+   "by_going": [],
    "by_course": [],
-   "by_distance": [
-    {
-     "key": "mile",
-     "runs": 2,
-     "wins": 0,
-     "places": 1,
-     "win_pct": 0.0,
-     "place_pct": 50.0
-    }
-   ],
+   "by_distance": [],
    "jockey": {
     "name": "Jamie Powell",
     "runs": 870,
@@ -38281,6 +38689,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 2,
@@ -38336,6 +38745,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 0,
@@ -38391,6 +38801,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "no_record",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -38428,6 +38839,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -38465,6 +38877,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -38502,6 +38915,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -38548,6 +38962,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 0,
@@ -38603,6 +39018,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -38640,6 +39056,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 5,
     "wins": 0,
@@ -38703,6 +39120,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -38767,6 +39185,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -38813,6 +39232,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -38850,6 +39270,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 0,
@@ -38905,6 +39326,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 1,
@@ -38969,6 +39391,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "no_record",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -39006,6 +39429,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 8,
     "wins": 0,
@@ -39086,6 +39510,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 10,
     "wins": 1,
@@ -39150,6 +39575,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 0,
@@ -39205,6 +39631,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 1,
@@ -39260,6 +39687,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 6,
     "wins": 1,
@@ -39332,6 +39760,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -39369,6 +39798,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 1,
@@ -39433,6 +39863,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 1,
@@ -39488,6 +39919,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 6,
     "wins": 0,
@@ -39551,6 +39983,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 0,
@@ -39615,6 +40048,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 6,
     "wins": 0,
@@ -39695,6 +40129,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "no_record",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -39732,6 +40167,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 0,
@@ -39795,6 +40231,7 @@
     "distance": "middle"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 26,
     "wins": 0,
@@ -39931,6 +40368,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 5,
     "wins": 0,
@@ -40003,6 +40441,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 0,
@@ -40058,6 +40497,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 16,
     "wins": 1,
@@ -40162,6 +40602,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "no_record",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -40199,6 +40640,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 8,
     "wins": 2,
@@ -40271,6 +40713,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -40317,6 +40760,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -40354,6 +40798,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 5,
     "wins": 0,
@@ -40409,6 +40854,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "no_record",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -40446,6 +40892,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -40501,6 +40948,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 27,
     "wins": 4,
@@ -40613,6 +41061,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 6,
     "wins": 0,
@@ -40693,6 +41142,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 5,
     "wins": 1,
@@ -40757,6 +41207,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 59,
     "wins": 6,
@@ -40909,6 +41360,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 37,
     "wins": 3,
@@ -41061,6 +41513,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 9,
     "wins": 0,
@@ -41149,6 +41602,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 19,
     "wins": 4,
@@ -41269,6 +41723,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -41298,6 +41753,7 @@
     "distance": "mile"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 0,
@@ -41345,6 +41801,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 5,
     "wins": 0,
@@ -41408,6 +41865,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 24,
     "wins": 4,
@@ -41512,6 +41970,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 12,
     "wins": 1,
@@ -41600,6 +42059,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 1,
@@ -41646,6 +42106,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 14,
     "wins": 1,
@@ -41750,6 +42211,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -41796,6 +42258,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 0,
@@ -41859,6 +42322,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 8,
     "wins": 0,
@@ -41931,6 +42395,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 9,
     "wins": 1,
@@ -42019,6 +42484,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 0,
@@ -42091,6 +42557,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "no_record",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -42128,6 +42595,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "no_record",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -42165,6 +42633,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 8,
     "wins": 0,
@@ -42237,6 +42706,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 0,
@@ -42300,6 +42770,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -42337,6 +42808,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "no_record",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -42374,6 +42846,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -42420,6 +42893,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -42475,6 +42949,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -42513,6 +42988,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 15,
     "wins": 2,
@@ -42609,6 +43085,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 15,
     "wins": 1,
@@ -42697,6 +43174,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 1,
@@ -42734,6 +43212,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 11,
     "wins": 1,
@@ -42838,6 +43317,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 1,
@@ -42901,6 +43381,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 5,
     "wins": 1,
@@ -42956,6 +43437,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 0,
@@ -43011,6 +43493,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 32,
     "wins": 9,
@@ -43155,6 +43638,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 5,
     "wins": 2,
@@ -43210,6 +43694,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 1,
@@ -43265,6 +43750,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 12,
     "wins": 1,
@@ -43345,6 +43831,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 1,
@@ -43382,6 +43869,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 19,
     "wins": 2,
@@ -43470,6 +43958,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 16,
     "wins": 1,
@@ -43574,6 +44063,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 11,
     "wins": 1,
@@ -43654,6 +44144,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -43700,6 +44191,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 0,
@@ -43764,6 +44256,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -43810,6 +44303,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -43865,6 +44359,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -43920,6 +44415,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -43966,6 +44462,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -44021,6 +44518,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "no_record",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -44058,6 +44556,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 0,
@@ -44113,6 +44612,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 0,
@@ -44168,6 +44668,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "no_record",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -44205,6 +44706,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 0,
@@ -44260,6 +44762,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -44297,6 +44800,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -44334,6 +44838,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -44389,6 +44894,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -44444,6 +44950,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -44481,6 +44988,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -44527,6 +45035,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "no_record",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -44564,6 +45073,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 10,
     "wins": 1,
@@ -44636,6 +45146,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 5,
     "wins": 0,
@@ -44708,6 +45219,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -44763,6 +45275,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 30,
     "wins": 4,
@@ -44915,6 +45428,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 15,
     "wins": 0,
@@ -45011,6 +45525,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "no_record",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -45048,6 +45563,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 0,
@@ -45112,6 +45628,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 7,
     "wins": 1,
@@ -45184,6 +45701,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 0,
@@ -45239,6 +45757,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 30,
     "wins": 1,
@@ -45351,6 +45870,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 8,
     "wins": 0,
@@ -45439,6 +45959,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 5,
     "wins": 0,
@@ -45503,6 +46024,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -45558,6 +46080,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 21,
     "wins": 3,
@@ -45678,6 +46201,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 6,
     "wins": 0,
@@ -45758,6 +46282,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 29,
     "wins": 1,
@@ -45878,6 +46403,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 0,
@@ -45942,6 +46468,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "no_record",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -45979,6 +46506,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -46025,6 +46553,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -46062,6 +46591,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 6,
     "wins": 0,
@@ -46125,6 +46655,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 13,
     "wins": 0,
@@ -46221,6 +46752,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 5,
     "wins": 0,
@@ -46284,6 +46816,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -46339,6 +46872,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 12,
     "wins": 0,
@@ -46435,6 +46969,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 20,
     "wins": 3,
@@ -46531,6 +47066,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 17,
     "wins": 1,
@@ -46635,6 +47171,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 13,
     "wins": 0,
@@ -46723,6 +47260,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 15,
     "wins": 0,
@@ -46811,6 +47349,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 0,
@@ -46875,6 +47414,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 68,
     "wins": 1,
@@ -47075,6 +47615,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 33,
     "wins": 2,
@@ -47235,6 +47776,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 10,
     "wins": 1,
@@ -47331,6 +47873,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -47368,6 +47911,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 9,
     "wins": 0,
@@ -47431,6 +47975,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 6,
     "wins": 0,
@@ -47495,6 +48040,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -47524,6 +48070,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 7,
     "wins": 1,
@@ -47588,6 +48135,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -47625,6 +48173,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -47662,6 +48211,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 7,
     "wins": 0,
@@ -47734,6 +48284,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -47771,6 +48322,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -47808,6 +48360,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 0,
@@ -47863,6 +48416,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -47900,6 +48454,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 0,
@@ -47955,6 +48510,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -47992,6 +48548,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -48029,6 +48586,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -48066,6 +48624,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -48103,6 +48662,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 5,
     "wins": 0,
@@ -48158,6 +48718,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 0,
@@ -48222,6 +48783,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 5,
     "wins": 0,
@@ -48285,6 +48847,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -48322,6 +48885,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "no_record",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -48359,6 +48923,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -48414,6 +48979,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 0,
@@ -48477,6 +49043,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 8,
     "wins": 1,
@@ -48557,6 +49124,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 16,
     "wins": 3,
@@ -48653,6 +49221,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 12,
     "wins": 1,
@@ -48749,6 +49318,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 12,
     "wins": 3,
@@ -48821,6 +49391,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 0,
@@ -48876,6 +49447,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 1,
@@ -48940,6 +49512,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 20,
     "wins": 1,
@@ -49052,6 +49625,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 7,
     "wins": 0,
@@ -49124,6 +49698,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 16,
     "wins": 2,
@@ -49220,6 +49795,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -49266,6 +49842,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 23,
     "wins": 3,
@@ -49370,6 +49947,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 7,
     "wins": 0,
@@ -49450,6 +50028,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 7,
     "wins": 1,
@@ -49522,6 +50101,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 0,
@@ -49586,6 +50166,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 1,
@@ -49641,6 +50222,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 5,
     "wins": 0,
@@ -49696,6 +50278,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 4,
     "wins": 0,
@@ -49751,6 +50334,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 3,
     "wins": 0,
@@ -49798,6 +50382,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "debut",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -49835,6 +50420,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "debut",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -49872,6 +50458,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "debut",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -49909,6 +50496,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -49964,6 +50552,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -50001,6 +50590,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "debut",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -50038,6 +50628,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "debut",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -50075,6 +50666,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 2,
     "wins": 0,
@@ -50121,6 +50713,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -50158,6 +50751,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -50195,6 +50789,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "debut",
    "career": {
     "runs": 0,
     "wins": 0,
@@ -50232,6 +50827,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -50269,8 +50865,9 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
-    "runs": 2,
+    "runs": 1,
     "wins": 0,
     "places": 0,
     "win_pct": 0.0,
@@ -50278,16 +50875,7 @@
    },
    "by_going": [],
    "by_course": [],
-   "by_distance": [
-    {
-     "key": "staying",
-     "runs": 2,
-     "wins": 0,
-     "places": 0,
-     "win_pct": 0.0,
-     "place_pct": 0.0
-    }
-   ],
+   "by_distance": [],
    "jockey": {
     "name": "Miss A B O'Connor",
     "runs": 0,
@@ -50315,6 +50903,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "has_history",
    "career": {
     "runs": 1,
     "wins": 0,
@@ -50352,6 +50941,7 @@
     "distance": "staying"
    },
    "as_of": "2026-09-19",
+   "status": "debut",
    "career": {
     "runs": 0,
     "wins": 0,
