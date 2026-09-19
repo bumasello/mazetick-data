@@ -1,6 +1,6 @@
 {
  "schema": "movers_v1",
- "generated_at": "2026-09-19T16:00:01Z",
+ "generated_at": "2026-09-19T21:30:01Z",
  "source": "Smarkets public order book",
  "note": "'percentile' is where this move sits among all moves we have measured for runners opening at a similar price. The median move is near zero in every band; what changes with price is the spread of outcomes.",
  "baseline": {
@@ -78,7 +78,7 @@
    }
   ]
  },
- "collected_through": "2026-09-19T15:45:01Z",
+ "collected_through": "2026-09-19T21:15:01Z",
  "runners": [
   {
    "slug": "gowran-park-1341",
@@ -961,6 +961,28 @@
    "notable": true
   },
   {
+   "slug": "newcastle-1830",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T18:30:00Z",
+   "runner": "Glowchester",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 18.17
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 42.83,
+    "spread_pct": 14.2
+   },
+   "move_pct": 135.8,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 99,
+   "notable": true
+  },
+  {
    "slug": "gowran-park-1341",
    "venue": "Gowran Park",
    "off_utc": "2026-09-19T13:41:00Z",
@@ -1511,25 +1533,47 @@
    "notable": true
   },
   {
-   "slug": "navan-1612",
-   "venue": "Navan",
-   "off_utc": "2026-09-19T16:12:00Z",
-   "runner": "Sharbel",
+   "slug": "chester-1625",
+   "venue": "Chester",
+   "off_utc": "2026-09-19T16:25:00Z",
+   "runner": "Zimmerman",
    "first": {
-    "mins_to_off": 357,
-    "mid": 21.83
+    "mins_to_off": 355,
+    "mid": 7.6
    },
    "latest": {
-    "mins_to_off": 27,
-    "mid": 10.86,
-    "spread_pct": 26.7
+    "mins_to_off": 10,
+    "mid": 4.65,
+    "spread_pct": 2.1
    },
-   "move_pct": -50.3,
+   "move_pct": -38.8,
    "band": [
-    20,
-    35
+    5,
+    8
    ],
    "percentile": 2,
+   "notable": true
+  },
+  {
+   "slug": "gowran-park-1637",
+   "venue": "Gowran Park",
+   "off_utc": "2026-09-19T16:37:00Z",
+   "runner": "Princess Chloe",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 12.69
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 24.39,
+    "spread_pct": 12.2
+   },
+   "move_pct": 92.2,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 98,
    "notable": true
   },
   {
@@ -1794,6 +1838,94 @@
     13
    ],
    "percentile": 3,
+   "notable": true
+  },
+  {
+   "slug": "navan-1612",
+   "venue": "Navan",
+   "off_utc": "2026-09-19T16:12:00Z",
+   "runner": "Sharbel",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 21.83
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 11.48,
+    "spread_pct": 8.7
+   },
+   "move_pct": -47.4,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 3,
+   "notable": true
+  },
+  {
+   "slug": "navan-1612",
+   "venue": "Navan",
+   "off_utc": "2026-09-19T16:12:00Z",
+   "runner": "Not A Whisper",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 11.37
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 20.66,
+    "spread_pct": 12.0
+   },
+   "move_pct": 81.7,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 97,
+   "notable": true
+  },
+  {
+   "slug": "chester-1625",
+   "venue": "Chester",
+   "off_utc": "2026-09-19T16:25:00Z",
+   "runner": "Risk Averse Rebel",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 27.86
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 14.48,
+    "spread_pct": 6.8
+   },
+   "move_pct": -48.0,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 3,
+   "notable": true
+  },
+  {
+   "slug": "newmarket-1630",
+   "venue": "Newmarket",
+   "off_utc": "2026-09-19T16:30:00Z",
+   "runner": "Star Start",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 13.21
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 25.41,
+    "spread_pct": 12.0
+   },
+   "move_pct": 92.4,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 97,
    "notable": true
   },
   {
@@ -2127,6 +2259,50 @@
    "notable": true
   },
   {
+   "slug": "navan-1612",
+   "venue": "Navan",
+   "off_utc": "2026-09-19T16:12:00Z",
+   "runner": "Oneforbeano",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 51.81
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 89.29,
+    "spread_pct": 38.9
+   },
+   "move_pct": 72.3,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 96,
+   "notable": true
+  },
+  {
+   "slug": "gowran-park-1637",
+   "venue": "Gowran Park",
+   "off_utc": "2026-09-19T16:37:00Z",
+   "runner": "Jasmine Affanalis",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 11.42
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 7.3,
+    "spread_pct": 2.8
+   },
+   "move_pct": -36.1,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 4,
+   "notable": true
+  },
+  {
    "slug": "navan-1242",
    "venue": "Navan",
    "off_utc": "2026-09-19T12:42:00Z",
@@ -2281,69 +2457,69 @@
    "notable": true
   },
   {
-   "slug": "navan-1612",
-   "venue": "Navan",
-   "off_utc": "2026-09-19T16:12:00Z",
-   "runner": "Not A Whisper",
-   "first": {
-    "mins_to_off": 357,
-    "mid": 11.37
-   },
-   "latest": {
-    "mins_to_off": 27,
-    "mid": 18.17,
-    "spread_pct": 13.7
-   },
-   "move_pct": 59.8,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 95,
-   "notable": true
-  },
-  {
    "slug": "chester-1625",
    "venue": "Chester",
    "off_utc": "2026-09-19T16:25:00Z",
-   "runner": "Risk Averse Rebel",
+   "runner": "Bulldog Spirit",
    "first": {
     "mins_to_off": 355,
-    "mid": 27.86
+    "mid": 69.69
    },
    "latest": {
-    "mins_to_off": 40,
-    "mid": 16.45,
-    "spread_pct": 12.2
+    "mins_to_off": 10,
+    "mid": 32.1,
+    "spread_pct": 21.8
    },
-   "move_pct": -41.0,
+   "move_pct": -53.9,
    "band": [
-    20,
-    35
+    35,
+    100
    ],
    "percentile": 5,
    "notable": true
   },
   {
-   "slug": "gowran-park-1637",
-   "venue": "Gowran Park",
-   "off_utc": "2026-09-19T16:37:00Z",
-   "runner": "Princess Chloe",
+   "slug": "newmarket-1630",
+   "venue": "Newmarket",
+   "off_utc": "2026-09-19T16:30:00Z",
+   "runner": "Good Speed",
    "first": {
-    "mins_to_off": 352,
-    "mid": 12.69
+    "mins_to_off": 360,
+    "mid": 15.36
    },
    "latest": {
-    "mins_to_off": 52,
-    "mid": 20.49,
-    "spread_pct": 22.0
+    "mins_to_off": 0,
+    "mid": 9.79,
+    "spread_pct": 4.1
    },
-   "move_pct": 61.5,
+   "move_pct": -36.2,
    "band": [
-    8,
-    13
+    13,
+    20
    ],
-   "percentile": 95,
+   "percentile": 5,
+   "notable": true
+  },
+  {
+   "slug": "newcastle-1830",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T18:30:00Z",
+   "runner": "Get Up Everybody",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 3.1
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 2.28,
+    "spread_pct": 1.8
+   },
+   "move_pct": -26.4,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 5,
    "notable": true
   },
   {
@@ -2768,20 +2944,20 @@
    "slug": "navan-1612",
    "venue": "Navan",
    "off_utc": "2026-09-19T16:12:00Z",
-   "runner": "Thats It Ruby",
+   "runner": "Caprison",
    "first": {
     "mins_to_off": 357,
-    "mid": 39.92
+    "mid": 14.14
    },
    "latest": {
-    "mins_to_off": 27,
-    "mid": 63.9,
-    "spread_pct": 73.8
+    "mins_to_off": 12,
+    "mid": 23.39,
+    "spread_pct": 12.9
    },
-   "move_pct": 60.1,
+   "move_pct": 65.4,
    "band": [
-    35,
-    100
+    13,
+    20
    ],
    "percentile": 94,
    "notable": false
@@ -2809,23 +2985,67 @@
    "notable": false
   },
   {
-   "slug": "gowran-park-1637",
-   "venue": "Gowran Park",
-   "off_utc": "2026-09-19T16:37:00Z",
-   "runner": "Jasmine Affanalis",
+   "slug": "newmarket-1630",
+   "venue": "Newmarket",
+   "off_utc": "2026-09-19T16:30:00Z",
+   "runner": "Sudbury Hill",
    "first": {
-    "mins_to_off": 352,
-    "mid": 11.42
+    "mins_to_off": 360,
+    "mid": 20.81
    },
    "latest": {
-    "mins_to_off": 52,
-    "mid": 7.78,
-    "spread_pct": 10.2
+    "mins_to_off": 0,
+    "mid": 12.98,
+    "spread_pct": 7.7
    },
-   "move_pct": -31.9,
+   "move_pct": -37.6,
    "band": [
-    8,
-    13
+    20,
+    35
+   ],
+   "percentile": 6,
+   "notable": false
+  },
+  {
+   "slug": "newcastle-1900",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T19:00:00Z",
+   "runner": "Khabib",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 26.04
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 15.99,
+    "spread_pct": 6.2
+   },
+   "move_pct": -38.6,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 6,
+   "notable": false
+  },
+  {
+   "slug": "newcastle-1930",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T19:30:00Z",
+   "runner": "Barleybrown",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 7.18
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 5.1,
+    "spread_pct": 3.9
+   },
+   "move_pct": -29.0,
+   "band": [
+    5,
+    8
    ],
    "percentile": 6,
    "notable": false
@@ -3051,6 +3271,138 @@
    "notable": false
   },
   {
+   "slug": "gowran-park-1602",
+   "venue": "Gowran Park",
+   "off_utc": "2026-09-19T16:02:00Z",
+   "runner": "Java Wood",
+   "first": {
+    "mins_to_off": 347,
+    "mid": 9.05
+   },
+   "latest": {
+    "mins_to_off": 2,
+    "mid": 13.49,
+    "spread_pct": 7.4
+   },
+   "move_pct": 49.0,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 93,
+   "notable": false
+  },
+  {
+   "slug": "gowran-park-1602",
+   "venue": "Gowran Park",
+   "off_utc": "2026-09-19T16:02:00Z",
+   "runner": "Queen Aethelflaed",
+   "first": {
+    "mins_to_off": 347,
+    "mid": 20.39
+   },
+   "latest": {
+    "mins_to_off": 2,
+    "mid": 12.98,
+    "spread_pct": 7.7
+   },
+   "move_pct": -36.3,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 7,
+   "notable": false
+  },
+  {
+   "slug": "gowran-park-1602",
+   "venue": "Gowran Park",
+   "off_utc": "2026-09-19T16:02:00Z",
+   "runner": "Make The Tide",
+   "first": {
+    "mins_to_off": 347,
+    "mid": 11.81
+   },
+   "latest": {
+    "mins_to_off": 2,
+    "mid": 17.71,
+    "spread_pct": 8.3
+   },
+   "move_pct": 50.0,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 93,
+   "notable": false
+  },
+  {
+   "slug": "gowran-park-1602",
+   "venue": "Gowran Park",
+   "off_utc": "2026-09-19T16:02:00Z",
+   "runner": "Cladach",
+   "first": {
+    "mins_to_off": 347,
+    "mid": 5.24
+   },
+   "latest": {
+    "mins_to_off": 2,
+    "mid": 3.85,
+    "spread_pct": 2.6
+   },
+   "move_pct": -26.5,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 7,
+   "notable": false
+  },
+  {
+   "slug": "gowran-park-1602",
+   "venue": "Gowran Park",
+   "off_utc": "2026-09-19T16:02:00Z",
+   "runner": "Chirac",
+   "first": {
+    "mins_to_off": 347,
+    "mid": 10.99
+   },
+   "latest": {
+    "mins_to_off": 2,
+    "mid": 16.22,
+    "spread_pct": 9.3
+   },
+   "move_pct": 47.6,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 93,
+   "notable": false
+  },
+  {
+   "slug": "chester-1625",
+   "venue": "Chester",
+   "off_utc": "2026-09-19T16:25:00Z",
+   "runner": "Melon",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 2.48
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 3.17,
+    "spread_pct": 1.6
+   },
+   "move_pct": 28.0,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 93,
+   "notable": false
+  },
+  {
    "slug": "hoppegarten-de-1510",
    "venue": "Hoppegarten De",
    "off_utc": "2026-09-19T15:10:00Z",
@@ -3076,20 +3428,20 @@
    "slug": "newcastle-1730",
    "venue": "Newcastle",
    "off_utc": "2026-09-19T17:30:00Z",
-   "runner": "Great",
+   "runner": "American Bay",
    "first": {
     "mins_to_off": 360,
-    "mid": 12.41
+    "mid": 7.39
    },
    "latest": {
-    "mins_to_off": 105,
-    "mid": 18.45,
-    "spread_pct": 10.7
+    "mins_to_off": 0,
+    "mid": 10.48,
+    "spread_pct": 9.6
    },
-   "move_pct": 48.6,
+   "move_pct": 41.7,
    "band": [
-    8,
-    13
+    5,
+    8
    ],
    "percentile": 93,
    "notable": false
@@ -3337,28 +3689,6 @@
    "notable": false
   },
   {
-   "slug": "navan-1612",
-   "venue": "Navan",
-   "off_utc": "2026-09-19T16:12:00Z",
-   "runner": "Oneforbeano",
-   "first": {
-    "mins_to_off": 357,
-    "mid": 51.81
-   },
-   "latest": {
-    "mins_to_off": 27,
-    "mid": 78.74,
-    "spread_pct": 44.5
-   },
-   "move_pct": 52.0,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 92,
-   "notable": false
-  },
-  {
    "slug": "newbury-1420",
    "venue": "Newbury",
    "off_utc": "2026-09-19T14:20:00Z",
@@ -3378,6 +3708,50 @@
     100
    ],
    "percentile": 8,
+   "notable": false
+  },
+  {
+   "slug": "newcastle-1730",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T17:30:00Z",
+   "runner": "Blue Force",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 20.39
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 34.78,
+    "spread_pct": 17.2
+   },
+   "move_pct": 70.6,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 92,
+   "notable": false
+  },
+  {
+   "slug": "newcastle-1900",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T19:00:00Z",
+   "runner": "Lady Bouquet",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 21.25
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 36.97,
+    "spread_pct": 5.5
+   },
+   "move_pct": 73.9,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 92,
    "notable": false
   },
   {
@@ -3535,67 +3909,89 @@
    "notable": false
   },
   {
-   "slug": "gowran-park-1602",
-   "venue": "Gowran Park",
-   "off_utc": "2026-09-19T16:02:00Z",
-   "runner": "Cosmic Funk",
-   "first": {
-    "mins_to_off": 347,
-    "mid": 14.93
-   },
-   "latest": {
-    "mins_to_off": 17,
-    "mid": 22.4,
-    "spread_pct": 13.3
-   },
-   "move_pct": 50.1,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 91,
-   "notable": false
-  },
-  {
    "slug": "navan-1612",
    "venue": "Navan",
    "off_utc": "2026-09-19T16:12:00Z",
-   "runner": "Caprison",
+   "runner": "Walkwithmyfriend",
    "first": {
     "mins_to_off": 357,
-    "mid": 14.14
+    "mid": 8.36
    },
    "latest": {
-    "mins_to_off": 27,
-    "mid": 21.1,
-    "spread_pct": 16.6
+    "mins_to_off": 12,
+    "mid": 11.98,
+    "spread_pct": 8.4
    },
-   "move_pct": 49.2,
+   "move_pct": 43.2,
    "band": [
-    13,
-    20
+    8,
+    13
    ],
    "percentile": 91,
    "notable": false
   },
   {
-   "slug": "newcastle-1830",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T18:30:00Z",
-   "runner": "Runninman",
+   "slug": "gowran-park-1637",
+   "venue": "Gowran Park",
+   "off_utc": "2026-09-19T16:37:00Z",
+   "runner": "Spanish Princess",
    "first": {
-    "mins_to_off": 360,
-    "mid": 71.68
+    "mins_to_off": 352,
+    "mid": 99.5
    },
    "latest": {
-    "mins_to_off": 165,
-    "mid": 39.14,
-    "spread_pct": 30.8
+    "mins_to_off": 7,
+    "mid": 53.33,
+    "spread_pct": 22.1
    },
-   "move_pct": -45.4,
+   "move_pct": -46.4,
    "band": [
     35,
     100
+   ],
+   "percentile": 9,
+   "notable": false
+  },
+  {
+   "slug": "newcastle-1800",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T18:00:00Z",
+   "runner": "Men Of Honour",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 7.59
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 10.25,
+    "spread_pct": 4.9
+   },
+   "move_pct": 34.9,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 91,
+   "notable": false
+  },
+  {
+   "slug": "newcastle-1930",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T19:30:00Z",
+   "runner": "Walk On Walk On",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 10.58
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 7.7,
+    "spread_pct": 2.6
+   },
+   "move_pct": -27.3,
+   "band": [
+    8,
+    13
    ],
    "percentile": 9,
    "notable": false
@@ -3852,7 +4248,7 @@
     "mid": 62.11
    },
    "latest": {
-    "mins_to_off": 17,
+    "mins_to_off": 2,
     "mid": 34.78,
     "spread_pct": 17.2
    },
@@ -3865,23 +4261,23 @@
    "notable": false
   },
   {
-   "slug": "gowran-park-1602",
-   "venue": "Gowran Park",
-   "off_utc": "2026-09-19T16:02:00Z",
-   "runner": "Queen Aethelflaed",
+   "slug": "newcastle-1620",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T16:20:00Z",
+   "runner": "Aeternitas",
    "first": {
-    "mins_to_off": 347,
-    "mid": 20.39
+    "mins_to_off": 350,
+    "mid": 10.25
    },
    "latest": {
-    "mins_to_off": 17,
-    "mid": 13.98,
-    "spread_pct": 7.1
+    "mins_to_off": 5,
+    "mid": 7.6,
+    "spread_pct": 5.2
    },
-   "move_pct": -31.4,
+   "move_pct": -25.9,
    "band": [
-    20,
-    35
+    8,
+    13
    ],
    "percentile": 10,
    "notable": false
@@ -3890,22 +4286,22 @@
    "slug": "gowran-park-1637",
    "venue": "Gowran Park",
    "off_utc": "2026-09-19T16:37:00Z",
-   "runner": "Spanish Princess",
+   "runner": "Sunday Sovereign",
    "first": {
     "mins_to_off": 352,
-    "mid": 99.5
+    "mid": 11.31
    },
    "latest": {
-    "mins_to_off": 52,
-    "mid": 55.25,
-    "spread_pct": 30.5
+    "mins_to_off": 7,
+    "mid": 15.99,
+    "spread_pct": 6.2
    },
-   "move_pct": -44.5,
+   "move_pct": 41.4,
    "band": [
-    35,
-    100
+    8,
+    13
    ],
-   "percentile": 10,
+   "percentile": 90,
    "notable": false
   },
   {
@@ -3928,6 +4324,50 @@
     35
    ],
    "percentile": 10,
+   "notable": false
+  },
+  {
+   "slug": "newcastle-1800",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T18:00:00Z",
+   "runner": "Masai Angel",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 19.21
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 13.75,
+    "spread_pct": 3.7
+   },
+   "move_pct": -28.5,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 10,
+   "notable": false
+  },
+  {
+   "slug": "newcastle-1830",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T18:30:00Z",
+   "runner": "Woodhay Whisper",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 20.88
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 33.9,
+    "spread_pct": 11.6
+   },
+   "move_pct": 62.4,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 90,
    "notable": false
   },
   {
@@ -4264,22 +4704,44 @@
    "slug": "gowran-park-1602",
    "venue": "Gowran Park",
    "off_utc": "2026-09-19T16:02:00Z",
-   "runner": "Java Wood",
+   "runner": "Cosmic Funk",
    "first": {
     "mins_to_off": 347,
-    "mid": 9.05
+    "mid": 14.93
    },
    "latest": {
-    "mins_to_off": 17,
-    "mid": 12.48,
-    "spread_pct": 8.0
+    "mins_to_off": 2,
+    "mid": 21.39,
+    "spread_pct": 14.0
    },
-   "move_pct": 38.0,
+   "move_pct": 43.3,
    "band": [
-    8,
-    13
+    13,
+    20
    ],
    "percentile": 89,
+   "notable": false
+  },
+  {
+   "slug": "newcastle-1900",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T19:00:00Z",
+   "runner": "Ellie's De Vega",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 5.24
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 4.1,
+    "spread_pct": 4.9
+   },
+   "move_pct": -21.8,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 11,
    "notable": false
   },
   {
@@ -4432,6 +4894,50 @@
    "band": [
     20,
     35
+   ],
+   "percentile": 88,
+   "notable": false
+  },
+  {
+   "slug": "newcastle-1800",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T18:00:00Z",
+   "runner": "Lord Abama",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 11.48
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 15.71,
+    "spread_pct": 9.6
+   },
+   "move_pct": 36.8,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 88,
+   "notable": false
+  },
+  {
+   "slug": "newcastle-1930",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T19:30:00Z",
+   "runner": "Bajan Bandit",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 5.88
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 7.6,
+    "spread_pct": 5.2
+   },
+   "move_pct": 29.1,
+   "band": [
+    5,
+    8
    ],
    "percentile": 88,
    "notable": false
@@ -4591,89 +5097,23 @@
    "notable": false
   },
   {
-   "slug": "navan-1612",
-   "venue": "Navan",
-   "off_utc": "2026-09-19T16:12:00Z",
-   "runner": "Emergency Man",
-   "first": {
-    "mins_to_off": 357,
-    "mid": 4.78
-   },
-   "latest": {
-    "mins_to_off": 27,
-    "mid": 6.03,
-    "spread_pct": 11.6
-   },
-   "move_pct": 26.1,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 87,
-   "notable": false
-  },
-  {
-   "slug": "navan-1612",
-   "venue": "Navan",
-   "off_utc": "2026-09-19T16:12:00Z",
-   "runner": "Walkwithmyfriend",
-   "first": {
-    "mins_to_off": 357,
-    "mid": 8.36
-   },
-   "latest": {
-    "mins_to_off": 27,
-    "mid": 11.2,
-    "spread_pct": 13.4
-   },
-   "move_pct": 34.0,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 87,
-   "notable": false
-  },
-  {
-   "slug": "chester-1625",
-   "venue": "Chester",
-   "off_utc": "2026-09-19T16:25:00Z",
-   "runner": "Tabasko",
+   "slug": "newcastle-1655",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T16:55:00Z",
+   "runner": "Savernake",
    "first": {
     "mins_to_off": 355,
-    "mid": 6.59
+    "mid": 69.93
    },
    "latest": {
-    "mins_to_off": 40,
-    "mid": 8.39,
-    "spread_pct": 4.8
+    "mins_to_off": 25,
+    "mid": 99.5,
+    "spread_pct": 35.9
    },
-   "move_pct": 27.3,
+   "move_pct": 42.3,
    "band": [
-    5,
-    8
-   ],
-   "percentile": 87,
-   "notable": false
-  },
-  {
-   "slug": "gowran-park-1637",
-   "venue": "Gowran Park",
-   "off_utc": "2026-09-19T16:37:00Z",
-   "runner": "Sunday Sovereign",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 11.31
-   },
-   "latest": {
-    "mins_to_off": 52,
-    "mid": 15.21,
-    "spread_pct": 9.9
-   },
-   "move_pct": 34.5,
-   "band": [
-    8,
-    13
+    35,
+    100
    ],
    "percentile": 87,
    "notable": false
@@ -4693,6 +5133,72 @@
     "spread_pct": 206.6
    },
    "move_pct": 34.0,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 87,
+   "notable": false
+  },
+  {
+   "slug": "newcastle-1800",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T18:00:00Z",
+   "runner": "Asadjumeirah",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 7.35
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 5.9,
+    "spread_pct": 3.4
+   },
+   "move_pct": -19.8,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 13,
+   "notable": false
+  },
+  {
+   "slug": "newcastle-1800",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T18:00:00Z",
+   "runner": "Territorial Star",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 30.17
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 21.81,
+    "spread_pct": 18.3
+   },
+   "move_pct": -27.7,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 13,
+   "notable": false
+  },
+  {
+   "slug": "newcastle-1930",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T19:30:00Z",
+   "runner": "Falcon Nine",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 8.78
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 11.74,
+    "spread_pct": 4.3
+   },
+   "move_pct": 33.7,
    "band": [
     8,
     13
@@ -4921,6 +5427,28 @@
    "notable": false
   },
   {
+   "slug": "navan-1612",
+   "venue": "Navan",
+   "off_utc": "2026-09-19T16:12:00Z",
+   "runner": "Thats It Ruby",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 39.92
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 56.5,
+    "spread_pct": 26.4
+   },
+   "move_pct": 41.5,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 86,
+   "notable": false
+  },
+  {
    "slug": "ayr-1550",
    "venue": "Ayr",
    "off_utc": "2026-09-19T15:50:00Z",
@@ -4943,25 +5471,47 @@
    "notable": false
   },
   {
-   "slug": "newcastle-1800",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T18:00:00Z",
-   "runner": "Lord Abama",
+   "slug": "gowran-park-1637",
+   "venue": "Gowran Park",
+   "off_utc": "2026-09-19T16:37:00Z",
+   "runner": "Mogwli",
    "first": {
-    "mins_to_off": 360,
-    "mid": 11.48
+    "mins_to_off": 352,
+    "mid": 86.58
    },
    "latest": {
-    "mins_to_off": 135,
-    "mid": 15.21,
-    "spread_pct": 9.9
+    "mins_to_off": 7,
+    "mid": 53.33,
+    "spread_pct": 22.1
    },
-   "move_pct": 32.5,
+   "move_pct": -38.4,
    "band": [
-    8,
-    13
+    35,
+    100
    ],
-   "percentile": 86,
+   "percentile": 14,
+   "notable": false
+  },
+  {
+   "slug": "newcastle-1900",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T19:00:00Z",
+   "runner": "Invincible Crown",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 13.84
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 10.48,
+    "spread_pct": 9.6
+   },
+   "move_pct": -24.3,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 14,
    "notable": false
   },
   {
@@ -5075,67 +5625,67 @@
    "notable": false
   },
   {
-   "slug": "gowran-park-1637",
+   "slug": "gowran-park-1602",
    "venue": "Gowran Park",
-   "off_utc": "2026-09-19T16:37:00Z",
-   "runner": "Spinning Web",
+   "off_utc": "2026-09-19T16:02:00Z",
+   "runner": "Roaming Coyote",
    "first": {
-    "mins_to_off": 352,
-    "mid": 28.13
+    "mins_to_off": 347,
+    "mid": 18.94
    },
    "latest": {
-    "mins_to_off": 52,
-    "mid": 41.67,
-    "spread_pct": 19.3
+    "mins_to_off": 2,
+    "mid": 14.48,
+    "spread_pct": 6.8
    },
-   "move_pct": 48.1,
+   "move_pct": -23.5,
    "band": [
-    20,
-    35
-   ],
-   "percentile": 85,
-   "notable": false
-  },
-  {
-   "slug": "gowran-park-1637",
-   "venue": "Gowran Park",
-   "off_utc": "2026-09-19T16:37:00Z",
-   "runner": "Yorkshire Myth",
-   "first": {
-    "mins_to_off": 322,
-    "mid": 95.69
-   },
-   "latest": {
-    "mins_to_off": 52,
-    "mid": 60.06,
-    "spread_pct": 41.9
-   },
-   "move_pct": -37.2,
-   "band": [
-    35,
-    100
+    13,
+    20
    ],
    "percentile": 15,
    "notable": false
   },
   {
-   "slug": "newcastle-1730",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T17:30:00Z",
-   "runner": "Castan",
+   "slug": "navan-1612",
+   "venue": "Navan",
+   "off_utc": "2026-09-19T16:12:00Z",
+   "runner": "El Paraiso",
    "first": {
-    "mins_to_off": 360,
-    "mid": 15.15
+    "mins_to_off": 357,
+    "mid": 4.14
    },
    "latest": {
-    "mins_to_off": 105,
-    "mid": 20.66,
-    "spread_pct": 12.0
+    "mins_to_off": 12,
+    "mid": 3.52,
+    "spread_pct": 4.3
    },
-   "move_pct": 36.4,
+   "move_pct": -15.0,
    "band": [
-    13,
-    20
+    3,
+    5
+   ],
+   "percentile": 15,
+   "notable": false
+  },
+  {
+   "slug": "navan-1612",
+   "venue": "Navan",
+   "off_utc": "2026-09-19T16:12:00Z",
+   "runner": "Hee Hiles",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 45.87
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 63.49,
+    "spread_pct": 31.9
+   },
+   "move_pct": 38.4,
+   "band": [
+    35,
+    100
    ],
    "percentile": 85,
    "notable": false
@@ -5273,47 +5823,69 @@
    "notable": false
   },
   {
-   "slug": "chester-1625",
-   "venue": "Chester",
-   "off_utc": "2026-09-19T16:25:00Z",
-   "runner": "Carthusian",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 15.65
-   },
-   "latest": {
-    "mins_to_off": 40,
-    "mid": 12.2,
-    "spread_pct": 12.4
-   },
-   "move_pct": -22.0,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 16,
-   "notable": false
-  },
-  {
    "slug": "newmarket-1630",
    "venue": "Newmarket",
    "off_utc": "2026-09-19T16:30:00Z",
-   "runner": "Star Start",
+   "runner": "Drifts Away",
    "first": {
     "mins_to_off": 360,
-    "mid": 13.21
+    "mid": 16.86
    },
    "latest": {
-    "mins_to_off": 45,
-    "mid": 17.99,
-    "spread_pct": 5.4
+    "mins_to_off": 0,
+    "mid": 22.94,
+    "spread_pct": 8.7
    },
-   "move_pct": 36.2,
+   "move_pct": 36.0,
    "band": [
     13,
     20
    ],
    "percentile": 84,
+   "notable": false
+  },
+  {
+   "slug": "gowran-park-1637",
+   "venue": "Gowran Park",
+   "off_utc": "2026-09-19T16:37:00Z",
+   "runner": "Spinning Web",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 28.13
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 40.82,
+    "spread_pct": 14.8
+   },
+   "move_pct": 45.1,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 84,
+   "notable": false
+  },
+  {
+   "slug": "newcastle-1800",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T18:00:00Z",
+   "runner": "Tickets",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 9.13
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 7.3,
+    "spread_pct": 2.8
+   },
+   "move_pct": -20.1,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 16,
    "notable": false
   },
   {
@@ -5493,42 +6065,64 @@
    "notable": false
   },
   {
-   "slug": "gowran-park-1602",
-   "venue": "Gowran Park",
-   "off_utc": "2026-09-19T16:02:00Z",
-   "runner": "Cladach",
+   "slug": "chester-1625",
+   "venue": "Chester",
+   "off_utc": "2026-09-19T16:25:00Z",
+   "runner": "Tabasko",
    "first": {
-    "mins_to_off": 347,
-    "mid": 5.24
+    "mins_to_off": 355,
+    "mid": 6.59
    },
    "latest": {
-    "mins_to_off": 17,
-    "mid": 4.35,
-    "spread_pct": 2.3
+    "mins_to_off": 10,
+    "mid": 7.99,
+    "spread_pct": 5.0
    },
-   "move_pct": -17.0,
+   "move_pct": 21.2,
    "band": [
     5,
     8
+   ],
+   "percentile": 83,
+   "notable": false
+  },
+  {
+   "slug": "newmarket-1630",
+   "venue": "Newmarket",
+   "off_utc": "2026-09-19T16:30:00Z",
+   "runner": "Gorgeous Mr George",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 18.94
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 14.98,
+    "spread_pct": 6.7
+   },
+   "move_pct": -20.9,
+   "band": [
+    13,
+    20
    ],
    "percentile": 17,
    "notable": false
   },
   {
-   "slug": "navan-1612",
-   "venue": "Navan",
-   "off_utc": "2026-09-19T16:12:00Z",
-   "runner": "Hee Hiles",
+   "slug": "newmarket-1630",
+   "venue": "Newmarket",
+   "off_utc": "2026-09-19T16:30:00Z",
+   "runner": "Kodi Fire",
    "first": {
-    "mins_to_off": 357,
-    "mid": 45.87
+    "mins_to_off": 360,
+    "mid": 65.15
    },
    "latest": {
-    "mins_to_off": 27,
-    "mid": 61.54,
-    "spread_pct": 48.7
+    "mins_to_off": 0,
+    "mid": 86.96,
+    "spread_pct": 17.5
    },
-   "move_pct": 34.2,
+   "move_pct": 33.5,
    "band": [
     35,
     100
@@ -5559,25 +6153,47 @@
    "notable": false
   },
   {
-   "slug": "newcastle-1730",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T17:30:00Z",
-   "runner": "Bonnie's Boy",
+   "slug": "chester-1625",
+   "venue": "Chester",
+   "off_utc": "2026-09-19T16:25:00Z",
+   "runner": "Wiltshire Wonder",
    "first": {
-    "mins_to_off": 360,
-    "mid": 4.2
+    "mins_to_off": 295,
+    "mid": 66.89
    },
    "latest": {
-    "mins_to_off": 105,
-    "mid": 3.62,
-    "spread_pct": 4.1
+    "mins_to_off": 10,
+    "mid": 88.89,
+    "spread_pct": 22.5
    },
-   "move_pct": -13.7,
+   "move_pct": 32.9,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 83,
+   "notable": false
+  },
+  {
+   "slug": "newcastle-1900",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T19:00:00Z",
+   "runner": "Tawaazon",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 3.42
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 4.15,
+    "spread_pct": 2.4
+   },
+   "move_pct": 21.2,
    "band": [
     3,
     5
    ],
-   "percentile": 17,
+   "percentile": 83,
    "notable": false
   },
   {
@@ -5757,28 +6373,6 @@
    "notable": false
   },
   {
-   "slug": "newmarket-1630",
-   "venue": "Newmarket",
-   "off_utc": "2026-09-19T16:30:00Z",
-   "runner": "Zatsgood",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 4.75
-   },
-   "latest": {
-    "mins_to_off": 45,
-    "mid": 4.15,
-    "spread_pct": 2.4
-   },
-   "move_pct": -12.6,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 18,
-   "notable": false
-  },
-  {
    "slug": "hoppegarten-de-1430",
    "venue": "Hoppegarten De",
    "off_utc": "2026-09-19T14:30:00Z",
@@ -5801,25 +6395,25 @@
    "notable": false
   },
   {
-   "slug": "chester-1625",
-   "venue": "Chester",
-   "off_utc": "2026-09-19T16:25:00Z",
-   "runner": "Wiltshire Wonder",
+   "slug": "newcastle-1730",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T17:30:00Z",
+   "runner": "Hundred Caps",
    "first": {
-    "mins_to_off": 295,
-    "mid": 66.89
+    "mins_to_off": 360,
+    "mid": 10.03
    },
    "latest": {
-    "mins_to_off": 175,
-    "mid": 88.5,
-    "spread_pct": 57.1
+    "mins_to_off": 0,
+    "mid": 8.2,
+    "spread_pct": 4.9
    },
-   "move_pct": 32.3,
+   "move_pct": -18.3,
    "band": [
-    35,
-    100
+    8,
+    13
    ],
-   "percentile": 82,
+   "percentile": 18,
    "notable": false
   },
   {
@@ -5845,23 +6439,45 @@
    "notable": false
   },
   {
-   "slug": "newcastle-1900",
+   "slug": "newcastle-1830",
    "venue": "Newcastle",
-   "off_utc": "2026-09-19T19:00:00Z",
-   "runner": "Khabib",
+   "off_utc": "2026-09-19T18:30:00Z",
+   "runner": "Maui Breeze",
    "first": {
     "mins_to_off": 360,
-    "mid": 26.04
+    "mid": 20.92
    },
    "latest": {
-    "mins_to_off": 195,
-    "mid": 20.18,
-    "spread_pct": 24.8
+    "mins_to_off": 0,
+    "mid": 29.33,
+    "spread_pct": 17.1
    },
-   "move_pct": -22.5,
+   "move_pct": 40.2,
    "band": [
     20,
     35
+   ],
+   "percentile": 82,
+   "notable": false
+  },
+  {
+   "slug": "newcastle-1930",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T19:30:00Z",
+   "runner": "Positive Thoughts",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 19.38
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 15.48,
+    "spread_pct": 6.5
+   },
+   "move_pct": -20.1,
+   "band": [
+    13,
+    20
    ],
    "percentile": 18,
    "notable": false
@@ -6109,28 +6725,6 @@
    "notable": false
   },
   {
-   "slug": "navan-1612",
-   "venue": "Navan",
-   "off_utc": "2026-09-19T16:12:00Z",
-   "runner": "El Paraiso",
-   "first": {
-    "mins_to_off": 357,
-    "mid": 4.14
-   },
-   "latest": {
-    "mins_to_off": 27,
-    "mid": 3.65,
-    "spread_pct": 5.5
-   },
-   "move_pct": -12.0,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 19,
-   "notable": false
-  },
-  {
    "slug": "ayr-1550",
    "venue": "Ayr",
    "off_utc": "2026-09-19T15:50:00Z",
@@ -6153,72 +6747,6 @@
    "notable": false
   },
   {
-   "slug": "chester-1625",
-   "venue": "Chester",
-   "off_utc": "2026-09-19T16:25:00Z",
-   "runner": "Melon",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 2.48
-   },
-   "latest": {
-    "mins_to_off": 40,
-    "mid": 2.8,
-    "spread_pct": 1.4
-   },
-   "move_pct": 12.9,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 81,
-   "notable": false
-  },
-  {
-   "slug": "gowran-park-1637",
-   "venue": "Gowran Park",
-   "off_utc": "2026-09-19T16:37:00Z",
-   "runner": "Chipsrdown",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 4.38
-   },
-   "latest": {
-    "mins_to_off": 52,
-    "mid": 5.2,
-    "spread_pct": 3.8
-   },
-   "move_pct": 18.7,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 81,
-   "notable": false
-  },
-  {
-   "slug": "gowran-park-1637",
-   "venue": "Gowran Park",
-   "off_utc": "2026-09-19T16:37:00Z",
-   "runner": "Gordon Bennett",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 12.32
-   },
-   "latest": {
-    "mins_to_off": 52,
-    "mid": 10.14,
-    "spread_pct": 6.9
-   },
-   "move_pct": -17.7,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 19,
-   "notable": false
-  },
-  {
    "slug": "hoppegarten-de-1510",
    "venue": "Hoppegarten De",
    "off_utc": "2026-09-19T15:10:00Z",
@@ -6238,6 +6766,28 @@
     35
    ],
    "percentile": 81,
+   "notable": false
+  },
+  {
+   "slug": "newcastle-1730",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T17:30:00Z",
+   "runner": "Azuinthejungle",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 12.75
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 10.48,
+    "spread_pct": 9.6
+   },
+   "move_pct": -17.8,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 19,
    "notable": false
   },
   {
@@ -6417,25 +6967,25 @@
    "notable": false
   },
   {
-   "slug": "gowran-park-1637",
-   "venue": "Gowran Park",
-   "off_utc": "2026-09-19T16:37:00Z",
-   "runner": "Virgil Tibbs",
+   "slug": "newcastle-1620",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T16:20:00Z",
+   "runner": "Enriched",
    "first": {
-    "mins_to_off": 352,
-    "mid": 23.67
+    "mins_to_off": 350,
+    "mid": 3.15
    },
    "latest": {
-    "mins_to_off": 52,
-    "mid": 18.94,
-    "spread_pct": 10.6
+    "mins_to_off": 5,
+    "mid": 3.67,
+    "spread_pct": 1.4
    },
-   "move_pct": -20.0,
+   "move_pct": 16.8,
    "band": [
-    20,
-    35
+    3,
+    5
    ],
-   "percentile": 20,
+   "percentile": 80,
    "notable": false
   },
   {
@@ -6478,28 +7028,6 @@
    "band": [
     3,
     5
-   ],
-   "percentile": 80,
-   "notable": false
-  },
-  {
-   "slug": "newcastle-1900",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T19:00:00Z",
-   "runner": "Lady Bouquet",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 21.25
-   },
-   "latest": {
-    "mins_to_off": 195,
-    "mid": 28.99,
-    "spread_pct": 7.0
-   },
-   "move_pct": 36.4,
-   "band": [
-    20,
-    35
    ],
    "percentile": 80,
    "notable": false
@@ -6615,28 +7143,6 @@
    "notable": false
   },
   {
-   "slug": "gowran-park-1602",
-   "venue": "Gowran Park",
-   "off_utc": "2026-09-19T16:02:00Z",
-   "runner": "Navajo Point",
-   "first": {
-    "mins_to_off": 347,
-    "mid": 19.38
-   },
-   "latest": {
-    "mins_to_off": 17,
-    "mid": 15.99,
-    "spread_pct": 6.2
-   },
-   "move_pct": -17.5,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 21,
-   "notable": false
-  },
-  {
    "slug": "navan-1612",
    "venue": "Navan",
    "off_utc": "2026-09-19T16:12:00Z",
@@ -6646,14 +7152,36 @@
     "mid": 25.61
    },
    "latest": {
-    "mins_to_off": 27,
-    "mid": 20.81,
-    "spread_pct": 19.1
+    "mins_to_off": 12,
+    "mid": 20.66,
+    "spread_pct": 12.0
    },
-   "move_pct": -18.7,
+   "move_pct": -19.3,
    "band": [
     20,
     35
+   ],
+   "percentile": 21,
+   "notable": false
+  },
+  {
+   "slug": "newcastle-1620",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T16:20:00Z",
+   "runner": "Bahia Bonita",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 9.46
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 7.99,
+    "spread_pct": 5.0
+   },
+   "move_pct": -15.5,
+   "band": [
+    8,
+    13
    ],
    "percentile": 21,
    "notable": false
@@ -6681,69 +7209,25 @@
    "notable": false
   },
   {
-   "slug": "newcastle-1655",
+   "slug": "newcastle-1830",
    "venue": "Newcastle",
-   "off_utc": "2026-09-19T16:55:00Z",
-   "runner": "Divine Symmetry",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 20.88
-   },
-   "latest": {
-    "mins_to_off": 70,
-    "mid": 16.75,
-    "spread_pct": 3.0
-   },
-   "move_pct": -19.8,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 21,
-   "notable": false
-  },
-  {
-   "slug": "gowran-park-1637",
-   "venue": "Gowran Park",
-   "off_utc": "2026-09-19T16:37:00Z",
-   "runner": "Watercraft",
-   "first": {
-    "mins_to_off": 307,
-    "mid": 89.29
-   },
-   "latest": {
-    "mins_to_off": 52,
-    "mid": 61.54,
-    "spread_pct": 48.7
-   },
-   "move_pct": -31.1,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 21,
-   "notable": false
-  },
-  {
-   "slug": "newcastle-1930",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T19:30:00Z",
-   "runner": "Triggerman",
+   "off_utc": "2026-09-19T18:30:00Z",
+   "runner": "Yaahobby",
    "first": {
     "mins_to_off": 360,
-    "mid": 84.03
+    "mid": 13.33
    },
    "latest": {
-    "mins_to_off": 240,
-    "mid": 58.65,
-    "spread_pct": 119.2
+    "mins_to_off": 0,
+    "mid": 17.21,
+    "spread_pct": 8.6
    },
-   "move_pct": -30.2,
+   "move_pct": 29.1,
    "band": [
-    35,
-    100
+    13,
+    20
    ],
-   "percentile": 21,
+   "percentile": 79,
    "notable": false
   },
   {
@@ -6989,69 +7473,25 @@
    "notable": false
   },
   {
-   "slug": "gowran-park-1602",
-   "venue": "Gowran Park",
-   "off_utc": "2026-09-19T16:02:00Z",
-   "runner": "Make The Tide",
+   "slug": "newcastle-1830",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T18:30:00Z",
+   "runner": "Heathers Feather",
    "first": {
-    "mins_to_off": 347,
-    "mid": 11.81
+    "mins_to_off": 360,
+    "mid": 9.81
    },
    "latest": {
-    "mins_to_off": 17,
-    "mid": 14.48,
-    "spread_pct": 6.8
+    "mins_to_off": 0,
+    "mid": 11.98,
+    "spread_pct": 8.4
    },
-   "move_pct": 22.6,
+   "move_pct": 22.1,
    "band": [
     8,
     13
    ],
    "percentile": 78,
-   "notable": false
-  },
-  {
-   "slug": "gowran-park-1602",
-   "venue": "Gowran Park",
-   "off_utc": "2026-09-19T16:02:00Z",
-   "runner": "Miss Crinshawn",
-   "first": {
-    "mins_to_off": 347,
-    "mid": 20.81
-   },
-   "latest": {
-    "mins_to_off": 17,
-    "mid": 17.21,
-    "spread_pct": 8.6
-   },
-   "move_pct": -17.3,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 22,
-   "notable": false
-  },
-  {
-   "slug": "newmarket-1630",
-   "venue": "Newmarket",
-   "off_utc": "2026-09-19T16:30:00Z",
-   "runner": "Prodigal Son",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 37.11
-   },
-   "latest": {
-    "mins_to_off": 45,
-    "mid": 26.42,
-    "spread_pct": 11.4
-   },
-   "move_pct": -28.8,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 22,
    "notable": false
   },
   {
@@ -7209,62 +7649,18 @@
    "notable": false
   },
   {
-   "slug": "newmarket-1630",
-   "venue": "Newmarket",
-   "off_utc": "2026-09-19T16:30:00Z",
-   "runner": "Good Speed",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 15.36
-   },
-   "latest": {
-    "mins_to_off": 45,
-    "mid": 12.98,
-    "spread_pct": 7.7
-   },
-   "move_pct": -15.5,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 23,
-   "notable": false
-  },
-  {
    "slug": "gowran-park-1637",
    "venue": "Gowran Park",
    "off_utc": "2026-09-19T16:37:00Z",
-   "runner": "Real Petite",
+   "runner": "Yorkshire Myth",
    "first": {
-    "mins_to_off": 352,
-    "mid": 10.67
+    "mins_to_off": 322,
+    "mid": 95.69
    },
    "latest": {
-    "mins_to_off": 52,
-    "mid": 9.18,
-    "spread_pct": 8.6
-   },
-   "move_pct": -13.9,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 23,
-   "notable": false
-  },
-  {
-   "slug": "newcastle-1655",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T16:55:00Z",
-   "runner": "Talking Bear",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 52.49
-   },
-   "latest": {
-    "mins_to_off": 70,
-    "mid": 37.59,
-    "spread_pct": 21.3
+    "mins_to_off": 7,
+    "mid": 68.49,
+    "spread_pct": 29.4
    },
    "move_pct": -28.4,
    "band": [
@@ -7272,6 +7668,28 @@
     100
    ],
    "percentile": 23,
+   "notable": false
+  },
+  {
+   "slug": "newcastle-1900",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T19:00:00Z",
+   "runner": "Keep The Gold",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 9.9
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 11.98,
+    "spread_pct": 8.4
+   },
+   "move_pct": 21.0,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 77,
    "notable": false
   },
   {
@@ -7429,69 +7847,47 @@
    "notable": false
   },
   {
-   "slug": "newcastle-1620",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T16:20:00Z",
-   "runner": "Miss Eileen",
+   "slug": "chester-1625",
+   "venue": "Chester",
+   "off_utc": "2026-09-19T16:25:00Z",
+   "runner": "Spartan Times",
    "first": {
-    "mins_to_off": 350,
-    "mid": 18.74
+    "mins_to_off": 355,
+    "mid": 5.59
    },
    "latest": {
-    "mins_to_off": 35,
-    "mid": 15.94,
-    "spread_pct": 12.6
+    "mins_to_off": 10,
+    "mid": 6.39,
+    "spread_pct": 6.3
    },
-   "move_pct": -15.0,
+   "move_pct": 14.3,
    "band": [
-    13,
-    20
+    5,
+    8
    ],
-   "percentile": 24,
+   "percentile": 76,
    "notable": false
   },
   {
-   "slug": "newcastle-1620",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T16:20:00Z",
-   "runner": "Tradittion",
+   "slug": "newmarket-1630",
+   "venue": "Newmarket",
+   "off_utc": "2026-09-19T16:30:00Z",
+   "runner": "Pride Of Nepal",
    "first": {
-    "mins_to_off": 350,
-    "mid": 9.58
+    "mins_to_off": 360,
+    "mid": 35.03
    },
    "latest": {
-    "mins_to_off": 35,
-    "mid": 8.29,
-    "spread_pct": 7.2
+    "mins_to_off": 0,
+    "mid": 42.83,
+    "spread_pct": 14.2
    },
-   "move_pct": -13.5,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 24,
-   "notable": false
-  },
-  {
-   "slug": "gowran-park-1637",
-   "venue": "Gowran Park",
-   "off_utc": "2026-09-19T16:37:00Z",
-   "runner": "Mogwli",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 86.58
-   },
-   "latest": {
-    "mins_to_off": 52,
-    "mid": 63.49,
-    "spread_pct": 31.9
-   },
-   "move_pct": -26.7,
+   "move_pct": 22.3,
    "band": [
     35,
     100
    ],
-   "percentile": 24,
+   "percentile": 76,
    "notable": false
   },
   {
@@ -7539,67 +7935,23 @@
    "notable": false
   },
   {
-   "slug": "newcastle-1830",
+   "slug": "newcastle-1800",
    "venue": "Newcastle",
-   "off_utc": "2026-09-19T18:30:00Z",
-   "runner": "Get Up Everybody",
+   "off_utc": "2026-09-19T18:00:00Z",
+   "runner": "My Mate Beattie",
    "first": {
     "mins_to_off": 360,
-    "mid": 3.1
+    "mid": 66.67
    },
    "latest": {
-    "mins_to_off": 165,
-    "mid": 2.79,
-    "spread_pct": 2.2
+    "mins_to_off": 0,
+    "mid": 81.97,
+    "spread_pct": 18.2
    },
-   "move_pct": -10.0,
+   "move_pct": 23.0,
    "band": [
-    3,
-    5
-   ],
-   "percentile": 24,
-   "notable": false
-  },
-  {
-   "slug": "newcastle-1830",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T18:30:00Z",
-   "runner": "Melissa Honey",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 4.94
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 5.65,
-    "spread_pct": 5.3
-   },
-   "move_pct": 14.4,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 76,
-   "notable": false
-  },
-  {
-   "slug": "newcastle-1830",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T18:30:00Z",
-   "runner": "Woodhay Whisper",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 20.88
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 27.43,
-    "spread_pct": 29.4
-   },
-   "move_pct": 31.4,
-   "band": [
-    20,
-    35
+    35,
+    100
    ],
    "percentile": 76,
    "notable": false
@@ -7737,67 +8089,23 @@
    "notable": false
   },
   {
-   "slug": "chester-1625",
-   "venue": "Chester",
-   "off_utc": "2026-09-19T16:25:00Z",
-   "runner": "Zimmerman",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 7.6
-   },
-   "latest": {
-    "mins_to_off": 40,
-    "mid": 6.7,
-    "spread_pct": 2.9
-   },
-   "move_pct": -11.8,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 25,
-   "notable": false
-  },
-  {
-   "slug": "newcastle-1730",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T17:30:00Z",
-   "runner": "Smart Vision",
+   "slug": "newmarket-1630",
+   "venue": "Newmarket",
+   "off_utc": "2026-09-19T16:30:00Z",
+   "runner": "Prodigal Son",
    "first": {
     "mins_to_off": 360,
-    "mid": 6.69
+    "mid": 37.11
    },
    "latest": {
-    "mins_to_off": 105,
-    "mid": 5.9,
-    "spread_pct": 3.4
+    "mins_to_off": 0,
+    "mid": 27.4,
+    "spread_pct": 11.0
    },
-   "move_pct": -11.8,
+   "move_pct": -26.2,
    "band": [
-    5,
-    8
-   ],
-   "percentile": 25,
-   "notable": false
-  },
-  {
-   "slug": "newcastle-1800",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T18:00:00Z",
-   "runner": "Territorial Star",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 30.17
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 25.64,
-    "spread_pct": 23.4
-   },
-   "move_pct": -15.0,
-   "band": [
-    20,
-    35
+    35,
+    100
    ],
    "percentile": 25,
    "notable": false
@@ -8089,23 +8397,23 @@
    "notable": false
   },
   {
-   "slug": "newcastle-1620",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T16:20:00Z",
-   "runner": "Enriched",
+   "slug": "gowran-park-1602",
+   "venue": "Gowran Park",
+   "off_utc": "2026-09-19T16:02:00Z",
+   "runner": "Deuteronomy",
    "first": {
-    "mins_to_off": 350,
-    "mid": 3.15
+    "mins_to_off": 347,
+    "mid": 60.24
    },
    "latest": {
-    "mins_to_off": 35,
-    "mid": 3.52,
-    "spread_pct": 4.3
+    "mins_to_off": 2,
+    "mid": 71.68,
+    "spread_pct": 21.0
    },
-   "move_pct": 12.0,
+   "move_pct": 19.0,
    "band": [
-    3,
-    5
+    35,
+    100
    ],
    "percentile": 74,
    "notable": false
@@ -8120,11 +8428,11 @@
     "mid": 24.24
    },
    "latest": {
-    "mins_to_off": 52,
-    "mid": 30.86,
-    "spread_pct": 29.0
+    "mins_to_off": 7,
+    "mid": 31.3,
+    "spread_pct": 16.1
    },
-   "move_pct": 27.3,
+   "move_pct": 29.1,
    "band": [
     20,
     35
@@ -8152,6 +8460,28 @@
     20
    ],
    "percentile": 26,
+   "notable": false
+  },
+  {
+   "slug": "newcastle-1830",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T18:30:00Z",
+   "runner": "Melissa Honey",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 4.94
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 5.55,
+    "spread_pct": 1.8
+   },
+   "move_pct": 12.4,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 74,
    "notable": false
   },
   {
@@ -8287,6 +8617,28 @@
    "notable": false
   },
   {
+   "slug": "gowran-park-1602",
+   "venue": "Gowran Park",
+   "off_utc": "2026-09-19T16:02:00Z",
+   "runner": "Sunrise Angel",
+   "first": {
+    "mins_to_off": 347,
+    "mid": 12.12
+   },
+   "latest": {
+    "mins_to_off": 2,
+    "mid": 10.75,
+    "spread_pct": 4.6
+   },
+   "move_pct": -11.3,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 27,
+   "notable": false
+  },
+  {
    "slug": "ayr-1550",
    "venue": "Ayr",
    "off_utc": "2026-09-19T15:50:00Z",
@@ -8331,6 +8683,50 @@
    "notable": false
   },
   {
+   "slug": "newcastle-1655",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T16:55:00Z",
+   "runner": "Talking Bear",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 52.49
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 61.54,
+    "spread_pct": 24.4
+   },
+   "move_pct": 17.2,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 73,
+   "notable": false
+  },
+  {
+   "slug": "newcastle-1730",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T17:30:00Z",
+   "runner": "Goyard",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 20.49
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 17.71,
+    "spread_pct": 8.3
+   },
+   "move_pct": -13.6,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 27,
+   "notable": false
+  },
+  {
    "slug": "hoppegarten-de-1540",
    "venue": "Hoppegarten De",
    "off_utc": "2026-09-19T15:40:00Z",
@@ -8356,22 +8752,22 @@
    "slug": "newcastle-1930",
    "venue": "Newcastle",
    "off_utc": "2026-09-19T19:30:00Z",
-   "runner": "Walk On Walk On",
+   "runner": "Volenti",
    "first": {
     "mins_to_off": 360,
-    "mid": 10.58
+    "mid": 4.75
    },
    "latest": {
-    "mins_to_off": 225,
-    "mid": 9.34,
-    "spread_pct": 22.5
+    "mins_to_off": 0,
+    "mid": 5.3,
+    "spread_pct": 3.8
    },
-   "move_pct": -11.8,
+   "move_pct": 11.7,
    "band": [
-    8,
-    13
+    3,
+    5
    ],
-   "percentile": 27,
+   "percentile": 73,
    "notable": false
   },
   {
@@ -8507,28 +8903,6 @@
    "notable": false
   },
   {
-   "slug": "chester-1625",
-   "venue": "Chester",
-   "off_utc": "2026-09-19T16:25:00Z",
-   "runner": "Bulldog Spirit",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 69.69
-   },
-   "latest": {
-    "mins_to_off": 40,
-    "mid": 53.91,
-    "spread_pct": 35.0
-   },
-   "move_pct": -22.6,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 28,
-   "notable": false
-  },
-  {
    "slug": "hoppegarten-de-1330",
    "venue": "Hoppegarten De",
    "off_utc": "2026-09-19T13:30:00Z",
@@ -8570,28 +8944,6 @@
     20
    ],
    "percentile": 72,
-   "notable": false
-  },
-  {
-   "slug": "newcastle-1800",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T18:00:00Z",
-   "runner": "Donald",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 4.69
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 4.3,
-    "spread_pct": 4.6
-   },
-   "move_pct": -8.4,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 28,
    "notable": false
   },
   {
@@ -8752,20 +9104,42 @@
    "slug": "newmarket-1630",
    "venue": "Newmarket",
    "off_utc": "2026-09-19T16:30:00Z",
-   "runner": "Pride Of Nepal",
+   "runner": "Zatsgood",
    "first": {
     "mins_to_off": 360,
-    "mid": 35.03
+    "mid": 4.75
    },
    "latest": {
-    "mins_to_off": 45,
-    "mid": 27.51,
-    "spread_pct": 3.6
+    "mins_to_off": 0,
+    "mid": 5.25,
+    "spread_pct": 1.9
    },
-   "move_pct": -21.5,
+   "move_pct": 10.6,
    "band": [
-    35,
-    100
+    3,
+    5
+   ],
+   "percentile": 71,
+   "notable": false
+  },
+  {
+   "slug": "gowran-park-1637",
+   "venue": "Gowran Park",
+   "off_utc": "2026-09-19T16:37:00Z",
+   "runner": "Virgil Tibbs",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 23.67
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 21.1,
+    "spread_pct": 16.6
+   },
+   "move_pct": -10.9,
+   "band": [
+    20,
+    35
    ],
    "percentile": 29,
    "notable": false
@@ -8925,47 +9299,25 @@
    "notable": false
   },
   {
-   "slug": "chester-1625",
-   "venue": "Chester",
-   "off_utc": "2026-09-19T16:25:00Z",
-   "runner": "Spartan Times",
+   "slug": "newcastle-1620",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T16:20:00Z",
+   "runner": "Miss Eileen",
    "first": {
-    "mins_to_off": 355,
-    "mid": 5.59
+    "mins_to_off": 350,
+    "mid": 18.74
    },
    "latest": {
-    "mins_to_off": 40,
-    "mid": 5.1,
-    "spread_pct": 3.9
+    "mins_to_off": 5,
+    "mid": 16.72,
+    "spread_pct": 9.0
    },
-   "move_pct": -8.8,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 30,
-   "notable": false
-  },
-  {
-   "slug": "newmarket-1630",
-   "venue": "Newmarket",
-   "off_utc": "2026-09-19T16:30:00Z",
-   "runner": "Drifts Away",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 16.86
-   },
-   "latest": {
-    "mins_to_off": 45,
-    "mid": 19.96,
-    "spread_pct": 10.0
-   },
-   "move_pct": 18.4,
+   "move_pct": -10.8,
    "band": [
     13,
     20
    ],
-   "percentile": 70,
+   "percentile": 30,
    "notable": false
   },
   {
@@ -8988,6 +9340,50 @@
     20
    ],
    "percentile": 30,
+   "notable": false
+  },
+  {
+   "slug": "newcastle-1730",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T17:30:00Z",
+   "runner": "Great",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 12.41
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 11.24,
+    "spread_pct": 4.4
+   },
+   "move_pct": -9.4,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 30,
+   "notable": false
+  },
+  {
+   "slug": "newcastle-1900",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T19:00:00Z",
+   "runner": "Korroor",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 74.91
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 85.84,
+    "spread_pct": 28.9
+   },
+   "move_pct": 14.6,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 70,
    "notable": false
   },
   {
@@ -9167,72 +9563,6 @@
    "notable": false
   },
   {
-   "slug": "gowran-park-1602",
-   "venue": "Gowran Park",
-   "off_utc": "2026-09-19T16:02:00Z",
-   "runner": "Sunrise Angel",
-   "first": {
-    "mins_to_off": 347,
-    "mid": 12.12
-   },
-   "latest": {
-    "mins_to_off": 17,
-    "mid": 10.98,
-    "spread_pct": 9.0
-   },
-   "move_pct": -9.4,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 31,
-   "notable": false
-  },
-  {
-   "slug": "newmarket-1630",
-   "venue": "Newmarket",
-   "off_utc": "2026-09-19T16:30:00Z",
-   "runner": "Hengest",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 18.08
-   },
-   "latest": {
-    "mins_to_off": 45,
-    "mid": 21.39,
-    "spread_pct": 14.0
-   },
-   "move_pct": 18.3,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 69,
-   "notable": false
-  },
-  {
-   "slug": "newmarket-1630",
-   "venue": "Newmarket",
-   "off_utc": "2026-09-19T16:30:00Z",
-   "runner": "Sudbury Hill",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 20.81
-   },
-   "latest": {
-    "mins_to_off": 45,
-    "mid": 18.98,
-    "spread_pct": 5.3
-   },
-   "move_pct": -8.8,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 31,
-   "notable": false
-  },
-  {
    "slug": "hoppegarten-de-1430",
    "venue": "Hoppegarten De",
    "off_utc": "2026-09-19T14:30:00Z",
@@ -9299,20 +9629,20 @@
    "notable": false
   },
   {
-   "slug": "newcastle-1830",
+   "slug": "newcastle-1800",
    "venue": "Newcastle",
-   "off_utc": "2026-09-19T18:30:00Z",
-   "runner": "Heathers Feather",
+   "off_utc": "2026-09-19T18:00:00Z",
+   "runner": "Too Much",
    "first": {
     "mins_to_off": 360,
-    "mid": 9.81
+    "mid": 12.87
    },
    "latest": {
-    "mins_to_off": 165,
-    "mid": 11.2,
-    "spread_pct": 13.4
+    "mins_to_off": 0,
+    "mid": 14.72,
+    "spread_pct": 10.2
    },
-   "move_pct": 14.2,
+   "move_pct": 14.3,
    "band": [
     8,
     13
@@ -9409,47 +9739,113 @@
    "notable": false
   },
   {
-   "slug": "navan-1612",
-   "venue": "Navan",
-   "off_utc": "2026-09-19T16:12:00Z",
-   "runner": "Rocky Alfonso",
+   "slug": "newcastle-1655",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T16:55:00Z",
+   "runner": "Divine Symmetry",
    "first": {
-    "mins_to_off": 357,
-    "mid": 10.49
+    "mins_to_off": 355,
+    "mid": 20.88
    },
    "latest": {
-    "mins_to_off": 27,
-    "mid": 9.58,
-    "spread_pct": 8.4
+    "mins_to_off": 10,
+    "mid": 19.21,
+    "spread_pct": 7.9
    },
-   "move_pct": -8.7,
+   "move_pct": -8.0,
    "band": [
-    8,
-    13
+    20,
+    35
    ],
    "percentile": 32,
    "notable": false
   },
   {
-   "slug": "newcastle-1620",
+   "slug": "newcastle-1800",
    "venue": "Newcastle",
-   "off_utc": "2026-09-19T16:20:00Z",
-   "runner": "Bahia Bonita",
+   "off_utc": "2026-09-19T18:00:00Z",
+   "runner": "Donald",
    "first": {
-    "mins_to_off": 350,
-    "mid": 9.46
+    "mins_to_off": 360,
+    "mid": 4.69
    },
    "latest": {
-    "mins_to_off": 35,
-    "mid": 8.69,
-    "spread_pct": 6.9
+    "mins_to_off": 0,
+    "mid": 5.1,
+    "spread_pct": 3.9
    },
-   "move_pct": -8.1,
+   "move_pct": 8.7,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 68,
+   "notable": false
+  },
+  {
+   "slug": "newcastle-1830",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T18:30:00Z",
+   "runner": "Surgeon Commander",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 6.69
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 7.3,
+    "spread_pct": 2.8
+   },
+   "move_pct": 9.2,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 68,
+   "notable": false
+  },
+  {
+   "slug": "newcastle-1900",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T19:00:00Z",
+   "runner": "South Shore Island",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 11.42
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 12.98,
+    "spread_pct": 7.7
+   },
+   "move_pct": 13.7,
    "band": [
     8,
     13
    ],
-   "percentile": 32,
+   "percentile": 68,
+   "notable": false
+  },
+  {
+   "slug": "newcastle-1930",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T19:30:00Z",
+   "runner": "Tees George",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 6.14
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 6.7,
+    "spread_pct": 2.9
+   },
+   "move_pct": 9.1,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 68,
    "notable": false
   },
   {
@@ -9629,6 +10025,28 @@
    "notable": false
   },
   {
+   "slug": "newcastle-1620",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T16:20:00Z",
+   "runner": "Tradittion",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 9.58
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 10.75,
+    "spread_pct": 4.6
+   },
+   "move_pct": 12.2,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 67,
+   "notable": false
+  },
+  {
    "slug": "hoppegarten-de-1230",
    "venue": "Hoppegarten De",
    "off_utc": "2026-09-19T12:30:00Z",
@@ -9673,23 +10091,67 @@
    "notable": false
   },
   {
-   "slug": "newcastle-1930",
+   "slug": "newcastle-1800",
    "venue": "Newcastle",
-   "off_utc": "2026-09-19T19:30:00Z",
-   "runner": "Barleybrown",
+   "off_utc": "2026-09-19T18:00:00Z",
+   "runner": "Operation Gimcrack",
    "first": {
     "mins_to_off": 360,
-    "mid": 7.18
+    "mid": 6.54
    },
    "latest": {
-    "mins_to_off": 225,
-    "mid": 7.78,
-    "spread_pct": 10.2
+    "mins_to_off": 0,
+    "mid": 7.1,
+    "spread_pct": 2.8
    },
    "move_pct": 8.4,
    "band": [
     5,
     8
+   ],
+   "percentile": 67,
+   "notable": false
+  },
+  {
+   "slug": "newcastle-1830",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T18:30:00Z",
+   "runner": "Runninman",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 71.68
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 59.52,
+    "spread_pct": 16.8
+   },
+   "move_pct": -17.0,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 33,
+   "notable": false
+  },
+  {
+   "slug": "newcastle-1930",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T19:30:00Z",
+   "runner": "Princess Niyla",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 20.08
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 24.39,
+    "spread_pct": 12.2
+   },
+   "move_pct": 21.5,
+   "band": [
+    20,
+    35
    ],
    "percentile": 67,
    "notable": false
@@ -9871,20 +10333,20 @@
    "notable": false
   },
   {
-   "slug": "gowran-park-1602",
-   "venue": "Gowran Park",
-   "off_utc": "2026-09-19T16:02:00Z",
-   "runner": "Chirac",
+   "slug": "navan-1612",
+   "venue": "Navan",
+   "off_utc": "2026-09-19T16:12:00Z",
+   "runner": "Rocky Alfonso",
    "first": {
-    "mins_to_off": 347,
-    "mid": 10.99
+    "mins_to_off": 357,
+    "mid": 10.49
    },
    "latest": {
-    "mins_to_off": 17,
-    "mid": 12.25,
-    "spread_pct": 4.0
+    "mins_to_off": 12,
+    "mid": 11.74,
+    "spread_pct": 4.3
    },
-   "move_pct": 11.5,
+   "move_pct": 11.9,
    "band": [
     8,
     13
@@ -9893,25 +10355,25 @@
    "notable": false
   },
   {
-   "slug": "newcastle-1620",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T16:20:00Z",
-   "runner": "Deeno Bambino",
+   "slug": "gowran-park-1637",
+   "venue": "Gowran Park",
+   "off_utc": "2026-09-19T16:37:00Z",
+   "runner": "Cause I Like You",
    "first": {
-    "mins_to_off": 350,
-    "mid": 16.49
+    "mins_to_off": 352,
+    "mid": 11.62
    },
    "latest": {
-    "mins_to_off": 35,
-    "mid": 15.21,
-    "spread_pct": 9.9
+    "mins_to_off": 7,
+    "mid": 12.98,
+    "spread_pct": 7.7
    },
-   "move_pct": -7.8,
+   "move_pct": 11.7,
    "band": [
-    13,
-    20
+    8,
+    13
    ],
-   "percentile": 34,
+   "percentile": 66,
    "notable": false
   },
   {
@@ -9973,28 +10435,6 @@
     "spread_pct": 86.8
    },
    "move_pct": -16.6,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 34,
-   "notable": false
-  },
-  {
-   "slug": "newcastle-1900",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T19:00:00Z",
-   "runner": "Korroor",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 74.91
-   },
-   "latest": {
-    "mins_to_off": 195,
-    "mid": 62.7,
-    "spread_pct": 67.0
-   },
-   "move_pct": -16.3,
    "band": [
     35,
     100
@@ -10176,6 +10616,28 @@
     100
    ],
    "percentile": 65,
+   "notable": false
+  },
+  {
+   "slug": "gowran-park-1637",
+   "venue": "Gowran Park",
+   "off_utc": "2026-09-19T16:37:00Z",
+   "runner": "Gordon Bennett",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 12.32
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 11.48,
+    "spread_pct": 8.7
+   },
+   "move_pct": -6.8,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 35,
    "notable": false
   },
   {
@@ -10399,42 +10861,20 @@
    "notable": false
   },
   {
-   "slug": "newcastle-1830",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T18:30:00Z",
-   "runner": "Surgeon Commander",
+   "slug": "newmarket-1630",
+   "venue": "Newmarket",
+   "off_utc": "2026-09-19T16:30:00Z",
+   "runner": "Bold Impact",
    "first": {
     "mins_to_off": 360,
-    "mid": 6.69
+    "mid": 15.71
    },
    "latest": {
-    "mins_to_off": 165,
-    "mid": 6.29,
-    "spread_pct": 9.6
+    "mins_to_off": 0,
+    "mid": 14.72,
+    "spread_pct": 10.2
    },
-   "move_pct": -6.0,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 36,
-   "notable": false
-  },
-  {
-   "slug": "newcastle-1900",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T19:00:00Z",
-   "runner": "Invincible Crown",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 13.84
-   },
-   "latest": {
-    "mins_to_off": 195,
-    "mid": 12.93,
-    "spread_pct": 15.5
-   },
-   "move_pct": -6.6,
+   "move_pct": -6.3,
    "band": [
     13,
     20
@@ -10575,28 +11015,6 @@
    "notable": false
   },
   {
-   "slug": "newmarket-1630",
-   "venue": "Newmarket",
-   "off_utc": "2026-09-19T16:30:00Z",
-   "runner": "Gorgeous Mr George",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 18.94
-   },
-   "latest": {
-    "mins_to_off": 45,
-    "mid": 21.39,
-    "spread_pct": 14.0
-   },
-   "move_pct": 12.9,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 63,
-   "notable": false
-  },
-  {
    "slug": "hoppegarten-de-1400",
    "venue": "Hoppegarten De",
    "off_utc": "2026-09-19T14:00:00Z",
@@ -10641,67 +11059,23 @@
    "notable": false
   },
   {
-   "slug": "newcastle-1730",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T17:30:00Z",
-   "runner": "Azuinthejungle",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 12.75
-   },
-   "latest": {
-    "mins_to_off": 105,
-    "mid": 13.93,
-    "spread_pct": 14.3
-   },
-   "move_pct": 9.3,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 63,
-   "notable": false
-  },
-  {
-   "slug": "newcastle-1830",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T18:30:00Z",
-   "runner": "Glowchester",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 18.17
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 20.49,
-    "spread_pct": 22.0
-   },
-   "move_pct": 12.8,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 63,
-   "notable": false
-  },
-  {
    "slug": "newcastle-1900",
    "venue": "Newcastle",
    "off_utc": "2026-09-19T19:00:00Z",
-   "runner": "Solid Bond",
+   "runner": "Crafty Spirit",
    "first": {
     "mins_to_off": 360,
-    "mid": 9.05
+    "mid": 17.78
    },
    "latest": {
-    "mins_to_off": 195,
-    "mid": 8.56,
-    "spread_pct": 14.0
+    "mins_to_off": 0,
+    "mid": 16.72,
+    "spread_pct": 9.0
    },
-   "move_pct": -5.4,
+   "move_pct": -5.9,
    "band": [
-    8,
-    13
+    13,
+    20
    ],
    "percentile": 37,
    "notable": false
@@ -10927,23 +11301,23 @@
    "notable": false
   },
   {
-   "slug": "gowran-park-1637",
-   "venue": "Gowran Park",
-   "off_utc": "2026-09-19T16:37:00Z",
-   "runner": "Selective Power",
+   "slug": "newmarket-1630",
+   "venue": "Newmarket",
+   "off_utc": "2026-09-19T16:30:00Z",
+   "runner": "Triple Force",
    "first": {
-    "mins_to_off": 352,
-    "mid": 10.79
+    "mins_to_off": 360,
+    "mid": 7.7
    },
    "latest": {
-    "mins_to_off": 52,
-    "mid": 10.25,
-    "spread_pct": 4.9
+    "mins_to_off": 0,
+    "mid": 7.3,
+    "spread_pct": 2.8
    },
-   "move_pct": -5.1,
+   "move_pct": -5.2,
    "band": [
-    8,
-    13
+    5,
+    8
    ],
    "percentile": 38,
    "notable": false
@@ -10968,6 +11342,28 @@
     5
    ],
    "percentile": 62,
+   "notable": false
+  },
+  {
+   "slug": "newcastle-1655",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T16:55:00Z",
+   "runner": "Weffaag",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 1.67
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 1.61,
+    "spread_pct": 1.2
+   },
+   "move_pct": -3.9,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 38,
    "notable": false
   },
   {
@@ -11015,28 +11411,6 @@
    "notable": false
   },
   {
-   "slug": "newcastle-1730",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T17:30:00Z",
-   "runner": "Blue Force",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 20.39
-   },
-   "latest": {
-    "mins_to_off": 105,
-    "mid": 23.64,
-    "spread_pct": 25.5
-   },
-   "move_pct": 16.0,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 62,
-   "notable": false
-  },
-  {
    "slug": "ayr-1440",
    "venue": "Ayr",
    "off_utc": "2026-09-19T14:40:00Z",
@@ -11054,50 +11428,6 @@
    "band": [
     35,
     100
-   ],
-   "percentile": 38,
-   "notable": false
-  },
-  {
-   "slug": "newcastle-1800",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T18:00:00Z",
-   "runner": "Asadjumeirah",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 7.35
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 6.99,
-    "spread_pct": 5.7
-   },
-   "move_pct": -4.9,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 38,
-   "notable": false
-  },
-  {
-   "slug": "newcastle-1930",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T19:30:00Z",
-   "runner": "Princess Niyla",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 20.08
-   },
-   "latest": {
-    "mins_to_off": 225,
-    "mid": 19.38,
-    "spread_pct": 15.6
-   },
-   "move_pct": -3.5,
-   "band": [
-    20,
-    35
    ],
    "percentile": 38,
    "notable": false
@@ -11257,40 +11587,18 @@
    "notable": false
   },
   {
-   "slug": "gowran-park-1602",
-   "venue": "Gowran Park",
-   "off_utc": "2026-09-19T16:02:00Z",
-   "runner": "Deuteronomy",
+   "slug": "navan-1612",
+   "venue": "Navan",
+   "off_utc": "2026-09-19T16:12:00Z",
+   "runner": "Emergency Man",
    "first": {
-    "mins_to_off": 347,
-    "mid": 60.24
+    "mins_to_off": 357,
+    "mid": 4.78
    },
    "latest": {
-    "mins_to_off": 17,
-    "mid": 63.49,
-    "spread_pct": 31.9
-   },
-   "move_pct": 5.4,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 61,
-   "notable": false
-  },
-  {
-   "slug": "newcastle-1620",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T16:20:00Z",
-   "runner": "Jahami",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 3.97
-   },
-   "latest": {
-    "mins_to_off": 35,
-    "mid": 4.2,
-    "spread_pct": 4.7
+    "mins_to_off": 12,
+    "mid": 5.05,
+    "spread_pct": 2.0
    },
    "move_pct": 5.6,
    "band": [
@@ -11301,45 +11609,45 @@
    "notable": false
   },
   {
-   "slug": "newcastle-1800",
+   "slug": "newcastle-1730",
    "venue": "Newcastle",
-   "off_utc": "2026-09-19T18:00:00Z",
-   "runner": "Operation Gimcrack",
+   "off_utc": "2026-09-19T17:30:00Z",
+   "runner": "Castan",
    "first": {
     "mins_to_off": 360,
-    "mid": 6.54
+    "mid": 15.15
    },
    "latest": {
-    "mins_to_off": 135,
-    "mid": 6.89,
-    "spread_pct": 8.7
+    "mins_to_off": 0,
+    "mid": 14.48,
+    "spread_pct": 6.8
    },
-   "move_pct": 5.2,
+   "move_pct": -4.4,
    "band": [
-    5,
-    8
+    13,
+    20
    ],
-   "percentile": 61,
+   "percentile": 39,
    "notable": false
   },
   {
-   "slug": "newcastle-1930",
+   "slug": "newcastle-1730",
    "venue": "Newcastle",
-   "off_utc": "2026-09-19T19:30:00Z",
-   "runner": "Falcon Nine",
+   "off_utc": "2026-09-19T17:30:00Z",
+   "runner": "Style King",
    "first": {
     "mins_to_off": 360,
-    "mid": 8.78
+    "mid": 14.43
    },
    "latest": {
-    "mins_to_off": 225,
-    "mid": 9.46,
-    "spread_pct": 20.2
+    "mins_to_off": 0,
+    "mid": 15.99,
+    "spread_pct": 6.2
    },
-   "move_pct": 7.7,
+   "move_pct": 10.8,
    "band": [
-    8,
-    13
+    13,
+    20
    ],
    "percentile": 61,
    "notable": false
@@ -11521,6 +11829,28 @@
    "notable": false
   },
   {
+   "slug": "gowran-park-1637",
+   "venue": "Gowran Park",
+   "off_utc": "2026-09-19T16:37:00Z",
+   "runner": "Chipsrdown",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 4.38
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 4.25,
+    "spread_pct": 2.3
+   },
+   "move_pct": -3.0,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 40,
+   "notable": false
+  },
+  {
    "slug": "hoppegarten-de-1230",
    "venue": "Hoppegarten De",
    "off_utc": "2026-09-19T12:30:00Z",
@@ -11538,28 +11868,6 @@
    "band": [
     20,
     35
-   ],
-   "percentile": 60,
-   "notable": false
-  },
-  {
-   "slug": "newcastle-1655",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T16:55:00Z",
-   "runner": "Savernake",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 69.93
-   },
-   "latest": {
-    "mins_to_off": 70,
-    "mid": 73.53,
-    "spread_pct": 48.1
-   },
-   "move_pct": 5.1,
-   "band": [
-    35,
-    100
    ],
    "percentile": 60,
    "notable": false
@@ -11587,23 +11895,23 @@
    "notable": false
   },
   {
-   "slug": "newcastle-1800",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T18:00:00Z",
-   "runner": "Tickets",
+   "slug": "gowran-park-1637",
+   "venue": "Gowran Park",
+   "off_utc": "2026-09-19T16:37:00Z",
+   "runner": "Watercraft",
    "first": {
-    "mins_to_off": 360,
-    "mid": 9.13
+    "mins_to_off": 307,
+    "mid": 89.29
    },
    "latest": {
-    "mins_to_off": 135,
-    "mid": 8.78,
-    "spread_pct": 9.1
+    "mins_to_off": 7,
+    "mid": 78.74,
+    "spread_pct": 25.6
    },
-   "move_pct": -3.8,
+   "move_pct": -11.8,
    "band": [
-    8,
-    13
+    35,
+    100
    ],
    "percentile": 40,
    "notable": false
@@ -11738,28 +12046,6 @@
     8
    ],
    "percentile": 41,
-   "notable": false
-  },
-  {
-   "slug": "gowran-park-1602",
-   "venue": "Gowran Park",
-   "off_utc": "2026-09-19T16:02:00Z",
-   "runner": "Roaming Coyote",
-   "first": {
-    "mins_to_off": 347,
-    "mid": 18.94
-   },
-   "latest": {
-    "mins_to_off": 17,
-    "mid": 20.66,
-    "spread_pct": 12.0
-   },
-   "move_pct": 9.1,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 59,
    "notable": false
   },
   {
@@ -11939,25 +12225,69 @@
    "notable": false
   },
   {
+   "slug": "gowran-park-1602",
+   "venue": "Gowran Park",
+   "off_utc": "2026-09-19T16:02:00Z",
+   "runner": "Miss Crinshawn",
+   "first": {
+    "mins_to_off": 347,
+    "mid": 20.81
+   },
+   "latest": {
+    "mins_to_off": 2,
+    "mid": 20.94,
+    "spread_pct": 9.4
+   },
+   "move_pct": 0.6,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 42,
+   "notable": false
+  },
+  {
    "slug": "chester-1625",
    "venue": "Chester",
    "off_utc": "2026-09-19T16:25:00Z",
-   "runner": "Talka",
+   "runner": "Carthusian",
    "first": {
-    "mins_to_off": 295,
-    "mid": 93.46
+    "mins_to_off": 355,
+    "mid": 15.65
    },
    "latest": {
-    "mins_to_off": 175,
-    "mid": 96.15,
-    "spread_pct": 42.1
+    "mins_to_off": 10,
+    "mid": 16.99,
+    "spread_pct": 6.0
    },
-   "move_pct": 2.9,
+   "move_pct": 8.6,
    "band": [
-    35,
-    100
+    13,
+    20
    ],
    "percentile": 58,
+   "notable": false
+  },
+  {
+   "slug": "gowran-park-1637",
+   "venue": "Gowran Park",
+   "off_utc": "2026-09-19T16:37:00Z",
+   "runner": "Selective Power",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 10.79
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 10.48,
+    "spread_pct": 9.6
+   },
+   "move_pct": -2.9,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 42,
    "notable": false
   },
   {
@@ -11980,28 +12310,6 @@
     100
    ],
    "percentile": 42,
-   "notable": false
-  },
-  {
-   "slug": "newcastle-1900",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T19:00:00Z",
-   "runner": "Ellie's De Vega",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 5.24
-   },
-   "latest": {
-    "mins_to_off": 195,
-    "mid": 5.45,
-    "spread_pct": 1.9
-   },
-   "move_pct": 4.0,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 58,
    "notable": false
   },
   {
@@ -12181,20 +12489,20 @@
    "notable": false
   },
   {
-   "slug": "newmarket-1630",
-   "venue": "Newmarket",
-   "off_utc": "2026-09-19T16:30:00Z",
-   "runner": "Bold Impact",
+   "slug": "gowran-park-1602",
+   "venue": "Gowran Park",
+   "off_utc": "2026-09-19T16:02:00Z",
+   "runner": "Navajo Point",
    "first": {
-    "mins_to_off": 360,
-    "mid": 15.71
+    "mins_to_off": 347,
+    "mid": 19.38
    },
    "latest": {
-    "mins_to_off": 45,
-    "mid": 16.99,
-    "spread_pct": 6.0
+    "mins_to_off": 2,
+    "mid": 20.94,
+    "spread_pct": 9.4
    },
-   "move_pct": 8.2,
+   "move_pct": 8.1,
    "band": [
     13,
     20
@@ -12203,23 +12511,133 @@
    "notable": false
   },
   {
+   "slug": "navan-1612",
+   "venue": "Navan",
+   "off_utc": "2026-09-19T16:12:00Z",
+   "runner": "Double Helix",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 17.5
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 17.21,
+    "spread_pct": 8.6
+   },
+   "move_pct": -1.6,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 43,
+   "notable": false
+  },
+  {
    "slug": "newmarket-1630",
    "venue": "Newmarket",
    "off_utc": "2026-09-19T16:30:00Z",
-   "runner": "Kodi Fire",
+   "runner": "Rapide Vega",
    "first": {
     "mins_to_off": 360,
-    "mid": 65.15
+    "mid": 6.69
    },
    "latest": {
-    "mins_to_off": 45,
-    "mid": 66.67,
-    "spread_pct": 23.0
+    "mins_to_off": 0,
+    "mid": 6.9,
+    "spread_pct": 2.9
    },
-   "move_pct": 2.3,
+   "move_pct": 3.1,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 57,
+   "notable": false
+  },
+  {
+   "slug": "chester-1625",
+   "venue": "Chester",
+   "off_utc": "2026-09-19T16:25:00Z",
+   "runner": "Talka",
+   "first": {
+    "mins_to_off": 295,
+    "mid": 93.46
+   },
+   "latest": {
+    "mins_to_off": 25,
+    "mid": 95.69,
+    "spread_pct": 26.3
+   },
+   "move_pct": 2.4,
    "band": [
     35,
     100
+   ],
+   "percentile": 57,
+   "notable": false
+  },
+  {
+   "slug": "newcastle-1730",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T17:30:00Z",
+   "runner": "Smart Vision",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 6.69
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 6.5,
+    "spread_pct": 3.1
+   },
+   "move_pct": -2.8,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 43,
+   "notable": false
+  },
+  {
+   "slug": "newcastle-1730",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T17:30:00Z",
+   "runner": "Bonnie's Boy",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 4.2
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 4.35,
+    "spread_pct": 2.3
+   },
+   "move_pct": 3.6,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 57,
+   "notable": false
+  },
+  {
+   "slug": "newcastle-1900",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T19:00:00Z",
+   "runner": "Solid Bond",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 9.05
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 9.49,
+    "spread_pct": 6.4
+   },
+   "move_pct": 4.9,
+   "band": [
+    8,
+    13
    ],
    "percentile": 57,
    "notable": false
@@ -12335,67 +12753,45 @@
    "notable": false
   },
   {
-   "slug": "gowran-park-1637",
-   "venue": "Gowran Park",
-   "off_utc": "2026-09-19T16:37:00Z",
-   "runner": "Cause I Like You",
+   "slug": "navan-1612",
+   "venue": "Navan",
+   "off_utc": "2026-09-19T16:12:00Z",
+   "runner": "Mister Moon",
    "first": {
-    "mins_to_off": 352,
-    "mid": 11.62
+    "mins_to_off": 357,
+    "mid": 31.95
    },
    "latest": {
-    "mins_to_off": 52,
-    "mid": 11.48,
-    "spread_pct": 8.7
+    "mins_to_off": 12,
+    "mid": 35.59,
+    "spread_pct": 22.3
    },
-   "move_pct": -1.2,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 44,
-   "notable": false
-  },
-  {
-   "slug": "newcastle-1800",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T18:00:00Z",
-   "runner": "Masai Angel",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 19.21
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 18.94,
-    "spread_pct": 10.6
-   },
-   "move_pct": -1.4,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 44,
-   "notable": false
-  },
-  {
-   "slug": "newcastle-1830",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T18:30:00Z",
-   "runner": "Maui Breeze",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 20.92
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 23.23,
-    "spread_pct": 21.4
-   },
-   "move_pct": 11.0,
+   "move_pct": 11.4,
    "band": [
     20,
     35
+   ],
+   "percentile": 56,
+   "notable": false
+  },
+  {
+   "slug": "newcastle-1620",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T16:20:00Z",
+   "runner": "Deeno Bambino",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 16.49
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 17.71,
+    "spread_pct": 8.3
+   },
+   "move_pct": 7.4,
+   "band": [
+    13,
+    20
    ],
    "percentile": 56,
    "notable": false
@@ -12599,28 +12995,6 @@
    "notable": false
   },
   {
-   "slug": "navan-1612",
-   "venue": "Navan",
-   "off_utc": "2026-09-19T16:12:00Z",
-   "runner": "Double Helix",
-   "first": {
-    "mins_to_off": 357,
-    "mid": 17.5
-   },
-   "latest": {
-    "mins_to_off": 27,
-    "mid": 17.44,
-    "spread_pct": 11.4
-   },
-   "move_pct": -0.3,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 45,
-   "notable": false
-  },
-  {
    "slug": "ayr-1550",
    "venue": "Ayr",
    "off_utc": "2026-09-19T15:50:00Z",
@@ -12638,6 +13012,28 @@
    "band": [
     8,
     13
+   ],
+   "percentile": 55,
+   "notable": false
+  },
+  {
+   "slug": "newcastle-1620",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T16:20:00Z",
+   "runner": "Jahami",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 3.97
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 4.1,
+    "spread_pct": 4.9
+   },
+   "move_pct": 3.1,
+   "band": [
+    3,
+    5
    ],
    "percentile": 55,
    "notable": false
@@ -12674,77 +13070,11 @@
     "mid": 3.22
    },
    "latest": {
-    "mins_to_off": 70,
+    "mins_to_off": 10,
     "mid": 3.33,
     "spread_pct": 1.5
    },
    "move_pct": 3.2,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 55,
-   "notable": false
-  },
-  {
-   "slug": "newcastle-1730",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T17:30:00Z",
-   "runner": "American Bay",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 7.39
-   },
-   "latest": {
-    "mins_to_off": 105,
-    "mid": 7.6,
-    "spread_pct": 5.2
-   },
-   "move_pct": 2.7,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 55,
-   "notable": false
-  },
-  {
-   "slug": "newcastle-1900",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T19:00:00Z",
-   "runner": "Keep The Gold",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 9.9
-   },
-   "latest": {
-    "mins_to_off": 195,
-    "mid": 10.25,
-    "spread_pct": 13.7
-   },
-   "move_pct": 3.5,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 55,
-   "notable": false
-  },
-  {
-   "slug": "newcastle-1930",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T19:30:00Z",
-   "runner": "Volenti",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 4.75
-   },
-   "latest": {
-    "mins_to_off": 225,
-    "mid": 4.89,
-    "spread_pct": 8.2
-   },
-   "move_pct": 3.1,
    "band": [
     3,
     5
@@ -12775,28 +13105,6 @@
    "notable": false
   },
   {
-   "slug": "gowran-park-1602",
-   "venue": "Gowran Park",
-   "off_utc": "2026-09-19T16:02:00Z",
-   "runner": "Hassaniya",
-   "first": {
-    "mins_to_off": 347,
-    "mid": 7.84
-   },
-   "latest": {
-    "mins_to_off": 17,
-    "mid": 7.99,
-    "spread_pct": 5.0
-   },
-   "move_pct": 2.0,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 54,
-   "notable": false
-  },
-  {
    "slug": "newbury-1347",
    "venue": "Newbury",
    "off_utc": "2026-09-19T13:47:00Z",
@@ -12814,28 +13122,6 @@
    "band": [
     35,
     100
-   ],
-   "percentile": 46,
-   "notable": false
-  },
-  {
-   "slug": "newcastle-1620",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T16:20:00Z",
-   "runner": "Aeternitas",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 10.25
-   },
-   "latest": {
-    "mins_to_off": 35,
-    "mid": 10.25,
-    "spread_pct": 13.7
-   },
-   "move_pct": 0.0,
-   "band": [
-    8,
-    13
    ],
    "percentile": 46,
    "notable": false
@@ -12885,45 +13171,23 @@
    "notable": false
   },
   {
-   "slug": "newcastle-1900",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T19:00:00Z",
-   "runner": "Tawaazon",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 3.42
-   },
-   "latest": {
-    "mins_to_off": 195,
-    "mid": 3.42,
-    "spread_pct": 4.4
-   },
-   "move_pct": 0.0,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 46,
-   "notable": false
-  },
-  {
    "slug": "newcastle-1930",
    "venue": "Newcastle",
    "off_utc": "2026-09-19T19:30:00Z",
-   "runner": "Positive Thoughts",
+   "runner": "Triggerman",
    "first": {
     "mins_to_off": 360,
-    "mid": 19.38
+    "mid": 84.03
    },
    "latest": {
-    "mins_to_off": 225,
-    "mid": 19.38,
-    "spread_pct": 15.6
+    "mins_to_off": 0,
+    "mid": 78.74,
+    "spread_pct": 25.6
    },
-   "move_pct": 0.0,
+   "move_pct": -6.3,
    "band": [
-    13,
-    20
+    35,
+    100
    ],
    "percentile": 46,
    "notable": false
@@ -13237,28 +13501,6 @@
    "notable": false
   },
   {
-   "slug": "navan-1612",
-   "venue": "Navan",
-   "off_utc": "2026-09-19T16:12:00Z",
-   "runner": "Mister Moon",
-   "first": {
-    "mins_to_off": 357,
-    "mid": 31.95
-   },
-   "latest": {
-    "mins_to_off": 27,
-    "mid": 34.78,
-    "spread_pct": 17.2
-   },
-   "move_pct": 8.9,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 53,
-   "notable": false
-  },
-  {
    "slug": "hoppegarten-de-1510",
    "venue": "Hoppegarten De",
    "off_utc": "2026-09-19T15:10:00Z",
@@ -13325,28 +13567,6 @@
    "notable": false
   },
   {
-   "slug": "newcastle-1800",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T18:00:00Z",
-   "runner": "My Mate Beattie",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 66.67
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 63.49,
-    "spread_pct": 31.9
-   },
-   "move_pct": -4.8,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 47,
-   "notable": false
-  },
-  {
    "slug": "navan-1426",
    "venue": "Navan",
    "off_utc": "2026-09-19T14:26:00Z",
@@ -13366,50 +13586,6 @@
     100
    ],
    "percentile": 53,
-   "notable": false
-  },
-  {
-   "slug": "newcastle-1900",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T19:00:00Z",
-   "runner": "Crafty Spirit",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 17.78
-   },
-   "latest": {
-    "mins_to_off": 195,
-    "mid": 18.67,
-    "spread_pct": 13.3
-   },
-   "move_pct": 5.0,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 53,
-   "notable": false
-  },
-  {
-   "slug": "newcastle-1930",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T19:30:00Z",
-   "runner": "Tees George",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 6.14
-   },
-   "latest": {
-    "mins_to_off": 225,
-    "mid": 6.09,
-    "spread_pct": 9.9
-   },
-   "move_pct": -0.9,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 47,
    "notable": false
   },
   {
@@ -13479,25 +13655,25 @@
    "notable": false
   },
   {
-   "slug": "newmarket-1630",
-   "venue": "Newmarket",
-   "off_utc": "2026-09-19T16:30:00Z",
-   "runner": "Triple Force",
+   "slug": "newcastle-1620",
+   "venue": "Newcastle",
+   "off_utc": "2026-09-19T16:20:00Z",
+   "runner": "True Heart",
    "first": {
-    "mins_to_off": 360,
-    "mid": 7.7
+    "mins_to_off": 350,
+    "mid": 74.91
    },
    "latest": {
-    "mins_to_off": 45,
-    "mid": 7.79,
-    "spread_pct": 5.1
+    "mins_to_off": 5,
+    "mid": 71.68,
+    "spread_pct": 21.0
    },
-   "move_pct": 1.2,
+   "move_pct": -4.3,
    "band": [
-    5,
-    8
+    35,
+    100
    ],
-   "percentile": 52,
+   "percentile": 48,
    "notable": false
   },
   {
@@ -13523,28 +13699,6 @@
    "notable": false
   },
   {
-   "slug": "newcastle-1655",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T16:55:00Z",
-   "runner": "Weffaag",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 1.67
-   },
-   "latest": {
-    "mins_to_off": 70,
-    "mid": 1.68,
-    "spread_pct": 1.2
-   },
-   "move_pct": 0.3,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 48,
-   "notable": false
-  },
-  {
    "slug": "hoppegarten-de-1300",
    "venue": "Hoppegarten De",
    "off_utc": "2026-09-19T13:00:00Z",
@@ -13564,28 +13718,6 @@
     20
    ],
    "percentile": 48,
-   "notable": false
-  },
-  {
-   "slug": "newcastle-1730",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T17:30:00Z",
-   "runner": "Style King",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 14.43
-   },
-   "latest": {
-    "mins_to_off": 105,
-    "mid": 14.94,
-    "spread_pct": 13.4
-   },
-   "move_pct": 3.5,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 52,
    "notable": false
   },
   {
@@ -13633,28 +13765,6 @@
    "notable": false
   },
   {
-   "slug": "newcastle-1800",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T18:00:00Z",
-   "runner": "Men Of Honour",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 7.59
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 7.69,
-    "spread_pct": 7.8
-   },
-   "move_pct": 1.3,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 52,
-   "notable": false
-  },
-  {
    "slug": "newmarket-1555",
    "venue": "Newmarket",
    "off_utc": "2026-09-19T15:55:00Z",
@@ -13672,50 +13782,6 @@
    "band": [
     35,
     100
-   ],
-   "percentile": 48,
-   "notable": false
-  },
-  {
-   "slug": "newcastle-1830",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T18:30:00Z",
-   "runner": "Yaahobby",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 13.33
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 13.42,
-    "spread_pct": 14.8
-   },
-   "move_pct": 0.7,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 48,
-   "notable": false
-  },
-  {
-   "slug": "newcastle-1930",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T19:30:00Z",
-   "runner": "Bajan Bandit",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 5.88
-   },
-   "latest": {
-    "mins_to_off": 225,
-    "mid": 5.88,
-    "spread_pct": 22.1
-   },
-   "move_pct": -0.1,
-   "band": [
-    5,
-    8
    ],
    "percentile": 48,
    "notable": false
@@ -13831,25 +13897,47 @@
    "notable": false
   },
   {
-   "slug": "newcastle-1620",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T16:20:00Z",
-   "runner": "True Heart",
+   "slug": "gowran-park-1602",
+   "venue": "Gowran Park",
+   "off_utc": "2026-09-19T16:02:00Z",
+   "runner": "Hassaniya",
    "first": {
-    "mins_to_off": 350,
-    "mid": 74.91
+    "mins_to_off": 347,
+    "mid": 7.84
    },
    "latest": {
-    "mins_to_off": 35,
-    "mid": 73.53,
-    "spread_pct": 48.1
+    "mins_to_off": 2,
+    "mid": 7.9,
+    "spread_pct": 2.5
    },
-   "move_pct": -1.8,
+   "move_pct": 0.8,
    "band": [
-    35,
-    100
+    5,
+    8
    ],
    "percentile": 51,
+   "notable": false
+  },
+  {
+   "slug": "gowran-park-1637",
+   "venue": "Gowran Park",
+   "off_utc": "2026-09-19T16:37:00Z",
+   "runner": "Real Petite",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 10.67
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 10.75,
+    "spread_pct": 4.6
+   },
+   "move_pct": 0.8,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 49,
    "notable": false
   },
   {
@@ -13938,50 +14026,6 @@
     8
    ],
    "percentile": 51,
-   "notable": false
-  },
-  {
-   "slug": "newcastle-1800",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T18:00:00Z",
-   "runner": "Too Much",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 12.87
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 13.13,
-    "spread_pct": 18.9
-   },
-   "move_pct": 2.0,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 51,
-   "notable": false
-  },
-  {
-   "slug": "newcastle-1900",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T19:00:00Z",
-   "runner": "South Shore Island",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 11.42
-   },
-   "latest": {
-    "mins_to_off": 195,
-    "mid": 11.48,
-    "spread_pct": 8.7
-   },
-   "move_pct": 0.6,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 49,
    "notable": false
   },
   {
@@ -14076,64 +14120,20 @@
    "slug": "newmarket-1630",
    "venue": "Newmarket",
    "off_utc": "2026-09-19T16:30:00Z",
-   "runner": "Rapide Vega",
+   "runner": "Hengest",
    "first": {
     "mins_to_off": 360,
-    "mid": 6.69
+    "mid": 18.08
    },
    "latest": {
-    "mins_to_off": 45,
-    "mid": 6.7,
-    "spread_pct": 2.9
+    "mins_to_off": 0,
+    "mid": 18.48,
+    "spread_pct": 5.5
    },
-   "move_pct": 0.2,
+   "move_pct": 2.2,
    "band": [
-    5,
-    8
-   ],
-   "percentile": 50,
-   "notable": false
-  },
-  {
-   "slug": "newcastle-1730",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T17:30:00Z",
-   "runner": "Hundred Caps",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 10.03
-   },
-   "latest": {
-    "mins_to_off": 105,
-    "mid": 10.14,
-    "spread_pct": 6.9
-   },
-   "move_pct": 1.1,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 50,
-   "notable": false
-  },
-  {
-   "slug": "newcastle-1730",
-   "venue": "Newcastle",
-   "off_utc": "2026-09-19T17:30:00Z",
-   "runner": "Goyard",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 20.49
-   },
-   "latest": {
-    "mins_to_off": 105,
-    "mid": 21.81,
-    "spread_pct": 18.3
-   },
-   "move_pct": 6.4,
-   "band": [
-    20,
-    35
+    13,
+    20
    ],
    "percentile": 50,
    "notable": false
