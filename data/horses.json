@@ -1,15 +1,42 @@
 {
  "schema": "horses_v1",
- "generated_at": "2026-09-20T16:00:15Z",
+ "generated_at": "2026-09-20T21:24:43Z",
  "source": "Historical race results",
  "note": "Every figure is computed using only races run STRICTLY BEFORE the race it describes — the `as_of` date on each horse. Groups with fewer than two runs are omitted rather than shown as a rate, because a 100% strike rate over one run is noise wearing the clothes of a finding. Our archive runs to 2026-09-18: a horse that ran after that date has those runs missing here, so read `career` as what we hold, not as a complete record.",
  "history_depth": {
   "from": "2019-04-28",
   "through": "2026-09-18",
-  "horses": 75395
+  "horses": 75636
  },
+ "collected_through": "2026-09-20T19:00:02Z",
+ "distance_bands": [
+  {
+   "key": "sprint",
+   "from_furlongs": 0.0,
+   "to_furlongs": 7.0,
+   "label": "up to 6f"
+  },
+  {
+   "key": "mile",
+   "from_furlongs": 7.0,
+   "to_furlongs": 9.5,
+   "label": "7f to 1m1f"
+  },
+  {
+   "key": "middle",
+   "from_furlongs": 9.5,
+   "to_furlongs": 13.0,
+   "label": "1m2f to 1m4f"
+  },
+  {
+   "key": "staying",
+   "from_furlongs": 13.0,
+   "to_furlongs": null,
+   "label": "1m5f and beyond"
+  }
+ ],
  "debutants": 17,
- "no_record": 11,
+ "no_record": 10,
  "name_collisions": {
   "horses": 1,
   "runs_removed": 3
@@ -38,26 +65,26 @@
    "by_distance": [],
    "jockey": {
     "name": "Rowan Scott",
-    "runs": 2606,
-    "wins": 223,
-    "places": 739,
+    "runs": 2621,
+    "wins": 226,
+    "places": 746,
     "win_pct": 8.6,
-    "place_pct": 28.4
+    "place_pct": 28.5
    },
    "trainer": {
     "name": "Charlie Johnston",
-    "runs": 3093,
-    "wins": 385,
-    "places": 1168,
-    "win_pct": 12.4,
+    "runs": 3115,
+    "wins": 388,
+    "places": 1177,
+    "win_pct": 12.5,
     "place_pct": 37.8
    },
    "sire": {
     "name": "Australia",
-    "runs": 3586,
+    "runs": 3591,
     "wins": 400,
-    "places": 1146,
-    "win_pct": 11.2,
+    "places": 1150,
+    "win_pct": 11.1,
     "place_pct": 32.0
    }
   },
@@ -91,7 +118,7 @@
    ],
    "by_course": [
     {
-     "key": "Kempton Park",
+     "key": "Kempton (AW)",
      "runs": 2,
      "wins": 0,
      "places": 1,
@@ -102,17 +129,17 @@
    "by_distance": [],
    "jockey": {
     "name": "Billy Loughnane",
-    "runs": 3425,
-    "wins": 566,
-    "places": 1567,
-    "win_pct": 16.5,
-    "place_pct": 45.8
+    "runs": 3485,
+    "wins": 579,
+    "places": 1601,
+    "win_pct": 16.6,
+    "place_pct": 45.9
    },
    "trainer": {
     "name": "Richard Hughes",
-    "runs": 2427,
-    "wins": 333,
-    "places": 951,
+    "runs": 2437,
+    "wins": 335,
+    "places": 955,
     "win_pct": 13.7,
     "place_pct": 39.2
    }
@@ -140,27 +167,27 @@
    "by_distance": [],
    "jockey": {
     "name": "Tom Marquand",
-    "runs": 5376,
-    "wins": 813,
-    "places": 2133,
+    "runs": 5389,
+    "wins": 816,
+    "places": 2140,
     "win_pct": 15.1,
     "place_pct": 39.7
    },
    "trainer": {
     "name": "Hugo Palmer",
-    "runs": 2546,
-    "wins": 346,
-    "places": 985,
+    "runs": 2554,
+    "wins": 347,
+    "places": 989,
     "win_pct": 13.6,
     "place_pct": 38.7
    },
    "sire": {
     "name": "Harry Angel",
-    "runs": 1682,
-    "wins": 221,
-    "places": 601,
+    "runs": 1690,
+    "wins": 222,
+    "places": 602,
     "win_pct": 13.1,
-    "place_pct": 35.7
+    "place_pct": 35.6
    }
   },
   {
@@ -186,27 +213,27 @@
    "by_distance": [],
    "jockey": {
     "name": "Connor Beasley",
-    "runs": 3171,
-    "wins": 373,
-    "places": 1178,
+    "runs": 3176,
+    "wins": 374,
+    "places": 1179,
     "win_pct": 11.8,
     "place_pct": 37.1
    },
    "trainer": {
     "name": "Michael Dods",
-    "runs": 3024,
-    "wins": 310,
-    "places": 992,
+    "runs": 3029,
+    "wins": 312,
+    "places": 995,
     "win_pct": 10.3,
     "place_pct": 32.8
    },
    "sire": {
     "name": "Time Test",
-    "runs": 2038,
-    "wins": 226,
-    "places": 672,
+    "runs": 2051,
+    "wins": 227,
+    "places": 679,
     "win_pct": 11.1,
-    "place_pct": 33.0
+    "place_pct": 33.1
    }
   },
   {
@@ -232,27 +259,27 @@
    "by_distance": [],
    "jockey": {
     "name": "Kevin Stott",
-    "runs": 3095,
+    "runs": 3104,
     "wins": 451,
-    "places": 1319,
-    "win_pct": 14.6,
-    "place_pct": 42.6
+    "places": 1324,
+    "win_pct": 14.5,
+    "place_pct": 42.7
    },
    "trainer": {
     "name": "Philip Kirby",
-    "runs": 2873,
-    "wins": 252,
-    "places": 798,
+    "runs": 2895,
+    "wins": 254,
+    "places": 804,
     "win_pct": 8.8,
     "place_pct": 27.8
    },
    "sire": {
     "name": "Gleneagles",
-    "runs": 3093,
-    "wins": 350,
-    "places": 1091,
+    "runs": 3101,
+    "wins": 351,
+    "places": 1093,
     "win_pct": 11.3,
-    "place_pct": 35.3
+    "place_pct": 35.2
    }
   },
   {
@@ -278,27 +305,27 @@
    "by_distance": [],
    "jockey": {
     "name": "Mark Winn",
-    "runs": 1199,
-    "wins": 130,
-    "places": 386,
-    "win_pct": 10.8,
+    "runs": 1206,
+    "wins": 131,
+    "places": 388,
+    "win_pct": 10.9,
     "place_pct": 32.2
    },
    "trainer": {
     "name": "Michael Dods",
-    "runs": 3024,
-    "wins": 310,
-    "places": 992,
+    "runs": 3029,
+    "wins": 312,
+    "places": 995,
     "win_pct": 10.3,
     "place_pct": 32.8
    },
    "sire": {
     "name": "Rajasinghe",
-    "runs": 519,
+    "runs": 521,
     "wins": 70,
-    "places": 185,
-    "win_pct": 13.5,
-    "place_pct": 35.6
+    "places": 186,
+    "win_pct": 13.4,
+    "place_pct": 35.7
    }
   },
   {
@@ -324,27 +351,27 @@
    "by_distance": [],
    "jockey": {
     "name": "Harry Russell",
-    "runs": 1301,
+    "runs": 1305,
     "wins": 109,
-    "places": 365,
+    "places": 367,
     "win_pct": 8.4,
     "place_pct": 28.1
    },
    "trainer": {
     "name": "Brian Ellison",
-    "runs": 2697,
-    "wins": 285,
-    "places": 925,
+    "runs": 2706,
+    "wins": 286,
+    "places": 928,
     "win_pct": 10.6,
     "place_pct": 34.3
    },
    "sire": {
     "name": "Lope Y Fernandez",
-    "runs": 300,
+    "runs": 301,
     "wins": 33,
     "places": 105,
     "win_pct": 11.0,
-    "place_pct": 35.0
+    "place_pct": 34.9
    }
   },
   {
@@ -370,26 +397,26 @@
    "by_distance": [],
    "jockey": {
     "name": "William Pyle",
-    "runs": 927,
-    "wins": 83,
-    "places": 299,
+    "runs": 935,
+    "wins": 84,
+    "places": 304,
     "win_pct": 9.0,
-    "place_pct": 32.3
+    "place_pct": 32.5
    },
    "trainer": {
     "name": "David Loughnane",
-    "runs": 2040,
-    "wins": 205,
-    "places": 658,
-    "win_pct": 10.0,
+    "runs": 2048,
+    "wins": 207,
+    "places": 661,
+    "win_pct": 10.1,
     "place_pct": 32.3
    },
    "sire": {
     "name": "Territories",
-    "runs": 2252,
+    "runs": 2255,
     "wins": 240,
-    "places": 731,
-    "win_pct": 10.7,
+    "places": 732,
+    "win_pct": 10.6,
     "place_pct": 32.5
    }
   },
@@ -434,19 +461,19 @@
    "by_distance": [],
    "jockey": {
     "name": "Harry Vigors(5)",
-    "runs": 165,
-    "wins": 20,
-    "places": 65,
-    "win_pct": 12.1,
-    "place_pct": 39.4
+    "runs": 172,
+    "wins": 21,
+    "places": 69,
+    "win_pct": 12.2,
+    "place_pct": 40.1
    },
    "trainer": {
     "name": "Ollie Sangster",
-    "runs": 718,
+    "runs": 727,
     "wins": 95,
-    "places": 264,
-    "win_pct": 13.2,
-    "place_pct": 36.8
+    "places": 266,
+    "win_pct": 13.1,
+    "place_pct": 36.6
    }
   },
   {
@@ -472,9 +499,9 @@
    "by_distance": [],
    "jockey": {
     "name": "Joanna Mason",
-    "runs": 2559,
-    "wins": 262,
-    "places": 808,
+    "runs": 2576,
+    "wins": 263,
+    "places": 815,
     "win_pct": 10.2,
     "place_pct": 31.6
    },
@@ -488,9 +515,9 @@
    },
    "sire": {
     "name": "Holy Roman Emperor",
-    "runs": 2911,
+    "runs": 2913,
     "wins": 278,
-    "places": 918,
+    "places": 919,
     "win_pct": 9.5,
     "place_pct": 31.5
    }
@@ -518,19 +545,19 @@
    "by_distance": [],
    "jockey": {
     "name": "M. P. Sheehy",
-    "runs": 59,
-    "wins": 7,
-    "places": 17,
-    "win_pct": 11.9,
-    "place_pct": 28.8
+    "runs": 60,
+    "wins": 8,
+    "places": 18,
+    "win_pct": 13.3,
+    "place_pct": 30.0
    },
    "trainer": {
     "name": "Adrian Keatley",
-    "runs": 78,
-    "wins": 14,
-    "places": 31,
-    "win_pct": 17.9,
-    "place_pct": 39.7
+    "runs": 86,
+    "wins": 16,
+    "places": 33,
+    "win_pct": 18.6,
+    "place_pct": 38.4
    },
    "sire": {
     "name": "Persian Force",
@@ -582,27 +609,27 @@
    "by_distance": [],
    "jockey": {
     "name": "Tom Marquand",
-    "runs": 5376,
-    "wins": 813,
-    "places": 2133,
+    "runs": 5389,
+    "wins": 816,
+    "places": 2140,
     "win_pct": 15.1,
     "place_pct": 39.7
    },
    "trainer": {
     "name": "Dylan Cunha",
-    "runs": 915,
+    "runs": 925,
     "wins": 107,
-    "places": 326,
-    "win_pct": 11.7,
-    "place_pct": 35.6
+    "places": 327,
+    "win_pct": 11.6,
+    "place_pct": 35.4
    },
    "sire": {
     "name": "Kameko",
-    "runs": 558,
+    "runs": 563,
     "wins": 52,
-    "places": 169,
-    "win_pct": 9.3,
-    "place_pct": 30.3
+    "places": 170,
+    "win_pct": 9.2,
+    "place_pct": 30.2
    }
   },
   {
@@ -646,26 +673,26 @@
    "by_distance": [],
    "jockey": {
     "name": "Harry Russell",
-    "runs": 1301,
+    "runs": 1305,
     "wins": 109,
-    "places": 365,
+    "places": 367,
     "win_pct": 8.4,
     "place_pct": 28.1
    },
    "trainer": {
     "name": "Brian Ellison",
-    "runs": 2697,
-    "wins": 285,
-    "places": 925,
+    "runs": 2706,
+    "wins": 286,
+    "places": 928,
     "win_pct": 10.6,
     "place_pct": 34.3
    },
    "sire": {
     "name": "Kuroshio",
-    "runs": 676,
+    "runs": 679,
     "wins": 45,
-    "places": 152,
-    "win_pct": 6.7,
+    "places": 153,
+    "win_pct": 6.6,
     "place_pct": 22.5
    }
   },
@@ -701,27 +728,27 @@
    "by_distance": [],
    "jockey": {
     "name": "Andrew Mullen",
-    "runs": 3176,
-    "wins": 255,
-    "places": 869,
+    "runs": 3191,
+    "wins": 256,
+    "places": 873,
     "win_pct": 8.0,
     "place_pct": 27.4
    },
    "trainer": {
     "name": "Ben Haslam",
-    "runs": 1589,
-    "wins": 196,
-    "places": 519,
-    "win_pct": 12.3,
-    "place_pct": 32.7
+    "runs": 1600,
+    "wins": 198,
+    "places": 525,
+    "win_pct": 12.4,
+    "place_pct": 32.8
    },
    "sire": {
     "name": "Harry Angel",
-    "runs": 1682,
-    "wins": 221,
-    "places": 601,
+    "runs": 1690,
+    "wins": 222,
+    "places": 602,
     "win_pct": 13.1,
-    "place_pct": 35.7
+    "place_pct": 35.6
    }
   },
   {
@@ -762,7 +789,7 @@
    ],
    "by_course": [
     {
-     "key": "Catterick Bridge",
+     "key": "Catterick",
      "runs": 2,
      "wins": 0,
      "places": 2,
@@ -773,18 +800,18 @@
    "by_distance": [],
    "jockey": {
     "name": "Mark Winn",
-    "runs": 1199,
-    "wins": 130,
-    "places": 386,
-    "win_pct": 10.8,
+    "runs": 1206,
+    "wins": 131,
+    "places": 388,
+    "win_pct": 10.9,
     "place_pct": 32.2
    },
    "trainer": {
     "name": "Roger Fell",
-    "runs": 2003,
+    "runs": 2012,
     "wins": 176,
-    "places": 613,
-    "win_pct": 8.8,
+    "places": 615,
+    "win_pct": 8.7,
     "place_pct": 30.6
    },
    "sire": {
@@ -843,11 +870,11 @@
    "by_course": [
     {
      "key": "Hamilton",
-     "runs": 13,
+     "runs": 15,
      "wins": 3,
      "places": 8,
-     "win_pct": 23.1,
-     "place_pct": 61.5
+     "win_pct": 20.0,
+     "place_pct": 53.3
     },
     {
      "key": "Newcastle (AW)",
@@ -928,14 +955,6 @@
      "places": 0,
      "win_pct": 0.0,
      "place_pct": 0.0
-    },
-    {
-     "key": "Hamilton Park",
-     "runs": 2,
-     "wins": 0,
-     "places": 0,
-     "win_pct": 0.0,
-     "place_pct": 0.0
     }
    ],
    "by_distance": [
@@ -950,25 +969,25 @@
    ],
    "jockey": {
     "name": "Connor Beasley",
-    "runs": 3171,
-    "wins": 373,
-    "places": 1178,
+    "runs": 3176,
+    "wins": 374,
+    "places": 1179,
     "win_pct": 11.8,
     "place_pct": 37.1
    },
    "trainer": {
     "name": "Phillip Makin",
-    "runs": 888,
+    "runs": 889,
     "wins": 58,
-    "places": 241,
+    "places": 242,
     "win_pct": 6.5,
-    "place_pct": 27.1
+    "place_pct": 27.2
    },
    "sire": {
     "name": "Footstepsinthesand",
-    "runs": 3947,
-    "wins": 341,
-    "places": 1139,
+    "runs": 3955,
+    "wins": 342,
+    "places": 1142,
     "win_pct": 8.6,
     "place_pct": 28.9
    }
@@ -1005,11 +1024,11 @@
    "by_distance": [],
    "jockey": {
     "name": "Jason Hart",
-    "runs": 5093,
-    "wins": 650,
-    "places": 1874,
+    "runs": 5123,
+    "wins": 655,
+    "places": 1889,
     "win_pct": 12.8,
-    "place_pct": 36.8
+    "place_pct": 36.9
    },
    "trainer": {
     "name": "John & Sean Quinn",
@@ -1021,9 +1040,9 @@
    },
    "sire": {
     "name": "Dandy Man",
-    "runs": 7976,
-    "wins": 751,
-    "places": 2411,
+    "runs": 7997,
+    "wins": 752,
+    "places": 2419,
     "win_pct": 9.4,
     "place_pct": 30.2
    }
@@ -1040,7 +1059,7 @@
    "as_of": "2026-09-20",
    "status": "has_history",
    "career": {
-    "runs": 6,
+    "runs": 7,
     "wins": 0,
     "places": 0,
     "win_pct": 0.0,
@@ -1057,7 +1076,7 @@
     },
     {
      "key": "good",
-     "runs": 2,
+     "runs": 3,
      "wins": 0,
      "places": 0,
      "win_pct": 0.0,
@@ -1067,6 +1086,14 @@
    "by_course": [
     {
      "key": "Carlisle",
+     "runs": 2,
+     "wins": 0,
+     "places": 0,
+     "win_pct": 0.0,
+     "place_pct": 0.0
+    },
+    {
+     "key": "Hamilton",
      "runs": 2,
      "wins": 0,
      "places": 0,
@@ -1086,27 +1113,27 @@
    ],
    "jockey": {
     "name": "Andrew Mullen",
-    "runs": 3176,
-    "wins": 255,
-    "places": 869,
+    "runs": 3191,
+    "wins": 256,
+    "places": 873,
     "win_pct": 8.0,
     "place_pct": 27.4
    },
    "trainer": {
     "name": "Iain Jardine",
-    "runs": 3605,
-    "wins": 347,
-    "places": 1132,
+    "runs": 3628,
+    "wins": 350,
+    "places": 1142,
     "win_pct": 9.6,
-    "place_pct": 31.4
+    "place_pct": 31.5
    },
    "sire": {
     "name": "Supremacy",
-    "runs": 229,
+    "runs": 231,
     "wins": 24,
     "places": 71,
-    "win_pct": 10.5,
-    "place_pct": 31.0
+    "win_pct": 10.4,
+    "place_pct": 30.7
    }
   },
   {
@@ -1183,27 +1210,27 @@
    ],
    "jockey": {
     "name": "Sam James",
-    "runs": 2604,
-    "wins": 307,
-    "places": 920,
+    "runs": 2611,
+    "wins": 309,
+    "places": 923,
     "win_pct": 11.8,
-    "place_pct": 35.3
+    "place_pct": 35.4
    },
    "trainer": {
     "name": "Jim Goldie",
-    "runs": 3228,
-    "wins": 389,
-    "places": 1061,
+    "runs": 3233,
+    "wins": 390,
+    "places": 1064,
     "win_pct": 12.1,
     "place_pct": 32.9
    },
    "sire": {
     "name": "Massaat",
-    "runs": 857,
+    "runs": 860,
     "wins": 69,
     "places": 222,
-    "win_pct": 8.1,
-    "place_pct": 25.9
+    "win_pct": 8.0,
+    "place_pct": 25.8
    }
   },
   {
@@ -1256,25 +1283,25 @@
    ],
    "jockey": {
     "name": "William Pyle",
-    "runs": 927,
-    "wins": 83,
-    "places": 299,
+    "runs": 935,
+    "wins": 84,
+    "places": 304,
     "win_pct": 9.0,
-    "place_pct": 32.3
+    "place_pct": 32.5
    },
    "trainer": {
     "name": "Linda Perratt",
-    "runs": 1069,
-    "wins": 76,
-    "places": 249,
-    "win_pct": 7.1,
-    "place_pct": 23.3
+    "runs": 1076,
+    "wins": 77,
+    "places": 250,
+    "win_pct": 7.2,
+    "place_pct": 23.2
    },
    "sire": {
     "name": "Cotai Glory",
-    "runs": 2495,
-    "wins": 294,
-    "places": 835,
+    "runs": 2511,
+    "wins": 296,
+    "places": 841,
     "win_pct": 11.8,
     "place_pct": 33.5
    }
@@ -1377,11 +1404,11 @@
    },
    "trainer": {
     "name": "R. Mike Smith",
-    "runs": 1464,
+    "runs": 1466,
     "wins": 94,
     "places": 342,
     "win_pct": 6.4,
-    "place_pct": 23.4
+    "place_pct": 23.3
    },
    "sire": {
     "name": "Music Master",
@@ -1447,11 +1474,11 @@
     },
     {
      "key": "Hamilton",
-     "runs": 5,
+     "runs": 7,
      "wins": 1,
      "places": 3,
-     "win_pct": 20.0,
-     "place_pct": 60.0
+     "win_pct": 14.3,
+     "place_pct": 42.9
     },
     {
      "key": "Newcastle",
@@ -1476,14 +1503,6 @@
      "places": 1,
      "win_pct": 0.0,
      "place_pct": 50.0
-    },
-    {
-     "key": "Hamilton Park",
-     "runs": 2,
-     "wins": 0,
-     "places": 0,
-     "win_pct": 0.0,
-     "place_pct": 0.0
     }
    ],
    "by_distance": [
@@ -1506,17 +1525,17 @@
    ],
    "jockey": {
     "name": "Paul Mulrennan",
-    "runs": 4242,
-    "wins": 567,
-    "places": 1601,
-    "win_pct": 13.4,
+    "runs": 4257,
+    "wins": 568,
+    "places": 1604,
+    "win_pct": 13.3,
     "place_pct": 37.7
    },
    "trainer": {
     "name": "Jim Goldie",
-    "runs": 3228,
-    "wins": 389,
-    "places": 1061,
+    "runs": 3233,
+    "wins": 390,
+    "places": 1064,
     "win_pct": 12.1,
     "place_pct": 32.9
    },
@@ -1568,11 +1587,11 @@
    "by_course": [
     {
      "key": "Hamilton",
-     "runs": 8,
+     "runs": 9,
      "wins": 1,
      "places": 4,
-     "win_pct": 12.5,
-     "place_pct": 50.0
+     "win_pct": 11.1,
+     "place_pct": 44.4
     },
     {
      "key": "Musselburgh",
@@ -1667,25 +1686,25 @@
    ],
    "jockey": {
     "name": "Kaiya Fraser",
-    "runs": 1000,
-    "wins": 121,
-    "places": 352,
-    "win_pct": 12.1,
-    "place_pct": 35.2
+    "runs": 1007,
+    "wins": 124,
+    "places": 357,
+    "win_pct": 12.3,
+    "place_pct": 35.5
    },
    "trainer": {
     "name": "Rebecca Menzies",
-    "runs": 2933,
-    "wins": 322,
-    "places": 988,
+    "runs": 2953,
+    "wins": 325,
+    "places": 994,
     "win_pct": 11.0,
     "place_pct": 33.7
    },
    "sire": {
     "name": "El Kabeir",
-    "runs": 904,
+    "runs": 906,
     "wins": 66,
-    "places": 215,
+    "places": 216,
     "win_pct": 7.3,
     "place_pct": 23.8
    }
@@ -1737,11 +1756,11 @@
     },
     {
      "key": "Hamilton",
-     "runs": 5,
+     "runs": 6,
      "wins": 1,
-     "places": 2,
-     "win_pct": 20.0,
-     "place_pct": 40.0
+     "places": 3,
+     "win_pct": 16.7,
+     "place_pct": 50.0
     },
     {
      "key": "Musselburgh",
@@ -1780,17 +1799,17 @@
    },
    "trainer": {
     "name": "Jim Goldie",
-    "runs": 3228,
-    "wins": 389,
-    "places": 1061,
+    "runs": 3233,
+    "wins": 390,
+    "places": 1064,
     "win_pct": 12.1,
     "place_pct": 32.9
    },
    "sire": {
     "name": "Sioux Nation",
-    "runs": 1605,
-    "wins": 213,
-    "places": 604,
+    "runs": 1613,
+    "wins": 214,
+    "places": 606,
     "win_pct": 13.3,
     "place_pct": 37.6
    }
@@ -1853,26 +1872,26 @@
    ],
    "jockey": {
     "name": "Billy Loughnane",
-    "runs": 3425,
-    "wins": 566,
-    "places": 1567,
-    "win_pct": 16.5,
-    "place_pct": 45.8
+    "runs": 3485,
+    "wins": 579,
+    "places": 1601,
+    "win_pct": 16.6,
+    "place_pct": 45.9
    },
    "trainer": {
     "name": "Edward Bethell",
-    "runs": 1336,
-    "wins": 225,
-    "places": 596,
+    "runs": 1343,
+    "wins": 226,
+    "places": 597,
     "win_pct": 16.8,
-    "place_pct": 44.6
+    "place_pct": 44.5
    },
    "sire": {
     "name": "Invincible Spirit",
-    "runs": 5087,
-    "wins": 566,
-    "places": 1687,
-    "win_pct": 11.1,
+    "runs": 5101,
+    "wins": 569,
+    "places": 1693,
+    "win_pct": 11.2,
     "place_pct": 33.2
    }
   },
@@ -1914,6 +1933,14 @@
    ],
    "by_course": [
     {
+     "key": "Hamilton",
+     "runs": 3,
+     "wins": 0,
+     "places": 0,
+     "win_pct": 0.0,
+     "place_pct": 0.0
+    },
+    {
      "key": "Wolverhampton (AW)",
      "runs": 3,
      "wins": 1,
@@ -1936,14 +1963,6 @@
      "places": 2,
      "win_pct": 0.0,
      "place_pct": 100.0
-    },
-    {
-     "key": "Hamilton",
-     "runs": 2,
-     "wins": 0,
-     "places": 0,
-     "win_pct": 0.0,
-     "place_pct": 0.0
     },
     {
      "key": "Newcastle (AW)",
@@ -1974,25 +1993,25 @@
    ],
    "jockey": {
     "name": "Kaiya Fraser",
-    "runs": 1000,
-    "wins": 121,
-    "places": 352,
-    "win_pct": 12.1,
-    "place_pct": 35.2
+    "runs": 1007,
+    "wins": 124,
+    "places": 357,
+    "win_pct": 12.3,
+    "place_pct": 35.5
    },
    "trainer": {
     "name": "Rebecca Menzies",
-    "runs": 2933,
-    "wins": 322,
-    "places": 988,
+    "runs": 2953,
+    "wins": 325,
+    "places": 994,
     "win_pct": 11.0,
     "place_pct": 33.7
    },
    "sire": {
     "name": "Mehmas",
-    "runs": 5471,
-    "wins": 658,
-    "places": 1910,
+    "runs": 5494,
+    "wins": 660,
+    "places": 1917,
     "win_pct": 12.0,
     "place_pct": 34.9
    }
@@ -2071,27 +2090,27 @@
    ],
    "jockey": {
     "name": "Connor Beasley",
-    "runs": 3171,
-    "wins": 373,
-    "places": 1178,
+    "runs": 3176,
+    "wins": 374,
+    "places": 1179,
     "win_pct": 11.8,
     "place_pct": 37.1
    },
    "trainer": {
     "name": "Michael Dods",
-    "runs": 3024,
-    "wins": 310,
-    "places": 992,
+    "runs": 3029,
+    "wins": 312,
+    "places": 995,
     "win_pct": 10.3,
     "place_pct": 32.8
    },
    "sire": {
     "name": "Sands Of Mali",
-    "runs": 443,
-    "wins": 55,
-    "places": 163,
-    "win_pct": 12.4,
-    "place_pct": 36.8
+    "runs": 449,
+    "wins": 57,
+    "places": 167,
+    "win_pct": 12.7,
+    "place_pct": 37.2
    }
   },
   {
@@ -2152,11 +2171,11 @@
    ],
    "jockey": {
     "name": "Warren Fentiman(3)",
-    "runs": 706,
+    "runs": 714,
     "wins": 64,
-    "places": 221,
-    "win_pct": 9.1,
-    "place_pct": 31.3
+    "places": 222,
+    "win_pct": 9.0,
+    "place_pct": 31.1
    },
    "trainer": {
     "name": "Richard & Peter Fahey",
@@ -2168,11 +2187,11 @@
    },
    "sire": {
     "name": "Ardad",
-    "runs": 2473,
-    "wins": 216,
-    "places": 744,
-    "win_pct": 8.7,
-    "place_pct": 30.1
+    "runs": 2486,
+    "wins": 218,
+    "places": 753,
+    "win_pct": 8.8,
+    "place_pct": 30.3
    }
   },
   {
@@ -2222,11 +2241,11 @@
     },
     {
      "key": "Hamilton",
-     "runs": 6,
+     "runs": 8,
      "wins": 1,
      "places": 2,
-     "win_pct": 16.7,
-     "place_pct": 33.3
+     "win_pct": 12.5,
+     "place_pct": 25.0
     },
     {
      "key": "Newcastle (AW)",
@@ -2246,14 +2265,6 @@
     },
     {
      "key": "Thirsk",
-     "runs": 2,
-     "wins": 0,
-     "places": 0,
-     "win_pct": 0.0,
-     "place_pct": 0.0
-    },
-    {
-     "key": "Hamilton Park",
      "runs": 2,
      "wins": 0,
      "places": 0,
@@ -2281,25 +2292,25 @@
    ],
    "jockey": {
     "name": "Lauren Young(5)",
-    "runs": 292,
+    "runs": 294,
     "wins": 33,
-    "places": 94,
-    "win_pct": 11.3,
-    "place_pct": 32.2
+    "places": 95,
+    "win_pct": 11.2,
+    "place_pct": 32.3
    },
    "trainer": {
     "name": "Jim Goldie",
-    "runs": 3228,
-    "wins": 389,
-    "places": 1061,
+    "runs": 3233,
+    "wins": 390,
+    "places": 1064,
     "win_pct": 12.1,
     "place_pct": 32.9
    },
    "sire": {
     "name": "Muhaarar",
-    "runs": 3505,
-    "wins": 417,
-    "places": 1153,
+    "runs": 3510,
+    "wins": 418,
+    "places": 1155,
     "win_pct": 11.9,
     "place_pct": 32.9
    }
@@ -2350,6 +2361,14 @@
    ],
    "by_course": [
     {
+     "key": "Hamilton",
+     "runs": 3,
+     "wins": 2,
+     "places": 3,
+     "win_pct": 66.7,
+     "place_pct": 100.0
+    },
+    {
      "key": "Navan",
      "runs": 2,
      "wins": 0,
@@ -2380,14 +2399,6 @@
      "places": 1,
      "win_pct": 0.0,
      "place_pct": 50.0
-    },
-    {
-     "key": "Hamilton",
-     "runs": 2,
-     "wins": 1,
-     "places": 2,
-     "win_pct": 50.0,
-     "place_pct": 100.0
     }
    ],
    "by_distance": [
@@ -2402,25 +2413,25 @@
    ],
    "jockey": {
     "name": "Sam James",
-    "runs": 2604,
-    "wins": 307,
-    "places": 920,
+    "runs": 2611,
+    "wins": 309,
+    "places": 923,
     "win_pct": 11.8,
-    "place_pct": 35.3
+    "place_pct": 35.4
    },
    "trainer": {
     "name": "Phillip Makin",
-    "runs": 888,
+    "runs": 889,
     "wins": 58,
-    "places": 241,
+    "places": 242,
     "win_pct": 6.5,
-    "place_pct": 27.1
+    "place_pct": 27.2
    },
    "sire": {
     "name": "Mayson",
-    "runs": 4326,
-    "wins": 475,
-    "places": 1361,
+    "runs": 4336,
+    "wins": 476,
+    "places": 1365,
     "win_pct": 11.0,
     "place_pct": 31.5
    }
@@ -2437,20 +2448,20 @@
    "as_of": "2026-09-20",
    "status": "has_history",
    "career": {
-    "runs": 11,
+    "runs": 12,
     "wins": 1,
-    "places": 3,
-    "win_pct": 9.1,
-    "place_pct": 27.3
+    "places": 4,
+    "win_pct": 8.3,
+    "place_pct": 33.3
    },
    "by_going": [
     {
      "key": "good",
-     "runs": 7,
+     "runs": 8,
      "wins": 0,
-     "places": 2,
+     "places": 3,
      "win_pct": 0.0,
-     "place_pct": 28.6
+     "place_pct": 37.5
     },
     {
      "key": "soft",
@@ -2462,6 +2473,14 @@
     }
    ],
    "by_course": [
+    {
+     "key": "Wolverhampton (AW)",
+     "runs": 3,
+     "wins": 0,
+     "places": 1,
+     "win_pct": 0.0,
+     "place_pct": 33.3
+    },
     {
      "key": "Curragh",
      "runs": 2,
@@ -2491,27 +2510,27 @@
    ],
    "jockey": {
     "name": "M. P. Sheehy",
-    "runs": 59,
-    "wins": 7,
-    "places": 17,
-    "win_pct": 11.9,
-    "place_pct": 28.8
+    "runs": 60,
+    "wins": 8,
+    "places": 18,
+    "win_pct": 13.3,
+    "place_pct": 30.0
    },
    "trainer": {
     "name": "Iain Jardine",
-    "runs": 3605,
-    "wins": 347,
-    "places": 1132,
+    "runs": 3628,
+    "wins": 350,
+    "places": 1142,
     "win_pct": 9.6,
-    "place_pct": 31.4
+    "place_pct": 31.5
    },
    "sire": {
     "name": "Starspangledbanner",
-    "runs": 4272,
-    "wins": 458,
-    "places": 1403,
+    "runs": 4284,
+    "wins": 459,
+    "places": 1410,
     "win_pct": 10.7,
-    "place_pct": 32.8
+    "place_pct": 32.9
    }
   },
   {
@@ -2561,11 +2580,11 @@
    "by_course": [
     {
      "key": "Hamilton",
-     "runs": 33,
+     "runs": 37,
      "wins": 9,
      "places": 18,
-     "win_pct": 27.3,
-     "place_pct": 54.5
+     "win_pct": 24.3,
+     "place_pct": 48.6
     },
     {
      "key": "Carlisle",
@@ -2608,14 +2627,6 @@
      "place_pct": 50.0
     },
     {
-     "key": "Hamilton Park",
-     "runs": 4,
-     "wins": 0,
-     "places": 0,
-     "win_pct": 0.0,
-     "place_pct": 0.0
-    },
-    {
      "key": "Catterick",
      "runs": 3,
      "wins": 0,
@@ -2652,25 +2663,25 @@
    ],
    "jockey": {
     "name": "Rowan Scott",
-    "runs": 2606,
-    "wins": 223,
-    "places": 739,
+    "runs": 2621,
+    "wins": 226,
+    "places": 746,
     "win_pct": 8.6,
-    "place_pct": 28.4
+    "place_pct": 28.5
    },
    "trainer": {
     "name": "Tristan Davidson",
-    "runs": 758,
-    "wins": 99,
-    "places": 286,
+    "runs": 761,
+    "wins": 100,
+    "places": 288,
     "win_pct": 13.1,
-    "place_pct": 37.7
+    "place_pct": 37.8
    },
    "sire": {
     "name": "Kodiac",
-    "runs": 9999,
-    "wins": 975,
-    "places": 3119,
+    "runs": 10011,
+    "wins": 977,
+    "places": 3123,
     "win_pct": 9.8,
     "place_pct": 31.2
    }
@@ -2765,25 +2776,25 @@
    ],
    "jockey": {
     "name": "Oliver Stammers",
-    "runs": 1210,
-    "wins": 126,
-    "places": 399,
+    "runs": 1217,
+    "wins": 127,
+    "places": 401,
     "win_pct": 10.4,
-    "place_pct": 33.0
+    "place_pct": 32.9
    },
    "trainer": {
     "name": "Grant Tuer",
-    "runs": 1747,
-    "wins": 203,
-    "places": 612,
+    "runs": 1753,
+    "wins": 204,
+    "places": 614,
     "win_pct": 11.6,
     "place_pct": 35.0
    },
    "sire": {
     "name": "Kodiac",
-    "runs": 9999,
-    "wins": 975,
-    "places": 3119,
+    "runs": 10011,
+    "wins": 977,
+    "places": 3123,
     "win_pct": 9.8,
     "place_pct": 31.2
    }
@@ -2846,26 +2857,26 @@
    ],
    "jockey": {
     "name": "Shane Gray",
-    "runs": 1940,
+    "runs": 1943,
     "wins": 185,
-    "places": 543,
+    "places": 544,
     "win_pct": 9.5,
     "place_pct": 28.0
    },
    "trainer": {
     "name": "Kevin Ryan",
-    "runs": 3193,
+    "runs": 3203,
     "wins": 366,
-    "places": 1110,
-    "win_pct": 11.5,
+    "places": 1116,
+    "win_pct": 11.4,
     "place_pct": 34.8
    },
    "sire": {
     "name": "Magna Grecia",
-    "runs": 801,
+    "runs": 806,
     "wins": 76,
-    "places": 235,
-    "win_pct": 9.5,
+    "places": 236,
+    "win_pct": 9.4,
     "place_pct": 29.3
    }
   },
@@ -2924,11 +2935,19 @@
     },
     {
      "key": "Wolverhampton (AW)",
-     "runs": 3,
+     "runs": 4,
      "wins": 1,
      "places": 1,
-     "win_pct": 33.3,
-     "place_pct": 33.3
+     "win_pct": 25.0,
+     "place_pct": 25.0
+    },
+    {
+     "key": "Hamilton",
+     "runs": 2,
+     "wins": 0,
+     "places": 0,
+     "win_pct": 0.0,
+     "place_pct": 0.0
     },
     {
      "key": "Southwell (AW)",
@@ -2959,25 +2978,25 @@
    ],
    "jockey": {
     "name": "Mark Winn",
-    "runs": 1199,
-    "wins": 130,
-    "places": 386,
-    "win_pct": 10.8,
+    "runs": 1206,
+    "wins": 131,
+    "places": 388,
+    "win_pct": 10.9,
     "place_pct": 32.2
    },
    "trainer": {
     "name": "David O'Meara",
-    "runs": 5474,
-    "wins": 646,
-    "places": 2009,
+    "runs": 5483,
+    "wins": 648,
+    "places": 2011,
     "win_pct": 11.8,
     "place_pct": 36.7
    },
    "sire": {
     "name": "Almanzor",
-    "runs": 750,
+    "runs": 754,
     "wins": 91,
-    "places": 253,
+    "places": 254,
     "win_pct": 12.1,
     "place_pct": 33.7
    }
@@ -2994,20 +3013,20 @@
    "as_of": "2026-09-20",
    "status": "has_history",
    "career": {
-    "runs": 9,
+    "runs": 10,
     "wins": 2,
-    "places": 4,
-    "win_pct": 22.2,
-    "place_pct": 44.4
+    "places": 5,
+    "win_pct": 20.0,
+    "place_pct": 50.0
    },
    "by_going": [
     {
      "key": "good",
-     "runs": 7,
+     "runs": 8,
      "wins": 2,
-     "places": 3,
-     "win_pct": 28.6,
-     "place_pct": 42.9
+     "places": 4,
+     "win_pct": 25.0,
+     "place_pct": 50.0
     },
     {
      "key": "soft",
@@ -3026,41 +3045,49 @@
      "places": 1,
      "win_pct": 0.0,
      "place_pct": 50.0
+    },
+    {
+     "key": "Lingfield (AW)",
+     "runs": 2,
+     "wins": 1,
+     "places": 2,
+     "win_pct": 50.0,
+     "place_pct": 100.0
     }
    ],
    "by_distance": [
     {
      "key": "mile",
-     "runs": 5,
+     "runs": 6,
      "wins": 1,
-     "places": 3,
-     "win_pct": 20.0,
-     "place_pct": 60.0
+     "places": 4,
+     "win_pct": 16.7,
+     "place_pct": 66.7
     }
    ],
    "jockey": {
     "name": "Billy Loughnane",
-    "runs": 3425,
-    "wins": 566,
-    "places": 1567,
-    "win_pct": 16.5,
-    "place_pct": 45.8
+    "runs": 3485,
+    "wins": 579,
+    "places": 1601,
+    "win_pct": 16.6,
+    "place_pct": 45.9
    },
    "trainer": {
     "name": "Kevin Philippart de Foy",
-    "runs": 1519,
+    "runs": 1524,
     "wins": 218,
-    "places": 621,
-    "win_pct": 14.4,
-    "place_pct": 40.9
+    "places": 626,
+    "win_pct": 14.3,
+    "place_pct": 41.1
    },
    "sire": {
     "name": "Circus Maximus",
-    "runs": 68,
+    "runs": 69,
     "wins": 7,
-    "places": 18,
-    "win_pct": 10.3,
-    "place_pct": 26.5
+    "places": 19,
+    "win_pct": 10.1,
+    "place_pct": 27.5
    }
   },
   {
@@ -3153,25 +3180,25 @@
    ],
    "jockey": {
     "name": "Sam James",
-    "runs": 2604,
-    "wins": 307,
-    "places": 920,
+    "runs": 2611,
+    "wins": 309,
+    "places": 923,
     "win_pct": 11.8,
-    "place_pct": 35.3
+    "place_pct": 35.4
    },
    "trainer": {
     "name": "Phillip Makin",
-    "runs": 888,
+    "runs": 889,
     "wins": 58,
-    "places": 241,
+    "places": 242,
     "win_pct": 6.5,
-    "place_pct": 27.1
+    "place_pct": 27.2
    },
    "sire": {
     "name": "Dubawi",
-    "runs": 3831,
-    "wins": 739,
-    "places": 1696,
+    "runs": 3834,
+    "wins": 740,
+    "places": 1698,
     "win_pct": 19.3,
     "place_pct": 44.3
    }
@@ -3225,27 +3252,27 @@
    ],
    "jockey": {
     "name": "Tom Marquand",
-    "runs": 5376,
-    "wins": 813,
-    "places": 2133,
+    "runs": 5389,
+    "wins": 816,
+    "places": 2140,
     "win_pct": 15.1,
     "place_pct": 39.7
    },
    "trainer": {
     "name": "William Haggas",
-    "runs": 4051,
-    "wins": 894,
-    "places": 2067,
+    "runs": 4053,
+    "wins": 895,
+    "places": 2068,
     "win_pct": 22.1,
     "place_pct": 51.0
    },
    "sire": {
     "name": "Lope De Vega",
-    "runs": 5882,
-    "wins": 810,
-    "places": 2197,
+    "runs": 5894,
+    "wins": 813,
+    "places": 2201,
     "win_pct": 13.8,
-    "place_pct": 37.4
+    "place_pct": 37.3
    }
   },
   {
@@ -3297,25 +3324,25 @@
    ],
    "jockey": {
     "name": "Andrew Mullen",
-    "runs": 3176,
-    "wins": 255,
-    "places": 869,
+    "runs": 3191,
+    "wins": 256,
+    "places": 873,
     "win_pct": 8.0,
     "place_pct": 27.4
    },
    "trainer": {
     "name": "Iain Jardine",
-    "runs": 3605,
-    "wins": 347,
-    "places": 1132,
+    "runs": 3628,
+    "wins": 350,
+    "places": 1142,
     "win_pct": 9.6,
-    "place_pct": 31.4
+    "place_pct": 31.5
    },
    "sire": {
     "name": "Dubawi",
-    "runs": 3831,
-    "wins": 739,
-    "places": 1696,
+    "runs": 3834,
+    "wins": 740,
+    "places": 1698,
     "win_pct": 19.3,
     "place_pct": 44.3
    }
@@ -3378,27 +3405,27 @@
    ],
    "jockey": {
     "name": "Rowan Scott",
-    "runs": 2606,
-    "wins": 223,
-    "places": 739,
+    "runs": 2621,
+    "wins": 226,
+    "places": 746,
     "win_pct": 8.6,
-    "place_pct": 28.4
+    "place_pct": 28.5
    },
    "trainer": {
     "name": "Charlie Johnston",
-    "runs": 3093,
-    "wins": 385,
-    "places": 1168,
-    "win_pct": 12.4,
+    "runs": 3115,
+    "wins": 388,
+    "places": 1177,
+    "win_pct": 12.5,
     "place_pct": 37.8
    },
    "sire": {
     "name": "Lope De Vega",
-    "runs": 5882,
-    "wins": 810,
-    "places": 2197,
+    "runs": 5894,
+    "wins": 813,
+    "places": 2201,
     "win_pct": 13.8,
-    "place_pct": 37.4
+    "place_pct": 37.3
    }
   },
   {
@@ -3442,27 +3469,27 @@
    ],
    "jockey": {
     "name": "Kevin Stott",
-    "runs": 3095,
+    "runs": 3104,
     "wins": 451,
-    "places": 1319,
-    "win_pct": 14.6,
-    "place_pct": 42.6
+    "places": 1324,
+    "win_pct": 14.5,
+    "place_pct": 42.7
    },
    "trainer": {
     "name": "Hugo Palmer",
-    "runs": 2546,
-    "wins": 346,
-    "places": 985,
+    "runs": 2554,
+    "wins": 347,
+    "places": 989,
     "win_pct": 13.6,
     "place_pct": 38.7
    },
    "sire": {
     "name": "Lucky Vega",
-    "runs": 177,
-    "wins": 29,
-    "places": 86,
-    "win_pct": 16.4,
-    "place_pct": 48.6
+    "runs": 180,
+    "wins": 30,
+    "places": 88,
+    "win_pct": 16.7,
+    "place_pct": 48.9
    }
   },
   {
@@ -3504,11 +3531,11 @@
    "by_course": [
     {
      "key": "Hamilton",
-     "runs": 3,
+     "runs": 4,
      "wins": 0,
-     "places": 0,
+     "places": 1,
      "win_pct": 0.0,
-     "place_pct": 0.0
+     "place_pct": 25.0
     },
     {
      "key": "Carlisle",
@@ -3525,6 +3552,14 @@
      "places": 0,
      "win_pct": 0.0,
      "place_pct": 0.0
+    },
+    {
+     "key": "Lingfield (AW)",
+     "runs": 2,
+     "wins": 0,
+     "places": 1,
+     "win_pct": 0.0,
+     "place_pct": 50.0
     },
     {
      "key": "Ayr",
@@ -3563,19 +3598,19 @@
    },
    "trainer": {
     "name": "Jim Goldie",
-    "runs": 3228,
-    "wins": 389,
-    "places": 1061,
+    "runs": 3233,
+    "wins": 390,
+    "places": 1064,
     "win_pct": 12.1,
     "place_pct": 32.9
    },
    "sire": {
     "name": "Calyx",
-    "runs": 848,
-    "wins": 118,
-    "places": 306,
+    "runs": 862,
+    "wins": 120,
+    "places": 313,
     "win_pct": 13.9,
-    "place_pct": 36.1
+    "place_pct": 36.3
    }
   },
   {
@@ -3606,7 +3641,16 @@
      "place_pct": 100.0
     }
    ],
-   "by_course": [],
+   "by_course": [
+    {
+     "key": "Hamilton",
+     "runs": 2,
+     "wins": 1,
+     "places": 2,
+     "win_pct": 50.0,
+     "place_pct": 100.0
+    }
+   ],
    "by_distance": [
     {
      "key": "mile",
@@ -3619,27 +3663,27 @@
    ],
    "jockey": {
     "name": "Daniel Tudhope",
-    "runs": 3567,
-    "wins": 576,
-    "places": 1554,
-    "win_pct": 16.1,
-    "place_pct": 43.6
+    "runs": 3571,
+    "wins": 577,
+    "places": 1555,
+    "win_pct": 16.2,
+    "place_pct": 43.5
    },
    "trainer": {
     "name": "David O'Meara",
-    "runs": 5474,
-    "wins": 646,
-    "places": 2009,
+    "runs": 5483,
+    "wins": 648,
+    "places": 2011,
     "win_pct": 11.8,
     "place_pct": 36.7
    },
    "sire": {
     "name": "Victor Ludorum",
-    "runs": 89,
+    "runs": 90,
     "wins": 8,
     "places": 34,
-    "win_pct": 9.0,
-    "place_pct": 38.2
+    "win_pct": 8.9,
+    "place_pct": 37.8
    }
   },
   {
@@ -3740,9 +3784,9 @@
    ],
    "jockey": {
     "name": "Connor Beasley",
-    "runs": 3171,
-    "wins": 373,
-    "places": 1178,
+    "runs": 3176,
+    "wins": 374,
+    "places": 1179,
     "win_pct": 11.8,
     "place_pct": 37.1
    },
@@ -3756,11 +3800,11 @@
    },
    "sire": {
     "name": "Land Force",
-    "runs": 997,
+    "runs": 1001,
     "wins": 81,
-    "places": 250,
+    "places": 252,
     "win_pct": 8.1,
-    "place_pct": 25.1
+    "place_pct": 25.2
    }
   },
   {
@@ -3845,9 +3889,9 @@
    ],
    "jockey": {
     "name": "Joanna Mason",
-    "runs": 2559,
-    "wins": 262,
-    "places": 808,
+    "runs": 2576,
+    "wins": 263,
+    "places": 815,
     "win_pct": 10.2,
     "place_pct": 31.6
    },
@@ -3861,9 +3905,9 @@
    },
    "sire": {
     "name": "Golden Horn",
-    "runs": 2756,
+    "runs": 2765,
     "wins": 411,
-    "places": 1142,
+    "places": 1144,
     "win_pct": 14.9,
     "place_pct": 41.4
    }
@@ -3880,13 +3924,21 @@
    "as_of": "2026-09-20",
    "status": "has_history",
    "career": {
-    "runs": 14,
+    "runs": 15,
     "wins": 2,
     "places": 6,
-    "win_pct": 14.3,
-    "place_pct": 42.9
+    "win_pct": 13.3,
+    "place_pct": 40.0
    },
    "by_going": [
+    {
+     "key": "good",
+     "runs": 7,
+     "wins": 0,
+     "places": 1,
+     "win_pct": 0.0,
+     "place_pct": 14.3
+    },
     {
      "key": "soft",
      "runs": 7,
@@ -3894,14 +3946,6 @@
      "places": 4,
      "win_pct": 28.6,
      "place_pct": 57.1
-    },
-    {
-     "key": "good",
-     "runs": 6,
-     "wins": 0,
-     "places": 1,
-     "win_pct": 0.0,
-     "place_pct": 16.7
     }
    ],
    "by_course": [
@@ -3928,9 +3972,25 @@
      "places": 0,
      "win_pct": 0.0,
      "place_pct": 0.0
+    },
+    {
+     "key": "Hamilton",
+     "runs": 2,
+     "wins": 2,
+     "places": 2,
+     "win_pct": 100.0,
+     "place_pct": 100.0
     }
    ],
    "by_distance": [
+    {
+     "key": "middle",
+     "runs": 8,
+     "wins": 0,
+     "places": 3,
+     "win_pct": 0.0,
+     "place_pct": 37.5
+    },
     {
      "key": "mile",
      "runs": 7,
@@ -3938,39 +3998,31 @@
      "places": 3,
      "win_pct": 28.6,
      "place_pct": 42.9
-    },
-    {
-     "key": "middle",
-     "runs": 7,
-     "wins": 0,
-     "places": 3,
-     "win_pct": 0.0,
-     "place_pct": 42.9
     }
    ],
    "jockey": {
     "name": "Andrew Mullen",
-    "runs": 3176,
-    "wins": 255,
-    "places": 869,
+    "runs": 3191,
+    "wins": 256,
+    "places": 873,
     "win_pct": 8.0,
     "place_pct": 27.4
    },
    "trainer": {
     "name": "Iain Jardine",
-    "runs": 3605,
-    "wins": 347,
-    "places": 1132,
+    "runs": 3628,
+    "wins": 350,
+    "places": 1142,
     "win_pct": 9.6,
-    "place_pct": 31.4
+    "place_pct": 31.5
    },
    "sire": {
     "name": "Fascinating Rock",
-    "runs": 809,
-    "wins": 73,
-    "places": 238,
-    "win_pct": 9.0,
-    "place_pct": 29.4
+    "runs": 815,
+    "wins": 74,
+    "places": 239,
+    "win_pct": 9.1,
+    "place_pct": 29.3
    }
   },
   {
@@ -4012,11 +4064,11 @@
    "by_course": [
     {
      "key": "Hamilton",
-     "runs": 5,
+     "runs": 6,
      "wins": 1,
      "places": 3,
-     "win_pct": 20.0,
-     "place_pct": 60.0
+     "win_pct": 16.7,
+     "place_pct": 50.0
     },
     {
      "key": "Carlisle",
@@ -4071,26 +4123,26 @@
    ],
    "jockey": {
     "name": "Connor Beasley",
-    "runs": 3171,
-    "wins": 373,
-    "places": 1178,
+    "runs": 3176,
+    "wins": 374,
+    "places": 1179,
     "win_pct": 11.8,
     "place_pct": 37.1
    },
    "trainer": {
     "name": "Katie Scott",
-    "runs": 1151,
+    "runs": 1158,
     "wins": 81,
-    "places": 303,
+    "places": 304,
     "win_pct": 7.0,
     "place_pct": 26.3
    },
    "sire": {
     "name": "Magna Grecia",
-    "runs": 801,
+    "runs": 806,
     "wins": 76,
-    "places": 235,
-    "win_pct": 9.5,
+    "places": 236,
+    "win_pct": 9.4,
     "place_pct": 29.3
    }
   },
@@ -4264,11 +4316,11 @@
    ],
    "jockey": {
     "name": "Jason Hart",
-    "runs": 5093,
-    "wins": 650,
-    "places": 1874,
+    "runs": 5123,
+    "wins": 655,
+    "places": 1889,
     "win_pct": 12.8,
-    "place_pct": 36.8
+    "place_pct": 36.9
    },
    "trainer": {
     "name": "John & Sean Quinn",
@@ -4280,11 +4332,11 @@
    },
    "sire": {
     "name": "Starspangledbanner",
-    "runs": 4272,
-    "wins": 458,
-    "places": 1403,
+    "runs": 4284,
+    "wins": 459,
+    "places": 1410,
     "win_pct": 10.7,
-    "place_pct": 32.8
+    "place_pct": 32.9
    }
   },
   {
@@ -4361,27 +4413,27 @@
    ],
    "jockey": {
     "name": "Paul Mulrennan",
-    "runs": 4242,
-    "wins": 567,
-    "places": 1601,
-    "win_pct": 13.4,
+    "runs": 4257,
+    "wins": 568,
+    "places": 1604,
+    "win_pct": 13.3,
     "place_pct": 37.7
    },
    "trainer": {
     "name": "Jim Goldie",
-    "runs": 3228,
-    "wins": 389,
-    "places": 1061,
+    "runs": 3233,
+    "wins": 390,
+    "places": 1064,
     "win_pct": 12.1,
     "place_pct": 32.9
    },
    "sire": {
     "name": "Mohaather",
-    "runs": 731,
+    "runs": 739,
     "wins": 77,
     "places": 263,
-    "win_pct": 10.5,
-    "place_pct": 36.0
+    "win_pct": 10.4,
+    "place_pct": 35.6
    }
   },
   {
@@ -4412,7 +4464,16 @@
      "place_pct": 0.0
     }
    ],
-   "by_course": [],
+   "by_course": [
+    {
+     "key": "Hamilton",
+     "runs": 2,
+     "wins": 0,
+     "places": 0,
+     "win_pct": 0.0,
+     "place_pct": 0.0
+    }
+   ],
    "by_distance": [
     {
      "key": "mile",
@@ -4425,25 +4486,25 @@
    ],
    "jockey": {
     "name": "Conor Whiteley(5)",
-    "runs": 139,
-    "wins": 22,
-    "places": 63,
-    "win_pct": 15.8,
-    "place_pct": 45.3
+    "runs": 146,
+    "wins": 24,
+    "places": 66,
+    "win_pct": 16.4,
+    "place_pct": 45.2
    },
    "trainer": {
     "name": "David O'Meara",
-    "runs": 5474,
-    "wins": 646,
-    "places": 2009,
+    "runs": 5483,
+    "wins": 648,
+    "places": 2011,
     "win_pct": 11.8,
     "place_pct": 36.7
    },
    "sire": {
     "name": "Oasis Dream",
-    "runs": 4403,
-    "wins": 413,
-    "places": 1322,
+    "runs": 4418,
+    "wins": 415,
+    "places": 1326,
     "win_pct": 9.4,
     "place_pct": 30.0
    }
@@ -4500,6 +4561,14 @@
      "places": 2,
      "win_pct": 50.0,
      "place_pct": 100.0
+    },
+    {
+     "key": "Hamilton",
+     "runs": 2,
+     "wins": 0,
+     "places": 0,
+     "win_pct": 0.0,
+     "place_pct": 0.0
     }
    ],
    "by_distance": [
@@ -4522,19 +4591,19 @@
    ],
    "jockey": {
     "name": "Sam James",
-    "runs": 2604,
-    "wins": 307,
-    "places": 920,
+    "runs": 2611,
+    "wins": 309,
+    "places": 923,
     "win_pct": 11.8,
-    "place_pct": 35.3
+    "place_pct": 35.4
    },
    "trainer": {
     "name": "Iain Jardine",
-    "runs": 3605,
-    "wins": 347,
-    "places": 1132,
+    "runs": 3628,
+    "wins": 350,
+    "places": 1142,
     "win_pct": 9.6,
-    "place_pct": 31.4
+    "place_pct": 31.5
    },
    "sire": {
     "name": "Alkumait",
@@ -4619,27 +4688,27 @@
    ],
    "jockey": {
     "name": "Billy Loughnane",
-    "runs": 3425,
-    "wins": 566,
-    "places": 1567,
-    "win_pct": 16.5,
-    "place_pct": 45.8
+    "runs": 3485,
+    "wins": 579,
+    "places": 1601,
+    "win_pct": 16.6,
+    "place_pct": 45.9
    },
    "trainer": {
     "name": "Edward Bethell",
-    "runs": 1336,
-    "wins": 225,
-    "places": 596,
+    "runs": 1343,
+    "wins": 226,
+    "places": 597,
     "win_pct": 16.8,
-    "place_pct": 44.6
+    "place_pct": 44.5
    },
    "sire": {
     "name": "Ghaiyyath",
-    "runs": 468,
+    "runs": 472,
     "wins": 70,
-    "places": 189,
-    "win_pct": 15.0,
-    "place_pct": 40.4
+    "places": 191,
+    "win_pct": 14.8,
+    "place_pct": 40.5
    }
   },
   {
@@ -4691,26 +4760,26 @@
    ],
    "jockey": {
     "name": "Rowan Scott",
-    "runs": 2606,
-    "wins": 223,
-    "places": 739,
+    "runs": 2621,
+    "wins": 226,
+    "places": 746,
     "win_pct": 8.6,
-    "place_pct": 28.4
+    "place_pct": 28.5
    },
    "trainer": {
     "name": "Charlie Johnston",
-    "runs": 3093,
-    "wins": 385,
-    "places": 1168,
-    "win_pct": 12.4,
+    "runs": 3115,
+    "wins": 388,
+    "places": 1177,
+    "win_pct": 12.5,
     "place_pct": 37.8
    },
    "sire": {
     "name": "Australia",
-    "runs": 3586,
+    "runs": 3591,
     "wins": 400,
-    "places": 1146,
-    "win_pct": 11.2,
+    "places": 1150,
+    "win_pct": 11.1,
     "place_pct": 32.0
    }
   },
@@ -4726,11 +4795,11 @@
    "as_of": "2026-09-20",
    "status": "has_history",
    "career": {
-    "runs": 6,
+    "runs": 7,
     "wins": 1,
     "places": 1,
-    "win_pct": 16.7,
-    "place_pct": 16.7
+    "win_pct": 14.3,
+    "place_pct": 14.3
    },
    "by_going": [
     {
@@ -4743,11 +4812,11 @@
     },
     {
      "key": "soft",
-     "runs": 2,
+     "runs": 3,
      "wins": 1,
      "places": 1,
-     "win_pct": 50.0,
-     "place_pct": 50.0
+     "win_pct": 33.3,
+     "place_pct": 33.3
     }
    ],
    "by_course": [
@@ -4779,36 +4848,36 @@
     },
     {
      "key": "staying",
-     "runs": 2,
+     "runs": 3,
      "wins": 1,
      "places": 1,
-     "win_pct": 50.0,
-     "place_pct": 50.0
+     "win_pct": 33.3,
+     "place_pct": 33.3
     }
    ],
    "jockey": {
     "name": "Andrew Mullen",
-    "runs": 3176,
-    "wins": 255,
-    "places": 869,
+    "runs": 3191,
+    "wins": 256,
+    "places": 873,
     "win_pct": 8.0,
     "place_pct": 27.4
    },
    "trainer": {
     "name": "Iain Jardine",
-    "runs": 3605,
-    "wins": 347,
-    "places": 1132,
+    "runs": 3628,
+    "wins": 350,
+    "places": 1142,
     "win_pct": 9.6,
-    "place_pct": 31.4
+    "place_pct": 31.5
    },
    "sire": {
     "name": "Prince Of Lir",
-    "runs": 1053,
+    "runs": 1054,
     "wins": 90,
     "places": 267,
     "win_pct": 8.5,
-    "place_pct": 25.4
+    "place_pct": 25.3
    }
   },
   {
@@ -4885,23 +4954,23 @@
    ],
    "jockey": {
     "name": "Connor Beasley",
-    "runs": 3171,
-    "wins": 373,
-    "places": 1178,
+    "runs": 3176,
+    "wins": 374,
+    "places": 1179,
     "win_pct": 11.8,
     "place_pct": 37.1
    },
    "trainer": {
     "name": "Michael Dods",
-    "runs": 3024,
-    "wins": 310,
-    "places": 992,
+    "runs": 3029,
+    "wins": 312,
+    "places": 995,
     "win_pct": 10.3,
     "place_pct": 32.8
    },
    "sire": {
     "name": "Gregorian",
-    "runs": 1234,
+    "runs": 1235,
     "wins": 123,
     "places": 359,
     "win_pct": 10.0,
@@ -4955,11 +5024,11 @@
     },
     {
      "key": "Hamilton",
-     "runs": 3,
-     "wins": 0,
-     "places": 2,
-     "win_pct": 0.0,
-     "place_pct": 66.7
+     "runs": 4,
+     "wins": 1,
+     "places": 3,
+     "win_pct": 25.0,
+     "place_pct": 75.0
     }
    ],
    "by_distance": [
@@ -4982,27 +5051,27 @@
    ],
    "jockey": {
     "name": "Lauren Young(5)",
-    "runs": 292,
+    "runs": 294,
     "wins": 33,
-    "places": 94,
-    "win_pct": 11.3,
-    "place_pct": 32.2
+    "places": 95,
+    "win_pct": 11.2,
+    "place_pct": 32.3
    },
    "trainer": {
     "name": "Jim Goldie",
-    "runs": 3228,
-    "wins": 389,
-    "places": 1061,
+    "runs": 3233,
+    "wins": 390,
+    "places": 1064,
     "win_pct": 12.1,
     "place_pct": 32.9
    },
    "sire": {
     "name": "Gleneagles",
-    "runs": 3093,
-    "wins": 350,
-    "places": 1091,
+    "runs": 3101,
+    "wins": 351,
+    "places": 1093,
     "win_pct": 11.3,
-    "place_pct": 35.3
+    "place_pct": 35.2
    }
   },
   {
@@ -5054,27 +5123,27 @@
    ],
    "jockey": {
     "name": "Sam James",
-    "runs": 2604,
-    "wins": 307,
-    "places": 920,
+    "runs": 2611,
+    "wins": 309,
+    "places": 923,
     "win_pct": 11.8,
-    "place_pct": 35.3
+    "place_pct": 35.4
    },
    "trainer": {
     "name": "Phillip Makin",
-    "runs": 888,
+    "runs": 889,
     "wins": 58,
-    "places": 241,
+    "places": 242,
     "win_pct": 6.5,
-    "place_pct": 27.1
+    "place_pct": 27.2
    },
    "sire": {
     "name": "Far Above",
-    "runs": 298,
-    "wins": 27,
-    "places": 99,
-    "win_pct": 9.1,
-    "place_pct": 33.2
+    "runs": 305,
+    "wins": 28,
+    "places": 102,
+    "win_pct": 9.2,
+    "place_pct": 33.4
    }
   },
   {
@@ -5115,7 +5184,7 @@
    ],
    "by_course": [
     {
-     "key": "Hamilton Park",
+     "key": "Hamilton",
      "runs": 2,
      "wins": 0,
      "places": 0,
@@ -5151,10 +5220,10 @@
    },
    "sire": {
     "name": "Nathaniel",
-    "runs": 4007,
-    "wins": 462,
-    "places": 1423,
-    "win_pct": 11.5,
+    "runs": 4023,
+    "wins": 465,
+    "places": 1429,
+    "win_pct": 11.6,
     "place_pct": 35.5
    }
   },
@@ -5212,7 +5281,7 @@
      "place_pct": 41.4
     },
     {
-     "key": "Carlisle",
+     "key": "Hamilton",
      "runs": 10,
      "wins": 1,
      "places": 6,
@@ -5220,12 +5289,12 @@
      "place_pct": 60.0
     },
     {
-     "key": "Hamilton",
-     "runs": 9,
+     "key": "Carlisle",
+     "runs": 10,
      "wins": 1,
-     "places": 5,
-     "win_pct": 11.1,
-     "place_pct": 55.6
+     "places": 6,
+     "win_pct": 10.0,
+     "place_pct": 60.0
     },
     {
      "key": "Redcar",
@@ -5312,25 +5381,25 @@
    ],
    "jockey": {
     "name": "Jason Hart",
-    "runs": 5093,
-    "wins": 650,
-    "places": 1874,
+    "runs": 5123,
+    "wins": 655,
+    "places": 1889,
     "win_pct": 12.8,
-    "place_pct": 36.8
+    "place_pct": 36.9
    },
    "trainer": {
     "name": "John Wainwright",
-    "runs": 601,
+    "runs": 604,
     "wins": 43,
     "places": 141,
-    "win_pct": 7.2,
-    "place_pct": 23.5
+    "win_pct": 7.1,
+    "place_pct": 23.3
    },
    "sire": {
     "name": "Dandy Man",
-    "runs": 7976,
-    "wins": 751,
-    "places": 2411,
+    "runs": 7997,
+    "wins": 752,
+    "places": 2419,
     "win_pct": 9.4,
     "place_pct": 30.2
    }
@@ -5374,7 +5443,7 @@
    "by_course": [
     {
      "key": "Hamilton",
-     "runs": 3,
+     "runs": 4,
      "wins": 0,
      "places": 0,
      "win_pct": 0.0,
@@ -5425,17 +5494,17 @@
    },
    "trainer": {
     "name": "Jim Goldie",
-    "runs": 3228,
-    "wins": 389,
-    "places": 1061,
+    "runs": 3233,
+    "wins": 390,
+    "places": 1064,
     "win_pct": 12.1,
     "place_pct": 32.9
    },
    "sire": {
     "name": "Golden Horn",
-    "runs": 2756,
+    "runs": 2765,
     "wins": 411,
-    "places": 1142,
+    "places": 1144,
     "win_pct": 14.9,
     "place_pct": 41.4
    }
@@ -5546,19 +5615,19 @@
    ],
    "jockey": {
     "name": "M. P. Sheehy",
-    "runs": 59,
-    "wins": 7,
-    "places": 17,
-    "win_pct": 11.9,
-    "place_pct": 28.8
+    "runs": 60,
+    "wins": 8,
+    "places": 18,
+    "win_pct": 13.3,
+    "place_pct": 30.0
    },
    "sire": {
     "name": "Estidhkaar",
-    "runs": 1199,
+    "runs": 1206,
     "wins": 83,
-    "places": 289,
+    "places": 292,
     "win_pct": 6.9,
-    "place_pct": 24.1
+    "place_pct": 24.2
    }
   },
   {
@@ -5627,27 +5696,27 @@
    ],
    "jockey": {
     "name": "Greg Fairley",
-    "runs": 109,
+    "runs": 115,
     "wins": 8,
-    "places": 28,
-    "win_pct": 7.3,
-    "place_pct": 25.7
+    "places": 29,
+    "win_pct": 7.0,
+    "place_pct": 25.2
    },
    "trainer": {
     "name": "Sandy Thomson",
-    "runs": 1064,
-    "wins": 143,
-    "places": 407,
-    "win_pct": 13.4,
+    "runs": 1073,
+    "wins": 145,
+    "places": 411,
+    "win_pct": 13.5,
     "place_pct": 38.3
    },
    "sire": {
     "name": "U S Navy Flag",
-    "runs": 792,
+    "runs": 793,
     "wins": 63,
     "places": 231,
-    "win_pct": 8.0,
-    "place_pct": 29.2
+    "win_pct": 7.9,
+    "place_pct": 29.1
    }
   },
   {
@@ -5700,11 +5769,11 @@
    ],
    "jockey": {
     "name": "Liam Harrison",
-    "runs": 943,
-    "wins": 122,
-    "places": 365,
+    "runs": 955,
+    "wins": 123,
+    "places": 369,
     "win_pct": 12.9,
-    "place_pct": 38.7
+    "place_pct": 38.6
    },
    "trainer": {
     "name": "David Brace",
@@ -5716,10 +5785,10 @@
    },
    "sire": {
     "name": "Jet Away",
-    "runs": 1706,
+    "runs": 1720,
     "wins": 200,
-    "places": 588,
-    "win_pct": 11.7,
+    "places": 593,
+    "win_pct": 11.6,
     "place_pct": 34.5
    }
   },
@@ -5773,27 +5842,27 @@
    ],
    "jockey": {
     "name": "Paul O'Brien",
-    "runs": 1344,
-    "wins": 173,
-    "places": 494,
-    "win_pct": 12.9,
-    "place_pct": 36.8
+    "runs": 1362,
+    "wins": 177,
+    "places": 502,
+    "win_pct": 13.0,
+    "place_pct": 36.9
    },
    "trainer": {
     "name": "Harry Derham",
-    "runs": 622,
-    "wins": 134,
-    "places": 306,
-    "win_pct": 21.5,
-    "place_pct": 49.2
+    "runs": 637,
+    "wins": 138,
+    "places": 314,
+    "win_pct": 21.7,
+    "place_pct": 49.3
    },
    "sire": {
     "name": "Masar",
-    "runs": 643,
+    "runs": 647,
     "wins": 78,
-    "places": 230,
+    "places": 231,
     "win_pct": 12.1,
-    "place_pct": 35.8
+    "place_pct": 35.7
    }
   },
   {
@@ -5808,18 +5877,27 @@
    "as_of": "2026-09-20",
    "status": "has_history",
    "career": {
-    "runs": 3,
+    "runs": 4,
     "wins": 0,
     "places": 0,
     "win_pct": 0.0,
     "place_pct": 0.0
    },
-   "by_going": [],
+   "by_going": [
+    {
+     "key": "soft",
+     "runs": 2,
+     "wins": 0,
+     "places": 0,
+     "win_pct": 0.0,
+     "place_pct": 0.0
+    }
+   ],
    "by_course": [],
    "by_distance": [
     {
      "key": "staying",
-     "runs": 3,
+     "runs": 4,
      "wins": 0,
      "places": 0,
      "win_pct": 0.0,
@@ -5836,17 +5914,17 @@
    },
    "trainer": {
     "name": "Mrs C. Williams",
-    "runs": 36,
-    "wins": 2,
-    "places": 13,
-    "win_pct": 5.6,
-    "place_pct": 36.1
+    "runs": 52,
+    "wins": 3,
+    "places": 17,
+    "win_pct": 5.8,
+    "place_pct": 32.7
    },
    "sire": {
     "name": "Getaway",
-    "runs": 7824,
-    "wins": 866,
-    "places": 2602,
+    "runs": 7872,
+    "wins": 873,
+    "places": 2622,
     "win_pct": 11.1,
     "place_pct": 33.3
    }
@@ -5925,27 +6003,27 @@
    ],
    "jockey": {
     "name": "Jonathan Burke",
-    "runs": 2547,
-    "wins": 352,
-    "places": 1030,
-    "win_pct": 13.8,
-    "place_pct": 40.4
+    "runs": 2578,
+    "wins": 359,
+    "places": 1044,
+    "win_pct": 13.9,
+    "place_pct": 40.5
    },
    "trainer": {
     "name": "James Owen",
-    "runs": 2008,
-    "wins": 339,
-    "places": 886,
+    "runs": 2048,
+    "wins": 347,
+    "places": 906,
     "win_pct": 16.9,
-    "place_pct": 44.1
+    "place_pct": 44.2
    },
    "sire": {
     "name": "Too Darn Hot",
-    "runs": 1292,
-    "wins": 192,
-    "places": 485,
-    "win_pct": 14.9,
-    "place_pct": 37.5
+    "runs": 1301,
+    "wins": 196,
+    "places": 491,
+    "win_pct": 15.1,
+    "place_pct": 37.7
    }
   },
   {
@@ -5971,11 +6049,11 @@
    "by_distance": [],
    "jockey": {
     "name": "Freddie Mitchell(3)",
-    "runs": 180,
+    "runs": 189,
     "wins": 17,
-    "places": 67,
-    "win_pct": 9.4,
-    "place_pct": 37.2
+    "places": 69,
+    "win_pct": 9.0,
+    "place_pct": 36.5
    },
    "trainer": {
     "name": "Gary & Josh Moore",
@@ -5987,11 +6065,11 @@
    },
    "sire": {
     "name": "Frontiersman",
-    "runs": 147,
+    "runs": 150,
     "wins": 24,
-    "places": 58,
-    "win_pct": 16.3,
-    "place_pct": 39.5
+    "places": 59,
+    "win_pct": 16.0,
+    "place_pct": 39.3
    }
   },
   {
@@ -6017,27 +6095,27 @@
    "by_distance": [],
    "jockey": {
     "name": "Harry Skelton",
-    "runs": 3452,
-    "wins": 742,
-    "places": 1828,
-    "win_pct": 21.5,
-    "place_pct": 53.0
+    "runs": 3487,
+    "wins": 747,
+    "places": 1845,
+    "win_pct": 21.4,
+    "place_pct": 52.9
    },
    "trainer": {
     "name": "Dan Skelton",
-    "runs": 5180,
-    "wins": 930,
-    "places": 2367,
-    "win_pct": 18.0,
-    "place_pct": 45.7
+    "runs": 5262,
+    "wins": 940,
+    "places": 2398,
+    "win_pct": 17.9,
+    "place_pct": 45.6
    },
    "sire": {
     "name": "Ectot",
-    "runs": 120,
+    "runs": 121,
     "wins": 9,
     "places": 38,
-    "win_pct": 7.5,
-    "place_pct": 31.7
+    "win_pct": 7.4,
+    "place_pct": 31.4
    }
   },
   {
@@ -6114,10 +6192,10 @@
    ],
    "jockey": {
     "name": "Caoilin Quinn",
-    "runs": 852,
-    "wins": 104,
-    "places": 331,
-    "win_pct": 12.2,
+    "runs": 878,
+    "wins": 106,
+    "places": 341,
+    "win_pct": 12.1,
     "place_pct": 38.8
    },
    "trainer": {
@@ -6130,9 +6208,9 @@
    },
    "sire": {
     "name": "Mehmas",
-    "runs": 5471,
-    "wins": 658,
-    "places": 1910,
+    "runs": 5494,
+    "wins": 660,
+    "places": 1917,
     "win_pct": 12.0,
     "place_pct": 34.9
    }
@@ -6219,25 +6297,25 @@
    ],
    "jockey": {
     "name": "Marc Goldstein",
-    "runs": 639,
+    "runs": 641,
     "wins": 54,
-    "places": 179,
-    "win_pct": 8.5,
-    "place_pct": 28.0
+    "places": 180,
+    "win_pct": 8.4,
+    "place_pct": 28.1
    },
    "trainer": {
     "name": "Sheena West",
-    "runs": 606,
+    "runs": 608,
     "wins": 61,
-    "places": 203,
-    "win_pct": 10.1,
-    "place_pct": 33.5
+    "places": 204,
+    "win_pct": 10.0,
+    "place_pct": 33.6
    },
    "sire": {
     "name": "Bungle Inthejungle",
-    "runs": 2673,
-    "wins": 240,
-    "places": 766,
+    "runs": 2677,
+    "wins": 241,
+    "places": 767,
     "win_pct": 9.0,
     "place_pct": 28.7
    }
@@ -6292,27 +6370,27 @@
    ],
    "jockey": {
     "name": "Sean Bowen",
-    "runs": 3891,
-    "wins": 748,
-    "places": 1754,
+    "runs": 3938,
+    "wins": 756,
+    "places": 1778,
     "win_pct": 19.2,
     "place_pct": 45.1
    },
    "trainer": {
     "name": "Nick Scholfield",
-    "runs": 109,
-    "wins": 22,
-    "places": 57,
-    "win_pct": 20.2,
-    "place_pct": 52.3
+    "runs": 119,
+    "wins": 26,
+    "places": 63,
+    "win_pct": 21.8,
+    "place_pct": 52.9
    },
    "sire": {
     "name": "Lucky Speed",
-    "runs": 280,
+    "runs": 281,
     "wins": 14,
-    "places": 61,
+    "places": 62,
     "win_pct": 5.0,
-    "place_pct": 21.8
+    "place_pct": 22.1
    }
   },
   {
@@ -6355,19 +6433,19 @@
    },
    "trainer": {
     "name": "Mickey Bowen",
-    "runs": 144,
+    "runs": 153,
     "wins": 19,
-    "places": 60,
-    "win_pct": 13.2,
-    "place_pct": 41.7
+    "places": 62,
+    "win_pct": 12.4,
+    "place_pct": 40.5
    },
    "sire": {
     "name": "Too Darn Hot",
-    "runs": 1292,
-    "wins": 192,
-    "places": 485,
-    "win_pct": 14.9,
-    "place_pct": 37.5
+    "runs": 1301,
+    "wins": 196,
+    "places": 491,
+    "win_pct": 15.1,
+    "place_pct": 37.7
    }
   },
   {
@@ -6422,6 +6500,14 @@
      "places": 1,
      "win_pct": 50.0,
      "place_pct": 50.0
+    },
+    {
+     "key": "Kempton (AW)",
+     "runs": 2,
+     "wins": 0,
+     "places": 1,
+     "win_pct": 0.0,
+     "place_pct": 50.0
     }
    ],
    "by_distance": [
@@ -6452,18 +6538,18 @@
    ],
    "jockey": {
     "name": "James Bowen",
-    "runs": 2313,
-    "wins": 334,
-    "places": 1026,
+    "runs": 2343,
+    "wins": 338,
+    "places": 1037,
     "win_pct": 14.4,
-    "place_pct": 44.4
+    "place_pct": 44.3
    },
    "trainer": {
     "name": "Warren Greatrex",
-    "runs": 1542,
+    "runs": 1553,
     "wins": 156,
-    "places": 572,
-    "win_pct": 10.1,
+    "places": 576,
+    "win_pct": 10.0,
     "place_pct": 37.1
    },
    "sire": {
@@ -6516,27 +6602,27 @@
    ],
    "jockey": {
     "name": "David Bass",
-    "runs": 1611,
-    "wins": 227,
-    "places": 610,
+    "runs": 1622,
+    "wins": 228,
+    "places": 613,
     "win_pct": 14.1,
-    "place_pct": 37.9
+    "place_pct": 37.8
    },
    "trainer": {
     "name": "Max Comley",
-    "runs": 115,
-    "wins": 8,
-    "places": 32,
-    "win_pct": 7.0,
-    "place_pct": 27.8
+    "runs": 122,
+    "wins": 9,
+    "places": 34,
+    "win_pct": 7.4,
+    "place_pct": 27.9
    },
    "sire": {
     "name": "Frontiersman",
-    "runs": 147,
+    "runs": 150,
     "wins": 24,
-    "places": 58,
-    "win_pct": 16.3,
-    "place_pct": 39.5
+    "places": 59,
+    "win_pct": 16.0,
+    "place_pct": 39.3
    }
   },
   {
@@ -6571,27 +6657,27 @@
    ],
    "jockey": {
     "name": "Mr James King(3)",
-    "runs": 209,
+    "runs": 213,
     "wins": 22,
     "places": 65,
-    "win_pct": 10.5,
-    "place_pct": 31.1
+    "win_pct": 10.3,
+    "place_pct": 30.5
    },
    "trainer": {
     "name": "Tom George",
-    "runs": 1046,
+    "runs": 1050,
     "wins": 114,
-    "places": 384,
+    "places": 386,
     "win_pct": 10.9,
-    "place_pct": 36.7
+    "place_pct": 36.8
    },
    "sire": {
     "name": "Bathyrhon",
-    "runs": 278,
+    "runs": 283,
     "wins": 37,
-    "places": 110,
-    "win_pct": 13.3,
-    "place_pct": 39.6
+    "places": 111,
+    "win_pct": 13.1,
+    "place_pct": 39.2
    }
   },
   {
@@ -6635,17 +6721,17 @@
    ],
    "jockey": {
     "name": "Conor O'Farrell",
-    "runs": 1943,
-    "wins": 213,
-    "places": 686,
+    "runs": 1960,
+    "wins": 215,
+    "places": 694,
     "win_pct": 11.0,
-    "place_pct": 35.3
+    "place_pct": 35.4
    },
    "trainer": {
     "name": "David Pipe",
-    "runs": 2698,
-    "wins": 368,
-    "places": 1005,
+    "runs": 2718,
+    "wins": 371,
+    "places": 1010,
     "win_pct": 13.6,
     "place_pct": 37.2
    },
@@ -6740,25 +6826,25 @@
    ],
    "jockey": {
     "name": "Harry Skelton",
-    "runs": 3452,
-    "wins": 742,
-    "places": 1828,
-    "win_pct": 21.5,
-    "place_pct": 53.0
+    "runs": 3487,
+    "wins": 747,
+    "places": 1845,
+    "win_pct": 21.4,
+    "place_pct": 52.9
    },
    "trainer": {
     "name": "Dan Skelton",
-    "runs": 5180,
-    "wins": 930,
-    "places": 2367,
-    "win_pct": 18.0,
-    "place_pct": 45.7
+    "runs": 5262,
+    "wins": 940,
+    "places": 2398,
+    "win_pct": 17.9,
+    "place_pct": 45.6
    },
    "sire": {
     "name": "Milan",
-    "runs": 5692,
-    "wins": 580,
-    "places": 1808,
+    "runs": 5716,
+    "wins": 583,
+    "places": 1817,
     "win_pct": 10.2,
     "place_pct": 31.8
    }
@@ -6775,11 +6861,11 @@
    "as_of": "2026-09-20",
    "status": "has_history",
    "career": {
-    "runs": 4,
+    "runs": 5,
     "wins": 1,
     "places": 2,
-    "win_pct": 25.0,
-    "place_pct": 50.0
+    "win_pct": 20.0,
+    "place_pct": 40.0
    },
    "by_going": [
     {
@@ -6789,6 +6875,14 @@
      "places": 2,
      "win_pct": 33.3,
      "place_pct": 66.7
+    },
+    {
+     "key": "soft",
+     "runs": 2,
+     "wins": 0,
+     "places": 0,
+     "win_pct": 0.0,
+     "place_pct": 0.0
     }
    ],
    "by_course": [
@@ -6799,41 +6893,49 @@
      "places": 2,
      "win_pct": 33.3,
      "place_pct": 66.7
+    },
+    {
+     "key": "Taunton",
+     "runs": 2,
+     "wins": 0,
+     "places": 0,
+     "win_pct": 0.0,
+     "place_pct": 0.0
     }
    ],
    "by_distance": [
     {
      "key": "staying",
-     "runs": 4,
+     "runs": 5,
      "wins": 1,
      "places": 2,
-     "win_pct": 25.0,
-     "place_pct": 50.0
+     "win_pct": 20.0,
+     "place_pct": 40.0
     }
    ],
    "jockey": {
     "name": "Sean Bowen",
-    "runs": 3891,
-    "wins": 748,
-    "places": 1754,
+    "runs": 3938,
+    "wins": 756,
+    "places": 1778,
     "win_pct": 19.2,
     "place_pct": 45.1
    },
    "trainer": {
     "name": "David Pipe",
-    "runs": 2698,
-    "wins": 368,
-    "places": 1005,
+    "runs": 2718,
+    "wins": 371,
+    "places": 1010,
     "win_pct": 13.6,
     "place_pct": 37.2
    },
    "sire": {
     "name": "Storm The Stars",
-    "runs": 56,
+    "runs": 58,
     "wins": 13,
-    "places": 32,
-    "win_pct": 23.2,
-    "place_pct": 57.1
+    "places": 33,
+    "win_pct": 22.4,
+    "place_pct": 56.9
    }
   },
   {
@@ -6877,27 +6979,27 @@
    ],
    "jockey": {
     "name": "Freddie Gordon",
-    "runs": 347,
-    "wins": 55,
-    "places": 149,
-    "win_pct": 15.9,
-    "place_pct": 42.9
+    "runs": 361,
+    "wins": 57,
+    "places": 153,
+    "win_pct": 15.8,
+    "place_pct": 42.4
    },
    "trainer": {
     "name": "Chris Gordon",
-    "runs": 1498,
-    "wins": 224,
-    "places": 605,
+    "runs": 1515,
+    "wins": 227,
+    "places": 610,
     "win_pct": 15.0,
-    "place_pct": 40.4
+    "place_pct": 40.3
    },
    "sire": {
     "name": "Cima De Triomphe",
-    "runs": 85,
-    "wins": 13,
-    "places": 30,
-    "win_pct": 15.3,
-    "place_pct": 35.3
+    "runs": 86,
+    "wins": 14,
+    "places": 31,
+    "win_pct": 16.3,
+    "place_pct": 36.0
    }
   },
   {
@@ -6974,25 +7076,25 @@
    ],
    "jockey": {
     "name": "Miss Eleanor Williams(7)",
-    "runs": 106,
+    "runs": 107,
     "wins": 3,
     "places": 26,
     "win_pct": 2.8,
-    "place_pct": 24.5
+    "place_pct": 24.3
    },
    "trainer": {
     "name": "Mrs C. Williams",
-    "runs": 36,
-    "wins": 2,
-    "places": 13,
-    "win_pct": 5.6,
-    "place_pct": 36.1
+    "runs": 52,
+    "wins": 3,
+    "places": 17,
+    "win_pct": 5.8,
+    "place_pct": 32.7
    },
    "sire": {
     "name": "Getaway",
-    "runs": 7824,
-    "wins": 866,
-    "places": 2602,
+    "runs": 7872,
+    "wins": 873,
+    "places": 2622,
     "win_pct": 11.1,
     "place_pct": 33.3
    }
@@ -7127,15 +7229,15 @@
    ],
    "jockey": {
     "name": "Isabelle Ryder(5)",
-    "runs": 145,
+    "runs": 150,
     "wins": 14,
-    "places": 51,
-    "win_pct": 9.7,
-    "place_pct": 35.2
+    "places": 54,
+    "win_pct": 9.3,
+    "place_pct": 36.0
    },
    "trainer": {
     "name": "Alexandra Dunn",
-    "runs": 1020,
+    "runs": 1022,
     "wins": 63,
     "places": 237,
     "win_pct": 6.2,
@@ -7143,11 +7245,11 @@
    },
    "sire": {
     "name": "Showcasing",
-    "runs": 5657,
-    "wins": 574,
-    "places": 1683,
-    "win_pct": 10.1,
-    "place_pct": 29.8
+    "runs": 5674,
+    "wins": 576,
+    "places": 1688,
+    "win_pct": 10.2,
+    "place_pct": 29.7
    }
   },
   {
@@ -7181,11 +7283,11 @@
    "by_course": [
     {
      "key": "Stratford",
-     "runs": 2,
+     "runs": 3,
      "wins": 1,
      "places": 2,
-     "win_pct": 50.0,
-     "place_pct": 100.0
+     "win_pct": 33.3,
+     "place_pct": 66.7
     }
    ],
    "by_distance": [
@@ -7200,27 +7302,27 @@
    ],
    "jockey": {
     "name": "David Bass",
-    "runs": 1611,
-    "wins": 227,
-    "places": 610,
+    "runs": 1622,
+    "wins": 228,
+    "places": 613,
     "win_pct": 14.1,
-    "place_pct": 37.9
+    "place_pct": 37.8
    },
    "trainer": {
     "name": "Max Comley",
-    "runs": 115,
-    "wins": 8,
-    "places": 32,
-    "win_pct": 7.0,
-    "place_pct": 27.8
+    "runs": 122,
+    "wins": 9,
+    "places": 34,
+    "win_pct": 7.4,
+    "place_pct": 27.9
    },
    "sire": {
     "name": "Buck's Boum",
-    "runs": 658,
+    "runs": 665,
     "wins": 80,
-    "places": 221,
-    "win_pct": 12.2,
-    "place_pct": 33.6
+    "places": 222,
+    "win_pct": 12.0,
+    "place_pct": 33.4
    }
   },
   {
@@ -7262,11 +7364,11 @@
    "by_course": [
     {
      "key": "Fontwell",
-     "runs": 6,
+     "runs": 7,
      "wins": 0,
      "places": 3,
      "win_pct": 0.0,
-     "place_pct": 50.0
+     "place_pct": 42.9
     }
    ],
    "by_distance": [
@@ -7281,11 +7383,11 @@
    ],
    "jockey": {
     "name": "Marc Goldstein",
-    "runs": 639,
+    "runs": 641,
     "wins": 54,
-    "places": 179,
-    "win_pct": 8.5,
-    "place_pct": 28.0
+    "places": 180,
+    "win_pct": 8.4,
+    "place_pct": 28.1
    },
    "trainer": {
     "name": "Michelle Bryant",
@@ -7297,11 +7399,11 @@
    },
    "sire": {
     "name": "Fame And Glory",
-    "runs": 5382,
-    "wins": 681,
-    "places": 1909,
-    "win_pct": 12.7,
-    "place_pct": 35.5
+    "runs": 5403,
+    "wins": 682,
+    "places": 1914,
+    "win_pct": 12.6,
+    "place_pct": 35.4
    }
   },
   {
@@ -7370,25 +7472,25 @@
    ],
    "jockey": {
     "name": "Harry Skelton",
-    "runs": 3452,
-    "wins": 742,
-    "places": 1828,
-    "win_pct": 21.5,
-    "place_pct": 53.0
+    "runs": 3487,
+    "wins": 747,
+    "places": 1845,
+    "win_pct": 21.4,
+    "place_pct": 52.9
    },
    "trainer": {
     "name": "Dan Skelton",
-    "runs": 5180,
-    "wins": 930,
-    "places": 2367,
-    "win_pct": 18.0,
-    "place_pct": 45.7
+    "runs": 5262,
+    "wins": 940,
+    "places": 2398,
+    "win_pct": 17.9,
+    "place_pct": 45.6
    },
    "sire": {
     "name": "Almanzor",
-    "runs": 750,
+    "runs": 754,
     "wins": 91,
-    "places": 253,
+    "places": 254,
     "win_pct": 12.1,
     "place_pct": 33.7
    }
@@ -7434,27 +7536,27 @@
    ],
    "jockey": {
     "name": "Harry Cobden",
-    "runs": 3309,
-    "wins": 739,
-    "places": 1717,
+    "runs": 3350,
+    "wins": 746,
+    "places": 1732,
     "win_pct": 22.3,
-    "place_pct": 51.9
+    "place_pct": 51.7
    },
    "trainer": {
     "name": "Ben Pauling",
-    "runs": 2304,
-    "wins": 347,
-    "places": 942,
+    "runs": 2330,
+    "wins": 352,
+    "places": 948,
     "win_pct": 15.1,
-    "place_pct": 40.9
+    "place_pct": 40.7
    },
    "sire": {
     "name": "Clovis Du Berlais",
-    "runs": 373,
-    "wins": 34,
-    "places": 122,
-    "win_pct": 9.1,
-    "place_pct": 32.7
+    "runs": 376,
+    "wins": 35,
+    "places": 124,
+    "win_pct": 9.3,
+    "place_pct": 33.0
    }
   },
   {
@@ -7469,16 +7571,16 @@
    "as_of": "2026-09-20",
    "status": "has_history",
    "career": {
-    "runs": 9,
+    "runs": 10,
     "wins": 0,
     "places": 1,
     "win_pct": 0.0,
-    "place_pct": 11.1
+    "place_pct": 10.0
    },
    "by_going": [
     {
      "key": "soft",
-     "runs": 5,
+     "runs": 6,
      "wins": 0,
      "places": 0,
      "win_pct": 0.0,
@@ -7530,36 +7632,36 @@
    "by_distance": [
     {
      "key": "staying",
-     "runs": 9,
+     "runs": 10,
      "wins": 0,
      "places": 1,
      "win_pct": 0.0,
-     "place_pct": 11.1
+     "place_pct": 10.0
     }
    ],
    "jockey": {
     "name": "Harry Kimber",
-    "runs": 877,
-    "wins": 101,
-    "places": 264,
-    "win_pct": 11.5,
-    "place_pct": 30.1
+    "runs": 884,
+    "wins": 103,
+    "places": 269,
+    "win_pct": 11.7,
+    "place_pct": 30.4
    },
    "trainer": {
     "name": "Faye Bramley",
-    "runs": 146,
+    "runs": 152,
     "wins": 23,
-    "places": 48,
-    "win_pct": 15.8,
-    "place_pct": 32.9
+    "places": 49,
+    "win_pct": 15.1,
+    "place_pct": 32.2
    },
    "sire": {
     "name": "Zoffany",
-    "runs": 5423,
-    "wins": 532,
-    "places": 1732,
+    "runs": 5430,
+    "wins": 533,
+    "places": 1735,
     "win_pct": 9.8,
-    "place_pct": 31.9
+    "place_pct": 32.0
    }
   },
   {
@@ -7611,27 +7713,27 @@
    ],
    "jockey": {
     "name": "Stan Sheppard",
-    "runs": 1214,
+    "runs": 1222,
     "wins": 184,
-    "places": 486,
-    "win_pct": 15.2,
-    "place_pct": 40.0
+    "places": 487,
+    "win_pct": 15.1,
+    "place_pct": 39.9
    },
    "trainer": {
     "name": "Tom Lacey",
-    "runs": 1328,
+    "runs": 1335,
     "wins": 212,
-    "places": 551,
-    "win_pct": 16.0,
-    "place_pct": 41.5
+    "places": 552,
+    "win_pct": 15.9,
+    "place_pct": 41.3
    },
    "sire": {
     "name": "Authorized",
-    "runs": 2074,
+    "runs": 2087,
     "wins": 301,
-    "places": 820,
-    "win_pct": 14.5,
-    "place_pct": 39.5
+    "places": 822,
+    "win_pct": 14.4,
+    "place_pct": 39.4
    }
   },
   {
@@ -7646,11 +7748,11 @@
    "as_of": "2026-09-20",
    "status": "has_history",
    "career": {
-    "runs": 22,
+    "runs": 23,
     "wins": 3,
-    "places": 10,
-    "win_pct": 13.6,
-    "place_pct": 45.5
+    "places": 11,
+    "win_pct": 13.0,
+    "place_pct": 47.8
    },
    "by_going": [
     {
@@ -7663,21 +7765,21 @@
     },
     {
      "key": "soft",
-     "runs": 9,
+     "runs": 10,
      "wins": 0,
-     "places": 4,
+     "places": 5,
      "win_pct": 0.0,
-     "place_pct": 44.4
+     "place_pct": 50.0
     }
    ],
    "by_course": [
     {
      "key": "Kempton (AW)",
-     "runs": 5,
+     "runs": 6,
      "wins": 0,
      "places": 2,
      "win_pct": 0.0,
-     "place_pct": 40.0
+     "place_pct": 33.3
     },
     {
      "key": "Windsor",
@@ -7714,20 +7816,20 @@
      "place_pct": 42.9
     },
     {
+     "key": "staying",
+     "runs": 7,
+     "wins": 1,
+     "places": 5,
+     "win_pct": 14.3,
+     "place_pct": 71.4
+    },
+    {
      "key": "middle",
      "runs": 6,
      "wins": 0,
      "places": 2,
      "win_pct": 0.0,
      "place_pct": 33.3
-    },
-    {
-     "key": "staying",
-     "runs": 6,
-     "wins": 1,
-     "places": 4,
-     "win_pct": 16.7,
-     "place_pct": 66.7
     },
     {
      "key": "sprint",
@@ -7740,25 +7842,25 @@
    ],
    "jockey": {
     "name": "Fern O'Brien(5)",
-    "runs": 201,
-    "wins": 23,
-    "places": 76,
-    "win_pct": 11.4,
-    "place_pct": 37.8
+    "runs": 207,
+    "wins": 24,
+    "places": 80,
+    "win_pct": 11.6,
+    "place_pct": 38.6
    },
    "trainer": {
     "name": "Chris Gordon",
-    "runs": 1498,
-    "wins": 224,
-    "places": 605,
+    "runs": 1515,
+    "wins": 227,
+    "places": 610,
     "win_pct": 15.0,
-    "place_pct": 40.4
+    "place_pct": 40.3
    },
    "sire": {
     "name": "Fast Company",
-    "runs": 3583,
-    "wins": 326,
-    "places": 999,
+    "runs": 3587,
+    "wins": 327,
+    "places": 1002,
     "win_pct": 9.1,
     "place_pct": 27.9
    }
@@ -7831,6 +7933,14 @@
      "places": 1,
      "win_pct": 0.0,
      "place_pct": 50.0
+    },
+    {
+     "key": "Stratford",
+     "runs": 2,
+     "wins": 0,
+     "places": 2,
+     "win_pct": 0.0,
+     "place_pct": 100.0
     }
    ],
    "by_distance": [
@@ -7845,19 +7955,19 @@
    ],
    "jockey": {
     "name": "Benjamin Macey(5)",
-    "runs": 155,
-    "wins": 15,
-    "places": 61,
-    "win_pct": 9.7,
-    "place_pct": 39.4
+    "runs": 166,
+    "wins": 17,
+    "places": 63,
+    "win_pct": 10.2,
+    "place_pct": 38.0
    },
    "sire": {
     "name": "Yorgunnabelucky",
-    "runs": 786,
-    "wins": 94,
-    "places": 251,
-    "win_pct": 12.0,
-    "place_pct": 31.9
+    "runs": 791,
+    "wins": 96,
+    "places": 254,
+    "win_pct": 12.1,
+    "place_pct": 32.1
    }
   },
   {
@@ -7872,11 +7982,11 @@
    "as_of": "2026-09-20",
    "status": "has_history",
    "career": {
-    "runs": 44,
+    "runs": 45,
     "wins": 10,
-    "places": 19,
-    "win_pct": 22.7,
-    "place_pct": 43.2
+    "places": 20,
+    "win_pct": 22.2,
+    "place_pct": 44.4
    },
    "by_going": [
     {
@@ -7889,11 +7999,11 @@
     },
     {
      "key": "soft",
-     "runs": 12,
+     "runs": 13,
      "wins": 7,
-     "places": 8,
-     "win_pct": 58.3,
-     "place_pct": 66.7
+     "places": 9,
+     "win_pct": 53.8,
+     "place_pct": 69.2
     },
     {
      "key": "heavy",
@@ -7922,19 +8032,19 @@
      "place_pct": 0.0
     },
     {
+     "key": "Fontwell",
+     "runs": 5,
+     "wins": 1,
+     "places": 3,
+     "win_pct": 20.0,
+     "place_pct": 60.0
+    },
+    {
      "key": "Huntingdon",
      "runs": 3,
      "wins": 0,
      "places": 2,
      "win_pct": 0.0,
-     "place_pct": 66.7
-    },
-    {
-     "key": "Fontwell",
-     "runs": 3,
-     "wins": 1,
-     "places": 2,
-     "win_pct": 33.3,
      "place_pct": 66.7
     },
     {
@@ -7973,11 +8083,11 @@
    "by_distance": [
     {
      "key": "staying",
-     "runs": 41,
+     "runs": 42,
      "wins": 9,
-     "places": 17,
-     "win_pct": 22.0,
-     "place_pct": 41.5
+     "places": 18,
+     "win_pct": 21.4,
+     "place_pct": 42.9
     },
     {
      "key": "middle",
@@ -7990,10 +8100,10 @@
    ],
    "jockey": {
     "name": "Caoilin Quinn",
-    "runs": 852,
-    "wins": 104,
-    "places": 331,
-    "win_pct": 12.2,
+    "runs": 878,
+    "wins": 106,
+    "places": 341,
+    "win_pct": 12.1,
     "place_pct": 38.8
    },
    "trainer": {
@@ -8006,11 +8116,11 @@
    },
    "sire": {
     "name": "Born To Sea",
-    "runs": 2021,
+    "runs": 2025,
     "wins": 197,
-    "places": 617,
+    "places": 619,
     "win_pct": 9.7,
-    "place_pct": 30.5
+    "place_pct": 30.6
    }
   },
   {
@@ -8025,11 +8135,11 @@
    "as_of": "2026-09-20",
    "status": "has_history",
    "career": {
-    "runs": 6,
+    "runs": 7,
     "wins": 2,
     "places": 2,
-    "win_pct": 33.3,
-    "place_pct": 33.3
+    "win_pct": 28.6,
+    "place_pct": 28.6
    },
    "by_going": [
     {
@@ -8042,6 +8152,14 @@
     }
    ],
    "by_course": [
+    {
+     "key": "Huntingdon",
+     "runs": 2,
+     "wins": 0,
+     "places": 0,
+     "win_pct": 0.0,
+     "place_pct": 0.0
+    },
     {
      "key": "Ludlow",
      "runs": 2,
@@ -8062,32 +8180,32 @@
    "by_distance": [
     {
      "key": "staying",
-     "runs": 6,
+     "runs": 7,
      "wins": 2,
      "places": 2,
-     "win_pct": 33.3,
-     "place_pct": 33.3
+     "win_pct": 28.6,
+     "place_pct": 28.6
     }
    ],
    "jockey": {
     "name": "Beau Morgan(5)",
-    "runs": 267,
+    "runs": 273,
     "wins": 36,
-    "places": 114,
-    "win_pct": 13.5,
-    "place_pct": 42.7
+    "places": 115,
+    "win_pct": 13.2,
+    "place_pct": 42.1
    },
    "trainer": {
     "name": "D. J. Jeffreys",
-    "runs": 747,
+    "runs": 754,
     "wins": 60,
     "places": 208,
     "win_pct": 8.0,
-    "place_pct": 27.8
+    "place_pct": 27.6
    },
    "sire": {
     "name": "Farhh",
-    "runs": 1079,
+    "runs": 1080,
     "wins": 141,
     "places": 391,
     "win_pct": 13.1,
@@ -8106,11 +8224,11 @@
    "as_of": "2026-09-20",
    "status": "has_history",
    "career": {
-    "runs": 23,
+    "runs": 24,
     "wins": 2,
-    "places": 10,
-    "win_pct": 8.7,
-    "place_pct": 43.5
+    "places": 11,
+    "win_pct": 8.3,
+    "place_pct": 45.8
    },
    "by_going": [
     {
@@ -8123,11 +8241,11 @@
     },
     {
      "key": "soft",
-     "runs": 7,
+     "runs": 8,
      "wins": 1,
-     "places": 5,
-     "win_pct": 14.3,
-     "place_pct": 71.4
+     "places": 6,
+     "win_pct": 12.5,
+     "place_pct": 75.0
     },
     {
      "key": "heavy",
@@ -8141,11 +8259,11 @@
    "by_course": [
     {
      "key": "Plumpton",
-     "runs": 9,
+     "runs": 10,
      "wins": 2,
-     "places": 6,
-     "win_pct": 22.2,
-     "place_pct": 66.7
+     "places": 7,
+     "win_pct": 20.0,
+     "place_pct": 70.0
     },
     {
      "key": "Stratford",
@@ -8157,21 +8275,21 @@
     },
     {
      "key": "Lingfield (AW)",
-     "runs": 2,
+     "runs": 3,
      "wins": 0,
      "places": 1,
      "win_pct": 0.0,
-     "place_pct": 50.0
+     "place_pct": 33.3
     }
    ],
    "by_distance": [
     {
      "key": "staying",
-     "runs": 21,
+     "runs": 22,
      "wins": 2,
-     "places": 10,
-     "win_pct": 9.5,
-     "place_pct": 47.6
+     "places": 11,
+     "win_pct": 9.1,
+     "place_pct": 50.0
     },
     {
      "key": "middle",
@@ -8184,27 +8302,27 @@
    ],
    "jockey": {
     "name": "Marc Goldstein",
-    "runs": 639,
+    "runs": 641,
     "wins": 54,
-    "places": 179,
-    "win_pct": 8.5,
-    "place_pct": 28.0
+    "places": 180,
+    "win_pct": 8.4,
+    "place_pct": 28.1
    },
    "trainer": {
     "name": "Sheena West",
-    "runs": 606,
+    "runs": 608,
     "wins": 61,
-    "places": 203,
-    "win_pct": 10.1,
-    "place_pct": 33.5
+    "places": 204,
+    "win_pct": 10.0,
+    "place_pct": 33.6
    },
    "sire": {
     "name": "Sixties Icon",
-    "runs": 2419,
-    "wins": 244,
-    "places": 763,
+    "runs": 2420,
+    "wins": 245,
+    "places": 764,
     "win_pct": 10.1,
-    "place_pct": 31.5
+    "place_pct": 31.6
    }
   },
   {
@@ -8219,20 +8337,20 @@
    "as_of": "2026-09-20",
    "status": "has_history",
    "career": {
-    "runs": 51,
+    "runs": 52,
     "wins": 5,
     "places": 19,
-    "win_pct": 9.8,
-    "place_pct": 37.3
+    "win_pct": 9.6,
+    "place_pct": 36.5
    },
    "by_going": [
     {
      "key": "soft",
-     "runs": 29,
+     "runs": 30,
      "wins": 2,
      "places": 11,
-     "win_pct": 6.9,
-     "place_pct": 37.9
+     "win_pct": 6.7,
+     "place_pct": 36.7
     },
     {
      "key": "good",
@@ -8320,36 +8438,36 @@
    "by_distance": [
     {
      "key": "staying",
-     "runs": 51,
+     "runs": 52,
      "wins": 5,
      "places": 19,
-     "win_pct": 9.8,
-     "place_pct": 37.3
+     "win_pct": 9.6,
+     "place_pct": 36.5
     }
    ],
    "jockey": {
     "name": "Freddie Mitchell(3)",
-    "runs": 180,
+    "runs": 189,
     "wins": 17,
-    "places": 67,
-    "win_pct": 9.4,
-    "place_pct": 37.2
+    "places": 69,
+    "win_pct": 9.0,
+    "place_pct": 36.5
    },
    "trainer": {
     "name": "Cynthia Woods",
-    "runs": 160,
+    "runs": 162,
     "wins": 2,
     "places": 16,
     "win_pct": 1.2,
-    "place_pct": 10.0
+    "place_pct": 9.9
    },
    "sire": {
     "name": "Westerner",
-    "runs": 4845,
-    "wins": 586,
-    "places": 1692,
+    "runs": 4876,
+    "wins": 589,
+    "places": 1705,
     "win_pct": 12.1,
-    "place_pct": 34.9
+    "place_pct": 35.0
    }
   },
   {
@@ -8393,27 +8511,27 @@
    ],
    "jockey": {
     "name": "Freddie Gordon",
-    "runs": 347,
-    "wins": 55,
-    "places": 149,
-    "win_pct": 15.9,
-    "place_pct": 42.9
+    "runs": 361,
+    "wins": 57,
+    "places": 153,
+    "win_pct": 15.8,
+    "place_pct": 42.4
    },
    "trainer": {
     "name": "Chris Gordon",
-    "runs": 1498,
-    "wins": 224,
-    "places": 605,
+    "runs": 1515,
+    "wins": 227,
+    "places": 610,
     "win_pct": 15.0,
-    "place_pct": 40.4
+    "place_pct": 40.3
    },
    "sire": {
     "name": "Khalkevi",
-    "runs": 193,
-    "wins": 21,
-    "places": 64,
-    "win_pct": 10.9,
-    "place_pct": 33.2
+    "runs": 194,
+    "wins": 22,
+    "places": 65,
+    "win_pct": 11.3,
+    "place_pct": 33.5
    }
   },
   {
@@ -8465,11 +8583,11 @@
    ],
    "jockey": {
     "name": "Brendan Powell",
-    "runs": 2369,
-    "wins": 277,
-    "places": 879,
-    "win_pct": 11.7,
-    "place_pct": 37.1
+    "runs": 2392,
+    "wins": 278,
+    "places": 886,
+    "win_pct": 11.6,
+    "place_pct": 37.0
    },
    "trainer": {
     "name": "Clare Ellam",
@@ -8481,11 +8599,11 @@
    },
    "sire": {
     "name": "Brave Mansonnien",
-    "runs": 165,
+    "runs": 166,
     "wins": 25,
-    "places": 60,
-    "win_pct": 15.2,
-    "place_pct": 36.4
+    "places": 61,
+    "win_pct": 15.1,
+    "place_pct": 36.7
    }
   },
   {
@@ -8526,6 +8644,14 @@
    ],
    "by_course": [
     {
+     "key": "Stratford",
+     "runs": 3,
+     "wins": 0,
+     "places": 0,
+     "win_pct": 0.0,
+     "place_pct": 0.0
+    },
+    {
      "key": "Fakenham",
      "runs": 3,
      "wins": 0,
@@ -8535,14 +8661,6 @@
     },
     {
      "key": "Southwell",
-     "runs": 2,
-     "wins": 0,
-     "places": 0,
-     "win_pct": 0.0,
-     "place_pct": 0.0
-    },
-    {
-     "key": "Stratford",
      "runs": 2,
      "wins": 0,
      "places": 0,
@@ -8562,26 +8680,26 @@
    ],
    "jockey": {
     "name": "Oscar Palmer(7)",
-    "runs": 90,
+    "runs": 94,
     "wins": 8,
     "places": 33,
-    "win_pct": 8.9,
-    "place_pct": 36.7
+    "win_pct": 8.5,
+    "place_pct": 35.1
    },
    "trainer": {
     "name": "Tracey Leeson",
-    "runs": 152,
+    "runs": 153,
     "wins": 3,
     "places": 17,
     "win_pct": 2.0,
-    "place_pct": 11.2
+    "place_pct": 11.1
    },
    "sire": {
     "name": "Casamento",
-    "runs": 1496,
-    "wins": 96,
-    "places": 365,
-    "win_pct": 6.4,
+    "runs": 1502,
+    "wins": 97,
+    "places": 366,
+    "win_pct": 6.5,
     "place_pct": 24.4
    }
   },
@@ -8608,26 +8726,26 @@
    "by_distance": [],
    "jockey": {
     "name": "Harry Cobden",
-    "runs": 3309,
-    "wins": 739,
-    "places": 1717,
+    "runs": 3350,
+    "wins": 746,
+    "places": 1732,
     "win_pct": 22.3,
-    "place_pct": 51.9
+    "place_pct": 51.7
    },
    "trainer": {
     "name": "Charlie Longsdon",
-    "runs": 1657,
-    "wins": 213,
-    "places": 622,
+    "runs": 1673,
+    "wins": 216,
+    "places": 632,
     "win_pct": 12.9,
-    "place_pct": 37.5
+    "place_pct": 37.8
    },
    "sire": {
     "name": "Maxios",
-    "runs": 1109,
-    "wins": 129,
-    "places": 410,
-    "win_pct": 11.6,
+    "runs": 1117,
+    "wins": 131,
+    "places": 413,
+    "win_pct": 11.7,
     "place_pct": 37.0
    }
   },
@@ -8688,11 +8806,11 @@
    },
    "sire": {
     "name": "Frontiersman",
-    "runs": 147,
+    "runs": 150,
     "wins": 24,
-    "places": 58,
-    "win_pct": 16.3,
-    "place_pct": 39.5
+    "places": 59,
+    "win_pct": 16.0,
+    "place_pct": 39.3
    }
   },
   {
@@ -8736,11 +8854,11 @@
    ],
    "jockey": {
     "name": "Marc Goldstein",
-    "runs": 639,
+    "runs": 641,
     "wins": 54,
-    "places": 179,
-    "win_pct": 8.5,
-    "place_pct": 28.0
+    "places": 180,
+    "win_pct": 8.4,
+    "place_pct": 28.1
    },
    "trainer": {
     "name": "Paddy Butler",
@@ -8752,10 +8870,10 @@
    },
    "sire": {
     "name": "Diamond Boy",
-    "runs": 1404,
-    "wins": 157,
-    "places": 499,
-    "win_pct": 11.2,
+    "runs": 1427,
+    "wins": 158,
+    "places": 507,
+    "win_pct": 11.1,
     "place_pct": 35.5
    }
   },
@@ -8782,27 +8900,27 @@
    "by_distance": [],
    "jockey": {
     "name": "David Bass",
-    "runs": 1611,
-    "wins": 227,
-    "places": 610,
+    "runs": 1622,
+    "wins": 228,
+    "places": 613,
     "win_pct": 14.1,
-    "place_pct": 37.9
+    "place_pct": 37.8
    },
    "trainer": {
     "name": "Max Comley",
-    "runs": 115,
-    "wins": 8,
-    "places": 32,
-    "win_pct": 7.0,
-    "place_pct": 27.8
+    "runs": 122,
+    "wins": 9,
+    "places": 34,
+    "win_pct": 7.4,
+    "place_pct": 27.9
    },
    "sire": {
     "name": "Kap Rock",
-    "runs": 250,
+    "runs": 251,
     "wins": 24,
-    "places": 90,
+    "places": 91,
     "win_pct": 9.6,
-    "place_pct": 36.0
+    "place_pct": 36.3
    }
   },
   {
@@ -8846,9 +8964,9 @@
    ],
    "jockey": {
     "name": "Tom Cannon",
-    "runs": 2339,
-    "wins": 355,
-    "places": 962,
+    "runs": 2360,
+    "wins": 358,
+    "places": 971,
     "win_pct": 15.2,
     "place_pct": 41.1
    },
@@ -8862,11 +8980,11 @@
    },
    "sire": {
     "name": "Free Eagle",
-    "runs": 1734,
-    "wins": 193,
-    "places": 538,
-    "win_pct": 11.1,
-    "place_pct": 31.0
+    "runs": 1739,
+    "wins": 194,
+    "places": 541,
+    "win_pct": 11.2,
+    "place_pct": 31.1
    }
   },
   {
@@ -8892,25 +9010,25 @@
    "by_distance": [],
    "jockey": {
     "name": "James Bowen",
-    "runs": 2313,
-    "wins": 334,
-    "places": 1026,
+    "runs": 2343,
+    "wins": 338,
+    "places": 1037,
     "win_pct": 14.4,
-    "place_pct": 44.4
+    "place_pct": 44.3
    },
    "trainer": {
     "name": "Mickey Bowen",
-    "runs": 144,
+    "runs": 153,
     "wins": 19,
-    "places": 60,
-    "win_pct": 13.2,
-    "place_pct": 41.7
+    "places": 62,
+    "win_pct": 12.4,
+    "place_pct": 40.5
    },
    "sire": {
     "name": "Getaway",
-    "runs": 7824,
-    "wins": 866,
-    "places": 2602,
+    "runs": 7872,
+    "wins": 873,
+    "places": 2622,
     "win_pct": 11.1,
     "place_pct": 33.3
    }
@@ -8938,19 +9056,19 @@
    "by_distance": [],
    "jockey": {
     "name": "Harry Reed",
-    "runs": 1217,
-    "wins": 107,
-    "places": 371,
-    "win_pct": 8.8,
-    "place_pct": 30.5
+    "runs": 1220,
+    "wins": 109,
+    "places": 374,
+    "win_pct": 8.9,
+    "place_pct": 30.7
    },
    "trainer": {
     "name": "Nick Scholfield",
-    "runs": 109,
-    "wins": 22,
-    "places": 57,
-    "win_pct": 20.2,
-    "place_pct": 52.3
+    "runs": 119,
+    "wins": 26,
+    "places": 63,
+    "win_pct": 21.8,
+    "place_pct": 52.9
    }
   },
   {
@@ -8994,11 +9112,11 @@
    ],
    "jockey": {
     "name": "Paddy Hanlon(5)",
-    "runs": 370,
+    "runs": 373,
     "wins": 20,
-    "places": 90,
+    "places": 91,
     "win_pct": 5.4,
-    "place_pct": 24.3
+    "place_pct": 24.4
    },
    "trainer": {
     "name": "John Joseph Hanlon",
@@ -9010,11 +9128,11 @@
    },
    "sire": {
     "name": "Supremacy",
-    "runs": 229,
+    "runs": 231,
     "wins": 24,
     "places": 71,
-    "win_pct": 10.5,
-    "place_pct": 31.0
+    "win_pct": 10.4,
+    "place_pct": 30.7
    }
   },
   {
@@ -9048,11 +9166,11 @@
    },
    "sire": {
     "name": "Galiway",
-    "runs": 224,
-    "wins": 41,
-    "places": 116,
-    "win_pct": 18.3,
-    "place_pct": 51.8
+    "runs": 231,
+    "wins": 43,
+    "places": 118,
+    "win_pct": 18.6,
+    "place_pct": 51.1
    }
   },
   {
@@ -9105,11 +9223,11 @@
    ],
    "jockey": {
     "name": "Phillip Enright",
-    "runs": 3055,
-    "wins": 205,
-    "places": 690,
-    "win_pct": 6.7,
-    "place_pct": 22.6
+    "runs": 3071,
+    "wins": 208,
+    "places": 696,
+    "win_pct": 6.8,
+    "place_pct": 22.7
    },
    "trainer": {
     "name": "L J Archdeacon",
@@ -9121,11 +9239,11 @@
    },
    "sire": {
     "name": "Sands Of Mali",
-    "runs": 443,
-    "wins": 55,
-    "places": 163,
-    "win_pct": 12.4,
-    "place_pct": 36.8
+    "runs": 449,
+    "wins": 57,
+    "places": 167,
+    "win_pct": 12.7,
+    "place_pct": 37.2
    }
   },
   {
@@ -9167,10 +9285,10 @@
    },
    "sire": {
     "name": "Blue Bresil",
-    "runs": 1872,
-    "wins": 230,
-    "places": 648,
-    "win_pct": 12.3,
+    "runs": 1891,
+    "wins": 236,
+    "places": 655,
+    "win_pct": 12.5,
     "place_pct": 34.6
    }
   },
@@ -9213,11 +9331,11 @@
    },
    "sire": {
     "name": "Shirocco",
-    "runs": 4835,
-    "wins": 572,
-    "places": 1529,
+    "runs": 4863,
+    "wins": 575,
+    "places": 1540,
     "win_pct": 11.8,
-    "place_pct": 31.6
+    "place_pct": 31.7
    }
   },
   {
@@ -9259,11 +9377,11 @@
    },
    "sire": {
     "name": "Palace Pier",
-    "runs": 215,
+    "runs": 217,
     "wins": 26,
-    "places": 83,
-    "win_pct": 12.1,
-    "place_pct": 38.6
+    "places": 84,
+    "win_pct": 12.0,
+    "place_pct": 38.7
    }
   },
   {
@@ -9332,9 +9450,9 @@
    },
    "sire": {
     "name": "Golden Horn",
-    "runs": 2756,
+    "runs": 2765,
     "wins": 411,
-    "places": 1142,
+    "places": 1144,
     "win_pct": 14.9,
     "place_pct": 41.4
    }
@@ -9367,7 +9485,16 @@
      "place_pct": 0.0
     }
    ],
-   "by_course": [],
+   "by_course": [
+    {
+     "key": "Dundalk (AW)",
+     "runs": 2,
+     "wins": 0,
+     "places": 0,
+     "win_pct": 0.0,
+     "place_pct": 0.0
+    }
+   ],
    "by_distance": [
     {
      "key": "middle",
@@ -9380,9 +9507,9 @@
    ],
    "jockey": {
     "name": "Sam Ewing",
-    "runs": 1868,
+    "runs": 1876,
     "wins": 178,
-    "places": 529,
+    "places": 530,
     "win_pct": 9.5,
     "place_pct": 28.3
    },
@@ -9396,11 +9523,11 @@
    },
    "sire": {
     "name": "Elzaam",
-    "runs": 2439,
+    "runs": 2441,
     "wins": 214,
     "places": 621,
     "win_pct": 8.8,
-    "place_pct": 25.5
+    "place_pct": 25.4
    }
   },
   {
@@ -9442,11 +9569,11 @@
    },
    "sire": {
     "name": "Sea Moon",
-    "runs": 399,
+    "runs": 404,
     "wins": 43,
-    "places": 139,
-    "win_pct": 10.8,
-    "place_pct": 34.8
+    "places": 140,
+    "win_pct": 10.6,
+    "place_pct": 34.7
    }
   },
   {
@@ -9472,11 +9599,11 @@
    "by_distance": [],
    "jockey": {
     "name": "Philip Donovan",
-    "runs": 839,
+    "runs": 848,
     "wins": 40,
-    "places": 141,
-    "win_pct": 4.8,
-    "place_pct": 16.8
+    "places": 143,
+    "win_pct": 4.7,
+    "place_pct": 16.9
    },
    "trainer": {
     "name": "Denis Gerard Hogan",
@@ -9488,11 +9615,11 @@
    },
    "sire": {
     "name": "Ten Sovereigns",
-    "runs": 749,
+    "runs": 752,
     "wins": 98,
     "places": 281,
-    "win_pct": 13.1,
-    "place_pct": 37.5
+    "win_pct": 13.0,
+    "place_pct": 37.4
    }
   },
   {
@@ -9573,11 +9700,11 @@
    "by_distance": [],
    "jockey": {
     "name": "Keith Donoghue",
-    "runs": 2253,
-    "wins": 268,
-    "places": 751,
-    "win_pct": 11.9,
-    "place_pct": 33.3
+    "runs": 2274,
+    "wins": 269,
+    "places": 756,
+    "win_pct": 11.8,
+    "place_pct": 33.2
    },
    "trainer": {
     "name": "Gavin Cromwell",
@@ -9589,11 +9716,11 @@
    },
    "sire": {
     "name": "No Risk At All",
-    "runs": 1411,
+    "runs": 1428,
     "wins": 225,
-    "places": 574,
-    "win_pct": 15.9,
-    "place_pct": 40.7
+    "places": 582,
+    "win_pct": 15.8,
+    "place_pct": 40.8
    }
   },
   {
@@ -9653,11 +9780,11 @@
    },
    "sire": {
     "name": "Workforce",
-    "runs": 469,
-    "wins": 43,
-    "places": 136,
-    "win_pct": 9.2,
-    "place_pct": 29.0
+    "runs": 473,
+    "wins": 44,
+    "places": 138,
+    "win_pct": 9.3,
+    "place_pct": 29.2
    }
   },
   {
@@ -9726,11 +9853,11 @@
    },
    "sire": {
     "name": "Doctor Dino",
-    "runs": 956,
-    "wins": 172,
-    "places": 434,
+    "runs": 967,
+    "wins": 174,
+    "places": 438,
     "win_pct": 18.0,
-    "place_pct": 45.4
+    "place_pct": 45.3
    }
   },
   {
@@ -9781,11 +9908,11 @@
    },
    "sire": {
     "name": "Walk In The Park",
-    "runs": 4353,
-    "wins": 617,
-    "places": 1693,
-    "win_pct": 14.2,
-    "place_pct": 38.9
+    "runs": 4412,
+    "wins": 621,
+    "places": 1709,
+    "win_pct": 14.1,
+    "place_pct": 38.7
    }
   },
   {
@@ -9837,11 +9964,11 @@
    },
    "sire": {
     "name": "Galiway",
-    "runs": 224,
-    "wins": 41,
-    "places": 116,
-    "win_pct": 18.3,
-    "place_pct": 51.8
+    "runs": 231,
+    "wins": 43,
+    "places": 118,
+    "win_pct": 18.6,
+    "place_pct": 51.1
    }
   },
   {
@@ -9950,11 +10077,11 @@
    },
    "sire": {
     "name": "Walk In The Park",
-    "runs": 4353,
-    "wins": 617,
-    "places": 1693,
-    "win_pct": 14.2,
-    "place_pct": 38.9
+    "runs": 4412,
+    "wins": 621,
+    "places": 1709,
+    "win_pct": 14.1,
+    "place_pct": 38.7
    }
   },
   {
@@ -9996,9 +10123,9 @@
    },
    "sire": {
     "name": "Doyen",
-    "runs": 3824,
-    "wins": 430,
-    "places": 1227,
+    "runs": 3840,
+    "wins": 432,
+    "places": 1233,
     "win_pct": 11.2,
     "place_pct": 32.1
    }
@@ -10125,10 +10252,10 @@
    },
    "sire": {
     "name": "Highland Reel",
-    "runs": 1038,
-    "wins": 78,
-    "places": 268,
-    "win_pct": 7.5,
+    "runs": 1043,
+    "wins": 79,
+    "places": 269,
+    "win_pct": 7.6,
     "place_pct": 25.8
    }
   },
@@ -10206,11 +10333,11 @@
    },
    "sire": {
     "name": "Walk In The Park",
-    "runs": 4353,
-    "wins": 617,
-    "places": 1693,
-    "win_pct": 14.2,
-    "place_pct": 38.9
+    "runs": 4412,
+    "wins": 621,
+    "places": 1709,
+    "win_pct": 14.1,
+    "place_pct": 38.7
    }
   },
   {
@@ -10311,11 +10438,11 @@
    },
    "sire": {
     "name": "Malinas",
-    "runs": 2609,
-    "wins": 365,
-    "places": 1035,
-    "win_pct": 14.0,
-    "place_pct": 39.7
+    "runs": 2626,
+    "wins": 369,
+    "places": 1044,
+    "win_pct": 14.1,
+    "place_pct": 39.8
    }
   },
   {
@@ -10330,15 +10457,33 @@
    "as_of": "2026-09-20",
    "status": "has_history",
    "career": {
-    "runs": 1,
+    "runs": 2,
     "wins": 0,
     "places": 0,
     "win_pct": 0.0,
     "place_pct": 0.0
    },
-   "by_going": [],
+   "by_going": [
+    {
+     "key": "soft",
+     "runs": 2,
+     "wins": 0,
+     "places": 0,
+     "win_pct": 0.0,
+     "place_pct": 0.0
+    }
+   ],
    "by_course": [],
-   "by_distance": [],
+   "by_distance": [
+    {
+     "key": "staying",
+     "runs": 2,
+     "wins": 0,
+     "places": 0,
+     "win_pct": 0.0,
+     "place_pct": 0.0
+    }
+   ],
    "jockey": {
     "name": "Aidan Kelly",
     "runs": 730,
@@ -10357,11 +10502,11 @@
    },
    "sire": {
     "name": "Order Of St George",
-    "runs": 366,
-    "wins": 35,
-    "places": 110,
-    "win_pct": 9.6,
-    "place_pct": 30.1
+    "runs": 378,
+    "wins": 36,
+    "places": 113,
+    "win_pct": 9.5,
+    "place_pct": 29.9
    }
   },
   {
@@ -10374,13 +10519,13 @@
     "distance": "staying"
    },
    "as_of": "2026-09-20",
-   "status": "no_record",
+   "status": "has_history",
    "career": {
-    "runs": 0,
+    "runs": 1,
     "wins": 0,
     "places": 0,
-    "win_pct": null,
-    "place_pct": null
+    "win_pct": 0.0,
+    "place_pct": 0.0
    },
    "by_going": [],
    "by_course": [],
@@ -10403,9 +10548,9 @@
    },
    "sire": {
     "name": "Getaway",
-    "runs": 7824,
-    "wins": 866,
-    "places": 2602,
+    "runs": 7872,
+    "wins": 873,
+    "places": 2622,
     "win_pct": 11.1,
     "place_pct": 33.3
    }
@@ -10572,9 +10717,9 @@
    ],
    "jockey": {
     "name": "Sean Flanagan",
-    "runs": 2673,
+    "runs": 2690,
     "wins": 249,
-    "places": 791,
+    "places": 795,
     "win_pct": 9.3,
     "place_pct": 29.6
    },
@@ -10588,9 +10733,9 @@
    },
    "sire": {
     "name": "Vadamos",
-    "runs": 1380,
-    "wins": 133,
-    "places": 396,
+    "runs": 1392,
+    "wins": 134,
+    "places": 400,
     "win_pct": 9.6,
     "place_pct": 28.7
    }
@@ -10634,10 +10779,10 @@
    },
    "sire": {
     "name": "Blue Bresil",
-    "runs": 1872,
-    "wins": 230,
-    "places": 648,
-    "win_pct": 12.3,
+    "runs": 1891,
+    "wins": 236,
+    "places": 655,
+    "win_pct": 12.5,
     "place_pct": 34.6
    }
   },
@@ -10698,11 +10843,11 @@
    },
    "sire": {
     "name": "Order Of St George",
-    "runs": 366,
-    "wins": 35,
-    "places": 110,
-    "win_pct": 9.6,
-    "place_pct": 30.1
+    "runs": 378,
+    "wins": 36,
+    "places": 113,
+    "win_pct": 9.5,
+    "place_pct": 29.9
    }
   },
   {
@@ -10771,11 +10916,11 @@
    },
    "sire": {
     "name": "Kayf Tara",
-    "runs": 3940,
-    "wins": 520,
-    "places": 1450,
+    "runs": 3957,
+    "wins": 521,
+    "places": 1452,
     "win_pct": 13.2,
-    "place_pct": 36.8
+    "place_pct": 36.7
    }
   },
   {
@@ -10819,11 +10964,11 @@
    ],
    "jockey": {
     "name": "Cian Cullinan(7)",
-    "runs": 227,
+    "runs": 229,
     "wins": 10,
     "places": 30,
     "win_pct": 4.4,
-    "place_pct": 13.2
+    "place_pct": 13.1
    },
    "trainer": {
     "name": "P G Fahey",
@@ -10835,11 +10980,11 @@
    },
    "sire": {
     "name": "Saxon Warrior",
-    "runs": 1494,
-    "wins": 192,
-    "places": 561,
-    "win_pct": 12.9,
-    "place_pct": 37.6
+    "runs": 1502,
+    "wins": 193,
+    "places": 564,
+    "win_pct": 12.8,
+    "place_pct": 37.5
    }
   },
   {
@@ -10930,9 +11075,9 @@
    ],
    "jockey": {
     "name": "J J Slevin",
-    "runs": 2572,
-    "wins": 229,
-    "places": 696,
+    "runs": 2587,
+    "wins": 231,
+    "places": 700,
     "win_pct": 8.9,
     "place_pct": 27.1
    },
@@ -11019,10 +11164,10 @@
    },
    "sire": {
     "name": "Jet Away",
-    "runs": 1706,
+    "runs": 1720,
     "wins": 200,
-    "places": 588,
-    "win_pct": 11.7,
+    "places": 593,
+    "win_pct": 11.6,
     "place_pct": 34.5
    }
   },
@@ -11124,11 +11269,11 @@
    },
    "sire": {
     "name": "Wings Of Eagles",
-    "runs": 334,
-    "wins": 41,
-    "places": 111,
-    "win_pct": 12.3,
-    "place_pct": 33.2
+    "runs": 339,
+    "wins": 43,
+    "places": 114,
+    "win_pct": 12.7,
+    "place_pct": 33.6
    }
   },
   {
@@ -11326,11 +11471,11 @@
    ],
    "jockey": {
     "name": "Phillip Enright",
-    "runs": 3055,
-    "wins": 205,
-    "places": 690,
-    "win_pct": 6.7,
-    "place_pct": 22.6
+    "runs": 3071,
+    "wins": 208,
+    "places": 696,
+    "win_pct": 6.8,
+    "place_pct": 22.7
    },
    "trainer": {
     "name": "Aengus King",
@@ -11342,11 +11487,11 @@
    },
    "sire": {
     "name": "Shantou",
-    "runs": 3958,
+    "runs": 3972,
     "wins": 541,
-    "places": 1408,
-    "win_pct": 13.7,
-    "place_pct": 35.6
+    "places": 1412,
+    "win_pct": 13.6,
+    "place_pct": 35.5
    }
   },
   {
@@ -11479,7 +11624,7 @@
    },
    "sire": {
     "name": "Libertarian",
-    "runs": 424,
+    "runs": 425,
     "wins": 36,
     "places": 107,
     "win_pct": 8.5,
@@ -11527,11 +11672,11 @@
    ],
    "jockey": {
     "name": "Danny Gilligan",
-    "runs": 981,
-    "wins": 113,
-    "places": 326,
-    "win_pct": 11.5,
-    "place_pct": 33.2
+    "runs": 997,
+    "wins": 114,
+    "places": 330,
+    "win_pct": 11.4,
+    "place_pct": 33.1
    },
    "trainer": {
     "name": "Gordon Elliott",
@@ -11543,10 +11688,10 @@
    },
    "sire": {
     "name": "Jet Away",
-    "runs": 1706,
+    "runs": 1720,
     "wins": 200,
-    "places": 588,
-    "win_pct": 11.7,
+    "places": 593,
+    "win_pct": 11.6,
     "place_pct": 34.5
    }
   },
@@ -11589,9 +11734,9 @@
    },
    "sire": {
     "name": "Leading Light",
-    "runs": 1846,
-    "wins": 148,
-    "places": 509,
+    "runs": 1852,
+    "wins": 149,
+    "places": 511,
     "win_pct": 8.0,
     "place_pct": 27.6
    }
@@ -11608,18 +11753,18 @@
    "as_of": "2026-09-20",
    "status": "has_history",
    "career": {
-    "runs": 3,
+    "runs": 4,
     "wins": 0,
-    "places": 2,
+    "places": 3,
     "win_pct": 0.0,
-    "place_pct": 66.7
+    "place_pct": 75.0
    },
    "by_going": [
     {
      "key": "heavy",
-     "runs": 2,
+     "runs": 3,
      "wins": 0,
-     "places": 2,
+     "places": 3,
      "win_pct": 0.0,
      "place_pct": 100.0
     }
@@ -11637,20 +11782,20 @@
    "by_distance": [
     {
      "key": "staying",
-     "runs": 3,
+     "runs": 4,
      "wins": 0,
-     "places": 2,
+     "places": 3,
      "win_pct": 0.0,
-     "place_pct": 66.7
+     "place_pct": 75.0
     }
    ],
    "jockey": {
     "name": "Keith Donoghue",
-    "runs": 2253,
-    "wins": 268,
-    "places": 751,
-    "win_pct": 11.9,
-    "place_pct": 33.3
+    "runs": 2274,
+    "wins": 269,
+    "places": 756,
+    "win_pct": 11.8,
+    "place_pct": 33.2
    },
    "trainer": {
     "name": "Gavin Cromwell",
@@ -11662,11 +11807,11 @@
    },
    "sire": {
     "name": "Shirocco",
-    "runs": 4835,
-    "wins": 572,
-    "places": 1529,
+    "runs": 4863,
+    "wins": 575,
+    "places": 1540,
     "win_pct": 11.8,
-    "place_pct": 31.6
+    "place_pct": 31.7
    }
   },
   {
@@ -11743,10 +11888,10 @@
    },
    "sire": {
     "name": "Diamond Boy",
-    "runs": 1404,
-    "wins": 157,
-    "places": 499,
-    "win_pct": 11.2,
+    "runs": 1427,
+    "wins": 158,
+    "places": 507,
+    "win_pct": 11.1,
     "place_pct": 35.5
    }
   },
@@ -11762,31 +11907,31 @@
    "as_of": "2026-09-20",
    "status": "has_history",
    "career": {
-    "runs": 3,
+    "runs": 4,
     "wins": 0,
-    "places": 2,
+    "places": 3,
     "win_pct": 0.0,
-    "place_pct": 66.7
+    "place_pct": 75.0
    },
    "by_going": [
     {
      "key": "heavy",
-     "runs": 3,
+     "runs": 4,
      "wins": 0,
-     "places": 2,
+     "places": 3,
      "win_pct": 0.0,
-     "place_pct": 66.7
+     "place_pct": 75.0
     }
    ],
    "by_course": [],
    "by_distance": [
     {
      "key": "staying",
-     "runs": 3,
+     "runs": 4,
      "wins": 0,
-     "places": 2,
+     "places": 3,
      "win_pct": 0.0,
-     "place_pct": 66.7
+     "place_pct": 75.0
     }
    ],
    "jockey": {
@@ -11807,9 +11952,9 @@
    },
    "sire": {
     "name": "Soldier Of Fortune",
-    "runs": 3085,
-    "wins": 337,
-    "places": 1008,
+    "runs": 3113,
+    "wins": 340,
+    "places": 1017,
     "win_pct": 10.9,
     "place_pct": 32.7
    }
@@ -11853,11 +11998,11 @@
    },
    "sire": {
     "name": "Sholokhov",
-    "runs": 2292,
+    "runs": 2300,
     "wins": 276,
-    "places": 766,
+    "places": 770,
     "win_pct": 12.0,
-    "place_pct": 33.4
+    "place_pct": 33.5
    }
   },
   {
@@ -11910,11 +12055,11 @@
    ],
    "jockey": {
     "name": "Cian Cullinan(7)",
-    "runs": 227,
+    "runs": 229,
     "wins": 10,
     "places": 30,
     "win_pct": 4.4,
-    "place_pct": 13.2
+    "place_pct": 13.1
    },
    "trainer": {
     "name": "P G Fahey",
@@ -11926,9 +12071,9 @@
    },
    "sire": {
     "name": "Elusive Pimpernel",
-    "runs": 1735,
+    "runs": 1740,
     "wins": 127,
-    "places": 411,
+    "places": 412,
     "win_pct": 7.3,
     "place_pct": 23.7
    }
@@ -11972,11 +12117,11 @@
    },
    "sire": {
     "name": "Joshua Tree",
-    "runs": 296,
+    "runs": 298,
     "wins": 47,
     "places": 121,
-    "win_pct": 15.9,
-    "place_pct": 40.9
+    "win_pct": 15.8,
+    "place_pct": 40.6
    }
   },
   {
@@ -12002,11 +12147,11 @@
    "by_distance": [],
    "jockey": {
     "name": "Phillip Enright",
-    "runs": 3055,
-    "wins": 205,
-    "places": 690,
-    "win_pct": 6.7,
-    "place_pct": 22.6
+    "runs": 3071,
+    "wins": 208,
+    "places": 696,
+    "win_pct": 6.8,
+    "place_pct": 22.7
    },
    "trainer": {
     "name": "S Curling",
@@ -12018,11 +12163,11 @@
    },
    "sire": {
     "name": "Arctic Cosmos",
-    "runs": 1020,
-    "wins": 78,
-    "places": 282,
-    "win_pct": 7.6,
-    "place_pct": 27.6
+    "runs": 1024,
+    "wins": 79,
+    "places": 284,
+    "win_pct": 7.7,
+    "place_pct": 27.7
    }
   },
   {
@@ -12064,11 +12209,11 @@
    },
    "sire": {
     "name": "El Salvador",
-    "runs": 230,
+    "runs": 235,
     "wins": 35,
     "places": 71,
-    "win_pct": 15.2,
-    "place_pct": 30.9
+    "win_pct": 14.9,
+    "place_pct": 30.2
    }
   },
   {
@@ -12094,9 +12239,9 @@
    "by_distance": [],
    "jockey": {
     "name": "J J Slevin",
-    "runs": 2572,
-    "wins": 229,
-    "places": 696,
+    "runs": 2587,
+    "wins": 231,
+    "places": 700,
     "win_pct": 8.9,
     "place_pct": 27.1
    },
@@ -12110,11 +12255,11 @@
    },
    "sire": {
     "name": "Gentlewave",
-    "runs": 603,
+    "runs": 605,
     "wins": 78,
-    "places": 196,
+    "places": 197,
     "win_pct": 12.9,
-    "place_pct": 32.5
+    "place_pct": 32.6
    }
   },
   {
@@ -12186,11 +12331,11 @@
    "by_distance": [],
    "jockey": {
     "name": "Donagh Meyler",
-    "runs": 1841,
+    "runs": 1846,
     "wins": 139,
     "places": 464,
-    "win_pct": 7.6,
-    "place_pct": 25.2
+    "win_pct": 7.5,
+    "place_pct": 25.1
    },
    "trainer": {
     "name": "Emmet Mullins",
@@ -12224,7 +12369,7 @@
    "by_distance": [],
    "jockey": {
     "name": "Mr M J Walsh(7)",
-    "runs": 6,
+    "runs": 7,
     "wins": 0,
     "places": 0,
     "win_pct": 0.0,
@@ -12240,11 +12385,11 @@
    },
    "sire": {
     "name": "Ocovango",
-    "runs": 2330,
-    "wins": 223,
-    "places": 700,
+    "runs": 2343,
+    "wins": 225,
+    "places": 705,
     "win_pct": 9.6,
-    "place_pct": 30.0
+    "place_pct": 30.1
    }
   },
   {
@@ -12286,11 +12431,11 @@
    },
    "sire": {
     "name": "Shirocco",
-    "runs": 4835,
-    "wins": 572,
-    "places": 1529,
+    "runs": 4863,
+    "wins": 575,
+    "places": 1540,
     "win_pct": 11.8,
-    "place_pct": 31.6
+    "place_pct": 31.7
    }
   },
   {
@@ -12398,9 +12543,9 @@
    ],
    "jockey": {
     "name": "Sean Flanagan",
-    "runs": 2673,
+    "runs": 2690,
     "wins": 249,
-    "places": 791,
+    "places": 795,
     "win_pct": 9.3,
     "place_pct": 29.6
    },
@@ -12414,10 +12559,10 @@
    },
    "sire": {
     "name": "Blue Bresil",
-    "runs": 1872,
-    "wins": 230,
-    "places": 648,
-    "win_pct": 12.3,
+    "runs": 1891,
+    "wins": 236,
+    "places": 655,
+    "win_pct": 12.5,
     "place_pct": 34.6
    }
   },
@@ -12479,11 +12624,11 @@
    ],
    "jockey": {
     "name": "Keith Donoghue",
-    "runs": 2253,
-    "wins": 268,
-    "places": 751,
-    "win_pct": 11.9,
-    "place_pct": 33.3
+    "runs": 2274,
+    "wins": 269,
+    "places": 756,
+    "win_pct": 11.8,
+    "place_pct": 33.2
    },
    "trainer": {
     "name": "Gavin Cromwell",
@@ -12495,11 +12640,11 @@
    },
    "sire": {
     "name": "Starspangledbanner",
-    "runs": 4272,
-    "wins": 458,
-    "places": 1403,
+    "runs": 4284,
+    "wins": 459,
+    "places": 1410,
     "win_pct": 10.7,
-    "place_pct": 32.8
+    "place_pct": 32.9
    }
   },
   {
@@ -12584,11 +12729,11 @@
    },
    "sire": {
     "name": "Castle Du Berlais",
-    "runs": 165,
-    "wins": 25,
-    "places": 61,
-    "win_pct": 15.2,
-    "place_pct": 37.0
+    "runs": 172,
+    "wins": 26,
+    "places": 65,
+    "win_pct": 15.1,
+    "place_pct": 37.8
    }
   },
   {
@@ -12648,10 +12793,10 @@
    },
    "sire": {
     "name": "Blue Bresil",
-    "runs": 1872,
-    "wins": 230,
-    "places": 648,
-    "win_pct": 12.3,
+    "runs": 1891,
+    "wins": 236,
+    "places": 655,
+    "win_pct": 12.5,
     "place_pct": 34.6
    }
   },
@@ -12694,9 +12839,9 @@
    },
    "sire": {
     "name": "Mahler",
-    "runs": 5838,
-    "wins": 624,
-    "places": 1846,
+    "runs": 5866,
+    "wins": 627,
+    "places": 1851,
     "win_pct": 10.7,
     "place_pct": 31.6
    }
@@ -12783,10 +12928,10 @@
    },
    "sire": {
     "name": "Califet",
-    "runs": 2076,
-    "wins": 216,
-    "places": 608,
-    "win_pct": 10.4,
+    "runs": 2085,
+    "wins": 218,
+    "places": 610,
+    "win_pct": 10.5,
     "place_pct": 29.3
    }
   },
@@ -12848,11 +12993,11 @@
    ],
    "jockey": {
     "name": "Keith Donoghue",
-    "runs": 2253,
-    "wins": 268,
-    "places": 751,
-    "win_pct": 11.9,
-    "place_pct": 33.3
+    "runs": 2274,
+    "wins": 269,
+    "places": 756,
+    "win_pct": 11.8,
+    "place_pct": 33.2
    },
    "trainer": {
     "name": "W. P. Mullins",
@@ -12864,11 +13009,11 @@
    },
    "sire": {
     "name": "Joshua Tree",
-    "runs": 296,
+    "runs": 298,
     "wins": 47,
     "places": 121,
-    "win_pct": 15.9,
-    "place_pct": 40.9
+    "win_pct": 15.8,
+    "place_pct": 40.6
    }
   },
   {
@@ -12937,11 +13082,11 @@
    ],
    "jockey": {
     "name": "Donagh Meyler",
-    "runs": 1841,
+    "runs": 1846,
     "wins": 139,
     "places": 464,
-    "win_pct": 7.6,
-    "place_pct": 25.2
+    "win_pct": 7.5,
+    "place_pct": 25.1
    },
    "trainer": {
     "name": "Ross O'Sullivan",
@@ -12953,11 +13098,11 @@
    },
    "sire": {
     "name": "Ol' Man River",
-    "runs": 357,
+    "runs": 361,
     "wins": 26,
     "places": 88,
-    "win_pct": 7.3,
-    "place_pct": 24.6
+    "win_pct": 7.2,
+    "place_pct": 24.4
    }
   },
   {
@@ -13179,9 +13324,9 @@
    ],
    "jockey": {
     "name": "Sean Flanagan",
-    "runs": 2673,
+    "runs": 2690,
     "wins": 249,
-    "places": 791,
+    "places": 795,
     "win_pct": 9.3,
     "place_pct": 29.6
    },
@@ -13259,11 +13404,11 @@
    },
    "sire": {
     "name": "Order Of St George",
-    "runs": 366,
-    "wins": 35,
-    "places": 110,
-    "win_pct": 9.6,
-    "place_pct": 30.1
+    "runs": 378,
+    "wins": 36,
+    "places": 113,
+    "win_pct": 9.5,
+    "place_pct": 29.9
    }
   },
   {
@@ -13380,9 +13525,9 @@
    },
    "sire": {
     "name": "Soldier Of Fortune",
-    "runs": 3085,
-    "wins": 337,
-    "places": 1008,
+    "runs": 3113,
+    "wins": 340,
+    "places": 1017,
     "win_pct": 10.9,
     "place_pct": 32.7
    }
@@ -13533,9 +13678,9 @@
    },
    "sire": {
     "name": "Elusive Pimpernel",
-    "runs": 1735,
+    "runs": 1740,
     "wins": 127,
-    "places": 411,
+    "places": 412,
     "win_pct": 7.3,
     "place_pct": 23.7
    }
@@ -13597,9 +13742,9 @@
    },
    "sire": {
     "name": "Milan",
-    "runs": 5692,
-    "wins": 580,
-    "places": 1808,
+    "runs": 5716,
+    "wins": 583,
+    "places": 1817,
     "win_pct": 10.2,
     "place_pct": 31.8
    }
@@ -13678,11 +13823,11 @@
    },
    "sire": {
     "name": "Masked Marvel",
-    "runs": 646,
-    "wins": 117,
-    "places": 292,
-    "win_pct": 18.1,
-    "place_pct": 45.2
+    "runs": 663,
+    "wins": 119,
+    "places": 301,
+    "win_pct": 17.9,
+    "place_pct": 45.4
    }
   },
   {
@@ -13697,20 +13842,20 @@
    "as_of": "2026-09-20",
    "status": "has_history",
    "career": {
-    "runs": 9,
+    "runs": 10,
     "wins": 3,
     "places": 4,
-    "win_pct": 33.3,
-    "place_pct": 44.4
+    "win_pct": 30.0,
+    "place_pct": 40.0
    },
    "by_going": [
     {
      "key": "soft",
-     "runs": 6,
+     "runs": 7,
      "wins": 2,
      "places": 3,
-     "win_pct": 33.3,
-     "place_pct": 50.0
+     "win_pct": 28.6,
+     "place_pct": 42.9
     },
     {
      "key": "good",
@@ -13734,11 +13879,11 @@
    "by_distance": [
     {
      "key": "staying",
-     "runs": 9,
+     "runs": 10,
      "wins": 3,
      "places": 4,
-     "win_pct": 33.3,
-     "place_pct": 44.4
+     "win_pct": 30.0,
+     "place_pct": 40.0
     }
    ],
    "jockey": {
@@ -13759,10 +13904,10 @@
    },
    "sire": {
     "name": "Jet Away",
-    "runs": 1706,
+    "runs": 1720,
     "wins": 200,
-    "places": 588,
-    "win_pct": 11.7,
+    "places": 593,
+    "win_pct": 11.6,
     "place_pct": 34.5
    }
   },
@@ -13914,6 +14059,14 @@
      "places": 0,
      "win_pct": 0.0,
      "place_pct": 0.0
+    },
+    {
+     "key": "Haydock",
+     "runs": 2,
+     "wins": 0,
+     "places": 2,
+     "win_pct": 0.0,
+     "place_pct": 100.0
     }
    ],
    "by_distance": [
@@ -13928,11 +14081,11 @@
    ],
    "jockey": {
     "name": "Danny Gilligan",
-    "runs": 981,
-    "wins": 113,
-    "places": 326,
-    "win_pct": 11.5,
-    "place_pct": 33.2
+    "runs": 997,
+    "wins": 114,
+    "places": 330,
+    "win_pct": 11.4,
+    "place_pct": 33.1
    },
    "trainer": {
     "name": "Ross O'Sullivan",
@@ -13944,11 +14097,11 @@
    },
    "sire": {
     "name": "Fame And Glory",
-    "runs": 5382,
-    "wins": 681,
-    "places": 1909,
-    "win_pct": 12.7,
-    "place_pct": 35.5
+    "runs": 5403,
+    "wins": 682,
+    "places": 1914,
+    "win_pct": 12.6,
+    "place_pct": 35.4
    }
   },
   {
@@ -14081,11 +14234,11 @@
    },
    "sire": {
     "name": "Ocovango",
-    "runs": 2330,
-    "wins": 223,
-    "places": 700,
+    "runs": 2343,
+    "wins": 225,
+    "places": 705,
     "win_pct": 9.6,
-    "place_pct": 30.0
+    "place_pct": 30.1
    }
   },
   {
@@ -14145,11 +14298,11 @@
    },
    "sire": {
     "name": "Kingston Hill",
-    "runs": 1051,
-    "wins": 95,
-    "places": 325,
+    "runs": 1062,
+    "wins": 96,
+    "places": 327,
     "win_pct": 9.0,
-    "place_pct": 30.9
+    "place_pct": 30.8
    }
   },
   {
@@ -14175,11 +14328,11 @@
    "by_distance": [],
    "jockey": {
     "name": "Mr E P O'Brien(5)",
-    "runs": 283,
+    "runs": 284,
     "wins": 14,
     "places": 60,
     "win_pct": 4.9,
-    "place_pct": 21.2
+    "place_pct": 21.1
    },
    "trainer": {
     "name": "Richard Hennessy",
@@ -14191,11 +14344,11 @@
    },
    "sire": {
     "name": "Sholokhov",
-    "runs": 2292,
+    "runs": 2300,
     "wins": 276,
-    "places": 766,
+    "places": 770,
     "win_pct": 12.0,
-    "place_pct": 33.4
+    "place_pct": 33.5
    }
   },
   {
@@ -14239,11 +14392,11 @@
    ],
    "jockey": {
     "name": "Mr A J Browne(7)",
-    "runs": 8,
+    "runs": 9,
     "wins": 1,
     "places": 3,
-    "win_pct": 12.5,
-    "place_pct": 37.5
+    "win_pct": 11.1,
+    "place_pct": 33.3
    },
    "trainer": {
     "name": "Don Browne",
@@ -14255,11 +14408,11 @@
    },
    "sire": {
     "name": "Sholokhov",
-    "runs": 2292,
+    "runs": 2300,
     "wins": 276,
-    "places": 766,
+    "places": 770,
     "win_pct": 12.0,
-    "place_pct": 33.4
+    "place_pct": 33.5
    }
   },
   {
@@ -14301,7 +14454,7 @@
    },
    "sire": {
     "name": "Conduit",
-    "runs": 344,
+    "runs": 345,
     "wins": 23,
     "places": 83,
     "win_pct": 6.7,
@@ -14347,11 +14500,11 @@
    },
    "sire": {
     "name": "My Dream Boat",
-    "runs": 61,
+    "runs": 62,
     "wins": 8,
-    "places": 27,
-    "win_pct": 13.1,
-    "place_pct": 44.3
+    "places": 28,
+    "win_pct": 12.9,
+    "place_pct": 45.2
    }
   },
   {
@@ -14393,9 +14546,9 @@
    },
    "sire": {
     "name": "Getaway",
-    "runs": 7824,
-    "wins": 866,
-    "places": 2602,
+    "runs": 7872,
+    "wins": 873,
+    "places": 2622,
     "win_pct": 11.1,
     "place_pct": 33.3
    }
@@ -14423,11 +14576,11 @@
    "by_distance": [],
    "jockey": {
     "name": "Mr P W Mullins",
-    "runs": 878,
-    "wins": 288,
-    "places": 555,
-    "win_pct": 32.8,
-    "place_pct": 63.2
+    "runs": 891,
+    "wins": 290,
+    "places": 560,
+    "win_pct": 32.5,
+    "place_pct": 62.9
    },
    "trainer": {
     "name": "W. P. Mullins",
@@ -14439,11 +14592,11 @@
    },
    "sire": {
     "name": "Crystal Ocean",
-    "runs": 87,
+    "runs": 91,
     "wins": 11,
-    "places": 34,
-    "win_pct": 12.6,
-    "place_pct": 39.1
+    "places": 37,
+    "win_pct": 12.1,
+    "place_pct": 40.7
    }
   },
   {
@@ -14494,11 +14647,11 @@
    },
    "sire": {
     "name": "Walk In The Park",
-    "runs": 4353,
-    "wins": 617,
-    "places": 1693,
-    "win_pct": 14.2,
-    "place_pct": 38.9
+    "runs": 4412,
+    "wins": 621,
+    "places": 1709,
+    "win_pct": 14.1,
+    "place_pct": 38.7
    }
   },
   {
@@ -14524,11 +14677,11 @@
    "by_distance": [],
    "jockey": {
     "name": "Mr R Sugrue(7)",
-    "runs": 57,
+    "runs": 58,
     "wins": 2,
     "places": 5,
-    "win_pct": 3.5,
-    "place_pct": 8.8
+    "win_pct": 3.4,
+    "place_pct": 8.6
    },
    "trainer": {
     "name": "P M Lynch",
@@ -14540,9 +14693,9 @@
    },
    "sire": {
     "name": "Mahler",
-    "runs": 5838,
-    "wins": 624,
-    "places": 1846,
+    "runs": 5866,
+    "wins": 627,
+    "places": 1851,
     "win_pct": 10.7,
     "place_pct": 31.6
    }
@@ -14604,11 +14757,11 @@
    },
    "sire": {
     "name": "Crystal Ocean",
-    "runs": 87,
+    "runs": 91,
     "wins": 11,
-    "places": 34,
-    "win_pct": 12.6,
-    "place_pct": 39.1
+    "places": 37,
+    "win_pct": 12.1,
+    "place_pct": 40.7
    }
   },
   {
@@ -14634,11 +14787,11 @@
    "by_distance": [],
    "jockey": {
     "name": "Mr H C Swan",
-    "runs": 532,
+    "runs": 537,
     "wins": 64,
     "places": 220,
-    "win_pct": 12.0,
-    "place_pct": 41.4
+    "win_pct": 11.9,
+    "place_pct": 41.0
    },
    "trainer": {
     "name": "Eoin Christopher McCarthy",
@@ -14650,11 +14803,11 @@
    },
    "sire": {
     "name": "Yeats",
-    "runs": 6287,
+    "runs": 6302,
     "wins": 743,
-    "places": 2192,
+    "places": 2196,
     "win_pct": 11.8,
-    "place_pct": 34.9
+    "place_pct": 34.8
    }
   },
   {
@@ -14680,11 +14833,11 @@
    "by_distance": [],
    "jockey": {
     "name": "Mr D Doyle(7)",
-    "runs": 307,
+    "runs": 309,
     "wins": 17,
     "places": 80,
     "win_pct": 5.5,
-    "place_pct": 26.1
+    "place_pct": 25.9
    },
    "trainer": {
     "name": "Augustine Leahy",
@@ -14696,10 +14849,10 @@
    },
    "sire": {
     "name": "Diamond Boy",
-    "runs": 1404,
-    "wins": 157,
-    "places": 499,
-    "win_pct": 11.2,
+    "runs": 1427,
+    "wins": 158,
+    "places": 507,
+    "win_pct": 11.1,
     "place_pct": 35.5
    }
   },
@@ -14735,11 +14888,11 @@
    ],
    "jockey": {
     "name": "Mr J Dunne(7)",
-    "runs": 224,
+    "runs": 225,
     "wins": 12,
-    "places": 46,
-    "win_pct": 5.4,
-    "place_pct": 20.5
+    "places": 47,
+    "win_pct": 5.3,
+    "place_pct": 20.9
    },
    "trainer": {
     "name": "Edward F Power",
@@ -14751,11 +14904,11 @@
    },
    "sire": {
     "name": "Idaho",
-    "runs": 75,
+    "runs": 77,
     "wins": 7,
-    "places": 25,
-    "win_pct": 9.3,
-    "place_pct": 33.3
+    "places": 26,
+    "win_pct": 9.1,
+    "place_pct": 33.8
    }
   },
   {
@@ -14789,11 +14942,11 @@
    },
    "sire": {
     "name": "Marcel",
-    "runs": 171,
+    "runs": 172,
     "wins": 12,
     "places": 39,
     "win_pct": 7.0,
-    "place_pct": 22.8
+    "place_pct": 22.7
    }
   }
  ]

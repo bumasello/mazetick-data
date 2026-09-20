@@ -1,6 +1,6 @@
 {
  "schema": "movers_v1",
- "generated_at": "2026-09-20T16:00:01Z",
+ "generated_at": "2026-09-20T21:24:37Z",
  "source": "Smarkets public order book",
  "note": "'percentile' is where this move sits among all moves we have measured for runners opening at a similar price. The median move is near zero in every band; what changes with price is the spread of outcomes.",
  "baseline": {
@@ -78,7 +78,7 @@
    }
   ]
  },
- "collected_through": "2026-09-20T15:45:01Z",
+ "collected_through": "2026-09-20T21:15:01Z",
  "runners": [
   {
    "slug": "hamilton-1300",
@@ -455,6 +455,50 @@
    "notable": true
   },
   {
+   "slug": "hamilton-1600",
+   "venue": "Hamilton",
+   "off_utc": "2026-09-20T16:00:00Z",
+   "runner": "Uncle Liam",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 3.3
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 2.18,
+    "spread_pct": 1.9
+   },
+   "move_pct": -33.9,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 2,
+   "notable": true
+  },
+  {
+   "slug": "listowel-1618",
+   "venue": "Listowel",
+   "off_utc": "2026-09-20T16:18:00Z",
+   "runner": "Paidi's Pet",
+   "first": {
+    "mins_to_off": 348,
+    "mid": 21.51
+   },
+   "latest": {
+    "mins_to_off": 3,
+    "mid": 10.14,
+    "spread_pct": 6.9
+   },
+   "move_pct": -52.8,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 2,
+   "notable": true
+  },
+  {
    "slug": "plumpton-1408",
    "venue": "Plumpton",
    "off_utc": "2026-09-20T14:08:00Z",
@@ -516,28 +560,6 @@
    "band": [
     13,
     20
-   ],
-   "percentile": 97,
-   "notable": true
-  },
-  {
-   "slug": "plumpton-1608",
-   "venue": "Plumpton",
-   "off_utc": "2026-09-20T16:08:00Z",
-   "runner": "On The Fly",
-   "first": {
-    "mins_to_off": 353,
-    "mid": 38.17
-   },
-   "latest": {
-    "mins_to_off": 23,
-    "mid": 69.69,
-    "spread_pct": 14.7
-   },
-   "move_pct": 82.6,
-   "band": [
-    35,
-    100
    ],
    "percentile": 97,
    "notable": true
@@ -662,11 +684,11 @@
     "mid": 57.97
    },
    "latest": {
-    "mins_to_off": 83,
-    "mid": 99.5,
-    "spread_pct": 35.9
+    "mins_to_off": 8,
+    "mid": 99.01,
+    "spread_pct": 20.0
    },
-   "move_pct": 71.6,
+   "move_pct": 70.8,
    "band": [
     35,
     100
@@ -824,28 +846,6 @@
    "band": [
     8,
     13
-   ],
-   "percentile": 95,
-   "notable": true
-  },
-  {
-   "slug": "listowel-1618",
-   "venue": "Listowel",
-   "off_utc": "2026-09-20T16:18:00Z",
-   "runner": "Bonnie Loch",
-   "first": {
-    "mins_to_off": 348,
-    "mid": 60.06
-   },
-   "latest": {
-    "mins_to_off": 63,
-    "mid": 99.5,
-    "spread_pct": 35.9
-   },
-   "move_pct": 65.7,
-   "band": [
-    35,
-    100
    ],
    "percentile": 95,
    "notable": true
@@ -1093,28 +1093,6 @@
    "notable": false
   },
   {
-   "slug": "hamilton-1600",
-   "venue": "Hamilton",
-   "off_utc": "2026-09-20T16:00:00Z",
-   "runner": "Dandy's Angel",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 11.24
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 7.99,
-    "spread_pct": 5.0
-   },
-   "move_pct": -28.9,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 8,
-   "notable": false
-  },
-  {
    "slug": "hannover-de-1445",
    "venue": "Hannover De",
    "off_utc": "2026-09-20T14:45:00Z",
@@ -1198,28 +1176,6 @@
    "band": [
     5,
     8
-   ],
-   "percentile": 9,
-   "notable": false
-  },
-  {
-   "slug": "hamilton-1600",
-   "venue": "Hamilton",
-   "off_utc": "2026-09-20T16:00:00Z",
-   "runner": "Uncle Liam",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 3.3
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 2.65,
-    "spread_pct": 2.3
-   },
-   "move_pct": -19.7,
-   "band": [
-    3,
-    5
    ],
    "percentile": 9,
    "notable": false
@@ -1533,6 +1489,28 @@
    "notable": false
   },
   {
+   "slug": "listowel-1618",
+   "venue": "Listowel",
+   "off_utc": "2026-09-20T16:18:00Z",
+   "runner": "Con Did It",
+   "first": {
+    "mins_to_off": 348,
+    "mid": 56.5
+   },
+   "latest": {
+    "mins_to_off": 3,
+    "mid": 33.9,
+    "spread_pct": 11.6
+   },
+   "move_pct": -40.0,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 13,
+   "notable": false
+  },
+  {
    "slug": "dortmund-de-1345",
    "venue": "Dortmund De",
    "off_utc": "2026-09-20T13:45:00Z",
@@ -1621,28 +1599,6 @@
    "notable": false
   },
   {
-   "slug": "hamilton-1600",
-   "venue": "Hamilton",
-   "off_utc": "2026-09-20T16:00:00Z",
-   "runner": "Wootton's Gal",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 8.09
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 6.3,
-    "spread_pct": 3.2
-   },
-   "move_pct": -22.1,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 14,
-   "notable": false
-  },
-  {
    "slug": "listowel-1548",
    "venue": "Listowel",
    "off_utc": "2026-09-20T15:48:00Z",
@@ -1704,6 +1660,28 @@
    "band": [
     5,
     8
+   ],
+   "percentile": 86,
+   "notable": false
+  },
+  {
+   "slug": "listowel-1618",
+   "venue": "Listowel",
+   "off_utc": "2026-09-20T16:18:00Z",
+   "runner": "Sir Vinny",
+   "first": {
+    "mins_to_off": 348,
+    "mid": 2.88
+   },
+   "latest": {
+    "mins_to_off": 3,
+    "mid": 3.4,
+    "spread_pct": 2.9
+   },
+   "move_pct": 18.1,
+   "band": [
+    1.5,
+    3
    ],
    "percentile": 86,
    "notable": false
@@ -2039,28 +2017,6 @@
    "notable": false
   },
   {
-   "slug": "listowel-1618",
-   "venue": "Listowel",
-   "off_utc": "2026-09-20T16:18:00Z",
-   "runner": "Sir Vinny",
-   "first": {
-    "mins_to_off": 348,
-    "mid": 2.88
-   },
-   "latest": {
-    "mins_to_off": 33,
-    "mid": 3.32,
-    "spread_pct": 7.5
-   },
-   "move_pct": 15.4,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 83,
-   "notable": false
-  },
-  {
    "slug": "hamilton-1430",
    "venue": "Hamilton",
    "off_utc": "2026-09-20T14:30:00Z",
@@ -2281,6 +2237,28 @@
    "notable": false
   },
   {
+   "slug": "hamilton-1600",
+   "venue": "Hamilton",
+   "off_utc": "2026-09-20T16:00:00Z",
+   "runner": "Dandy's Angel",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 11.24
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 14.2,
+    "spread_pct": 10.5
+   },
+   "move_pct": 26.3,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 81,
+   "notable": false
+  },
+  {
    "slug": "dortmund-de-1305",
    "venue": "Dortmund De",
    "off_utc": "2026-09-20T13:05:00Z",
@@ -2369,6 +2347,28 @@
    "notable": false
   },
   {
+   "slug": "plumpton-1608",
+   "venue": "Plumpton",
+   "off_utc": "2026-09-20T16:08:00Z",
+   "runner": "On The Fly",
+   "first": {
+    "mins_to_off": 353,
+    "mid": 38.17
+   },
+   "latest": {
+    "mins_to_off": 8,
+    "mid": 49.02,
+    "spread_pct": 3.9
+   },
+   "move_pct": 28.4,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 80,
+   "notable": false
+  },
+  {
    "slug": "dortmund-de-1345",
    "venue": "Dortmund De",
    "off_utc": "2026-09-20T13:45:00Z",
@@ -2408,28 +2408,6 @@
    "band": [
     13,
     20
-   ],
-   "percentile": 79,
-   "notable": false
-  },
-  {
-   "slug": "listowel-1618",
-   "venue": "Listowel",
-   "off_utc": "2026-09-20T16:18:00Z",
-   "runner": "Con Did It",
-   "first": {
-    "mins_to_off": 348,
-    "mid": 56.5
-   },
-   "latest": {
-    "mins_to_off": 33,
-    "mid": 71.68,
-    "spread_pct": 21.0
-   },
-   "move_pct": 26.9,
-   "band": [
-    35,
-    100
    ],
    "percentile": 79,
    "notable": false
@@ -2476,50 +2454,6 @@
     100
    ],
    "percentile": 78,
-   "notable": false
-  },
-  {
-   "slug": "plumpton-1608",
-   "venue": "Plumpton",
-   "off_utc": "2026-09-20T16:08:00Z",
-   "runner": "Missy Moises",
-   "first": {
-    "mins_to_off": 353,
-    "mid": 6.78
-   },
-   "latest": {
-    "mins_to_off": 23,
-    "mid": 7.89,
-    "spread_pct": 7.6
-   },
-   "move_pct": 16.4,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 78,
-   "notable": false
-  },
-  {
-   "slug": "listowel-1618",
-   "venue": "Listowel",
-   "off_utc": "2026-09-20T16:18:00Z",
-   "runner": "Green Hint",
-   "first": {
-    "mins_to_off": 348,
-    "mid": 1.83
-   },
-   "latest": {
-    "mins_to_off": 33,
-    "mid": 1.66,
-    "spread_pct": 1.8
-   },
-   "move_pct": -9.0,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 22,
    "notable": false
   },
   {
@@ -2740,6 +2674,28 @@
     13
    ],
    "percentile": 75,
+   "notable": false
+  },
+  {
+   "slug": "plumpton-1608",
+   "venue": "Plumpton",
+   "off_utc": "2026-09-20T16:08:00Z",
+   "runner": "Kap In Hand",
+   "first": {
+    "mins_to_off": 353,
+    "mid": 5.49
+   },
+   "latest": {
+    "mins_to_off": 8,
+    "mid": 4.85,
+    "spread_pct": 2.0
+   },
+   "move_pct": -11.7,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 25,
    "notable": false
   },
   {
@@ -3161,6 +3117,28 @@
    "notable": false
   },
   {
+   "slug": "plumpton-1608",
+   "venue": "Plumpton",
+   "off_utc": "2026-09-20T16:08:00Z",
+   "runner": "Missy Moises",
+   "first": {
+    "mins_to_off": 353,
+    "mid": 6.78
+   },
+   "latest": {
+    "mins_to_off": 8,
+    "mid": 7.5,
+    "spread_pct": 2.6
+   },
+   "move_pct": 10.6,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 71,
+   "notable": false
+  },
+  {
    "slug": "hamilton-1400",
    "venue": "Hamilton",
    "off_utc": "2026-09-20T14:00:00Z",
@@ -3274,64 +3252,20 @@
    "slug": "hamilton-1600",
    "venue": "Hamilton",
    "off_utc": "2026-09-20T16:00:00Z",
-   "runner": "Taylormade Lad",
+   "runner": "Wootton's Gal",
    "first": {
     "mins_to_off": 360,
-    "mid": 5.69
+    "mid": 8.09
    },
    "latest": {
-    "mins_to_off": 15,
-    "mid": 6.19,
-    "spread_pct": 6.5
-   },
-   "move_pct": 8.8,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 68,
-   "notable": false
-  },
-  {
-   "slug": "hamilton-1600",
-   "venue": "Hamilton",
-   "off_utc": "2026-09-20T16:00:00Z",
-   "runner": "Flying Moonlight",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 7.19
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 6.59,
-    "spread_pct": 6.0
-   },
-   "move_pct": -8.3,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 32,
-   "notable": false
-  },
-  {
-   "slug": "listowel-1618",
-   "venue": "Listowel",
-   "off_utc": "2026-09-20T16:18:00Z",
-   "runner": "Paidi's Pet",
-   "first": {
-    "mins_to_off": 348,
-    "mid": 21.51
-   },
-   "latest": {
-    "mins_to_off": 33,
-    "mid": 19.67,
-    "spread_pct": 12.8
+    "mins_to_off": 0,
+    "mid": 7.39,
+    "spread_pct": 5.4
    },
    "move_pct": -8.6,
    "band": [
-    20,
-    35
+    8,
+    13
    ],
    "percentile": 32,
    "notable": false
@@ -3469,28 +3403,6 @@
    "notable": false
   },
   {
-   "slug": "plumpton-1608",
-   "venue": "Plumpton",
-   "off_utc": "2026-09-20T16:08:00Z",
-   "runner": "Kap In Hand",
-   "first": {
-    "mins_to_off": 353,
-    "mid": 5.49
-   },
-   "latest": {
-    "mins_to_off": 23,
-    "mid": 5.1,
-    "spread_pct": 3.9
-   },
-   "move_pct": -7.2,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 34,
-   "notable": false
-  },
-  {
    "slug": "listowel-1348",
    "venue": "Listowel",
    "off_utc": "2026-09-20T13:48:00Z",
@@ -3598,6 +3510,28 @@
     20
    ],
    "percentile": 35,
+   "notable": false
+  },
+  {
+   "slug": "hamilton-1600",
+   "venue": "Hamilton",
+   "off_utc": "2026-09-20T16:00:00Z",
+   "runner": "Flying Moonlight",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 7.19
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 7.7,
+    "spread_pct": 2.6
+   },
+   "move_pct": 7.0,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 65,
    "notable": false
   },
   {
@@ -3909,28 +3843,6 @@
    "notable": false
   },
   {
-   "slug": "plumpton-1608",
-   "venue": "Plumpton",
-   "off_utc": "2026-09-20T16:08:00Z",
-   "runner": "Company Charge",
-   "first": {
-    "mins_to_off": 353,
-    "mid": 8.76
-   },
-   "latest": {
-    "mins_to_off": 23,
-    "mid": 9.49,
-    "spread_pct": 6.4
-   },
-   "move_pct": 8.4,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 62,
-   "notable": false
-  },
-  {
    "slug": "listowel-1418",
    "venue": "Listowel",
    "off_utc": "2026-09-20T14:18:00Z",
@@ -4085,6 +3997,28 @@
    "notable": false
   },
   {
+   "slug": "plumpton-1608",
+   "venue": "Plumpton",
+   "off_utc": "2026-09-20T16:08:00Z",
+   "runner": "Company Charge",
+   "first": {
+    "mins_to_off": 353,
+    "mid": 8.76
+   },
+   "latest": {
+    "mins_to_off": 8,
+    "mid": 9.39,
+    "spread_pct": 4.2
+   },
+   "move_pct": 7.3,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 60,
+   "notable": false
+  },
+  {
    "slug": "dortmund-de-1130",
    "venue": "Dortmund De",
    "off_utc": "2026-09-20T11:30:00Z",
@@ -4151,28 +4085,6 @@
    "notable": false
   },
   {
-   "slug": "plumpton-1608",
-   "venue": "Plumpton",
-   "off_utc": "2026-09-20T16:08:00Z",
-   "runner": "Shane's Spirit",
-   "first": {
-    "mins_to_off": 353,
-    "mid": 1.88
-   },
-   "latest": {
-    "mins_to_off": 23,
-    "mid": 1.82,
-    "spread_pct": 1.1
-   },
-   "move_pct": -3.1,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 41,
-   "notable": false
-  },
-  {
    "slug": "dortmund-de-1130",
    "venue": "Dortmund De",
    "off_utc": "2026-09-20T11:30:00Z",
@@ -4190,6 +4102,28 @@
    "band": [
     8,
     13
+   ],
+   "percentile": 41,
+   "notable": false
+  },
+  {
+   "slug": "listowel-1618",
+   "venue": "Listowel",
+   "off_utc": "2026-09-20T16:18:00Z",
+   "runner": "Bonnie Loch",
+   "first": {
+    "mins_to_off": 348,
+    "mid": 60.06
+   },
+   "latest": {
+    "mins_to_off": 3,
+    "mid": 53.33,
+    "spread_pct": 22.1
+   },
+   "move_pct": -11.2,
+   "band": [
+    35,
+    100
    ],
    "percentile": 41,
    "notable": false
@@ -4256,28 +4190,6 @@
    "band": [
     8,
     13
-   ],
-   "percentile": 58,
-   "notable": false
-  },
-  {
-   "slug": "hamilton-1600",
-   "venue": "Hamilton",
-   "off_utc": "2026-09-20T16:00:00Z",
-   "runner": "Storm On Jura",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 40.49
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 41.67,
-    "spread_pct": 19.3
-   },
-   "move_pct": 2.9,
-   "band": [
-    35,
-    100
    ],
    "percentile": 58,
    "notable": false
@@ -4437,6 +4349,50 @@
    "notable": false
   },
   {
+   "slug": "hamilton-1600",
+   "venue": "Hamilton",
+   "off_utc": "2026-09-20T16:00:00Z",
+   "runner": "Storm On Jura",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 40.49
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 36.76,
+    "spread_pct": 16.3
+   },
+   "move_pct": -9.2,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 43,
+   "notable": false
+  },
+  {
+   "slug": "hamilton-1600",
+   "venue": "Hamilton",
+   "off_utc": "2026-09-20T16:00:00Z",
+   "runner": "Taylormade Lad",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 5.69
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 5.55,
+    "spread_pct": 1.8
+   },
+   "move_pct": -2.5,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 44,
+   "notable": false
+  },
+  {
    "slug": "plumpton-1438",
    "venue": "Plumpton",
    "off_utc": "2026-09-20T14:38:00Z",
@@ -4520,6 +4476,28 @@
    "band": [
     3,
     5
+   ],
+   "percentile": 54,
+   "notable": false
+  },
+  {
+   "slug": "listowel-1618",
+   "venue": "Listowel",
+   "off_utc": "2026-09-20T16:18:00Z",
+   "runner": "Green Hint",
+   "first": {
+    "mins_to_off": 348,
+    "mid": 1.83
+   },
+   "latest": {
+    "mins_to_off": 3,
+    "mid": 1.86,
+    "spread_pct": 1.6
+   },
+   "move_pct": 1.9,
+   "band": [
+    1.5,
+    3
    ],
    "percentile": 54,
    "notable": false
@@ -4630,6 +4608,28 @@
    "band": [
     35,
     100
+   ],
+   "percentile": 53,
+   "notable": false
+  },
+  {
+   "slug": "plumpton-1608",
+   "venue": "Plumpton",
+   "off_utc": "2026-09-20T16:08:00Z",
+   "runner": "Shane's Spirit",
+   "first": {
+    "mins_to_off": 353,
+    "mid": 1.88
+   },
+   "latest": {
+    "mins_to_off": 8,
+    "mid": 1.9,
+    "spread_pct": 1.0
+   },
+   "move_pct": 1.2,
+   "band": [
+    1.5,
+    3
    ],
    "percentile": 53,
    "notable": false
