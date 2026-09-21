@@ -1,10 +1,10 @@
 {
  "schema": "extra_places_v1",
- "generated_at": "2026-09-21T16:00:01Z",
+ "generated_at": "2026-09-21T21:30:01Z",
  "source": "Paddy Power public race pages",
  "note": "'extra_place' compares the bookmaker's offer with the bookmaker's own ladder, derived from our collection — not with the classic each-way table, which it does not follow.",
  "ladder_days": 16,
- "collected_through": "2026-09-21T15:00:02Z",
+ "collected_through": "2026-09-21T21:00:01Z",
  "races": [
   {
    "slug": "listowel-1223",
@@ -2753,14 +2753,14 @@
    "name": "5f Cond Stks",
    "handicap": false,
    "each_way": true,
-   "field_size": 9,
+   "field_size": 8,
    "terms": {
     "places": 2,
     "fraction": [
      1,
      4
     ],
-    "bog": false
+    "bog": true
    },
    "house_standard": {
     "places": 2,
@@ -2774,6 +2774,15 @@
     {
      "at": "2026-09-21T06:00:01Z",
      "field_size": 9,
+     "places": 2,
+     "fraction": [
+      1,
+      4
+     ]
+    },
+    {
+     "at": "2026-09-21T18:00:01Z",
+     "field_size": 8,
      "places": 2,
      "fraction": [
       1,
@@ -2981,7 +2990,7 @@
    "venue": "Listowel",
    "country": "IE",
    "off_utc": "2026-09-22T15:07:00Z",
-   "name": "1m Stks",
+   "name": "1m Cond Stks",
    "handicap": false,
    "each_way": true,
    "field_size": 9,
@@ -3058,14 +3067,14 @@
    "name": "1m Mdn Stks",
    "handicap": false,
    "each_way": true,
-   "field_size": 13,
+   "field_size": 11,
    "terms": {
     "places": 3,
     "fraction": [
      1,
      5
     ],
-    "bog": false
+    "bog": true
    },
    "house_standard": {
     "places": 3,
@@ -3079,6 +3088,15 @@
     {
      "at": "2026-09-21T06:00:01Z",
      "field_size": 13,
+     "places": 3,
+     "fraction": [
+      1,
+      5
+     ]
+    },
+    {
+     "at": "2026-09-21T16:00:02Z",
+     "field_size": 11,
      "places": 3,
      "fraction": [
       1,
