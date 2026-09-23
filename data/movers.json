@@ -1,6 +1,6 @@
 {
  "schema": "movers_v1",
- "generated_at": "2026-09-23T16:00:02Z",
+ "generated_at": "2026-09-23T21:30:01Z",
  "source": "Smarkets public order book",
  "note": "'percentile' is where this move sits among all moves we have measured for runners opening at a similar price. The median move is near zero in every band; what changes with price is the spread of outcomes.",
  "baseline": {
@@ -78,7 +78,7 @@
    }
   ]
  },
- "collected_through": "2026-09-23T15:45:01Z",
+ "collected_through": "2026-09-23T21:30:01Z",
  "runners": [
   {
    "slug": "listowel-1330",
@@ -120,6 +120,28 @@
    "band": [
     20,
     35
+   ],
+   "percentile": 100,
+   "notable": true
+  },
+  {
+   "slug": "goodwood-1600",
+   "venue": "Goodwood",
+   "off_utc": "2026-09-23T16:00:00Z",
+   "runner": "Mister Bluebird",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 11.42
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 29.33,
+    "spread_pct": 17.1
+   },
+   "move_pct": 156.9,
+   "band": [
+    8,
+    13
    ],
    "percentile": 100,
    "notable": true
@@ -304,22 +326,44 @@
    "slug": "goodwood-1600",
    "venue": "Goodwood",
    "off_utc": "2026-09-23T16:00:00Z",
-   "runner": "Mister Bluebird",
+   "runner": "Underwriter",
    "first": {
     "mins_to_off": 360,
-    "mid": 11.42
+    "mid": 12.41
    },
    "latest": {
-    "mins_to_off": 15,
-    "mid": 23.39,
-    "spread_pct": 12.9
+    "mins_to_off": 0,
+    "mid": 31.3,
+    "spread_pct": 16.1
    },
-   "move_pct": 104.9,
+   "move_pct": 152.1,
    "band": [
     8,
     13
    ],
    "percentile": 99,
+   "notable": true
+  },
+  {
+   "slug": "kempton-1730",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T17:30:00Z",
+   "runner": "Methgal",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 4.79
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 2.91,
+    "spread_pct": 2.1
+   },
+   "move_pct": -39.3,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 1,
    "notable": true
   },
   {
@@ -543,6 +587,28 @@
    "notable": true
   },
   {
+   "slug": "goodwood-1600",
+   "venue": "Goodwood",
+   "off_utc": "2026-09-23T16:00:00Z",
+   "runner": "Kesta",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 31.6
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 66.67,
+    "spread_pct": 23.0
+   },
+   "move_pct": 111.0,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 97,
+   "notable": true
+  },
+  {
    "slug": "listowel-1547",
    "venue": "Listowel",
    "off_utc": "2026-09-23T15:47:00Z",
@@ -565,47 +631,47 @@
    "notable": true
   },
   {
-   "slug": "listowel-1622",
-   "venue": "Listowel",
-   "off_utc": "2026-09-23T16:22:00Z",
-   "runner": "Rond Point",
+   "slug": "kempton-1700",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T17:00:00Z",
+   "runner": "Threelittleangels",
    "first": {
-    "mins_to_off": 352,
-    "mid": 5.88
+    "mins_to_off": 360,
+    "mid": 15.65
    },
    "latest": {
-    "mins_to_off": 37,
-    "mid": 3.72,
-    "spread_pct": 4.0
+    "mins_to_off": 0,
+    "mid": 8.8,
+    "spread_pct": 4.6
    },
-   "move_pct": -36.7,
+   "move_pct": -43.8,
    "band": [
-    5,
-    8
+    13,
+    20
    ],
    "percentile": 3,
    "notable": true
   },
   {
-   "slug": "listowel-1622",
-   "venue": "Listowel",
-   "off_utc": "2026-09-23T16:22:00Z",
-   "runner": "Young Doran",
+   "slug": "kempton-1900",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T19:00:00Z",
+   "runner": "Wardlaw",
    "first": {
-    "mins_to_off": 352,
-    "mid": 5.19
+    "mins_to_off": 360,
+    "mid": 4.7
    },
    "latest": {
-    "mins_to_off": 37,
-    "mid": 8.29,
-    "spread_pct": 7.2
+    "mins_to_off": 0,
+    "mid": 3.2,
+    "spread_pct": 3.1
    },
-   "move_pct": 59.6,
+   "move_pct": -31.9,
    "band": [
-    5,
-    8
+    3,
+    5
    ],
-   "percentile": 97,
+   "percentile": 3,
    "notable": true
   },
   {
@@ -763,20 +829,64 @@
    "notable": true
   },
   {
-   "slug": "kempton-1630",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T16:30:00Z",
-   "runner": "Goomah",
+   "slug": "redcar-1617",
+   "venue": "Redcar",
+   "off_utc": "2026-09-23T16:17:00Z",
+   "runner": "Judicature",
    "first": {
-    "mins_to_off": 360,
-    "mid": 8.58
+    "mins_to_off": 347,
+    "mid": 10.7
    },
    "latest": {
-    "mins_to_off": 45,
-    "mid": 5.5,
-    "spread_pct": 3.6
+    "mins_to_off": 2,
+    "mid": 6.7,
+    "spread_pct": 2.9
    },
-   "move_pct": -35.9,
+   "move_pct": -37.4,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 4,
+   "notable": true
+  },
+  {
+   "slug": "kempton-1730",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T17:30:00Z",
+   "runner": "No Claims Bonus",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 15.86
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 28.45,
+    "spread_pct": 10.6
+   },
+   "move_pct": 79.4,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 96,
+   "notable": true
+  },
+  {
+   "slug": "kempton-1830",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T18:30:00Z",
+   "runner": "Chalk Mountain",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 9.69
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 6.05,
+    "spread_pct": 5.0
+   },
+   "move_pct": -37.6,
    "band": [
     8,
     13
@@ -939,20 +1049,108 @@
    "notable": true
   },
   {
-   "slug": "listowel-1622",
-   "venue": "Listowel",
-   "off_utc": "2026-09-23T16:22:00Z",
-   "runner": "Back In Favour",
+   "slug": "kempton-1630",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T16:30:00Z",
+   "runner": "Nothing But Love",
    "first": {
-    "mins_to_off": 352,
-    "mid": 18.48
+    "mins_to_off": 360,
+    "mid": 10.25
    },
    "latest": {
-    "mins_to_off": 37,
-    "mid": 11.48,
-    "spread_pct": 8.7
+    "mins_to_off": 0,
+    "mid": 16.25,
+    "spread_pct": 3.1
    },
-   "move_pct": -37.9,
+   "move_pct": 58.5,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 95,
+   "notable": true
+  },
+  {
+   "slug": "kempton-1630",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T16:30:00Z",
+   "runner": "Too Too Divine",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 9.39
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 6.19,
+    "spread_pct": 6.5
+   },
+   "move_pct": -34.0,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 5,
+   "notable": true
+  },
+  {
+   "slug": "kempton-1730",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T17:30:00Z",
+   "runner": "Love Alive",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 60.06
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 99.01,
+    "spread_pct": 20.0
+   },
+   "move_pct": 64.9,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 95,
+   "notable": true
+  },
+  {
+   "slug": "kempton-1930",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T19:30:00Z",
+   "runner": "Fast Steps",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 12.32
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 19.96,
+    "spread_pct": 10.0
+   },
+   "move_pct": 62.0,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 95,
+   "notable": true
+  },
+  {
+   "slug": "kempton-1930",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T19:30:00Z",
+   "runner": "Ricardo Phillips",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 14.2
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 9.0,
+    "spread_pct": 4.4
+   },
+   "move_pct": -36.7,
    "band": [
     13,
     20
@@ -1203,25 +1401,113 @@
    "notable": false
   },
   {
-   "slug": "kempton-1630",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T16:30:00Z",
-   "runner": "Liberate",
+   "slug": "goodwood-1600",
+   "venue": "Goodwood",
+   "off_utc": "2026-09-23T16:00:00Z",
+   "runner": "Sound And Vision",
    "first": {
     "mins_to_off": 360,
-    "mid": 43.48
+    "mid": 8.18
    },
    "latest": {
-    "mins_to_off": 45,
-    "mid": 70.18,
-    "spread_pct": 35.4
+    "mins_to_off": 0,
+    "mid": 5.5,
+    "spread_pct": 3.6
    },
-   "move_pct": 61.4,
+   "move_pct": -32.8,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 6,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1700",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T17:00:00Z",
+   "runner": "Sayidah Dubawi",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 46.51
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 73.53,
+    "spread_pct": 26.9
+   },
+   "move_pct": 58.1,
    "band": [
     35,
     100
    ],
    "percentile": 94,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1800",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T18:00:00Z",
+   "runner": "San Juanito",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 13.93
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 23.39,
+    "spread_pct": 12.9
+   },
+   "move_pct": 68.0,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 94,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1800",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T18:00:00Z",
+   "runner": "Victory Sound",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 13.13
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 21.95,
+    "spread_pct": 9.0
+   },
+   "move_pct": 67.2,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 94,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1900",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T19:00:00Z",
+   "runner": "Qitaal",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 28.69
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 17.21,
+    "spread_pct": 8.6
+   },
+   "move_pct": -40.0,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 6,
    "notable": false
   },
   {
@@ -1291,47 +1577,91 @@
    "notable": false
   },
   {
-   "slug": "kempton-1630",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T16:30:00Z",
-   "runner": "Mollie Foster",
+   "slug": "listowel-1622",
+   "venue": "Listowel",
+   "off_utc": "2026-09-23T16:22:00Z",
+   "runner": "Rond Point",
    "first": {
-    "mins_to_off": 360,
-    "mid": 63.09
+    "mins_to_off": 352,
+    "mid": 5.88
    },
    "latest": {
-    "mins_to_off": 45,
-    "mid": 99.5,
-    "spread_pct": 35.9
+    "mins_to_off": 7,
+    "mid": 4.25,
+    "spread_pct": 2.3
    },
-   "move_pct": 57.7,
+   "move_pct": -27.8,
    "band": [
-    35,
-    100
+    5,
+    8
    ],
-   "percentile": 93,
+   "percentile": 7,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1700",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T17:00:00Z",
+   "runner": "Duchess Of Immatin",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 5.24
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 3.8,
+    "spread_pct": 2.7
+   },
+   "move_pct": -27.5,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 7,
    "notable": false
   },
   {
    "slug": "kempton-1730",
    "venue": "Kempton",
    "off_utc": "2026-09-23T17:30:00Z",
-   "runner": "Methgal",
+   "runner": "Dontspoilasale",
    "first": {
     "mins_to_off": 360,
-    "mid": 4.79
+    "mid": 6.3
    },
    "latest": {
-    "mins_to_off": 105,
-    "mid": 3.67,
-    "spread_pct": 4.1
+    "mins_to_off": 0,
+    "mid": 9.0,
+    "spread_pct": 4.4
    },
-   "move_pct": -23.3,
+   "move_pct": 42.8,
    "band": [
-    3,
-    5
+    5,
+    8
    ],
-   "percentile": 7,
+   "percentile": 93,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1800",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T18:00:00Z",
+   "runner": "Forever My Prince",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 46.3
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 71.68,
+    "spread_pct": 21.0
+   },
+   "move_pct": 54.8,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 93,
    "notable": false
   },
   {
@@ -1445,25 +1775,47 @@
    "notable": false
   },
   {
-   "slug": "goodwood-1600",
-   "venue": "Goodwood",
-   "off_utc": "2026-09-23T16:00:00Z",
-   "runner": "Tenbob Tommy",
+   "slug": "kempton-1800",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T18:00:00Z",
+   "runner": "Searchingtheblues",
    "first": {
     "mins_to_off": 360,
-    "mid": 18.23
+    "mid": 8.69
    },
    "latest": {
-    "mins_to_off": 15,
-    "mid": 12.75,
-    "spread_pct": 4.0
+    "mins_to_off": 0,
+    "mid": 6.1,
+    "spread_pct": 3.3
    },
-   "move_pct": -30.1,
+   "move_pct": -29.8,
    "band": [
-    13,
-    20
+    8,
+    13
    ],
    "percentile": 8,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1800",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T18:00:00Z",
+   "runner": "Ararat",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 22.99
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 40.82,
+    "spread_pct": 14.8
+   },
+   "move_pct": 77.6,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 92,
    "notable": false
   },
   {
@@ -1533,6 +1885,28 @@
    "notable": false
   },
   {
+   "slug": "goodwood-1600",
+   "venue": "Goodwood",
+   "off_utc": "2026-09-23T16:00:00Z",
+   "runner": "On Edge",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 29.5
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 50.13,
+    "spread_pct": 17.7
+   },
+   "move_pct": 69.9,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 91,
+   "notable": false
+  },
+  {
    "slug": "kempton-1555",
    "venue": "Kempton",
    "off_utc": "2026-09-23T15:55:00Z",
@@ -1555,25 +1929,69 @@
    "notable": false
   },
   {
+   "slug": "perth-1607",
+   "venue": "Perth",
+   "off_utc": "2026-09-23T16:07:00Z",
+   "runner": "Fortunes Dawn",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 56.98
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 29.9,
+    "spread_pct": 13.5
+   },
+   "move_pct": -47.5,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 9,
+   "notable": false
+  },
+  {
+   "slug": "redcar-1617",
+   "venue": "Redcar",
+   "off_utc": "2026-09-23T16:17:00Z",
+   "runner": "Irish Incentive",
+   "first": {
+    "mins_to_off": 347,
+    "mid": 22.65
+   },
+   "latest": {
+    "mins_to_off": 2,
+    "mid": 14.98,
+    "spread_pct": 6.7
+   },
+   "move_pct": -33.9,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 9,
+   "notable": false
+  },
+  {
    "slug": "kempton-1630",
    "venue": "Kempton",
    "off_utc": "2026-09-23T16:30:00Z",
-   "runner": "Protectrix",
+   "runner": "Sunshine And Roses",
    "first": {
     "mins_to_off": 360,
-    "mid": 3.27
+    "mid": 11.42
    },
    "latest": {
-    "mins_to_off": 45,
-    "mid": 4.3,
-    "spread_pct": 4.6
+    "mins_to_off": 0,
+    "mid": 8.3,
+    "spread_pct": 2.5
    },
-   "move_pct": 31.3,
+   "move_pct": -27.3,
    "band": [
-    3,
-    5
+    8,
+    13
    ],
-   "percentile": 91,
+   "percentile": 9,
    "notable": false
   },
   {
@@ -1687,25 +2105,25 @@
    "notable": false
   },
   {
-   "slug": "perth-1607",
-   "venue": "Perth",
-   "off_utc": "2026-09-23T16:07:00Z",
-   "runner": "Fortunes Dawn",
+   "slug": "redcar-1617",
+   "venue": "Redcar",
+   "off_utc": "2026-09-23T16:17:00Z",
+   "runner": "Pedro The Poet",
    "first": {
-    "mins_to_off": 352,
-    "mid": 56.98
+    "mins_to_off": 347,
+    "mid": 6.39
    },
    "latest": {
-    "mins_to_off": 22,
-    "mid": 31.3,
-    "spread_pct": 16.1
+    "mins_to_off": 2,
+    "mid": 8.6,
+    "spread_pct": 4.6
    },
-   "move_pct": -45.1,
+   "move_pct": 34.5,
    "band": [
-    35,
-    100
+    5,
+    8
    ],
-   "percentile": 10,
+   "percentile": 90,
    "notable": false
   },
   {
@@ -1753,18 +2171,62 @@
    "notable": false
   },
   {
-   "slug": "goodwood-1600",
-   "venue": "Goodwood",
-   "off_utc": "2026-09-23T16:00:00Z",
-   "runner": "Arry Up",
+   "slug": "perth-1607",
+   "venue": "Perth",
+   "off_utc": "2026-09-23T16:07:00Z",
+   "runner": "Judicial Review",
    "first": {
-    "mins_to_off": 360,
-    "mid": 38.39
+    "mins_to_off": 352,
+    "mid": 14.43
    },
    "latest": {
-    "mins_to_off": 15,
-    "mid": 21.95,
-    "spread_pct": 9.0
+    "mins_to_off": 7,
+    "mid": 21.39,
+    "spread_pct": 14.0
+   },
+   "move_pct": 48.2,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 89,
+   "notable": false
+  },
+  {
+   "slug": "listowel-1622",
+   "venue": "Listowel",
+   "off_utc": "2026-09-23T16:22:00Z",
+   "runner": "Back In Favour",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 18.48
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 13.49,
+    "spread_pct": 7.4
+   },
+   "move_pct": -27.0,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 11,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1800",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T18:00:00Z",
+   "runner": "Zoulu Warrior",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 64.31
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 36.76,
+    "spread_pct": 16.3
    },
    "move_pct": -42.8,
    "band": [
@@ -1775,45 +2237,45 @@
    "notable": false
   },
   {
-   "slug": "goodwood-1600",
-   "venue": "Goodwood",
-   "off_utc": "2026-09-23T16:00:00Z",
-   "runner": "Sound And Vision",
+   "slug": "kempton-1900",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T19:00:00Z",
+   "runner": "Joseph",
    "first": {
     "mins_to_off": 360,
-    "mid": 8.18
+    "mid": 6.59
    },
    "latest": {
-    "mins_to_off": 15,
-    "mid": 6.1,
-    "spread_pct": 3.3
+    "mins_to_off": 0,
+    "mid": 5.1,
+    "spread_pct": 3.9
    },
-   "move_pct": -25.5,
+   "move_pct": -22.7,
    "band": [
-    8,
-    13
+    5,
+    8
    ],
    "percentile": 11,
    "notable": false
   },
   {
-   "slug": "perth-1607",
-   "venue": "Perth",
-   "off_utc": "2026-09-23T16:07:00Z",
-   "runner": "Seeyainthesuninn",
+   "slug": "kempton-1930",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T19:30:00Z",
+   "runner": "Arundel",
    "first": {
-    "mins_to_off": 352,
-    "mid": 5.54
+    "mins_to_off": 360,
+    "mid": 4.03
    },
    "latest": {
-    "mins_to_off": 22,
-    "mid": 7.23,
-    "spread_pct": 19.3
+    "mins_to_off": 0,
+    "mid": 5.2,
+    "spread_pct": 3.8
    },
-   "move_pct": 30.6,
+   "move_pct": 28.8,
    "band": [
-    5,
-    8
+    3,
+    5
    ],
    "percentile": 89,
    "notable": false
@@ -1863,18 +2325,18 @@
    "notable": false
   },
   {
-   "slug": "goodwood-1600",
-   "venue": "Goodwood",
-   "off_utc": "2026-09-23T16:00:00Z",
-   "runner": "Underwriter",
+   "slug": "listowel-1622",
+   "venue": "Listowel",
+   "off_utc": "2026-09-23T16:22:00Z",
+   "runner": "Justice Hall",
    "first": {
-    "mins_to_off": 360,
-    "mid": 12.41
+    "mins_to_off": 352,
+    "mid": 11.7
    },
    "latest": {
-    "mins_to_off": 15,
-    "mid": 17.21,
-    "spread_pct": 8.6
+    "mins_to_off": 7,
+    "mid": 16.22,
+    "spread_pct": 9.3
    },
    "move_pct": 38.6,
    "band": [
@@ -1885,45 +2347,45 @@
    "notable": false
   },
   {
-   "slug": "goodwood-1600",
-   "venue": "Goodwood",
-   "off_utc": "2026-09-23T16:00:00Z",
-   "runner": "Serenity Dream",
+   "slug": "kempton-1800",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T18:00:00Z",
+   "runner": "Whitesnake",
    "first": {
     "mins_to_off": 360,
-    "mid": 11.24
+    "mid": 11.92
    },
    "latest": {
-    "mins_to_off": 15,
-    "mid": 15.48,
-    "spread_pct": 6.5
+    "mins_to_off": 0,
+    "mid": 9.0,
+    "spread_pct": 4.4
    },
-   "move_pct": 37.7,
+   "move_pct": -24.5,
    "band": [
     8,
     13
    ],
-   "percentile": 88,
+   "percentile": 12,
    "notable": false
   },
   {
-   "slug": "redcar-1617",
-   "venue": "Redcar",
-   "off_utc": "2026-09-23T16:17:00Z",
-   "runner": "Oselton",
+   "slug": "kempton-1830",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T18:30:00Z",
+   "runner": "Physique",
    "first": {
-    "mins_to_off": 347,
-    "mid": 14.41
+    "mins_to_off": 360,
+    "mid": 10.03
    },
    "latest": {
-    "mins_to_off": 32,
-    "mid": 20.81,
-    "spread_pct": 19.1
+    "mins_to_off": 0,
+    "mid": 13.71,
+    "spread_pct": 10.9
    },
-   "move_pct": 44.4,
+   "move_pct": 36.7,
    "band": [
-    13,
-    20
+    8,
+    13
    ],
    "percentile": 88,
    "notable": false
@@ -2017,23 +2479,89 @@
    "notable": false
   },
   {
+   "slug": "goodwood-1600",
+   "venue": "Goodwood",
+   "off_utc": "2026-09-23T16:00:00Z",
+   "runner": "Arry Up",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 38.39
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 22.94,
+    "spread_pct": 8.7
+   },
+   "move_pct": -40.3,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 13,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1630",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T16:30:00Z",
+   "runner": "Protectrix",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 3.27
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 4.1,
+    "spread_pct": 4.9
+   },
+   "move_pct": 25.2,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 87,
+   "notable": false
+  },
+  {
    "slug": "kempton-1730",
    "venue": "Kempton",
    "off_utc": "2026-09-23T17:30:00Z",
-   "runner": "Iconic Dawn",
+   "runner": "Generous Rascal",
    "first": {
     "mins_to_off": 360,
-    "mid": 6.37
+    "mid": 12.93
    },
    "latest": {
-    "mins_to_off": 105,
-    "mid": 8.2,
-    "spread_pct": 4.9
+    "mins_to_off": 0,
+    "mid": 17.48,
+    "spread_pct": 5.6
    },
-   "move_pct": 28.6,
+   "move_pct": 35.2,
    "band": [
-    5,
-    8
+    8,
+    13
+   ],
+   "percentile": 87,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1930",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T19:30:00Z",
+   "runner": "Golden Phase",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 43.48
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 62.31,
+    "spread_pct": 8.1
+   },
+   "move_pct": 43.3,
+   "band": [
+    35,
+    100
    ],
    "percentile": 87,
    "notable": false
@@ -2122,6 +2650,72 @@
    "band": [
     13,
     20
+   ],
+   "percentile": 14,
+   "notable": false
+  },
+  {
+   "slug": "listowel-1622",
+   "venue": "Listowel",
+   "off_utc": "2026-09-23T16:22:00Z",
+   "runner": "Young Doran",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 5.19
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 6.5,
+    "spread_pct": 3.1
+   },
+   "move_pct": 25.2,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 86,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1800",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T18:00:00Z",
+   "runner": "Chapman's Peak",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 8.38
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 6.5,
+    "spread_pct": 3.1
+   },
+   "move_pct": -22.5,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 14,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1930",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T19:30:00Z",
+   "runner": "Ghost Story",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 7.69
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 6.19,
+    "spread_pct": 6.5
+   },
+   "move_pct": -19.4,
+   "band": [
+    5,
+    8
    ],
    "percentile": 14,
    "notable": false
@@ -2237,45 +2831,89 @@
    "notable": false
   },
   {
-   "slug": "redcar-1617",
-   "venue": "Redcar",
-   "off_utc": "2026-09-23T16:17:00Z",
-   "runner": "Pedro The Poet",
+   "slug": "kempton-1830",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T18:30:00Z",
+   "runner": "Majestic Dane",
    "first": {
-    "mins_to_off": 347,
-    "mid": 6.39
+    "mins_to_off": 360,
+    "mid": 36.36
    },
    "latest": {
-    "mins_to_off": 32,
-    "mid": 7.99,
-    "spread_pct": 5.0
+    "mins_to_off": 0,
+    "mid": 50.13,
+    "spread_pct": 17.7
    },
-   "move_pct": 25.0,
+   "move_pct": 37.8,
    "band": [
-    5,
-    8
+    35,
+    100
    ],
    "percentile": 85,
    "notable": false
   },
   {
-   "slug": "kempton-1700",
+   "slug": "kempton-1830",
    "venue": "Kempton",
-   "off_utc": "2026-09-23T17:00:00Z",
-   "runner": "Duchess Of Immatin",
+   "off_utc": "2026-09-23T18:30:00Z",
+   "runner": "Metal Merchant",
    "first": {
     "mins_to_off": 360,
-    "mid": 5.24
+    "mid": 20.18
    },
    "latest": {
-    "mins_to_off": 75,
-    "mid": 4.25,
-    "spread_pct": 2.3
+    "mins_to_off": 0,
+    "mid": 30.44,
+    "spread_pct": 10.1
    },
-   "move_pct": -18.9,
+   "move_pct": 50.8,
    "band": [
-    5,
-    8
+    20,
+    35
+   ],
+   "percentile": 85,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1930",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T19:30:00Z",
+   "runner": "Uzincso",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 28.69
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 42.83,
+    "spread_pct": 14.2
+   },
+   "move_pct": 49.3,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 85,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1930",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T19:30:00Z",
+   "runner": "Boston Run",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 21.51
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 15.99,
+    "spread_pct": 6.2
+   },
+   "move_pct": -25.7,
+   "band": [
+    20,
+    35
    ],
    "percentile": 15,
    "notable": false
@@ -2457,18 +3095,18 @@
    "notable": false
   },
   {
-   "slug": "goodwood-1600",
-   "venue": "Goodwood",
-   "off_utc": "2026-09-23T16:00:00Z",
-   "runner": "Rage Of Thunder",
+   "slug": "kempton-1700",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T17:00:00Z",
+   "runner": "Wig Wam Bam",
    "first": {
     "mins_to_off": 360,
-    "mid": 14.64
+    "mid": 13.55
    },
    "latest": {
-    "mins_to_off": 15,
-    "mid": 20.22,
-    "spread_pct": 7.5
+    "mins_to_off": 0,
+    "mid": 18.71,
+    "spread_pct": 8.1
    },
    "move_pct": 38.1,
    "band": [
@@ -2479,69 +3117,25 @@
    "notable": false
   },
   {
-   "slug": "redcar-1617",
-   "venue": "Redcar",
-   "off_utc": "2026-09-23T16:17:00Z",
-   "runner": "King Of War",
+   "slug": "kempton-1830",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T18:30:00Z",
+   "runner": "Suggy",
    "first": {
-    "mins_to_off": 347,
-    "mid": 7.84
+    "mins_to_off": 360,
+    "mid": 12.93
    },
    "latest": {
-    "mins_to_off": 32,
-    "mid": 9.69,
-    "spread_pct": 6.2
+    "mins_to_off": 0,
+    "mid": 10.25,
+    "spread_pct": 4.9
    },
-   "move_pct": 23.6,
+   "move_pct": -20.7,
    "band": [
-    5,
-    8
-   ],
-   "percentile": 84,
-   "notable": false
-  },
-  {
-   "slug": "redcar-1617",
-   "venue": "Redcar",
-   "off_utc": "2026-09-23T16:17:00Z",
-   "runner": "Irish Incentive",
-   "first": {
-    "mins_to_off": 347,
-    "mid": 22.65
-   },
-   "latest": {
-    "mins_to_off": 92,
-    "mid": 16.86,
-    "spread_pct": 17.7
-   },
-   "move_pct": -25.5,
-   "band": [
-    20,
-    35
+    8,
+    13
    ],
    "percentile": 16,
-   "notable": false
-  },
-  {
-   "slug": "listowel-1622",
-   "venue": "Listowel",
-   "off_utc": "2026-09-23T16:22:00Z",
-   "runner": "Well Bud",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 18.17
-   },
-   "latest": {
-    "mins_to_off": 37,
-    "mid": 24.84,
-    "spread_pct": 16.3
-   },
-   "move_pct": 36.8,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 84,
    "notable": false
   },
   {
@@ -2611,6 +3205,28 @@
    "notable": false
   },
   {
+   "slug": "goodwood-1600",
+   "venue": "Goodwood",
+   "off_utc": "2026-09-23T16:00:00Z",
+   "runner": "Robert Anstruther",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 10.25
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 8.2,
+    "spread_pct": 4.9
+   },
+   "move_pct": -20.0,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 17,
+   "notable": false
+  },
+  {
    "slug": "listowel-1547",
    "venue": "Listowel",
    "off_utc": "2026-09-23T15:47:00Z",
@@ -2633,25 +3249,25 @@
    "notable": false
   },
   {
-   "slug": "redcar-1617",
-   "venue": "Redcar",
-   "off_utc": "2026-09-23T16:17:00Z",
-   "runner": "South Kensington",
+   "slug": "kempton-1800",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T18:00:00Z",
+   "runner": "Upsomdowns",
    "first": {
-    "mins_to_off": 347,
-    "mid": 8.44
+    "mins_to_off": 360,
+    "mid": 13.71
    },
    "latest": {
-    "mins_to_off": 32,
-    "mid": 6.79,
-    "spread_pct": 5.8
+    "mins_to_off": 0,
+    "mid": 18.48,
+    "spread_pct": 5.5
    },
-   "move_pct": -19.5,
+   "move_pct": 34.8,
    "band": [
-    8,
-    13
+    13,
+    20
    ],
-   "percentile": 17,
+   "percentile": 83,
    "notable": false
   },
   {
@@ -2694,6 +3310,28 @@
    "band": [
     35,
     100
+   ],
+   "percentile": 18,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1630",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T16:30:00Z",
+   "runner": "Goomah",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 8.58
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 6.99,
+    "spread_pct": 5.7
+   },
+   "move_pct": -18.5,
+   "band": [
+    8,
+    13
    ],
    "percentile": 18,
    "notable": false
@@ -2831,47 +3469,47 @@
    "notable": false
   },
   {
-   "slug": "kempton-1730",
+   "slug": "kempton-1630",
    "venue": "Kempton",
-   "off_utc": "2026-09-23T17:30:00Z",
-   "runner": "No Claims Bonus",
+   "off_utc": "2026-09-23T16:30:00Z",
+   "runner": "Liberate",
    "first": {
     "mins_to_off": 360,
-    "mid": 15.86
+    "mid": 43.48
    },
    "latest": {
-    "mins_to_off": 105,
-    "mid": 21.1,
-    "spread_pct": 16.6
+    "mins_to_off": 0,
+    "mid": 56.5,
+    "spread_pct": 26.4
    },
-   "move_pct": 33.0,
+   "move_pct": 29.9,
    "band": [
-    13,
-    20
+    35,
+    100
    ],
    "percentile": 81,
    "notable": false
   },
   {
-   "slug": "kempton-1900",
+   "slug": "kempton-1700",
    "venue": "Kempton",
-   "off_utc": "2026-09-23T19:00:00Z",
-   "runner": "Qitaal",
+   "off_utc": "2026-09-23T17:00:00Z",
+   "runner": "Show Me Glory",
    "first": {
     "mins_to_off": 360,
-    "mid": 28.69
+    "mid": 1.9
    },
    "latest": {
-    "mins_to_off": 195,
-    "mid": 22.4,
-    "spread_pct": 13.3
+    "mins_to_off": 0,
+    "mid": 2.16,
+    "spread_pct": 1.9
    },
-   "move_pct": -21.9,
+   "move_pct": 13.4,
    "band": [
-    20,
-    35
+    1.5,
+    3
    ],
-   "percentile": 19,
+   "percentile": 81,
    "notable": false
   },
   {
@@ -2941,6 +3579,94 @@
    "notable": false
   },
   {
+   "slug": "redcar-1617",
+   "venue": "Redcar",
+   "off_utc": "2026-09-23T16:17:00Z",
+   "runner": "King Of War",
+   "first": {
+    "mins_to_off": 347,
+    "mid": 7.84
+   },
+   "latest": {
+    "mins_to_off": 2,
+    "mid": 9.29,
+    "spread_pct": 6.4
+   },
+   "move_pct": 18.5,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 80,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1830",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T18:30:00Z",
+   "runner": "Prosperitas",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 20.66
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 28.45,
+    "spread_pct": 10.6
+   },
+   "move_pct": 37.7,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 80,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1900",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T19:00:00Z",
+   "runner": "Narragansett",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 77.22
+   },
+   "latest": {
+    "mins_to_off": 45,
+    "mid": 99.5,
+    "spread_pct": 35.9
+   },
+   "move_pct": 28.9,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 80,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1930",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T19:30:00Z",
+   "runner": "Super Hit",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 14.48
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 11.74,
+    "spread_pct": 4.3
+   },
+   "move_pct": -18.9,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 20,
+   "notable": false
+  },
+  {
    "slug": "perth-1422",
    "venue": "Perth",
    "off_utc": "2026-09-23T14:22:00Z",
@@ -3007,16 +3733,16 @@
    "notable": false
   },
   {
-   "slug": "goodwood-1600",
-   "venue": "Goodwood",
-   "off_utc": "2026-09-23T16:00:00Z",
-   "runner": "Kesta",
+   "slug": "kempton-1730",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T17:30:00Z",
+   "runner": "Nezeeh",
    "first": {
     "mins_to_off": 360,
     "mid": 31.6
    },
    "latest": {
-    "mins_to_off": 15,
+    "mins_to_off": 0,
     "mid": 42.83,
     "spread_pct": 14.2
    },
@@ -3026,50 +3752,6 @@
     35
    ],
    "percentile": 79,
-   "notable": false
-  },
-  {
-   "slug": "redcar-1617",
-   "venue": "Redcar",
-   "off_utc": "2026-09-23T16:17:00Z",
-   "runner": "Mr Jetman",
-   "first": {
-    "mins_to_off": 347,
-    "mid": 47.96
-   },
-   "latest": {
-    "mins_to_off": 32,
-    "mid": 32.89,
-    "spread_pct": 27.5
-   },
-   "move_pct": -31.4,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 21,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1730",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T17:30:00Z",
-   "runner": "Spacewoman",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 10.91
-   },
-   "latest": {
-    "mins_to_off": 105,
-    "mid": 9.1,
-    "spread_pct": 2.2
-   },
-   "move_pct": -16.6,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 21,
    "notable": false
   },
   {
@@ -3205,72 +3887,6 @@
    "notable": false
   },
   {
-   "slug": "perth-1607",
-   "venue": "Perth",
-   "off_utc": "2026-09-23T16:07:00Z",
-   "runner": "Les's Destiny Star",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 12.82
-   },
-   "latest": {
-    "mins_to_off": 22,
-    "mid": 15.65,
-    "spread_pct": 16.1
-   },
-   "move_pct": 22.1,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 77,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1630",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T16:30:00Z",
-   "runner": "Nothing But Love",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 10.25
-   },
-   "latest": {
-    "mins_to_off": 45,
-    "mid": 12.48,
-    "spread_pct": 8.0
-   },
-   "move_pct": 21.8,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 77,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1800",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T18:00:00Z",
-   "runner": "San Juanito",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 13.93
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 17.67,
-    "spread_pct": 14.2
-   },
-   "move_pct": 26.9,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 77,
-   "notable": false
-  },
-  {
    "slug": "redcar-1322",
    "venue": "Redcar",
    "off_utc": "2026-09-23T13:22:00Z",
@@ -3337,23 +3953,89 @@
    "notable": false
   },
   {
-   "slug": "goodwood-1600",
-   "venue": "Goodwood",
-   "off_utc": "2026-09-23T16:00:00Z",
-   "runner": "On Edge",
+   "slug": "redcar-1617",
+   "venue": "Redcar",
+   "off_utc": "2026-09-23T16:17:00Z",
+   "runner": "Ryefield",
    "first": {
-    "mins_to_off": 360,
-    "mid": 29.5
+    "mins_to_off": 347,
+    "mid": 73.53
    },
    "latest": {
-    "mins_to_off": 15,
-    "mid": 38.76,
-    "spread_pct": 15.6
+    "mins_to_off": 2,
+    "mid": 53.33,
+    "spread_pct": 22.1
    },
-   "move_pct": 31.4,
+   "move_pct": -27.5,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 24,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1730",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T17:30:00Z",
+   "runner": "Lahina Bay",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 14.43
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 18.23,
+    "spread_pct": 8.2
+   },
+   "move_pct": 26.3,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 76,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1830",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T18:30:00Z",
+   "runner": "Shaman Champion",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 21.51
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 17.99,
+    "spread_pct": 5.4
+   },
+   "move_pct": -16.4,
    "band": [
     20,
     35
+   ],
+   "percentile": 24,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1900",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T19:00:00Z",
+   "runner": "Thinthread",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 12.2
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 14.72,
+    "spread_pct": 10.2
+   },
+   "move_pct": 20.6,
+   "band": [
+    8,
+    13
    ],
    "percentile": 76,
    "notable": false
@@ -3469,6 +4151,50 @@
    "notable": false
   },
   {
+   "slug": "perth-1607",
+   "venue": "Perth",
+   "off_utc": "2026-09-23T16:07:00Z",
+   "runner": "Seeyainthesuninn",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 5.54
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 6.3,
+    "spread_pct": 3.2
+   },
+   "move_pct": 13.7,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 75,
+   "notable": false
+  },
+  {
+   "slug": "redcar-1617",
+   "venue": "Redcar",
+   "off_utc": "2026-09-23T16:17:00Z",
+   "runner": "Soul Warrior",
+   "first": {
+    "mins_to_off": 347,
+    "mid": 10.25
+   },
+   "latest": {
+    "mins_to_off": 2,
+    "mid": 12.25,
+    "spread_pct": 4.0
+   },
+   "move_pct": 19.5,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 75,
+   "notable": false
+  },
+  {
    "slug": "redcar-1617",
    "venue": "Redcar",
    "off_utc": "2026-09-23T16:17:00Z",
@@ -3478,7 +4204,7 @@
     "mid": 79.68
    },
    "latest": {
-    "mins_to_off": 32,
+    "mins_to_off": 17,
     "mid": 96.15,
     "spread_pct": 42.1
    },
@@ -3491,23 +4217,45 @@
    "notable": false
   },
   {
-   "slug": "kempton-1800",
+   "slug": "kempton-1630",
    "venue": "Kempton",
-   "off_utc": "2026-09-23T18:00:00Z",
-   "runner": "Ararat",
+   "off_utc": "2026-09-23T16:30:00Z",
+   "runner": "Mollie Foster",
    "first": {
     "mins_to_off": 360,
-    "mid": 22.99
+    "mid": 63.09
    },
    "latest": {
-    "mins_to_off": 135,
-    "mid": 30.12,
-    "spread_pct": 23.2
+    "mins_to_off": 0,
+    "mid": 76.63,
+    "spread_pct": 19.3
    },
-   "move_pct": 31.0,
+   "move_pct": 21.5,
    "band": [
-    20,
-    35
+    35,
+    100
+   ],
+   "percentile": 75,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1930",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T19:30:00Z",
+   "runner": "Maywedance",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 44.44
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 53.33,
+    "spread_pct": 22.1
+   },
+   "move_pct": 20.0,
+   "band": [
+    35,
+    100
    ],
    "percentile": 75,
    "notable": false
@@ -3557,20 +4305,64 @@
    "notable": false
   },
   {
+   "slug": "goodwood-1600",
+   "venue": "Goodwood",
+   "off_utc": "2026-09-23T16:00:00Z",
+   "runner": "Brosay",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 6.19
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 5.5,
+    "spread_pct": 3.6
+   },
+   "move_pct": -11.2,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 26,
+   "notable": false
+  },
+  {
    "slug": "perth-1607",
    "venue": "Perth",
    "off_utc": "2026-09-23T16:07:00Z",
-   "runner": "Fairly Fulling",
+   "runner": "Magic Gloves",
    "first": {
     "mins_to_off": 352,
-    "mid": 14.14
+    "mid": 9.81
    },
    "latest": {
-    "mins_to_off": 22,
-    "mid": 12.25,
-    "spread_pct": 4.0
+    "mins_to_off": 7,
+    "mid": 8.6,
+    "spread_pct": 4.6
    },
-   "move_pct": -13.4,
+   "move_pct": -12.3,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 26,
+   "notable": false
+  },
+  {
+   "slug": "listowel-1622",
+   "venue": "Listowel",
+   "off_utc": "2026-09-23T16:22:00Z",
+   "runner": "Well Bud",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 18.17
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 15.71,
+    "spread_pct": 9.6
+   },
+   "move_pct": -13.5,
    "band": [
     13,
     20
@@ -3579,91 +4371,25 @@
    "notable": false
   },
   {
-   "slug": "kempton-1630",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T16:30:00Z",
-   "runner": "Too Too Divine",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 9.39
-   },
-   "latest": {
-    "mins_to_off": 45,
-    "mid": 8.2,
-    "spread_pct": 4.9
-   },
-   "move_pct": -12.7,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 26,
-   "notable": false
-  },
-  {
    "slug": "kempton-1700",
    "venue": "Kempton",
    "off_utc": "2026-09-23T17:00:00Z",
-   "runner": "Letter To Hermione",
+   "runner": "Mistral Madness",
    "first": {
     "mins_to_off": 360,
-    "mid": 12.0
+    "mid": 77.52
    },
    "latest": {
-    "mins_to_off": 75,
-    "mid": 14.2,
-    "spread_pct": 10.5
+    "mins_to_off": 45,
+    "mid": 92.59,
+    "spread_pct": 48.9
    },
-   "move_pct": 18.3,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 74,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1830",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T18:30:00Z",
-   "runner": "Crossbar",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 6.29
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 7.09,
-    "spread_pct": 8.5
-   },
-   "move_pct": 12.8,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 74,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1830",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T18:30:00Z",
-   "runner": "Rock Iguana",
-   "first": {
-    "mins_to_off": 285,
-    "mid": 98.04
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 73.26,
-    "spread_pct": 75.0
-   },
-   "move_pct": -25.3,
+   "move_pct": 19.4,
    "band": [
     35,
     100
    ],
-   "percentile": 26,
+   "percentile": 74,
    "notable": false
   },
   {
@@ -3780,42 +4506,64 @@
    "slug": "redcar-1617",
    "venue": "Redcar",
    "off_utc": "2026-09-23T16:17:00Z",
-   "runner": "Judicature",
+   "runner": "Sandret",
    "first": {
     "mins_to_off": 347,
-    "mid": 10.7
+    "mid": 13.42
    },
    "latest": {
-    "mins_to_off": 32,
-    "mid": 9.39,
-    "spread_pct": 4.2
+    "mins_to_off": 2,
+    "mid": 11.74,
+    "spread_pct": 4.3
    },
-   "move_pct": -12.2,
+   "move_pct": -12.5,
    "band": [
-    8,
-    13
+    13,
+    20
    ],
    "percentile": 27,
    "notable": false
   },
   {
-   "slug": "kempton-1900",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T19:00:00Z",
-   "runner": "Narragansett",
+   "slug": "redcar-1617",
+   "venue": "Redcar",
+   "off_utc": "2026-09-23T16:17:00Z",
+   "runner": "Oselton",
    "first": {
-    "mins_to_off": 360,
-    "mid": 77.22
+    "mins_to_off": 347,
+    "mid": 14.41
    },
    "latest": {
-    "mins_to_off": 195,
-    "mid": 90.91,
-    "spread_pct": 65.9
+    "mins_to_off": 2,
+    "mid": 17.71,
+    "spread_pct": 8.3
    },
-   "move_pct": 17.7,
+   "move_pct": 22.9,
    "band": [
-    35,
-    100
+    13,
+    20
+   ],
+   "percentile": 73,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1830",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T18:30:00Z",
+   "runner": "Starfinch",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 32.1
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 40.82,
+    "spread_pct": 14.8
+   },
+   "move_pct": 27.1,
+   "band": [
+    20,
+    35
    ],
    "percentile": 73,
    "notable": false
@@ -3909,25 +4657,69 @@
    "notable": false
   },
   {
-   "slug": "kempton-1800",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T18:00:00Z",
-   "runner": "Searchingtheblues",
+   "slug": "goodwood-1600",
+   "venue": "Goodwood",
+   "off_utc": "2026-09-23T16:00:00Z",
+   "runner": "Kennington",
    "first": {
     "mins_to_off": 360,
-    "mid": 8.69
+    "mid": 57.31
    },
    "latest": {
-    "mins_to_off": 135,
-    "mid": 7.7,
-    "spread_pct": 2.6
+    "mins_to_off": 0,
+    "mid": 66.67,
+    "spread_pct": 23.0
    },
-   "move_pct": -11.4,
+   "move_pct": 16.3,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 72,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1730",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T17:30:00Z",
+   "runner": "Bill Plumb",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 17.26
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 15.21,
+    "spread_pct": 9.9
+   },
+   "move_pct": -11.9,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 28,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1830",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T18:30:00Z",
+   "runner": "Rogue Messiah",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 11.92
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 13.98,
+    "spread_pct": 7.1
+   },
+   "move_pct": 17.3,
    "band": [
     8,
     13
    ],
-   "percentile": 28,
+   "percentile": 72,
    "notable": false
   },
   {
@@ -4044,20 +4836,20 @@
    "slug": "goodwood-1600",
    "venue": "Goodwood",
    "off_utc": "2026-09-23T16:00:00Z",
-   "runner": "Brosay",
+   "runner": "Em Four",
    "first": {
     "mins_to_off": 360,
-    "mid": 6.19
+    "mid": 21.81
    },
    "latest": {
-    "mins_to_off": 15,
-    "mid": 5.6,
-    "spread_pct": 3.6
+    "mins_to_off": 0,
+    "mid": 19.49,
+    "spread_pct": 5.1
    },
-   "move_pct": -9.6,
+   "move_pct": -10.6,
    "band": [
-    5,
-    8
+    20,
+    35
    ],
    "percentile": 29,
    "notable": false
@@ -4151,69 +4943,47 @@
    "notable": false
   },
   {
-   "slug": "perth-1607",
-   "venue": "Perth",
-   "off_utc": "2026-09-23T16:07:00Z",
-   "runner": "Magic Gloves",
+   "slug": "kempton-1800",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T18:00:00Z",
+   "runner": "Penfolds Grange",
    "first": {
-    "mins_to_off": 352,
-    "mid": 9.81
+    "mins_to_off": 360,
+    "mid": 15.36
    },
    "latest": {
-    "mins_to_off": 22,
-    "mid": 8.78,
-    "spread_pct": 9.1
+    "mins_to_off": 0,
+    "mid": 13.71,
+    "spread_pct": 10.9
    },
-   "move_pct": -10.5,
+   "move_pct": -10.8,
    "band": [
-    8,
-    13
+    13,
+    20
    ],
    "percentile": 30,
    "notable": false
   },
   {
-   "slug": "kempton-1630",
+   "slug": "kempton-1800",
    "venue": "Kempton",
-   "off_utc": "2026-09-23T16:30:00Z",
-   "runner": "Freda",
+   "off_utc": "2026-09-23T18:00:00Z",
+   "runner": "Eyes Front",
    "first": {
     "mins_to_off": 360,
-    "mid": 5.35
+    "mid": 6.99
    },
    "latest": {
-    "mins_to_off": 45,
-    "mid": 4.85,
-    "spread_pct": 2.0
+    "mins_to_off": 0,
+    "mid": 7.7,
+    "spread_pct": 2.6
    },
-   "move_pct": -9.3,
+   "move_pct": 10.1,
    "band": [
     5,
     8
    ],
-   "percentile": 30,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1830",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T18:30:00Z",
-   "runner": "Shaman Champion",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 21.51
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 19.38,
-    "spread_pct": 15.6
-   },
-   "move_pct": -9.9,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 30,
+   "percentile": 70,
    "notable": false
   },
   {
@@ -4283,25 +5053,47 @@
    "notable": false
   },
   {
-   "slug": "listowel-1622",
-   "venue": "Listowel",
-   "off_utc": "2026-09-23T16:22:00Z",
-   "runner": "Justice Hall",
+   "slug": "goodwood-1600",
+   "venue": "Goodwood",
+   "off_utc": "2026-09-23T16:00:00Z",
+   "runner": "Star Chorus",
    "first": {
-    "mins_to_off": 352,
-    "mid": 11.7
+    "mins_to_off": 360,
+    "mid": 43.2
    },
    "latest": {
-    "mins_to_off": 37,
-    "mid": 13.49,
-    "spread_pct": 7.4
+    "mins_to_off": 0,
+    "mid": 34.78,
+    "spread_pct": 17.2
    },
-   "move_pct": 15.2,
+   "move_pct": -19.5,
    "band": [
-    8,
-    13
+    35,
+    100
    ],
-   "percentile": 69,
+   "percentile": 31,
+   "notable": false
+  },
+  {
+   "slug": "perth-1607",
+   "venue": "Perth",
+   "off_utc": "2026-09-23T16:07:00Z",
+   "runner": "Autumn Getaway",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 99.01
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 78.74,
+    "spread_pct": 25.6
+   },
+   "move_pct": -20.5,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 31,
    "notable": false
   },
   {
@@ -4314,38 +5106,16 @@
     "mid": 5.75
    },
    "latest": {
-    "mins_to_off": 135,
-    "mid": 5.25,
-    "spread_pct": 5.7
+    "mins_to_off": 0,
+    "mid": 6.3,
+    "spread_pct": 3.2
    },
-   "move_pct": -8.7,
+   "move_pct": 9.6,
    "band": [
     5,
     8
    ],
-   "percentile": 31,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1830",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T18:30:00Z",
-   "runner": "Suggy",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 12.93
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 11.7,
-    "spread_pct": 12.8
-   },
-   "move_pct": -9.5,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 31,
+   "percentile": 69,
    "notable": false
   },
   {
@@ -4446,16 +5216,16 @@
     "mid": 13.13
    },
    "latest": {
-    "mins_to_off": 15,
-    "mid": 11.98,
-    "spread_pct": 8.4
+    "mins_to_off": 0,
+    "mid": 15.48,
+    "spread_pct": 6.5
    },
-   "move_pct": -8.8,
+   "move_pct": 17.9,
    "band": [
     13,
     20
    ],
-   "percentile": 32,
+   "percentile": 68,
    "notable": false
   },
   {
@@ -4481,23 +5251,45 @@
    "notable": false
   },
   {
-   "slug": "listowel-1622",
-   "venue": "Listowel",
-   "off_utc": "2026-09-23T16:22:00Z",
-   "runner": "New Grange",
+   "slug": "redcar-1617",
+   "venue": "Redcar",
+   "off_utc": "2026-09-23T16:17:00Z",
+   "runner": "Mr Jetman",
    "first": {
-    "mins_to_off": 352,
-    "mid": 2.35
+    "mins_to_off": 347,
+    "mid": 47.96
    },
    "latest": {
-    "mins_to_off": 37,
-    "mid": 2.53,
-    "spread_pct": 2.4
+    "mins_to_off": 2,
+    "mid": 38.76,
+    "spread_pct": 15.6
    },
-   "move_pct": 7.7,
+   "move_pct": -19.2,
    "band": [
-    1.5,
-    3
+    35,
+    100
+   ],
+   "percentile": 32,
+   "notable": false
+  },
+  {
+   "slug": "redcar-1617",
+   "venue": "Redcar",
+   "off_utc": "2026-09-23T16:17:00Z",
+   "runner": "Night Emperor",
+   "first": {
+    "mins_to_off": 347,
+    "mid": 5.25
+   },
+   "latest": {
+    "mins_to_off": 2,
+    "mid": 5.7,
+    "spread_pct": 3.5
+   },
+   "move_pct": 8.6,
+   "band": [
+    5,
+    8
    ],
    "percentile": 68,
    "notable": false
@@ -4506,22 +5298,22 @@
    "slug": "kempton-1830",
    "venue": "Kempton",
    "off_utc": "2026-09-23T18:30:00Z",
-   "runner": "Chalk Mountain",
+   "runner": "Luansobe",
    "first": {
     "mins_to_off": 360,
-    "mid": 9.69
+    "mid": 5.79
    },
    "latest": {
-    "mins_to_off": 165,
-    "mid": 8.89,
-    "spread_pct": 6.8
+    "mins_to_off": 0,
+    "mid": 6.3,
+    "spread_pct": 3.2
    },
-   "move_pct": -8.3,
+   "move_pct": 8.8,
    "band": [
-    8,
-    13
+    5,
+    8
    ],
-   "percentile": 32,
+   "percentile": 68,
    "notable": false
   },
   {
@@ -4657,47 +5449,69 @@
    "notable": false
   },
   {
+   "slug": "goodwood-1600",
+   "venue": "Goodwood",
+   "off_utc": "2026-09-23T16:00:00Z",
+   "runner": "Tenbob Tommy",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 18.23
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 16.72,
+    "spread_pct": 9.0
+   },
+   "move_pct": -8.3,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 33,
+   "notable": false
+  },
+  {
+   "slug": "perth-1607",
+   "venue": "Perth",
+   "off_utc": "2026-09-23T16:07:00Z",
+   "runner": "Forest Spirit",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 5.68
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 5.25,
+    "spread_pct": 1.9
+   },
+   "move_pct": -7.6,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 33,
+   "notable": false
+  },
+  {
    "slug": "kempton-1730",
    "venue": "Kempton",
    "off_utc": "2026-09-23T17:30:00Z",
-   "runner": "Dontspoilasale",
+   "runner": "Iconic Dawn",
    "first": {
     "mins_to_off": 360,
-    "mid": 6.3
+    "mid": 6.37
    },
    "latest": {
-    "mins_to_off": 105,
-    "mid": 6.79,
-    "spread_pct": 5.8
+    "mins_to_off": 0,
+    "mid": 6.9,
+    "spread_pct": 2.9
    },
-   "move_pct": 7.8,
+   "move_pct": 8.2,
    "band": [
     5,
     8
    ],
    "percentile": 67,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1930",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T19:30:00Z",
-   "runner": "Maywedance",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 44.44
-   },
-   "latest": {
-    "mins_to_off": 225,
-    "mid": 36.36,
-    "spread_pct": 44.1
-   },
-   "move_pct": -18.2,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 33,
    "notable": false
   },
   {
@@ -4811,91 +5625,25 @@
    "notable": false
   },
   {
-   "slug": "kempton-1700",
+   "slug": "kempton-1900",
    "venue": "Kempton",
-   "off_utc": "2026-09-23T17:00:00Z",
-   "runner": "Mistral Madness",
+   "off_utc": "2026-09-23T19:00:00Z",
+   "runner": "Golden Circet",
    "first": {
     "mins_to_off": 360,
-    "mid": 77.52
+    "mid": 39.14
    },
    "latest": {
-    "mins_to_off": 75,
-    "mid": 85.47,
-    "spread_pct": 46.8
+    "mins_to_off": 0,
+    "mid": 32.73,
+    "spread_pct": 18.2
    },
-   "move_pct": 10.3,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 66,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1700",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T17:00:00Z",
-   "runner": "Sayidah Dubawi",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 46.51
-   },
-   "latest": {
-    "mins_to_off": 75,
-    "mid": 51.02,
-    "spread_pct": 44.9
-   },
-   "move_pct": 9.7,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 66,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1830",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T18:30:00Z",
-   "runner": "Majestic Dane",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 36.36
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 30.17,
-    "spread_pct": 33.1
-   },
-   "move_pct": -17.0,
+   "move_pct": -16.4,
    "band": [
     35,
     100
    ],
    "percentile": 34,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1930",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T19:30:00Z",
-   "runner": "Golden Phase",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 43.48
-   },
-   "latest": {
-    "mins_to_off": 225,
-    "mid": 47.96,
-    "spread_pct": 41.5
-   },
-   "move_pct": 10.3,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 66,
    "notable": false
   },
   {
@@ -5119,50 +5867,6 @@
    "notable": false
   },
   {
-   "slug": "kempton-1800",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T18:00:00Z",
-   "runner": "Zoulu Warrior",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 64.31
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 53.91,
-    "spread_pct": 35.0
-   },
-   "move_pct": -16.2,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 35,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1930",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T19:30:00Z",
-   "runner": "Arundel",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 4.03
-   },
-   "latest": {
-    "mins_to_off": 225,
-    "mid": 3.8,
-    "spread_pct": 2.7
-   },
-   "move_pct": -5.8,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 35,
-   "notable": false
-  },
-  {
    "slug": "perth-1457",
    "venue": "Perth",
    "off_utc": "2026-09-23T14:57:00Z",
@@ -5204,160 +5908,6 @@
     3
    ],
    "percentile": 36,
-   "notable": false
-  },
-  {
-   "slug": "goodwood-1600",
-   "venue": "Goodwood",
-   "off_utc": "2026-09-23T16:00:00Z",
-   "runner": "Star Chorus",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 43.2
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 36.76,
-    "spread_pct": 16.3
-   },
-   "move_pct": -14.9,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 36,
-   "notable": false
-  },
-  {
-   "slug": "perth-1607",
-   "venue": "Perth",
-   "off_utc": "2026-09-23T16:07:00Z",
-   "runner": "Anamanda",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 20.88
-   },
-   "latest": {
-    "mins_to_off": 22,
-    "mid": 19.78,
-    "spread_pct": 20.2
-   },
-   "move_pct": -5.2,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 36,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1730",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T17:30:00Z",
-   "runner": "Lahina Bay",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 14.43
-   },
-   "latest": {
-    "mins_to_off": 105,
-    "mid": 16.45,
-    "spread_pct": 12.2
-   },
-   "move_pct": 14.0,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 64,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1800",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T18:00:00Z",
-   "runner": "Penfolds Grange",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 15.36
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 17.48,
-    "spread_pct": 5.6
-   },
-   "move_pct": 13.8,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 64,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1800",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T18:00:00Z",
-   "runner": "Whitesnake",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 11.92
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 13.21,
-    "spread_pct": 11.4
-   },
-   "move_pct": 10.8,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 64,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1800",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T18:00:00Z",
-   "runner": "Forever My Prince",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 46.3
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 50.13,
-    "spread_pct": 17.7
-   },
-   "move_pct": 8.3,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 64,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1930",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T19:30:00Z",
-   "runner": "Ricardo Phillips",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 14.2
-   },
-   "latest": {
-    "mins_to_off": 240,
-    "mid": 16.13,
-    "spread_pct": 31.0
-   },
-   "move_pct": 13.5,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 64,
    "notable": false
   },
   {
@@ -5427,25 +5977,25 @@
    "notable": false
   },
   {
-   "slug": "kempton-1730",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T17:30:00Z",
-   "runner": "Nezeeh",
+   "slug": "listowel-1622",
+   "venue": "Listowel",
+   "off_utc": "2026-09-23T16:22:00Z",
+   "runner": "New Grange",
    "first": {
-    "mins_to_off": 360,
-    "mid": 31.6
+    "mins_to_off": 352,
+    "mid": 2.35
    },
    "latest": {
-    "mins_to_off": 105,
-    "mid": 30.12,
-    "spread_pct": 23.2
+    "mins_to_off": 7,
+    "mid": 2.47,
+    "spread_pct": 0.8
    },
-   "move_pct": -4.7,
+   "move_pct": 5.2,
    "band": [
-    20,
-    35
+    1.5,
+    3
    ],
-   "percentile": 37,
+   "percentile": 63,
    "notable": false
   },
   {
@@ -5537,6 +6087,72 @@
    "notable": false
   },
   {
+   "slug": "perth-1607",
+   "venue": "Perth",
+   "off_utc": "2026-09-23T16:07:00Z",
+   "runner": "Masterminding",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 18.48
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 17.48,
+    "spread_pct": 5.6
+   },
+   "move_pct": -5.4,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 38,
+   "notable": false
+  },
+  {
+   "slug": "perth-1607",
+   "venue": "Perth",
+   "off_utc": "2026-09-23T16:07:00Z",
+   "runner": "C'mon So",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 6.14
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 6.5,
+    "spread_pct": 3.1
+   },
+   "move_pct": 5.8,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 62,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1630",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T16:30:00Z",
+   "runner": "Freda",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 5.35
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 5.65,
+    "spread_pct": 1.8
+   },
+   "move_pct": 5.7,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 62,
+   "notable": false
+  },
+  {
    "slug": "kempton-1730",
    "venue": "Kempton",
    "off_utc": "2026-09-23T17:30:00Z",
@@ -5546,7 +6162,7 @@
     "mid": 13.93
    },
    "latest": {
-    "mins_to_off": 105,
+    "mins_to_off": 0,
     "mid": 15.71,
     "spread_pct": 9.6
    },
@@ -5556,50 +6172,6 @@
     20
    ],
    "percentile": 62,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1830",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T18:30:00Z",
-   "runner": "Starfinch",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 32.1
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 30.86,
-    "spread_pct": 29.0
-   },
-   "move_pct": -3.9,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 38,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1830",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T18:30:00Z",
-   "runner": "Prosperitas",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 20.66
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 19.96,
-    "spread_pct": 10.0
-   },
-   "move_pct": -3.4,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 38,
    "notable": false
   },
   {
@@ -5713,72 +6285,6 @@
    "notable": false
   },
   {
-   "slug": "goodwood-1600",
-   "venue": "Goodwood",
-   "off_utc": "2026-09-23T16:00:00Z",
-   "runner": "Em Four",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 21.81
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 21.39,
-    "spread_pct": 14.0
-   },
-   "move_pct": -1.9,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 39,
-   "notable": false
-  },
-  {
-   "slug": "goodwood-1600",
-   "venue": "Goodwood",
-   "off_utc": "2026-09-23T16:00:00Z",
-   "runner": "Robert Anstruther",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 10.25
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 9.79,
-    "spread_pct": 4.1
-   },
-   "move_pct": -4.5,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 39,
-   "notable": false
-  },
-  {
-   "slug": "perth-1607",
-   "venue": "Perth",
-   "off_utc": "2026-09-23T16:07:00Z",
-   "runner": "Forest Spirit",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 5.68
-   },
-   "latest": {
-    "mins_to_off": 22,
-    "mid": 5.39,
-    "spread_pct": 7.4
-   },
-   "move_pct": -5.1,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 39,
-   "notable": false
-  },
-  {
    "slug": "kempton-1520",
    "venue": "Kempton",
    "off_utc": "2026-09-23T15:20:00Z",
@@ -5804,61 +6310,17 @@
    "slug": "kempton-1700",
    "venue": "Kempton",
    "off_utc": "2026-09-23T17:00:00Z",
-   "runner": "Show Me Glory",
+   "runner": "Letter To Hermione",
    "first": {
     "mins_to_off": 360,
-    "mid": 1.9
+    "mid": 12.0
    },
    "latest": {
-    "mins_to_off": 75,
-    "mid": 1.98,
-    "spread_pct": 1.5
+    "mins_to_off": 0,
+    "mid": 12.98,
+    "spread_pct": 7.7
    },
-   "move_pct": 4.2,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 61,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1830",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T18:30:00Z",
-   "runner": "Metal Merchant",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 20.18
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 23.23,
-    "spread_pct": 21.4
-   },
-   "move_pct": 15.1,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 61,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1900",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T19:00:00Z",
-   "runner": "Thinthread",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 12.2
-   },
-   "latest": {
-    "mins_to_off": 195,
-    "mid": 13.21,
-    "spread_pct": 11.4
-   },
-   "move_pct": 8.3,
+   "move_pct": 8.1,
    "band": [
     8,
     13
@@ -5889,111 +6351,23 @@
    "notable": false
   },
   {
-   "slug": "perth-1607",
-   "venue": "Perth",
-   "off_utc": "2026-09-23T16:07:00Z",
-   "runner": "Masterminding",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 18.48
-   },
-   "latest": {
-    "mins_to_off": 22,
-    "mid": 17.78,
-    "spread_pct": 22.5
-   },
-   "move_pct": -3.8,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 40,
-   "notable": false
-  },
-  {
-   "slug": "perth-1607",
-   "venue": "Perth",
-   "off_utc": "2026-09-23T16:07:00Z",
-   "runner": "Judicial Review",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 14.43
-   },
-   "latest": {
-    "mins_to_off": 22,
-    "mid": 15.94,
-    "spread_pct": 28.1
-   },
-   "move_pct": 10.4,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 60,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1900",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T19:00:00Z",
-   "runner": "Joseph",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 6.59
-   },
-   "latest": {
-    "mins_to_off": 195,
-    "mid": 6.29,
-    "spread_pct": 9.6
-   },
-   "move_pct": -4.7,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 40,
-   "notable": false
-  },
-  {
    "slug": "kempton-1930",
    "venue": "Kempton",
    "off_utc": "2026-09-23T19:30:00Z",
-   "runner": "Divot",
+   "runner": "Kurios Lady",
    "first": {
     "mins_to_off": 360,
-    "mid": 12.2
+    "mid": 32.1
    },
    "latest": {
-    "mins_to_off": 225,
-    "mid": 11.7,
-    "spread_pct": 12.8
+    "mins_to_off": 0,
+    "mid": 36.76,
+    "spread_pct": 16.3
    },
-   "move_pct": -4.1,
+   "move_pct": 14.5,
    "band": [
-    8,
-    13
-   ],
-   "percentile": 40,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1930",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T19:30:00Z",
-   "runner": "Sansanetti",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 8.49
-   },
-   "latest": {
-    "mins_to_off": 225,
-    "mid": 9.09,
-    "spread_pct": 6.6
-   },
-   "move_pct": 7.1,
-   "band": [
-    8,
-    13
+    20,
+    35
    ],
    "percentile": 60,
    "notable": false
@@ -6087,62 +6461,40 @@
    "notable": false
   },
   {
-   "slug": "kempton-1800",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T18:00:00Z",
-   "runner": "Chapman's Peak",
+   "slug": "perth-1607",
+   "venue": "Perth",
+   "off_utc": "2026-09-23T16:07:00Z",
+   "runner": "Luckie Devil",
    "first": {
-    "mins_to_off": 360,
-    "mid": 8.38
+    "mins_to_off": 352,
+    "mid": 20.66
    },
    "latest": {
-    "mins_to_off": 135,
-    "mid": 8.09,
-    "spread_pct": 7.5
+    "mins_to_off": 7,
+    "mid": 20.66,
+    "spread_pct": 12.0
    },
-   "move_pct": -3.5,
+   "move_pct": 0.0,
    "band": [
-    8,
-    13
+    20,
+    35
    ],
    "percentile": 41,
    "notable": false
   },
   {
-   "slug": "kempton-1800",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T18:00:00Z",
-   "runner": "Upsomdowns",
+   "slug": "redcar-1617",
+   "venue": "Redcar",
+   "off_utc": "2026-09-23T16:17:00Z",
+   "runner": "South Kensington",
    "first": {
-    "mins_to_off": 360,
-    "mid": 13.71
+    "mins_to_off": 347,
+    "mid": 8.44
    },
    "latest": {
-    "mins_to_off": 135,
-    "mid": 14.98,
-    "spread_pct": 6.7
-   },
-   "move_pct": 9.3,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 59,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1830",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T18:30:00Z",
-   "runner": "Physique",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 10.03
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 10.7,
-    "spread_pct": 14.0
+    "mins_to_off": 2,
+    "mid": 9.0,
+    "spread_pct": 4.4
    },
    "move_pct": 6.6,
    "band": [
@@ -6153,25 +6505,47 @@
    "notable": false
   },
   {
-   "slug": "kempton-1900",
+   "slug": "kempton-1630",
    "venue": "Kempton",
-   "off_utc": "2026-09-23T19:00:00Z",
-   "runner": "Golden Circet",
+   "off_utc": "2026-09-23T16:30:00Z",
+   "runner": "Bofa Beach",
    "first": {
     "mins_to_off": 360,
-    "mid": 39.14
+    "mid": 15.65
    },
    "latest": {
-    "mins_to_off": 195,
-    "mid": 40.82,
-    "spread_pct": 14.8
+    "mins_to_off": 0,
+    "mid": 15.21,
+    "spread_pct": 9.9
    },
-   "move_pct": 4.3,
+   "move_pct": -2.8,
    "band": [
-    35,
-    100
+    13,
+    20
    ],
-   "percentile": 59,
+   "percentile": 41,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1930",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T19:30:00Z",
+   "runner": "Divot",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 12.2
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 11.74,
+    "spread_pct": 4.3
+   },
+   "move_pct": -3.8,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 41,
    "notable": false
   },
   {
@@ -6299,50 +6673,6 @@
     "spread_pct": 12.8
    },
    "move_pct": 6.0,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 58,
-   "notable": false
-  },
-  {
-   "slug": "redcar-1617",
-   "venue": "Redcar",
-   "off_utc": "2026-09-23T16:17:00Z",
-   "runner": "Ryefield",
-   "first": {
-    "mins_to_off": 347,
-    "mid": 73.53
-   },
-   "latest": {
-    "mins_to_off": 32,
-    "mid": 75.47,
-    "spread_pct": 33.3
-   },
-   "move_pct": 2.6,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 58,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1900",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T19:00:00Z",
-   "runner": "Aphrodite Spirit",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 8.69
-   },
-   "latest": {
-    "mins_to_off": 195,
-    "mid": 9.2,
-    "spread_pct": 4.3
-   },
-   "move_pct": 5.8,
    "band": [
     8,
     13
@@ -6549,23 +6879,89 @@
    "notable": false
   },
   {
+   "slug": "goodwood-1600",
+   "venue": "Goodwood",
+   "off_utc": "2026-09-23T16:00:00Z",
+   "runner": "Serenity Dream",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 11.24
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 10.98,
+    "spread_pct": 9.0
+   },
+   "move_pct": -2.4,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 43,
+   "notable": false
+  },
+  {
+   "slug": "perth-1607",
+   "venue": "Perth",
+   "off_utc": "2026-09-23T16:07:00Z",
+   "runner": "Les's Destiny Star",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 12.82
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 13.49,
+    "spread_pct": 7.4
+   },
+   "move_pct": 5.2,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 57,
+   "notable": false
+  },
+  {
    "slug": "kempton-1900",
    "venue": "Kempton",
    "off_utc": "2026-09-23T19:00:00Z",
-   "runner": "What's The Plan",
+   "runner": "Classical Allusion",
    "first": {
     "mins_to_off": 360,
-    "mid": 6.19
+    "mid": 4.75
    },
    "latest": {
-    "mins_to_off": 195,
-    "mid": 6.39,
-    "spread_pct": 6.3
+    "mins_to_off": 0,
+    "mid": 4.65,
+    "spread_pct": 2.1
    },
-   "move_pct": 3.2,
+   "move_pct": -2.0,
    "band": [
-    5,
-    8
+    3,
+    5
+   ],
+   "percentile": 43,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1930",
+   "venue": "Kempton",
+   "off_utc": "2026-09-23T19:30:00Z",
+   "runner": "Sir Patchy",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 55.56
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 56.5,
+    "spread_pct": 26.4
+   },
+   "move_pct": 1.7,
+   "band": [
+    35,
+    100
    ],
    "percentile": 57,
    "notable": false
@@ -6769,111 +7165,23 @@
    "notable": false
   },
   {
-   "slug": "perth-1607",
-   "venue": "Perth",
-   "off_utc": "2026-09-23T16:07:00Z",
-   "runner": "Autumn Getaway",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 99.01
-   },
-   "latest": {
-    "mins_to_off": 37,
-    "mid": 99.5,
-    "spread_pct": 35.9
-   },
-   "move_pct": 0.5,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 56,
-   "notable": false
-  },
-  {
-   "slug": "redcar-1617",
-   "venue": "Redcar",
-   "off_utc": "2026-09-23T16:17:00Z",
-   "runner": "Night Emperor",
-   "first": {
-    "mins_to_off": 347,
-    "mid": 5.25
-   },
-   "latest": {
-    "mins_to_off": 32,
-    "mid": 5.1,
-    "spread_pct": 3.9
-   },
-   "move_pct": -2.8,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 44,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1630",
+   "slug": "kempton-1730",
    "venue": "Kempton",
-   "off_utc": "2026-09-23T16:30:00Z",
-   "runner": "Sunshine And Roses",
+   "off_utc": "2026-09-23T17:30:00Z",
+   "runner": "Spacewoman",
    "first": {
     "mins_to_off": 360,
-    "mid": 11.42
+    "mid": 10.91
    },
    "latest": {
-    "mins_to_off": 45,
-    "mid": 11.98,
-    "spread_pct": 8.4
+    "mins_to_off": 0,
+    "mid": 10.75,
+    "spread_pct": 4.6
    },
-   "move_pct": 4.9,
+   "move_pct": -1.5,
    "band": [
     8,
     13
-   ],
-   "percentile": 56,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1700",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T17:00:00Z",
-   "runner": "Wig Wam Bam",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 13.55
-   },
-   "latest": {
-    "mins_to_off": 75,
-    "mid": 14.64,
-    "spread_pct": 17.1
-   },
-   "move_pct": 8.1,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 56,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1930",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T19:30:00Z",
-   "runner": "The Bay Warrior",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 24.63
-   },
-   "latest": {
-    "mins_to_off": 225,
-    "mid": 25.0,
-    "spread_pct": 28.0
-   },
-   "move_pct": 1.5,
-   "band": [
-    20,
-    35
    ],
    "percentile": 44,
    "notable": false
@@ -7011,23 +7319,23 @@
    "notable": false
   },
   {
-   "slug": "kempton-1930",
+   "slug": "kempton-1900",
    "venue": "Kempton",
-   "off_utc": "2026-09-23T19:30:00Z",
-   "runner": "Kurios Lady",
+   "off_utc": "2026-09-23T19:00:00Z",
+   "runner": "Aphrodite Spirit",
    "first": {
     "mins_to_off": 360,
-    "mid": 32.1
+    "mid": 8.69
    },
    "latest": {
-    "mins_to_off": 225,
-    "mid": 32.89,
-    "spread_pct": 27.5
+    "mins_to_off": 0,
+    "mid": 8.6,
+    "spread_pct": 4.6
    },
-   "move_pct": 2.5,
+   "move_pct": -1.1,
    "band": [
-    20,
-    35
+    8,
+    13
    ],
    "percentile": 45,
    "notable": false
@@ -7036,22 +7344,22 @@
    "slug": "kempton-1930",
    "venue": "Kempton",
    "off_utc": "2026-09-23T19:30:00Z",
-   "runner": "Boston Run",
+   "runner": "Sansanetti",
    "first": {
     "mins_to_off": 360,
-    "mid": 21.51
+    "mid": 8.49
    },
    "latest": {
-    "mins_to_off": 225,
-    "mid": 23.64,
-    "spread_pct": 25.5
+    "mins_to_off": 0,
+    "mid": 8.39,
+    "spread_pct": 4.8
    },
-   "move_pct": 9.9,
+   "move_pct": -1.1,
    "band": [
-    20,
-    35
+    8,
+    13
    ],
-   "percentile": 55,
+   "percentile": 45,
    "notable": false
   },
   {
@@ -7143,89 +7451,45 @@
    "notable": false
   },
   {
-   "slug": "perth-1607",
-   "venue": "Perth",
-   "off_utc": "2026-09-23T16:07:00Z",
-   "runner": "Luckie Devil",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 20.66
-   },
-   "latest": {
-    "mins_to_off": 22,
-    "mid": 21.39,
-    "spread_pct": 14.0
-   },
-   "move_pct": 3.5,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 46,
-   "notable": false
-  },
-  {
    "slug": "kempton-1830",
    "venue": "Kempton",
    "off_utc": "2026-09-23T18:30:00Z",
-   "runner": "Luansobe",
+   "runner": "Crossbar",
    "first": {
     "mins_to_off": 360,
-    "mid": 5.79
+    "mid": 6.29
    },
    "latest": {
-    "mins_to_off": 165,
-    "mid": 5.9,
-    "spread_pct": 3.4
+    "mins_to_off": 0,
+    "mid": 6.19,
+    "spread_pct": 6.5
    },
-   "move_pct": 1.8,
+   "move_pct": -1.5,
    "band": [
     5,
     8
    ],
-   "percentile": 54,
+   "percentile": 46,
    "notable": false
   },
   {
    "slug": "kempton-1900",
    "venue": "Kempton",
    "off_utc": "2026-09-23T19:00:00Z",
-   "runner": "Wardlaw",
+   "runner": "What's The Plan",
    "first": {
     "mins_to_off": 360,
-    "mid": 4.7
+    "mid": 6.19
    },
    "latest": {
-    "mins_to_off": 195,
-    "mid": 4.7,
-    "spread_pct": 4.3
+    "mins_to_off": 15,
+    "mid": 6.1,
+    "spread_pct": 3.3
    },
-   "move_pct": 0.0,
+   "move_pct": -1.6,
    "band": [
-    3,
-    5
-   ],
-   "percentile": 46,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1930",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T19:30:00Z",
-   "runner": "Fast Steps",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 12.32
-   },
-   "latest": {
-    "mins_to_off": 225,
-    "mid": 12.32,
-    "spread_pct": 24.4
-   },
-   "move_pct": 0.0,
-   "band": [
-    8,
-    13
+    5,
+    8
    ],
    "percentile": 46,
    "notable": false
@@ -7297,138 +7561,6 @@
    "notable": false
   },
   {
-   "slug": "redcar-1617",
-   "venue": "Redcar",
-   "off_utc": "2026-09-23T16:17:00Z",
-   "runner": "Sandret",
-   "first": {
-    "mins_to_off": 347,
-    "mid": 13.42
-   },
-   "latest": {
-    "mins_to_off": 32,
-    "mid": 13.49,
-    "spread_pct": 7.4
-   },
-   "move_pct": 0.5,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 47,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1700",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T17:00:00Z",
-   "runner": "Threelittleangels",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 15.65
-   },
-   "latest": {
-    "mins_to_off": 75,
-    "mid": 15.75,
-    "spread_pct": 3.2
-   },
-   "move_pct": 0.6,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 47,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1730",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T17:30:00Z",
-   "runner": "Bill Plumb",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 17.26
-   },
-   "latest": {
-    "mins_to_off": 105,
-    "mid": 18.17,
-    "spread_pct": 27.6
-   },
-   "move_pct": 5.3,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 53,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1730",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T17:30:00Z",
-   "runner": "Love Alive",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 60.06
-   },
-   "latest": {
-    "mins_to_off": 105,
-    "mid": 60.06,
-    "spread_pct": 41.9
-   },
-   "move_pct": 0.0,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 53,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1800",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T18:00:00Z",
-   "runner": "Eyes Front",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 6.99
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 6.9,
-    "spread_pct": 2.9
-   },
-   "move_pct": -1.4,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 47,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1930",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T19:30:00Z",
-   "runner": "Sir Patchy",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 55.56
-   },
-   "latest": {
-    "mins_to_off": 225,
-    "mid": 55.56,
-    "spread_pct": 56.0
-   },
-   "move_pct": 0.0,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 53,
-   "notable": false
-  },
-  {
    "slug": "listowel-1440",
    "venue": "Listowel",
    "off_utc": "2026-09-23T14:40:00Z",
@@ -7446,116 +7578,6 @@
    "band": [
     8,
     13
-   ],
-   "percentile": 48,
-   "notable": false
-  },
-  {
-   "slug": "goodwood-1600",
-   "venue": "Goodwood",
-   "off_utc": "2026-09-23T16:00:00Z",
-   "runner": "Kennington",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 57.31
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 54.5,
-    "spread_pct": 18.1
-   },
-   "move_pct": -4.9,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 48,
-   "notable": false
-  },
-  {
-   "slug": "perth-1607",
-   "venue": "Perth",
-   "off_utc": "2026-09-23T16:07:00Z",
-   "runner": "C'mon So",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 6.14
-   },
-   "latest": {
-    "mins_to_off": 22,
-    "mid": 6.19,
-    "spread_pct": 6.5
-   },
-   "move_pct": 0.9,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 52,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1630",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T16:30:00Z",
-   "runner": "Bofa Beach",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 15.65
-   },
-   "latest": {
-    "mins_to_off": 45,
-    "mid": 15.94,
-    "spread_pct": 12.6
-   },
-   "move_pct": 1.8,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 48,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1830",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T18:30:00Z",
-   "runner": "Rogue Messiah",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 11.92
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 12.2,
-    "spread_pct": 12.4
-   },
-   "move_pct": 2.4,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 52,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1930",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T19:30:00Z",
-   "runner": "Super Hit",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 14.48
-   },
-   "latest": {
-    "mins_to_off": 225,
-    "mid": 14.72,
-    "spread_pct": 10.2
-   },
-   "move_pct": 1.6,
-   "band": [
-    13,
-    20
    ],
    "percentile": 48,
    "notable": false
@@ -7605,67 +7627,67 @@
    "notable": false
   },
   {
-   "slug": "redcar-1617",
-   "venue": "Redcar",
-   "off_utc": "2026-09-23T16:17:00Z",
-   "runner": "Soul Warrior",
-   "first": {
-    "mins_to_off": 347,
-    "mid": 10.25
-   },
-   "latest": {
-    "mins_to_off": 32,
-    "mid": 10.48,
-    "spread_pct": 9.6
-   },
-   "move_pct": 2.2,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 51,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1730",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T17:30:00Z",
-   "runner": "Generous Rascal",
+   "slug": "goodwood-1600",
+   "venue": "Goodwood",
+   "off_utc": "2026-09-23T16:00:00Z",
+   "runner": "Rage Of Thunder",
    "first": {
     "mins_to_off": 360,
-    "mid": 12.93
+    "mid": 14.64
    },
    "latest": {
-    "mins_to_off": 105,
-    "mid": 13.21,
-    "spread_pct": 11.4
+    "mins_to_off": 0,
+    "mid": 14.98,
+    "spread_pct": 6.7
    },
-   "move_pct": 2.2,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 51,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1800",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T18:00:00Z",
-   "runner": "Victory Sound",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 13.13
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 13.71,
-    "spread_pct": 10.9
-   },
-   "move_pct": 4.4,
+   "move_pct": 2.3,
    "band": [
     13,
     20
+   ],
+   "percentile": 49,
+   "notable": false
+  },
+  {
+   "slug": "perth-1607",
+   "venue": "Perth",
+   "off_utc": "2026-09-23T16:07:00Z",
+   "runner": "Fairly Fulling",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 14.14
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 14.48,
+    "spread_pct": 6.8
+   },
+   "move_pct": 2.4,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 49,
+   "notable": false
+  },
+  {
+   "slug": "perth-1607",
+   "venue": "Perth",
+   "off_utc": "2026-09-23T16:07:00Z",
+   "runner": "Anamanda",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 20.88
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 22.4,
+    "spread_pct": 13.3
+   },
+   "move_pct": 7.3,
+   "band": [
+    20,
+    35
    ],
    "percentile": 51,
    "notable": false
@@ -7696,39 +7718,17 @@
    "slug": "kempton-1930",
    "venue": "Kempton",
    "off_utc": "2026-09-23T19:30:00Z",
-   "runner": "Ghost Story",
+   "runner": "The Bay Warrior",
    "first": {
     "mins_to_off": 360,
-    "mid": 7.69
+    "mid": 24.63
    },
    "latest": {
-    "mins_to_off": 225,
-    "mid": 7.69,
-    "spread_pct": 7.8
+    "mins_to_off": 0,
+    "mid": 26.42,
+    "spread_pct": 11.4
    },
-   "move_pct": 0.0,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 49,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1930",
-   "venue": "Kempton",
-   "off_utc": "2026-09-23T19:30:00Z",
-   "runner": "Uzincso",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 28.69
-   },
-   "latest": {
-    "mins_to_off": 225,
-    "mid": 31.01,
-    "spread_pct": 6.5
-   },
-   "move_pct": 8.1,
+   "move_pct": 7.3,
    "band": [
     20,
     35
@@ -7768,7 +7768,7 @@
     "mid": 10.03
    },
    "latest": {
-    "mins_to_off": 165,
+    "mins_to_off": 0,
     "mid": 10.14,
     "spread_pct": 6.9
    },
@@ -7781,23 +7781,23 @@
    "notable": false
   },
   {
-   "slug": "kempton-1900",
+   "slug": "kempton-1830",
    "venue": "Kempton",
-   "off_utc": "2026-09-23T19:00:00Z",
-   "runner": "Classical Allusion",
+   "off_utc": "2026-09-23T18:30:00Z",
+   "runner": "Rock Iguana",
    "first": {
-    "mins_to_off": 360,
-    "mid": 4.75
+    "mins_to_off": 285,
+    "mid": 98.04
    },
    "latest": {
-    "mins_to_off": 195,
-    "mid": 4.8,
-    "spread_pct": 4.2
+    "mins_to_off": 105,
+    "mid": 95.24,
+    "spread_pct": 83.3
    },
-   "move_pct": 1.1,
+   "move_pct": -2.9,
    "band": [
-    3,
-    5
+    35,
+    100
    ],
    "percentile": 50,
    "notable": false
