@@ -1,6 +1,6 @@
 {
  "schema": "horses_v4",
- "generated_at": "2026-09-28T07:00:18Z",
+ "generated_at": "2026-09-28T12:00:20Z",
  "source": "Historical race results",
  "note": "Every figure is computed using only races run STRICTLY BEFORE the race it describes — the `as_of` date on each horse. Groups with fewer than two runs are omitted rather than shown as a rate, because a 100% strike rate over one run is noise wearing the clothes of a finding. Our archive runs to 2026-09-27: a horse that ran after that date has those runs missing here, so read `career` as what we hold, not as a complete record.",
  "history_depth": {
@@ -19,7 +19,7 @@
   "still_missing": 1979,
   "note": "Sire totals count the progeny we hold. Breeding is complete for races up to 2026-07-22. After that date our live source carries it for about half of runners; we recover most of the rest from the same horse's other races, but not all. Recent races are therefore under-counted in sire totals."
  },
- "collected_through": "2026-09-28T06:00:02Z",
+ "collected_through": "2026-09-28T11:00:02Z",
  "distance_bands": [
   {
    "key": "sprint",
@@ -52227,6 +52227,14 @@
      "place_pct": 42.9
     }
    ],
+   "jockey": {
+    "name": "Adam Grant(7)",
+    "runs": 7,
+    "wins": 0,
+    "places": 3,
+    "win_pct": 0.0,
+    "place_pct": 42.9
+   },
    "trainer": {
     "name": "Henry de Bromhead",
     "runs": 4286,
@@ -59017,6 +59025,14 @@
      "place_pct": 18.2
     }
    ],
+   "jockey": {
+    "name": "Patrick McGettigan(5)",
+    "runs": 83,
+    "wins": 6,
+    "places": 18,
+    "win_pct": 7.2,
+    "place_pct": 21.7
+   },
    "trainer": {
     "name": "P Sweeney",
     "runs": 26,
@@ -59040,6 +59056,14 @@
     "places": 82,
     "win_pct": 9.6,
     "place_pct": 30.4
+   },
+   "jockey_here": {
+    "name": "Patrick McGettigan(5)",
+    "runs": 2,
+    "wins": 0,
+    "places": 0,
+    "win_pct": 0.0,
+    "place_pct": 0.0
    },
    "trainer_here": {
     "name": "P Sweeney",
@@ -59139,6 +59163,14 @@
      "place_pct": 50.0
     }
    ],
+   "jockey": {
+    "name": "Chris Hayes",
+    "runs": 3244,
+    "wins": 271,
+    "places": 902,
+    "win_pct": 8.4,
+    "place_pct": 27.8
+   },
    "trainer": {
     "name": "H Rogers",
     "runs": 359,
@@ -59162,6 +59194,33 @@
     "places": 228,
     "win_pct": 11.8,
     "place_pct": 33.3
+   },
+   "jockey_trainer": {
+    "jockey": "Chris Hayes",
+    "trainer": "H Rogers",
+    "runs": 28,
+    "wins": 2,
+    "places": 7,
+    "win_pct": 7.1,
+    "place_pct": 25.0
+   },
+   "jockey_at_course": {
+    "name": "Chris Hayes",
+    "key": "Down Royal",
+    "runs": 51,
+    "wins": 8,
+    "places": 19,
+    "win_pct": 15.7,
+    "place_pct": 37.3
+   },
+   "jockey_at_distance": {
+    "name": "Chris Hayes",
+    "key": "staying",
+    "runs": 154,
+    "wins": 12,
+    "places": 38,
+    "win_pct": 7.8,
+    "place_pct": 24.7
    },
    "trainer_at_course": {
     "name": "H Rogers",
@@ -59393,7 +59452,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T13:35:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -59483,7 +59542,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T13:35:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -59599,7 +59658,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T13:35:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -59723,7 +59782,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T13:35:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -59813,7 +59872,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T13:35:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -59939,7 +59998,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T13:35:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -60106,7 +60165,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T13:35:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -60248,7 +60307,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T13:35:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -60340,7 +60399,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T13:35:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -60474,7 +60533,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T13:35:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -60581,7 +60640,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T13:35:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -60731,7 +60790,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T13:35:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -60829,7 +60888,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T13:35:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -60963,7 +61022,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T13:35:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -61086,7 +61145,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T13:35:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -61220,7 +61279,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T14:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -61370,7 +61429,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T14:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -61502,7 +61561,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T14:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -61659,7 +61718,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T14:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -61806,7 +61865,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T14:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -61947,7 +62006,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T14:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -62098,7 +62157,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T14:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -62255,7 +62314,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T14:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -62346,7 +62405,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T14:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -62471,7 +62530,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T14:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -62604,7 +62663,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T14:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -62745,7 +62804,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T14:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -62975,7 +63034,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T14:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -63125,7 +63184,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T14:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -63250,7 +63309,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T14:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -63407,7 +63466,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T14:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -63614,7 +63673,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T14:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -63761,7 +63820,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T14:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -63868,7 +63927,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T14:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -64000,7 +64059,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T14:45:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -64099,7 +64158,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T14:45:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -64258,7 +64317,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T14:45:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -64384,7 +64443,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T14:45:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -64526,7 +64585,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T14:45:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -64624,7 +64683,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T14:45:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -64748,7 +64807,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T14:45:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -64855,7 +64914,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T14:45:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -64978,7 +65037,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T14:45:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -65085,7 +65144,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T14:45:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -65193,7 +65252,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T14:45:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -65300,7 +65359,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T14:45:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -65440,7 +65499,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T14:45:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -65574,7 +65633,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T14:45:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -65747,7 +65806,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T14:45:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -65855,7 +65914,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T14:45:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -65963,7 +66022,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T14:45:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -66052,7 +66111,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T14:45:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -66151,7 +66210,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T14:45:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -66207,7 +66266,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T15:20:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -66437,7 +66496,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T15:20:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -66627,7 +66686,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T15:20:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -66778,7 +66837,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T15:20:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -66960,7 +67019,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T15:20:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -67094,7 +67153,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T15:20:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -67347,7 +67406,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T15:20:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -67520,7 +67579,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T15:20:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -67660,7 +67719,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T15:20:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -67793,7 +67852,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T15:20:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -67942,7 +68001,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T15:20:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -68058,7 +68117,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T15:20:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -68209,7 +68268,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T15:20:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -68342,7 +68401,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T15:20:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -68500,7 +68559,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T15:20:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -68625,7 +68684,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T15:20:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -68838,7 +68897,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T15:20:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -68936,7 +68995,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T15:20:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -69044,7 +69103,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T15:20:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -69151,7 +69210,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T15:55:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -69274,7 +69333,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T15:55:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -69421,7 +69480,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T15:55:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -69692,7 +69751,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T15:55:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -69872,7 +69931,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T15:55:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -70062,7 +70121,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T15:55:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -70188,7 +70247,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T15:55:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -70385,7 +70444,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T15:55:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -70568,7 +70627,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T15:55:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -70775,7 +70834,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T15:55:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -70948,7 +71007,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T15:55:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -71187,7 +71246,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T15:55:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -71328,7 +71387,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T15:55:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -71510,7 +71569,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T16:30:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -71725,7 +71784,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T16:30:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -71859,7 +71918,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T16:30:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -72001,7 +72060,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T16:30:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -72200,7 +72259,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T16:30:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -72367,7 +72426,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T17:05:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -72558,7 +72617,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T17:05:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -72731,7 +72790,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T17:05:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -72921,7 +72980,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T17:05:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -73191,7 +73250,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T17:05:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -73358,7 +73417,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T17:05:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -73563,7 +73622,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T17:05:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -73818,7 +73877,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T17:05:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -73958,7 +74017,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T17:05:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -74116,7 +74175,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T17:05:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -74299,7 +74358,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T17:40:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -74379,7 +74438,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T17:40:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -74469,7 +74528,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T17:40:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -74558,7 +74617,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T17:40:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -74638,7 +74697,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T17:40:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -74762,7 +74821,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T17:40:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -74860,7 +74919,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T17:40:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -74992,7 +75051,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T17:40:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -75090,7 +75149,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T17:40:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -75161,7 +75220,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T17:40:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -75260,7 +75319,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T17:40:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -75349,7 +75408,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T17:40:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -75414,7 +75473,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T17:40:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -75476,7 +75535,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T17:40:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -75591,7 +75650,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T17:40:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
@@ -75733,7 +75792,7 @@
    "race": {
     "venue": "Roscommon",
     "off_utc": "2026-09-28T17:40:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying"
    },
    "as_of": "2026-09-28",
