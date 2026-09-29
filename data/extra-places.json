@@ -1,10 +1,10 @@
 {
  "schema": "extra_places_v1",
- "generated_at": "2026-09-29T16:00:01Z",
+ "generated_at": "2026-09-29T21:30:01Z",
  "source": "Paddy Power public race pages",
  "note": "'extra_place' compares the bookmaker's offer with the bookmaker's own ladder, derived from our collection — not with the classic each-way table, which it does not follow.",
  "ladder_days": 24,
- "collected_through": "2026-09-29T15:00:01Z",
+ "collected_through": "2026-09-29T21:00:01Z",
  "races": [
   {
    "slug": "cork-1255",
@@ -3065,14 +3065,14 @@
    "name": "1m Hcap",
    "handicap": true,
    "each_way": true,
-   "field_size": 15,
+   "field_size": 14,
    "terms": {
     "places": 4,
     "fraction": [
      1,
      5
     ],
-    "bog": false
+    "bog": true
    },
    "house_standard": {
     "places": 3,
@@ -3095,6 +3095,15 @@
     {
      "at": "2026-09-29T10:00:01Z",
      "field_size": 15,
+     "places": 4,
+     "fraction": [
+      1,
+      5
+     ]
+    },
+    {
+     "at": "2026-09-29T21:00:01Z",
+     "field_size": 14,
      "places": 4,
      "fraction": [
       1,
