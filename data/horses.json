@@ -1,6 +1,6 @@
 {
  "schema": "horses_v4",
- "generated_at": "2026-09-29T07:00:21Z",
+ "generated_at": "2026-09-29T12:00:21Z",
  "source": "Historical race results",
  "note": "Every figure is computed using only races run STRICTLY BEFORE the race it describes — the `as_of` date on each horse. Groups with fewer than two runs are omitted rather than shown as a rate, because a 100% strike rate over one run is noise wearing the clothes of a finding. Our archive runs to 2026-09-28: a horse that ran after that date has those runs missing here, so read `career` as what we hold, not as a complete record.",
  "history_depth": {
@@ -19,7 +19,7 @@
   "still_missing": 1928,
   "note": "Sire totals count the progeny we hold. Breeding is complete for races up to 2026-07-22. After that date our live source carries it for about half of runners; we recover most of the rest from the same horse's other races, but not all. Recent races are therefore under-counted in sire totals."
  },
- "collected_through": "2026-09-29T06:00:02Z",
+ "collected_through": "2026-09-29T11:00:02Z",
  "distance_bands": [
   {
    "key": "sprint",
@@ -13381,12 +13381,12 @@
     }
    ],
    "jockey": {
-    "name": "Seamus Cronin",
-    "runs": 84,
-    "wins": 9,
-    "places": 34,
-    "win_pct": 10.7,
-    "place_pct": 40.5
+    "name": "Harry Vigors(3)",
+    "runs": 285,
+    "wins": 37,
+    "places": 105,
+    "win_pct": 13.0,
+    "place_pct": 36.8
    },
    "trainer": {
     "name": "Charlie Pike",
@@ -13419,6 +13419,15 @@
     "places": 0,
     "win_pct": 0.0,
     "place_pct": 0.0
+   },
+   "jockey_at_distance": {
+    "name": "Harry Vigors(3)",
+    "key": "middle",
+    "runs": 71,
+    "wins": 11,
+    "places": 39,
+    "win_pct": 15.5,
+    "place_pct": 54.9
    },
    "trainer_at_distance": {
     "name": "Charlie Pike",
@@ -27700,7 +27709,7 @@
    "race": {
     "venue": "Bath",
     "off_utc": "2026-09-29T18:07:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "middle"
    },
    "as_of": "2026-09-29",
@@ -27756,7 +27765,7 @@
    "race": {
     "venue": "Bath",
     "off_utc": "2026-09-29T18:07:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "middle"
    },
    "as_of": "2026-09-29",
@@ -27829,7 +27838,7 @@
    "race": {
     "venue": "Bath",
     "off_utc": "2026-09-29T18:07:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "middle"
    },
    "as_of": "2026-09-29",
@@ -27884,7 +27893,7 @@
    "race": {
     "venue": "Bath",
     "off_utc": "2026-09-29T18:07:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "middle"
    },
    "as_of": "2026-09-29",
@@ -27940,7 +27949,7 @@
    "race": {
     "venue": "Bath",
     "off_utc": "2026-09-29T18:07:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "middle"
    },
    "as_of": "2026-09-29",
@@ -27996,7 +28005,7 @@
    "race": {
     "venue": "Bath",
     "off_utc": "2026-09-29T18:07:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "middle"
    },
    "as_of": "2026-09-29",
@@ -45206,12 +45215,12 @@
     }
    ],
    "jockey": {
-    "name": "Roisin Leech(7)",
-    "runs": 91,
-    "wins": 4,
-    "places": 16,
-    "win_pct": 4.4,
-    "place_pct": 17.6
+    "name": "James Sullivan",
+    "runs": 3075,
+    "wins": 207,
+    "places": 709,
+    "win_pct": 6.7,
+    "place_pct": 23.1
    },
    "trainer": {
     "name": "John Norton",
@@ -45237,6 +45246,14 @@
     "win_pct": 8.6,
     "place_pct": 31.5
    },
+   "jockey_here": {
+    "name": "James Sullivan",
+    "runs": 7,
+    "wins": 1,
+    "places": 2,
+    "win_pct": 14.3,
+    "place_pct": 28.6
+   },
    "trainer_here": {
     "name": "John Norton",
     "runs": 11,
@@ -45245,14 +45262,23 @@
     "win_pct": 0.0,
     "place_pct": 9.1
    },
+   "jockey_at_course": {
+    "name": "James Sullivan",
+    "key": "Wolverhampton (AW)",
+    "runs": 358,
+    "wins": 30,
+    "places": 98,
+    "win_pct": 8.4,
+    "place_pct": 27.4
+   },
    "jockey_at_distance": {
-    "name": "Roisin Leech(7)",
+    "name": "James Sullivan",
     "key": "staying",
-    "runs": 80,
-    "wins": 4,
-    "places": 16,
-    "win_pct": 5.0,
-    "place_pct": 20.0
+    "runs": 127,
+    "wins": 7,
+    "places": 29,
+    "win_pct": 5.5,
+    "place_pct": 22.8
    },
    "trainer_at_course": {
     "name": "John Norton",
@@ -62996,6 +63022,14 @@
      "place_pct": 0.0
     }
    ],
+   "jockey": {
+    "name": "W. J. Lee",
+    "runs": 2814,
+    "wins": 358,
+    "places": 1011,
+    "win_pct": 12.7,
+    "place_pct": 35.9
+   },
    "trainer": {
     "name": "J P Flavin",
     "runs": 268,
@@ -63019,6 +63053,24 @@
     "places": 540,
     "win_pct": 16.7,
     "place_pct": 41.4
+   },
+   "jockey_at_course": {
+    "name": "W. J. Lee",
+    "key": "Cork",
+    "runs": 173,
+    "wins": 38,
+    "places": 78,
+    "win_pct": 22.0,
+    "place_pct": 45.1
+   },
+   "jockey_at_distance": {
+    "name": "W. J. Lee",
+    "key": "mile",
+    "runs": 845,
+    "wins": 99,
+    "places": 299,
+    "win_pct": 11.7,
+    "place_pct": 35.4
    },
    "trainer_at_course": {
     "name": "J P Flavin",
@@ -63175,6 +63227,14 @@
      "place_pct": 20.0
     }
    ],
+   "jockey": {
+    "name": "Jessica O'Gorman(7)",
+    "runs": 147,
+    "wins": 12,
+    "places": 29,
+    "win_pct": 8.2,
+    "place_pct": 19.7
+   },
    "trainer": {
     "name": "Aengus King",
     "runs": 296,
@@ -63199,6 +63259,23 @@
     "win_pct": 4.3,
     "place_pct": 8.7
    },
+   "jockey_trainer": {
+    "jockey": "Jessica O'Gorman(7)",
+    "trainer": "Aengus King",
+    "runs": 29,
+    "wins": 1,
+    "places": 2,
+    "win_pct": 3.4,
+    "place_pct": 6.9
+   },
+   "jockey_here": {
+    "name": "Jessica O'Gorman(7)",
+    "runs": 8,
+    "wins": 0,
+    "places": 0,
+    "win_pct": 0.0,
+    "place_pct": 0.0
+   },
    "trainer_here": {
     "name": "Aengus King",
     "runs": 8,
@@ -63206,6 +63283,15 @@
     "places": 0,
     "win_pct": 0.0,
     "place_pct": 0.0
+   },
+   "jockey_at_distance": {
+    "name": "Jessica O'Gorman(7)",
+    "key": "mile",
+    "runs": 38,
+    "wins": 2,
+    "places": 6,
+    "win_pct": 5.3,
+    "place_pct": 15.8
    },
    "trainer_at_course": {
     "name": "Aengus King",
