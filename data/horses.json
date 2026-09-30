@@ -1,6 +1,6 @@
 {
  "schema": "horses_v4",
- "generated_at": "2026-09-30T12:00:22Z",
+ "generated_at": "2026-09-30T16:00:22Z",
  "source": "Historical race results",
  "note": "Every figure is computed using only races run STRICTLY BEFORE the race it describes — the `as_of` date on each horse. Groups with fewer than two runs are omitted rather than shown as a rate, because a 100% strike rate over one run is noise wearing the clothes of a finding. Our archive runs to 2026-09-29: a horse that ran after that date has those runs missing here, so read `career` as what we hold, not as a complete record.",
  "history_depth": {
@@ -19,7 +19,7 @@
   "still_missing": 1883,
   "note": "Sire totals count the progeny we hold. Breeding is complete for races up to 2026-07-22. After that date our live source carries it for about half of runners; we recover most of the rest from the same horse's other races, but not all. Recent races are therefore under-counted in sire totals."
  },
- "collected_through": "2026-09-30T11:00:02Z",
+ "collected_through": "2026-09-30T15:00:03Z",
  "distance_bands": [
   {
    "key": "sprint",
@@ -1843,7 +1843,7 @@
    "name": "Marlena's Prince",
    "race": {
     "venue": "Catterick",
-    "off_utc": "2026-09-30T15:07:00+01:00",
+    "off_utc": "2026-09-30T15:04:00+01:00",
     "going": "good",
     "distance": "staying"
    },
@@ -1957,7 +1957,7 @@
     "age": "4",
     "sex": "gelding",
     "colour": "b",
-    "owner": "Andrew Phillips",
+    "owner": "Mr Andrew Phillips",
     "damsire": "Pivotal",
     "dam": "Zain Time"
    }
@@ -1967,7 +1967,7 @@
    "name": "Lady Phoebe",
    "race": {
     "venue": "Catterick",
-    "off_utc": "2026-09-30T15:07:00+01:00",
+    "off_utc": "2026-09-30T15:04:00+01:00",
     "going": "good",
     "distance": "staying"
    },
@@ -2182,7 +2182,7 @@
    "name": "Sugarpiehoneybunch",
    "race": {
     "venue": "Catterick",
-    "off_utc": "2026-09-30T15:07:00+01:00",
+    "off_utc": "2026-09-30T15:04:00+01:00",
     "going": "good",
     "distance": "staying"
    },
@@ -2322,12 +2322,12 @@
     }
    ],
    "jockey": {
-    "name": "Cian Horgan(5)",
-    "runs": 472,
-    "wins": 21,
-    "places": 85,
-    "win_pct": 4.4,
-    "place_pct": 18.0
+    "name": "Rhys Elliott(5)",
+    "runs": 772,
+    "wins": 53,
+    "places": 206,
+    "win_pct": 6.9,
+    "place_pct": 26.7
    },
    "trainer": {
     "name": "Simon West",
@@ -2353,6 +2353,15 @@
     "win_pct": 9.7,
     "place_pct": 31.1
    },
+   "jockey_trainer": {
+    "jockey": "Rhys Elliott(5)",
+    "trainer": "Simon West",
+    "runs": 11,
+    "wins": 1,
+    "places": 2,
+    "win_pct": 9.1,
+    "place_pct": 18.2
+   },
    "trainer_here": {
     "name": "Simon West",
     "runs": 35,
@@ -2361,14 +2370,23 @@
     "win_pct": 11.4,
     "place_pct": 20.0
    },
+   "jockey_at_course": {
+    "name": "Rhys Elliott(5)",
+    "key": "Catterick",
+    "runs": 34,
+    "wins": 2,
+    "places": 7,
+    "win_pct": 5.9,
+    "place_pct": 20.6
+   },
    "jockey_at_distance": {
-    "name": "Cian Horgan(5)",
+    "name": "Rhys Elliott(5)",
     "key": "staying",
-    "runs": 16,
-    "wins": 1,
-    "places": 4,
-    "win_pct": 6.2,
-    "place_pct": 25.0
+    "runs": 63,
+    "wins": 4,
+    "places": 15,
+    "win_pct": 6.3,
+    "place_pct": 23.8
    },
    "trainer_at_course": {
     "name": "Simon West",
@@ -2411,7 +2429,7 @@
    "name": "Regally Blonde",
    "race": {
     "venue": "Catterick",
-    "off_utc": "2026-09-30T15:07:00+01:00",
+    "off_utc": "2026-09-30T15:04:00+01:00",
     "going": "good",
     "distance": "staying"
    },
@@ -2551,12 +2569,12 @@
     }
    ],
    "jockey": {
-    "name": "Jack Callan",
-    "runs": 815,
-    "wins": 109,
-    "places": 298,
-    "win_pct": 13.4,
-    "place_pct": 36.6
+    "name": "Callum Shepherd",
+    "runs": 3835,
+    "wins": 432,
+    "places": 1319,
+    "win_pct": 11.3,
+    "place_pct": 34.4
    },
    "trainer": {
     "name": "Ben Case",
@@ -2582,14 +2600,6 @@
     "win_pct": 10.2,
     "place_pct": 29.0
    },
-   "jockey_here": {
-    "name": "Jack Callan",
-    "runs": 2,
-    "wins": 0,
-    "places": 1,
-    "win_pct": 0.0,
-    "place_pct": 50.0
-   },
    "trainer_here": {
     "name": "Ben Case",
     "runs": 33,
@@ -2599,13 +2609,13 @@
     "place_pct": 24.2
    },
    "jockey_at_distance": {
-    "name": "Jack Callan",
+    "name": "Callum Shepherd",
     "key": "staying",
-    "runs": 44,
-    "wins": 10,
-    "places": 27,
-    "win_pct": 22.7,
-    "place_pct": 61.4
+    "runs": 257,
+    "wins": 37,
+    "places": 98,
+    "win_pct": 14.4,
+    "place_pct": 38.1
    },
    "trainer_at_distance": {
     "name": "Ben Case",
@@ -2647,7 +2657,7 @@
    "name": "Soham's Roger",
    "race": {
     "venue": "Catterick",
-    "off_utc": "2026-09-30T15:07:00+01:00",
+    "off_utc": "2026-09-30T15:04:00+01:00",
     "going": "good",
     "distance": "staying"
    },
@@ -2789,7 +2799,7 @@
    "name": "Muhib",
    "race": {
     "venue": "Catterick",
-    "off_utc": "2026-09-30T15:07:00+01:00",
+    "off_utc": "2026-09-30T15:04:00+01:00",
     "going": "good",
     "distance": "staying"
    },
@@ -3028,7 +3038,7 @@
    "name": "Neddies Boy",
    "race": {
     "venue": "Catterick",
-    "off_utc": "2026-09-30T15:07:00+01:00",
+    "off_utc": "2026-09-30T15:04:00+01:00",
     "going": "good",
     "distance": "staying"
    },
@@ -3227,7 +3237,7 @@
    "name": "Star of Jupiter",
    "race": {
     "venue": "Catterick",
-    "off_utc": "2026-09-30T15:07:00+01:00",
+    "off_utc": "2026-09-30T15:04:00+01:00",
     "going": "good",
     "distance": "staying"
    },
@@ -3311,12 +3321,12 @@
     }
    ],
    "jockey": {
-    "name": "Luke Morris",
-    "runs": 6890,
-    "wins": 686,
-    "places": 2282,
-    "win_pct": 10.0,
-    "place_pct": 33.1
+    "name": "Jack Callan",
+    "runs": 815,
+    "wins": 109,
+    "places": 298,
+    "win_pct": 13.4,
+    "place_pct": 36.6
    },
    "trainer": {
     "name": "Mark Loughnane",
@@ -3343,21 +3353,13 @@
     "place_pct": 31.9
    },
    "jockey_trainer": {
-    "jockey": "Luke Morris",
+    "jockey": "Jack Callan",
     "trainer": "Mark Loughnane",
-    "runs": 156,
-    "wins": 10,
-    "places": 55,
-    "win_pct": 6.4,
-    "place_pct": 35.3
-   },
-   "jockey_here": {
-    "name": "Luke Morris",
-    "runs": 2,
-    "wins": 0,
-    "places": 1,
-    "win_pct": 0.0,
-    "place_pct": 50.0
+    "runs": 17,
+    "wins": 1,
+    "places": 3,
+    "win_pct": 5.9,
+    "place_pct": 17.6
    },
    "trainer_here": {
     "name": "Mark Loughnane",
@@ -3367,23 +3369,14 @@
     "win_pct": 4.5,
     "place_pct": 36.4
    },
-   "jockey_at_course": {
-    "name": "Luke Morris",
-    "key": "Catterick",
-    "runs": 45,
-    "wins": 13,
-    "places": 19,
-    "win_pct": 28.9,
-    "place_pct": 42.2
-   },
    "jockey_at_distance": {
-    "name": "Luke Morris",
+    "name": "Jack Callan",
     "key": "staying",
-    "runs": 513,
-    "wins": 76,
-    "places": 214,
-    "win_pct": 14.8,
-    "place_pct": 41.7
+    "runs": 44,
+    "wins": 10,
+    "places": 27,
+    "win_pct": 22.7,
+    "place_pct": 61.4
    },
    "trainer_at_course": {
     "name": "Mark Loughnane",
@@ -3426,7 +3419,7 @@
    "name": "Fairydale",
    "race": {
     "venue": "Catterick",
-    "off_utc": "2026-09-30T15:07:00+01:00",
+    "off_utc": "2026-09-30T15:04:00+01:00",
     "going": "good",
     "distance": "staying"
    },
@@ -3633,7 +3626,7 @@
    "name": "Queenies Pal",
    "race": {
     "venue": "Catterick",
-    "off_utc": "2026-09-30T15:07:00+01:00",
+    "off_utc": "2026-09-30T15:04:00+01:00",
     "going": "good",
     "distance": "staying"
    },
@@ -28596,7 +28589,7 @@
    "name": "Sod Hall Lane",
    "race": {
     "venue": "Musselburgh",
-    "off_utc": "2026-09-30T13:38:00+01:00",
+    "off_utc": "2026-09-30T13:40:00+01:00",
     "going": "soft",
     "distance": "sprint"
    },
@@ -28736,7 +28729,7 @@
    "name": "Just For Monty",
    "race": {
     "venue": "Musselburgh",
-    "off_utc": "2026-09-30T13:38:00+01:00",
+    "off_utc": "2026-09-30T13:40:00+01:00",
     "going": "soft",
     "distance": "sprint"
    },
@@ -28852,7 +28845,7 @@
    "name": "Sable Noir",
    "race": {
     "venue": "Musselburgh",
-    "off_utc": "2026-09-30T13:38:00+01:00",
+    "off_utc": "2026-09-30T13:40:00+01:00",
     "going": "soft",
     "distance": "sprint"
    },
@@ -30399,7 +30392,7 @@
    "name": "Filey Beach",
    "race": {
     "venue": "Musselburgh",
-    "off_utc": "2026-09-30T14:48:00+01:00",
+    "off_utc": "2026-09-30T14:50:00+01:00",
     "going": "soft",
     "distance": "sprint"
    },
@@ -30630,7 +30623,7 @@
    "name": "Jkr Cobbler",
    "race": {
     "venue": "Musselburgh",
-    "off_utc": "2026-09-30T14:48:00+01:00",
+    "off_utc": "2026-09-30T14:50:00+01:00",
     "going": "soft",
     "distance": "sprint"
    },
@@ -30853,7 +30846,7 @@
    "name": "Pallas Lord",
    "race": {
     "venue": "Musselburgh",
-    "off_utc": "2026-09-30T14:48:00+01:00",
+    "off_utc": "2026-09-30T14:50:00+01:00",
     "going": "soft",
     "distance": "sprint"
    },
@@ -31068,7 +31061,7 @@
    "name": "Escape Act",
    "race": {
     "venue": "Musselburgh",
-    "off_utc": "2026-09-30T14:48:00+01:00",
+    "off_utc": "2026-09-30T14:50:00+01:00",
     "going": "soft",
     "distance": "sprint"
    },
@@ -31192,7 +31185,7 @@
    "name": "Rwenearlytheredad",
    "race": {
     "venue": "Musselburgh",
-    "off_utc": "2026-09-30T14:48:00+01:00",
+    "off_utc": "2026-09-30T14:50:00+01:00",
     "going": "soft",
     "distance": "sprint"
    },
@@ -31431,7 +31424,7 @@
    "name": "Monhammer",
    "race": {
     "venue": "Musselburgh",
-    "off_utc": "2026-09-30T14:48:00+01:00",
+    "off_utc": "2026-09-30T14:50:00+01:00",
     "going": "soft",
     "distance": "sprint"
    },
@@ -31629,7 +31622,7 @@
    "name": "Keep Me Stable",
    "race": {
     "venue": "Musselburgh",
-    "off_utc": "2026-09-30T14:48:00+01:00",
+    "off_utc": "2026-09-30T14:50:00+01:00",
     "going": "soft",
     "distance": "sprint"
    },
@@ -31820,7 +31813,7 @@
    "name": "Kelpie Grey",
    "race": {
     "venue": "Musselburgh",
-    "off_utc": "2026-09-30T14:48:00+01:00",
+    "off_utc": "2026-09-30T14:50:00+01:00",
     "going": "soft",
     "distance": "sprint"
    },
@@ -32035,7 +32028,7 @@
    "name": "Misemerald",
    "race": {
     "venue": "Musselburgh",
-    "off_utc": "2026-09-30T14:48:00+01:00",
+    "off_utc": "2026-09-30T14:50:00+01:00",
     "going": "soft",
     "distance": "sprint"
    },
@@ -32250,7 +32243,7 @@
    "name": "Due Respect",
    "race": {
     "venue": "Musselburgh",
-    "off_utc": "2026-09-30T14:48:00+01:00",
+    "off_utc": "2026-09-30T14:50:00+01:00",
     "going": "soft",
     "distance": "sprint"
    },
@@ -32422,7 +32415,7 @@
    "name": "Concert Boy",
    "race": {
     "venue": "Musselburgh",
-    "off_utc": "2026-09-30T14:48:00+01:00",
+    "off_utc": "2026-09-30T14:50:00+01:00",
     "going": "soft",
     "distance": "sprint"
    },
@@ -36878,12 +36871,12 @@
    "by_course": [],
    "by_distance": [],
    "jockey": {
-    "name": "William Pyle",
-    "runs": 1074,
-    "wins": 91,
-    "places": 344,
-    "win_pct": 8.5,
-    "place_pct": 32.0
+    "name": "Andrew Mullen",
+    "runs": 3405,
+    "wins": 277,
+    "places": 936,
+    "win_pct": 8.1,
+    "place_pct": 27.5
    },
    "trainer": {
     "name": "Ben Haslam",
@@ -36901,6 +36894,23 @@
     "win_pct": 8.9,
     "place_pct": 27.7
    },
+   "jockey_trainer": {
+    "jockey": "Andrew Mullen",
+    "trainer": "Ben Haslam",
+    "runs": 386,
+    "wins": 43,
+    "places": 121,
+    "win_pct": 11.1,
+    "place_pct": 31.3
+   },
+   "jockey_here": {
+    "name": "Andrew Mullen",
+    "runs": 2,
+    "wins": 0,
+    "places": 1,
+    "win_pct": 0.0,
+    "place_pct": 50.0
+   },
    "trainer_here": {
     "name": "Ben Haslam",
     "runs": 5,
@@ -36910,22 +36920,22 @@
     "place_pct": 20.0
    },
    "jockey_at_course": {
-    "name": "William Pyle",
+    "name": "Andrew Mullen",
     "key": "Musselburgh",
-    "runs": 64,
-    "wins": 9,
-    "places": 23,
-    "win_pct": 14.1,
-    "place_pct": 35.9
+    "runs": 322,
+    "wins": 37,
+    "places": 108,
+    "win_pct": 11.5,
+    "place_pct": 33.5
    },
    "jockey_at_distance": {
-    "name": "William Pyle",
+    "name": "Andrew Mullen",
     "key": "sprint",
-    "runs": 416,
-    "wins": 38,
-    "places": 140,
-    "win_pct": 9.1,
-    "place_pct": 33.7
+    "runs": 1222,
+    "wins": 86,
+    "places": 301,
+    "win_pct": 7.0,
+    "place_pct": 24.6
    },
    "trainer_at_course": {
     "name": "Ben Haslam",
@@ -46822,7 +46832,7 @@
    "name": "Senna's Girl",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T14:05:00+01:00",
+    "off_utc": "2026-09-30T14:09:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -46970,7 +46980,7 @@
    "name": "Donna Time",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T14:05:00+01:00",
+    "off_utc": "2026-09-30T14:09:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -47093,7 +47103,7 @@
    "name": "Elusive Path",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T14:05:00+01:00",
+    "off_utc": "2026-09-30T14:09:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -47235,7 +47245,7 @@
    "name": "Mr Mercury",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T14:05:00+01:00",
+    "off_utc": "2026-09-30T14:09:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -47252,12 +47262,12 @@
    "by_course": [],
    "by_distance": [],
    "jockey": {
-    "name": "R. P. Whelan",
-    "runs": 275,
-    "wins": 20,
-    "places": 72,
-    "win_pct": 7.3,
-    "place_pct": 26.2
+    "name": "G. F. Carroll",
+    "runs": 329,
+    "wins": 23,
+    "places": 77,
+    "win_pct": 7.0,
+    "place_pct": 23.4
    },
    "trainer": {
     "name": "J A Nash",
@@ -47284,13 +47294,13 @@
     "place_pct": 31.2
    },
    "jockey_at_distance": {
-    "name": "R. P. Whelan",
+    "name": "G. F. Carroll",
     "key": "mile",
-    "runs": 75,
-    "wins": 6,
+    "runs": 86,
+    "wins": 5,
     "places": 19,
-    "win_pct": 8.0,
-    "place_pct": 25.3
+    "win_pct": 5.8,
+    "place_pct": 22.1
    },
    "trainer_at_course": {
     "name": "J A Nash",
@@ -47341,7 +47351,7 @@
    "name": "Nautic Star",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T14:05:00+01:00",
+    "off_utc": "2026-09-30T14:09:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -47457,7 +47467,7 @@
    "name": "Fan Club",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T14:05:00+01:00",
+    "off_utc": "2026-09-30T14:09:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -47590,7 +47600,7 @@
    "name": "Storzando",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T14:05:00+01:00",
+    "off_utc": "2026-09-30T14:09:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -47764,7 +47774,7 @@
    "name": "Tyraxes",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T14:05:00+01:00",
+    "off_utc": "2026-09-30T14:09:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -47920,7 +47930,7 @@
    "name": "Fay Og",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T14:05:00+01:00",
+    "off_utc": "2026-09-30T14:09:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -48018,7 +48028,7 @@
    "name": "Borora Aura",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T14:05:00+01:00",
+    "off_utc": "2026-09-30T14:09:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -48199,7 +48209,7 @@
    "name": "Albion Power",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T14:40:00+01:00",
+    "off_utc": "2026-09-30T14:44:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -48323,7 +48333,7 @@
    "name": "Ohmali",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T14:40:00+01:00",
+    "off_utc": "2026-09-30T14:44:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -48399,12 +48409,12 @@
     }
    ],
    "jockey": {
-    "name": "Colin Keane",
-    "runs": 3783,
-    "wins": 568,
-    "places": 1484,
-    "win_pct": 15.0,
-    "place_pct": 39.2
+    "name": "Seamie Heffernan",
+    "runs": 2404,
+    "wins": 271,
+    "places": 714,
+    "win_pct": 11.3,
+    "place_pct": 29.7
    },
    "trainer": {
     "name": "Miss Natalia Lupini",
@@ -48430,6 +48440,15 @@
     "win_pct": 11.2,
     "place_pct": 31.9
    },
+   "jockey_trainer": {
+    "jockey": "Seamie Heffernan",
+    "trainer": "Miss Natalia Lupini",
+    "runs": 18,
+    "wins": 2,
+    "places": 6,
+    "win_pct": 11.1,
+    "place_pct": 33.3
+   },
    "trainer_here": {
     "name": "Miss Natalia Lupini",
     "runs": 3,
@@ -48439,22 +48458,22 @@
     "place_pct": 33.3
    },
    "jockey_at_course": {
-    "name": "Colin Keane",
+    "name": "Seamie Heffernan",
     "key": "Bellewstown",
-    "runs": 119,
-    "wins": 23,
-    "places": 57,
-    "win_pct": 19.3,
-    "place_pct": 47.9
+    "runs": 58,
+    "wins": 5,
+    "places": 12,
+    "win_pct": 8.6,
+    "place_pct": 20.7
    },
    "jockey_at_distance": {
-    "name": "Colin Keane",
+    "name": "Seamie Heffernan",
     "key": "mile",
-    "runs": 1118,
-    "wins": 157,
-    "places": 429,
-    "win_pct": 14.0,
-    "place_pct": 38.4
+    "runs": 735,
+    "wins": 78,
+    "places": 205,
+    "win_pct": 10.6,
+    "place_pct": 27.9
    },
    "trainer_at_distance": {
     "name": "Miss Natalia Lupini",
@@ -48496,7 +48515,7 @@
    "name": "Selective Power",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T14:40:00+01:00",
+    "off_utc": "2026-09-30T14:44:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -48702,7 +48721,7 @@
    "name": "Zabriskie Point",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T14:40:00+01:00",
+    "off_utc": "2026-09-30T14:44:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -48876,7 +48895,7 @@
    "name": "Little Miss P",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T14:40:00+01:00",
+    "off_utc": "2026-09-30T14:44:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -49025,7 +49044,7 @@
    "name": "The Blue Panther",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T14:40:00+01:00",
+    "off_utc": "2026-09-30T14:44:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -49236,7 +49255,7 @@
    "name": "Are You In Or Out",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T14:40:00+01:00",
+    "off_utc": "2026-09-30T14:44:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -49432,7 +49451,7 @@
    "name": "Dinamine",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T14:40:00+01:00",
+    "off_utc": "2026-09-30T14:44:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -49671,7 +49690,7 @@
    "name": "Chavajod",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T14:40:00+01:00",
+    "off_utc": "2026-09-30T14:44:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -49900,7 +49919,7 @@
    "name": "Distillate",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T14:40:00+01:00",
+    "off_utc": "2026-09-30T14:44:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -50155,7 +50174,7 @@
    "name": "Platino Bianco",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T14:40:00+01:00",
+    "off_utc": "2026-09-30T14:44:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -50335,7 +50354,7 @@
    "name": "Whatswrongnow",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T14:40:00+01:00",
+    "off_utc": "2026-09-30T14:44:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -50497,7 +50516,7 @@
    "name": "Prada's World",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T14:40:00+01:00",
+    "off_utc": "2026-09-30T14:44:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -50595,7 +50614,7 @@
    "name": "Sunday Sovereign",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T14:40:00+01:00",
+    "off_utc": "2026-09-30T14:44:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -50806,7 +50825,7 @@
    "name": "Manhattan Dandy",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T14:40:00+01:00",
+    "off_utc": "2026-09-30T14:44:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -51034,7 +51053,7 @@
    "name": "Zephron",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T14:40:00+01:00",
+    "off_utc": "2026-09-30T14:44:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -51230,7 +51249,7 @@
    "name": "God Knows",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T14:40:00+01:00",
+    "off_utc": "2026-09-30T14:44:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -51386,7 +51405,7 @@
    "name": "Navagio",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T14:40:00+01:00",
+    "off_utc": "2026-09-30T14:44:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -51590,7 +51609,7 @@
    "name": "Moyassr",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T15:15:00+01:00",
+    "off_utc": "2026-09-30T15:19:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -51764,7 +51783,7 @@
    "name": "Felix Somary",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T15:15:00+01:00",
+    "off_utc": "2026-09-30T15:19:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -51904,7 +51923,7 @@
    "name": "Calm The Jets",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T15:15:00+01:00",
+    "off_utc": "2026-09-30T15:19:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -52046,7 +52065,7 @@
    "name": "Mickey The Steel",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T15:15:00+01:00",
+    "off_utc": "2026-09-30T15:19:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -52252,7 +52271,7 @@
    "name": "Red Hugh O'Donnell",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T15:15:00+01:00",
+    "off_utc": "2026-09-30T15:19:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -52434,7 +52453,7 @@
    "name": "Final Boss",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T15:15:00+01:00",
+    "off_utc": "2026-09-30T15:19:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -52559,7 +52578,7 @@
    "name": "Galley Point",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T15:15:00+01:00",
+    "off_utc": "2026-09-30T15:19:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -52665,7 +52684,7 @@
    "name": "Goldrush Kid",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T15:15:00+01:00",
+    "off_utc": "2026-09-30T15:19:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -52856,7 +52875,7 @@
    "name": "Mythical Rock",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T15:15:00+01:00",
+    "off_utc": "2026-09-30T15:19:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -53022,7 +53041,7 @@
    "name": "Dream Legend",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T15:15:00+01:00",
+    "off_utc": "2026-09-30T15:19:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -53164,7 +53183,7 @@
    "name": "The Bear Trap",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T15:15:00+01:00",
+    "off_utc": "2026-09-30T15:19:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -53305,7 +53324,7 @@
    "name": "Wegotogether",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T15:15:00+01:00",
+    "off_utc": "2026-09-30T15:19:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -53470,7 +53489,7 @@
    "name": "Dandyville",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T15:15:00+01:00",
+    "off_utc": "2026-09-30T15:19:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -53643,7 +53662,7 @@
    "name": "Givehertilxmas",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T15:15:00+01:00",
+    "off_utc": "2026-09-30T15:19:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -53818,7 +53837,7 @@
    "name": "Friendly Invoice",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T15:15:00+01:00",
+    "off_utc": "2026-09-30T15:19:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -53933,7 +53952,7 @@
    "name": "Banshof",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T15:15:00+01:00",
+    "off_utc": "2026-09-30T15:19:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -54066,7 +54085,7 @@
    "name": "Hastily",
    "race": {
     "venue": "Bellewstown",
-    "off_utc": "2026-09-30T15:15:00+01:00",
+    "off_utc": "2026-09-30T15:19:00+01:00",
     "going": "heavy",
     "distance": "mile"
    },
@@ -63680,12 +63699,12 @@
     }
    ],
    "jockey": {
-    "name": "Kieren Buckley",
-    "runs": 912,
-    "wins": 76,
-    "places": 251,
-    "win_pct": 8.3,
-    "place_pct": 27.5
+    "name": "Keith Donoghue",
+    "runs": 2401,
+    "wins": 279,
+    "places": 800,
+    "win_pct": 11.6,
+    "place_pct": 33.3
    },
    "trainer": {
     "name": "Gavin Cromwell",
@@ -63712,31 +63731,39 @@
     "place_pct": 37.5
    },
    "jockey_trainer": {
-    "jockey": "Kieren Buckley",
+    "jockey": "Keith Donoghue",
     "trainer": "Gavin Cromwell",
-    "runs": 201,
-    "wins": 11,
-    "places": 45,
-    "win_pct": 5.5,
-    "place_pct": 22.4
+    "runs": 883,
+    "wins": 140,
+    "places": 364,
+    "win_pct": 15.9,
+    "place_pct": 41.2
+   },
+   "jockey_here": {
+    "name": "Keith Donoghue",
+    "runs": 2,
+    "wins": 0,
+    "places": 0,
+    "win_pct": 0.0,
+    "place_pct": 0.0
    },
    "jockey_at_course": {
-    "name": "Kieren Buckley",
+    "name": "Keith Donoghue",
     "key": "Sligo",
-    "runs": 11,
-    "wins": 1,
-    "places": 5,
-    "win_pct": 9.1,
-    "place_pct": 45.5
+    "runs": 44,
+    "wins": 11,
+    "places": 22,
+    "win_pct": 25.0,
+    "place_pct": 50.0
    },
    "jockey_at_distance": {
-    "name": "Kieren Buckley",
+    "name": "Keith Donoghue",
     "key": "staying",
-    "runs": 910,
-    "wins": 76,
-    "places": 250,
-    "win_pct": 8.4,
-    "place_pct": 27.5
+    "runs": 2401,
+    "wins": 279,
+    "places": 800,
+    "win_pct": 11.6,
+    "place_pct": 33.3
    },
    "trainer_at_course": {
     "name": "Gavin Cromwell",
