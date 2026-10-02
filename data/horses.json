@@ -1,6 +1,6 @@
 {
  "schema": "horses_v4",
- "generated_at": "2026-10-02T07:00:21Z",
+ "generated_at": "2026-10-02T12:00:24Z",
  "source": "Historical race results",
  "note": "Every figure is computed using only races run STRICTLY BEFORE the race it describes — the `as_of` date on each horse. Groups with fewer than two runs are omitted rather than shown as a rate, because a 100% strike rate over one run is noise wearing the clothes of a finding. Our archive runs to 2026-10-01: a horse that ran after that date has those runs missing here, so read `career` as what we hold, not as a complete record.",
  "history_depth": {
@@ -19,7 +19,7 @@
   "still_missing": 1717,
   "note": "Sire totals count the progeny we hold. Breeding is complete for races up to 2026-07-22. After that date our live source carries it for about half of runners; we recover most of the rest from the same horse's other races, but not all. Recent races are therefore under-counted in sire totals."
  },
- "collected_through": "2026-10-02T06:00:01Z",
+ "collected_through": "2026-10-02T11:00:01Z",
  "distance_bands": [
   {
    "key": "sprint",
@@ -9784,6 +9784,14 @@
      "place_pct": 66.7
     }
    ],
+   "jockey": {
+    "name": "Jack Kennedy",
+    "runs": 1993,
+    "wins": 387,
+    "places": 946,
+    "win_pct": 19.4,
+    "place_pct": 47.5
+   },
    "trainer": {
     "name": "Gordon Elliott",
     "runs": 7642,
@@ -9807,6 +9815,33 @@
     "places": 1646,
     "win_pct": 11.9,
     "place_pct": 34.0
+   },
+   "jockey_trainer": {
+    "jockey": "Jack Kennedy",
+    "trainer": "Gordon Elliott",
+    "runs": 1701,
+    "wins": 341,
+    "places": 826,
+    "win_pct": 20.0,
+    "place_pct": 48.6
+   },
+   "jockey_at_course": {
+    "name": "Jack Kennedy",
+    "key": "Gowran Park",
+    "runs": 54,
+    "wins": 11,
+    "places": 29,
+    "win_pct": 20.4,
+    "place_pct": 53.7
+   },
+   "jockey_at_distance": {
+    "name": "Jack Kennedy",
+    "key": "staying",
+    "runs": 1989,
+    "wins": 387,
+    "places": 946,
+    "win_pct": 19.5,
+    "place_pct": 47.6
    },
    "trainer_at_course": {
     "name": "Gordon Elliott",
@@ -27775,6 +27810,14 @@
      "place_pct": 22.2
     }
    ],
+   "jockey": {
+    "name": "Sean Cleary-Farrell(7)",
+    "runs": 91,
+    "wins": 8,
+    "places": 16,
+    "win_pct": 8.8,
+    "place_pct": 17.6
+   },
    "trainer": {
     "name": "Thomas Mullins",
     "runs": 1005,
@@ -27806,6 +27849,15 @@
     "places": 1,
     "win_pct": 16.7,
     "place_pct": 16.7
+   },
+   "jockey_at_distance": {
+    "name": "Sean Cleary-Farrell(7)",
+    "key": "staying",
+    "runs": 80,
+    "wins": 8,
+    "places": 14,
+    "win_pct": 10.0,
+    "place_pct": 17.5
    },
    "trainer_at_course": {
     "name": "Thomas Mullins",
@@ -39205,6 +39257,14 @@
      "place_pct": 8.3
     }
    ],
+   "jockey": {
+    "name": "Danny Mullins",
+    "runs": 2659,
+    "wins": 273,
+    "places": 815,
+    "win_pct": 10.3,
+    "place_pct": 30.7
+   },
    "trainer": {
     "name": "R Donohoe",
     "runs": 315,
@@ -39228,6 +39288,33 @@
     "places": 1891,
     "win_pct": 13.6,
     "place_pct": 38.5
+   },
+   "jockey_trainer": {
+    "jockey": "Danny Mullins",
+    "trainer": "R Donohoe",
+    "runs": 30,
+    "wins": 5,
+    "places": 12,
+    "win_pct": 16.7,
+    "place_pct": 40.0
+   },
+   "jockey_at_course": {
+    "name": "Danny Mullins",
+    "key": "Gowran Park",
+    "runs": 104,
+    "wins": 13,
+    "places": 33,
+    "win_pct": 12.5,
+    "place_pct": 31.7
+   },
+   "jockey_at_distance": {
+    "name": "Danny Mullins",
+    "key": "staying",
+    "runs": 2650,
+    "wins": 273,
+    "places": 811,
+    "win_pct": 10.3,
+    "place_pct": 30.6
    },
    "trainer_at_course": {
     "name": "R Donohoe",
