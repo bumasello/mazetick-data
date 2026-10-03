@@ -1,6 +1,6 @@
 {
  "schema": "horses_v5",
- "generated_at": "2026-10-03T07:00:22Z",
+ "generated_at": "2026-10-03T12:00:22Z",
  "source": "Historical race results",
  "note": "Every figure is computed using only races run STRICTLY BEFORE the race it describes — the `as_of` date on each horse. Groups with fewer than two runs are omitted rather than shown as a rate, because a 100% strike rate over one run is noise wearing the clothes of a finding. Our archive runs to 2026-10-02: a horse that ran after that date has those runs missing here, so read `career` as what we hold, not as a complete record.",
  "history_depth": {
@@ -19,7 +19,7 @@
   "still_missing": 1669,
   "note": "Sire totals count the progeny we hold. Breeding is complete for races up to 2026-07-22. After that date our live source carries it for about half of runners; we recover most of the rest from the same horse's other races, but not all. Recent races are therefore under-counted in sire totals."
  },
- "collected_through": "2026-10-03T06:00:02Z",
+ "collected_through": "2026-10-03T11:00:01Z",
  "distance_bands": [
   {
    "key": "sprint",
@@ -5581,7 +5581,7 @@
     "off_utc": "2026-10-03T13:20:00+01:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-03",
    "status": "has_history",
@@ -11443,7 +11443,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T14:02:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -11593,7 +11593,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T14:02:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -11743,7 +11743,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T14:02:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -11927,7 +11927,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T14:02:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -16807,7 +16807,7 @@
     "off_utc": "2026-10-03T14:30:00+01:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-03",
    "status": "has_history",
@@ -18759,7 +18759,7 @@
     "off_utc": "2026-10-03T14:30:00+01:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-03",
    "status": "has_history",
@@ -19305,7 +19305,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T14:37:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -19446,7 +19446,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T14:37:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -19622,7 +19622,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T14:37:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -19730,7 +19730,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T14:37:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -19863,7 +19863,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T14:37:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -20014,7 +20014,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T14:37:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -20157,7 +20157,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T14:37:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -20217,12 +20217,12 @@
     }
    ],
    "jockey": {
-    "name": "Harry Bannister",
-    "runs": 1605,
-    "wins": 176,
-    "places": 565,
-    "win_pct": 11.0,
-    "place_pct": 35.2
+    "name": "Jack Quinlan",
+    "runs": 1674,
+    "wins": 160,
+    "places": 542,
+    "win_pct": 9.6,
+    "place_pct": 32.4
    },
    "trainer": {
     "name": "Richard Bandey",
@@ -20248,32 +20248,23 @@
     "win_pct": 15.6,
     "place_pct": 41.7
    },
-   "jockey_trainer": {
-    "jockey": "Harry Bannister",
-    "trainer": "Richard Bandey",
-    "runs": 42,
-    "wins": 8,
-    "places": 23,
-    "win_pct": 19.0,
-    "place_pct": 54.8
-   },
    "jockey_at_course": {
-    "name": "Harry Bannister",
+    "name": "Jack Quinlan",
     "key": "Fontwell",
-    "runs": 81,
-    "wins": 9,
-    "places": 32,
-    "win_pct": 11.1,
-    "place_pct": 39.5
+    "runs": 46,
+    "wins": 5,
+    "places": 20,
+    "win_pct": 10.9,
+    "place_pct": 43.5
    },
    "jockey_at_distance": {
-    "name": "Harry Bannister",
+    "name": "Jack Quinlan",
     "key": "staying",
-    "runs": 1605,
-    "wins": 176,
-    "places": 565,
-    "win_pct": 11.0,
-    "place_pct": 35.2
+    "runs": 1668,
+    "wins": 160,
+    "places": 541,
+    "win_pct": 9.6,
+    "place_pct": 32.4
    },
    "trainer_at_distance": {
     "name": "Richard Bandey",
@@ -20300,9 +20291,9 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T14:37:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-03",
    "status": "has_history",
@@ -20443,7 +20434,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T14:37:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -20516,7 +20507,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T14:37:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -20660,7 +20651,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T14:37:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -20802,7 +20793,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T14:37:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -23716,7 +23707,7 @@
     "off_utc": "2026-10-03T15:00:00+01:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-03",
    "status": "has_history",
@@ -26052,7 +26043,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T15:10:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -26227,7 +26218,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T15:10:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -26402,7 +26393,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T15:10:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -26578,7 +26569,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T15:10:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -26686,7 +26677,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T15:10:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -26854,7 +26845,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T15:10:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -26997,7 +26988,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T15:10:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -27131,7 +27122,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T15:10:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -33943,7 +33934,7 @@
     "off_utc": "2026-10-03T15:40:00+01:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-03",
    "status": "has_history",
@@ -34115,7 +34106,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T15:45:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -34283,7 +34274,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T15:45:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -34451,7 +34442,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T15:45:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -34659,7 +34650,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T15:45:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -34875,7 +34866,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T15:45:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -35050,7 +35041,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T15:45:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -42334,7 +42325,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T16:25:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -42493,7 +42484,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T16:25:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -42701,7 +42692,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T16:25:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -42877,7 +42868,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T16:25:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "non_runner"
    },
@@ -43044,7 +43035,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T16:25:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -43290,7 +43281,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T16:25:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -43482,7 +43473,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T16:25:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -43623,7 +43614,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T16:25:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -43775,7 +43766,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T16:25:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -48352,7 +48343,7 @@
     "off_utc": "2026-10-03T16:50:00+01:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-03",
    "status": "has_history",
@@ -48822,7 +48813,7 @@
     "off_utc": "2026-10-03T16:50:00+01:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-03",
    "status": "has_history",
@@ -48957,7 +48948,7 @@
     "off_utc": "2026-10-03T16:50:00+01:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-03",
    "status": "has_history",
@@ -49900,7 +49891,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T17:00:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -50042,7 +50033,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T17:00:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -50225,7 +50216,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T17:00:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -50465,7 +50456,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T17:00:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -53978,7 +53969,7 @@
     "off_utc": "2026-10-03T17:25:00+01:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-03",
    "status": "has_history",
@@ -54934,7 +54925,7 @@
     "off_utc": "2026-10-03T17:25:00+01:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-03",
    "status": "has_history",
@@ -55505,7 +55496,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T17:35:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -55663,7 +55654,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T17:35:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -55839,7 +55830,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T17:35:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -55991,7 +55982,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T17:35:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -56175,7 +56166,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T17:35:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -56357,7 +56348,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T17:35:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -56564,7 +56555,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T17:35:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -56731,7 +56722,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T17:35:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -56880,7 +56871,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-10-03T17:35:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
