@@ -1,6 +1,6 @@
 {
  "schema": "movers_v1",
- "generated_at": "2026-10-03T16:00:02Z",
+ "generated_at": "2026-10-03T21:30:01Z",
  "source": "Smarkets public order book",
  "note": "'percentile' is where this move sits among all moves we have measured for runners opening at a similar price. The median move is near zero in every band; what changes with price is the spread of outcomes.",
  "baseline": {
@@ -78,7 +78,7 @@
    }
   ]
  },
- "collected_through": "2026-10-03T15:45:01Z",
+ "collected_through": "2026-10-03T21:15:01Z",
  "runners": [
   {
    "slug": "newmarket-1345",
@@ -125,6 +125,28 @@
    "notable": true
   },
   {
+   "slug": "fontwell-1635",
+   "venue": "Fontwell",
+   "off_utc": "2026-10-03T16:35:00Z",
+   "runner": "One For Rian",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 8.67
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 22.4,
+    "spread_pct": 13.3
+   },
+   "move_pct": 158.3,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 99,
+   "notable": true
+  },
+  {
    "slug": "gowran-park-1330",
    "venue": "Gowran Park",
    "off_utc": "2026-10-03T13:30:00Z",
@@ -147,23 +169,45 @@
    "notable": true
   },
   {
-   "slug": "fontwell-1635",
-   "venue": "Fontwell",
-   "off_utc": "2026-10-03T16:35:00Z",
-   "runner": "One For Rian",
+   "slug": "gowran-park-1625",
+   "venue": "Gowran Park",
+   "off_utc": "2026-10-03T16:25:00Z",
+   "runner": "Killeemore Lad",
    "first": {
-    "mins_to_off": 350,
-    "mid": 8.67
+    "mins_to_off": 355,
+    "mid": 8.07
    },
    "latest": {
-    "mins_to_off": 50,
-    "mid": 17.21,
-    "spread_pct": 8.6
+    "mins_to_off": 10,
+    "mid": 4.5,
+    "spread_pct": 4.5
    },
-   "move_pct": 98.5,
+   "move_pct": -44.3,
    "band": [
     8,
     13
+   ],
+   "percentile": 2,
+   "notable": true
+  },
+  {
+   "slug": "southwell-1930",
+   "venue": "Southwell",
+   "off_utc": "2026-10-03T19:30:00Z",
+   "runner": "Kindly Queen",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 32.89
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 78.74,
+    "spread_pct": 25.6
+   },
+   "move_pct": 139.4,
+   "band": [
+    20,
+    35
    ],
    "percentile": 98,
    "notable": true
@@ -213,6 +257,28 @@
    "notable": true
   },
   {
+   "slug": "fontwell-1600",
+   "venue": "Fontwell",
+   "off_utc": "2026-10-03T16:00:00Z",
+   "runner": "Glance Of Glory",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 2.93
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 4.3,
+    "spread_pct": 4.6
+   },
+   "move_pct": 46.7,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 97,
+   "notable": true
+  },
+  {
    "slug": "hoppegarten-de-1420",
    "venue": "Hoppegarten De",
    "off_utc": "2026-10-03T14:20:00Z",
@@ -227,6 +293,28 @@
     "spread_pct": 138.4
    },
    "move_pct": 102.9,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 97,
+   "notable": true
+  },
+  {
+   "slug": "redcar-1640",
+   "venue": "Redcar",
+   "off_utc": "2026-10-03T16:40:00Z",
+   "runner": "Al Hussar",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 13.71
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 27.4,
+    "spread_pct": 11.0
+   },
+   "move_pct": 99.9,
    "band": [
     13,
     20
@@ -345,23 +433,45 @@
    "notable": true
   },
   {
-   "slug": "gowran-park-1625",
-   "venue": "Gowran Park",
-   "off_utc": "2026-10-03T16:25:00Z",
-   "runner": "Drumgill",
+   "slug": "redcar-1610",
+   "venue": "Redcar",
+   "off_utc": "2026-10-03T16:10:00Z",
+   "runner": "Parisian Scholar",
    "first": {
-    "mins_to_off": 355,
-    "mid": 14.43
+    "mins_to_off": 340,
+    "mid": 7.1
    },
    "latest": {
-    "mins_to_off": 40,
-    "mid": 8.8,
-    "spread_pct": 4.6
+    "mins_to_off": 10,
+    "mid": 4.7,
+    "spread_pct": 4.3
    },
-   "move_pct": -39.0,
+   "move_pct": -33.8,
    "band": [
-    13,
-    20
+    5,
+    8
+   ],
+   "percentile": 4,
+   "notable": true
+  },
+  {
+   "slug": "fontwell-1635",
+   "venue": "Fontwell",
+   "off_utc": "2026-10-03T16:35:00Z",
+   "runner": "County Champs",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 5.59
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 3.67,
+    "spread_pct": 1.4
+   },
+   "move_pct": -34.3,
+   "band": [
+    5,
+    8
    ],
    "percentile": 4,
    "notable": true
@@ -386,6 +496,28 @@
     100
    ],
    "percentile": 96,
+   "notable": true
+  },
+  {
+   "slug": "southwell-1900",
+   "venue": "Southwell",
+   "off_utc": "2026-10-03T19:00:00Z",
+   "runner": "South Parade",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 9.18
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 5.7,
+    "spread_pct": 3.5
+   },
+   "move_pct": -37.9,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 4,
    "notable": true
   },
   {
@@ -543,28 +675,6 @@
    "notable": true
   },
   {
-   "slug": "fontwell-1600",
-   "venue": "Fontwell",
-   "off_utc": "2026-10-03T16:00:00Z",
-   "runner": "Glance Of Glory",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 2.93
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 4.05,
-    "spread_pct": 2.5
-   },
-   "move_pct": 38.2,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 95,
-   "notable": true
-  },
-  {
    "slug": "hoppegarten-de-1305",
    "venue": "Hoppegarten De",
    "off_utc": "2026-10-03T13:05:00Z",
@@ -584,6 +694,28 @@
     20
    ],
    "percentile": 5,
+   "notable": true
+  },
+  {
+   "slug": "southwell-1655",
+   "venue": "Southwell",
+   "off_utc": "2026-10-03T16:55:00Z",
+   "runner": "Nakaaha",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 38.76
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 66.67,
+    "spread_pct": 23.0
+   },
+   "move_pct": 72.0,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 95,
    "notable": true
   },
   {
@@ -697,6 +829,28 @@
    "notable": false
   },
   {
+   "slug": "fontwell-1600",
+   "venue": "Fontwell",
+   "off_utc": "2026-10-03T16:00:00Z",
+   "runner": "Jefe Triunfo",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 5.25
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 3.72,
+    "spread_pct": 1.3
+   },
+   "move_pct": -29.0,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 6,
+   "notable": false
+  },
+  {
    "slug": "hoppegarten-de-1420",
    "venue": "Hoppegarten De",
    "off_utc": "2026-10-03T14:20:00Z",
@@ -736,6 +890,28 @@
    "band": [
     13,
     20
+   ],
+   "percentile": 94,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1830",
+   "venue": "Southwell",
+   "off_utc": "2026-10-03T18:30:00Z",
+   "runner": "Roaring Ralph",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 49.51
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 81.97,
+    "spread_pct": 18.2
+   },
+   "move_pct": 65.6,
+   "band": [
+    35,
+    100
    ],
    "percentile": 94,
    "notable": false
@@ -799,6 +975,116 @@
     "spread_pct": 4.6
    },
    "move_pct": 41.8,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 93,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1655",
+   "venue": "Southwell",
+   "off_utc": "2026-10-03T16:55:00Z",
+   "runner": "Nostrum",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 6.29
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 4.5,
+    "spread_pct": 4.5
+   },
+   "move_pct": -28.4,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 7,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1800",
+   "venue": "Southwell",
+   "off_utc": "2026-10-03T18:00:00Z",
+   "runner": "Big Money",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 13.93
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 9.39,
+    "spread_pct": 4.2
+   },
+   "move_pct": -32.6,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 7,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1830",
+   "venue": "Southwell",
+   "off_utc": "2026-10-03T18:30:00Z",
+   "runner": "Slay Queen",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 61.35
+   },
+   "latest": {
+    "mins_to_off": 30,
+    "mid": 99.5,
+    "spread_pct": 35.9
+   },
+   "move_pct": 62.2,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 93,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1900",
+   "venue": "Southwell",
+   "off_utc": "2026-10-03T19:00:00Z",
+   "runner": "Toptime",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 5.45
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 7.7,
+    "spread_pct": 2.6
+   },
+   "move_pct": 41.4,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 93,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1930",
+   "venue": "Southwell",
+   "off_utc": "2026-10-03T19:30:00Z",
+   "runner": "Astrid",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 6.19
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 8.7,
+    "spread_pct": 2.3
+   },
+   "move_pct": 40.5,
    "band": [
     5,
     8
@@ -892,6 +1178,72 @@
     5
    ],
    "percentile": 8,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1620",
+   "venue": "Southwell",
+   "off_utc": "2026-10-03T16:20:00Z",
+   "runner": "High Hazard",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 15.94
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 10.98,
+    "spread_pct": 9.0
+   },
+   "move_pct": -31.1,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 8,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1620",
+   "venue": "Southwell",
+   "off_utc": "2026-10-03T16:20:00Z",
+   "runner": "Tribal Appearance",
+   "first": {
+    "mins_to_off": 335,
+    "mid": 98.52
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 52.36,
+    "spread_pct": 9.4
+   },
+   "move_pct": -46.9,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 8,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1830",
+   "venue": "Southwell",
+   "off_utc": "2026-10-03T18:30:00Z",
+   "runner": "Blue Orbit",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 16.16
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 25.97,
+    "spread_pct": 7.8
+   },
+   "move_pct": 60.8,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 92,
    "notable": false
   },
   {
@@ -1005,25 +1357,47 @@
    "notable": false
   },
   {
-   "slug": "gowran-park-1625",
-   "venue": "Gowran Park",
-   "off_utc": "2026-10-03T16:25:00Z",
-   "runner": "Banjaxed",
+   "slug": "southwell-1620",
+   "venue": "Southwell",
+   "off_utc": "2026-10-03T16:20:00Z",
+   "runner": "Agitator",
    "first": {
-    "mins_to_off": 355,
-    "mid": 24.01
+    "mins_to_off": 350,
+    "mid": 10.58
    },
    "latest": {
-    "mins_to_off": 40,
-    "mid": 15.71,
-    "spread_pct": 9.6
+    "mins_to_off": 5,
+    "mid": 15.48,
+    "spread_pct": 6.5
    },
-   "move_pct": -34.6,
+   "move_pct": 46.3,
    "band": [
-    20,
-    35
+    8,
+    13
    ],
-   "percentile": 9,
+   "percentile": 91,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1930",
+   "venue": "Southwell",
+   "off_utc": "2026-10-03T19:30:00Z",
+   "runner": "Thankyou Baroness",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 8.38
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 12.48,
+    "spread_pct": 8.0
+   },
+   "move_pct": 48.9,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 91,
    "notable": false
   },
   {
@@ -1093,20 +1467,20 @@
    "notable": false
   },
   {
-   "slug": "gowran-park-1625",
-   "venue": "Gowran Park",
-   "off_utc": "2026-10-03T16:25:00Z",
-   "runner": "Killeemore Lad",
+   "slug": "southwell-1620",
+   "venue": "Southwell",
+   "off_utc": "2026-10-03T16:20:00Z",
+   "runner": "Rocket Boots",
    "first": {
-    "mins_to_off": 355,
-    "mid": 8.07
+    "mins_to_off": 350,
+    "mid": 9.89
    },
    "latest": {
-    "mins_to_off": 40,
-    "mid": 5.9,
-    "spread_pct": 3.4
+    "mins_to_off": 5,
+    "mid": 7.19,
+    "spread_pct": 5.6
    },
-   "move_pct": -26.9,
+   "move_pct": -27.2,
    "band": [
     8,
     13
@@ -1115,45 +1489,23 @@
    "notable": false
   },
   {
-   "slug": "southwell-1620",
+   "slug": "southwell-1830",
    "venue": "Southwell",
-   "off_utc": "2026-10-03T16:20:00Z",
-   "runner": "Tribal Appearance",
+   "off_utc": "2026-10-03T18:30:00Z",
+   "runner": "Inca Heights",
    "first": {
-    "mins_to_off": 335,
-    "mid": 98.52
+    "mins_to_off": 360,
+    "mid": 36.36
    },
    "latest": {
-    "mins_to_off": 35,
-    "mid": 55.25,
-    "spread_pct": 30.5
+    "mins_to_off": 0,
+    "mid": 54.5,
+    "spread_pct": 18.1
    },
-   "move_pct": -43.9,
+   "move_pct": 49.9,
    "band": [
     35,
     100
-   ],
-   "percentile": 10,
-   "notable": false
-  },
-  {
-   "slug": "redcar-1640",
-   "venue": "Redcar",
-   "off_utc": "2026-10-03T16:40:00Z",
-   "runner": "Al Hussar",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 13.71
-   },
-   "latest": {
-    "mins_to_off": 55,
-    "mid": 21.48,
-    "spread_pct": 4.5
-   },
-   "move_pct": 56.7,
-   "band": [
-    13,
-    20
    ],
    "percentile": 90,
    "notable": false
@@ -1222,6 +1574,28 @@
     100
    ],
    "percentile": 89,
+   "notable": false
+  },
+  {
+   "slug": "gowran-park-1625",
+   "venue": "Gowran Park",
+   "off_utc": "2026-10-03T16:25:00Z",
+   "runner": "Drumgill",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 14.43
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 10.48,
+    "spread_pct": 9.6
+   },
+   "move_pct": -27.4,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 11,
    "notable": false
   },
   {
@@ -1423,23 +1797,45 @@
    "notable": false
   },
   {
-   "slug": "southwell-1620",
+   "slug": "southwell-1800",
    "venue": "Southwell",
-   "off_utc": "2026-10-03T16:20:00Z",
-   "runner": "Rocket Boots",
+   "off_utc": "2026-10-03T18:00:00Z",
+   "runner": "Skewsby",
    "first": {
-    "mins_to_off": 350,
-    "mid": 9.89
+    "mins_to_off": 360,
+    "mid": 60.06
    },
    "latest": {
-    "mins_to_off": 35,
-    "mid": 7.49,
-    "spread_pct": 8.0
+    "mins_to_off": 0,
+    "mid": 86.96,
+    "spread_pct": 17.5
    },
-   "move_pct": -24.3,
+   "move_pct": 44.8,
    "band": [
-    8,
-    13
+    35,
+    100
+   ],
+   "percentile": 87,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1930",
+   "venue": "Southwell",
+   "off_utc": "2026-10-03T19:30:00Z",
+   "runner": "Blue Tulip",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 2.65
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 2.25,
+    "spread_pct": 2.7
+   },
+   "move_pct": -15.1,
+   "band": [
+    1.5,
+    3
    ],
    "percentile": 13,
    "notable": false
@@ -1525,6 +1921,94 @@
     "spread_pct": 2.6
    },
    "move_pct": -22.6,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 14,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1620",
+   "venue": "Southwell",
+   "off_utc": "2026-10-03T16:20:00Z",
+   "runner": "Roosike",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 8.32
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 11.24,
+    "spread_pct": 4.4
+   },
+   "move_pct": 35.1,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 86,
+   "notable": false
+  },
+  {
+   "slug": "redcar-1610",
+   "venue": "Redcar",
+   "off_utc": "2026-10-03T16:10:00Z",
+   "runner": "Duc De Kent",
+   "first": {
+    "mins_to_off": 340,
+    "mid": 13.42
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 19.21,
+    "spread_pct": 7.9
+   },
+   "move_pct": 43.1,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 86,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1655",
+   "venue": "Southwell",
+   "off_utc": "2026-10-03T16:55:00Z",
+   "runner": "Golden Pharaoh",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 69.69
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 99.01,
+    "spread_pct": 20.0
+   },
+   "move_pct": 42.1,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 86,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1830",
+   "venue": "Southwell",
+   "off_utc": "2026-10-03T18:30:00Z",
+   "runner": "Hundred Caps",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 11.7
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 9.1,
+    "spread_pct": 2.2
+   },
+   "move_pct": -22.2,
    "band": [
     8,
     13
@@ -1684,6 +2168,50 @@
     35
    ],
    "percentile": 15,
+   "notable": false
+  },
+  {
+   "slug": "fontwell-1635",
+   "venue": "Fontwell",
+   "off_utc": "2026-10-03T16:35:00Z",
+   "runner": "Callero",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 16.25
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 22.94,
+    "spread_pct": 8.7
+   },
+   "move_pct": 41.2,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 85,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1830",
+   "venue": "Southwell",
+   "off_utc": "2026-10-03T18:30:00Z",
+   "runner": "Lazzar",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 55.56
+   },
+   "latest": {
+    "mins_to_off": 30,
+    "mid": 78.74,
+    "spread_pct": 25.6
+   },
+   "move_pct": 41.7,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 85,
    "notable": false
   },
   {
@@ -1866,42 +2394,42 @@
    "slug": "redcar-1610",
    "venue": "Redcar",
    "off_utc": "2026-10-03T16:10:00Z",
-   "runner": "Parisian Scholar",
+   "runner": "According To Mark",
    "first": {
     "mins_to_off": 340,
-    "mid": 7.1
+    "mid": 6.39
    },
    "latest": {
-    "mins_to_off": 25,
-    "mid": 5.75,
-    "spread_pct": 5.2
+    "mins_to_off": 10,
+    "mid": 7.9,
+    "spread_pct": 2.5
    },
-   "move_pct": -19.0,
+   "move_pct": 23.5,
    "band": [
     5,
     8
    ],
-   "percentile": 16,
+   "percentile": 84,
    "notable": false
   },
   {
-   "slug": "southwell-1830",
+   "slug": "southwell-1800",
    "venue": "Southwell",
-   "off_utc": "2026-10-03T18:30:00Z",
-   "runner": "Lazzar",
+   "off_utc": "2026-10-03T18:00:00Z",
+   "runner": "Hozam",
    "first": {
     "mins_to_off": 360,
-    "mid": 55.56
+    "mid": 13.42
    },
    "latest": {
-    "mins_to_off": 165,
-    "mid": 77.52,
-    "spread_pct": 64.5
+    "mins_to_off": 0,
+    "mid": 18.71,
+    "spread_pct": 8.1
    },
-   "move_pct": 39.5,
+   "move_pct": 39.4,
    "band": [
-    35,
-    100
+    13,
+    20
    ],
    "percentile": 84,
    "notable": false
@@ -1995,6 +2523,28 @@
    "notable": false
   },
   {
+   "slug": "redcar-1610",
+   "venue": "Redcar",
+   "off_utc": "2026-10-03T16:10:00Z",
+   "runner": "Pace Attack",
+   "first": {
+    "mins_to_off": 340,
+    "mid": 5.25
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 6.39,
+    "spread_pct": 6.3
+   },
+   "move_pct": 21.9,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 83,
+   "notable": false
+  },
+  {
    "slug": "hoppegarten-de-1305",
    "venue": "Hoppegarten De",
    "off_utc": "2026-10-03T13:05:00Z",
@@ -2012,28 +2562,6 @@
    "band": [
     35,
     100
-   ],
-   "percentile": 17,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1800",
-   "venue": "Southwell",
-   "off_utc": "2026-10-03T18:00:00Z",
-   "runner": "Big Money",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 13.93
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 10.98,
-    "spread_pct": 9.0
-   },
-   "move_pct": -21.2,
-   "band": [
-    13,
-    20
    ],
    "percentile": 17,
    "notable": false
@@ -2127,89 +2655,23 @@
    "notable": false
   },
   {
-   "slug": "fontwell-1600",
-   "venue": "Fontwell",
-   "off_utc": "2026-10-03T16:00:00Z",
-   "runner": "Aggagio",
+   "slug": "southwell-1620",
+   "venue": "Southwell",
+   "off_utc": "2026-10-03T16:20:00Z",
+   "runner": "On Target",
    "first": {
-    "mins_to_off": 360,
-    "mid": 4.54
+    "mins_to_off": 350,
+    "mid": 8.04
    },
    "latest": {
-    "mins_to_off": 15,
-    "mid": 3.9,
-    "spread_pct": 2.5
+    "mins_to_off": 5,
+    "mid": 6.5,
+    "spread_pct": 3.1
    },
-   "move_pct": -14.2,
+   "move_pct": -19.2,
    "band": [
-    3,
-    5
-   ],
-   "percentile": 18,
-   "notable": false
-  },
-  {
-   "slug": "fontwell-1600",
-   "venue": "Fontwell",
-   "off_utc": "2026-10-03T16:00:00Z",
-   "runner": "Jefe Triunfo",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 5.25
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 4.35,
-    "spread_pct": 2.3
-   },
-   "move_pct": -17.1,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 18,
-   "notable": false
-  },
-  {
-   "slug": "redcar-1610",
-   "venue": "Redcar",
-   "off_utc": "2026-10-03T16:10:00Z",
-   "runner": "Duc De Kent",
-   "first": {
-    "mins_to_off": 340,
-    "mid": 13.42
-   },
-   "latest": {
-    "mins_to_off": 25,
-    "mid": 18.23,
-    "spread_pct": 8.2
-   },
-   "move_pct": 35.8,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 82,
-   "notable": false
-  },
-  {
-   "slug": "redcar-1610",
-   "venue": "Redcar",
-   "off_utc": "2026-10-03T16:10:00Z",
-   "runner": "Sure And Stedfast",
-   "first": {
-    "mins_to_off": 340,
-    "mid": 16.93
-   },
-   "latest": {
-    "mins_to_off": 25,
-    "mid": 13.49,
-    "spread_pct": 7.4
-   },
-   "move_pct": -20.4,
-   "band": [
-    13,
-    20
+    8,
+    13
    ],
    "percentile": 18,
    "notable": false
@@ -2218,44 +2680,44 @@
    "slug": "redcar-1640",
    "venue": "Redcar",
    "off_utc": "2026-10-03T16:40:00Z",
-   "runner": "Sugar Hill Babe",
+   "runner": "Mo Of Cairo",
    "first": {
     "mins_to_off": 355,
-    "mid": 53.33
+    "mid": 3.52
    },
    "latest": {
-    "mins_to_off": 55,
-    "mid": 71.68,
-    "spread_pct": 21.0
+    "mins_to_off": 10,
+    "mid": 3.01,
+    "spread_pct": 2.3
    },
-   "move_pct": 34.4,
+   "move_pct": -14.5,
    "band": [
-    35,
-    100
+    3,
+    5
    ],
-   "percentile": 82,
+   "percentile": 18,
    "notable": false
   },
   {
-   "slug": "southwell-1900",
+   "slug": "southwell-1730",
    "venue": "Southwell",
-   "off_utc": "2026-10-03T19:00:00Z",
-   "runner": "Fletcher's Flight",
+   "off_utc": "2026-10-03T17:30:00Z",
+   "runner": "Pippy Boy",
    "first": {
     "mins_to_off": 360,
-    "mid": 85.47
+    "mid": 27.86
    },
    "latest": {
-    "mins_to_off": 195,
-    "mid": 56.82,
-    "spread_pct": 63.3
+    "mins_to_off": 15,
+    "mid": 40.82,
+    "spread_pct": 14.8
    },
-   "move_pct": -33.5,
+   "move_pct": 46.5,
    "band": [
-    35,
-    100
+    20,
+    35
    ],
-   "percentile": 18,
+   "percentile": 82,
    "notable": false
   },
   {
@@ -2394,22 +2856,44 @@
    "slug": "southwell-1620",
    "venue": "Southwell",
    "off_utc": "2026-10-03T16:20:00Z",
-   "runner": "Agitator",
+   "runner": "The Monkey King",
    "first": {
     "mins_to_off": 350,
-    "mid": 10.58
+    "mid": 11.36
    },
    "latest": {
-    "mins_to_off": 35,
-    "mid": 13.49,
-    "spread_pct": 7.4
+    "mins_to_off": 5,
+    "mid": 14.48,
+    "spread_pct": 6.8
    },
-   "move_pct": 27.4,
+   "move_pct": 27.5,
    "band": [
     8,
     13
    ],
    "percentile": 81,
+   "notable": false
+  },
+  {
+   "slug": "hoppegarten-de-1600",
+   "venue": "Hoppegarten De",
+   "off_utc": "2026-10-03T16:00:00Z",
+   "runner": "Nerio",
+   "first": {
+    "mins_to_off": 165,
+    "mid": 14.88
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 12.0,
+    "spread_pct": 239.8
+   },
+   "move_pct": -19.4,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 19,
    "notable": false
   },
   {
@@ -2479,28 +2963,6 @@
    "notable": false
   },
   {
-   "slug": "fontwell-1635",
-   "venue": "Fontwell",
-   "off_utc": "2026-10-03T16:35:00Z",
-   "runner": "Lord Virginia",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 12.63
-   },
-   "latest": {
-    "mins_to_off": 50,
-    "mid": 10.48,
-    "spread_pct": 9.6
-   },
-   "move_pct": -17.0,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 20,
-   "notable": false
-  },
-  {
    "slug": "hoppegarten-de-1455",
    "venue": "Hoppegarten De",
    "off_utc": "2026-10-03T14:55:00Z",
@@ -2518,6 +2980,28 @@
    "band": [
     20,
     35
+   ],
+   "percentile": 20,
+   "notable": false
+  },
+  {
+   "slug": "hoppegarten-de-1600",
+   "venue": "Hoppegarten De",
+   "off_utc": "2026-10-03T16:00:00Z",
+   "runner": "Back To The Future",
+   "first": {
+    "mins_to_off": 165,
+    "mid": 5.74
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 4.82,
+    "spread_pct": 94.4
+   },
+   "move_pct": -16.0,
+   "band": [
+    5,
+    8
    ],
    "percentile": 20,
    "notable": false
@@ -2584,72 +3068,6 @@
    "band": [
     5,
     8
-   ],
-   "percentile": 79,
-   "notable": false
-  },
-  {
-   "slug": "fontwell-1635",
-   "venue": "Fontwell",
-   "off_utc": "2026-10-03T16:35:00Z",
-   "runner": "County Champs",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 5.59
-   },
-   "latest": {
-    "mins_to_off": 50,
-    "mid": 4.75,
-    "spread_pct": 2.1
-   },
-   "move_pct": -15.1,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 21,
-   "notable": false
-  },
-  {
-   "slug": "fontwell-1635",
-   "venue": "Fontwell",
-   "off_utc": "2026-10-03T16:35:00Z",
-   "runner": "Callero",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 16.25
-   },
-   "latest": {
-    "mins_to_off": 50,
-    "mid": 21.39,
-    "spread_pct": 14.0
-   },
-   "move_pct": 31.7,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 79,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1655",
-   "venue": "Southwell",
-   "off_utc": "2026-10-03T16:55:00Z",
-   "runner": "Nakaaha",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 38.76
-   },
-   "latest": {
-    "mins_to_off": 70,
-    "mid": 50.13,
-    "spread_pct": 17.7
-   },
-   "move_pct": 29.3,
-   "band": [
-    35,
-    100
    ],
    "percentile": 79,
    "notable": false
@@ -2746,86 +3164,64 @@
    "slug": "gowran-park-1625",
    "venue": "Gowran Park",
    "off_utc": "2026-10-03T16:25:00Z",
-   "runner": "Its Bilbo",
+   "runner": "Banjaxed",
    "first": {
     "mins_to_off": 355,
-    "mid": 3.1
+    "mid": 24.01
    },
    "latest": {
-    "mins_to_off": 40,
-    "mid": 2.74,
-    "spread_pct": 1.5
+    "mins_to_off": 10,
+    "mid": 19.67,
+    "spread_pct": 12.8
    },
-   "move_pct": -11.5,
+   "move_pct": -18.1,
    "band": [
-    3,
-    5
+    20,
+    35
    ],
    "percentile": 22,
    "notable": false
   },
   {
-   "slug": "redcar-1610",
-   "venue": "Redcar",
-   "off_utc": "2026-10-03T16:10:00Z",
-   "runner": "Pace Attack",
+   "slug": "southwell-1900",
+   "venue": "Southwell",
+   "off_utc": "2026-10-03T19:00:00Z",
+   "runner": "Fletcher's Flight",
    "first": {
-    "mins_to_off": 340,
-    "mid": 5.25
+    "mins_to_off": 360,
+    "mid": 85.47
    },
    "latest": {
-    "mins_to_off": 25,
-    "mid": 6.1,
-    "spread_pct": 3.3
+    "mins_to_off": 0,
+    "mid": 61.54,
+    "spread_pct": 24.4
+   },
+   "move_pct": -28.0,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 22,
+   "notable": false
+  },
+  {
+   "slug": "hoppegarten-de-1600",
+   "venue": "Hoppegarten De",
+   "off_utc": "2026-10-03T16:00:00Z",
+   "runner": "Ostario",
+   "first": {
+    "mins_to_off": 165,
+    "mid": 5.21
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 6.06,
+    "spread_pct": 149.4
    },
    "move_pct": 16.3,
    "band": [
     5,
     8
-   ],
-   "percentile": 78,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1655",
-   "venue": "Southwell",
-   "off_utc": "2026-10-03T16:55:00Z",
-   "runner": "Vincent Rocks",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 49.38
-   },
-   "latest": {
-    "mins_to_off": 70,
-    "mid": 35.59,
-    "spread_pct": 22.3
-   },
-   "move_pct": -27.9,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 22,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1800",
-   "venue": "Southwell",
-   "off_utc": "2026-10-03T18:00:00Z",
-   "runner": "Skewsby",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 60.06
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 77.52,
-    "spread_pct": 64.5
-   },
-   "move_pct": 29.1,
-   "band": [
-    35,
-    100
    ],
    "percentile": 78,
    "notable": false
@@ -2919,45 +3315,23 @@
    "notable": false
   },
   {
-   "slug": "gowran-park-1625",
-   "venue": "Gowran Park",
-   "off_utc": "2026-10-03T16:25:00Z",
-   "runner": "Astley",
+   "slug": "southwell-1900",
+   "venue": "Southwell",
+   "off_utc": "2026-10-03T19:00:00Z",
+   "runner": "Popular Dream",
    "first": {
-    "mins_to_off": 355,
-    "mid": 8.47
+    "mins_to_off": 360,
+    "mid": 12.93
    },
    "latest": {
-    "mins_to_off": 40,
-    "mid": 7.19,
-    "spread_pct": 5.6
+    "mins_to_off": 0,
+    "mid": 15.99,
+    "spread_pct": 6.2
    },
-   "move_pct": -15.1,
+   "move_pct": 23.7,
    "band": [
     8,
     13
-   ],
-   "percentile": 23,
-   "notable": false
-  },
-  {
-   "slug": "fontwell-1635",
-   "venue": "Fontwell",
-   "off_utc": "2026-10-03T16:35:00Z",
-   "runner": "Freddie Fleetfoot",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 31.5
-   },
-   "latest": {
-    "mins_to_off": 50,
-    "mid": 42.83,
-    "spread_pct": 14.2
-   },
-   "move_pct": 36.0,
-   "band": [
-    20,
-    35
    ],
    "percentile": 77,
    "notable": false
@@ -3029,23 +3403,45 @@
    "notable": false
   },
   {
-   "slug": "southwell-1620",
-   "venue": "Southwell",
-   "off_utc": "2026-10-03T16:20:00Z",
-   "runner": "On Target",
+   "slug": "gowran-park-1625",
+   "venue": "Gowran Park",
+   "off_utc": "2026-10-03T16:25:00Z",
+   "runner": "Its Bilbo",
    "first": {
-    "mins_to_off": 350,
-    "mid": 8.04
+    "mins_to_off": 355,
+    "mid": 3.1
    },
    "latest": {
-    "mins_to_off": 35,
-    "mid": 6.9,
-    "spread_pct": 2.9
+    "mins_to_off": 10,
+    "mid": 2.77,
+    "spread_pct": 0.7
    },
-   "move_pct": -14.2,
+   "move_pct": -10.6,
    "band": [
-    8,
-    13
+    3,
+    5
+   ],
+   "percentile": 24,
+   "notable": false
+  },
+  {
+   "slug": "redcar-1610",
+   "venue": "Redcar",
+   "off_utc": "2026-10-03T16:10:00Z",
+   "runner": "Sure And Stedfast",
+   "first": {
+    "mins_to_off": 340,
+    "mid": 16.93
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 14.48,
+    "spread_pct": 6.8
+   },
+   "move_pct": -14.5,
+   "band": [
+    13,
+    20
    ],
    "percentile": 24,
    "notable": false
@@ -3076,22 +3472,44 @@
    "slug": "southwell-1655",
    "venue": "Southwell",
    "off_utc": "2026-10-03T16:55:00Z",
-   "runner": "Golden Pharaoh",
+   "runner": "Vincent Rocks",
    "first": {
     "mins_to_off": 355,
-    "mid": 69.69
+    "mid": 49.38
    },
    "latest": {
-    "mins_to_off": 70,
-    "mid": 86.96,
-    "spread_pct": 17.5
+    "mins_to_off": 10,
+    "mid": 36.76,
+    "spread_pct": 16.3
    },
-   "move_pct": 24.8,
+   "move_pct": -25.6,
    "band": [
     35,
     100
    ],
-   "percentile": 76,
+   "percentile": 24,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1730",
+   "venue": "Southwell",
+   "off_utc": "2026-10-03T17:30:00Z",
+   "runner": "Fully Stocked",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 5.94
+   },
+   "latest": {
+    "mins_to_off": 15,
+    "mid": 5.15,
+    "spread_pct": 2.0
+   },
+   "move_pct": -13.3,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 24,
    "notable": false
   },
   {
@@ -3249,25 +3667,69 @@
    "notable": false
   },
   {
-   "slug": "southwell-1830",
-   "venue": "Southwell",
-   "off_utc": "2026-10-03T18:30:00Z",
-   "runner": "Hundred Caps",
+   "slug": "fontwell-1635",
+   "venue": "Fontwell",
+   "off_utc": "2026-10-03T16:35:00Z",
+   "runner": "Lord Virginia",
    "first": {
-    "mins_to_off": 360,
-    "mid": 11.7
+    "mins_to_off": 350,
+    "mid": 12.63
    },
    "latest": {
-    "mins_to_off": 165,
-    "mid": 10.14,
-    "spread_pct": 6.9
+    "mins_to_off": 5,
+    "mid": 10.98,
+    "spread_pct": 9.0
    },
-   "move_pct": -13.3,
+   "move_pct": -13.1,
    "band": [
     8,
     13
    ],
    "percentile": 25,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1655",
+   "venue": "Southwell",
+   "off_utc": "2026-10-03T16:55:00Z",
+   "runner": "Wield",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 74.91
+   },
+   "latest": {
+    "mins_to_off": 25,
+    "mid": 92.59,
+    "spread_pct": 32.3
+   },
+   "move_pct": 23.6,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 75,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1830",
+   "venue": "Southwell",
+   "off_utc": "2026-10-03T18:30:00Z",
+   "runner": "Jenever",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 9.09
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 10.98,
+    "spread_pct": 9.0
+   },
+   "move_pct": 20.7,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 75,
    "notable": false
   },
   {
@@ -3447,25 +3909,69 @@
    "notable": false
   },
   {
-   "slug": "southwell-1655",
-   "venue": "Southwell",
-   "off_utc": "2026-10-03T16:55:00Z",
-   "runner": "Siwa Oasis",
+   "slug": "redcar-1610",
+   "venue": "Redcar",
+   "off_utc": "2026-10-03T16:10:00Z",
+   "runner": "Flash Kozo",
    "first": {
-    "mins_to_off": 355,
-    "mid": 8.09
+    "mins_to_off": 340,
+    "mid": 7.69
    },
    "latest": {
-    "mins_to_off": 70,
-    "mid": 7.1,
-    "spread_pct": 2.8
+    "mins_to_off": 10,
+    "mid": 8.7,
+    "spread_pct": 2.3
    },
-   "move_pct": -12.3,
+   "move_pct": 13.1,
    "band": [
-    8,
-    13
+    5,
+    8
+   ],
+   "percentile": 74,
+   "notable": false
+  },
+  {
+   "slug": "fontwell-1635",
+   "venue": "Fontwell",
+   "off_utc": "2026-10-03T16:35:00Z",
+   "runner": "No Mean Feat",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 5.69
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 5.0,
+    "spread_pct": 4.0
+   },
+   "move_pct": -12.2,
+   "band": [
+    5,
+    8
    ],
    "percentile": 26,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1730",
+   "venue": "Southwell",
+   "off_utc": "2026-10-03T17:30:00Z",
+   "runner": "Penselwood",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 19.38
+   },
+   "latest": {
+    "mins_to_off": 15,
+    "mid": 24.39,
+    "spread_pct": 12.2
+   },
+   "move_pct": 25.9,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 74,
    "notable": false
   },
   {
@@ -3579,94 +4085,6 @@
    "notable": false
   },
   {
-   "slug": "southwell-1620",
-   "venue": "Southwell",
-   "off_utc": "2026-10-03T16:20:00Z",
-   "runner": "Love Rome",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 6.12
-   },
-   "latest": {
-    "mins_to_off": 35,
-    "mid": 6.9,
-    "spread_pct": 2.9
-   },
-   "move_pct": 12.7,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 73,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1620",
-   "venue": "Southwell",
-   "off_utc": "2026-10-03T16:20:00Z",
-   "runner": "High Hazard",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 15.94
-   },
-   "latest": {
-    "mins_to_off": 35,
-    "mid": 13.98,
-    "spread_pct": 7.1
-   },
-   "move_pct": -12.3,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 27,
-   "notable": false
-  },
-  {
-   "slug": "redcar-1640",
-   "venue": "Redcar",
-   "off_utc": "2026-10-03T16:40:00Z",
-   "runner": "Our Absent Friends",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 25.25
-   },
-   "latest": {
-    "mins_to_off": 55,
-    "mid": 21.95,
-    "spread_pct": 9.0
-   },
-   "move_pct": -13.1,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 27,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1900",
-   "venue": "Southwell",
-   "off_utc": "2026-10-03T19:00:00Z",
-   "runner": "Marra Donna",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 10.48
-   },
-   "latest": {
-    "mins_to_off": 195,
-    "mid": 12.41,
-    "spread_pct": 16.1
-   },
-   "move_pct": 18.5,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 73,
-   "notable": false
-  },
-  {
    "slug": "newmarket-1310",
    "venue": "Newmarket",
    "off_utc": "2026-10-03T13:10:00Z",
@@ -3755,6 +4173,28 @@
    "notable": false
   },
   {
+   "slug": "southwell-1620",
+   "venue": "Southwell",
+   "off_utc": "2026-10-03T16:20:00Z",
+   "runner": "Prince Kameo",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 5.47
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 6.1,
+    "spread_pct": 3.3
+   },
+   "move_pct": 11.5,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 72,
+   "notable": false
+  },
+  {
    "slug": "hoppegarten-de-1305",
    "venue": "Hoppegarten De",
    "off_utc": "2026-10-03T13:05:00Z",
@@ -3777,72 +4217,6 @@
    "notable": false
   },
   {
-   "slug": "redcar-1640",
-   "venue": "Redcar",
-   "off_utc": "2026-10-03T16:40:00Z",
-   "runner": "Mo Of Cairo",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 3.52
-   },
-   "latest": {
-    "mins_to_off": 55,
-    "mid": 3.2,
-    "spread_pct": 3.1
-   },
-   "move_pct": -9.2,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 28,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1730",
-   "venue": "Southwell",
-   "off_utc": "2026-10-03T17:30:00Z",
-   "runner": "Fully Stocked",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 5.94
-   },
-   "latest": {
-    "mins_to_off": 105,
-    "mid": 5.3,
-    "spread_pct": 3.8
-   },
-   "move_pct": -10.8,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 28,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1830",
-   "venue": "Southwell",
-   "off_utc": "2026-10-03T18:30:00Z",
-   "runner": "Slay Queen",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 61.35
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 73.53,
-    "spread_pct": 48.1
-   },
-   "move_pct": 19.9,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 72,
-   "notable": false
-  },
-  {
    "slug": "hoppegarten-de-1455",
    "venue": "Hoppegarten De",
    "off_utc": "2026-10-03T14:55:00Z",
@@ -3862,6 +4236,28 @@
     13
    ],
    "percentile": 72,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1930",
+   "venue": "Southwell",
+   "off_utc": "2026-10-03T19:30:00Z",
+   "runner": "Shopaholic",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 3.12
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 2.84,
+    "spread_pct": 1.4
+   },
+   "move_pct": -9.1,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 28,
    "notable": false
   },
   {
@@ -3984,7 +4380,7 @@
     "mid": 6.05
    },
    "latest": {
-    "mins_to_off": 70,
+    "mins_to_off": 10,
     "mid": 6.7,
     "spread_pct": 2.9
    },
@@ -3992,6 +4388,116 @@
    "band": [
     5,
     8
+   ],
+   "percentile": 71,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1655",
+   "venue": "Southwell",
+   "off_utc": "2026-10-03T16:55:00Z",
+   "runner": "Dovey Moon",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 25.64
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 32.73,
+    "spread_pct": 18.2
+   },
+   "move_pct": 27.7,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 71,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1800",
+   "venue": "Southwell",
+   "off_utc": "2026-10-03T18:00:00Z",
+   "runner": "All You Can Be",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 12.41
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 14.48,
+    "spread_pct": 6.8
+   },
+   "move_pct": 16.7,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 71,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1830",
+   "venue": "Southwell",
+   "off_utc": "2026-10-03T18:30:00Z",
+   "runner": "Horace Wallace",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 6.79
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 6.1,
+    "spread_pct": 3.3
+   },
+   "move_pct": -10.2,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 29,
+   "notable": false
+  },
+  {
+   "slug": "hoppegarten-de-1600",
+   "venue": "Hoppegarten De",
+   "off_utc": "2026-10-03T16:00:00Z",
+   "runner": "Valanco",
+   "first": {
+    "mins_to_off": 165,
+    "mid": 5.66
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 5.07,
+    "spread_pct": 121.1
+   },
+   "move_pct": -10.4,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 29,
+   "notable": false
+  },
+  {
+   "slug": "hoppegarten-de-1600",
+   "venue": "Hoppegarten De",
+   "off_utc": "2026-10-03T16:00:00Z",
+   "runner": "Summerwind",
+   "first": {
+    "mins_to_off": 165,
+    "mid": 27.25
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 34.97,
+    "spread_pct": 28549.9
+   },
+   "move_pct": 28.3,
+   "band": [
+    20,
+    35
    ],
    "percentile": 71,
    "notable": false
@@ -4085,28 +4591,6 @@
    "notable": false
   },
   {
-   "slug": "southwell-1620",
-   "venue": "Southwell",
-   "off_utc": "2026-10-03T16:20:00Z",
-   "runner": "Absolute Diamond",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 18.52
-   },
-   "latest": {
-    "mins_to_off": 35,
-    "mid": 16.72,
-    "spread_pct": 9.0
-   },
-   "move_pct": -9.7,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 30,
-   "notable": false
-  },
-  {
    "slug": "hoppegarten-de-1420",
    "venue": "Hoppegarten De",
    "off_utc": "2026-10-03T14:20:00Z",
@@ -4132,42 +4616,86 @@
    "slug": "fontwell-1635",
    "venue": "Fontwell",
    "off_utc": "2026-10-03T16:35:00Z",
-   "runner": "No Mean Feat",
+   "runner": "Winston's Oath",
    "first": {
     "mins_to_off": 350,
-    "mid": 5.69
+    "mid": 3.77
    },
    "latest": {
-    "mins_to_off": 50,
-    "mid": 5.15,
-    "spread_pct": 2.0
+    "mins_to_off": 5,
+    "mid": 4.15,
+    "spread_pct": 2.4
    },
-   "move_pct": -9.6,
+   "move_pct": 10.0,
    "band": [
-    5,
-    8
+    3,
+    5
+   ],
+   "percentile": 70,
+   "notable": false
+  },
+  {
+   "slug": "redcar-1640",
+   "venue": "Redcar",
+   "off_utc": "2026-10-03T16:40:00Z",
+   "runner": "Our Absent Friends",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 25.25
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 22.94,
+    "spread_pct": 8.7
+   },
+   "move_pct": -9.2,
+   "band": [
+    20,
+    35
    ],
    "percentile": 30,
    "notable": false
   },
   {
-   "slug": "southwell-1900",
+   "slug": "southwell-1730",
    "venue": "Southwell",
-   "off_utc": "2026-10-03T19:00:00Z",
-   "runner": "South Parade",
+   "off_utc": "2026-10-03T17:30:00Z",
+   "runner": "Ebt's Warrior",
    "first": {
     "mins_to_off": 360,
-    "mid": 9.18
+    "mid": 24.72
    },
    "latest": {
-    "mins_to_off": 195,
-    "mid": 8.29,
-    "spread_pct": 7.2
+    "mins_to_off": 15,
+    "mid": 31.3,
+    "spread_pct": 16.1
    },
-   "move_pct": -9.7,
+   "move_pct": 26.6,
    "band": [
-    8,
-    13
+    20,
+    35
+   ],
+   "percentile": 70,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1830",
+   "venue": "Southwell",
+   "off_utc": "2026-10-03T18:30:00Z",
+   "runner": "New Image",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 3.12
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 2.86,
+    "spread_pct": 1.4
+   },
+   "move_pct": -8.4,
+   "band": [
+    3,
+    5
    ],
    "percentile": 30,
    "notable": false
@@ -4371,25 +4899,25 @@
    "notable": false
   },
   {
-   "slug": "southwell-1830",
+   "slug": "southwell-1655",
    "venue": "Southwell",
-   "off_utc": "2026-10-03T18:30:00Z",
-   "runner": "Roaring Ralph",
+   "off_utc": "2026-10-03T16:55:00Z",
+   "runner": "Wid",
    "first": {
-    "mins_to_off": 360,
-    "mid": 49.51
+    "mins_to_off": 355,
+    "mid": 3.92
    },
    "latest": {
-    "mins_to_off": 165,
-    "mid": 40.4,
-    "spread_pct": 25.0
+    "mins_to_off": 10,
+    "mid": 4.3,
+    "spread_pct": 4.6
    },
-   "move_pct": -18.4,
+   "move_pct": 9.5,
    "band": [
-    35,
-    100
+    3,
+    5
    ],
-   "percentile": 31,
+   "percentile": 69,
    "notable": false
   },
   {
@@ -4437,42 +4965,20 @@
    "notable": false
   },
   {
-   "slug": "fontwell-1600",
-   "venue": "Fontwell",
-   "off_utc": "2026-10-03T16:00:00Z",
-   "runner": "Mr Mcwhinny",
+   "slug": "redcar-1640",
+   "venue": "Redcar",
+   "off_utc": "2026-10-03T16:40:00Z",
+   "runner": "Kinetic Force",
    "first": {
-    "mins_to_off": 360,
-    "mid": 4.0
+    "mins_to_off": 355,
+    "mid": 9.39
    },
    "latest": {
-    "mins_to_off": 15,
-    "mid": 3.7,
-    "spread_pct": 2.7
+    "mins_to_off": 10,
+    "mid": 10.75,
+    "spread_pct": 4.6
    },
-   "move_pct": -7.5,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 32,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1620",
-   "venue": "Southwell",
-   "off_utc": "2026-10-03T16:20:00Z",
-   "runner": "The Monkey King",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 11.36
-   },
-   "latest": {
-    "mins_to_off": 35,
-    "mid": 12.98,
-    "spread_pct": 7.7
-   },
-   "move_pct": 14.3,
+   "move_pct": 14.5,
    "band": [
     8,
     13
@@ -4484,88 +4990,22 @@
    "slug": "redcar-1640",
    "venue": "Redcar",
    "off_utc": "2026-10-03T16:40:00Z",
-   "runner": "Sports Coach",
+   "runner": "Emperor Caradoc",
    "first": {
     "mins_to_off": 355,
-    "mid": 19.96
+    "mid": 24.84
    },
    "latest": {
-    "mins_to_off": 55,
-    "mid": 18.23,
-    "spread_pct": 8.2
+    "mins_to_off": 10,
+    "mid": 22.94,
+    "spread_pct": 8.7
    },
-   "move_pct": -8.7,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 32,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1655",
-   "venue": "Southwell",
-   "off_utc": "2026-10-03T16:55:00Z",
-   "runner": "Camino Del Ray",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 37.11
-   },
-   "latest": {
-    "mins_to_off": 70,
-    "mid": 42.46,
-    "spread_pct": 23.7
-   },
-   "move_pct": 14.4,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 68,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1730",
-   "venue": "Southwell",
-   "off_utc": "2026-10-03T17:30:00Z",
-   "runner": "Notimetotakeoff",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 34.97
-   },
-   "latest": {
-    "mins_to_off": 105,
-    "mid": 43.48,
-    "spread_pct": 43.6
-   },
-   "move_pct": 24.3,
+   "move_pct": -7.7,
    "band": [
     20,
     35
    ],
-   "percentile": 68,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1800",
-   "venue": "Southwell",
-   "off_utc": "2026-10-03T18:00:00Z",
-   "runner": "Hozam",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 13.42
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 16.05,
-    "spread_pct": 21.8
-   },
-   "move_pct": 19.6,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 68,
+   "percentile": 32,
    "notable": false
   },
   {
@@ -4745,25 +5185,25 @@
    "notable": false
   },
   {
-   "slug": "southwell-1620",
-   "venue": "Southwell",
-   "off_utc": "2026-10-03T16:20:00Z",
-   "runner": "Roosike",
+   "slug": "fontwell-1600",
+   "venue": "Fontwell",
+   "off_utc": "2026-10-03T16:00:00Z",
+   "runner": "Aggagio",
    "first": {
-    "mins_to_off": 350,
-    "mid": 8.32
+    "mins_to_off": 360,
+    "mid": 4.54
    },
    "latest": {
-    "mins_to_off": 35,
-    "mid": 9.49,
-    "spread_pct": 6.4
+    "mins_to_off": 0,
+    "mid": 4.25,
+    "spread_pct": 2.3
    },
-   "move_pct": 14.0,
+   "move_pct": -6.5,
    "band": [
-    8,
-    13
+    3,
+    5
    ],
-   "percentile": 67,
+   "percentile": 33,
    "notable": false
   },
   {
@@ -4784,6 +5224,72 @@
    "band": [
     8,
     13
+   ],
+   "percentile": 67,
+   "notable": false
+  },
+  {
+   "slug": "fontwell-1635",
+   "venue": "Fontwell",
+   "off_utc": "2026-10-03T16:35:00Z",
+   "runner": "Freddie Fleetfoot",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 31.5
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 38.76,
+    "spread_pct": 15.6
+   },
+   "move_pct": 23.1,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 67,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1830",
+   "venue": "Southwell",
+   "off_utc": "2026-10-03T18:30:00Z",
+   "runner": "Another Investment",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 21.51
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 26.42,
+    "spread_pct": 11.4
+   },
+   "move_pct": 22.9,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 67,
+   "notable": false
+  },
+  {
+   "slug": "hoppegarten-de-1600",
+   "venue": "Hoppegarten De",
+   "off_utc": "2026-10-03T16:00:00Z",
+   "runner": "Amaro",
+   "first": {
+    "mins_to_off": 165,
+    "mid": 5.21
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 5.66,
+    "spread_pct": 106.9
+   },
+   "move_pct": 8.7,
+   "band": [
+    5,
+    8
    ],
    "percentile": 67,
    "notable": false
@@ -5119,45 +5625,23 @@
    "notable": false
   },
   {
-   "slug": "southwell-1655",
+   "slug": "southwell-1830",
    "venue": "Southwell",
-   "off_utc": "2026-10-03T16:55:00Z",
-   "runner": "Kalamunda",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 86.58
-   },
-   "latest": {
-    "mins_to_off": 70,
-    "mid": 73.53,
-    "spread_pct": 26.9
-   },
-   "move_pct": -15.1,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 34,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1900",
-   "venue": "Southwell",
-   "off_utc": "2026-10-03T19:00:00Z",
-   "runner": "Opal Storm",
+   "off_utc": "2026-10-03T18:30:00Z",
+   "runner": "Kats Bob",
    "first": {
     "mins_to_off": 360,
-    "mid": 15.21
+    "mid": 7.49
    },
    "latest": {
-    "mins_to_off": 195,
-    "mid": 14.14,
-    "spread_pct": 17.7
+    "mins_to_off": 0,
+    "mid": 6.9,
+    "spread_pct": 2.9
    },
-   "move_pct": -7.0,
+   "move_pct": -7.9,
    "band": [
-    13,
-    20
+    5,
+    8
    ],
    "percentile": 34,
    "notable": false
@@ -5268,50 +5752,6 @@
    "band": [
     20,
     35
-   ],
-   "percentile": 35,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1655",
-   "venue": "Southwell",
-   "off_utc": "2026-10-03T16:55:00Z",
-   "runner": "Franschhoek",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 15.43
-   },
-   "latest": {
-    "mins_to_off": 70,
-    "mid": 17.95,
-    "spread_pct": 11.2
-   },
-   "move_pct": 16.3,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 65,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1900",
-   "venue": "Southwell",
-   "off_utc": "2026-10-03T19:00:00Z",
-   "runner": "Toptime",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 5.45
-   },
-   "latest": {
-    "mins_to_off": 195,
-    "mid": 5.05,
-    "spread_pct": 6.0
-   },
-   "move_pct": -7.3,
-   "band": [
-    5,
-    8
    ],
    "percentile": 35,
    "notable": false
@@ -5449,6 +5889,28 @@
    "notable": false
   },
   {
+   "slug": "gowran-park-1625",
+   "venue": "Gowran Park",
+   "off_utc": "2026-10-03T16:25:00Z",
+   "runner": "Astley",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 8.47
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 9.39,
+    "spread_pct": 4.2
+   },
+   "move_pct": 10.9,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 64,
+   "notable": false
+  },
+  {
    "slug": "redcar-1610",
    "venue": "Redcar",
    "off_utc": "2026-10-03T16:10:00Z",
@@ -5458,7 +5920,7 @@
     "mid": 6.99
    },
    "latest": {
-    "mins_to_off": 25,
+    "mins_to_off": 10,
     "mid": 6.5,
     "spread_pct": 3.1
    },
@@ -5468,28 +5930,6 @@
     8
    ],
    "percentile": 36,
-   "notable": false
-  },
-  {
-   "slug": "redcar-1610",
-   "venue": "Redcar",
-   "off_utc": "2026-10-03T16:10:00Z",
-   "runner": "Flash Kozo",
-   "first": {
-    "mins_to_off": 340,
-    "mid": 7.69
-   },
-   "latest": {
-    "mins_to_off": 25,
-    "mid": 8.2,
-    "spread_pct": 4.9
-   },
-   "move_pct": 6.6,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 64,
    "notable": false
   },
   {
@@ -5515,67 +5955,45 @@
    "notable": false
   },
   {
-   "slug": "southwell-1800",
-   "venue": "Southwell",
-   "off_utc": "2026-10-03T18:00:00Z",
-   "runner": "Imperial Ballet",
+   "slug": "redcar-1640",
+   "venue": "Redcar",
+   "off_utc": "2026-10-03T16:40:00Z",
+   "runner": "Curious Rover",
    "first": {
-    "mins_to_off": 360,
-    "mid": 3.7
+    "mins_to_off": 355,
+    "mid": 51.02
    },
    "latest": {
-    "mins_to_off": 135,
-    "mid": 3.95,
-    "spread_pct": 2.5
+    "mins_to_off": 10,
+    "mid": 56.5,
+    "spread_pct": 26.4
    },
-   "move_pct": 6.8,
+   "move_pct": 10.7,
    "band": [
-    3,
-    5
+    35,
+    100
    ],
    "percentile": 64,
    "notable": false
   },
   {
-   "slug": "southwell-1830",
+   "slug": "southwell-1730",
    "venue": "Southwell",
-   "off_utc": "2026-10-03T18:30:00Z",
-   "runner": "Kats Bob",
+   "off_utc": "2026-10-03T17:30:00Z",
+   "runner": "Son Of Vega",
    "first": {
     "mins_to_off": 360,
-    "mid": 7.49
+    "mid": 9.69
    },
    "latest": {
-    "mins_to_off": 165,
-    "mid": 7.99,
-    "spread_pct": 5.0
+    "mins_to_off": 0,
+    "mid": 10.79,
+    "spread_pct": 54.6
    },
-   "move_pct": 6.8,
+   "move_pct": 11.3,
    "band": [
-    5,
-    8
-   ],
-   "percentile": 64,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1900",
-   "venue": "Southwell",
-   "off_utc": "2026-10-03T19:00:00Z",
-   "runner": "Midnight Lir",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 14.64
-   },
-   "latest": {
-    "mins_to_off": 195,
-    "mid": 16.86,
-    "spread_pct": 17.7
-   },
-   "move_pct": 15.2,
-   "band": [
-    13,
-    20
+    8,
+    13
    ],
    "percentile": 64,
    "notable": false
@@ -5757,135 +6175,25 @@
    "notable": false
   },
   {
-   "slug": "redcar-1610",
-   "venue": "Redcar",
-   "off_utc": "2026-10-03T16:10:00Z",
-   "runner": "According To Mark",
-   "first": {
-    "mins_to_off": 340,
-    "mid": 6.39
-   },
-   "latest": {
-    "mins_to_off": 25,
-    "mid": 6.79,
-    "spread_pct": 5.8
-   },
-   "move_pct": 6.2,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 63,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1730",
+   "slug": "southwell-1900",
    "venue": "Southwell",
-   "off_utc": "2026-10-03T17:30:00Z",
-   "runner": "Ebt's Warrior",
+   "off_utc": "2026-10-03T19:00:00Z",
+   "runner": "Opal Storm",
    "first": {
     "mins_to_off": 360,
-    "mid": 24.72
+    "mid": 15.21
    },
    "latest": {
-    "mins_to_off": 105,
-    "mid": 29.33,
-    "spread_pct": 17.1
+    "mins_to_off": 0,
+    "mid": 14.48,
+    "spread_pct": 6.8
    },
-   "move_pct": 18.6,
+   "move_pct": -4.8,
    "band": [
-    20,
-    35
-   ],
-   "percentile": 63,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1730",
-   "venue": "Southwell",
-   "off_utc": "2026-10-03T17:30:00Z",
-   "runner": "Pippy Boy",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 27.86
-   },
-   "latest": {
-    "mins_to_off": 105,
-    "mid": 32.89,
-    "spread_pct": 27.5
-   },
-   "move_pct": 18.1,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 63,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1800",
-   "venue": "Southwell",
-   "off_utc": "2026-10-03T18:00:00Z",
-   "runner": "All You Can Be",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 12.41
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 13.71,
-    "spread_pct": 10.9
-   },
-   "move_pct": 10.4,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 63,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1830",
-   "venue": "Southwell",
-   "off_utc": "2026-10-03T18:30:00Z",
-   "runner": "Rascal Recknell",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 46.3
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 40.4,
-    "spread_pct": 25.0
-   },
-   "move_pct": -12.7,
-   "band": [
-    35,
-    100
+    13,
+    20
    ],
    "percentile": 37,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1930",
-   "venue": "Southwell",
-   "off_utc": "2026-10-03T19:30:00Z",
-   "runner": "Kindly Queen",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 32.89
-   },
-   "latest": {
-    "mins_to_off": 225,
-    "mid": 39.06,
-    "spread_pct": 45.9
-   },
-   "move_pct": 18.8,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 63,
    "notable": false
   },
   {
@@ -6065,67 +6373,89 @@
    "notable": false
   },
   {
-   "slug": "redcar-1640",
-   "venue": "Redcar",
-   "off_utc": "2026-10-03T16:40:00Z",
-   "runner": "Emperor Caradoc",
+   "slug": "fontwell-1635",
+   "venue": "Fontwell",
+   "off_utc": "2026-10-03T16:35:00Z",
+   "runner": "Ghost Jury",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 11.42
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 12.48,
+    "spread_pct": 8.0
+   },
+   "move_pct": 9.4,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 62,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1655",
+   "venue": "Southwell",
+   "off_utc": "2026-10-03T16:55:00Z",
+   "runner": "Cristo",
    "first": {
     "mins_to_off": 355,
-    "mid": 24.84
+    "mid": 9.28
    },
    "latest": {
-    "mins_to_off": 55,
-    "mid": 24.39,
-    "spread_pct": 12.2
+    "mins_to_off": 10,
+    "mid": 10.14,
+    "spread_pct": 6.9
    },
-   "move_pct": -1.8,
+   "move_pct": 9.3,
    "band": [
-    20,
-    35
+    8,
+    13
    ],
-   "percentile": 38,
+   "percentile": 62,
    "notable": false
   },
   {
-   "slug": "southwell-1830",
+   "slug": "southwell-1800",
    "venue": "Southwell",
-   "off_utc": "2026-10-03T18:30:00Z",
-   "runner": "Blue Orbit",
+   "off_utc": "2026-10-03T18:00:00Z",
+   "runner": "Imperial Ballet",
    "first": {
     "mins_to_off": 360,
-    "mid": 16.16
+    "mid": 3.7
    },
    "latest": {
-    "mins_to_off": 165,
-    "mid": 15.43,
-    "spread_pct": 13.0
+    "mins_to_off": 0,
+    "mid": 3.52,
+    "spread_pct": 1.4
    },
-   "move_pct": -4.5,
+   "move_pct": -4.7,
    "band": [
-    13,
-    20
+    3,
+    5
    ],
    "percentile": 38,
    "notable": false
   },
   {
-   "slug": "hoppegarten-de-1600",
-   "venue": "Hoppegarten De",
-   "off_utc": "2026-10-03T16:00:00Z",
-   "runner": "Summerwind",
+   "slug": "southwell-1900",
+   "venue": "Southwell",
+   "off_utc": "2026-10-03T19:00:00Z",
+   "runner": "General Assembly",
    "first": {
-    "mins_to_off": 165,
-    "mid": 27.25
+    "mins_to_off": 360,
+    "mid": 8.78
    },
    "latest": {
-    "mins_to_off": 15,
-    "mid": 31.95,
-    "spread_pct": 31249.9
+    "mins_to_off": 0,
+    "mid": 9.6,
+    "spread_pct": 4.2
    },
-   "move_pct": 17.3,
+   "move_pct": 9.3,
    "band": [
-    20,
-    35
+    8,
+    13
    ],
    "percentile": 62,
    "notable": false
@@ -6197,28 +6527,6 @@
    "notable": false
   },
   {
-   "slug": "gowran-park-1625",
-   "venue": "Gowran Park",
-   "off_utc": "2026-10-03T16:25:00Z",
-   "runner": "Luimneach",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 5.99
-   },
-   "latest": {
-    "mins_to_off": 40,
-    "mid": 6.3,
-    "spread_pct": 3.2
-   },
-   "move_pct": 5.1,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 61,
-   "notable": false
-  },
-  {
    "slug": "hoppegarten-de-1420",
    "venue": "Hoppegarten De",
    "off_utc": "2026-10-03T14:20:00Z",
@@ -6238,72 +6546,6 @@
     13
    ],
    "percentile": 61,
-   "notable": false
-  },
-  {
-   "slug": "fontwell-1635",
-   "venue": "Fontwell",
-   "off_utc": "2026-10-03T16:35:00Z",
-   "runner": "Winston's Oath",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 3.77
-   },
-   "latest": {
-    "mins_to_off": 50,
-    "mid": 3.62,
-    "spread_pct": 1.4
-   },
-   "move_pct": -4.0,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 39,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1655",
-   "venue": "Southwell",
-   "off_utc": "2026-10-03T16:55:00Z",
-   "runner": "Cristo",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 9.28
-   },
-   "latest": {
-    "mins_to_off": 70,
-    "mid": 8.89,
-    "spread_pct": 6.8
-   },
-   "move_pct": -4.2,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 39,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1655",
-   "venue": "Southwell",
-   "off_utc": "2026-10-03T16:55:00Z",
-   "runner": "Wield",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 74.91
-   },
-   "latest": {
-    "mins_to_off": 70,
-    "mid": 66.67,
-    "spread_pct": 44.7
-   },
-   "move_pct": -11.0,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 39,
    "notable": false
   },
   {
@@ -6464,22 +6706,22 @@
    "slug": "southwell-1900",
    "venue": "Southwell",
    "off_utc": "2026-10-03T19:00:00Z",
-   "runner": "General Assembly",
+   "runner": "Hi Lord",
    "first": {
     "mins_to_off": 360,
-    "mid": 8.78
+    "mid": 5.9
    },
    "latest": {
-    "mins_to_off": 195,
-    "mid": 9.47,
-    "spread_pct": 10.5
+    "mins_to_off": 0,
+    "mid": 5.6,
+    "spread_pct": 3.6
    },
-   "move_pct": 7.9,
+   "move_pct": -5.1,
    "band": [
-    8,
-    13
+    5,
+    8
    ],
-   "percentile": 60,
+   "percentile": 40,
    "notable": false
   },
   {
@@ -6500,28 +6742,6 @@
    "band": [
     20,
     35
-   ],
-   "percentile": 60,
-   "notable": false
-  },
-  {
-   "slug": "hoppegarten-de-1600",
-   "venue": "Hoppegarten De",
-   "off_utc": "2026-10-03T16:00:00Z",
-   "runner": "Amaro",
-   "first": {
-    "mins_to_off": 165,
-    "mid": 5.21
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 5.46,
-    "spread_pct": 101.6
-   },
-   "move_pct": 4.9,
-   "band": [
-    5,
-    8
    ],
    "percentile": 60,
    "notable": false
@@ -6681,25 +6901,25 @@
    "notable": false
   },
   {
-   "slug": "southwell-1620",
-   "venue": "Southwell",
-   "off_utc": "2026-10-03T16:20:00Z",
-   "runner": "Prince Kameo",
+   "slug": "fontwell-1600",
+   "venue": "Fontwell",
+   "off_utc": "2026-10-03T16:00:00Z",
+   "runner": "Mr Mcwhinny",
    "first": {
-    "mins_to_off": 350,
-    "mid": 5.47
+    "mins_to_off": 360,
+    "mid": 4.0
    },
    "latest": {
-    "mins_to_off": 35,
-    "mid": 5.7,
-    "spread_pct": 3.5
+    "mins_to_off": 0,
+    "mid": 3.87,
+    "spread_pct": 3.9
    },
-   "move_pct": 4.2,
+   "move_pct": -3.1,
    "band": [
-    5,
-    8
+    3,
+    5
    ],
-   "percentile": 59,
+   "percentile": 41,
    "notable": false
   },
   {
@@ -6725,69 +6945,69 @@
    "notable": false
   },
   {
+   "slug": "redcar-1640",
+   "venue": "Redcar",
+   "off_utc": "2026-10-03T16:40:00Z",
+   "runner": "Sugar Hill Babe",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 53.33
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 56.5,
+    "spread_pct": 26.4
+   },
+   "move_pct": 5.9,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 59,
+   "notable": false
+  },
+  {
    "slug": "southwell-1655",
    "venue": "Southwell",
    "off_utc": "2026-10-03T16:55:00Z",
-   "runner": "Wid",
+   "runner": "Siwa Oasis",
    "first": {
     "mins_to_off": 355,
-    "mid": 3.92
+    "mid": 8.09
    },
    "latest": {
-    "mins_to_off": 70,
-    "mid": 4.1,
-    "spread_pct": 4.9
+    "mins_to_off": 10,
+    "mid": 8.7,
+    "spread_pct": 2.3
    },
-   "move_pct": 4.4,
+   "move_pct": 7.5,
    "band": [
-    3,
-    5
+    8,
+    13
    ],
    "percentile": 59,
    "notable": false
   },
   {
-   "slug": "southwell-1730",
+   "slug": "southwell-1900",
    "venue": "Southwell",
-   "off_utc": "2026-10-03T17:30:00Z",
-   "runner": "Dontworryaboutme",
+   "off_utc": "2026-10-03T19:00:00Z",
+   "runner": "Midnight Lir",
    "first": {
     "mins_to_off": 360,
-    "mid": 2.26
+    "mid": 14.64
    },
    "latest": {
-    "mins_to_off": 105,
-    "mid": 2.32,
-    "spread_pct": 1.7
+    "mins_to_off": 0,
+    "mid": 16.25,
+    "spread_pct": 3.1
    },
-   "move_pct": 2.6,
+   "move_pct": 11.0,
    "band": [
-    1.5,
-    3
+    13,
+    20
    ],
    "percentile": 59,
-   "notable": false
-  },
-  {
-   "slug": "hoppegarten-de-1600",
-   "venue": "Hoppegarten De",
-   "off_utc": "2026-10-03T16:00:00Z",
-   "runner": "Back To The Future",
-   "first": {
-    "mins_to_off": 165,
-    "mid": 5.74
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 5.47,
-    "spread_pct": 124.4
-   },
-   "move_pct": -4.7,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 41,
    "notable": false
   },
   {
@@ -7055,94 +7275,6 @@
    "notable": false
   },
   {
-   "slug": "redcar-1640",
-   "venue": "Redcar",
-   "off_utc": "2026-10-03T16:40:00Z",
-   "runner": "Kinetic Force",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 9.39
-   },
-   "latest": {
-    "mins_to_off": 55,
-    "mid": 10.03,
-    "spread_pct": 9.0
-   },
-   "move_pct": 6.9,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 58,
-   "notable": false
-  },
-  {
-   "slug": "redcar-1640",
-   "venue": "Redcar",
-   "off_utc": "2026-10-03T16:40:00Z",
-   "runner": "Curious Rover",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 51.02
-   },
-   "latest": {
-    "mins_to_off": 55,
-    "mid": 53.33,
-    "spread_pct": 22.1
-   },
-   "move_pct": 4.5,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 58,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1800",
-   "venue": "Southwell",
-   "off_utc": "2026-10-03T18:00:00Z",
-   "runner": "Cloud Forest",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 2.08
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 2.01,
-    "spread_pct": 1.0
-   },
-   "move_pct": -3.4,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 42,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1830",
-   "venue": "Southwell",
-   "off_utc": "2026-10-03T18:30:00Z",
-   "runner": "Jenever",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 9.09
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 9.69,
-    "spread_pct": 6.2
-   },
-   "move_pct": 6.6,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 58,
-   "notable": false
-  },
-  {
    "slug": "hoppegarten-de-1455",
    "venue": "Hoppegarten De",
    "off_utc": "2026-10-03T14:55:00Z",
@@ -7160,50 +7292,6 @@
    "band": [
     5,
     8
-   ],
-   "percentile": 42,
-   "notable": false
-  },
-  {
-   "slug": "hoppegarten-de-1600",
-   "venue": "Hoppegarten De",
-   "off_utc": "2026-10-03T16:00:00Z",
-   "runner": "Obstler",
-   "first": {
-    "mins_to_off": 165,
-    "mid": 14.88
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 14.67,
-    "spread_pct": 240.2
-   },
-   "move_pct": -1.4,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 42,
-   "notable": false
-  },
-  {
-   "slug": "hoppegarten-de-1600",
-   "venue": "Hoppegarten De",
-   "off_utc": "2026-10-03T16:00:00Z",
-   "runner": "Nerio",
-   "first": {
-    "mins_to_off": 165,
-    "mid": 14.88
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 14.67,
-    "spread_pct": 240.2
-   },
-   "move_pct": -1.4,
-   "band": [
-    13,
-    20
    ],
    "percentile": 42,
    "notable": false
@@ -7275,6 +7363,28 @@
    "notable": false
   },
   {
+   "slug": "southwell-1620",
+   "venue": "Southwell",
+   "off_utc": "2026-10-03T16:20:00Z",
+   "runner": "Absolute Diamond",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 18.52
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 20.22,
+    "spread_pct": 7.5
+   },
+   "move_pct": 9.2,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 57,
+   "notable": false
+  },
+  {
    "slug": "hoppegarten-de-1305",
    "venue": "Hoppegarten De",
    "off_utc": "2026-10-03T13:05:00Z",
@@ -7297,67 +7407,23 @@
    "notable": false
   },
   {
-   "slug": "redcar-1640",
-   "venue": "Redcar",
-   "off_utc": "2026-10-03T16:40:00Z",
-   "runner": "Ziggy's Triton",
+   "slug": "southwell-1655",
+   "venue": "Southwell",
+   "off_utc": "2026-10-03T16:55:00Z",
+   "runner": "Camino Del Ray",
    "first": {
     "mins_to_off": 355,
-    "mid": 6.89
+    "mid": 37.11
    },
    "latest": {
-    "mins_to_off": 55,
-    "mid": 7.1,
-    "spread_pct": 2.8
+    "mins_to_off": 10,
+    "mid": 38.76,
+    "spread_pct": 15.6
    },
-   "move_pct": 3.1,
+   "move_pct": 4.5,
    "band": [
-    5,
-    8
-   ],
-   "percentile": 57,
-   "notable": false
-  },
-  {
-   "slug": "hoppegarten-de-1600",
-   "venue": "Hoppegarten De",
-   "off_utc": "2026-10-03T16:00:00Z",
-   "runner": "Valanco",
-   "first": {
-    "mins_to_off": 165,
-    "mid": 5.66
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 5.46,
-    "spread_pct": 101.6
-   },
-   "move_pct": -3.5,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 43,
-   "notable": false
-  },
-  {
-   "slug": "hoppegarten-de-1600",
-   "venue": "Hoppegarten De",
-   "off_utc": "2026-10-03T16:00:00Z",
-   "runner": "Ostario",
-   "first": {
-    "mins_to_off": 165,
-    "mid": 5.21
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 5.37,
-    "spread_pct": 113.6
-   },
-   "move_pct": 3.1,
-   "band": [
-    5,
-    8
+    35,
+    100
    ],
    "percentile": 57,
    "notable": false
@@ -7372,7 +7438,7 @@
     "mid": 39.92
    },
    "latest": {
-    "mins_to_off": 15,
+    "mins_to_off": 0,
     "mid": 36.9,
     "spread_pct": 27049.9
    },
@@ -7380,72 +7446,6 @@
    "band": [
     35,
     100
-   ],
-   "percentile": 43,
-   "notable": false
-  },
-  {
-   "slug": "hoppegarten-de-1600",
-   "venue": "Hoppegarten De",
-   "off_utc": "2026-10-03T16:00:00Z",
-   "runner": "Aramis Al Gunay",
-   "first": {
-    "mins_to_off": 165,
-    "mid": 18.18
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 18.0,
-    "spread_pct": 444.9
-   },
-   "move_pct": -1.0,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 43,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1930",
-   "venue": "Southwell",
-   "off_utc": "2026-10-03T19:30:00Z",
-   "runner": "Shopaholic",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 3.12
-   },
-   "latest": {
-    "mins_to_off": 225,
-    "mid": 3.05,
-    "spread_pct": 3.3
-   },
-   "move_pct": -2.4,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 43,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1930",
-   "venue": "Southwell",
-   "off_utc": "2026-10-03T19:30:00Z",
-   "runner": "Astrid",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 6.19
-   },
-   "latest": {
-    "mins_to_off": 225,
-    "mid": 5.99,
-    "spread_pct": 6.7
-   },
-   "move_pct": -3.2,
-   "band": [
-    5,
-    8
    ],
    "percentile": 43,
    "notable": false
@@ -7583,91 +7583,25 @@
    "notable": false
   },
   {
-   "slug": "redcar-1640",
-   "venue": "Redcar",
-   "off_utc": "2026-10-03T16:40:00Z",
-   "runner": "Dolos Dream",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 7.69
-   },
-   "latest": {
-    "mins_to_off": 55,
-    "mid": 7.9,
-    "spread_pct": 2.5
-   },
-   "move_pct": 2.7,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 56,
-   "notable": false
-  },
-  {
    "slug": "southwell-1730",
    "venue": "Southwell",
    "off_utc": "2026-10-03T17:30:00Z",
-   "runner": "Son Of Vega",
+   "runner": "Dontworryaboutme",
    "first": {
     "mins_to_off": 360,
-    "mid": 9.69
+    "mid": 2.26
    },
    "latest": {
-    "mins_to_off": 105,
-    "mid": 9.58,
-    "spread_pct": 8.4
+    "mins_to_off": 15,
+    "mid": 2.2,
+    "spread_pct": 1.8
    },
-   "move_pct": -1.2,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 44,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1830",
-   "venue": "Southwell",
-   "off_utc": "2026-10-03T18:30:00Z",
-   "runner": "Horace Wallace",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 6.79
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 6.99,
-    "spread_pct": 5.7
-   },
-   "move_pct": 2.9,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 56,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1930",
-   "venue": "Southwell",
-   "off_utc": "2026-10-03T19:30:00Z",
-   "runner": "Blue Tulip",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 2.65
-   },
-   "latest": {
-    "mins_to_off": 225,
-    "mid": 2.68,
-    "spread_pct": 3.0
-   },
-   "move_pct": 1.2,
+   "move_pct": -2.7,
    "band": [
     1.5,
     3
    ],
-   "percentile": 56,
+   "percentile": 44,
    "notable": false
   },
   {
@@ -7869,6 +7803,28 @@
    "notable": false
   },
   {
+   "slug": "redcar-1610",
+   "venue": "Redcar",
+   "off_utc": "2026-10-03T16:10:00Z",
+   "runner": "Golden West",
+   "first": {
+    "mins_to_off": 340,
+    "mid": 9.18
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 9.1,
+    "spread_pct": 2.2
+   },
+   "move_pct": -0.9,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 45,
+   "notable": false
+  },
+  {
    "slug": "hoppegarten-de-1305",
    "venue": "Hoppegarten De",
    "off_utc": "2026-10-03T13:05:00Z",
@@ -7891,25 +7847,47 @@
    "notable": false
   },
   {
-   "slug": "southwell-1730",
+   "slug": "southwell-1800",
    "venue": "Southwell",
-   "off_utc": "2026-10-03T17:30:00Z",
-   "runner": "Maliqui",
+   "off_utc": "2026-10-03T18:00:00Z",
+   "runner": "Cloud Forest",
    "first": {
     "mins_to_off": 360,
-    "mid": 7.38
+    "mid": 2.08
    },
    "latest": {
-    "mins_to_off": 105,
-    "mid": 7.19,
-    "spread_pct": 5.6
+    "mins_to_off": 0,
+    "mid": 2.1,
+    "spread_pct": 1.9
    },
-   "move_pct": -2.5,
+   "move_pct": 1.0,
    "band": [
-    5,
-    8
+    1.5,
+    3
    ],
-   "percentile": 45,
+   "percentile": 55,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1900",
+   "venue": "Southwell",
+   "off_utc": "2026-10-03T19:00:00Z",
+   "runner": "Guernsey Angel",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 8.6
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 9.0,
+    "spread_pct": 4.4
+   },
+   "move_pct": 4.6,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 55,
    "notable": false
   },
   {
@@ -8111,64 +8089,64 @@
    "notable": false
   },
   {
-   "slug": "southwell-1830",
-   "venue": "Southwell",
-   "off_utc": "2026-10-03T18:30:00Z",
-   "runner": "New Image",
+   "slug": "gowran-park-1625",
+   "venue": "Gowran Park",
+   "off_utc": "2026-10-03T16:25:00Z",
+   "runner": "Luimneach",
    "first": {
-    "mins_to_off": 360,
-    "mid": 3.12
+    "mins_to_off": 355,
+    "mid": 5.99
    },
    "latest": {
-    "mins_to_off": 165,
-    "mid": 3.1,
-    "spread_pct": 3.2
+    "mins_to_off": 10,
+    "mid": 6.1,
+    "spread_pct": 3.3
    },
-   "move_pct": -0.8,
+   "move_pct": 1.7,
    "band": [
-    3,
-    5
+    5,
+    8
    ],
-   "percentile": 46,
+   "percentile": 54,
    "notable": false
   },
   {
-   "slug": "southwell-1830",
+   "slug": "southwell-1655",
    "venue": "Southwell",
-   "off_utc": "2026-10-03T18:30:00Z",
-   "runner": "Inca Heights",
+   "off_utc": "2026-10-03T16:55:00Z",
+   "runner": "Kalamunda",
    "first": {
-    "mins_to_off": 360,
-    "mid": 36.36
+    "mins_to_off": 355,
+    "mid": 86.58
    },
    "latest": {
-    "mins_to_off": 165,
-    "mid": 34.78,
-    "spread_pct": 17.2
+    "mins_to_off": 10,
+    "mid": 86.96,
+    "spread_pct": 17.5
    },
-   "move_pct": -4.3,
+   "move_pct": 0.4,
    "band": [
     35,
     100
    ],
-   "percentile": 46,
+   "percentile": 54,
    "notable": false
   },
   {
-   "slug": "southwell-1830",
+   "slug": "southwell-1730",
    "venue": "Southwell",
-   "off_utc": "2026-10-03T18:30:00Z",
-   "runner": "Another Investment",
+   "off_utc": "2026-10-03T17:30:00Z",
+   "runner": "Notimetotakeoff",
    "first": {
     "mins_to_off": 360,
-    "mid": 21.51
+    "mid": 34.97
    },
    "latest": {
-    "mins_to_off": 165,
-    "mid": 23.81,
-    "spread_pct": 16.8
+    "mins_to_off": 15,
+    "mid": 38.76,
+    "spread_pct": 15.6
    },
-   "move_pct": 10.7,
+   "move_pct": 10.9,
    "band": [
     20,
     35
@@ -8177,25 +8155,47 @@
    "notable": false
   },
   {
+   "slug": "southwell-1900",
+   "venue": "Southwell",
+   "off_utc": "2026-10-03T19:00:00Z",
+   "runner": "Marra Donna",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 10.48
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 10.48,
+    "spread_pct": 9.6
+   },
+   "move_pct": 0.0,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 46,
+   "notable": false
+  },
+  {
    "slug": "hoppegarten-de-1600",
    "venue": "Hoppegarten De",
    "off_utc": "2026-10-03T16:00:00Z",
-   "runner": "Bella Sheila",
+   "runner": "Obstler",
    "first": {
     "mins_to_off": 165,
-    "mid": 16.12
+    "mid": 14.88
    },
    "latest": {
-    "mins_to_off": 15,
-    "mid": 16.39,
-    "spread_pct": 402.5
+    "mins_to_off": 0,
+    "mid": 15.95,
+    "spread_pct": 317.8
    },
-   "move_pct": 1.7,
+   "move_pct": 7.2,
    "band": [
     13,
     20
    ],
-   "percentile": 46,
+   "percentile": 54,
    "notable": false
   },
   {
@@ -8265,23 +8265,67 @@
    "notable": false
   },
   {
-   "slug": "southwell-1900",
+   "slug": "southwell-1730",
    "venue": "Southwell",
-   "off_utc": "2026-10-03T19:00:00Z",
-   "runner": "Guernsey Angel",
+   "off_utc": "2026-10-03T17:30:00Z",
+   "runner": "Maliqui",
    "first": {
     "mins_to_off": 360,
-    "mid": 8.6
+    "mid": 7.38
    },
    "latest": {
-    "mins_to_off": 195,
-    "mid": 8.89,
-    "spread_pct": 6.8
+    "mins_to_off": 0,
+    "mid": 7.26,
+    "spread_pct": 44.1
    },
-   "move_pct": 3.4,
+   "move_pct": -1.6,
    "band": [
-    8,
-    13
+    5,
+    8
+   ],
+   "percentile": 47,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1830",
+   "venue": "Southwell",
+   "off_utc": "2026-10-03T18:30:00Z",
+   "runner": "Rascal Recknell",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 46.3
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 44.84,
+    "spread_pct": 13.5
+   },
+   "move_pct": -3.1,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 47,
+   "notable": false
+  },
+  {
+   "slug": "hoppegarten-de-1600",
+   "venue": "Hoppegarten De",
+   "off_utc": "2026-10-03T16:00:00Z",
+   "runner": "Bella Sheila",
+   "first": {
+    "mins_to_off": 165,
+    "mid": 16.12
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 17.24,
+    "spread_pct": 435.9
+   },
+   "move_pct": 7.0,
+   "band": [
+    13,
+    20
    ],
    "percentile": 53,
    "notable": false
@@ -8438,28 +8482,6 @@
     35
    ],
    "percentile": 52,
-   "notable": false
-  },
-  {
-   "slug": "fontwell-1635",
-   "venue": "Fontwell",
-   "off_utc": "2026-10-03T16:35:00Z",
-   "runner": "Ghost Jury",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 11.42
-   },
-   "latest": {
-    "mins_to_off": 50,
-    "mid": 11.48,
-    "spread_pct": 8.7
-   },
-   "move_pct": 0.6,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 48,
    "notable": false
   },
   {
@@ -8683,23 +8705,67 @@
    "notable": false
   },
   {
-   "slug": "redcar-1610",
-   "venue": "Redcar",
-   "off_utc": "2026-10-03T16:10:00Z",
-   "runner": "Golden West",
+   "slug": "southwell-1620",
+   "venue": "Southwell",
+   "off_utc": "2026-10-03T16:20:00Z",
+   "runner": "Love Rome",
    "first": {
-    "mins_to_off": 340,
-    "mid": 9.18
+    "mins_to_off": 350,
+    "mid": 6.12
    },
    "latest": {
-    "mins_to_off": 25,
-    "mid": 9.39,
-    "spread_pct": 4.2
+    "mins_to_off": 5,
+    "mid": 6.1,
+    "spread_pct": 3.3
    },
-   "move_pct": 2.3,
+   "move_pct": -0.3,
    "band": [
-    8,
-    13
+    5,
+    8
+   ],
+   "percentile": 49,
+   "notable": false
+  },
+  {
+   "slug": "redcar-1640",
+   "venue": "Redcar",
+   "off_utc": "2026-10-03T16:40:00Z",
+   "runner": "Ziggy's Triton",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 6.89
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 6.9,
+    "spread_pct": 2.9
+   },
+   "move_pct": 0.1,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 51,
+   "notable": false
+  },
+  {
+   "slug": "redcar-1640",
+   "venue": "Redcar",
+   "off_utc": "2026-10-03T16:40:00Z",
+   "runner": "Dolos Dream",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 7.69
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 7.7,
+    "spread_pct": 2.6
+   },
+   "move_pct": 0.1,
+   "band": [
+    5,
+    8
    ],
    "percentile": 51,
    "notable": false
@@ -8714,7 +8780,7 @@
     "mid": 10.98
    },
    "latest": {
-    "mins_to_off": 55,
+    "mins_to_off": 10,
     "mid": 11.24,
     "spread_pct": 4.4
    },
@@ -8727,62 +8793,40 @@
    "notable": false
   },
   {
-   "slug": "southwell-1655",
-   "venue": "Southwell",
-   "off_utc": "2026-10-03T16:55:00Z",
-   "runner": "Nostrum",
+   "slug": "redcar-1640",
+   "venue": "Redcar",
+   "off_utc": "2026-10-03T16:40:00Z",
+   "runner": "Sports Coach",
    "first": {
     "mins_to_off": 355,
-    "mid": 6.29
+    "mid": 19.96
    },
    "latest": {
-    "mins_to_off": 70,
-    "mid": 6.29,
-    "spread_pct": 9.6
+    "mins_to_off": 10,
+    "mid": 20.94,
+    "spread_pct": 9.4
    },
-   "move_pct": 0.0,
+   "move_pct": 4.9,
    "band": [
-    5,
-    8
+    13,
+    20
    ],
-   "percentile": 49,
+   "percentile": 51,
    "notable": false
   },
   {
    "slug": "southwell-1655",
    "venue": "Southwell",
    "off_utc": "2026-10-03T16:55:00Z",
-   "runner": "Dovey Moon",
+   "runner": "Franschhoek",
    "first": {
     "mins_to_off": 355,
-    "mid": 25.64
+    "mid": 15.43
    },
    "latest": {
-    "mins_to_off": 70,
-    "mid": 27.4,
-    "spread_pct": 11.0
-   },
-   "move_pct": 6.8,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 49,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1730",
-   "venue": "Southwell",
-   "off_utc": "2026-10-03T17:30:00Z",
-   "runner": "Penselwood",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 19.38
-   },
-   "latest": {
-    "mins_to_off": 105,
-    "mid": 20.08,
-    "spread_pct": 17.4
+    "mins_to_off": 10,
+    "mid": 15.99,
+    "spread_pct": 6.2
    },
    "move_pct": 3.6,
    "band": [
@@ -8790,50 +8834,6 @@
     20
    ],
    "percentile": 49,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1900",
-   "venue": "Southwell",
-   "off_utc": "2026-10-03T19:00:00Z",
-   "runner": "Hi Lord",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 5.9
-   },
-   "latest": {
-    "mins_to_off": 195,
-    "mid": 5.9,
-    "spread_pct": 3.4
-   },
-   "move_pct": 0.0,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 49,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1930",
-   "venue": "Southwell",
-   "off_utc": "2026-10-03T19:30:00Z",
-   "runner": "Thankyou Baroness",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 8.38
-   },
-   "latest": {
-    "mins_to_off": 225,
-    "mid": 8.58,
-    "spread_pct": 9.4
-   },
-   "move_pct": 2.4,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 51,
    "notable": false
   },
   {
@@ -8881,23 +8881,23 @@
    "notable": false
   },
   {
-   "slug": "southwell-1900",
-   "venue": "Southwell",
-   "off_utc": "2026-10-03T19:00:00Z",
-   "runner": "Popular Dream",
+   "slug": "hoppegarten-de-1600",
+   "venue": "Hoppegarten De",
+   "off_utc": "2026-10-03T16:00:00Z",
+   "runner": "Aramis Al Gunay",
    "first": {
-    "mins_to_off": 360,
-    "mid": 12.93
+    "mins_to_off": 165,
+    "mid": 18.18
    },
    "latest": {
-    "mins_to_off": 195,
-    "mid": 13.21,
-    "spread_pct": 11.4
+    "mins_to_off": 0,
+    "mid": 18.89,
+    "spread_pct": 844.5
    },
-   "move_pct": 2.2,
+   "move_pct": 3.9,
    "band": [
-    8,
-    13
+    13,
+    20
    ],
    "percentile": 50,
    "notable": false
