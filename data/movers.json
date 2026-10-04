@@ -1,6 +1,6 @@
 {
  "schema": "movers_v1",
- "generated_at": "2026-10-04T16:00:02Z",
+ "generated_at": "2026-10-04T21:30:01Z",
  "source": "Smarkets public order book",
  "note": "'percentile' is where this move sits among all moves we have measured for runners opening at a similar price. The median move is near zero in every band; what changes with price is the spread of outcomes.",
  "baseline": {
@@ -78,7 +78,7 @@
    }
   ]
  },
- "collected_through": "2026-10-04T15:45:01Z",
+ "collected_through": "2026-10-04T20:30:01Z",
  "runners": [
   {
    "slug": "killarney-1345",
@@ -851,28 +851,6 @@
    "notable": true
   },
   {
-   "slug": "killarney-1605",
-   "venue": "Killarney",
-   "off_utc": "2026-10-04T16:05:00Z",
-   "runner": "It's Time Again",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 85.47
-   },
-   "latest": {
-    "mins_to_off": 20,
-    "mid": 35.59,
-    "spread_pct": 22.3
-   },
-   "move_pct": -58.4,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 4,
-   "notable": true
-  },
-  {
    "slug": "curragh-1220",
    "venue": "Curragh",
    "off_utc": "2026-10-04T12:20:00Z",
@@ -1000,6 +978,28 @@
    "band": [
     8,
     13
+   ],
+   "percentile": 5,
+   "notable": true
+  },
+  {
+   "slug": "killarney-1605",
+   "venue": "Killarney",
+   "off_utc": "2026-10-04T16:05:00Z",
+   "runner": "Urbs Intacta Manet",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 35.27
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 16.25,
+    "spread_pct": 3.1
+   },
+   "move_pct": -53.9,
+   "band": [
+    35,
+    100
    ],
    "percentile": 5,
    "notable": true
@@ -1137,6 +1137,28 @@
    "notable": false
   },
   {
+   "slug": "curragh-1625",
+   "venue": "Curragh",
+   "off_utc": "2026-10-04T16:25:00Z",
+   "runner": "Cherry Hill Girl",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 7.54
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 10.98,
+    "spread_pct": 9.0
+   },
+   "move_pct": 45.5,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 94,
+   "notable": false
+  },
+  {
    "slug": "killarney-1310",
    "venue": "Killarney",
    "off_utc": "2026-10-04T13:10:00Z",
@@ -1264,50 +1286,6 @@
    "band": [
     13,
     20
-   ],
-   "percentile": 7,
-   "notable": false
-  },
-  {
-   "slug": "killarney-1605",
-   "venue": "Killarney",
-   "off_utc": "2026-10-04T16:05:00Z",
-   "runner": "King Ferdinand",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 85.47
-   },
-   "latest": {
-    "mins_to_off": 20,
-    "mid": 43.2,
-    "spread_pct": 27.7
-   },
-   "move_pct": -49.5,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 7,
-   "notable": false
-  },
-  {
-   "slug": "killarney-1605",
-   "venue": "Killarney",
-   "off_utc": "2026-10-04T16:05:00Z",
-   "runner": "Urbs Intacta Manet",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 35.27
-   },
-   "latest": {
-    "mins_to_off": 20,
-    "mid": 17.71,
-    "spread_pct": 8.3
-   },
-   "move_pct": -49.8,
-   "band": [
-    35,
-    100
    ],
    "percentile": 7,
    "notable": false
@@ -1731,6 +1709,28 @@
    "notable": false
   },
   {
+   "slug": "killarney-1605",
+   "venue": "Killarney",
+   "off_utc": "2026-10-04T16:05:00Z",
+   "runner": "Nolans Rocco",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 12.51
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 17.99,
+    "spread_pct": 5.4
+   },
+   "move_pct": 43.8,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 90,
+   "notable": false
+  },
+  {
    "slug": "curragh-1405",
    "venue": "Curragh",
    "off_utc": "2026-10-04T14:05:00Z",
@@ -1863,28 +1863,6 @@
    "notable": false
   },
   {
-   "slug": "killarney-1605",
-   "venue": "Killarney",
-   "off_utc": "2026-10-04T16:05:00Z",
-   "runner": "Kilashee",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 16.45
-   },
-   "latest": {
-    "mins_to_off": 20,
-    "mid": 11.98,
-    "spread_pct": 8.4
-   },
-   "move_pct": -27.2,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 11,
-   "notable": false
-  },
-  {
    "slug": "killarney-1345",
    "venue": "Killarney",
    "off_utc": "2026-10-04T13:45:00Z",
@@ -2012,28 +1990,6 @@
    "band": [
     13,
     20
-   ],
-   "percentile": 12,
-   "notable": false
-  },
-  {
-   "slug": "dusseldorf-de-1600",
-   "venue": "Dusseldorf De",
-   "off_utc": "2026-10-04T16:00:00Z",
-   "runner": "Nymphadora",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 87.72
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 51.81,
-    "spread_pct": 19249.9
-   },
-   "move_pct": -40.9,
-   "band": [
-    35,
-    100
    ],
    "percentile": 12,
    "notable": false
@@ -2193,25 +2149,69 @@
    "notable": false
   },
   {
-   "slug": "curragh-1625",
-   "venue": "Curragh",
-   "off_utc": "2026-10-04T16:25:00Z",
-   "runner": "Loingseoir",
+   "slug": "killarney-1605",
+   "venue": "Killarney",
+   "off_utc": "2026-10-04T16:05:00Z",
+   "runner": "Cullenwaine",
    "first": {
-    "mins_to_off": 355,
-    "mid": 12.82
+    "mins_to_off": 350,
+    "mid": 11.92
    },
    "latest": {
-    "mins_to_off": 40,
-    "mid": 17.71,
-    "spread_pct": 8.3
+    "mins_to_off": 5,
+    "mid": 9.18,
+    "spread_pct": 8.6
    },
-   "move_pct": 38.2,
+   "move_pct": -23.0,
    "band": [
     8,
     13
    ],
-   "percentile": 87,
+   "percentile": 13,
+   "notable": false
+  },
+  {
+   "slug": "killarney-1605",
+   "venue": "Killarney",
+   "off_utc": "2026-10-04T16:05:00Z",
+   "runner": "Kilashee",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 16.45
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 12.25,
+    "spread_pct": 4.0
+   },
+   "move_pct": -25.5,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 13,
+   "notable": false
+  },
+  {
+   "slug": "curragh-1625",
+   "venue": "Curragh",
+   "off_utc": "2026-10-04T16:25:00Z",
+   "runner": "Highbury See See",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 4.24
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 3.47,
+    "spread_pct": 4.3
+   },
+   "move_pct": -18.0,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 13,
    "notable": false
   },
   {
@@ -2303,6 +2303,28 @@
    "notable": false
   },
   {
+   "slug": "killarney-1605",
+   "venue": "Killarney",
+   "off_utc": "2026-10-04T16:05:00Z",
+   "runner": "Barryroe Madam",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 21.1
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 32.73,
+    "spread_pct": 18.2
+   },
+   "move_pct": 55.2,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 86,
+   "notable": false
+  },
+  {
    "slug": "killarney-1530",
    "venue": "Killarney",
    "off_utc": "2026-10-04T15:30:00Z",
@@ -2369,23 +2391,45 @@
    "notable": false
   },
   {
+   "slug": "killarney-1605",
+   "venue": "Killarney",
+   "off_utc": "2026-10-04T16:05:00Z",
+   "runner": "It's Time Again",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 85.47
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 53.33,
+    "spread_pct": 22.1
+   },
+   "move_pct": -37.6,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 15,
+   "notable": false
+  },
+  {
    "slug": "curragh-1625",
    "venue": "Curragh",
    "off_utc": "2026-10-04T16:25:00Z",
-   "runner": "Highbury See See",
+   "runner": "Rhythm King",
    "first": {
     "mins_to_off": 355,
-    "mid": 4.24
+    "mid": 19.53
    },
    "latest": {
-    "mins_to_off": 40,
-    "mid": 3.55,
-    "spread_pct": 2.8
+    "mins_to_off": 10,
+    "mid": 14.98,
+    "spread_pct": 6.7
    },
-   "move_pct": -16.2,
+   "move_pct": -23.3,
    "band": [
-    3,
-    5
+    13,
+    20
    ],
    "percentile": 15,
    "notable": false
@@ -2677,47 +2721,25 @@
    "notable": false
   },
   {
-   "slug": "dusseldorf-de-1600",
-   "venue": "Dusseldorf De",
-   "off_utc": "2026-10-04T16:00:00Z",
-   "runner": "Molly De Brametot",
+   "slug": "curragh-1625",
+   "venue": "Curragh",
+   "off_utc": "2026-10-04T16:25:00Z",
+   "runner": "Spacebound",
    "first": {
-    "mins_to_off": 360,
-    "mid": 34.97
+    "mins_to_off": 355,
+    "mid": 7.49
    },
    "latest": {
-    "mins_to_off": 15,
-    "mid": 26.08,
-    "spread_pct": 669.9
+    "mins_to_off": 10,
+    "mid": 6.1,
+    "spread_pct": 3.3
    },
-   "move_pct": -25.4,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 16,
-   "notable": false
-  },
-  {
-   "slug": "killarney-1605",
-   "venue": "Killarney",
-   "off_utc": "2026-10-04T16:05:00Z",
-   "runner": "True Harmony",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 6.37
-   },
-   "latest": {
-    "mins_to_off": 20,
-    "mid": 7.79,
-    "spread_pct": 5.1
-   },
-   "move_pct": 22.3,
+   "move_pct": -18.6,
    "band": [
     5,
     8
    ],
-   "percentile": 84,
+   "percentile": 16,
    "notable": false
   },
   {
@@ -2809,6 +2831,28 @@
    "notable": false
   },
   {
+   "slug": "dusseldorf-de-1600",
+   "venue": "Dusseldorf De",
+   "off_utc": "2026-10-04T16:00:00Z",
+   "runner": "Nymphadora",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 87.72
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 57.8,
+    "spread_pct": 17249.8
+   },
+   "move_pct": -34.1,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 17,
+   "notable": false
+  },
+  {
    "slug": "curragh-1405",
    "venue": "Curragh",
    "off_utc": "2026-10-04T14:05:00Z",
@@ -2850,6 +2894,50 @@
     5
    ],
    "percentile": 18,
+   "notable": false
+  },
+  {
+   "slug": "killarney-1605",
+   "venue": "Killarney",
+   "off_utc": "2026-10-04T16:05:00Z",
+   "runner": "True Harmony",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 6.37
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 7.7,
+    "spread_pct": 2.6
+   },
+   "move_pct": 20.8,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 82,
+   "notable": false
+  },
+  {
+   "slug": "curragh-1625",
+   "venue": "Curragh",
+   "off_utc": "2026-10-04T16:25:00Z",
+   "runner": "Lady Mary Heath",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 9.6
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 12.48,
+    "spread_pct": 8.0
+   },
+   "move_pct": 30.1,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 82,
    "notable": false
   },
   {
@@ -2919,50 +3007,6 @@
    "notable": false
   },
   {
-   "slug": "dusseldorf-de-1600",
-   "venue": "Dusseldorf De",
-   "off_utc": "2026-10-04T16:00:00Z",
-   "runner": "Rockshalaa",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 3.94
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 4.66,
-    "spread_pct": 80.4
-   },
-   "move_pct": 18.5,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 81,
-   "notable": false
-  },
-  {
-   "slug": "killarney-1605",
-   "venue": "Killarney",
-   "off_utc": "2026-10-04T16:05:00Z",
-   "runner": "Ellens Pride",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 32.95
-   },
-   "latest": {
-    "mins_to_off": 20,
-    "mid": 25.84,
-    "spread_pct": 15.6
-   },
-   "move_pct": -21.6,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 19,
-   "notable": false
-  },
-  {
    "slug": "kelso-1355",
    "venue": "Kelso",
    "off_utc": "2026-10-04T13:55:00Z",
@@ -2988,20 +3032,20 @@
    "slug": "curragh-1625",
    "venue": "Curragh",
    "off_utc": "2026-10-04T16:25:00Z",
-   "runner": "Flanker Jet",
+   "runner": "Loingseoir",
    "first": {
     "mins_to_off": 355,
-    "mid": 24.63
+    "mid": 12.82
    },
    "latest": {
-    "mins_to_off": 40,
-    "mid": 35.59,
-    "spread_pct": 22.3
+    "mins_to_off": 10,
+    "mid": 16.49,
+    "spread_pct": 6.1
    },
-   "move_pct": 44.5,
+   "move_pct": 28.6,
    "band": [
-    20,
-    35
+    8,
+    13
    ],
    "percentile": 81,
    "notable": false
@@ -3139,6 +3183,28 @@
    "notable": false
   },
   {
+   "slug": "curragh-1625",
+   "venue": "Curragh",
+   "off_utc": "2026-10-04T16:25:00Z",
+   "runner": "Flanker Jet",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 24.63
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 34.78,
+    "spread_pct": 17.2
+   },
+   "move_pct": 41.2,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 80,
+   "notable": false
+  },
+  {
    "slug": "killarney-1420",
    "venue": "Killarney",
    "off_utc": "2026-10-04T14:20:00Z",
@@ -3200,28 +3266,6 @@
    "band": [
     5,
     8
-   ],
-   "percentile": 79,
-   "notable": false
-  },
-  {
-   "slug": "killarney-1605",
-   "venue": "Killarney",
-   "off_utc": "2026-10-04T16:05:00Z",
-   "runner": "Nolans Rocco",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 12.51
-   },
-   "latest": {
-    "mins_to_off": 20,
-    "mid": 15.71,
-    "spread_pct": 9.6
-   },
-   "move_pct": 25.6,
-   "band": [
-    8,
-    13
    ],
    "percentile": 79,
    "notable": false
@@ -3777,28 +3821,6 @@
    "notable": false
   },
   {
-   "slug": "curragh-1625",
-   "venue": "Curragh",
-   "off_utc": "2026-10-04T16:25:00Z",
-   "runner": "Cherry Hill Girl",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 7.54
-   },
-   "latest": {
-    "mins_to_off": 40,
-    "mid": 8.6,
-    "spread_pct": 4.6
-   },
-   "move_pct": 14.0,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 75,
-   "notable": false
-  },
-  {
    "slug": "killarney-1310",
    "venue": "Killarney",
    "off_utc": "2026-10-04T13:10:00Z",
@@ -4107,28 +4129,6 @@
    "notable": false
   },
   {
-   "slug": "killarney-1605",
-   "venue": "Killarney",
-   "off_utc": "2026-10-04T16:05:00Z",
-   "runner": "Barryroe Madam",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 21.1
-   },
-   "latest": {
-    "mins_to_off": 20,
-    "mid": 27.4,
-    "spread_pct": 11.0
-   },
-   "move_pct": 29.9,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 73,
-   "notable": false
-  },
-  {
    "slug": "killarney-1235",
    "venue": "Killarney",
    "off_utc": "2026-10-04T12:35:00Z",
@@ -4239,28 +4239,6 @@
    "notable": false
   },
   {
-   "slug": "killarney-1605",
-   "venue": "Killarney",
-   "off_utc": "2026-10-04T16:05:00Z",
-   "runner": "Keep Em Quite",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 10.14
-   },
-   "latest": {
-    "mins_to_off": 20,
-    "mid": 11.98,
-    "spread_pct": 8.4
-   },
-   "move_pct": 18.1,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 72,
-   "notable": false
-  },
-  {
    "slug": "uttoxeter-1301",
    "venue": "Uttoxeter",
    "off_utc": "2026-10-04T13:01:00Z",
@@ -4330,20 +4308,20 @@
    "slug": "curragh-1625",
    "venue": "Curragh",
    "off_utc": "2026-10-04T16:25:00Z",
-   "runner": "Lady Mary Heath",
+   "runner": "Lady Arwen",
    "first": {
     "mins_to_off": 355,
-    "mid": 9.6
+    "mid": 22.22
    },
    "latest": {
-    "mins_to_off": 40,
-    "mid": 11.24,
-    "spread_pct": 4.4
+    "mins_to_off": 10,
+    "mid": 28.45,
+    "spread_pct": 10.6
    },
-   "move_pct": 17.1,
+   "move_pct": 28.0,
    "band": [
-    8,
-    13
+    20,
+    35
    ],
    "percentile": 71,
    "notable": false
@@ -4459,23 +4437,23 @@
    "notable": false
   },
   {
-   "slug": "curragh-1625",
-   "venue": "Curragh",
-   "off_utc": "2026-10-04T16:25:00Z",
-   "runner": "Pretty Omagh Girl",
+   "slug": "killarney-1605",
+   "venue": "Killarney",
+   "off_utc": "2026-10-04T16:05:00Z",
+   "runner": "King Ferdinand",
    "first": {
-    "mins_to_off": 355,
-    "mid": 23.64
+    "mins_to_off": 350,
+    "mid": 85.47
    },
    "latest": {
-    "mins_to_off": 40,
-    "mid": 21.39,
-    "spread_pct": 14.0
+    "mins_to_off": 5,
+    "mid": 68.49,
+    "spread_pct": 29.4
    },
-   "move_pct": -9.5,
+   "move_pct": -19.9,
    "band": [
-    20,
-    35
+    35,
+    100
    ],
    "percentile": 30,
    "notable": false
@@ -4600,7 +4578,7 @@
     "mid": 2.67
    },
    "latest": {
-    "mins_to_off": 15,
+    "mins_to_off": 0,
     "mid": 2.48,
     "spread_pct": 52.8
    },
@@ -4608,28 +4586,6 @@
    "band": [
     1.5,
     3
-   ],
-   "percentile": 31,
-   "notable": false
-  },
-  {
-   "slug": "curragh-1625",
-   "venue": "Curragh",
-   "off_utc": "2026-10-04T16:25:00Z",
-   "runner": "Rhythm King",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 19.53
-   },
-   "latest": {
-    "mins_to_off": 40,
-    "mid": 17.71,
-    "spread_pct": 8.3
-   },
-   "move_pct": -9.3,
-   "band": [
-    13,
-    20
    ],
    "percentile": 31,
    "notable": false
@@ -4833,6 +4789,28 @@
    "notable": false
   },
   {
+   "slug": "dusseldorf-de-1600",
+   "venue": "Dusseldorf De",
+   "off_utc": "2026-10-04T16:00:00Z",
+   "runner": "Rockshalaa",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 3.94
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 4.27,
+    "spread_pct": 75.0
+   },
+   "move_pct": 8.4,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 67,
+   "notable": false
+  },
+  {
    "slug": "killarney-1345",
    "venue": "Killarney",
    "off_utc": "2026-10-04T13:45:00Z",
@@ -5009,6 +4987,28 @@
    "notable": false
   },
   {
+   "slug": "killarney-1605",
+   "venue": "Killarney",
+   "off_utc": "2026-10-04T16:05:00Z",
+   "runner": "Keep Em Quite",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 10.14
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 9.39,
+    "spread_pct": 4.2
+   },
+   "move_pct": -7.3,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 34,
+   "notable": false
+  },
+  {
    "slug": "curragh-1330",
    "venue": "Curragh",
    "off_utc": "2026-10-04T13:30:00Z",
@@ -5092,28 +5092,6 @@
    "band": [
     35,
     100
-   ],
-   "percentile": 65,
-   "notable": false
-  },
-  {
-   "slug": "dusseldorf-de-1600",
-   "venue": "Dusseldorf De",
-   "off_utc": "2026-10-04T16:00:00Z",
-   "runner": "Ole Ole",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 5.1
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 5.45,
-    "spread_pct": 89.0
-   },
-   "move_pct": 7.0,
-   "band": [
-    5,
-    8
    ],
    "percentile": 65,
    "notable": false
@@ -5210,6 +5188,28 @@
    "slug": "killarney-1605",
    "venue": "Killarney",
    "off_utc": "2026-10-04T16:05:00Z",
+   "runner": "Ellens Pride",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 32.95
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 31.3,
+    "spread_pct": 16.1
+   },
+   "move_pct": -5.0,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 36,
+   "notable": false
+  },
+  {
+   "slug": "killarney-1605",
+   "venue": "Killarney",
+   "off_utc": "2026-10-04T16:05:00Z",
    "runner": "Avec Espoir",
    "first": {
     "mins_to_off": 215,
@@ -5268,28 +5268,6 @@
    "band": [
     5,
     8
-   ],
-   "percentile": 63,
-   "notable": false
-  },
-  {
-   "slug": "curragh-1625",
-   "venue": "Curragh",
-   "off_utc": "2026-10-04T16:25:00Z",
-   "runner": "Titanium",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 36.23
-   },
-   "latest": {
-    "mins_to_off": 40,
-    "mid": 39.6,
-    "spread_pct": 20.4
-   },
-   "move_pct": 9.3,
-   "band": [
-    35,
-    100
    ],
    "percentile": 63,
    "notable": false
@@ -5559,45 +5537,23 @@
    "notable": false
   },
   {
-   "slug": "dusseldorf-de-1600",
-   "venue": "Dusseldorf De",
-   "off_utc": "2026-10-04T16:00:00Z",
-   "runner": "Gentle Bear",
+   "slug": "curragh-1625",
+   "venue": "Curragh",
+   "off_utc": "2026-10-04T16:25:00Z",
+   "runner": "Titanium",
    "first": {
-    "mins_to_off": 360,
-    "mid": 10.86
+    "mins_to_off": 355,
+    "mid": 36.23
    },
    "latest": {
-    "mins_to_off": 15,
-    "mid": 10.38,
-    "spread_pct": 146.2
+    "mins_to_off": 10,
+    "mid": 38.99,
+    "spread_pct": 5.1
    },
-   "move_pct": -4.4,
+   "move_pct": 7.6,
    "band": [
-    8,
-    13
-   ],
-   "percentile": 39,
-   "notable": false
-  },
-  {
-   "slug": "killarney-1605",
-   "venue": "Killarney",
-   "off_utc": "2026-10-04T16:05:00Z",
-   "runner": "Kilkee Bay",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 8.89
-   },
-   "latest": {
-    "mins_to_off": 20,
-    "mid": 9.69,
-    "spread_pct": 6.2
-   },
-   "move_pct": 9.0,
-   "band": [
-    8,
-    13
+    35,
+    100
    ],
    "percentile": 61,
    "notable": false
@@ -5779,25 +5735,47 @@
    "notable": false
   },
   {
+   "slug": "dusseldorf-de-1600",
+   "venue": "Dusseldorf De",
+   "off_utc": "2026-10-04T16:00:00Z",
+   "runner": "Molly De Brametot",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 34.97
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 34.97,
+    "spread_pct": 28549.9
+   },
+   "move_pct": 0.0,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 40,
+   "notable": false
+  },
+  {
    "slug": "killarney-1605",
    "venue": "Killarney",
    "off_utc": "2026-10-04T16:05:00Z",
-   "runner": "Backinabit",
+   "runner": "Kilkee Bay",
    "first": {
     "mins_to_off": 350,
-    "mid": 12.41
+    "mid": 8.89
    },
    "latest": {
-    "mins_to_off": 20,
-    "mid": 11.98,
-    "spread_pct": 8.4
+    "mins_to_off": 5,
+    "mid": 9.6,
+    "spread_pct": 4.2
    },
-   "move_pct": -3.5,
+   "move_pct": 8.0,
    "band": [
     8,
     13
    ],
-   "percentile": 40,
+   "percentile": 60,
    "notable": false
   },
   {
@@ -5933,6 +5911,28 @@
    "notable": false
   },
   {
+   "slug": "dusseldorf-de-1600",
+   "venue": "Dusseldorf De",
+   "off_utc": "2026-10-04T16:00:00Z",
+   "runner": "Ole Ole",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 5.1
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 5.32,
+    "spread_pct": 89.3
+   },
+   "move_pct": 4.3,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 59,
+   "notable": false
+  },
+  {
    "slug": "killarney-1235",
    "venue": "Killarney",
    "off_utc": "2026-10-04T12:35:00Z",
@@ -6021,6 +6021,28 @@
    "notable": false
   },
   {
+   "slug": "killarney-1605",
+   "venue": "Killarney",
+   "off_utc": "2026-10-04T16:05:00Z",
+   "runner": "Backinabit",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 12.41
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 13.24,
+    "spread_pct": 3.7
+   },
+   "move_pct": 6.7,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 58,
+   "notable": false
+  },
+  {
    "slug": "curragh-1625",
    "venue": "Curragh",
    "off_utc": "2026-10-04T16:25:00Z",
@@ -6030,7 +6052,7 @@
     "mid": 11.53
    },
    "latest": {
-    "mins_to_off": 40,
+    "mins_to_off": 10,
     "mid": 11.24,
     "spread_pct": 4.4
    },
@@ -6172,6 +6194,28 @@
     20
    ],
    "percentile": 43,
+   "notable": false
+  },
+  {
+   "slug": "killarney-1605",
+   "venue": "Killarney",
+   "off_utc": "2026-10-04T16:05:00Z",
+   "runner": "Joe's Turn",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 11.11
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 11.74,
+    "spread_pct": 4.3
+   },
+   "move_pct": 5.7,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 57,
    "notable": false
   },
   {
@@ -6351,42 +6395,20 @@
    "notable": false
   },
   {
-   "slug": "killarney-1605",
-   "venue": "Killarney",
-   "off_utc": "2026-10-04T16:05:00Z",
-   "runner": "Zolpharine",
+   "slug": "dusseldorf-de-1600",
+   "venue": "Dusseldorf De",
+   "off_utc": "2026-10-04T16:00:00Z",
+   "runner": "Gentle Bear",
    "first": {
-    "mins_to_off": 350,
-    "mid": 9.81
+    "mins_to_off": 360,
+    "mid": 10.86
    },
    "latest": {
-    "mins_to_off": 20,
-    "mid": 9.69,
-    "spread_pct": 6.2
+    "mins_to_off": 0,
+    "mid": 10.69,
+    "spread_pct": 170.3
    },
-   "move_pct": -1.2,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 44,
-   "notable": false
-  },
-  {
-   "slug": "killarney-1605",
-   "venue": "Killarney",
-   "off_utc": "2026-10-04T16:05:00Z",
-   "runner": "Joe's Turn",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 11.11
-   },
-   "latest": {
-    "mins_to_off": 20,
-    "mid": 10.98,
-    "spread_pct": 9.0
-   },
-   "move_pct": -1.2,
+   "move_pct": -1.6,
    "band": [
     8,
     13
@@ -6456,6 +6478,28 @@
    "band": [
     13,
     20
+   ],
+   "percentile": 45,
+   "notable": false
+  },
+  {
+   "slug": "curragh-1625",
+   "venue": "Curragh",
+   "off_utc": "2026-10-04T16:25:00Z",
+   "runner": "Pretty Omagh Girl",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 23.64
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 24.39,
+    "spread_pct": 12.2
+   },
+   "move_pct": 3.2,
+   "band": [
+    20,
+    35
    ],
    "percentile": 45,
    "notable": false
@@ -6593,6 +6637,28 @@
    "notable": false
   },
   {
+   "slug": "killarney-1605",
+   "venue": "Killarney",
+   "off_utc": "2026-10-04T16:05:00Z",
+   "runner": "Zolpharine",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 9.81
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 10.25,
+    "spread_pct": 4.9
+   },
+   "move_pct": 4.5,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 54,
+   "notable": false
+  },
+  {
    "slug": "killarney-1310",
    "venue": "Killarney",
    "off_utc": "2026-10-04T13:10:00Z",
@@ -6651,28 +6717,6 @@
     "spread_pct": 8.7
    },
    "move_pct": 5.4,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 47,
-   "notable": false
-  },
-  {
-   "slug": "curragh-1625",
-   "venue": "Curragh",
-   "off_utc": "2026-10-04T16:25:00Z",
-   "runner": "Lady Arwen",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 22.22
-   },
-   "latest": {
-    "mins_to_off": 40,
-    "mid": 23.39,
-    "spread_pct": 12.9
-   },
-   "move_pct": 5.3,
    "band": [
     20,
     35
@@ -6766,28 +6810,6 @@
     20
    ],
    "percentile": 52,
-   "notable": false
-  },
-  {
-   "slug": "killarney-1605",
-   "venue": "Killarney",
-   "off_utc": "2026-10-04T16:05:00Z",
-   "runner": "Cullenwaine",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 11.92
-   },
-   "latest": {
-    "mins_to_off": 20,
-    "mid": 11.98,
-    "spread_pct": 8.4
-   },
-   "move_pct": 0.5,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 48,
    "notable": false
   },
   {
@@ -6976,36 +6998,14 @@
     "mid": 14.78
    },
    "latest": {
-    "mins_to_off": 15,
-    "mid": 15.34,
-    "spread_pct": 240.5
+    "mins_to_off": 0,
+    "mid": 15.54,
+    "spread_pct": 262.6
    },
-   "move_pct": 3.8,
+   "move_pct": 5.1,
    "band": [
     13,
     20
-   ],
-   "percentile": 49,
-   "notable": false
-  },
-  {
-   "slug": "curragh-1625",
-   "venue": "Curragh",
-   "off_utc": "2026-10-04T16:25:00Z",
-   "runner": "Spacebound",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 7.49
-   },
-   "latest": {
-    "mins_to_off": 40,
-    "mid": 7.5,
-    "spread_pct": 2.6
-   },
-   "move_pct": 0.2,
-   "band": [
-    5,
-    8
    ],
    "percentile": 51,
    "notable": false
