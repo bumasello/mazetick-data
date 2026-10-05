@@ -61,7 +61,13 @@ jobs:
           # ⚠️ Chave AUSENTE e valor NULO nao sao a mesma coisa, e a versao
           # anterior confundia: `.get(...) or ''` achata os dois. Ausente e'
           # contrato quebrado e alarma sempre; nulo so' alarma dentro da janela.
-          for spec in "extra-places:7" "movers:9"; do
+          # movers:13, e nao 9. O publicador roda as 07, 12, 16 e 21:30: o
+          # movers das 07:00 nasce nulo (o Smarkets abre as 08) e so e
+          # substituido as 12:00. Com 9, todo dia entre 09:00 e 12:00 era
+          # alarme falso — o vigia da Cloudflare, que roda de 10 em 10 min,
+          # caiu nele em 2026-10-03. La a regra e mais fina; aqui basta
+          # esperar a publicacao das 12:00.
+          for spec in "extra-places:7" "movers:13"; do
             arq="${spec%%:*}"; abre="${spec##*:}"
             corpo=$(curl -fsS -m 25 "$BASE/$arq.json" || echo "")
             if [ -z "$corpo" ]; then
