@@ -1,6 +1,6 @@
 {
  "schema": "horses_v5",
- "generated_at": "2026-10-05T07:00:22Z",
+ "generated_at": "2026-10-05T12:00:24Z",
  "source": "Historical race results",
  "note": "Every figure is computed using only races run STRICTLY BEFORE the race it describes — the `as_of` date on each horse. Groups with fewer than two runs are omitted rather than shown as a rate, because a 100% strike rate over one run is noise wearing the clothes of a finding. Our archive runs to 2026-10-04: a horse that ran after that date has those runs missing here, so read `career` as what we hold, not as a complete record.",
  "history_depth": {
@@ -19,7 +19,7 @@
   "still_missing": 1570,
   "note": "Sire totals count the progeny we hold. Breeding is complete for races up to 2026-07-22. After that date our live source carries it for about half of runners; we recover most of the rest from the same horse's other races, but not all. Recent races are therefore under-counted in sire totals."
  },
- "collected_through": "2026-10-05T06:00:02Z",
+ "collected_through": "2026-10-05T11:00:01Z",
  "distance_bands": [
   {
    "key": "sprint",
@@ -74,7 +74,7 @@
   "horses": 3,
   "runs_removed": 17
  },
- "duplicate_declarations": 6,
+ "duplicate_declarations": 0,
  "horses": [
   {
    "slug": "darivan",
@@ -1605,7 +1605,7 @@
     "off_utc": "2026-10-05T13:00:00+01:00",
     "going": "soft",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-05",
    "status": "has_history",
@@ -5315,7 +5315,7 @@
     "off_utc": "2026-10-05T13:35:00+01:00",
     "going": "soft",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-05",
    "status": "has_history",
@@ -5474,7 +5474,7 @@
     "off_utc": "2026-10-05T13:35:00+01:00",
     "going": "soft",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-05",
    "status": "has_history",
@@ -14208,7 +14208,7 @@
     "off_utc": "2026-10-05T14:30:00+01:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-05",
    "status": "debut",
@@ -15821,7 +15821,7 @@
     "off_utc": "2026-10-05T14:40:00+01:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-05",
    "status": "has_history",
@@ -17059,7 +17059,7 @@
     "off_utc": "2026-10-05T14:40:00+01:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-05",
    "status": "has_history",
@@ -18335,7 +18335,7 @@
     "off_utc": "2026-10-05T14:45:00+01:00",
     "going": "soft",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-05",
    "status": "has_history",
@@ -19185,7 +19185,7 @@
     "off_utc": "2026-10-05T14:45:00+01:00",
     "going": "soft",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-05",
    "status": "has_history",
@@ -20124,7 +20124,7 @@
     "off_utc": "2026-10-05T14:45:00+01:00",
     "going": "soft",
     "distance": "mile",
-    "runner_status": "reserve"
+    "runner_status": "runner"
    },
    "as_of": "2026-10-05",
    "status": "has_history",
@@ -20181,6 +20181,14 @@
      "place_pct": 0.0
     }
    ],
+   "jockey": {
+    "name": "Ben Coen",
+    "runs": 2634,
+    "wins": 250,
+    "places": 736,
+    "win_pct": 9.5,
+    "place_pct": 27.9
+   },
    "trainer": {
     "name": "Kevin Thomas Coleman",
     "runs": 684,
@@ -20212,6 +20220,24 @@
     "places": 0,
     "win_pct": 0.0,
     "place_pct": 0.0
+   },
+   "jockey_at_course": {
+    "name": "Ben Coen",
+    "key": "Killarney",
+    "runs": 44,
+    "wins": 1,
+    "places": 6,
+    "win_pct": 2.3,
+    "place_pct": 13.6
+   },
+   "jockey_at_distance": {
+    "name": "Ben Coen",
+    "key": "mile",
+    "runs": 1256,
+    "wins": 118,
+    "places": 345,
+    "win_pct": 9.4,
+    "place_pct": 27.5
    },
    "trainer_at_course": {
     "name": "Kevin Thomas Coleman",
@@ -20265,7 +20291,7 @@
     "off_utc": "2026-10-05T14:45:00+01:00",
     "going": "soft",
     "distance": "mile",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-05",
    "status": "has_history",
@@ -20430,7 +20456,7 @@
     "off_utc": "2026-10-05T14:45:00+01:00",
     "going": "soft",
     "distance": "mile",
-    "runner_status": "reserve"
+    "runner_status": "runner"
    },
    "as_of": "2026-10-05",
    "status": "has_history",
@@ -20495,6 +20521,14 @@
      "place_pct": 0.0
     }
    ],
+   "jockey": {
+    "name": "Gearoid Brouder(5)",
+    "runs": 461,
+    "wins": 17,
+    "places": 51,
+    "win_pct": 3.7,
+    "place_pct": 11.1
+   },
    "trainer": {
     "name": "Ian O'Connor",
     "runs": 130,
@@ -20518,6 +20552,41 @@
     "places": 247,
     "win_pct": 9.6,
     "place_pct": 29.4
+   },
+   "jockey_trainer": {
+    "jockey": "Gearoid Brouder(5)",
+    "trainer": "Ian O'Connor",
+    "runs": 32,
+    "wins": 2,
+    "places": 2,
+    "win_pct": 6.2,
+    "place_pct": 6.2
+   },
+   "jockey_here": {
+    "name": "Gearoid Brouder(5)",
+    "runs": 3,
+    "wins": 0,
+    "places": 0,
+    "win_pct": 0.0,
+    "place_pct": 0.0
+   },
+   "jockey_at_course": {
+    "name": "Gearoid Brouder(5)",
+    "key": "Killarney",
+    "runs": 14,
+    "wins": 0,
+    "places": 1,
+    "win_pct": 0.0,
+    "place_pct": 7.1
+   },
+   "jockey_at_distance": {
+    "name": "Gearoid Brouder(5)",
+    "key": "mile",
+    "runs": 76,
+    "wins": 2,
+    "places": 4,
+    "win_pct": 2.6,
+    "place_pct": 5.3
    },
    "trainer_at_course": {
     "name": "Ian O'Connor",
@@ -25717,7 +25786,7 @@
     "off_utc": "2026-10-05T15:05:00+01:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-05",
    "status": "has_history",
@@ -25882,7 +25951,7 @@
     "off_utc": "2026-10-05T15:05:00+01:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-05",
    "status": "has_history",
@@ -29253,7 +29322,7 @@
     "off_utc": "2026-10-05T15:20:00+01:00",
     "going": "soft",
     "distance": "middle",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-05",
    "status": "has_history",
@@ -29580,7 +29649,7 @@
     "off_utc": "2026-10-05T15:20:00+01:00",
     "going": "soft",
     "distance": "middle",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-05",
    "status": "has_history",
@@ -30361,7 +30430,7 @@
     "off_utc": "2026-10-05T15:20:00+01:00",
     "going": "soft",
     "distance": "middle",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-05",
    "status": "has_history",
@@ -32489,7 +32558,7 @@
     "off_utc": "2026-10-05T15:35:00+01:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-05",
    "status": "debut",
@@ -34414,7 +34483,7 @@
     "off_utc": "2026-10-05T15:50:00+01:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-05",
    "status": "has_history",
@@ -36989,7 +37058,7 @@
     "off_utc": "2026-10-05T15:55:00+01:00",
     "going": "soft",
     "distance": "middle",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-05",
    "status": "has_history",
@@ -41730,7 +41799,7 @@
     "off_utc": "2026-10-05T16:15:00+01:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-05",
    "status": "has_history",
@@ -42032,7 +42101,7 @@
     "off_utc": "2026-10-05T16:15:00+01:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-05",
    "status": "has_history",
@@ -42199,7 +42268,7 @@
     "off_utc": "2026-10-05T16:15:00+01:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-05",
    "status": "has_history",
@@ -45775,1583 +45844,6 @@
    }
   },
   {
-   "slug": "bodygroove",
-   "name": "Bodygroove",
-   "race": {
-    "venue": "Pontefract",
-    "off_utc": "2026-10-05T16:25:00+01:00",
-    "going": "good",
-    "distance": "staying",
-    "runner_status": "runner"
-   },
-   "as_of": "2026-10-05",
-   "status": "has_history",
-   "career": {
-    "runs": 20,
-    "wins": 2,
-    "places": 3,
-    "win_pct": 10.0,
-    "place_pct": 15.0
-   },
-   "by_going": [
-    {
-     "key": "good",
-     "runs": 11,
-     "wins": 2,
-     "places": 2,
-     "win_pct": 18.2,
-     "place_pct": 18.2
-    },
-    {
-     "key": "soft",
-     "runs": 8,
-     "wins": 0,
-     "places": 0,
-     "win_pct": 0.0,
-     "place_pct": 0.0
-    }
-   ],
-   "by_course": [
-    {
-     "key": "Carlisle",
-     "runs": 4,
-     "wins": 0,
-     "places": 1,
-     "win_pct": 0.0,
-     "place_pct": 25.0
-    },
-    {
-     "key": "Kempton (AW)",
-     "runs": 3,
-     "wins": 0,
-     "places": 0,
-     "win_pct": 0.0,
-     "place_pct": 0.0
-    },
-    {
-     "key": "Wetherby",
-     "runs": 3,
-     "wins": 1,
-     "places": 1,
-     "win_pct": 33.3,
-     "place_pct": 33.3
-    },
-    {
-     "key": "Catterick",
-     "runs": 3,
-     "wins": 0,
-     "places": 0,
-     "win_pct": 0.0,
-     "place_pct": 0.0
-    },
-    {
-     "key": "Sedgefield",
-     "runs": 2,
-     "wins": 0,
-     "places": 0,
-     "win_pct": 0.0,
-     "place_pct": 0.0
-    }
-   ],
-   "by_distance": [
-    {
-     "key": "staying",
-     "runs": 16,
-     "wins": 2,
-     "places": 3,
-     "win_pct": 12.5,
-     "place_pct": 18.8
-    },
-    {
-     "key": "mile",
-     "runs": 3,
-     "wins": 0,
-     "places": 0,
-     "win_pct": 0.0,
-     "place_pct": 0.0
-    }
-   ],
-   "jockey": {
-    "name": "Aiden Brookes",
-    "runs": 1173,
-    "wins": 91,
-    "places": 285,
-    "win_pct": 7.8,
-    "place_pct": 24.3
-   },
-   "trainer": {
-    "name": "Micky Hammond",
-    "runs": 3094,
-    "wins": 254,
-    "places": 876,
-    "win_pct": 8.2,
-    "place_pct": 28.3
-   },
-   "sire": {
-    "name": "Iffraaj",
-    "runs": 4960,
-    "wins": 506,
-    "places": 1515,
-    "win_pct": 10.2,
-    "place_pct": 30.5
-   },
-   "sire_at_distance": {
-    "key": "staying",
-    "runs": 883,
-    "wins": 89,
-    "places": 264,
-    "win_pct": 10.1,
-    "place_pct": 29.9
-   },
-   "jockey_trainer": {
-    "jockey": "Aiden Brookes",
-    "trainer": "Micky Hammond",
-    "runs": 460,
-    "wins": 29,
-    "places": 97,
-    "win_pct": 6.3,
-    "place_pct": 21.1
-   },
-   "jockey_here": {
-    "name": "Aiden Brookes",
-    "runs": 3,
-    "wins": 0,
-    "places": 0,
-    "win_pct": 0.0,
-    "place_pct": 0.0
-   },
-   "trainer_here": {
-    "name": "Micky Hammond",
-    "runs": 15,
-    "wins": 1,
-    "places": 2,
-    "win_pct": 6.7,
-    "place_pct": 13.3
-   },
-   "jockey_at_course": {
-    "name": "Aiden Brookes",
-    "key": "Pontefract",
-    "runs": 63,
-    "wins": 6,
-    "places": 12,
-    "win_pct": 9.5,
-    "place_pct": 19.0
-   },
-   "jockey_at_distance": {
-    "name": "Aiden Brookes",
-    "key": "staying",
-    "runs": 161,
-    "wins": 23,
-    "places": 63,
-    "win_pct": 14.3,
-    "place_pct": 39.1
-   },
-   "trainer_at_course": {
-    "name": "Micky Hammond",
-    "key": "Pontefract",
-    "runs": 106,
-    "wins": 7,
-    "places": 25,
-    "win_pct": 6.6,
-    "place_pct": 23.6
-   },
-   "trainer_at_distance": {
-    "name": "Micky Hammond",
-    "key": "staying",
-    "runs": 2325,
-    "wins": 212,
-    "places": 711,
-    "win_pct": 9.1,
-    "place_pct": 30.6
-   },
-   "recent_30d": {
-    "days": 30,
-    "runs": 1,
-    "wins": 0,
-    "places": 0,
-    "win_pct": 0.0,
-    "place_pct": 0.0
-   },
-   "recent_90d": {
-    "days": 90,
-    "runs": 1,
-    "wins": 0,
-    "places": 0,
-    "win_pct": 0.0,
-    "place_pct": 0.0
-   },
-   "days_since_last_run": 21,
-   "ident": {
-    "age": "6",
-    "sex": "gelding",
-    "colour": "b",
-    "owner": "Mrs B M Lofthouse",
-    "damsire": "Cockney Rebel",
-    "dam": "Groovejet"
-   }
-  },
-  {
-   "slug": "clansman",
-   "name": "Clansman",
-   "race": {
-    "venue": "Pontefract",
-    "off_utc": "2026-10-05T16:25:00+01:00",
-    "going": "good",
-    "distance": "staying",
-    "runner_status": "runner"
-   },
-   "as_of": "2026-10-05",
-   "status": "has_history",
-   "career": {
-    "runs": 41,
-    "wins": 7,
-    "places": 18,
-    "win_pct": 17.1,
-    "place_pct": 43.9
-   },
-   "by_going": [
-    {
-     "key": "soft",
-     "runs": 20,
-     "wins": 2,
-     "places": 7,
-     "win_pct": 10.0,
-     "place_pct": 35.0
-    },
-    {
-     "key": "good",
-     "runs": 18,
-     "wins": 2,
-     "places": 8,
-     "win_pct": 11.1,
-     "place_pct": 44.4
-    },
-    {
-     "key": "heavy",
-     "runs": 3,
-     "wins": 3,
-     "places": 3,
-     "win_pct": 100.0,
-     "place_pct": 100.0
-    }
-   ],
-   "by_course": [
-    {
-     "key": "Hamilton",
-     "runs": 8,
-     "wins": 0,
-     "places": 3,
-     "win_pct": 0.0,
-     "place_pct": 37.5
-    },
-    {
-     "key": "Newcastle (AW)",
-     "runs": 8,
-     "wins": 1,
-     "places": 4,
-     "win_pct": 12.5,
-     "place_pct": 50.0
-    },
-    {
-     "key": "Ripon",
-     "runs": 4,
-     "wins": 1,
-     "places": 2,
-     "win_pct": 25.0,
-     "place_pct": 50.0
-    },
-    {
-     "key": "Thirsk",
-     "runs": 3,
-     "wins": 1,
-     "places": 1,
-     "win_pct": 33.3,
-     "place_pct": 33.3
-    },
-    {
-     "key": "Ayr",
-     "runs": 3,
-     "wins": 1,
-     "places": 2,
-     "win_pct": 33.3,
-     "place_pct": 66.7
-    },
-    {
-     "key": "Southwell (AW)",
-     "runs": 3,
-     "wins": 1,
-     "places": 2,
-     "win_pct": 33.3,
-     "place_pct": 66.7
-    },
-    {
-     "key": "Doncaster",
-     "runs": 2,
-     "wins": 1,
-     "places": 1,
-     "win_pct": 50.0,
-     "place_pct": 50.0
-    },
-    {
-     "key": "Redcar",
-     "runs": 2,
-     "wins": 1,
-     "places": 1,
-     "win_pct": 50.0,
-     "place_pct": 50.0
-    },
-    {
-     "key": "Chelmsford (AW)",
-     "runs": 2,
-     "wins": 0,
-     "places": 1,
-     "win_pct": 0.0,
-     "place_pct": 50.0
-    }
-   ],
-   "by_distance": [
-    {
-     "key": "middle",
-     "runs": 22,
-     "wins": 4,
-     "places": 10,
-     "win_pct": 18.2,
-     "place_pct": 45.5
-    },
-    {
-     "key": "staying",
-     "runs": 15,
-     "wins": 3,
-     "places": 8,
-     "win_pct": 20.0,
-     "place_pct": 53.3
-    },
-    {
-     "key": "mile",
-     "runs": 4,
-     "wins": 0,
-     "places": 0,
-     "win_pct": 0.0,
-     "place_pct": 0.0
-    }
-   ],
-   "trainer": {
-    "name": "Liam Bailey",
-    "runs": 1042,
-    "wins": 66,
-    "places": 271,
-    "win_pct": 6.3,
-    "place_pct": 26.0
-   },
-   "sire": {
-    "name": "Nathaniel",
-    "runs": 4245,
-    "wins": 481,
-    "places": 1497,
-    "win_pct": 11.3,
-    "place_pct": 35.3
-   },
-   "sire_at_distance": {
-    "key": "staying",
-    "runs": 2441,
-    "wins": 272,
-    "places": 886,
-    "win_pct": 11.1,
-    "place_pct": 36.3
-   },
-   "trainer_here": {
-    "name": "Liam Bailey",
-    "runs": 35,
-    "wins": 7,
-    "places": 18,
-    "win_pct": 20.0,
-    "place_pct": 51.4
-   },
-   "trainer_at_course": {
-    "name": "Liam Bailey",
-    "key": "Pontefract",
-    "runs": 38,
-    "wins": 2,
-    "places": 14,
-    "win_pct": 5.3,
-    "place_pct": 36.8
-   },
-   "trainer_at_distance": {
-    "name": "Liam Bailey",
-    "key": "staying",
-    "runs": 120,
-    "wins": 7,
-    "places": 30,
-    "win_pct": 5.8,
-    "place_pct": 25.0
-   },
-   "recent_30d": {
-    "days": 30,
-    "runs": 1,
-    "wins": 0,
-    "places": 0,
-    "win_pct": 0.0,
-    "place_pct": 0.0
-   },
-   "recent_90d": {
-    "days": 90,
-    "runs": 2,
-    "wins": 0,
-    "places": 0,
-    "win_pct": 0.0,
-    "place_pct": 0.0
-   },
-   "days_since_last_run": 4,
-   "ident": {
-    "age": "8",
-    "sex": "gelding",
-    "colour": "b",
-    "owner": "Mrs C M Clarke Foulrice Park Racing Ltd",
-    "damsire": "Nureyev",
-    "dam": "Pearl Dance"
-   }
-  },
-  {
-   "slug": "free-world",
-   "name": "Free World",
-   "race": {
-    "venue": "Pontefract",
-    "off_utc": "2026-10-05T16:25:00+01:00",
-    "going": "good",
-    "distance": "staying",
-    "runner_status": "runner"
-   },
-   "as_of": "2026-10-05",
-   "status": "has_history",
-   "career": {
-    "runs": 6,
-    "wins": 1,
-    "places": 1,
-    "win_pct": 16.7,
-    "place_pct": 16.7
-   },
-   "by_going": [
-    {
-     "key": "good",
-     "runs": 4,
-     "wins": 1,
-     "places": 1,
-     "win_pct": 25.0,
-     "place_pct": 25.0
-    },
-    {
-     "key": "soft",
-     "runs": 2,
-     "wins": 0,
-     "places": 0,
-     "win_pct": 0.0,
-     "place_pct": 0.0
-    }
-   ],
-   "by_course": [],
-   "by_distance": [
-    {
-     "key": "staying",
-     "runs": 5,
-     "wins": 1,
-     "places": 1,
-     "win_pct": 20.0,
-     "place_pct": 20.0
-    }
-   ],
-   "jockey": {
-    "name": "Paul Mulrennan",
-    "runs": 4552,
-    "wins": 598,
-    "places": 1692,
-    "win_pct": 13.1,
-    "place_pct": 37.2
-   },
-   "trainer": {
-    "name": "Ian Williams",
-    "runs": 4318,
-    "wins": 451,
-    "places": 1388,
-    "win_pct": 10.4,
-    "place_pct": 32.1
-   },
-   "sire": {
-    "name": "Australia",
-    "runs": 3975,
-    "wins": 435,
-    "places": 1265,
-    "win_pct": 10.9,
-    "place_pct": 31.8
-   },
-   "sire_at_distance": {
-    "key": "staying",
-    "runs": 1285,
-    "wins": 119,
-    "places": 392,
-    "win_pct": 9.3,
-    "place_pct": 30.5
-   },
-   "jockey_trainer": {
-    "jockey": "Paul Mulrennan",
-    "trainer": "Ian Williams",
-    "runs": 42,
-    "wins": 5,
-    "places": 14,
-    "win_pct": 11.9,
-    "place_pct": 33.3
-   },
-   "trainer_here": {
-    "name": "Ian Williams",
-    "runs": 6,
-    "wins": 1,
-    "places": 1,
-    "win_pct": 16.7,
-    "place_pct": 16.7
-   },
-   "jockey_at_course": {
-    "name": "Paul Mulrennan",
-    "key": "Pontefract",
-    "runs": 129,
-    "wins": 12,
-    "places": 43,
-    "win_pct": 9.3,
-    "place_pct": 33.3
-   },
-   "jockey_at_distance": {
-    "name": "Paul Mulrennan",
-    "key": "staying",
-    "runs": 330,
-    "wins": 47,
-    "places": 144,
-    "win_pct": 14.2,
-    "place_pct": 43.6
-   },
-   "trainer_at_course": {
-    "name": "Ian Williams",
-    "key": "Pontefract",
-    "runs": 49,
-    "wins": 4,
-    "places": 17,
-    "win_pct": 8.2,
-    "place_pct": 34.7
-   },
-   "trainer_at_distance": {
-    "name": "Ian Williams",
-    "key": "staying",
-    "runs": 1653,
-    "wins": 173,
-    "places": 535,
-    "win_pct": 10.5,
-    "place_pct": 32.4
-   },
-   "recent_30d": {
-    "days": 30,
-    "runs": 1,
-    "wins": 0,
-    "places": 0,
-    "win_pct": 0.0,
-    "place_pct": 0.0
-   },
-   "recent_90d": {
-    "days": 90,
-    "runs": 3,
-    "wins": 1,
-    "places": 1,
-    "win_pct": 33.3,
-    "place_pct": 33.3
-   },
-   "days_since_last_run": 24,
-   "ident": {
-    "age": "5",
-    "sex": "gelding",
-    "colour": "ch",
-    "owner": "The Freeworld Partnership",
-    "damsire": "Dubawi",
-    "dam": "Magic Image"
-   }
-  },
-  {
-   "slug": "further-measure",
-   "name": "Further Measure",
-   "race": {
-    "venue": "Pontefract",
-    "off_utc": "2026-10-05T16:25:00+01:00",
-    "going": "good",
-    "distance": "staying",
-    "runner_status": "runner"
-   },
-   "as_of": "2026-10-05",
-   "status": "has_history",
-   "career": {
-    "runs": 59,
-    "wins": 9,
-    "places": 21,
-    "win_pct": 15.3,
-    "place_pct": 35.6
-   },
-   "by_going": [
-    {
-     "key": "good",
-     "runs": 46,
-     "wins": 6,
-     "places": 16,
-     "win_pct": 13.0,
-     "place_pct": 34.8
-    },
-    {
-     "key": "soft",
-     "runs": 13,
-     "wins": 3,
-     "places": 5,
-     "win_pct": 23.1,
-     "place_pct": 38.5
-    }
-   ],
-   "by_course": [
-    {
-     "key": "Wolverhampton (AW)",
-     "runs": 12,
-     "wins": 2,
-     "places": 4,
-     "win_pct": 16.7,
-     "place_pct": 33.3
-    },
-    {
-     "key": "Southwell (AW)",
-     "runs": 10,
-     "wins": 3,
-     "places": 4,
-     "win_pct": 30.0,
-     "place_pct": 40.0
-    },
-    {
-     "key": "Lingfield (AW)",
-     "runs": 9,
-     "wins": 1,
-     "places": 1,
-     "win_pct": 11.1,
-     "place_pct": 11.1
-    },
-    {
-     "key": "Chelmsford (AW)",
-     "runs": 7,
-     "wins": 1,
-     "places": 5,
-     "win_pct": 14.3,
-     "place_pct": 71.4
-    },
-    {
-     "key": "Kempton (AW)",
-     "runs": 7,
-     "wins": 2,
-     "places": 2,
-     "win_pct": 28.6,
-     "place_pct": 28.6
-    },
-    {
-     "key": "Newbury",
-     "runs": 3,
-     "wins": 0,
-     "places": 2,
-     "win_pct": 0.0,
-     "place_pct": 66.7
-    },
-    {
-     "key": "Sandown",
-     "runs": 2,
-     "wins": 0,
-     "places": 0,
-     "win_pct": 0.0,
-     "place_pct": 0.0
-    },
-    {
-     "key": "Newcastle (AW)",
-     "runs": 2,
-     "wins": 0,
-     "places": 1,
-     "win_pct": 0.0,
-     "place_pct": 50.0
-    },
-    {
-     "key": "Windsor",
-     "runs": 2,
-     "wins": 0,
-     "places": 0,
-     "win_pct": 0.0,
-     "place_pct": 0.0
-    },
-    {
-     "key": "Bath",
-     "runs": 2,
-     "wins": 0,
-     "places": 2,
-     "win_pct": 0.0,
-     "place_pct": 100.0
-    }
-   ],
-   "by_distance": [
-    {
-     "key": "staying",
-     "runs": 30,
-     "wins": 7,
-     "places": 13,
-     "win_pct": 23.3,
-     "place_pct": 43.3
-    },
-    {
-     "key": "middle",
-     "runs": 18,
-     "wins": 1,
-     "places": 6,
-     "win_pct": 5.6,
-     "place_pct": 33.3
-    },
-    {
-     "key": "mile",
-     "runs": 11,
-     "wins": 1,
-     "places": 2,
-     "win_pct": 9.1,
-     "place_pct": 18.2
-    }
-   ],
-   "trainer": {
-    "name": "Mike Murphy",
-    "runs": 619,
-    "wins": 72,
-    "places": 181,
-    "win_pct": 11.6,
-    "place_pct": 29.2
-   },
-   "sire": {
-    "name": "English Channel",
-    "runs": 176,
-    "wins": 27,
-    "places": 64,
-    "win_pct": 15.3,
-    "place_pct": 36.4
-   },
-   "sire_at_distance": {
-    "key": "staying",
-    "runs": 86,
-    "wins": 15,
-    "places": 38,
-    "win_pct": 17.4,
-    "place_pct": 44.2
-   },
-   "trainer_here": {
-    "name": "Mike Murphy",
-    "runs": 22,
-    "wins": 6,
-    "places": 7,
-    "win_pct": 27.3,
-    "place_pct": 31.8
-   },
-   "trainer_at_distance": {
-    "name": "Mike Murphy",
-    "key": "staying",
-    "runs": 49,
-    "wins": 7,
-    "places": 9,
-    "win_pct": 14.3,
-    "place_pct": 18.4
-   },
-   "recent_30d": {
-    "days": 30,
-    "runs": 1,
-    "wins": 0,
-    "places": 0,
-    "win_pct": 0.0,
-    "place_pct": 0.0
-   },
-   "recent_90d": {
-    "days": 90,
-    "runs": 4,
-    "wins": 0,
-    "places": 0,
-    "win_pct": 0.0,
-    "place_pct": 0.0
-   },
-   "days_since_last_run": 13,
-   "ident": {
-    "age": "9",
-    "sex": "gelding",
-    "colour": "b",
-    "owner": "Ms Denise Tibbett",
-    "damsire": "Dansili",
-    "dam": "Price Tag"
-   }
-  },
-  {
-   "slug": "niffler",
-   "name": "Niffler",
-   "race": {
-    "venue": "Pontefract",
-    "off_utc": "2026-10-05T16:25:00+01:00",
-    "going": "good",
-    "distance": "staying",
-    "runner_status": "runner"
-   },
-   "as_of": "2026-10-05",
-   "status": "has_history",
-   "career": {
-    "runs": 7,
-    "wins": 3,
-    "places": 4,
-    "win_pct": 42.9,
-    "place_pct": 57.1
-   },
-   "by_going": [
-    {
-     "key": "good",
-     "runs": 7,
-     "wins": 3,
-     "places": 4,
-     "win_pct": 42.9,
-     "place_pct": 57.1
-    }
-   ],
-   "by_course": [
-    {
-     "key": "Southwell (AW)",
-     "runs": 2,
-     "wins": 0,
-     "places": 0,
-     "win_pct": 0.0,
-     "place_pct": 0.0
-    },
-    {
-     "key": "Wolverhampton (AW)",
-     "runs": 2,
-     "wins": 0,
-     "places": 1,
-     "win_pct": 0.0,
-     "place_pct": 50.0
-    },
-    {
-     "key": "Newcastle (AW)",
-     "runs": 2,
-     "wins": 2,
-     "places": 2,
-     "win_pct": 100.0,
-     "place_pct": 100.0
-    }
-   ],
-   "by_distance": [
-    {
-     "key": "mile",
-     "runs": 3,
-     "wins": 0,
-     "places": 0,
-     "win_pct": 0.0,
-     "place_pct": 0.0
-    },
-    {
-     "key": "staying",
-     "runs": 3,
-     "wins": 2,
-     "places": 3,
-     "win_pct": 66.7,
-     "place_pct": 100.0
-    }
-   ],
-   "trainer": {
-    "name": "Sir Mark Prescott Bt",
-    "runs": 1490,
-    "wins": 276,
-    "places": 687,
-    "win_pct": 18.5,
-    "place_pct": 46.1
-   },
-   "sire": {
-    "name": "Isfahan",
-    "runs": 48,
-    "wins": 7,
-    "places": 18,
-    "win_pct": 14.6,
-    "place_pct": 37.5
-   },
-   "sire_at_distance": {
-    "key": "staying",
-    "runs": 29,
-    "wins": 5,
-    "places": 11,
-    "win_pct": 17.2,
-    "place_pct": 37.9
-   },
-   "trainer_here": {
-    "name": "Sir Mark Prescott Bt",
-    "runs": 7,
-    "wins": 3,
-    "places": 4,
-    "win_pct": 42.9,
-    "place_pct": 57.1
-   },
-   "trainer_at_course": {
-    "name": "Sir Mark Prescott Bt",
-    "key": "Pontefract",
-    "runs": 26,
-    "wins": 8,
-    "places": 13,
-    "win_pct": 30.8,
-    "place_pct": 50.0
-   },
-   "trainer_at_distance": {
-    "name": "Sir Mark Prescott Bt",
-    "key": "staying",
-    "runs": 295,
-    "wins": 89,
-    "places": 182,
-    "win_pct": 30.2,
-    "place_pct": 61.7
-   },
-   "recent_30d": {
-    "days": 30,
-    "runs": 2,
-    "wins": 1,
-    "places": 2,
-    "win_pct": 50.0,
-    "place_pct": 100.0
-   },
-   "recent_90d": {
-    "days": 90,
-    "runs": 4,
-    "wins": 3,
-    "places": 4,
-    "win_pct": 75.0,
-    "place_pct": 100.0
-   },
-   "days_since_last_run": 17,
-   "ident": {
-    "age": "3",
-    "sex": "gelding",
-    "colour": "ch",
-    "owner": "Sir Mark Prescott",
-    "damsire": "Dansili",
-    "dam": "Night Party"
-   }
-  },
-  {
-   "slug": "noble-grace",
-   "name": "Noble Grace",
-   "race": {
-    "venue": "Pontefract",
-    "off_utc": "2026-10-05T16:25:00+01:00",
-    "going": "good",
-    "distance": "staying",
-    "runner_status": "runner"
-   },
-   "as_of": "2026-10-05",
-   "status": "has_history",
-   "career": {
-    "runs": 10,
-    "wins": 1,
-    "places": 3,
-    "win_pct": 10.0,
-    "place_pct": 30.0
-   },
-   "by_going": [
-    {
-     "key": "good",
-     "runs": 6,
-     "wins": 1,
-     "places": 3,
-     "win_pct": 16.7,
-     "place_pct": 50.0
-    },
-    {
-     "key": "soft",
-     "runs": 4,
-     "wins": 0,
-     "places": 0,
-     "win_pct": 0.0,
-     "place_pct": 0.0
-    }
-   ],
-   "by_course": [
-    {
-     "key": "Ffos Las",
-     "runs": 2,
-     "wins": 1,
-     "places": 2,
-     "win_pct": 50.0,
-     "place_pct": 100.0
-    }
-   ],
-   "by_distance": [
-    {
-     "key": "staying",
-     "runs": 5,
-     "wins": 0,
-     "places": 1,
-     "win_pct": 0.0,
-     "place_pct": 20.0
-    },
-    {
-     "key": "middle",
-     "runs": 4,
-     "wins": 1,
-     "places": 2,
-     "win_pct": 25.0,
-     "place_pct": 50.0
-    }
-   ],
-   "trainer": {
-    "name": "Warren Greatrex",
-    "runs": 1661,
-    "wins": 164,
-    "places": 610,
-    "win_pct": 9.9,
-    "place_pct": 36.7
-   },
-   "sire": {
-    "name": "Yeats",
-    "runs": 6522,
-    "wins": 774,
-    "places": 2277,
-    "win_pct": 11.9,
-    "place_pct": 34.9
-   },
-   "sire_at_distance": {
-    "key": "staying",
-    "runs": 6456,
-    "wins": 767,
-    "places": 2258,
-    "win_pct": 11.9,
-    "place_pct": 35.0
-   },
-   "trainer_here": {
-    "name": "Warren Greatrex",
-    "runs": 10,
-    "wins": 1,
-    "places": 3,
-    "win_pct": 10.0,
-    "place_pct": 30.0
-   },
-   "trainer_at_distance": {
-    "name": "Warren Greatrex",
-    "key": "staying",
-    "runs": 1382,
-    "wins": 140,
-    "places": 513,
-    "win_pct": 10.1,
-    "place_pct": 37.1
-   },
-   "recent_30d": {
-    "days": 30,
-    "runs": 1,
-    "wins": 0,
-    "places": 0,
-    "win_pct": 0.0,
-    "place_pct": 0.0
-   },
-   "recent_90d": {
-    "days": 90,
-    "runs": 3,
-    "wins": 1,
-    "places": 2,
-    "win_pct": 33.3,
-    "place_pct": 66.7
-   },
-   "days_since_last_run": 22,
-   "ident": {
-    "age": "5",
-    "sex": "mare",
-    "colour": "b",
-    "owner": "Crawford Smith Family",
-    "damsire": "Karinga Bay",
-    "dam": "She's Noble"
-   }
-  },
-  {
-   "slug": "pfingstberg",
-   "name": "Pfingstberg",
-   "race": {
-    "venue": "Pontefract",
-    "off_utc": "2026-10-05T16:25:00+01:00",
-    "going": "good",
-    "distance": "staying",
-    "runner_status": "runner"
-   },
-   "as_of": "2026-10-05",
-   "status": "has_history",
-   "career": {
-    "runs": 16,
-    "wins": 3,
-    "places": 11,
-    "win_pct": 18.8,
-    "place_pct": 68.8
-   },
-   "by_going": [
-    {
-     "key": "good",
-     "runs": 11,
-     "wins": 2,
-     "places": 8,
-     "win_pct": 18.2,
-     "place_pct": 72.7
-    },
-    {
-     "key": "soft",
-     "runs": 4,
-     "wins": 1,
-     "places": 3,
-     "win_pct": 25.0,
-     "place_pct": 75.0
-    }
-   ],
-   "by_course": [
-    {
-     "key": "Chelmsford (AW)",
-     "runs": 3,
-     "wins": 1,
-     "places": 3,
-     "win_pct": 33.3,
-     "place_pct": 100.0
-    },
-    {
-     "key": "Wolverhampton (AW)",
-     "runs": 2,
-     "wins": 0,
-     "places": 1,
-     "win_pct": 0.0,
-     "place_pct": 50.0
-    },
-    {
-     "key": "Windsor",
-     "runs": 2,
-     "wins": 0,
-     "places": 1,
-     "win_pct": 0.0,
-     "place_pct": 50.0
-    },
-    {
-     "key": "Beverley",
-     "runs": 2,
-     "wins": 0,
-     "places": 0,
-     "win_pct": 0.0,
-     "place_pct": 0.0
-    }
-   ],
-   "by_distance": [
-    {
-     "key": "staying",
-     "runs": 9,
-     "wins": 3,
-     "places": 7,
-     "win_pct": 33.3,
-     "place_pct": 77.8
-    },
-    {
-     "key": "middle",
-     "runs": 4,
-     "wins": 0,
-     "places": 4,
-     "win_pct": 0.0,
-     "place_pct": 100.0
-    },
-    {
-     "key": "mile",
-     "runs": 3,
-     "wins": 0,
-     "places": 0,
-     "win_pct": 0.0,
-     "place_pct": 0.0
-    }
-   ],
-   "trainer": {
-    "name": "Mark Walford",
-    "runs": 2016,
-    "wins": 202,
-    "places": 644,
-    "win_pct": 10.0,
-    "place_pct": 31.9
-   },
-   "sire": {
-    "name": "Protectionist",
-    "runs": 211,
-    "wins": 28,
-    "places": 79,
-    "win_pct": 13.3,
-    "place_pct": 37.4
-   },
-   "sire_at_distance": {
-    "key": "staying",
-    "runs": 118,
-    "wins": 21,
-    "places": 51,
-    "win_pct": 17.8,
-    "place_pct": 43.2
-   },
-   "trainer_at_course": {
-    "name": "Mark Walford",
-    "key": "Pontefract",
-    "runs": 59,
-    "wins": 3,
-    "places": 16,
-    "win_pct": 5.1,
-    "place_pct": 27.1
-   },
-   "trainer_at_distance": {
-    "name": "Mark Walford",
-    "key": "staying",
-    "runs": 1077,
-    "wins": 129,
-    "places": 408,
-    "win_pct": 12.0,
-    "place_pct": 37.9
-   },
-   "recent_90d": {
-    "days": 90,
-    "runs": 1,
-    "wins": 0,
-    "places": 0,
-    "win_pct": 0.0,
-    "place_pct": 0.0
-   },
-   "days_since_last_run": 36,
-   "ident": {
-    "age": "6",
-    "sex": "gelding",
-    "colour": "ch",
-    "owner": "R W The 8 Amigos Burns Austerfield",
-    "damsire": "Sholokhov",
-    "dam": "Peace Of Paradise"
-   }
-  },
-  {
-   "slug": "port-of-entry",
-   "name": "Port of Entry",
-   "race": {
-    "venue": "Pontefract",
-    "off_utc": "2026-10-05T16:25:00+01:00",
-    "going": "good",
-    "distance": "staying",
-    "runner_status": "runner"
-   },
-   "as_of": "2026-10-05",
-   "status": "has_history",
-   "career": {
-    "runs": 3,
-    "wins": 0,
-    "places": 0,
-    "win_pct": 0.0,
-    "place_pct": 0.0
-   },
-   "by_going": [
-    {
-     "key": "soft",
-     "runs": 3,
-     "wins": 0,
-     "places": 0,
-     "win_pct": 0.0,
-     "place_pct": 0.0
-    }
-   ],
-   "by_course": [
-    {
-     "key": "Kempton (AW)",
-     "runs": 2,
-     "wins": 0,
-     "places": 0,
-     "win_pct": 0.0,
-     "place_pct": 0.0
-    }
-   ],
-   "by_distance": [
-    {
-     "key": "staying",
-     "runs": 2,
-     "wins": 0,
-     "places": 0,
-     "win_pct": 0.0,
-     "place_pct": 0.0
-    }
-   ],
-   "trainer": {
-    "name": "Robert Bevis",
-    "runs": 111,
-    "wins": 9,
-    "places": 30,
-    "win_pct": 8.1,
-    "place_pct": 27.0
-   },
-   "sire": {
-    "name": "Le Havre",
-    "runs": 1487,
-    "wins": 205,
-    "places": 543,
-    "win_pct": 13.8,
-    "place_pct": 36.5
-   },
-   "sire_at_distance": {
-    "key": "staying",
-    "runs": 576,
-    "wins": 79,
-    "places": 212,
-    "win_pct": 13.7,
-    "place_pct": 36.8
-   },
-   "trainer_here": {
-    "name": "Robert Bevis",
-    "runs": 3,
-    "wins": 0,
-    "places": 0,
-    "win_pct": 0.0,
-    "place_pct": 0.0
-   },
-   "trainer_at_distance": {
-    "name": "Robert Bevis",
-    "key": "staying",
-    "runs": 108,
-    "wins": 9,
-    "places": 30,
-    "win_pct": 8.3,
-    "place_pct": 27.8
-   },
-   "days_since_last_run": 121,
-   "ident": {
-    "age": "6",
-    "sex": "gelding",
-    "colour": "b",
-    "owner": "R J Bevis",
-    "damsire": "Sir Percy",
-    "dam": "Persona Grata"
-   }
-  },
-  {
-   "slug": "simiyann",
-   "name": "Simiyann",
-   "race": {
-    "venue": "Pontefract",
-    "off_utc": "2026-10-05T16:25:00+01:00",
-    "going": "good",
-    "distance": "staying",
-    "runner_status": "runner"
-   },
-   "as_of": "2026-10-05",
-   "status": "has_history",
-   "career": {
-    "runs": 37,
-    "wins": 4,
-    "places": 13,
-    "win_pct": 10.8,
-    "place_pct": 35.1
-   },
-   "by_going": [
-    {
-     "key": "good",
-     "runs": 29,
-     "wins": 4,
-     "places": 11,
-     "win_pct": 13.8,
-     "place_pct": 37.9
-    },
-    {
-     "key": "soft",
-     "runs": 7,
-     "wins": 0,
-     "places": 2,
-     "win_pct": 0.0,
-     "place_pct": 28.6
-    }
-   ],
-   "by_course": [
-    {
-     "key": "Southwell (AW)",
-     "runs": 5,
-     "wins": 0,
-     "places": 2,
-     "win_pct": 0.0,
-     "place_pct": 40.0
-    },
-    {
-     "key": "Wolverhampton (AW)",
-     "runs": 4,
-     "wins": 2,
-     "places": 3,
-     "win_pct": 50.0,
-     "place_pct": 75.0
-    },
-    {
-     "key": "Chelmsford (AW)",
-     "runs": 4,
-     "wins": 0,
-     "places": 2,
-     "win_pct": 0.0,
-     "place_pct": 50.0
-    },
-    {
-     "key": "Chester",
-     "runs": 3,
-     "wins": 0,
-     "places": 0,
-     "win_pct": 0.0,
-     "place_pct": 0.0
-    },
-    {
-     "key": "Ffos Las",
-     "runs": 3,
-     "wins": 1,
-     "places": 1,
-     "win_pct": 33.3,
-     "place_pct": 33.3
-    },
-    {
-     "key": "Nottingham",
-     "runs": 3,
-     "wins": 0,
-     "places": 3,
-     "win_pct": 0.0,
-     "place_pct": 100.0
-    },
-    {
-     "key": "Kempton (AW)",
-     "runs": 2,
-     "wins": 0,
-     "places": 0,
-     "win_pct": 0.0,
-     "place_pct": 0.0
-    },
-    {
-     "key": "Sandown",
-     "runs": 2,
-     "wins": 0,
-     "places": 0,
-     "win_pct": 0.0,
-     "place_pct": 0.0
-    },
-    {
-     "key": "Newbury",
-     "runs": 2,
-     "wins": 0,
-     "places": 0,
-     "win_pct": 0.0,
-     "place_pct": 0.0
-    },
-    {
-     "key": "Pontefract",
-     "runs": 2,
-     "wins": 0,
-     "places": 0,
-     "win_pct": 0.0,
-     "place_pct": 0.0
-    }
-   ],
-   "by_distance": [
-    {
-     "key": "staying",
-     "runs": 35,
-     "wins": 4,
-     "places": 13,
-     "win_pct": 11.4,
-     "place_pct": 37.1
-    },
-    {
-     "key": "middle",
-     "runs": 2,
-     "wins": 0,
-     "places": 0,
-     "win_pct": 0.0,
-     "place_pct": 0.0
-    }
-   ],
-   "jockey": {
-    "name": "Cam Hardie",
-    "runs": 4565,
-    "wins": 235,
-    "places": 1004,
-    "win_pct": 5.1,
-    "place_pct": 22.0
-   },
-   "trainer": {
-    "name": "Mike Sowersby",
-    "runs": 581,
-    "wins": 19,
-    "places": 85,
-    "win_pct": 3.3,
-    "place_pct": 14.6
-   },
-   "sire": {
-    "name": "Australia",
-    "runs": 3975,
-    "wins": 435,
-    "places": 1265,
-    "win_pct": 10.9,
-    "place_pct": 31.8
-   },
-   "sire_at_distance": {
-    "key": "staying",
-    "runs": 1285,
-    "wins": 119,
-    "places": 392,
-    "win_pct": 9.3,
-    "place_pct": 30.5
-   },
-   "jockey_trainer": {
-    "jockey": "Cam Hardie",
-    "trainer": "Mike Sowersby",
-    "runs": 36,
-    "wins": 3,
-    "places": 9,
-    "win_pct": 8.3,
-    "place_pct": 25.0
-   },
-   "jockey_at_course": {
-    "name": "Cam Hardie",
-    "key": "Pontefract",
-    "runs": 132,
-    "wins": 15,
-    "places": 38,
-    "win_pct": 11.4,
-    "place_pct": 28.8
-   },
-   "jockey_at_distance": {
-    "name": "Cam Hardie",
-    "key": "staying",
-    "runs": 254,
-    "wins": 20,
-    "places": 68,
-    "win_pct": 7.9,
-    "place_pct": 26.8
-   },
-   "trainer_at_distance": {
-    "name": "Mike Sowersby",
-    "key": "staying",
-    "runs": 497,
-    "wins": 17,
-    "places": 78,
-    "win_pct": 3.4,
-    "place_pct": 15.7
-   },
-   "recent_30d": {
-    "days": 30,
-    "runs": 1,
-    "wins": 0,
-    "places": 0,
-    "win_pct": 0.0,
-    "place_pct": 0.0
-   },
-   "recent_90d": {
-    "days": 90,
-    "runs": 5,
-    "wins": 0,
-    "places": 3,
-    "win_pct": 0.0,
-    "place_pct": 60.0
-   },
-   "days_since_last_run": 23,
-   "ident": {
-    "age": "6",
-    "sex": "gelding",
-    "colour": "b",
-    "owner": "Mr M E Sowersby",
-    "damsire": "Holy Roman Emperor",
-    "dam": "Simiyna"
-   }
-  },
-  {
    "slug": "lion-of-god",
    "name": "Lion of God",
    "race": {
@@ -48381,7 +46873,7 @@
     "off_utc": "2026-10-05T16:30:00+01:00",
     "going": "soft",
     "distance": "middle",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-05",
    "status": "has_history",
@@ -50147,7 +48639,7 @@
     "off_utc": "2026-10-05T16:30:00+01:00",
     "going": "soft",
     "distance": "middle",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-05",
    "status": "has_history",
@@ -57544,6 +56036,1208 @@
    }
   },
   {
+   "slug": "free-world",
+   "name": "Free World",
+   "race": {
+    "venue": "Pontefract",
+    "off_utc": "2026-10-05T16:56:00+01:00",
+    "going": "good",
+    "distance": "staying",
+    "runner_status": "runner"
+   },
+   "as_of": "2026-10-05",
+   "status": "has_history",
+   "career": {
+    "runs": 6,
+    "wins": 1,
+    "places": 1,
+    "win_pct": 16.7,
+    "place_pct": 16.7
+   },
+   "by_going": [
+    {
+     "key": "good",
+     "runs": 4,
+     "wins": 1,
+     "places": 1,
+     "win_pct": 25.0,
+     "place_pct": 25.0
+    },
+    {
+     "key": "soft",
+     "runs": 2,
+     "wins": 0,
+     "places": 0,
+     "win_pct": 0.0,
+     "place_pct": 0.0
+    }
+   ],
+   "by_course": [],
+   "by_distance": [
+    {
+     "key": "staying",
+     "runs": 5,
+     "wins": 1,
+     "places": 1,
+     "win_pct": 20.0,
+     "place_pct": 20.0
+    }
+   ],
+   "jockey": {
+    "name": "Paul Mulrennan",
+    "runs": 4552,
+    "wins": 598,
+    "places": 1692,
+    "win_pct": 13.1,
+    "place_pct": 37.2
+   },
+   "trainer": {
+    "name": "Ian Williams",
+    "runs": 4318,
+    "wins": 451,
+    "places": 1388,
+    "win_pct": 10.4,
+    "place_pct": 32.1
+   },
+   "sire": {
+    "name": "Australia",
+    "runs": 3975,
+    "wins": 435,
+    "places": 1265,
+    "win_pct": 10.9,
+    "place_pct": 31.8
+   },
+   "sire_at_distance": {
+    "key": "staying",
+    "runs": 1285,
+    "wins": 119,
+    "places": 392,
+    "win_pct": 9.3,
+    "place_pct": 30.5
+   },
+   "jockey_trainer": {
+    "jockey": "Paul Mulrennan",
+    "trainer": "Ian Williams",
+    "runs": 42,
+    "wins": 5,
+    "places": 14,
+    "win_pct": 11.9,
+    "place_pct": 33.3
+   },
+   "trainer_here": {
+    "name": "Ian Williams",
+    "runs": 6,
+    "wins": 1,
+    "places": 1,
+    "win_pct": 16.7,
+    "place_pct": 16.7
+   },
+   "jockey_at_course": {
+    "name": "Paul Mulrennan",
+    "key": "Pontefract",
+    "runs": 129,
+    "wins": 12,
+    "places": 43,
+    "win_pct": 9.3,
+    "place_pct": 33.3
+   },
+   "jockey_at_distance": {
+    "name": "Paul Mulrennan",
+    "key": "staying",
+    "runs": 330,
+    "wins": 47,
+    "places": 144,
+    "win_pct": 14.2,
+    "place_pct": 43.6
+   },
+   "trainer_at_course": {
+    "name": "Ian Williams",
+    "key": "Pontefract",
+    "runs": 49,
+    "wins": 4,
+    "places": 17,
+    "win_pct": 8.2,
+    "place_pct": 34.7
+   },
+   "trainer_at_distance": {
+    "name": "Ian Williams",
+    "key": "staying",
+    "runs": 1653,
+    "wins": 173,
+    "places": 535,
+    "win_pct": 10.5,
+    "place_pct": 32.4
+   },
+   "recent_30d": {
+    "days": 30,
+    "runs": 1,
+    "wins": 0,
+    "places": 0,
+    "win_pct": 0.0,
+    "place_pct": 0.0
+   },
+   "recent_90d": {
+    "days": 90,
+    "runs": 3,
+    "wins": 1,
+    "places": 1,
+    "win_pct": 33.3,
+    "place_pct": 33.3
+   },
+   "days_since_last_run": 24,
+   "ident": {
+    "age": "5",
+    "sex": "gelding",
+    "colour": "b",
+    "owner": "The Freeworld Partnership",
+    "damsire": "Dubawi",
+    "dam": "Magic Image"
+   }
+  },
+  {
+   "slug": "pfingstberg",
+   "name": "Pfingstberg",
+   "race": {
+    "venue": "Pontefract",
+    "off_utc": "2026-10-05T16:56:00+01:00",
+    "going": "good",
+    "distance": "staying",
+    "runner_status": "runner"
+   },
+   "as_of": "2026-10-05",
+   "status": "has_history",
+   "career": {
+    "runs": 16,
+    "wins": 3,
+    "places": 11,
+    "win_pct": 18.8,
+    "place_pct": 68.8
+   },
+   "by_going": [
+    {
+     "key": "good",
+     "runs": 11,
+     "wins": 2,
+     "places": 8,
+     "win_pct": 18.2,
+     "place_pct": 72.7
+    },
+    {
+     "key": "soft",
+     "runs": 4,
+     "wins": 1,
+     "places": 3,
+     "win_pct": 25.0,
+     "place_pct": 75.0
+    }
+   ],
+   "by_course": [
+    {
+     "key": "Chelmsford (AW)",
+     "runs": 3,
+     "wins": 1,
+     "places": 3,
+     "win_pct": 33.3,
+     "place_pct": 100.0
+    },
+    {
+     "key": "Wolverhampton (AW)",
+     "runs": 2,
+     "wins": 0,
+     "places": 1,
+     "win_pct": 0.0,
+     "place_pct": 50.0
+    },
+    {
+     "key": "Windsor",
+     "runs": 2,
+     "wins": 0,
+     "places": 1,
+     "win_pct": 0.0,
+     "place_pct": 50.0
+    },
+    {
+     "key": "Beverley",
+     "runs": 2,
+     "wins": 0,
+     "places": 0,
+     "win_pct": 0.0,
+     "place_pct": 0.0
+    }
+   ],
+   "by_distance": [
+    {
+     "key": "staying",
+     "runs": 9,
+     "wins": 3,
+     "places": 7,
+     "win_pct": 33.3,
+     "place_pct": 77.8
+    },
+    {
+     "key": "middle",
+     "runs": 4,
+     "wins": 0,
+     "places": 4,
+     "win_pct": 0.0,
+     "place_pct": 100.0
+    },
+    {
+     "key": "mile",
+     "runs": 3,
+     "wins": 0,
+     "places": 0,
+     "win_pct": 0.0,
+     "place_pct": 0.0
+    }
+   ],
+   "jockey": {
+    "name": "Jack Garritty",
+    "runs": 1391,
+    "wins": 118,
+    "places": 454,
+    "win_pct": 8.5,
+    "place_pct": 32.6
+   },
+   "trainer": {
+    "name": "Mark Walford",
+    "runs": 2016,
+    "wins": 202,
+    "places": 644,
+    "win_pct": 10.0,
+    "place_pct": 31.9
+   },
+   "sire": {
+    "name": "Protectionist",
+    "runs": 211,
+    "wins": 28,
+    "places": 79,
+    "win_pct": 13.3,
+    "place_pct": 37.4
+   },
+   "sire_at_distance": {
+    "key": "staying",
+    "runs": 118,
+    "wins": 21,
+    "places": 51,
+    "win_pct": 17.8,
+    "place_pct": 43.2
+   },
+   "jockey_trainer": {
+    "jockey": "Jack Garritty",
+    "trainer": "Mark Walford",
+    "runs": 248,
+    "wins": 28,
+    "places": 76,
+    "win_pct": 11.3,
+    "place_pct": 30.6
+   },
+   "jockey_at_course": {
+    "name": "Jack Garritty",
+    "key": "Pontefract",
+    "runs": 70,
+    "wins": 5,
+    "places": 22,
+    "win_pct": 7.1,
+    "place_pct": 31.4
+   },
+   "jockey_at_distance": {
+    "name": "Jack Garritty",
+    "key": "staying",
+    "runs": 93,
+    "wins": 7,
+    "places": 39,
+    "win_pct": 7.5,
+    "place_pct": 41.9
+   },
+   "trainer_at_course": {
+    "name": "Mark Walford",
+    "key": "Pontefract",
+    "runs": 59,
+    "wins": 3,
+    "places": 16,
+    "win_pct": 5.1,
+    "place_pct": 27.1
+   },
+   "trainer_at_distance": {
+    "name": "Mark Walford",
+    "key": "staying",
+    "runs": 1077,
+    "wins": 129,
+    "places": 408,
+    "win_pct": 12.0,
+    "place_pct": 37.9
+   },
+   "recent_90d": {
+    "days": 90,
+    "runs": 1,
+    "wins": 0,
+    "places": 0,
+    "win_pct": 0.0,
+    "place_pct": 0.0
+   },
+   "days_since_last_run": 36,
+   "ident": {
+    "age": "6",
+    "sex": "gelding",
+    "colour": "ch",
+    "owner": "R W The 8 Amigos Burns Austerfield",
+    "damsire": "Sholokhov",
+    "dam": "Peace Of Paradise"
+   }
+  },
+  {
+   "slug": "noble-grace",
+   "name": "Noble Grace",
+   "race": {
+    "venue": "Pontefract",
+    "off_utc": "2026-10-05T16:56:00+01:00",
+    "going": "good",
+    "distance": "staying",
+    "runner_status": "runner"
+   },
+   "as_of": "2026-10-05",
+   "status": "has_history",
+   "career": {
+    "runs": 10,
+    "wins": 1,
+    "places": 3,
+    "win_pct": 10.0,
+    "place_pct": 30.0
+   },
+   "by_going": [
+    {
+     "key": "good",
+     "runs": 6,
+     "wins": 1,
+     "places": 3,
+     "win_pct": 16.7,
+     "place_pct": 50.0
+    },
+    {
+     "key": "soft",
+     "runs": 4,
+     "wins": 0,
+     "places": 0,
+     "win_pct": 0.0,
+     "place_pct": 0.0
+    }
+   ],
+   "by_course": [
+    {
+     "key": "Ffos Las",
+     "runs": 2,
+     "wins": 1,
+     "places": 2,
+     "win_pct": 50.0,
+     "place_pct": 100.0
+    }
+   ],
+   "by_distance": [
+    {
+     "key": "staying",
+     "runs": 5,
+     "wins": 0,
+     "places": 1,
+     "win_pct": 0.0,
+     "place_pct": 20.0
+    },
+    {
+     "key": "middle",
+     "runs": 4,
+     "wins": 1,
+     "places": 2,
+     "win_pct": 25.0,
+     "place_pct": 50.0
+    }
+   ],
+   "jockey": {
+    "name": "Edward Greatrex",
+    "runs": 1217,
+    "wins": 155,
+    "places": 441,
+    "win_pct": 12.7,
+    "place_pct": 36.2
+   },
+   "trainer": {
+    "name": "Warren Greatrex",
+    "runs": 1661,
+    "wins": 164,
+    "places": 610,
+    "win_pct": 9.9,
+    "place_pct": 36.7
+   },
+   "sire": {
+    "name": "Yeats",
+    "runs": 6522,
+    "wins": 774,
+    "places": 2277,
+    "win_pct": 11.9,
+    "place_pct": 34.9
+   },
+   "sire_at_distance": {
+    "key": "staying",
+    "runs": 6456,
+    "wins": 767,
+    "places": 2258,
+    "win_pct": 11.9,
+    "place_pct": 35.0
+   },
+   "jockey_trainer": {
+    "jockey": "Edward Greatrex",
+    "trainer": "Warren Greatrex",
+    "runs": 148,
+    "wins": 17,
+    "places": 58,
+    "win_pct": 11.5,
+    "place_pct": 39.2
+   },
+   "jockey_here": {
+    "name": "Edward Greatrex",
+    "runs": 2,
+    "wins": 0,
+    "places": 0,
+    "win_pct": 0.0,
+    "place_pct": 0.0
+   },
+   "trainer_here": {
+    "name": "Warren Greatrex",
+    "runs": 10,
+    "wins": 1,
+    "places": 3,
+    "win_pct": 10.0,
+    "place_pct": 30.0
+   },
+   "jockey_at_distance": {
+    "name": "Edward Greatrex",
+    "key": "staying",
+    "runs": 72,
+    "wins": 8,
+    "places": 18,
+    "win_pct": 11.1,
+    "place_pct": 25.0
+   },
+   "trainer_at_distance": {
+    "name": "Warren Greatrex",
+    "key": "staying",
+    "runs": 1382,
+    "wins": 140,
+    "places": 513,
+    "win_pct": 10.1,
+    "place_pct": 37.1
+   },
+   "recent_30d": {
+    "days": 30,
+    "runs": 1,
+    "wins": 0,
+    "places": 0,
+    "win_pct": 0.0,
+    "place_pct": 0.0
+   },
+   "recent_90d": {
+    "days": 90,
+    "runs": 3,
+    "wins": 1,
+    "places": 2,
+    "win_pct": 33.3,
+    "place_pct": 66.7
+   },
+   "days_since_last_run": 22,
+   "ident": {
+    "age": "5",
+    "sex": "mare",
+    "colour": "b",
+    "owner": "Crawford Smith Family",
+    "damsire": "Karinga Bay",
+    "dam": "She's Noble"
+   }
+  },
+  {
+   "slug": "further-measure",
+   "name": "Further Measure",
+   "race": {
+    "venue": "Pontefract",
+    "off_utc": "2026-10-05T16:56:00+01:00",
+    "going": "good",
+    "distance": "staying",
+    "runner_status": "runner"
+   },
+   "as_of": "2026-10-05",
+   "status": "has_history",
+   "career": {
+    "runs": 59,
+    "wins": 9,
+    "places": 21,
+    "win_pct": 15.3,
+    "place_pct": 35.6
+   },
+   "by_going": [
+    {
+     "key": "good",
+     "runs": 46,
+     "wins": 6,
+     "places": 16,
+     "win_pct": 13.0,
+     "place_pct": 34.8
+    },
+    {
+     "key": "soft",
+     "runs": 13,
+     "wins": 3,
+     "places": 5,
+     "win_pct": 23.1,
+     "place_pct": 38.5
+    }
+   ],
+   "by_course": [
+    {
+     "key": "Wolverhampton (AW)",
+     "runs": 12,
+     "wins": 2,
+     "places": 4,
+     "win_pct": 16.7,
+     "place_pct": 33.3
+    },
+    {
+     "key": "Southwell (AW)",
+     "runs": 10,
+     "wins": 3,
+     "places": 4,
+     "win_pct": 30.0,
+     "place_pct": 40.0
+    },
+    {
+     "key": "Lingfield (AW)",
+     "runs": 9,
+     "wins": 1,
+     "places": 1,
+     "win_pct": 11.1,
+     "place_pct": 11.1
+    },
+    {
+     "key": "Chelmsford (AW)",
+     "runs": 7,
+     "wins": 1,
+     "places": 5,
+     "win_pct": 14.3,
+     "place_pct": 71.4
+    },
+    {
+     "key": "Kempton (AW)",
+     "runs": 7,
+     "wins": 2,
+     "places": 2,
+     "win_pct": 28.6,
+     "place_pct": 28.6
+    },
+    {
+     "key": "Newbury",
+     "runs": 3,
+     "wins": 0,
+     "places": 2,
+     "win_pct": 0.0,
+     "place_pct": 66.7
+    },
+    {
+     "key": "Sandown",
+     "runs": 2,
+     "wins": 0,
+     "places": 0,
+     "win_pct": 0.0,
+     "place_pct": 0.0
+    },
+    {
+     "key": "Newcastle (AW)",
+     "runs": 2,
+     "wins": 0,
+     "places": 1,
+     "win_pct": 0.0,
+     "place_pct": 50.0
+    },
+    {
+     "key": "Windsor",
+     "runs": 2,
+     "wins": 0,
+     "places": 0,
+     "win_pct": 0.0,
+     "place_pct": 0.0
+    },
+    {
+     "key": "Bath",
+     "runs": 2,
+     "wins": 0,
+     "places": 2,
+     "win_pct": 0.0,
+     "place_pct": 100.0
+    }
+   ],
+   "by_distance": [
+    {
+     "key": "staying",
+     "runs": 30,
+     "wins": 7,
+     "places": 13,
+     "win_pct": 23.3,
+     "place_pct": 43.3
+    },
+    {
+     "key": "middle",
+     "runs": 18,
+     "wins": 1,
+     "places": 6,
+     "win_pct": 5.6,
+     "place_pct": 33.3
+    },
+    {
+     "key": "mile",
+     "runs": 11,
+     "wins": 1,
+     "places": 2,
+     "win_pct": 9.1,
+     "place_pct": 18.2
+    }
+   ],
+   "jockey": {
+    "name": "Clifford Lee",
+    "runs": 3205,
+    "wins": 458,
+    "places": 1225,
+    "win_pct": 14.3,
+    "place_pct": 38.2
+   },
+   "trainer": {
+    "name": "Mike Murphy",
+    "runs": 619,
+    "wins": 72,
+    "places": 181,
+    "win_pct": 11.6,
+    "place_pct": 29.2
+   },
+   "sire": {
+    "name": "English Channel",
+    "runs": 176,
+    "wins": 27,
+    "places": 64,
+    "win_pct": 15.3,
+    "place_pct": 36.4
+   },
+   "sire_at_distance": {
+    "key": "staying",
+    "runs": 86,
+    "wins": 15,
+    "places": 38,
+    "win_pct": 17.4,
+    "place_pct": 44.2
+   },
+   "trainer_here": {
+    "name": "Mike Murphy",
+    "runs": 22,
+    "wins": 6,
+    "places": 7,
+    "win_pct": 27.3,
+    "place_pct": 31.8
+   },
+   "jockey_at_course": {
+    "name": "Clifford Lee",
+    "key": "Pontefract",
+    "runs": 93,
+    "wins": 20,
+    "places": 40,
+    "win_pct": 21.5,
+    "place_pct": 43.0
+   },
+   "jockey_at_distance": {
+    "name": "Clifford Lee",
+    "key": "staying",
+    "runs": 121,
+    "wins": 12,
+    "places": 46,
+    "win_pct": 9.9,
+    "place_pct": 38.0
+   },
+   "trainer_at_distance": {
+    "name": "Mike Murphy",
+    "key": "staying",
+    "runs": 49,
+    "wins": 7,
+    "places": 9,
+    "win_pct": 14.3,
+    "place_pct": 18.4
+   },
+   "recent_30d": {
+    "days": 30,
+    "runs": 1,
+    "wins": 0,
+    "places": 0,
+    "win_pct": 0.0,
+    "place_pct": 0.0
+   },
+   "recent_90d": {
+    "days": 90,
+    "runs": 4,
+    "wins": 0,
+    "places": 0,
+    "win_pct": 0.0,
+    "place_pct": 0.0
+   },
+   "days_since_last_run": 13,
+   "ident": {
+    "age": "9",
+    "sex": "gelding",
+    "colour": "b",
+    "owner": "Ms Denise Tibbett",
+    "damsire": "Dansili",
+    "dam": "Price Tag"
+   }
+  },
+  {
+   "slug": "simiyann",
+   "name": "Simiyann",
+   "race": {
+    "venue": "Pontefract",
+    "off_utc": "2026-10-05T16:56:00+01:00",
+    "going": "good",
+    "distance": "staying",
+    "runner_status": "runner"
+   },
+   "as_of": "2026-10-05",
+   "status": "has_history",
+   "career": {
+    "runs": 37,
+    "wins": 4,
+    "places": 13,
+    "win_pct": 10.8,
+    "place_pct": 35.1
+   },
+   "by_going": [
+    {
+     "key": "good",
+     "runs": 29,
+     "wins": 4,
+     "places": 11,
+     "win_pct": 13.8,
+     "place_pct": 37.9
+    },
+    {
+     "key": "soft",
+     "runs": 7,
+     "wins": 0,
+     "places": 2,
+     "win_pct": 0.0,
+     "place_pct": 28.6
+    }
+   ],
+   "by_course": [
+    {
+     "key": "Southwell (AW)",
+     "runs": 5,
+     "wins": 0,
+     "places": 2,
+     "win_pct": 0.0,
+     "place_pct": 40.0
+    },
+    {
+     "key": "Wolverhampton (AW)",
+     "runs": 4,
+     "wins": 2,
+     "places": 3,
+     "win_pct": 50.0,
+     "place_pct": 75.0
+    },
+    {
+     "key": "Chelmsford (AW)",
+     "runs": 4,
+     "wins": 0,
+     "places": 2,
+     "win_pct": 0.0,
+     "place_pct": 50.0
+    },
+    {
+     "key": "Chester",
+     "runs": 3,
+     "wins": 0,
+     "places": 0,
+     "win_pct": 0.0,
+     "place_pct": 0.0
+    },
+    {
+     "key": "Ffos Las",
+     "runs": 3,
+     "wins": 1,
+     "places": 1,
+     "win_pct": 33.3,
+     "place_pct": 33.3
+    },
+    {
+     "key": "Nottingham",
+     "runs": 3,
+     "wins": 0,
+     "places": 3,
+     "win_pct": 0.0,
+     "place_pct": 100.0
+    },
+    {
+     "key": "Kempton (AW)",
+     "runs": 2,
+     "wins": 0,
+     "places": 0,
+     "win_pct": 0.0,
+     "place_pct": 0.0
+    },
+    {
+     "key": "Sandown",
+     "runs": 2,
+     "wins": 0,
+     "places": 0,
+     "win_pct": 0.0,
+     "place_pct": 0.0
+    },
+    {
+     "key": "Newbury",
+     "runs": 2,
+     "wins": 0,
+     "places": 0,
+     "win_pct": 0.0,
+     "place_pct": 0.0
+    },
+    {
+     "key": "Pontefract",
+     "runs": 2,
+     "wins": 0,
+     "places": 0,
+     "win_pct": 0.0,
+     "place_pct": 0.0
+    }
+   ],
+   "by_distance": [
+    {
+     "key": "staying",
+     "runs": 35,
+     "wins": 4,
+     "places": 13,
+     "win_pct": 11.4,
+     "place_pct": 37.1
+    },
+    {
+     "key": "middle",
+     "runs": 2,
+     "wins": 0,
+     "places": 0,
+     "win_pct": 0.0,
+     "place_pct": 0.0
+    }
+   ],
+   "jockey": {
+    "name": "Cam Hardie",
+    "runs": 4565,
+    "wins": 235,
+    "places": 1004,
+    "win_pct": 5.1,
+    "place_pct": 22.0
+   },
+   "trainer": {
+    "name": "Mike Sowersby",
+    "runs": 581,
+    "wins": 19,
+    "places": 85,
+    "win_pct": 3.3,
+    "place_pct": 14.6
+   },
+   "sire": {
+    "name": "Australia",
+    "runs": 3975,
+    "wins": 435,
+    "places": 1265,
+    "win_pct": 10.9,
+    "place_pct": 31.8
+   },
+   "sire_at_distance": {
+    "key": "staying",
+    "runs": 1285,
+    "wins": 119,
+    "places": 392,
+    "win_pct": 9.3,
+    "place_pct": 30.5
+   },
+   "jockey_trainer": {
+    "jockey": "Cam Hardie",
+    "trainer": "Mike Sowersby",
+    "runs": 36,
+    "wins": 3,
+    "places": 9,
+    "win_pct": 8.3,
+    "place_pct": 25.0
+   },
+   "jockey_at_course": {
+    "name": "Cam Hardie",
+    "key": "Pontefract",
+    "runs": 132,
+    "wins": 15,
+    "places": 38,
+    "win_pct": 11.4,
+    "place_pct": 28.8
+   },
+   "jockey_at_distance": {
+    "name": "Cam Hardie",
+    "key": "staying",
+    "runs": 254,
+    "wins": 20,
+    "places": 68,
+    "win_pct": 7.9,
+    "place_pct": 26.8
+   },
+   "trainer_at_distance": {
+    "name": "Mike Sowersby",
+    "key": "staying",
+    "runs": 497,
+    "wins": 17,
+    "places": 78,
+    "win_pct": 3.4,
+    "place_pct": 15.7
+   },
+   "recent_30d": {
+    "days": 30,
+    "runs": 1,
+    "wins": 0,
+    "places": 0,
+    "win_pct": 0.0,
+    "place_pct": 0.0
+   },
+   "recent_90d": {
+    "days": 90,
+    "runs": 5,
+    "wins": 0,
+    "places": 3,
+    "win_pct": 0.0,
+    "place_pct": 60.0
+   },
+   "days_since_last_run": 23,
+   "ident": {
+    "age": "6",
+    "sex": "gelding",
+    "colour": "b",
+    "owner": "Mr M E Sowersby",
+    "damsire": "Holy Roman Emperor",
+    "dam": "Simiyna"
+   }
+  },
+  {
+   "slug": "bodygroove",
+   "name": "Bodygroove",
+   "race": {
+    "venue": "Pontefract",
+    "off_utc": "2026-10-05T16:56:00+01:00",
+    "going": "good",
+    "distance": "staying",
+    "runner_status": "runner"
+   },
+   "as_of": "2026-10-05",
+   "status": "has_history",
+   "career": {
+    "runs": 20,
+    "wins": 2,
+    "places": 3,
+    "win_pct": 10.0,
+    "place_pct": 15.0
+   },
+   "by_going": [
+    {
+     "key": "good",
+     "runs": 11,
+     "wins": 2,
+     "places": 2,
+     "win_pct": 18.2,
+     "place_pct": 18.2
+    },
+    {
+     "key": "soft",
+     "runs": 8,
+     "wins": 0,
+     "places": 0,
+     "win_pct": 0.0,
+     "place_pct": 0.0
+    }
+   ],
+   "by_course": [
+    {
+     "key": "Carlisle",
+     "runs": 4,
+     "wins": 0,
+     "places": 1,
+     "win_pct": 0.0,
+     "place_pct": 25.0
+    },
+    {
+     "key": "Kempton (AW)",
+     "runs": 3,
+     "wins": 0,
+     "places": 0,
+     "win_pct": 0.0,
+     "place_pct": 0.0
+    },
+    {
+     "key": "Wetherby",
+     "runs": 3,
+     "wins": 1,
+     "places": 1,
+     "win_pct": 33.3,
+     "place_pct": 33.3
+    },
+    {
+     "key": "Catterick",
+     "runs": 3,
+     "wins": 0,
+     "places": 0,
+     "win_pct": 0.0,
+     "place_pct": 0.0
+    },
+    {
+     "key": "Sedgefield",
+     "runs": 2,
+     "wins": 0,
+     "places": 0,
+     "win_pct": 0.0,
+     "place_pct": 0.0
+    }
+   ],
+   "by_distance": [
+    {
+     "key": "staying",
+     "runs": 16,
+     "wins": 2,
+     "places": 3,
+     "win_pct": 12.5,
+     "place_pct": 18.8
+    },
+    {
+     "key": "mile",
+     "runs": 3,
+     "wins": 0,
+     "places": 0,
+     "win_pct": 0.0,
+     "place_pct": 0.0
+    }
+   ],
+   "jockey": {
+    "name": "Aiden Brookes",
+    "runs": 1173,
+    "wins": 91,
+    "places": 285,
+    "win_pct": 7.8,
+    "place_pct": 24.3
+   },
+   "trainer": {
+    "name": "Micky Hammond",
+    "runs": 3094,
+    "wins": 254,
+    "places": 876,
+    "win_pct": 8.2,
+    "place_pct": 28.3
+   },
+   "sire": {
+    "name": "Iffraaj",
+    "runs": 4960,
+    "wins": 506,
+    "places": 1515,
+    "win_pct": 10.2,
+    "place_pct": 30.5
+   },
+   "sire_at_distance": {
+    "key": "staying",
+    "runs": 883,
+    "wins": 89,
+    "places": 264,
+    "win_pct": 10.1,
+    "place_pct": 29.9
+   },
+   "jockey_trainer": {
+    "jockey": "Aiden Brookes",
+    "trainer": "Micky Hammond",
+    "runs": 460,
+    "wins": 29,
+    "places": 97,
+    "win_pct": 6.3,
+    "place_pct": 21.1
+   },
+   "jockey_here": {
+    "name": "Aiden Brookes",
+    "runs": 3,
+    "wins": 0,
+    "places": 0,
+    "win_pct": 0.0,
+    "place_pct": 0.0
+   },
+   "trainer_here": {
+    "name": "Micky Hammond",
+    "runs": 15,
+    "wins": 1,
+    "places": 2,
+    "win_pct": 6.7,
+    "place_pct": 13.3
+   },
+   "jockey_at_course": {
+    "name": "Aiden Brookes",
+    "key": "Pontefract",
+    "runs": 63,
+    "wins": 6,
+    "places": 12,
+    "win_pct": 9.5,
+    "place_pct": 19.0
+   },
+   "jockey_at_distance": {
+    "name": "Aiden Brookes",
+    "key": "staying",
+    "runs": 161,
+    "wins": 23,
+    "places": 63,
+    "win_pct": 14.3,
+    "place_pct": 39.1
+   },
+   "trainer_at_course": {
+    "name": "Micky Hammond",
+    "key": "Pontefract",
+    "runs": 106,
+    "wins": 7,
+    "places": 25,
+    "win_pct": 6.6,
+    "place_pct": 23.6
+   },
+   "trainer_at_distance": {
+    "name": "Micky Hammond",
+    "key": "staying",
+    "runs": 2325,
+    "wins": 212,
+    "places": 711,
+    "win_pct": 9.1,
+    "place_pct": 30.6
+   },
+   "recent_30d": {
+    "days": 30,
+    "runs": 1,
+    "wins": 0,
+    "places": 0,
+    "win_pct": 0.0,
+    "place_pct": 0.0
+   },
+   "recent_90d": {
+    "days": 90,
+    "runs": 1,
+    "wins": 0,
+    "places": 0,
+    "win_pct": 0.0,
+    "place_pct": 0.0
+   },
+   "days_since_last_run": 21,
+   "ident": {
+    "age": "6",
+    "sex": "gelding",
+    "colour": "b",
+    "owner": "Mrs B M Lofthouse",
+    "damsire": "Cockney Rebel",
+    "dam": "Groovejet"
+   }
+  },
+  {
    "slug": "amber-ocean",
    "name": "Amber Ocean",
    "race": {
@@ -59060,7 +58754,7 @@
     "off_utc": "2026-10-05T17:05:00+01:00",
     "going": "soft",
     "distance": "middle",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-05",
    "status": "has_history",
@@ -59218,7 +58912,7 @@
     "off_utc": "2026-10-05T17:05:00+01:00",
     "going": "soft",
     "distance": "middle",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-05",
    "status": "has_history",
@@ -59998,7 +59692,7 @@
     "off_utc": "2026-10-05T17:05:00+01:00",
     "going": "soft",
     "distance": "middle",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-05",
    "status": "has_history",
@@ -60397,18 +60091,18 @@
    },
    "sire": {
     "name": "Le Havre",
-    "runs": 1487,
+    "runs": 1484,
     "wins": 205,
     "places": 543,
     "win_pct": 13.8,
-    "place_pct": 36.5
+    "place_pct": 36.6
    },
    "sire_at_distance": {
     "key": "middle",
-    "runs": 543,
+    "runs": 542,
     "wins": 86,
     "places": 210,
-    "win_pct": 15.8,
+    "win_pct": 15.9,
     "place_pct": 38.7
    },
    "jockey_trainer": {
@@ -62089,7 +61783,7 @@
     "off_utc": "2026-10-05T17:25:00+01:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-05",
    "status": "has_history",
@@ -64043,7 +63737,7 @@
     "off_utc": "2026-10-05T17:25:00+01:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "reserve"
+    "runner_status": "runner"
    },
    "as_of": "2026-10-05",
    "status": "has_history",
@@ -64083,6 +63777,14 @@
      "place_pct": 0.0
     }
    ],
+   "jockey": {
+    "name": "Jack Kennedy",
+    "runs": 2335,
+    "wins": 438,
+    "places": 1111,
+    "win_pct": 18.8,
+    "place_pct": 47.6
+   },
    "trainer": {
     "name": "Gordon Elliott",
     "runs": 8569,
@@ -64107,6 +63809,23 @@
     "win_pct": 12.0,
     "place_pct": 34.7
    },
+   "jockey_trainer": {
+    "jockey": "Jack Kennedy",
+    "trainer": "Gordon Elliott",
+    "runs": 2001,
+    "wins": 386,
+    "places": 976,
+    "win_pct": 19.3,
+    "place_pct": 48.8
+   },
+   "jockey_here": {
+    "name": "Jack Kennedy",
+    "runs": 2,
+    "wins": 0,
+    "places": 0,
+    "win_pct": 0.0,
+    "place_pct": 0.0
+   },
    "trainer_here": {
     "name": "Gordon Elliott",
     "runs": 4,
@@ -64114,6 +63833,24 @@
     "places": 0,
     "win_pct": 0.0,
     "place_pct": 0.0
+   },
+   "jockey_at_course": {
+    "name": "Jack Kennedy",
+    "key": "Fairyhouse",
+    "runs": 262,
+    "wins": 50,
+    "places": 119,
+    "win_pct": 19.1,
+    "place_pct": 45.4
+   },
+   "jockey_at_distance": {
+    "name": "Jack Kennedy",
+    "key": "staying",
+    "runs": 2331,
+    "wins": 438,
+    "places": 1111,
+    "win_pct": 18.8,
+    "place_pct": 47.7
    },
    "trainer_at_course": {
     "name": "Gordon Elliott",
@@ -64151,7 +63888,7 @@
     "off_utc": "2026-10-05T17:25:00+01:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-05",
    "status": "has_history",
@@ -64268,7 +64005,7 @@
     "off_utc": "2026-10-05T17:30:00+01:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-05",
    "status": "has_history",
@@ -64410,7 +64147,7 @@
     "off_utc": "2026-10-05T17:30:00+01:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-05",
    "status": "has_history",
@@ -69960,7 +69697,7 @@
     "off_utc": "2026-10-05T18:00:00+01:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-05",
    "status": "debut",
@@ -72748,7 +72485,7 @@
     "off_utc": "2026-10-05T18:30:00+01:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-05",
    "status": "has_history",
@@ -73651,7 +73388,7 @@
     "off_utc": "2026-10-05T18:30:00+01:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-05",
    "status": "has_history",
@@ -91148,7 +90885,7 @@
     "off_utc": "2026-10-05T20:30:00+01:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-05",
    "status": "has_history",
