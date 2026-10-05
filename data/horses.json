@@ -1,6 +1,6 @@
 {
  "schema": "horses_v5",
- "generated_at": "2026-10-05T16:00:25Z",
+ "generated_at": "2026-10-05T21:30:13Z",
  "source": "Historical race results",
  "note": "Every figure is computed using only races run STRICTLY BEFORE the race it describes — the `as_of` date on each horse. Groups with fewer than two runs are omitted rather than shown as a rate, because a 100% strike rate over one run is noise wearing the clothes of a finding. Our archive runs to 2026-10-04: a horse that ran after that date has those runs missing here, so read `career` as what we hold, not as a complete record.",
  "history_depth": {
@@ -19,7 +19,7 @@
   "still_missing": 1570,
   "note": "Sire totals count the progeny we hold. Breeding is complete for races up to 2026-07-22. After that date our live source carries it for about half of runners; we recover most of the rest from the same horse's other races, but not all. Recent races are therefore under-counted in sire totals."
  },
- "collected_through": "2026-10-05T15:00:04Z",
+ "collected_through": "2026-10-05T19:00:06Z",
  "distance_bands": [
   {
    "key": "sprint",
@@ -61407,7 +61407,7 @@
     "off_utc": "2026-10-05T17:25:00+01:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-05",
    "status": "has_history",
@@ -61673,12 +61673,12 @@
     }
    ],
    "jockey": {
-    "name": "Paddy Cleary(7)",
-    "runs": 97,
-    "wins": 3,
-    "places": 10,
-    "win_pct": 3.1,
-    "place_pct": 10.3
+    "name": "Paddy Cody(7)",
+    "runs": 99,
+    "wins": 7,
+    "places": 23,
+    "win_pct": 7.1,
+    "place_pct": 23.2
    },
    "trainer": {
     "name": "John McConnell",
@@ -61712,23 +61712,14 @@
     "win_pct": 0.0,
     "place_pct": 25.9
    },
-   "jockey_at_course": {
-    "name": "Paddy Cleary(7)",
-    "key": "Fairyhouse",
-    "runs": 13,
-    "wins": 0,
-    "places": 0,
-    "win_pct": 0.0,
-    "place_pct": 0.0
-   },
    "jockey_at_distance": {
-    "name": "Paddy Cleary(7)",
+    "name": "Paddy Cody(7)",
     "key": "staying",
-    "runs": 97,
-    "wins": 3,
-    "places": 10,
-    "win_pct": 3.1,
-    "place_pct": 10.3
+    "runs": 98,
+    "wins": 7,
+    "places": 22,
+    "win_pct": 7.1,
+    "place_pct": 22.4
    },
    "trainer_at_course": {
     "name": "John McConnell",
@@ -70089,7 +70080,7 @@
     "off_utc": "2026-10-05T18:00:00+01:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-05",
    "status": "has_history",
@@ -76159,7 +76150,7 @@
     "off_utc": "2026-10-05T18:45:00+01:00",
     "going": "soft",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-05",
    "status": "has_history",
@@ -83893,7 +83884,7 @@
     "off_utc": "2026-10-05T19:45:00+01:00",
     "going": "soft",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-05",
    "status": "has_history",
