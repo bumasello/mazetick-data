@@ -1,6 +1,6 @@
 {
  "schema": "horses_v5",
- "generated_at": "2026-10-06T12:00:32Z",
+ "generated_at": "2026-10-06T16:00:32Z",
  "source": "Historical race results",
  "note": "Every figure is computed using only races run STRICTLY BEFORE the race it describes — the `as_of` date on each horse. Groups with fewer than two runs are omitted rather than shown as a rate, because a 100% strike rate over one run is noise wearing the clothes of a finding. Our archive runs to 2026-10-05: a horse that ran after that date has those runs missing here, so read `career` as what we hold, not as a complete record.",
  "history_depth": {
@@ -19,7 +19,7 @@
   "still_missing": 1552,
   "note": "Sire totals count the progeny we hold. Breeding is complete for races up to 2026-07-22. After that date our live source carries it for about half of runners; we recover most of the rest from the same horse's other races, but not all. Recent races are therefore under-counted in sire totals."
  },
- "collected_through": "2026-10-06T11:00:02Z",
+ "collected_through": "2026-10-06T15:00:03Z",
  "distance_bands": [
   {
    "key": "sprint",
@@ -7710,12 +7710,12 @@
    "by_course": [],
    "by_distance": [],
    "jockey": {
-    "name": "Callum Shepherd",
-    "runs": 3844,
-    "wins": 432,
-    "places": 1319,
-    "win_pct": 11.2,
-    "place_pct": 34.3
+    "name": "Jack Mitchell",
+    "runs": 3985,
+    "wins": 607,
+    "places": 1716,
+    "win_pct": 15.2,
+    "place_pct": 43.1
    },
    "trainer": {
     "name": "George Baker",
@@ -7742,31 +7742,31 @@
     "place_pct": 32.8
    },
    "jockey_trainer": {
-    "jockey": "Callum Shepherd",
+    "jockey": "Jack Mitchell",
     "trainer": "George Baker",
-    "runs": 23,
-    "wins": 3,
-    "places": 4,
-    "win_pct": 13.0,
-    "place_pct": 17.4
+    "runs": 27,
+    "wins": 5,
+    "places": 13,
+    "win_pct": 18.5,
+    "place_pct": 48.1
    },
    "jockey_at_course": {
-    "name": "Callum Shepherd",
+    "name": "Jack Mitchell",
     "key": "Leicester",
-    "runs": 66,
-    "wins": 7,
-    "places": 21,
-    "win_pct": 10.6,
-    "place_pct": 31.8
+    "runs": 59,
+    "wins": 11,
+    "places": 24,
+    "win_pct": 18.6,
+    "place_pct": 40.7
    },
    "jockey_at_distance": {
-    "name": "Callum Shepherd",
+    "name": "Jack Mitchell",
     "key": "sprint",
-    "runs": 1104,
-    "wins": 133,
-    "places": 374,
-    "win_pct": 12.0,
-    "place_pct": 33.9
+    "runs": 1131,
+    "wins": 177,
+    "places": 488,
+    "win_pct": 15.6,
+    "place_pct": 43.1
    },
    "trainer_at_course": {
     "name": "George Baker",
@@ -13400,7 +13400,7 @@
     "off_utc": "2026-10-06T14:41:00+01:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-06",
    "status": "has_history",
@@ -13887,7 +13887,7 @@
     "off_utc": "2026-10-06T14:41:00+01:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-06",
    "status": "has_history",
@@ -14196,7 +14196,7 @@
     "off_utc": "2026-10-06T14:48:00+01:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-06",
    "status": "has_history",
@@ -19034,7 +19034,7 @@
     "off_utc": "2026-10-06T15:16:00+01:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-06",
    "status": "has_history",
@@ -21679,7 +21679,7 @@
     "off_utc": "2026-10-06T15:30:00+01:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-06",
    "status": "has_history",
@@ -23451,12 +23451,12 @@
     }
    ],
    "jockey": {
-    "name": "James Davies",
-    "runs": 1686,
-    "wins": 121,
-    "places": 402,
-    "win_pct": 7.2,
-    "place_pct": 23.8
+    "name": "Jack Quinlan",
+    "runs": 1675,
+    "wins": 160,
+    "places": 542,
+    "win_pct": 9.6,
+    "place_pct": 32.4
    },
    "trainer": {
     "name": "J. R. Jenkins",
@@ -23482,14 +23482,6 @@
     "win_pct": 8.3,
     "place_pct": 27.9
    },
-   "jockey_here": {
-    "name": "James Davies",
-    "runs": 3,
-    "wins": 0,
-    "places": 1,
-    "win_pct": 0.0,
-    "place_pct": 33.3
-   },
    "trainer_here": {
     "name": "J. R. Jenkins",
     "runs": 16,
@@ -23499,22 +23491,22 @@
     "place_pct": 6.2
    },
    "jockey_at_course": {
-    "name": "James Davies",
+    "name": "Jack Quinlan",
     "key": "Huntingdon",
-    "runs": 115,
-    "wins": 6,
-    "places": 27,
-    "win_pct": 5.2,
-    "place_pct": 23.5
+    "runs": 173,
+    "wins": 11,
+    "places": 49,
+    "win_pct": 6.4,
+    "place_pct": 28.3
    },
    "jockey_at_distance": {
-    "name": "James Davies",
+    "name": "Jack Quinlan",
     "key": "staying",
-    "runs": 1684,
-    "wins": 121,
-    "places": 402,
-    "win_pct": 7.2,
-    "place_pct": 23.9
+    "runs": 1669,
+    "wins": 160,
+    "places": 541,
+    "win_pct": 9.6,
+    "place_pct": 32.4
    },
    "trainer_at_course": {
     "name": "J. R. Jenkins",
@@ -33818,7 +33810,7 @@
     "off_utc": "2026-10-06T16:33:00+01:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-06",
    "status": "has_history",
