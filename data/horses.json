@@ -1,6 +1,6 @@
 {
  "schema": "horses_v5",
- "generated_at": "2026-10-06T07:00:30Z",
+ "generated_at": "2026-10-06T12:00:32Z",
  "source": "Historical race results",
  "note": "Every figure is computed using only races run STRICTLY BEFORE the race it describes — the `as_of` date on each horse. Groups with fewer than two runs are omitted rather than shown as a rate, because a 100% strike rate over one run is noise wearing the clothes of a finding. Our archive runs to 2026-10-05: a horse that ran after that date has those runs missing here, so read `career` as what we hold, not as a complete record.",
  "history_depth": {
@@ -19,7 +19,7 @@
   "still_missing": 1552,
   "note": "Sire totals count the progeny we hold. Breeding is complete for races up to 2026-07-22. After that date our live source carries it for about half of runners; we recover most of the rest from the same horse's other races, but not all. Recent races are therefore under-counted in sire totals."
  },
- "collected_through": "2026-10-06T06:00:01Z",
+ "collected_through": "2026-10-06T11:00:02Z",
  "distance_bands": [
   {
    "key": "sprint",
@@ -3580,7 +3580,7 @@
     "off_utc": "2026-10-06T13:38:00+01:00",
     "going": "good",
     "distance": "middle",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-06",
    "status": "has_history",
@@ -6129,7 +6129,7 @@
     "off_utc": "2026-10-06T13:45:00+01:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-06",
    "status": "no_record",
@@ -6202,7 +6202,7 @@
     "off_utc": "2026-10-06T13:45:00+01:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-06",
    "status": "no_record",
@@ -13920,12 +13920,12 @@
     }
    ],
    "jockey": {
-    "name": "Alex Jary(3)",
-    "runs": 944,
-    "wins": 70,
-    "places": 241,
-    "win_pct": 7.4,
-    "place_pct": 25.5
+    "name": "Tom Kiely-Marshall(3)",
+    "runs": 737,
+    "wins": 58,
+    "places": 199,
+    "win_pct": 7.9,
+    "place_pct": 27.0
    },
    "trainer": {
     "name": "Jack Jones",
@@ -13960,22 +13960,22 @@
     "place_pct": 0.0
    },
    "jockey_at_course": {
-    "name": "Alex Jary(3)",
+    "name": "Tom Kiely-Marshall(3)",
     "key": "Leicester",
-    "runs": 10,
-    "wins": 1,
-    "places": 4,
-    "win_pct": 10.0,
-    "place_pct": 40.0
+    "runs": 16,
+    "wins": 4,
+    "places": 10,
+    "win_pct": 25.0,
+    "place_pct": 62.5
    },
    "jockey_at_distance": {
-    "name": "Alex Jary(3)",
+    "name": "Tom Kiely-Marshall(3)",
     "key": "sprint",
-    "runs": 578,
-    "wins": 54,
-    "places": 165,
-    "win_pct": 9.3,
-    "place_pct": 28.5
+    "runs": 303,
+    "wins": 27,
+    "places": 87,
+    "win_pct": 8.9,
+    "place_pct": 28.7
    },
    "trainer_at_course": {
     "name": "Jack Jones",
@@ -21059,7 +21059,7 @@
     "off_utc": "2026-10-06T15:23:00+01:00",
     "going": "good",
     "distance": "middle",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-06",
    "status": "has_history",
@@ -30171,7 +30171,7 @@
     "off_utc": "2026-10-06T16:05:00+01:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-06",
    "status": "has_history",
@@ -30379,7 +30379,7 @@
     "off_utc": "2026-10-06T16:05:00+01:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-06",
    "status": "has_history",
@@ -35864,7 +35864,7 @@
     "off_utc": "2026-10-06T16:40:00+01:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-06",
    "status": "has_history",
@@ -35990,7 +35990,7 @@
     "off_utc": "2026-10-06T16:40:00+01:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-06",
    "status": "has_history",
@@ -46031,7 +46031,7 @@
     "off_utc": "2026-10-06T18:00:00+01:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-06",
    "status": "has_history",
@@ -48997,7 +48997,7 @@
     "off_utc": "2026-10-06T18:30:00+01:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-06",
    "status": "has_history",
@@ -49114,7 +49114,7 @@
     "off_utc": "2026-10-06T19:00:00+01:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-06",
    "status": "has_history",
@@ -54265,7 +54265,7 @@
     "off_utc": "2026-10-06T20:00:00+01:00",
     "going": "good",
     "distance": "middle",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-06",
    "status": "has_history",
