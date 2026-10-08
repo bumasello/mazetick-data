@@ -1,6 +1,6 @@
 {
  "schema": "horses_v5",
- "generated_at": "2026-10-08T12:00:36Z",
+ "generated_at": "2026-10-08T16:00:33Z",
  "source": "Historical race results",
  "note": "Every figure is computed using only races run STRICTLY BEFORE the race it describes — the `as_of` date on each horse. Groups with fewer than two runs are omitted rather than shown as a rate, because a 100% strike rate over one run is noise wearing the clothes of a finding. Our archive runs to 2026-10-07: a horse that ran after that date has those runs missing here, so read `career` as what we hold, not as a complete record.",
  "history_depth": {
@@ -19,7 +19,7 @@
   "still_missing": 1445,
   "note": "Sire totals count the progeny we hold. Breeding is complete for races up to 2026-07-22. After that date our live source carries it for about half of runners; we recover most of the rest from the same horse's other races, but not all. Recent races are therefore under-counted in sire totals."
  },
- "collected_through": "2026-10-08T11:00:03Z",
+ "collected_through": "2026-10-08T15:00:03Z",
  "distance_bands": [
   {
    "key": "sprint",
@@ -13444,7 +13444,7 @@
     "off_utc": "2026-10-08T14:26:00+01:00",
     "going": "soft",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-08",
    "status": "has_history",
@@ -31028,12 +31028,12 @@
     }
    ],
    "jockey": {
-    "name": "Billy Garritty",
-    "runs": 2511,
-    "wins": 259,
-    "places": 812,
-    "win_pct": 10.3,
-    "place_pct": 32.3
+    "name": "Connor Beasley",
+    "runs": 3484,
+    "wins": 412,
+    "places": 1307,
+    "win_pct": 11.8,
+    "place_pct": 37.5
    },
    "trainer": {
     "name": "Michael & David Easterby",
@@ -31060,21 +31060,13 @@
     "place_pct": 32.0
    },
    "jockey_trainer": {
-    "jockey": "Billy Garritty",
+    "jockey": "Connor Beasley",
     "trainer": "Michael & David Easterby",
-    "runs": 535,
-    "wins": 54,
-    "places": 163,
-    "win_pct": 10.1,
-    "place_pct": 30.5
-   },
-   "jockey_here": {
-    "name": "Billy Garritty",
-    "runs": 6,
-    "wins": 2,
-    "places": 3,
-    "win_pct": 33.3,
-    "place_pct": 50.0
+    "runs": 70,
+    "wins": 9,
+    "places": 27,
+    "win_pct": 12.9,
+    "place_pct": 38.6
    },
    "trainer_here": {
     "name": "Michael & David Easterby",
@@ -31085,22 +31077,22 @@
     "place_pct": 36.4
    },
    "jockey_at_course": {
-    "name": "Billy Garritty",
+    "name": "Connor Beasley",
     "key": "Ayr",
-    "runs": 159,
-    "wins": 20,
-    "places": 51,
-    "win_pct": 12.6,
-    "place_pct": 32.1
+    "runs": 269,
+    "wins": 35,
+    "places": 104,
+    "win_pct": 13.0,
+    "place_pct": 38.7
    },
    "jockey_at_distance": {
-    "name": "Billy Garritty",
+    "name": "Connor Beasley",
     "key": "sprint",
-    "runs": 880,
-    "wins": 96,
-    "places": 302,
-    "win_pct": 10.9,
-    "place_pct": 34.3
+    "runs": 1498,
+    "wins": 167,
+    "places": 565,
+    "win_pct": 11.1,
+    "place_pct": 37.7
    },
    "trainer_at_course": {
     "name": "Michael & David Easterby",
@@ -42844,7 +42836,7 @@
     "off_utc": "2026-10-08T16:21:00+01:00",
     "going": "good",
     "distance": "middle",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-08",
    "status": "has_history",
@@ -44505,12 +44497,12 @@
     }
    ],
    "jockey": {
-    "name": "Oliver Carmichael(7)",
-    "runs": 180,
-    "wins": 16,
-    "places": 40,
-    "win_pct": 8.9,
-    "place_pct": 22.2
+    "name": "Jack Dace(5)",
+    "runs": 557,
+    "wins": 54,
+    "places": 159,
+    "win_pct": 9.7,
+    "place_pct": 28.5
    },
    "trainer": {
     "name": "Roger Teal",
@@ -44544,14 +44536,23 @@
     "win_pct": 0.0,
     "place_pct": 36.4
    },
+   "jockey_at_course": {
+    "name": "Jack Dace(5)",
+    "key": "Bath",
+    "runs": 19,
+    "wins": 2,
+    "places": 5,
+    "win_pct": 10.5,
+    "place_pct": 26.3
+   },
    "jockey_at_distance": {
-    "name": "Oliver Carmichael(7)",
+    "name": "Jack Dace(5)",
     "key": "middle",
-    "runs": 18,
-    "wins": 0,
-    "places": 2,
-    "win_pct": 0.0,
-    "place_pct": 11.1
+    "runs": 128,
+    "wins": 13,
+    "places": 32,
+    "win_pct": 10.2,
+    "place_pct": 25.0
    },
    "trainer_at_course": {
     "name": "Roger Teal",
@@ -60346,7 +60347,7 @@
     "off_utc": "2026-10-08T17:20:00+01:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-08",
    "status": "has_history",
@@ -62747,7 +62748,7 @@
     "off_utc": "2026-10-08T17:25:00+01:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-08",
    "status": "has_history",
@@ -66452,21 +66453,30 @@
    "by_course": [],
    "by_distance": [],
    "jockey": {
-    "name": "Oliver Carmichael",
-    "runs": 180,
-    "wins": 16,
-    "places": 40,
-    "win_pct": 8.9,
-    "place_pct": 22.2
+    "name": "Charlie Tucker(7)",
+    "runs": 120,
+    "wins": 12,
+    "places": 37,
+    "win_pct": 10.0,
+    "place_pct": 30.8
+   },
+   "jockey_at_course": {
+    "name": "Charlie Tucker(7)",
+    "key": "Bath",
+    "runs": 10,
+    "wins": 1,
+    "places": 3,
+    "win_pct": 10.0,
+    "place_pct": 30.0
    },
    "jockey_at_distance": {
-    "name": "Oliver Carmichael",
+    "name": "Charlie Tucker(7)",
     "key": "middle",
     "runs": 18,
-    "wins": 0,
-    "places": 2,
-    "win_pct": 0.0,
-    "place_pct": 11.1
+    "wins": 1,
+    "places": 6,
+    "win_pct": 5.6,
+    "place_pct": 33.3
    },
    "ident": {
     "age": "8",
