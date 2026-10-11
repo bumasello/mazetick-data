@@ -1,6 +1,6 @@
 {
  "schema": "horses_v5",
- "generated_at": "2026-10-11T16:00:36Z",
+ "generated_at": "2026-10-11T21:30:23Z",
  "source": "Historical race results",
  "note": "Every figure is computed using only races run STRICTLY BEFORE the race it describes — the `as_of` date on each horse. Groups with fewer than two runs are omitted rather than shown as a rate, because a 100% strike rate over one run is noise wearing the clothes of a finding. Our archive runs to 2026-10-10: a horse that ran after that date has those runs missing here, so read `career` as what we hold, not as a complete record.",
  "history_depth": {
@@ -19,7 +19,7 @@
   "still_missing": 1310,
   "note": "Sire totals count the progeny we hold. Breeding is complete for races up to 2026-07-22. After that date our live source carries it for about half of runners; we recover most of the rest from the same horse's other races, but not all. Recent races are therefore under-counted in sire totals."
  },
- "collected_through": "2026-10-11T15:00:02Z",
+ "collected_through": "2026-10-11T19:00:02Z",
  "distance_bands": [
   {
    "key": "sprint",
@@ -69,7 +69,7 @@
   "label": "first, second or third, whatever the number of runners. Not the each-way place terms of the race, which depend on the field and the bookmaker"
  },
  "debutants": 24,
- "no_record": 8,
+ "no_record": 7,
  "name_collisions": {
   "horses": 3,
   "runs_removed": 26
@@ -27378,8 +27378,8 @@
    }
   },
   {
-   "slug": "horse-details-are-not-available",
-   "name": "Horse details are not available",
+   "slug": "in-my-teens",
+   "name": "In My Teens",
    "race": {
     "venue": "Naas",
     "off_utc": "2026-10-11T15:40:00+01:00",
@@ -27388,17 +27388,60 @@
     "runner_status": "runner"
    },
    "as_of": "2026-10-11",
-   "status": "no_record",
+   "status": "has_history",
    "career": {
-    "runs": 0,
-    "wins": 0,
-    "places": 0,
-    "win_pct": null,
-    "place_pct": null
+    "runs": 6,
+    "wins": 1,
+    "places": 1,
+    "win_pct": 16.7,
+    "place_pct": 16.7
    },
-   "by_going": [],
-   "by_course": [],
-   "by_distance": [],
+   "by_going": [
+    {
+     "key": "good",
+     "runs": 3,
+     "wins": 1,
+     "places": 1,
+     "win_pct": 33.3,
+     "place_pct": 33.3
+    },
+    {
+     "key": "soft",
+     "runs": 3,
+     "wins": 0,
+     "places": 0,
+     "win_pct": 0.0,
+     "place_pct": 0.0
+    }
+   ],
+   "by_course": [
+    {
+     "key": "Curragh",
+     "runs": 2,
+     "wins": 1,
+     "places": 1,
+     "win_pct": 50.0,
+     "place_pct": 50.0
+    }
+   ],
+   "by_distance": [
+    {
+     "key": "middle",
+     "runs": 4,
+     "wins": 1,
+     "places": 1,
+     "win_pct": 25.0,
+     "place_pct": 25.0
+    },
+    {
+     "key": "staying",
+     "runs": 2,
+     "wins": 0,
+     "places": 0,
+     "win_pct": 0.0,
+     "place_pct": 0.0
+    }
+   ],
    "jockey": {
     "name": "W. M. Lordan",
     "runs": 2155,
@@ -27440,6 +27483,14 @@
     "win_pct": 9.5,
     "place_pct": 33.3
    },
+   "trainer_here": {
+    "name": "Gavin Cromwell",
+    "runs": 6,
+    "wins": 1,
+    "places": 1,
+    "win_pct": 16.7,
+    "place_pct": 16.7
+   },
    "jockey_at_course": {
     "name": "W. M. Lordan",
     "key": "Naas",
@@ -27476,6 +27527,23 @@
     "win_pct": 9.1,
     "place_pct": 27.0
    },
+   "recent_30d": {
+    "days": 30,
+    "runs": 1,
+    "wins": 0,
+    "places": 0,
+    "win_pct": 0.0,
+    "place_pct": 0.0
+   },
+   "recent_90d": {
+    "days": 90,
+    "runs": 2,
+    "wins": 0,
+    "places": 0,
+    "win_pct": 0.0,
+    "place_pct": 0.0
+   },
+   "days_since_last_run": 29,
    "ident": {
     "age": "4",
     "sex": "filly",
