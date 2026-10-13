@@ -1,6 +1,6 @@
 {
  "schema": "movers_v1",
- "generated_at": "2026-10-13T16:00:02Z",
+ "generated_at": "2026-10-13T21:30:02Z",
  "source": "Smarkets public order book",
  "note": "'percentile' is where this move sits among all moves we have measured for runners opening at a similar price. The median move is near zero in every band; what changes with price is the spread of outcomes.",
  "baseline": {
@@ -78,7 +78,7 @@
    }
   ]
  },
- "collected_through": "2026-10-13T15:45:02Z",
+ "collected_through": "2026-10-13T21:15:01Z",
  "runners": [
   {
    "slug": "punchestown-1455",
@@ -112,11 +112,11 @@
     "mid": 66.89
    },
    "latest": {
-    "mins_to_off": 22,
-    "mid": 5.0,
-    "spread_pct": 4.0
+    "mins_to_off": 7,
+    "mid": 7.19,
+    "spread_pct": 5.6
    },
-   "move_pct": -92.5,
+   "move_pct": -89.2,
    "band": [
     35,
     100
@@ -186,6 +186,28 @@
    "band": [
     5,
     8
+   ],
+   "percentile": 1,
+   "notable": true
+  },
+  {
+   "slug": "leicester-1617",
+   "venue": "Leicester",
+   "off_utc": "2026-10-13T16:17:00Z",
+   "runner": "Somethingintheair",
+   "first": {
+    "mins_to_off": 347,
+    "mid": 13.37
+   },
+   "latest": {
+    "mins_to_off": 2,
+    "mid": 5.85,
+    "spread_pct": 1.7
+   },
+   "move_pct": -56.2,
+   "band": [
+    13,
+    20
    ],
    "percentile": 1,
    "notable": true
@@ -367,42 +389,20 @@
    "notable": true
   },
   {
-   "slug": "leicester-1617",
-   "venue": "Leicester",
-   "off_utc": "2026-10-13T16:17:00Z",
-   "runner": "Gatlinburg",
+   "slug": "wolverhampton-1600",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T16:00:00Z",
+   "runner": "Hopjes",
    "first": {
-    "mins_to_off": 347,
-    "mid": 49.38
+    "mins_to_off": 360,
+    "mid": 14.85
    },
    "latest": {
-    "mins_to_off": 32,
-    "mid": 99.01,
-    "spread_pct": 20.0
+    "mins_to_off": 0,
+    "mid": 7.6,
+    "spread_pct": 5.2
    },
-   "move_pct": 100.5,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 98,
-   "notable": true
-  },
-  {
-   "slug": "leicester-1617",
-   "venue": "Leicester",
-   "off_utc": "2026-10-13T16:17:00Z",
-   "runner": "Somethingintheair",
-   "first": {
-    "mins_to_off": 347,
-    "mid": 13.37
-   },
-   "latest": {
-    "mins_to_off": 32,
-    "mid": 6.99,
-    "spread_pct": 5.7
-   },
-   "move_pct": -47.7,
+   "move_pct": -48.8,
    "band": [
     13,
     20
@@ -518,6 +518,72 @@
     100
    ],
    "percentile": 97,
+   "notable": true
+  },
+  {
+   "slug": "wolverhampton-1600",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T16:00:00Z",
+   "runner": "Ravenglass",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 10.91
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 20.66,
+    "spread_pct": 12.0
+   },
+   "move_pct": 89.4,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 97,
+   "notable": true
+  },
+  {
+   "slug": "wolverhampton-1730",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T17:30:00Z",
+   "runner": "Muhandes",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 3.85
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 2.66,
+    "spread_pct": 1.5
+   },
+   "move_pct": -30.9,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 3,
+   "notable": true
+  },
+  {
+   "slug": "wolverhampton-1800",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T18:00:00Z",
+   "runner": "Inappropriate",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 26.49
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 12.98,
+    "spread_pct": 7.7
+   },
+   "move_pct": -51.0,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 3,
    "notable": true
   },
   {
@@ -653,25 +719,69 @@
    "notable": true
   },
   {
-   "slug": "wolverhampton-1600",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T16:00:00Z",
-   "runner": "Hopjes",
+   "slug": "punchestown-1607",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-13T16:07:00Z",
+   "runner": "Hidalgo Des Mottes",
    "first": {
-    "mins_to_off": 360,
-    "mid": 14.85
+    "mins_to_off": 352,
+    "mid": 26.77
    },
    "latest": {
-    "mins_to_off": 15,
-    "mid": 8.8,
-    "spread_pct": 4.6
+    "mins_to_off": 7,
+    "mid": 56.5,
+    "spread_pct": 26.4
    },
-   "move_pct": -40.8,
+   "move_pct": 111.0,
    "band": [
-    13,
-    20
+    20,
+    35
+   ],
+   "percentile": 96,
+   "notable": true
+  },
+  {
+   "slug": "wolverhampton-1730",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T17:30:00Z",
+   "runner": "His Name Is Rio",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 55.56
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 22.94,
+    "spread_pct": 8.7
+   },
+   "move_pct": -58.7,
+   "band": [
+    35,
+    100
    ],
    "percentile": 4,
+   "notable": true
+  },
+  {
+   "slug": "wolverhampton-1830",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T18:30:00Z",
+   "runner": "Neptune Legend",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 5.85
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 9.0,
+    "spread_pct": 4.4
+   },
+   "move_pct": 53.9,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 96,
    "notable": true
   },
   {
@@ -763,23 +873,23 @@
    "notable": true
   },
   {
-   "slug": "punchestown-1607",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-13T16:07:00Z",
-   "runner": "Las Brisas Boy",
+   "slug": "wolverhampton-1800",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T18:00:00Z",
+   "runner": "Scarlet Moon",
    "first": {
-    "mins_to_off": 352,
-    "mid": 8.04
+    "mins_to_off": 360,
+    "mid": 3.4
    },
    "latest": {
-    "mins_to_off": 22,
-    "mid": 13.49,
-    "spread_pct": 7.4
+    "mins_to_off": 0,
+    "mid": 4.95,
+    "spread_pct": 2.0
    },
-   "move_pct": 67.7,
+   "move_pct": 45.7,
    "band": [
-    8,
-    13
+    3,
+    5
    ],
    "percentile": 95,
    "notable": true
@@ -961,23 +1071,23 @@
    "notable": false
   },
   {
-   "slug": "punchestown-1607",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-13T16:07:00Z",
-   "runner": "You Done Well",
+   "slug": "wolverhampton-1730",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T17:30:00Z",
+   "runner": "Al Widyan",
    "first": {
-    "mins_to_off": 352,
-    "mid": 16.45
+    "mins_to_off": 360,
+    "mid": 1.76
    },
    "latest": {
-    "mins_to_off": 22,
-    "mid": 29.33,
-    "spread_pct": 17.1
+    "mins_to_off": 0,
+    "mid": 2.41,
+    "spread_pct": 0.8
    },
-   "move_pct": 78.3,
+   "move_pct": 36.6,
    "band": [
-    13,
-    20
+    1.5,
+    3
    ],
    "percentile": 94,
    "notable": false
@@ -1090,6 +1200,28 @@
     35
    ],
    "percentile": 7,
+   "notable": false
+  },
+  {
+   "slug": "leicester-1617",
+   "venue": "Leicester",
+   "off_utc": "2026-10-13T16:17:00Z",
+   "runner": "New Objective",
+   "first": {
+    "mins_to_off": 347,
+    "mid": 10.95
+   },
+   "latest": {
+    "mins_to_off": 2,
+    "mid": 17.71,
+    "spread_pct": 8.3
+   },
+   "move_pct": 61.7,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 93,
    "notable": false
   },
   {
@@ -1247,6 +1379,28 @@
    "notable": false
   },
   {
+   "slug": "punchestown-1607",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-13T16:07:00Z",
+   "runner": "You Done Well",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 16.45
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 27.4,
+    "spread_pct": 11.0
+   },
+   "move_pct": 66.6,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 92,
+   "notable": false
+  },
+  {
    "slug": "punchestown-1640",
    "venue": "Punchestown",
    "off_utc": "2026-10-13T16:40:00Z",
@@ -1261,6 +1415,28 @@
     "spread_pct": 111.4
    },
    "move_pct": 56.8,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 92,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1730",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T17:30:00Z",
+   "runner": "Icy Moon",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 51.02
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 80.65,
+    "spread_pct": 31.4
+   },
+   "move_pct": 58.1,
    "band": [
     35,
     100
@@ -1338,17 +1514,61 @@
    "slug": "punchestown-1607",
    "venue": "Punchestown",
    "off_utc": "2026-10-13T16:07:00Z",
-   "runner": "Hidalgo Des Mottes",
+   "runner": "Las Brisas Boy",
    "first": {
     "mins_to_off": 352,
-    "mid": 26.77
+    "mid": 8.04
    },
    "latest": {
-    "mins_to_off": 22,
-    "mid": 47.62,
-    "spread_pct": 27.1
+    "mins_to_off": 7,
+    "mid": 12.25,
+    "spread_pct": 4.0
    },
-   "move_pct": 77.9,
+   "move_pct": 52.3,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 91,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1623",
+   "venue": "Southwell",
+   "off_utc": "2026-10-13T16:23:00Z",
+   "runner": "Trigger The Light",
+   "first": {
+    "mins_to_off": 353,
+    "mid": 5.68
+   },
+   "latest": {
+    "mins_to_off": 8,
+    "mid": 7.79,
+    "spread_pct": 5.1
+   },
+   "move_pct": 37.1,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 91,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1900",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T19:00:00Z",
+   "runner": "Thestral",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 25.38
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 44.84,
+    "spread_pct": 13.5
+   },
+   "move_pct": 76.7,
    "band": [
     20,
     35
@@ -1357,47 +1577,25 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1630",
+   "slug": "wolverhampton-1930",
    "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T16:30:00Z",
-   "runner": "Imelda",
+   "off_utc": "2026-10-13T19:30:00Z",
+   "runner": "Brodie's Boy",
    "first": {
     "mins_to_off": 360,
-    "mid": 13.42
+    "mid": 21.6
    },
    "latest": {
-    "mins_to_off": 45,
-    "mid": 21.81,
-    "spread_pct": 18.3
+    "mins_to_off": 0,
+    "mid": 13.75,
+    "spread_pct": 3.7
    },
-   "move_pct": 62.5,
+   "move_pct": -36.4,
    "band": [
-    13,
-    20
+    20,
+    35
    ],
-   "percentile": 91,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1630",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T16:30:00Z",
-   "runner": "Light The Night Up",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 9.69
-   },
-   "latest": {
-    "mins_to_off": 45,
-    "mid": 14.72,
-    "spread_pct": 10.2
-   },
-   "move_pct": 51.8,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 91,
+   "percentile": 9,
    "notable": false
   },
   {
@@ -1489,23 +1687,89 @@
    "notable": false
   },
   {
-   "slug": "leicester-1617",
-   "venue": "Leicester",
-   "off_utc": "2026-10-13T16:17:00Z",
-   "runner": "New Objective",
+   "slug": "wolverhampton-1600",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T16:00:00Z",
+   "runner": "Homme De Fer",
    "first": {
-    "mins_to_off": 347,
-    "mid": 10.95
+    "mins_to_off": 360,
+    "mid": 3.67
    },
    "latest": {
-    "mins_to_off": 32,
-    "mid": 15.99,
-    "spread_pct": 6.2
+    "mins_to_off": 0,
+    "mid": 4.85,
+    "spread_pct": 2.0
    },
-   "move_pct": 46.0,
+   "move_pct": 32.1,
    "band": [
-    8,
-    13
+    3,
+    5
+   ],
+   "percentile": 90,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1700",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T17:00:00Z",
+   "runner": "Mr Keble",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 26.04
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 17.21,
+    "spread_pct": 8.6
+   },
+   "move_pct": -33.9,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 10,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1830",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T18:30:00Z",
+   "runner": "Degale",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 5.5
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 4.15,
+    "spread_pct": 2.4
+   },
+   "move_pct": -24.5,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 10,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1930",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T19:30:00Z",
+   "runner": "Yokkell",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 40.49
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 61.54,
+    "spread_pct": 24.4
+   },
+   "move_pct": 52.0,
+   "band": [
+    35,
+    100
    ],
    "percentile": 90,
    "notable": false
@@ -1552,6 +1816,50 @@
     35
    ],
    "percentile": 89,
+   "notable": false
+  },
+  {
+   "slug": "punchestown-1640",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-13T16:40:00Z",
+   "runner": "Shuil Solas",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 5.03
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 6.7,
+    "spread_pct": 2.9
+   },
+   "move_pct": 33.3,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 89,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1830",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T18:30:00Z",
+   "runner": "Love Alive",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 60.06
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 32.73,
+    "spread_pct": 18.2
+   },
+   "move_pct": -45.5,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 11,
    "notable": false
   },
   {
@@ -1616,28 +1924,6 @@
    "band": [
     20,
     35
-   ],
-   "percentile": 88,
-   "notable": false
-  },
-  {
-   "slug": "punchestown-1607",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-13T16:07:00Z",
-   "runner": "No Big Deal",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 6.06
-   },
-   "latest": {
-    "mins_to_off": 22,
-    "mid": 7.9,
-    "spread_pct": 2.5
-   },
-   "move_pct": 30.4,
-   "band": [
-    5,
-    8
    ],
    "percentile": 88,
    "notable": false
@@ -1731,23 +2017,45 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1800",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T18:00:00Z",
-   "runner": "Zachary Hickes",
+   "slug": "punchestown-1607",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-13T16:07:00Z",
+   "runner": "No Big Deal",
    "first": {
-    "mins_to_off": 360,
-    "mid": 2.43
+    "mins_to_off": 352,
+    "mid": 6.06
    },
    "latest": {
-    "mins_to_off": 135,
-    "mid": 2.04,
-    "spread_pct": 2.0
+    "mins_to_off": 7,
+    "mid": 7.79,
+    "spread_pct": 5.1
    },
-   "move_pct": -16.0,
+   "move_pct": 28.6,
    "band": [
-    1.5,
-    3
+    5,
+    8
+   ],
+   "percentile": 87,
+   "notable": false
+  },
+  {
+   "slug": "punchestown-1607",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-13T16:07:00Z",
+   "runner": "Tuckmill",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 26.04
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 18.48,
+    "spread_pct": 5.5
+   },
+   "move_pct": -29.0,
+   "band": [
+    20,
+    35
    ],
    "percentile": 13,
    "notable": false
@@ -1863,42 +2171,20 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1600",
+   "slug": "wolverhampton-1800",
    "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T16:00:00Z",
-   "runner": "Ravenglass",
+   "off_utc": "2026-10-13T18:00:00Z",
+   "runner": "Son Of Man",
    "first": {
     "mins_to_off": 360,
-    "mid": 10.91
+    "mid": 12.98
    },
    "latest": {
-    "mins_to_off": 15,
-    "mid": 14.98,
-    "spread_pct": 6.7
+    "mins_to_off": 0,
+    "mid": 10.03,
+    "spread_pct": 9.0
    },
-   "move_pct": 37.3,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 86,
-   "notable": false
-  },
-  {
-   "slug": "leicester-1617",
-   "venue": "Leicester",
-   "off_utc": "2026-10-13T16:17:00Z",
-   "runner": "Little Tiger",
-   "first": {
-    "mins_to_off": 347,
-    "mid": 10.95
-   },
-   "latest": {
-    "mins_to_off": 32,
-    "mid": 8.39,
-    "spread_pct": 4.8
-   },
-   "move_pct": -23.4,
+   "move_pct": -22.7,
    "band": [
     8,
     13
@@ -1951,47 +2237,69 @@
    "notable": false
   },
   {
-   "slug": "leicester-1617",
-   "venue": "Leicester",
-   "off_utc": "2026-10-13T16:17:00Z",
-   "runner": "Man From Havana",
+   "slug": "punchestown-1607",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-13T16:07:00Z",
+   "runner": "Gatehouse Boy",
    "first": {
-    "mins_to_off": 347,
-    "mid": 62.11
+    "mins_to_off": 352,
+    "mid": 34.31
    },
    "latest": {
-    "mins_to_off": 32,
-    "mid": 86.96,
-    "spread_pct": 17.5
+    "mins_to_off": 7,
+    "mid": 53.33,
+    "spread_pct": 22.1
    },
-   "move_pct": 40.0,
+   "move_pct": 55.5,
    "band": [
-    35,
-    100
+    20,
+    35
    ],
    "percentile": 85,
    "notable": false
   },
   {
-   "slug": "wolverhampton-1700",
+   "slug": "wolverhampton-1900",
    "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T17:00:00Z",
-   "runner": "Paname",
+   "off_utc": "2026-10-13T19:00:00Z",
+   "runner": "Gifts Differing",
    "first": {
     "mins_to_off": 360,
-    "mid": 70.92
+    "mid": 23.64
    },
    "latest": {
-    "mins_to_off": 90,
-    "mid": 99.01,
-    "spread_pct": 20.0
+    "mins_to_off": 0,
+    "mid": 36.76,
+    "spread_pct": 16.3
    },
-   "move_pct": 39.6,
+   "move_pct": 55.5,
    "band": [
-    35,
-    100
+    20,
+    35
    ],
    "percentile": 85,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1900",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T19:00:00Z",
+   "runner": "Meritocratic",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 5.97
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 4.8,
+    "spread_pct": 4.2
+   },
+   "move_pct": -19.7,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 15,
    "notable": false
   },
   {
@@ -2061,89 +2369,67 @@
    "notable": false
   },
   {
-   "slug": "leicester-1617",
-   "venue": "Leicester",
-   "off_utc": "2026-10-13T16:17:00Z",
-   "runner": "Ricardo Phillips",
-   "first": {
-    "mins_to_off": 347,
-    "mid": 8.18
-   },
-   "latest": {
-    "mins_to_off": 32,
-    "mid": 6.39,
-    "spread_pct": 6.3
-   },
-   "move_pct": -21.8,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 16,
-   "notable": false
-  },
-  {
    "slug": "punchestown-1640",
    "venue": "Punchestown",
    "off_utc": "2026-10-13T16:40:00Z",
-   "runner": "Bambi Fever",
+   "runner": "Cantgetaway",
    "first": {
-    "mins_to_off": 355,
-    "mid": 16.16
+    "mins_to_off": 340,
+    "mid": 62.31
    },
    "latest": {
-    "mins_to_off": 55,
-    "mid": 23.04,
-    "spread_pct": 61.0
+    "mins_to_off": 10,
+    "mid": 85.84,
+    "spread_pct": 28.9
    },
-   "move_pct": 42.6,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 84,
-   "notable": false
-  },
-  {
-   "slug": "punchestown-1640",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-13T16:40:00Z",
-   "runner": "Casey Quest",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 15.0
-   },
-   "latest": {
-    "mins_to_off": 55,
-    "mid": 21.16,
-    "spread_pct": 52.0
-   },
-   "move_pct": 41.1,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 84,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1930",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T19:30:00Z",
-   "runner": "Yokkell",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 40.49
-   },
-   "latest": {
-    "mins_to_off": 225,
-    "mid": 25.28,
-    "spread_pct": 85.1
-   },
-   "move_pct": -37.5,
+   "move_pct": 37.8,
    "band": [
     35,
     100
+   ],
+   "percentile": 84,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1830",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T18:30:00Z",
+   "runner": "Far Too Fizzy",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 4.89
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 6.1,
+    "spread_pct": 3.3
+   },
+   "move_pct": 24.7,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 84,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1900",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T19:00:00Z",
+   "runner": "Zooter",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 23.81
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 17.71,
+    "spread_pct": 8.3
+   },
+   "move_pct": -25.6,
+   "band": [
+    20,
+    35
    ],
    "percentile": 16,
    "notable": false
@@ -2193,25 +2479,47 @@
    "notable": false
   },
   {
-   "slug": "punchestown-1640",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-13T16:40:00Z",
-   "runner": "Eastern Whisper",
+   "slug": "wolverhampton-1700",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T17:00:00Z",
+   "runner": "Paname",
    "first": {
-    "mins_to_off": 355,
-    "mid": 3.55
+    "mins_to_off": 360,
+    "mid": 70.92
    },
    "latest": {
-    "mins_to_off": 55,
-    "mid": 3.03,
-    "spread_pct": 7.6
+    "mins_to_off": 0,
+    "mid": 95.69,
+    "spread_pct": 26.3
    },
-   "move_pct": -14.7,
+   "move_pct": 34.9,
    "band": [
-    3,
-    5
+    35,
+    100
    ],
-   "percentile": 17,
+   "percentile": 83,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1930",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T19:30:00Z",
+   "runner": "Midnight Media",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 2.15
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 2.5,
+    "spread_pct": 1.6
+   },
+   "move_pct": 16.3,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 83,
    "notable": false
   },
   {
@@ -2347,45 +2655,45 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1700",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T17:00:00Z",
-   "runner": "Blue Point Gold",
+   "slug": "punchestown-1640",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-13T16:40:00Z",
+   "runner": "Bambi Fever",
    "first": {
-    "mins_to_off": 360,
-    "mid": 11.2
+    "mins_to_off": 355,
+    "mid": 16.16
    },
    "latest": {
-    "mins_to_off": 75,
-    "mid": 9.0,
-    "spread_pct": 4.4
+    "mins_to_off": 10,
+    "mid": 22.4,
+    "spread_pct": 13.3
    },
-   "move_pct": -19.7,
+   "move_pct": 38.6,
    "band": [
-    8,
-    13
+    13,
+    20
    ],
-   "percentile": 18,
+   "percentile": 82,
    "notable": false
   },
   {
-   "slug": "wolverhampton-1800",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T18:00:00Z",
-   "runner": "Ottoman",
+   "slug": "punchestown-1640",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-13T16:40:00Z",
+   "runner": "Eastern Whisper",
    "first": {
-    "mins_to_off": 360,
-    "mid": 98.04
+    "mins_to_off": 355,
+    "mid": 3.55
    },
    "latest": {
-    "mins_to_off": 135,
-    "mid": 62.89,
-    "spread_pct": 55.2
+    "mins_to_off": 10,
+    "mid": 3.05,
+    "spread_pct": 3.3
    },
-   "move_pct": -35.8,
+   "move_pct": -14.2,
    "band": [
-    35,
-    100
+    3,
+    5
    ],
    "percentile": 18,
    "notable": false
@@ -2523,25 +2831,25 @@
    "notable": false
   },
   {
-   "slug": "punchestown-1640",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-13T16:40:00Z",
-   "runner": "Cantgetaway",
+   "slug": "wolverhampton-1930",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T19:30:00Z",
+   "runner": "Charles Morin",
    "first": {
-    "mins_to_off": 340,
-    "mid": 62.31
+    "mins_to_off": 360,
+    "mid": 40.49
    },
    "latest": {
-    "mins_to_off": 55,
-    "mid": 81.63,
-    "spread_pct": 55.1
+    "mins_to_off": 0,
+    "mid": 26.49,
+    "spread_pct": 4.0
    },
-   "move_pct": 31.0,
+   "move_pct": -34.6,
    "band": [
     35,
     100
    ],
-   "percentile": 81,
+   "percentile": 19,
    "notable": false
   },
   {
@@ -2743,20 +3051,42 @@
    "notable": false
   },
   {
+   "slug": "wolverhampton-1600",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T16:00:00Z",
+   "runner": "Fulford Cross",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 6.69
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 5.6,
+    "spread_pct": 3.6
+   },
+   "move_pct": -16.3,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 20,
+   "notable": false
+  },
+  {
    "slug": "punchestown-1607",
    "venue": "Punchestown",
    "off_utc": "2026-10-13T16:07:00Z",
-   "runner": "Tuckmill",
+   "runner": "Dunany Point",
    "first": {
     "mins_to_off": 352,
-    "mid": 26.04
+    "mid": 22.65
    },
    "latest": {
-    "mins_to_off": 22,
-    "mid": 20.39,
-    "spread_pct": 14.6
+    "mins_to_off": 7,
+    "mid": 17.99,
+    "spread_pct": 5.4
    },
-   "move_pct": -21.7,
+   "move_pct": -20.6,
    "band": [
     20,
     35
@@ -2765,25 +3095,91 @@
    "notable": false
   },
   {
-   "slug": "punchestown-1640",
+   "slug": "punchestown-1607",
    "venue": "Punchestown",
-   "off_utc": "2026-10-13T16:40:00Z",
-   "runner": "Shuil Solas",
+   "off_utc": "2026-10-13T16:07:00Z",
+   "runner": "Mount Hotham",
    "first": {
-    "mins_to_off": 355,
-    "mid": 5.03
+    "mins_to_off": 307,
+    "mid": 99.01
    },
    "latest": {
-    "mins_to_off": 55,
-    "mid": 5.99,
-    "spread_pct": 6.7
+    "mins_to_off": 7,
+    "mid": 66.67,
+    "spread_pct": 23.0
    },
-   "move_pct": 19.3,
+   "move_pct": -32.7,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 20,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1630",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T16:30:00Z",
+   "runner": "Imelda",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 13.42
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 18.23,
+    "spread_pct": 8.2
+   },
+   "move_pct": 35.8,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 80,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1800",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T18:00:00Z",
+   "runner": "Zachary Hickes",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 2.43
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 2.14,
+    "spread_pct": 1.9
+   },
+   "move_pct": -11.9,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 20,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1930",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T19:30:00Z",
+   "runner": "Currumbin",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 6.78
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 5.69,
+    "spread_pct": 7.0
+   },
+   "move_pct": -16.0,
    "band": [
     5,
     8
    ],
-   "percentile": 80,
+   "percentile": 20,
    "notable": false
   },
   {
@@ -2809,47 +3205,25 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1630",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T16:30:00Z",
-   "runner": "Royal County Glory",
+   "slug": "southwell-1623",
+   "venue": "Southwell",
+   "off_utc": "2026-10-13T16:23:00Z",
+   "runner": "East Eagle",
    "first": {
-    "mins_to_off": 360,
-    "mid": 1.7
+    "mins_to_off": 353,
+    "mid": 9.07
    },
    "latest": {
-    "mins_to_off": 45,
-    "mid": 1.5,
-    "spread_pct": 2.0
+    "mins_to_off": 8,
+    "mid": 7.5,
+    "spread_pct": 2.6
    },
-   "move_pct": -11.7,
+   "move_pct": -17.3,
    "band": [
-    1.5,
-    3
+    8,
+    13
    ],
    "percentile": 21,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1800",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T18:00:00Z",
-   "runner": "Scarlet Moon",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 3.4
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 4.02,
-    "spread_pct": 3.7
-   },
-   "move_pct": 18.4,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 79,
    "notable": false
   },
   {
@@ -3007,6 +3381,28 @@
    "notable": false
   },
   {
+   "slug": "punchestown-1607",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-13T16:07:00Z",
+   "runner": "Leo Messy",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 7.26
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 6.19,
+    "spread_pct": 6.5
+   },
+   "move_pct": -14.7,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 22,
+   "notable": false
+  },
+  {
    "slug": "leicester-1439",
    "venue": "Leicester",
    "off_utc": "2026-10-13T14:39:00Z",
@@ -3051,23 +3447,23 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1600",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T16:00:00Z",
-   "runner": "Homme De Fer",
+   "slug": "leicester-1617",
+   "venue": "Leicester",
+   "off_utc": "2026-10-13T16:17:00Z",
+   "runner": "Gatlinburg",
    "first": {
-    "mins_to_off": 360,
-    "mid": 3.67
+    "mins_to_off": 347,
+    "mid": 49.38
    },
    "latest": {
-    "mins_to_off": 15,
-    "mid": 4.25,
-    "spread_pct": 2.3
+    "mins_to_off": 2,
+    "mid": 61.54,
+    "spread_pct": 24.4
    },
-   "move_pct": 15.8,
+   "move_pct": 24.6,
    "band": [
-    3,
-    5
+    35,
+    100
    ],
    "percentile": 77,
    "notable": false
@@ -3076,17 +3472,17 @@
    "slug": "southwell-1623",
    "venue": "Southwell",
    "off_utc": "2026-10-13T16:23:00Z",
-   "runner": "East Eagle",
+   "runner": "Bashful Boy",
    "first": {
     "mins_to_off": 353,
-    "mid": 9.07
+    "mid": 8.39
    },
    "latest": {
-    "mins_to_off": 38,
-    "mid": 7.7,
-    "spread_pct": 2.6
+    "mins_to_off": 8,
+    "mid": 7.1,
+    "spread_pct": 2.8
    },
-   "move_pct": -15.1,
+   "move_pct": -15.4,
    "band": [
     8,
     13
@@ -3112,6 +3508,50 @@
    "band": [
     5,
     8
+   ],
+   "percentile": 24,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1630",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T16:30:00Z",
+   "runner": "Hamaleel",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 8.67
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 7.39,
+    "spread_pct": 5.4
+   },
+   "move_pct": -14.7,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 24,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1700",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T17:00:00Z",
+   "runner": "Blue Point Gold",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 11.2
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 9.6,
+    "spread_pct": 4.2
+   },
+   "move_pct": -14.3,
+   "band": [
+    8,
+    13
    ],
    "percentile": 24,
    "notable": false
@@ -3205,47 +3645,25 @@
    "notable": false
   },
   {
-   "slug": "leicester-1617",
-   "venue": "Leicester",
-   "off_utc": "2026-10-13T16:17:00Z",
-   "runner": "Grindleton",
-   "first": {
-    "mins_to_off": 347,
-    "mid": 6.13
-   },
-   "latest": {
-    "mins_to_off": 32,
-    "mid": 6.99,
-    "spread_pct": 5.7
-   },
-   "move_pct": 14.0,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 75,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1800",
+   "slug": "wolverhampton-1730",
    "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T18:00:00Z",
-   "runner": "Percy Jones",
+   "off_utc": "2026-10-13T17:30:00Z",
+   "runner": "Sea Palace",
    "first": {
     "mins_to_off": 360,
-    "mid": 8.29
+    "mid": 11.92
    },
    "latest": {
-    "mins_to_off": 135,
-    "mid": 10.14,
-    "spread_pct": 6.9
+    "mins_to_off": 0,
+    "mid": 10.25,
+    "spread_pct": 4.9
    },
-   "move_pct": 22.4,
+   "move_pct": -14.0,
    "band": [
     8,
     13
    ],
-   "percentile": 75,
+   "percentile": 25,
    "notable": false
   },
   {
@@ -3310,116 +3728,6 @@
    "band": [
     35,
     100
-   ],
-   "percentile": 74,
-   "notable": false
-  },
-  {
-   "slug": "punchestown-1607",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-13T16:07:00Z",
-   "runner": "Mount Hotham",
-   "first": {
-    "mins_to_off": 307,
-    "mid": 99.01
-   },
-   "latest": {
-    "mins_to_off": 52,
-    "mid": 73.26,
-    "spread_pct": 75.0
-   },
-   "move_pct": -26.0,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 26,
-   "notable": false
-  },
-  {
-   "slug": "punchestown-1640",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-13T16:40:00Z",
-   "runner": "Bayswater Bloom",
-   "first": {
-    "mins_to_off": 340,
-    "mid": 51.95
-   },
-   "latest": {
-    "mins_to_off": 55,
-    "mid": 38.46,
-    "spread_pct": 41.7
-   },
-   "move_pct": -26.0,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 26,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1900",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T19:00:00Z",
-   "runner": "Thestral",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 25.38
-   },
-   "latest": {
-    "mins_to_off": 195,
-    "mid": 33.61,
-    "spread_pct": 41.7
-   },
-   "move_pct": 32.4,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 74,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1900",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T19:00:00Z",
-   "runner": "Zooter",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 23.81
-   },
-   "latest": {
-    "mins_to_off": 195,
-    "mid": 20.49,
-    "spread_pct": 4.9
-   },
-   "move_pct": -13.9,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 26,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1930",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T19:30:00Z",
-   "runner": "Bradbury",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 7.38
-   },
-   "latest": {
-    "mins_to_off": 225,
-    "mid": 8.36,
-    "spread_pct": 14.4
-   },
-   "move_pct": 13.3,
-   "band": [
-    5,
-    8
    ],
    "percentile": 74,
    "notable": false
@@ -3491,69 +3799,69 @@
    "notable": false
   },
   {
-   "slug": "punchestown-1607",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-13T16:07:00Z",
-   "runner": "Dunany Point",
+   "slug": "leicester-1617",
+   "venue": "Leicester",
+   "off_utc": "2026-10-13T16:17:00Z",
+   "runner": "Pureis King",
    "first": {
-    "mins_to_off": 352,
-    "mid": 22.65
+    "mins_to_off": 347,
+    "mid": 24.81
    },
    "latest": {
-    "mins_to_off": 22,
-    "mid": 19.67,
-    "spread_pct": 12.8
+    "mins_to_off": 2,
+    "mid": 32.73,
+    "spread_pct": 18.2
    },
-   "move_pct": -13.2,
+   "move_pct": 31.9,
    "band": [
     20,
     35
    ],
-   "percentile": 27,
+   "percentile": 73,
    "notable": false
   },
   {
    "slug": "wolverhampton-1800",
    "venue": "Wolverhampton",
    "off_utc": "2026-10-13T18:00:00Z",
-   "runner": "Inappropriate",
+   "runner": "Percy Jones",
    "first": {
     "mins_to_off": 360,
-    "mid": 26.49
+    "mid": 8.29
    },
    "latest": {
-    "mins_to_off": 135,
-    "mid": 22.83,
-    "spread_pct": 17.5
+    "mins_to_off": 0,
+    "mid": 9.9,
+    "spread_pct": 2.0
    },
-   "move_pct": -13.8,
+   "move_pct": 19.5,
    "band": [
-    20,
-    35
+    8,
+    13
    ],
-   "percentile": 27,
+   "percentile": 73,
    "notable": false
   },
   {
-   "slug": "wolverhampton-1930",
+   "slug": "wolverhampton-1830",
    "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T19:30:00Z",
-   "runner": "Currumbin",
+   "off_utc": "2026-10-13T18:30:00Z",
+   "runner": "In The City",
    "first": {
     "mins_to_off": 360,
-    "mid": 6.78
+    "mid": 9.05
    },
    "latest": {
-    "mins_to_off": 225,
-    "mid": 7.67,
-    "spread_pct": 13.0
+    "mins_to_off": 0,
+    "mid": 7.9,
+    "spread_pct": 2.5
    },
-   "move_pct": 13.1,
+   "move_pct": -12.7,
    "band": [
-    5,
-    8
+    8,
+    13
    ],
-   "percentile": 73,
+   "percentile": 27,
    "notable": false
   },
   {
@@ -3623,69 +3931,69 @@
    "notable": false
   },
   {
-   "slug": "punchestown-1607",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-13T16:07:00Z",
-   "runner": "Soldier Saint",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 5.25
-   },
-   "latest": {
-    "mins_to_off": 22,
-    "mid": 5.9,
-    "spread_pct": 3.4
-   },
-   "move_pct": 12.4,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 72,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1623",
-   "venue": "Southwell",
-   "off_utc": "2026-10-13T16:23:00Z",
-   "runner": "Trigger The Light",
-   "first": {
-    "mins_to_off": 353,
-    "mid": 5.68
-   },
-   "latest": {
-    "mins_to_off": 38,
-    "mid": 6.39,
-    "spread_pct": 6.3
-   },
-   "move_pct": 12.5,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 72,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1730",
+   "slug": "wolverhampton-1700",
    "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T17:30:00Z",
-   "runner": "Cosmocrat",
+   "off_utc": "2026-10-13T17:00:00Z",
+   "runner": "Bella Angelina",
    "first": {
     "mins_to_off": 360,
-    "mid": 58.65
+    "mid": 2.0
    },
    "latest": {
-    "mins_to_off": 105,
-    "mid": 44.44,
-    "spread_pct": 22.5
+    "mins_to_off": 0,
+    "mid": 2.18,
+    "spread_pct": 1.9
    },
-   "move_pct": -24.2,
+   "move_pct": 8.7,
    "band": [
-    35,
-    100
+    1.5,
+    3
+   ],
+   "percentile": 72,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1830",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T18:30:00Z",
+   "runner": "Our Planet",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 24.36
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 21.39,
+    "spread_pct": 14.0
+   },
+   "move_pct": -12.2,
+   "band": [
+    20,
+    35
    ],
    "percentile": 28,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1900",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T19:00:00Z",
+   "runner": "Sailor Batt",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 5.09
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 5.7,
+    "spread_pct": 3.5
+   },
+   "move_pct": 11.9,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 72,
    "notable": false
   },
   {
@@ -3733,25 +4041,47 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1630",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T16:30:00Z",
-   "runner": "Supreme Dancer",
+   "slug": "leicester-1617",
+   "venue": "Leicester",
+   "off_utc": "2026-10-13T16:17:00Z",
+   "runner": "Hotel California",
    "first": {
-    "mins_to_off": 360,
-    "mid": 20.55
+    "mins_to_off": 347,
+    "mid": 21.28
    },
    "latest": {
-    "mins_to_off": 45,
-    "mid": 26.42,
-    "spread_pct": 11.4
+    "mins_to_off": 2,
+    "mid": 18.98,
+    "spread_pct": 5.3
    },
-   "move_pct": 28.5,
+   "move_pct": -10.8,
    "band": [
     20,
     35
    ],
-   "percentile": 71,
+   "percentile": 29,
+   "notable": false
+  },
+  {
+   "slug": "punchestown-1640",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-13T16:40:00Z",
+   "runner": "Back In Favour",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 9.46
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 8.39,
+    "spread_pct": 4.8
+   },
+   "move_pct": -11.2,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 29,
    "notable": false
   },
   {
@@ -3909,47 +4239,25 @@
    "notable": false
   },
   {
-   "slug": "southwell-1623",
-   "venue": "Southwell",
-   "off_utc": "2026-10-13T16:23:00Z",
-   "runner": "Bashful Boy",
+   "slug": "wolverhampton-1800",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T18:00:00Z",
+   "runner": "Ottoman",
    "first": {
-    "mins_to_off": 353,
-    "mid": 8.39
+    "mins_to_off": 360,
+    "mid": 98.04
    },
    "latest": {
-    "mins_to_off": 38,
-    "mid": 7.49,
-    "spread_pct": 8.0
+    "mins_to_off": 0,
+    "mid": 76.63,
+    "spread_pct": 19.3
    },
-   "move_pct": -10.8,
+   "move_pct": -21.8,
    "band": [
-    8,
-    13
+    35,
+    100
    ],
    "percentile": 30,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1623",
-   "venue": "Southwell",
-   "off_utc": "2026-10-13T16:23:00Z",
-   "runner": "Captain Connor",
-   "first": {
-    "mins_to_off": 353,
-    "mid": 4.8
-   },
-   "latest": {
-    "mins_to_off": 38,
-    "mid": 5.35,
-    "spread_pct": 5.6
-   },
-   "move_pct": 11.4,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 70,
    "notable": false
   },
   {
@@ -4173,86 +4481,20 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1600",
+   "slug": "wolverhampton-1730",
    "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T16:00:00Z",
-   "runner": "Fulford Cross",
+   "off_utc": "2026-10-13T17:30:00Z",
+   "runner": "Cosmocrat",
    "first": {
     "mins_to_off": 360,
-    "mid": 6.69
+    "mid": 58.65
    },
    "latest": {
-    "mins_to_off": 15,
-    "mid": 6.1,
-    "spread_pct": 3.3
+    "mins_to_off": 0,
+    "mid": 66.67,
+    "spread_pct": 23.0
    },
-   "move_pct": -8.8,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 32,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1600",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T16:00:00Z",
-   "runner": "Snooze Lane",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 6.49
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 7.1,
-    "spread_pct": 2.8
-   },
-   "move_pct": 9.4,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 68,
-   "notable": false
-  },
-  {
-   "slug": "punchestown-1607",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-13T16:07:00Z",
-   "runner": "Trixaboutmaisie",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 30.17
-   },
-   "latest": {
-    "mins_to_off": 22,
-    "mid": 37.59,
-    "spread_pct": 21.3
-   },
-   "move_pct": 24.6,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 68,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1830",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T18:30:00Z",
-   "runner": "Q T Pie",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 44.94
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 50.89,
-    "spread_pct": 58.8
-   },
-   "move_pct": 13.2,
+   "move_pct": 13.7,
    "band": [
     35,
     100
@@ -4327,47 +4569,47 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1730",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T17:30:00Z",
-   "runner": "Muhandes",
+   "slug": "punchestown-1607",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-13T16:07:00Z",
+   "runner": "G N Jefferson",
    "first": {
-    "mins_to_off": 360,
-    "mid": 3.85
+    "mins_to_off": 352,
+    "mid": 21.91
    },
    "latest": {
-    "mins_to_off": 105,
-    "mid": 3.6,
-    "spread_pct": 5.5
+    "mins_to_off": 7,
+    "mid": 20.22,
+    "spread_pct": 7.5
    },
-   "move_pct": -6.5,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 33,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1830",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T18:30:00Z",
-   "runner": "Sarafina Mshairi",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 20.81
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 19.1,
-    "spread_pct": 18.3
-   },
-   "move_pct": -8.2,
+   "move_pct": -7.7,
    "band": [
     20,
     35
    ],
    "percentile": 33,
+   "notable": false
+  },
+  {
+   "slug": "leicester-1617",
+   "venue": "Leicester",
+   "off_utc": "2026-10-13T16:17:00Z",
+   "runner": "Little Tiger",
+   "first": {
+    "mins_to_off": 347,
+    "mid": 10.95
+   },
+   "latest": {
+    "mins_to_off": 2,
+    "mid": 12.48,
+    "spread_pct": 8.0
+   },
+   "move_pct": 14.0,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 67,
    "notable": false
   },
   {
@@ -4490,36 +4732,80 @@
     "mid": 60.06
    },
    "latest": {
-    "mins_to_off": 15,
-    "mid": 66.67,
-    "spread_pct": 23.0
+    "mins_to_off": 0,
+    "mid": 49.02,
+    "spread_pct": 3.9
    },
-   "move_pct": 11.0,
+   "move_pct": -18.4,
    "band": [
     35,
     100
    ],
-   "percentile": 66,
+   "percentile": 34,
    "notable": false
   },
   {
-   "slug": "punchestown-1640",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-13T16:40:00Z",
-   "runner": "Back In Favour",
+   "slug": "leicester-1617",
+   "venue": "Leicester",
+   "off_utc": "2026-10-13T16:17:00Z",
+   "runner": "Ricardo Phillips",
    "first": {
-    "mins_to_off": 355,
-    "mid": 9.46
+    "mins_to_off": 347,
+    "mid": 8.18
    },
    "latest": {
-    "mins_to_off": 55,
-    "mid": 8.67,
-    "spread_pct": 11.6
+    "mins_to_off": 2,
+    "mid": 7.5,
+    "spread_pct": 2.6
    },
    "move_pct": -8.3,
    "band": [
     8,
     13
+   ],
+   "percentile": 34,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1800",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T18:00:00Z",
+   "runner": "Charging Thunder",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 25.25
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 23.47,
+    "spread_pct": 4.2
+   },
+   "move_pct": -7.0,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 34,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1930",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T19:30:00Z",
+   "runner": "Pipily",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 15.65
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 14.48,
+    "spread_pct": 6.8
+   },
+   "move_pct": -7.5,
+   "band": [
+    13,
+    20
    ],
    "percentile": 34,
    "notable": false
@@ -4657,135 +4943,25 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1600",
+   "slug": "wolverhampton-1630",
    "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T16:00:00Z",
-   "runner": "Havana Club",
+   "off_utc": "2026-10-13T16:30:00Z",
+   "runner": "Cosmic Clarets",
    "first": {
     "mins_to_off": 360,
-    "mid": 12.93
+    "mid": 12.63
    },
    "latest": {
-    "mins_to_off": 15,
-    "mid": 11.98,
-    "spread_pct": 8.4
+    "mins_to_off": 0,
+    "mid": 14.2,
+    "spread_pct": 10.5
    },
-   "move_pct": -7.4,
+   "move_pct": 12.5,
    "band": [
     8,
     13
    ],
-   "percentile": 35,
-   "notable": false
-  },
-  {
-   "slug": "punchestown-1607",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-13T16:07:00Z",
-   "runner": "G N Jefferson",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 21.91
-   },
-   "latest": {
-    "mins_to_off": 22,
-    "mid": 20.66,
-    "spread_pct": 12.0
-   },
-   "move_pct": -5.7,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 35,
-   "notable": false
-  },
-  {
-   "slug": "southwell-1623",
-   "venue": "Southwell",
-   "off_utc": "2026-10-13T16:23:00Z",
-   "runner": "Luminaries",
-   "first": {
-    "mins_to_off": 353,
-    "mid": 4.2
-   },
-   "latest": {
-    "mins_to_off": 38,
-    "mid": 3.95,
-    "spread_pct": 2.5
-   },
-   "move_pct": -5.9,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 35,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1830",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T18:30:00Z",
-   "runner": "Far Too Fizzy",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 4.89
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 4.6,
-    "spread_pct": 4.3
-   },
-   "move_pct": -6.0,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 35,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1830",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T18:30:00Z",
-   "runner": "On Key",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 13.63
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 12.71,
-    "spread_pct": 11.7
-   },
-   "move_pct": -6.8,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 35,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1900",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T19:00:00Z",
-   "runner": "Myrrh",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 14.2
-   },
-   "latest": {
-    "mins_to_off": 195,
-    "mid": 13.21,
-    "spread_pct": 11.4
-   },
-   "move_pct": -7.0,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 35,
+   "percentile": 65,
    "notable": false
   },
   {
@@ -4877,45 +5053,23 @@
    "notable": false
   },
   {
-   "slug": "leicester-1617",
-   "venue": "Leicester",
-   "off_utc": "2026-10-13T16:17:00Z",
-   "runner": "Pureis King",
-   "first": {
-    "mins_to_off": 347,
-    "mid": 24.81
-   },
-   "latest": {
-    "mins_to_off": 32,
-    "mid": 29.9,
-    "spread_pct": 13.5
-   },
-   "move_pct": 20.5,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 64,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1730",
+   "slug": "wolverhampton-1830",
    "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T17:30:00Z",
-   "runner": "Icy Moon",
+   "off_utc": "2026-10-13T18:30:00Z",
+   "runner": "The Caribbean",
    "first": {
     "mins_to_off": 360,
-    "mid": 51.02
+    "mid": 10.7
    },
    "latest": {
-    "mins_to_off": 120,
-    "mid": 55.25,
-    "spread_pct": 30.5
+    "mins_to_off": 0,
+    "mid": 11.98,
+    "spread_pct": 8.4
    },
-   "move_pct": 8.3,
+   "move_pct": 12.0,
    "band": [
-    35,
-    100
+    8,
+    13
    ],
    "percentile": 64,
    "notable": false
@@ -4987,67 +5141,23 @@
    "notable": false
   },
   {
-   "slug": "punchestown-1607",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-13T16:07:00Z",
-   "runner": "Leo Messy",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 7.26
-   },
-   "latest": {
-    "mins_to_off": 22,
-    "mid": 6.79,
-    "spread_pct": 5.8
-   },
-   "move_pct": -6.5,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 37,
-   "notable": false
-  },
-  {
    "slug": "leicester-1617",
    "venue": "Leicester",
    "off_utc": "2026-10-13T16:17:00Z",
-   "runner": "Hotel California",
+   "runner": "Man From Havana",
    "first": {
     "mins_to_off": 347,
-    "mid": 21.28
+    "mid": 62.11
    },
    "latest": {
-    "mins_to_off": 32,
-    "mid": 20.22,
-    "spread_pct": 7.5
+    "mins_to_off": 2,
+    "mid": 66.67,
+    "spread_pct": 23.0
    },
-   "move_pct": -5.0,
+   "move_pct": 7.3,
    "band": [
-    20,
-    35
-   ],
-   "percentile": 37,
-   "notable": false
-  },
-  {
-   "slug": "leicester-1617",
-   "venue": "Leicester",
-   "off_utc": "2026-10-13T16:17:00Z",
-   "runner": "Kathleen Mary",
-   "first": {
-    "mins_to_off": 347,
-    "mid": 13.37
-   },
-   "latest": {
-    "mins_to_off": 32,
-    "mid": 15.48,
-    "spread_pct": 6.5
-   },
-   "move_pct": 15.8,
-   "band": [
-    13,
-    20
+    35,
+    100
    ],
    "percentile": 63,
    "notable": false
@@ -5056,22 +5166,22 @@
    "slug": "wolverhampton-1900",
    "venue": "Wolverhampton",
    "off_utc": "2026-10-13T19:00:00Z",
-   "runner": "Florizelle",
+   "runner": "Palliser",
    "first": {
     "mins_to_off": 360,
-    "mid": 31.6
+    "mid": 8.56
    },
    "latest": {
-    "mins_to_off": 195,
-    "mid": 30.12,
-    "spread_pct": 23.2
+    "mins_to_off": 0,
+    "mid": 9.5,
+    "spread_pct": 2.1
    },
-   "move_pct": -4.7,
+   "move_pct": 11.0,
    "band": [
-    20,
-    35
+    8,
+    13
    ],
-   "percentile": 37,
+   "percentile": 63,
    "notable": false
   },
   {
@@ -5229,47 +5339,135 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1630",
+   "slug": "wolverhampton-1600",
    "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T16:30:00Z",
-   "runner": "Cosmic Clarets",
+   "off_utc": "2026-10-13T16:00:00Z",
+   "runner": "Aspire To Glory",
    "first": {
     "mins_to_off": 360,
-    "mid": 12.63
+    "mid": 7.18
    },
    "latest": {
-    "mins_to_off": 45,
-    "mid": 13.93,
-    "spread_pct": 14.3
+    "mins_to_off": 0,
+    "mid": 7.6,
+    "spread_pct": 5.2
    },
-   "move_pct": 10.3,
+   "move_pct": 5.8,
    "band": [
-    8,
-    13
+    5,
+    8
    ],
    "percentile": 62,
    "notable": false
   },
   {
-   "slug": "wolverhampton-1730",
+   "slug": "wolverhampton-1600",
    "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T17:30:00Z",
-   "runner": "Al Widyan",
+   "off_utc": "2026-10-13T16:00:00Z",
+   "runner": "Lady Delila",
    "first": {
     "mins_to_off": 360,
-    "mid": 1.76
+    "mid": 22.27
    },
    "latest": {
-    "mins_to_off": 105,
-    "mid": 1.83,
-    "spread_pct": 2.2
+    "mins_to_off": 0,
+    "mid": 21.39,
+    "spread_pct": 14.0
    },
-   "move_pct": 3.7,
+   "move_pct": -4.0,
    "band": [
-    1.5,
-    3
+    20,
+    35
+   ],
+   "percentile": 38,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1600",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T16:00:00Z",
+   "runner": "Snooze Lane",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 6.49
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 6.1,
+    "spread_pct": 3.3
+   },
+   "move_pct": -6.0,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 38,
+   "notable": false
+  },
+  {
+   "slug": "punchestown-1640",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-13T16:40:00Z",
+   "runner": "Finnellatimes",
+   "first": {
+    "mins_to_off": 340,
+    "mid": 42.92
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 36.76,
+    "spread_pct": 16.3
+   },
+   "move_pct": -14.3,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 38,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1700",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T17:00:00Z",
+   "runner": "Missmisfortune",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 58.31
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 62.31,
+    "spread_pct": 8.1
+   },
+   "move_pct": 6.9,
+   "band": [
+    35,
+    100
    ],
    "percentile": 62,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1830",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T18:30:00Z",
+   "runner": "On Key",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 13.63
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 12.98,
+    "spread_pct": 7.7
+   },
+   "move_pct": -4.8,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 38,
    "notable": false
   },
   {
@@ -5449,111 +5647,89 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1700",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T17:00:00Z",
-   "runner": "Bella Angelina",
+   "slug": "leicester-1617",
+   "venue": "Leicester",
+   "off_utc": "2026-10-13T16:17:00Z",
+   "runner": "Ataturk",
    "first": {
-    "mins_to_off": 360,
-    "mid": 2.0
+    "mins_to_off": 347,
+    "mid": 6.8
    },
    "latest": {
-    "mins_to_off": 75,
-    "mid": 2.07,
-    "spread_pct": 1.0
+    "mins_to_off": 2,
+    "mid": 7.19,
+    "spread_pct": 5.6
    },
-   "move_pct": 3.2,
+   "move_pct": 5.7,
    "band": [
-    1.5,
-    3
+    5,
+    8
    ],
    "percentile": 61,
    "notable": false
   },
   {
-   "slug": "wolverhampton-1700",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T17:00:00Z",
-   "runner": "Missmisfortune",
+   "slug": "southwell-1623",
+   "venue": "Southwell",
+   "off_utc": "2026-10-13T16:23:00Z",
+   "runner": "Captain Connor",
    "first": {
-    "mins_to_off": 360,
-    "mid": 58.31
+    "mins_to_off": 353,
+    "mid": 4.8
    },
    "latest": {
-    "mins_to_off": 75,
-    "mid": 61.54,
-    "spread_pct": 24.4
-   },
-   "move_pct": 5.5,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 61,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1830",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T18:30:00Z",
-   "runner": "Enter Sandman",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 53.91
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 57.14,
-    "spread_pct": 50.9
-   },
-   "move_pct": 6.0,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 61,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1830",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T18:30:00Z",
-   "runner": "The Caribbean",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 10.7
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 11.7,
-    "spread_pct": 12.8
-   },
-   "move_pct": 9.4,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 61,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1930",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T19:30:00Z",
-   "runner": "Midnight Media",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 2.15
-   },
-   "latest": {
-    "mins_to_off": 225,
-    "mid": 2.06,
-    "spread_pct": 3.9
+    "mins_to_off": 8,
+    "mid": 4.6,
+    "spread_pct": 4.3
    },
    "move_pct": -4.2,
    "band": [
-    1.5,
-    3
+    3,
+    5
+   ],
+   "percentile": 39,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1830",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T18:30:00Z",
+   "runner": "Q T Pie",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 44.94
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 38.76,
+    "spread_pct": 15.6
+   },
+   "move_pct": -13.8,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 39,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1900",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T19:00:00Z",
+   "runner": "Exquisite Skye",
+   "first": {
+    "mins_to_off": 300,
+    "mid": 94.34
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 81.97,
+    "spread_pct": 18.2
+   },
+   "move_pct": -13.1,
+   "band": [
+    35,
+    100
    ],
    "percentile": 39,
    "notable": false
@@ -5650,66 +5826,110 @@
    "slug": "punchestown-1607",
    "venue": "Punchestown",
    "off_utc": "2026-10-13T16:07:00Z",
-   "runner": "Gatehouse Boy",
+   "runner": "Soldier Saint",
    "first": {
     "mins_to_off": 352,
-    "mid": 34.31
+    "mid": 5.25
    },
    "latest": {
-    "mins_to_off": 22,
-    "mid": 39.6,
-    "spread_pct": 20.4
+    "mins_to_off": 7,
+    "mid": 5.5,
+    "spread_pct": 3.6
    },
-   "move_pct": 15.4,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 60,
-   "notable": false
-  },
-  {
-   "slug": "leicester-1617",
-   "venue": "Leicester",
-   "off_utc": "2026-10-13T16:17:00Z",
-   "runner": "Roman Secret",
-   "first": {
-    "mins_to_off": 347,
-    "mid": 17.99
-   },
-   "latest": {
-    "mins_to_off": 32,
-    "mid": 20.22,
-    "spread_pct": 7.5
-   },
-   "move_pct": 12.4,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 60,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1830",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T18:30:00Z",
-   "runner": "Neptune Legend",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 5.85
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 6.14,
-    "spread_pct": 8.2
-   },
-   "move_pct": 5.0,
+   "move_pct": 4.8,
    "band": [
     5,
     8
    ],
    "percentile": 60,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1630",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T16:30:00Z",
+   "runner": "Light The Night Up",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 9.69
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 9.29,
+    "spread_pct": 6.4
+   },
+   "move_pct": -4.2,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 40,
+   "notable": false
+  },
+  {
+   "slug": "punchestown-1640",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-13T16:40:00Z",
+   "runner": "Casey Quest",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 15.0
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 14.48,
+    "spread_pct": 6.8
+   },
+   "move_pct": -3.5,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 40,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1900",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T19:00:00Z",
+   "runner": "Coxy's Star",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 3.45
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 3.33,
+    "spread_pct": 1.5
+   },
+   "move_pct": -3.5,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 40,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1900",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T19:00:00Z",
+   "runner": "Florizelle",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 31.6
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 31.3,
+    "spread_pct": 16.1
+   },
+   "move_pct": -0.9,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 40,
    "notable": false
   },
   {
@@ -5801,23 +6021,89 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1930",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T19:30:00Z",
-   "runner": "Charles Morin",
+   "slug": "southwell-1623",
+   "venue": "Southwell",
+   "off_utc": "2026-10-13T16:23:00Z",
+   "runner": "Shorten Sassy",
    "first": {
-    "mins_to_off": 360,
-    "mid": 40.49
+    "mins_to_off": 353,
+    "mid": 7.1
    },
    "latest": {
-    "mins_to_off": 225,
-    "mid": 35.59,
-    "spread_pct": 48.0
+    "mins_to_off": 8,
+    "mid": 6.79,
+    "spread_pct": 5.8
    },
-   "move_pct": -12.1,
+   "move_pct": -4.3,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 41,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1700",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T17:00:00Z",
+   "runner": "Soft Landing",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 2.97
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 2.86,
+    "spread_pct": 1.4
+   },
+   "move_pct": -3.7,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 41,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1830",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T18:30:00Z",
+   "runner": "Dontwaste A Moment",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 37.11
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 32.73,
+    "spread_pct": 18.2
+   },
+   "move_pct": -11.8,
    "band": [
     35,
     100
+   ],
+   "percentile": 41,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1830",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T18:30:00Z",
+   "runner": "Sarafina Mshairi",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 20.81
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 20.66,
+    "spread_pct": 12.0
+   },
+   "move_pct": -0.7,
+   "band": [
+    20,
+    35
    ],
    "percentile": 41,
    "notable": false
@@ -5914,6 +6200,28 @@
    "slug": "punchestown-1640",
    "venue": "Punchestown",
    "off_utc": "2026-10-13T16:40:00Z",
+   "runner": "Junction Road",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 4.4
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 4.6,
+    "spread_pct": 4.3
+   },
+   "move_pct": 4.4,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 58,
+   "notable": false
+  },
+  {
+   "slug": "punchestown-1640",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-13T16:40:00Z",
    "runner": "Peace Rose",
    "first": {
     "mins_to_off": 265,
@@ -5930,94 +6238,6 @@
     100
    ],
    "percentile": 58,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1730",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T17:30:00Z",
-   "runner": "Gut Reaction",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 25.0
-   },
-   "latest": {
-    "mins_to_off": 105,
-    "mid": 28.45,
-    "spread_pct": 10.6
-   },
-   "move_pct": 13.8,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 58,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1800",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T18:00:00Z",
-   "runner": "Charging Thunder",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 25.25
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 28.69,
-    "spread_pct": 21.2
-   },
-   "move_pct": 13.6,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 58,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1830",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T18:30:00Z",
-   "runner": "In The City",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 9.05
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 8.78,
-    "spread_pct": 9.1
-   },
-   "move_pct": -2.9,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 42,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1930",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T19:30:00Z",
-   "runner": "Nymphaea",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 53.33
-   },
-   "latest": {
-    "mins_to_off": 225,
-    "mid": 47.51,
-    "spread_pct": 71.5
-   },
-   "move_pct": -10.9,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 42,
    "notable": false
   },
   {
@@ -6096,7 +6316,7 @@
     "mid": 48.66
    },
    "latest": {
-    "mins_to_off": 22,
+    "mins_to_off": 7,
     "mid": 43.67,
     "spread_pct": 18.5
    },
@@ -6104,6 +6324,28 @@
    "band": [
     35,
     100
+   ],
+   "percentile": 43,
+   "notable": false
+  },
+  {
+   "slug": "punchestown-1607",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-13T16:07:00Z",
+   "runner": "Trixaboutmaisie",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 30.17
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 30.44,
+    "spread_pct": 10.1
+   },
+   "move_pct": 0.9,
+   "band": [
+    20,
+    35
    ],
    "percentile": 43,
    "notable": false
@@ -6131,23 +6373,45 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1830",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T18:30:00Z",
-   "runner": "Our Planet",
+   "slug": "leicester-1617",
+   "venue": "Leicester",
+   "off_utc": "2026-10-13T16:17:00Z",
+   "runner": "Roman Secret",
    "first": {
-    "mins_to_off": 360,
-    "mid": 24.36
+    "mins_to_off": 347,
+    "mid": 17.99
    },
    "latest": {
-    "mins_to_off": 165,
-    "mid": 27.43,
-    "spread_pct": 29.4
+    "mins_to_off": 2,
+    "mid": 17.75,
+    "spread_pct": 2.7
    },
-   "move_pct": 12.6,
+   "move_pct": -1.3,
    "band": [
-    20,
-    35
+    13,
+    20
+   ],
+   "percentile": 43,
+   "notable": false
+  },
+  {
+   "slug": "punchestown-1640",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-13T16:40:00Z",
+   "runner": "Bayswater Bloom",
+   "first": {
+    "mins_to_off": 340,
+    "mid": 51.95
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 53.33,
+    "spread_pct": 22.1
+   },
+   "move_pct": 2.7,
+   "band": [
+    35,
+    100
    ],
    "percentile": 57,
    "notable": false
@@ -6285,45 +6549,45 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1730",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T17:30:00Z",
-   "runner": "His Name Is Rio",
+   "slug": "leicester-1617",
+   "venue": "Leicester",
+   "off_utc": "2026-10-13T16:17:00Z",
+   "runner": "Kathleen Mary",
    "first": {
-    "mins_to_off": 360,
-    "mid": 55.56
+    "mins_to_off": 347,
+    "mid": 13.37
    },
    "latest": {
-    "mins_to_off": 105,
-    "mid": 56.5,
-    "spread_pct": 26.4
+    "mins_to_off": 2,
+    "mid": 13.24,
+    "spread_pct": 3.7
    },
-   "move_pct": 1.7,
+   "move_pct": -0.9,
    "band": [
-    35,
-    100
+    13,
+    20
    ],
-   "percentile": 56,
+   "percentile": 44,
    "notable": false
   },
   {
-   "slug": "wolverhampton-1830",
+   "slug": "wolverhampton-1730",
    "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T18:30:00Z",
-   "runner": "Dontwaste A Moment",
+   "off_utc": "2026-10-13T17:30:00Z",
+   "runner": "Gut Reaction",
    "first": {
     "mins_to_off": 360,
-    "mid": 37.11
+    "mid": 25.0
    },
    "latest": {
-    "mins_to_off": 165,
-    "mid": 33.61,
-    "spread_pct": 32.8
+    "mins_to_off": 0,
+    "mid": 25.41,
+    "spread_pct": 12.0
    },
-   "move_pct": -9.4,
+   "move_pct": 1.7,
    "band": [
-    35,
-    100
+    20,
+    35
    ],
    "percentile": 44,
    "notable": false
@@ -6332,42 +6596,20 @@
    "slug": "wolverhampton-1900",
    "venue": "Wolverhampton",
    "off_utc": "2026-10-13T19:00:00Z",
-   "runner": "Sailor Batt",
+   "runner": "Myrrh",
    "first": {
     "mins_to_off": 360,
-    "mid": 5.09
+    "mid": 14.2
    },
    "latest": {
-    "mins_to_off": 195,
-    "mid": 4.95,
-    "spread_pct": 6.0
+    "mins_to_off": 0,
+    "mid": 15.48,
+    "spread_pct": 6.5
    },
-   "move_pct": -2.9,
+   "move_pct": 9.0,
    "band": [
-    5,
-    8
-   ],
-   "percentile": 44,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1930",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T19:30:00Z",
-   "runner": "Majd Al Kazem",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 12.82
-   },
-   "latest": {
-    "mins_to_off": 225,
-    "mid": 13.63,
-    "spread_pct": 18.3
-   },
-   "move_pct": 6.3,
-   "band": [
-    8,
-    13
+    13,
+    20
    ],
    "percentile": 56,
    "notable": false
@@ -6483,42 +6725,20 @@
    "notable": false
   },
   {
-   "slug": "punchestown-1640",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-13T16:40:00Z",
-   "runner": "Finnellatimes",
-   "first": {
-    "mins_to_off": 340,
-    "mid": 42.92
-   },
-   "latest": {
-    "mins_to_off": 55,
-    "mid": 39.14,
-    "spread_pct": 30.8
-   },
-   "move_pct": -8.8,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 45,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1800",
+   "slug": "wolverhampton-1930",
    "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T18:00:00Z",
-   "runner": "Son Of Man",
+   "off_utc": "2026-10-13T19:30:00Z",
+   "runner": "Majd Al Kazem",
    "first": {
     "mins_to_off": 360,
-    "mid": 12.98
+    "mid": 12.82
    },
    "latest": {
-    "mins_to_off": 135,
-    "mid": 13.63,
-    "spread_pct": 18.3
+    "mins_to_off": 0,
+    "mid": 13.49,
+    "spread_pct": 7.4
    },
-   "move_pct": 5.0,
+   "move_pct": 5.2,
    "band": [
     8,
     13
@@ -6527,23 +6747,23 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1900",
+   "slug": "wolverhampton-1930",
    "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T19:00:00Z",
-   "runner": "Meritocratic",
+   "off_utc": "2026-10-13T19:30:00Z",
+   "runner": "Nymphaea",
    "first": {
     "mins_to_off": 360,
-    "mid": 5.97
+    "mid": 53.33
    },
    "latest": {
-    "mins_to_off": 195,
-    "mid": 6.14,
-    "spread_pct": 8.2
+    "mins_to_off": 0,
+    "mid": 53.33,
+    "spread_pct": 22.1
    },
-   "move_pct": 2.8,
+   "move_pct": 0.0,
    "band": [
-    5,
-    8
+    35,
+    100
    ],
    "percentile": 55,
    "notable": false
@@ -6637,94 +6857,6 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1600",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T16:00:00Z",
-   "runner": "Lady Delila",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 22.27
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 24.39,
-    "spread_pct": 12.2
-   },
-   "move_pct": 9.5,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 54,
-   "notable": false
-  },
-  {
-   "slug": "punchestown-1640",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-13T16:40:00Z",
-   "runner": "Junction Road",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 4.4
-   },
-   "latest": {
-    "mins_to_off": 55,
-    "mid": 4.52,
-    "spread_pct": 15.5
-   },
-   "move_pct": 2.7,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 54,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1830",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T18:30:00Z",
-   "runner": "Love Alive",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 60.06
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 55.56,
-    "spread_pct": 56.0
-   },
-   "move_pct": -7.5,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 46,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1900",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T19:00:00Z",
-   "runner": "Coxy's Star",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 3.45
-   },
-   "latest": {
-    "mins_to_off": 195,
-    "mid": 3.42,
-    "spread_pct": 7.3
-   },
-   "move_pct": -0.8,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 46,
-   "notable": false
-  },
-  {
    "slug": "leicester-1224",
    "venue": "Leicester",
    "off_utc": "2026-10-13T12:24:00Z",
@@ -6791,91 +6923,69 @@
    "notable": false
   },
   {
-   "slug": "leicester-1617",
-   "venue": "Leicester",
-   "off_utc": "2026-10-13T16:17:00Z",
-   "runner": "Ataturk",
+   "slug": "wolverhampton-1600",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T16:00:00Z",
+   "runner": "Havana Club",
    "first": {
-    "mins_to_off": 347,
-    "mid": 6.8
+    "mins_to_off": 360,
+    "mid": 12.93
    },
    "latest": {
-    "mins_to_off": 32,
-    "mid": 6.9,
-    "spread_pct": 2.9
+    "mins_to_off": 0,
+    "mid": 13.49,
+    "spread_pct": 7.4
    },
-   "move_pct": 1.3,
+   "move_pct": 4.3,
    "band": [
-    5,
-    8
+    8,
+    13
    ],
    "percentile": 53,
    "notable": false
   },
   {
-   "slug": "southwell-1623",
-   "venue": "Southwell",
-   "off_utc": "2026-10-13T16:23:00Z",
-   "runner": "Shorten Sassy",
-   "first": {
-    "mins_to_off": 353,
-    "mid": 7.1
-   },
-   "latest": {
-    "mins_to_off": 38,
-    "mid": 6.99,
-    "spread_pct": 5.7
-   },
-   "move_pct": -1.5,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 47,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1700",
+   "slug": "wolverhampton-1630",
    "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T17:00:00Z",
-   "runner": "Soft Landing",
+   "off_utc": "2026-10-13T16:30:00Z",
+   "runner": "Supreme Dancer",
    "first": {
     "mins_to_off": 360,
-    "mid": 2.97
+    "mid": 20.55
    },
    "latest": {
-    "mins_to_off": 75,
-    "mid": 2.98,
-    "spread_pct": 1.3
+    "mins_to_off": 0,
+    "mid": 22.4,
+    "spread_pct": 13.3
    },
-   "move_pct": 0.3,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 53,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1900",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T19:00:00Z",
-   "runner": "Gifts Differing",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 23.64
-   },
-   "latest": {
-    "mins_to_off": 195,
-    "mid": 24.63,
-    "spread_pct": 24.5
-   },
-   "move_pct": 4.2,
+   "move_pct": 9.0,
    "band": [
     20,
     35
    ],
-   "percentile": 47,
+   "percentile": 53,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1830",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-10-13T18:30:00Z",
+   "runner": "Enter Sandman",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 53.91
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 53.33,
+    "spread_pct": 22.1
+   },
+   "move_pct": -1.1,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 53,
    "notable": false
   },
   {
@@ -6967,25 +7077,25 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1700",
+   "slug": "wolverhampton-1630",
    "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T17:00:00Z",
-   "runner": "Mr Keble",
+   "off_utc": "2026-10-13T16:30:00Z",
+   "runner": "Royal County Glory",
    "first": {
     "mins_to_off": 360,
-    "mid": 26.04
+    "mid": 1.7
    },
    "latest": {
-    "mins_to_off": 75,
-    "mid": 27.4,
-    "spread_pct": 11.0
+    "mins_to_off": 0,
+    "mid": 1.7,
+    "spread_pct": 1.2
    },
-   "move_pct": 5.2,
+   "move_pct": -0.3,
    "band": [
-    20,
-    35
+    1.5,
+    3
    ],
-   "percentile": 48,
+   "percentile": 52,
    "notable": false
   },
   {
@@ -7121,64 +7231,20 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1600",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T16:00:00Z",
-   "runner": "Aspire To Glory",
+   "slug": "leicester-1617",
+   "venue": "Leicester",
+   "off_utc": "2026-10-13T16:17:00Z",
+   "runner": "Grindleton",
    "first": {
-    "mins_to_off": 360,
-    "mid": 7.18
+    "mins_to_off": 347,
+    "mid": 6.13
    },
    "latest": {
-    "mins_to_off": 15,
-    "mid": 7.19,
-    "spread_pct": 5.6
+    "mins_to_off": 2,
+    "mid": 6.1,
+    "spread_pct": 3.3
    },
-   "move_pct": 0.3,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 51,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1630",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T16:30:00Z",
-   "runner": "Hamaleel",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 8.67
-   },
-   "latest": {
-    "mins_to_off": 45,
-    "mid": 8.89,
-    "spread_pct": 6.8
-   },
-   "move_pct": 2.5,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 51,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1830",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T18:30:00Z",
-   "runner": "Degale",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 5.5
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 5.5,
-    "spread_pct": 3.6
-   },
-   "move_pct": 0.0,
+   "move_pct": -0.6,
    "band": [
     5,
     8
@@ -7187,23 +7253,23 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1900",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T19:00:00Z",
-   "runner": "Palliser",
+   "slug": "southwell-1623",
+   "venue": "Southwell",
+   "off_utc": "2026-10-13T16:23:00Z",
+   "runner": "Luminaries",
    "first": {
-    "mins_to_off": 360,
-    "mid": 8.56
+    "mins_to_off": 353,
+    "mid": 4.2
    },
    "latest": {
-    "mins_to_off": 195,
-    "mid": 8.78,
-    "spread_pct": 9.1
+    "mins_to_off": 8,
+    "mid": 4.25,
+    "spread_pct": 2.3
    },
-   "move_pct": 2.6,
+   "move_pct": 1.2,
    "band": [
-    8,
-    13
+    3,
+    5
    ],
    "percentile": 51,
    "notable": false
@@ -7212,44 +7278,22 @@
    "slug": "wolverhampton-1930",
    "venue": "Wolverhampton",
    "off_utc": "2026-10-13T19:30:00Z",
-   "runner": "Brodie's Boy",
+   "runner": "Bradbury",
    "first": {
     "mins_to_off": 360,
-    "mid": 21.6
+    "mid": 7.38
    },
    "latest": {
-    "mins_to_off": 225,
-    "mid": 22.83,
-    "spread_pct": 17.5
+    "mins_to_off": 0,
+    "mid": 7.39,
+    "spread_pct": 5.4
    },
-   "move_pct": 5.7,
+   "move_pct": 0.2,
    "band": [
-    20,
-    35
+    5,
+    8
    ],
-   "percentile": 49,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1930",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T19:30:00Z",
-   "runner": "Pipily",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 15.65
-   },
-   "latest": {
-    "mins_to_off": 225,
-    "mid": 16.16,
-    "spread_pct": 15.6
-   },
-   "move_pct": 3.2,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 49,
+   "percentile": 51,
    "notable": false
   },
   {
@@ -7314,28 +7358,6 @@
    "band": [
     35,
     100
-   ],
-   "percentile": 50,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1730",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-10-13T17:30:00Z",
-   "runner": "Sea Palace",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 11.92
-   },
-   "latest": {
-    "mins_to_off": 105,
-    "mid": 12.2,
-    "spread_pct": 12.4
-   },
-   "move_pct": 2.4,
-   "band": [
-    8,
-    13
    ],
    "percentile": 50,
    "notable": false
