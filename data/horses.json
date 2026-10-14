@@ -1,6 +1,6 @@
 {
  "schema": "horses_v5",
- "generated_at": "2026-10-14T12:00:37Z",
+ "generated_at": "2026-10-14T16:00:36Z",
  "source": "Historical race results",
  "note": "Every figure is computed using only races run STRICTLY BEFORE the race it describes — the `as_of` date on each horse. Groups with fewer than two runs are omitted rather than shown as a rate, because a 100% strike rate over one run is noise wearing the clothes of a finding. Our archive runs to 2026-10-13: a horse that ran after that date has those runs missing here, so read `career` as what we hold, not as a complete record.",
  "history_depth": {
@@ -19,7 +19,7 @@
   "still_missing": 1226,
   "note": "Sire totals count the progeny we hold. Breeding is complete for races up to 2026-07-22. After that date our live source carries it for about half of runners; we recover most of the rest from the same horse's other races, but not all. Recent races are therefore under-counted in sire totals."
  },
- "collected_through": "2026-10-14T11:00:03Z",
+ "collected_through": "2026-10-14T15:00:03Z",
  "distance_bands": [
   {
    "key": "sprint",
@@ -2715,7 +2715,7 @@
     "off_utc": "2026-10-14T13:45:00+01:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-14",
    "status": "has_history",
@@ -7061,7 +7061,7 @@
     "off_utc": "2026-10-14T14:00:00+01:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-14",
    "status": "has_history",
@@ -7542,12 +7542,12 @@
     }
    ],
    "jockey": {
-    "name": "Donagh Meyler",
-    "runs": 1979,
-    "wins": 157,
-    "places": 513,
-    "win_pct": 7.9,
-    "place_pct": 25.9
+    "name": "Mr R Sugrue(7)",
+    "runs": 106,
+    "wins": 3,
+    "places": 17,
+    "win_pct": 2.8,
+    "place_pct": 16.0
    },
    "trainer": {
     "name": "John Joseph Hanlon",
@@ -7582,22 +7582,22 @@
     "place_pct": 0.0
    },
    "jockey_at_course": {
-    "name": "Donagh Meyler",
+    "name": "Mr R Sugrue(7)",
     "key": "Punchestown",
-    "runs": 177,
-    "wins": 14,
-    "places": 45,
-    "win_pct": 7.9,
-    "place_pct": 25.4
+    "runs": 11,
+    "wins": 0,
+    "places": 0,
+    "win_pct": 0.0,
+    "place_pct": 0.0
    },
    "jockey_at_distance": {
-    "name": "Donagh Meyler",
+    "name": "Mr R Sugrue(7)",
     "key": "staying",
-    "runs": 1979,
-    "wins": 157,
-    "places": 513,
-    "win_pct": 7.9,
-    "place_pct": 25.9
+    "runs": 106,
+    "wins": 3,
+    "places": 17,
+    "win_pct": 2.8,
+    "place_pct": 16.0
    },
    "trainer_at_course": {
     "name": "John Joseph Hanlon",
@@ -7744,7 +7744,7 @@
     "off_utc": "2026-10-14T14:10:00+01:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-14",
    "status": "has_history",
@@ -14370,7 +14370,7 @@
     "off_utc": "2026-10-14T14:55:00+01:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-14",
    "status": "has_history",
@@ -15115,12 +15115,12 @@
     }
    ],
    "jockey": {
-    "name": "Mr James Murray(7)",
-    "runs": 20,
-    "wins": 3,
-    "places": 11,
-    "win_pct": 15.0,
-    "place_pct": 55.0
+    "name": "Jack Tudor",
+    "runs": 2029,
+    "wins": 240,
+    "places": 646,
+    "win_pct": 11.8,
+    "place_pct": 31.8
    },
    "trainer": {
     "name": "Mickey Bowen",
@@ -15146,23 +15146,6 @@
     "win_pct": 13.2,
     "place_pct": 39.6
    },
-   "jockey_trainer": {
-    "jockey": "Mr James Murray(7)",
-    "trainer": "Mickey Bowen",
-    "runs": 14,
-    "wins": 2,
-    "places": 9,
-    "win_pct": 14.3,
-    "place_pct": 64.3
-   },
-   "jockey_here": {
-    "name": "Mr James Murray(7)",
-    "runs": 2,
-    "wins": 0,
-    "places": 2,
-    "win_pct": 0.0,
-    "place_pct": 100.0
-   },
    "trainer_here": {
     "name": "Mickey Bowen",
     "runs": 8,
@@ -15171,14 +15154,23 @@
     "win_pct": 0.0,
     "place_pct": 75.0
    },
+   "jockey_at_course": {
+    "name": "Jack Tudor",
+    "key": "Ffos Las",
+    "runs": 153,
+    "wins": 19,
+    "places": 46,
+    "win_pct": 12.4,
+    "place_pct": 30.1
+   },
    "jockey_at_distance": {
-    "name": "Mr James Murray(7)",
+    "name": "Jack Tudor",
     "key": "staying",
-    "runs": 20,
-    "wins": 3,
-    "places": 11,
-    "win_pct": 15.0,
-    "place_pct": 55.0
+    "runs": 2029,
+    "wins": 240,
+    "places": 646,
+    "win_pct": 11.8,
+    "place_pct": 31.8
    },
    "trainer_at_course": {
     "name": "Mickey Bowen",
@@ -18597,7 +18589,7 @@
     "off_utc": "2026-10-14T15:20:00+01:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-14",
    "status": "has_history",
@@ -22446,12 +22438,12 @@
     }
    ],
    "jockey": {
-    "name": "Callum Rodriguez",
-    "runs": 2849,
-    "wins": 439,
-    "places": 1191,
-    "win_pct": 15.4,
-    "place_pct": 41.8
+    "name": "Tom Marquand",
+    "runs": 5727,
+    "wins": 861,
+    "places": 2263,
+    "win_pct": 15.0,
+    "place_pct": 39.5
    },
    "trainer": {
     "name": "Ewan Whillans",
@@ -22477,32 +22469,23 @@
     "win_pct": 10.2,
     "place_pct": 31.9
    },
-   "jockey_trainer": {
-    "jockey": "Callum Rodriguez",
-    "trainer": "Ewan Whillans",
-    "runs": 20,
-    "wins": 1,
-    "places": 7,
-    "win_pct": 5.0,
-    "place_pct": 35.0
-   },
    "jockey_at_course": {
-    "name": "Callum Rodriguez",
+    "name": "Tom Marquand",
     "key": "Nottingham",
-    "runs": 61,
-    "wins": 11,
-    "places": 30,
-    "win_pct": 18.0,
-    "place_pct": 49.2
+    "runs": 108,
+    "wins": 18,
+    "places": 45,
+    "win_pct": 16.7,
+    "place_pct": 41.7
    },
    "jockey_at_distance": {
-    "name": "Callum Rodriguez",
+    "name": "Tom Marquand",
     "key": "staying",
-    "runs": 143,
-    "wins": 23,
-    "places": 60,
-    "win_pct": 16.1,
-    "place_pct": 42.0
+    "runs": 348,
+    "wins": 50,
+    "places": 129,
+    "win_pct": 14.4,
+    "place_pct": 37.1
    },
    "trainer_at_distance": {
     "name": "Ewan Whillans",
@@ -24944,12 +24927,12 @@
     }
    ],
    "jockey": {
-    "name": "Donagh Meyler",
-    "runs": 1979,
-    "wins": 157,
-    "places": 513,
-    "win_pct": 7.9,
-    "place_pct": 25.9
+    "name": "Danny Mullins",
+    "runs": 2957,
+    "wins": 304,
+    "places": 902,
+    "win_pct": 10.3,
+    "place_pct": 30.5
    },
    "trainer": {
     "name": "Emmet Mullins",
@@ -24976,21 +24959,13 @@
     "place_pct": 39.3
    },
    "jockey_trainer": {
-    "jockey": "Donagh Meyler",
+    "jockey": "Danny Mullins",
     "trainer": "Emmet Mullins",
-    "runs": 194,
-    "wins": 25,
-    "places": 70,
-    "win_pct": 12.9,
-    "place_pct": 36.1
-   },
-   "jockey_here": {
-    "name": "Donagh Meyler",
-    "runs": 4,
-    "wins": 1,
-    "places": 4,
-    "win_pct": 25.0,
-    "place_pct": 100.0
+    "runs": 27,
+    "wins": 2,
+    "places": 10,
+    "win_pct": 7.4,
+    "place_pct": 37.0
    },
    "trainer_here": {
     "name": "Emmet Mullins",
@@ -25001,22 +24976,22 @@
     "place_pct": 100.0
    },
    "jockey_at_course": {
-    "name": "Donagh Meyler",
+    "name": "Danny Mullins",
     "key": "Punchestown",
-    "runs": 177,
-    "wins": 14,
-    "places": 45,
-    "win_pct": 7.9,
-    "place_pct": 25.4
+    "runs": 352,
+    "wins": 32,
+    "places": 102,
+    "win_pct": 9.1,
+    "place_pct": 29.0
    },
    "jockey_at_distance": {
-    "name": "Donagh Meyler",
+    "name": "Danny Mullins",
     "key": "staying",
-    "runs": 1979,
-    "wins": 157,
-    "places": 513,
-    "win_pct": 7.9,
-    "place_pct": 25.9
+    "runs": 2947,
+    "wins": 304,
+    "places": 898,
+    "win_pct": 10.3,
+    "place_pct": 30.5
    },
    "trainer_at_course": {
     "name": "Emmet Mullins",
@@ -25246,7 +25221,7 @@
     "off_utc": "2026-10-14T16:05:00+01:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-14",
    "status": "has_history",
@@ -26187,7 +26162,7 @@
     "off_utc": "2026-10-14T16:05:00+01:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-14",
    "status": "has_history",
@@ -29967,7 +29942,7 @@
     "off_utc": "2026-10-14T16:20:00+01:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-14",
    "status": "has_history",
@@ -34700,7 +34675,7 @@
     "off_utc": "2026-10-14T16:47:00+01:00",
     "going": "soft",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-14",
    "status": "has_history",
@@ -41666,7 +41641,7 @@
     "off_utc": "2026-10-14T17:22:00+01:00",
     "going": "soft",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-14",
    "status": "has_history",
@@ -43030,7 +43005,7 @@
     "off_utc": "2026-10-14T17:22:00+01:00",
     "going": "soft",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-14",
    "status": "has_history",
@@ -43373,7 +43348,7 @@
     "off_utc": "2026-10-14T17:22:00+01:00",
     "going": "soft",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-14",
    "status": "has_history",

@@ -1,6 +1,6 @@
 {
  "schema": "movers_v1",
- "generated_at": "2026-10-14T12:00:01Z",
+ "generated_at": "2026-10-14T16:00:01Z",
  "source": "Smarkets public order book",
  "note": "'percentile' is where this move sits among all moves we have measured for runners opening at a similar price. The median move is near zero in every band; what changes with price is the spread of outcomes.",
  "baseline": {
@@ -78,74 +78,8 @@
    }
   ]
  },
- "collected_through": "2026-10-14T11:45:01Z",
+ "collected_through": "2026-10-14T15:45:01Z",
  "runners": [
-  {
-   "slug": "nottingham-1254",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T12:54:00Z",
-   "runner": "Mile End Road",
-   "first": {
-    "mins_to_off": 294,
-    "mid": 27.43
-   },
-   "latest": {
-    "mins_to_off": 69,
-    "mid": 79.68,
-    "spread_pct": 12.0
-   },
-   "move_pct": 190.4,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 99,
-   "notable": true
-  },
-  {
-   "slug": "nottingham-1329",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T13:29:00Z",
-   "runner": "Playing Card",
-   "first": {
-    "mins_to_off": 329,
-    "mid": 10.25
-   },
-   "latest": {
-    "mins_to_off": 104,
-    "mid": 5.35,
-    "spread_pct": 5.6
-   },
-   "move_pct": -47.8,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 1,
-   "notable": true
-  },
-  {
-   "slug": "ffos-las-1245",
-   "venue": "Ffos Las",
-   "off_utc": "2026-10-14T12:45:00Z",
-   "runner": "My Own Lovely Lee",
-   "first": {
-    "mins_to_off": 285,
-    "mid": 12.71
-   },
-   "latest": {
-    "mins_to_off": 60,
-    "mid": 6.79,
-    "spread_pct": 5.8
-   },
-   "move_pct": -46.5,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 2,
-   "notable": true
-  },
   {
    "slug": "ffos-las-1245",
    "venue": "Ffos Las",
@@ -156,16 +90,60 @@
     "mid": 8.47
    },
    "latest": {
-    "mins_to_off": 60,
-    "mid": 5.2,
-    "spread_pct": 3.8
+    "mins_to_off": 0,
+    "mid": 3.55,
+    "spread_pct": 15.5
    },
-   "move_pct": -38.6,
+   "move_pct": -58.0,
    "band": [
     8,
     13
    ],
-   "percentile": 3,
+   "percentile": 0,
+   "notable": true
+  },
+  {
+   "slug": "nottingham-1254",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T12:54:00Z",
+   "runner": "Mile End Road",
+   "first": {
+    "mins_to_off": 294,
+    "mid": 27.43
+   },
+   "latest": {
+    "mins_to_off": 24,
+    "mid": 96.15,
+    "spread_pct": 42.1
+   },
+   "move_pct": 250.5,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 100,
+   "notable": true
+  },
+  {
+   "slug": "nottingham-1219",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T12:19:00Z",
+   "runner": "Eagles Eternal",
+   "first": {
+    "mins_to_off": 259,
+    "mid": 43.67
+   },
+   "latest": {
+    "mins_to_off": 4,
+    "mid": 91.74,
+    "spread_pct": 16.6
+   },
+   "move_pct": 110.1,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 99,
    "notable": true
   },
   {
@@ -178,193 +156,105 @@
     "mid": 3.87
    },
    "latest": {
-    "mins_to_off": 34,
-    "mid": 5.85,
-    "spread_pct": 5.1
+    "mins_to_off": 4,
+    "mid": 6.79,
+    "spread_pct": 5.8
    },
-   "move_pct": 50.9,
+   "move_pct": 75.4,
    "band": [
     3,
     5
    ],
-   "percentile": 96,
+   "percentile": 99,
    "notable": true
   },
   {
-   "slug": "ffos-las-1355",
+   "slug": "ffos-las-1245",
    "venue": "Ffos Las",
-   "off_utc": "2026-10-14T13:55:00Z",
-   "runner": "Lermoos Legend",
+   "off_utc": "2026-10-14T12:45:00Z",
+   "runner": "Good For You",
    "first": {
-    "mins_to_off": 355,
-    "mid": 7.78
+    "mins_to_off": 285,
+    "mid": 17.87
    },
    "latest": {
-    "mins_to_off": 130,
-    "mid": 5.55,
-    "spread_pct": 1.8
+    "mins_to_off": 0,
+    "mid": 43.86,
+    "spread_pct": 22749.9
    },
-   "move_pct": -28.7,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 7,
-   "notable": false
-  },
-  {
-   "slug": "punchestown-1420",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T14:20:00Z",
-   "runner": "Kevin's Pride",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 33.22
-   },
-   "latest": {
-    "mins_to_off": 155,
-    "mid": 60.98,
-    "spread_pct": 72.2
-   },
-   "move_pct": 83.5,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 93,
-   "notable": false
-  },
-  {
-   "slug": "ffos-las-1320",
-   "venue": "Ffos Las",
-   "off_utc": "2026-10-14T13:20:00Z",
-   "runner": "Desertmore News",
-   "first": {
-    "mins_to_off": 320,
-    "mid": 6.79
-   },
-   "latest": {
-    "mins_to_off": 95,
-    "mid": 9.49,
-    "spread_pct": 6.4
-   },
-   "move_pct": 39.7,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 92,
-   "notable": false
-  },
-  {
-   "slug": "ffos-las-1355",
-   "venue": "Ffos Las",
-   "off_utc": "2026-10-14T13:55:00Z",
-   "runner": "Fanion D'estruval",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 11.92
-   },
-   "latest": {
-    "mins_to_off": 130,
-    "mid": 17.57,
-    "spread_pct": 19.9
-   },
-   "move_pct": 47.5,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 90,
-   "notable": false
-  },
-  {
-   "slug": "wetherby-1552",
-   "venue": "Wetherby",
-   "off_utc": "2026-10-14T15:52:00Z",
-   "runner": "Farhh Echo",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 14.64
-   },
-   "latest": {
-    "mins_to_off": 247,
-    "mid": 10.25,
-    "spread_pct": 13.7
-   },
-   "move_pct": -30.0,
+   "move_pct": 145.4,
    "band": [
     13,
     20
    ],
-   "percentile": 10,
-   "notable": false
-  },
-  {
-   "slug": "punchestown-1607",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T16:07:00Z",
-   "runner": "My Cullen",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 7.67
-   },
-   "latest": {
-    "mins_to_off": 262,
-    "mid": 10.14,
-    "spread_pct": 15.8
-   },
-   "move_pct": 32.2,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 89,
-   "notable": false
-  },
-  {
-   "slug": "nottingham-1254",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T12:54:00Z",
-   "runner": "Ensor Mews",
-   "first": {
-    "mins_to_off": 294,
-    "mid": 7.78
-   },
-   "latest": {
-    "mins_to_off": 69,
-    "mid": 6.05,
-    "spread_pct": 5.0
-   },
-   "move_pct": -22.3,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 12,
-   "notable": false
+   "percentile": 99,
+   "notable": true
   },
   {
    "slug": "punchestown-1310",
    "venue": "Punchestown",
    "off_utc": "2026-10-14T13:10:00Z",
-   "runner": "Fiveandahalf",
+   "runner": "Whisky Lads",
    "first": {
     "mins_to_off": 310,
-    "mid": 3.42
+    "mid": 11.7
    },
    "latest": {
-    "mins_to_off": 85,
-    "mid": 4.4,
-    "spread_pct": 4.6
+    "mins_to_off": 10,
+    "mid": 5.85,
+    "spread_pct": 5.1
    },
-   "move_pct": 28.5,
+   "move_pct": -50.0,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 1,
+   "notable": true
+  },
+  {
+   "slug": "nottingham-1329",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T13:29:00Z",
+   "runner": "Playing Card",
+   "first": {
+    "mins_to_off": 329,
+    "mid": 10.25
+   },
+   "latest": {
+    "mins_to_off": 14,
+    "mid": 4.85,
+    "spread_pct": 2.0
+   },
+   "move_pct": -52.7,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 1,
+   "notable": true
+  },
+  {
+   "slug": "ffos-las-1245",
+   "venue": "Ffos Las",
+   "off_utc": "2026-10-14T12:45:00Z",
+   "runner": "Wannabe",
+   "first": {
+    "mins_to_off": 285,
+    "mid": 4.95
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 8.32,
+    "spread_pct": 19.2
+   },
+   "move_pct": 68.3,
    "band": [
     3,
     5
    ],
-   "percentile": 88,
-   "notable": false
+   "percentile": 98,
+   "notable": true
   },
   {
    "slug": "nottingham-1329",
@@ -376,236 +266,434 @@
     "mid": 4.04
    },
    "latest": {
-    "mins_to_off": 104,
-    "mid": 5.2,
-    "spread_pct": 3.8
+    "mins_to_off": 14,
+    "mid": 6.79,
+    "spread_pct": 5.8
    },
-   "move_pct": 28.5,
+   "move_pct": 68.0,
    "band": [
     3,
     5
    ],
-   "percentile": 88,
-   "notable": false
+   "percentile": 98,
+   "notable": true
   },
   {
    "slug": "punchestown-1420",
    "venue": "Punchestown",
    "off_utc": "2026-10-14T14:20:00Z",
-   "runner": "Feud",
+   "runner": "Harpy Eagle",
    "first": {
     "mins_to_off": 350,
-    "mid": 15.94
+    "mid": 8.04
    },
    "latest": {
-    "mins_to_off": 155,
-    "mid": 24.01,
-    "spread_pct": 29.2
+    "mins_to_off": 5,
+    "mid": 4.6,
+    "spread_pct": 4.3
    },
-   "move_pct": 50.7,
+   "move_pct": -42.8,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 2,
+   "notable": true
+  },
+  {
+   "slug": "nottingham-1514",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T15:14:00Z",
+   "runner": "Ubetterseethis",
+   "first": {
+    "mins_to_off": 359,
+    "mid": 32.26
+   },
+   "latest": {
+    "mins_to_off": 29,
+    "mid": 84.03,
+    "spread_pct": 23.9
+   },
+   "move_pct": 160.5,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 98,
+   "notable": true
+  },
+  {
+   "slug": "punchestown-1420",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T14:20:00Z",
+   "runner": "Kevin's Pride",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 33.22
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 78.74,
+    "spread_pct": 25.6
+   },
+   "move_pct": 137.0,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 97,
+   "notable": true
+  },
+  {
+   "slug": "punchestown-1420",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T14:20:00Z",
+   "runner": "Take The Free",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 8.93
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 17.26,
+    "spread_pct": 2.9
+   },
+   "move_pct": 93.3,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 97,
+   "notable": true
+  },
+  {
+   "slug": "ffos-las-1430",
+   "venue": "Ffos Las",
+   "off_utc": "2026-10-14T14:30:00Z",
+   "runner": "Captain Teague",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 8.3
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 4.95,
+    "spread_pct": 2.0
+   },
+   "move_pct": -40.4,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 3,
+   "notable": true
+  },
+  {
+   "slug": "nottingham-1514",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T15:14:00Z",
+   "runner": "Gwen's Girl",
+   "first": {
+    "mins_to_off": 359,
+    "mid": 34.31
+   },
+   "latest": {
+    "mins_to_off": 14,
+    "mid": 76.63,
+    "spread_pct": 19.3
+   },
+   "move_pct": 123.4,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 97,
+   "notable": true
+  },
+  {
+   "slug": "punchestown-1640",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T16:40:00Z",
+   "runner": "Whispered Verdict",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 30.67
+   },
+   "latest": {
+    "mins_to_off": 55,
+    "mid": 15.15,
+    "spread_pct": 16.5
+   },
+   "move_pct": -50.6,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 3,
+   "notable": true
+  },
+  {
+   "slug": "kempton-1730",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T17:30:00Z",
+   "runner": "Isabella Of Aragon",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 49.51
+   },
+   "latest": {
+    "mins_to_off": 105,
+    "mid": 88.89,
+    "spread_pct": 22.5
+   },
+   "move_pct": 79.6,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 96,
+   "notable": true
+  },
+  {
+   "slug": "nottingham-1219",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T12:19:00Z",
+   "runner": "Chevere",
+   "first": {
+    "mins_to_off": 259,
+    "mid": 6.98
+   },
+   "latest": {
+    "mins_to_off": 4,
+    "mid": 4.8,
+    "spread_pct": 4.2
+   },
+   "move_pct": -31.3,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 5,
+   "notable": true
+  },
+  {
+   "slug": "punchestown-1420",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T14:20:00Z",
+   "runner": "Boo Radley",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 15.86
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 29.9,
+    "spread_pct": 13.5
+   },
+   "move_pct": 88.5,
    "band": [
     13,
     20
    ],
-   "percentile": 88,
+   "percentile": 95,
+   "notable": true
+  },
+  {
+   "slug": "wetherby-1520",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-14T15:20:00Z",
+   "runner": "Rauzan",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 19.38
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 11.98,
+    "spread_pct": 8.4
+   },
+   "move_pct": -38.2,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 5,
+   "notable": true
+  },
+  {
+   "slug": "wetherby-1520",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-14T15:20:00Z",
+   "runner": "Scottish Dancer",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 6.69
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 4.55,
+    "spread_pct": 2.2
+   },
+   "move_pct": -32.0,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 5,
+   "notable": true
+  },
+  {
+   "slug": "punchestown-1235",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T12:35:00Z",
+   "runner": "Green Heritage",
+   "first": {
+    "mins_to_off": 275,
+    "mid": 3.94
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 2.92,
+    "spread_pct": 1.4
+   },
+   "move_pct": -26.0,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 6,
+   "notable": false
+  },
+  {
+   "slug": "ffos-las-1355",
+   "venue": "Ffos Las",
+   "off_utc": "2026-10-14T13:55:00Z",
+   "runner": "Lermoos Legend",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 7.78
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 5.45,
+    "spread_pct": 5.5
+   },
+   "move_pct": -30.0,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 6,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1404",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T14:04:00Z",
+   "runner": "Sir Hannibal",
+   "first": {
+    "mins_to_off": 349,
+    "mid": 25.25
+   },
+   "latest": {
+    "mins_to_off": 4,
+    "mid": 14.98,
+    "spread_pct": 6.7
+   },
+   "move_pct": -40.7,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 6,
    "notable": false
   },
   {
    "slug": "wetherby-1520",
    "venue": "Wetherby",
    "off_utc": "2026-10-14T15:20:00Z",
-   "runner": "Dr Seb",
+   "runner": "Valette",
    "first": {
     "mins_to_off": 350,
-    "mid": 58.65
+    "mid": 10.91
    },
    "latest": {
-    "mins_to_off": 215,
-    "mid": 33.61,
-    "spread_pct": 32.8
+    "mins_to_off": 5,
+    "mid": 18.23,
+    "spread_pct": 8.2
    },
-   "move_pct": -42.7,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 12,
-   "notable": false
-  },
-  {
-   "slug": "nottingham-1547",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T15:47:00Z",
-   "runner": "Fickle Mcselfish",
-   "first": {
-    "mins_to_off": 347,
-    "mid": 26.04
-   },
-   "latest": {
-    "mins_to_off": 242,
-    "mid": 18.08,
-    "spread_pct": 19.3
-   },
-   "move_pct": -30.6,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 12,
-   "notable": false
-  },
-  {
-   "slug": "nottingham-1547",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T15:47:00Z",
-   "runner": "Ice Cube",
-   "first": {
-    "mins_to_off": 347,
-    "mid": 4.38
-   },
-   "latest": {
-    "mins_to_off": 242,
-    "mid": 3.52,
-    "spread_pct": 4.3
-   },
-   "move_pct": -19.6,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 12,
-   "notable": false
-  },
-  {
-   "slug": "nottingham-1547",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T15:47:00Z",
-   "runner": "Vega's Virtue",
-   "first": {
-    "mins_to_off": 347,
-    "mid": 9.65
-   },
-   "latest": {
-    "mins_to_off": 242,
-    "mid": 7.18,
-    "spread_pct": 11.2
-   },
-   "move_pct": -25.7,
+   "move_pct": 67.1,
    "band": [
     8,
     13
    ],
-   "percentile": 12,
-   "notable": false
-  },
-  {
-   "slug": "wetherby-1300",
-   "venue": "Wetherby",
-   "off_utc": "2026-10-14T13:00:00Z",
-   "runner": "Royal Sapphire",
-   "first": {
-    "mins_to_off": 300,
-    "mid": 3.87
-   },
-   "latest": {
-    "mins_to_off": 75,
-    "mid": 3.17,
-    "spread_pct": 1.6
-   },
-   "move_pct": -18.0,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 13,
-   "notable": false
-  },
-  {
-   "slug": "ffos-las-1320",
-   "venue": "Ffos Las",
-   "off_utc": "2026-10-14T13:20:00Z",
-   "runner": "Light Fandango",
-   "first": {
-    "mins_to_off": 320,
-    "mid": 14.2
-   },
-   "latest": {
-    "mins_to_off": 95,
-    "mid": 21.39,
-    "spread_pct": 14.0
-   },
-   "move_pct": 50.6,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 87,
-   "notable": false
-  },
-  {
-   "slug": "punchestown-1345",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T13:45:00Z",
-   "runner": "Cleopatra's Needle",
-   "first": {
-    "mins_to_off": 345,
-    "mid": 8.87
-   },
-   "latest": {
-    "mins_to_off": 120,
-    "mid": 6.78,
-    "spread_pct": 11.8
-   },
-   "move_pct": -23.6,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 13,
+   "percentile": 94,
    "notable": false
   },
   {
    "slug": "kempton-1525",
    "venue": "Kempton",
    "off_utc": "2026-10-14T15:25:00Z",
-   "runner": "I Am Royal",
+   "runner": "Colaba",
    "first": {
     "mins_to_off": 355,
-    "mid": 4.4
+    "mid": 42.02
    },
    "latest": {
-    "mins_to_off": 220,
-    "mid": 5.6,
-    "spread_pct": 3.6
+    "mins_to_off": 10,
+    "mid": 71.68,
+    "spread_pct": 21.0
    },
-   "move_pct": 27.3,
+   "move_pct": 70.6,
    "band": [
-    3,
-    5
+    35,
+    100
    ],
-   "percentile": 87,
+   "percentile": 94,
    "notable": false
   },
   {
    "slug": "nottingham-1219",
    "venue": "Nottingham",
    "off_utc": "2026-10-14T12:19:00Z",
-   "runner": "Enriched",
+   "runner": "Blake's Lass",
    "first": {
     "mins_to_off": 259,
-    "mid": 3.92
+    "mid": 10.25
    },
    "latest": {
-    "mins_to_off": 34,
-    "mid": 3.25,
-    "spread_pct": 3.1
+    "mins_to_off": 4,
+    "mid": 16.22,
+    "spread_pct": 9.3
    },
-   "move_pct": -17.2,
+   "move_pct": 58.2,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 93,
+   "notable": false
+  },
+  {
+   "slug": "punchestown-1310",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T13:10:00Z",
+   "runner": "Apache Peak",
+   "first": {
+    "mins_to_off": 310,
+    "mid": 4.04
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 3.07,
+    "spread_pct": 4.9
+   },
+   "move_pct": -24.0,
    "band": [
     3,
     5
    ],
-   "percentile": 14,
+   "percentile": 7,
    "notable": false
   },
   {
@@ -618,126 +706,104 @@
     "mid": 3.6
    },
    "latest": {
-    "mins_to_off": 95,
-    "mid": 2.98,
-    "spread_pct": 1.3
+    "mins_to_off": 5,
+    "mid": 2.67,
+    "spread_pct": 2.2
    },
-   "move_pct": -17.1,
+   "move_pct": -25.8,
    "band": [
     3,
     5
    ],
-   "percentile": 14,
+   "percentile": 7,
    "notable": false
   },
   {
-   "slug": "punchestown-1640",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T16:40:00Z",
-   "runner": "Soleil D'aure",
+   "slug": "ffos-las-1355",
+   "venue": "Ffos Las",
+   "off_utc": "2026-10-14T13:55:00Z",
+   "runner": "Fanion D'estruval",
    "first": {
     "mins_to_off": 355,
-    "mid": 13.22
+    "mid": 11.92
    },
    "latest": {
-    "mins_to_off": 295,
-    "mid": 9.84,
-    "spread_pct": 29.4
+    "mins_to_off": 10,
+    "mid": 18.71,
+    "spread_pct": 8.1
    },
-   "move_pct": -25.6,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 14,
-   "notable": false
-  },
-  {
-   "slug": "punchestown-1235",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T12:35:00Z",
-   "runner": "Rich Treasure",
-   "first": {
-    "mins_to_off": 275,
-    "mid": 7.59
-   },
-   "latest": {
-    "mins_to_off": 50,
-    "mid": 6.09,
-    "spread_pct": 9.9
-   },
-   "move_pct": -19.8,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 15,
-   "notable": false
-  },
-  {
-   "slug": "punchestown-1235",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T12:35:00Z",
-   "runner": "Green Heritage",
-   "first": {
-    "mins_to_off": 275,
-    "mid": 3.94
-   },
-   "latest": {
-    "mins_to_off": 50,
-    "mid": 3.32,
-    "spread_pct": 7.5
-   },
-   "move_pct": -15.8,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 16,
-   "notable": false
-  },
-  {
-   "slug": "nottingham-1254",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T12:54:00Z",
-   "runner": "Trustintimes",
-   "first": {
-    "mins_to_off": 294,
-    "mid": 14.14
-   },
-   "latest": {
-    "mins_to_off": 69,
-    "mid": 19.96,
-    "spread_pct": 10.0
-   },
-   "move_pct": 41.1,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 84,
-   "notable": false
-  },
-  {
-   "slug": "punchestown-1420",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T14:20:00Z",
-   "runner": "Harpy Eagle",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 8.04
-   },
-   "latest": {
-    "mins_to_off": 155,
-    "mid": 6.3,
-    "spread_pct": 3.2
-   },
-   "move_pct": -21.7,
+   "move_pct": 57.0,
    "band": [
     8,
     13
    ],
-   "percentile": 16,
+   "percentile": 93,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1525",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T15:25:00Z",
+   "runner": "I Am Royal",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 4.4
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 6.1,
+    "spread_pct": 3.3
+   },
+   "move_pct": 38.7,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 93,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1525",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T15:25:00Z",
+   "runner": "Uomo Valeroso",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 6.39
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 9.2,
+    "spread_pct": 4.3
+   },
+   "move_pct": 43.8,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 93,
+   "notable": false
+  },
+  {
+   "slug": "ffos-las-1245",
+   "venue": "Ffos Las",
+   "off_utc": "2026-10-14T12:45:00Z",
+   "runner": "My Own Lovely Lee",
+   "first": {
+    "mins_to_off": 285,
+    "mid": 12.71
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 8.95,
+    "spread_pct": 30.2
+   },
+   "move_pct": -29.5,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 8,
    "notable": false
   },
   {
@@ -750,148 +816,104 @@
     "mid": 4.44
    },
    "latest": {
-    "mins_to_off": 60,
-    "mid": 5.45,
-    "spread_pct": 1.9
+    "mins_to_off": 0,
+    "mid": 6.14,
+    "spread_pct": 19.5
    },
-   "move_pct": 22.6,
+   "move_pct": 38.2,
    "band": [
     3,
     5
    ],
-   "percentile": 83,
-   "notable": false
-  },
-  {
-   "slug": "ffos-las-1355",
-   "venue": "Ffos Las",
-   "off_utc": "2026-10-14T13:55:00Z",
-   "runner": "Iron Bridge",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 8.67
-   },
-   "latest": {
-    "mins_to_off": 130,
-    "mid": 6.9,
-    "spread_pct": 2.9
-   },
-   "move_pct": -20.4,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 17,
-   "notable": false
-  },
-  {
-   "slug": "nottingham-1547",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T15:47:00Z",
-   "runner": "Blue Hill",
-   "first": {
-    "mins_to_off": 347,
-    "mid": 9.69
-   },
-   "latest": {
-    "mins_to_off": 242,
-    "mid": 7.7,
-    "spread_pct": 2.6
-   },
-   "move_pct": -20.6,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 17,
-   "notable": false
-  },
-  {
-   "slug": "wetherby-1552",
-   "venue": "Wetherby",
-   "off_utc": "2026-10-14T15:52:00Z",
-   "runner": "Centurion's Sister",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 2.82
-   },
-   "latest": {
-    "mins_to_off": 247,
-    "mid": 3.27,
-    "spread_pct": 4.6
-   },
-   "move_pct": 16.1,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 83,
+   "percentile": 92,
    "notable": false
   },
   {
    "slug": "punchestown-1607",
    "venue": "Punchestown",
    "off_utc": "2026-10-14T16:07:00Z",
-   "runner": "Aurea Fortuna",
+   "runner": "Harbour Highway",
    "first": {
     "mins_to_off": 352,
-    "mid": 3.37
+    "mid": 3.69
    },
    "latest": {
-    "mins_to_off": 262,
-    "mid": 2.87,
-    "spread_pct": 2.1
+    "mins_to_off": 22,
+    "mid": 5.05,
+    "spread_pct": 2.0
    },
-   "move_pct": -14.8,
+   "move_pct": 36.9,
    "band": [
     3,
     5
    ],
-   "percentile": 17,
+   "percentile": 92,
    "notable": false
   },
   {
-   "slug": "nottingham-1219",
+   "slug": "kempton-1700",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T17:00:00Z",
+   "runner": "Protectrix",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 6.09
+   },
+   "latest": {
+    "mins_to_off": 75,
+    "mid": 8.47,
+    "spread_pct": 11.8
+   },
+   "move_pct": 39.2,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 92,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1329",
    "venue": "Nottingham",
-   "off_utc": "2026-10-14T12:19:00Z",
-   "runner": "Chevere",
+   "off_utc": "2026-10-14T13:29:00Z",
+   "runner": "Emaraat",
    "first": {
-    "mins_to_off": 259,
-    "mid": 6.98
+    "mins_to_off": 329,
+    "mid": 51.02
    },
    "latest": {
-    "mins_to_off": 34,
-    "mid": 5.75,
-    "spread_pct": 5.2
+    "mins_to_off": 14,
+    "mid": 78.74,
+    "spread_pct": 25.6
    },
-   "move_pct": -17.7,
+   "move_pct": 54.3,
    "band": [
-    5,
-    8
+    35,
+    100
    ],
-   "percentile": 18,
+   "percentile": 91,
    "notable": false
   },
   {
-   "slug": "wetherby-1335",
-   "venue": "Wetherby",
-   "off_utc": "2026-10-14T13:35:00Z",
-   "runner": "My Chiquita",
+   "slug": "ffos-las-1505",
+   "venue": "Ffos Las",
+   "off_utc": "2026-10-14T15:05:00Z",
+   "runner": "Viroflay",
    "first": {
-    "mins_to_off": 335,
-    "mid": 6.57
+    "mins_to_off": 350,
+    "mid": 7.89
    },
    "latest": {
-    "mins_to_off": 110,
-    "mid": 7.99,
-    "spread_pct": 5.0
+    "mins_to_off": 95,
+    "mid": 5.95,
+    "spread_pct": 1.7
    },
-   "move_pct": 21.6,
+   "move_pct": -24.6,
    "band": [
     5,
     8
    ],
-   "percentile": 82,
+   "percentile": 9,
    "notable": false
   },
   {
@@ -904,126 +926,38 @@
     "mid": 5.05
    },
    "latest": {
-    "mins_to_off": 220,
-    "mid": 4.15,
-    "spread_pct": 2.4
+    "mins_to_off": 10,
+    "mid": 3.77,
+    "spread_pct": 1.3
    },
-   "move_pct": -17.8,
+   "move_pct": -25.2,
    "band": [
     5,
     8
    ],
-   "percentile": 18,
+   "percentile": 9,
    "notable": false
   },
   {
-   "slug": "wetherby-1335",
-   "venue": "Wetherby",
-   "off_utc": "2026-10-14T13:35:00Z",
-   "runner": "Virtual Rock",
+   "slug": "nottingham-1547",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T15:47:00Z",
+   "runner": "Ice Cube",
    "first": {
-    "mins_to_off": 335,
-    "mid": 3.4
+    "mins_to_off": 347,
+    "mid": 4.38
    },
    "latest": {
-    "mins_to_off": 110,
-    "mid": 2.93,
-    "spread_pct": 3.4
+    "mins_to_off": 2,
+    "mid": 3.4,
+    "spread_pct": 2.9
    },
-   "move_pct": -13.8,
+   "move_pct": -22.4,
    "band": [
     3,
     5
    ],
-   "percentile": 19,
-   "notable": false
-  },
-  {
-   "slug": "nottingham-1404",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T14:04:00Z",
-   "runner": "Lady Roisia",
-   "first": {
-    "mins_to_off": 349,
-    "mid": 56.98
-   },
-   "latest": {
-    "mins_to_off": 139,
-    "mid": 37.59,
-    "spread_pct": 21.3
-   },
-   "move_pct": -34.0,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 19,
-   "notable": false
-  },
-  {
-   "slug": "punchestown-1455",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T14:55:00Z",
-   "runner": "Bunting",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 2.14
-   },
-   "latest": {
-    "mins_to_off": 190,
-    "mid": 1.87,
-    "spread_pct": 0.5
-   },
-   "move_pct": -12.4,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 19,
-   "notable": false
-  },
-  {
-   "slug": "ffos-las-1538",
-   "venue": "Ffos Las",
-   "off_utc": "2026-10-14T15:38:00Z",
-   "runner": "Torneo",
-   "first": {
-    "mins_to_off": 353,
-    "mid": 7.69
-   },
-   "latest": {
-    "mins_to_off": 233,
-    "mid": 6.39,
-    "spread_pct": 6.3
-   },
-   "move_pct": -16.8,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 19,
-   "notable": false
-  },
-  {
-   "slug": "wetherby-1520",
-   "venue": "Wetherby",
-   "off_utc": "2026-10-14T15:20:00Z",
-   "runner": "Gustoso",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 15.43
-   },
-   "latest": {
-    "mins_to_off": 215,
-    "mid": 12.41,
-    "spread_pct": 16.1
-   },
-   "move_pct": -19.6,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 20,
+   "percentile": 9,
    "notable": false
   },
   {
@@ -1036,14 +970,1158 @@
     "mid": 6.75
    },
    "latest": {
-    "mins_to_off": 262,
-    "mid": 5.64,
-    "spread_pct": 8.9
+    "mins_to_off": 22,
+    "mid": 5.05,
+    "spread_pct": 2.0
    },
-   "move_pct": -16.4,
+   "move_pct": -25.2,
    "band": [
     5,
     8
+   ],
+   "percentile": 9,
+   "notable": false
+  },
+  {
+   "slug": "punchestown-1640",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T16:40:00Z",
+   "runner": "Sharbel",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 5.17
+   },
+   "latest": {
+    "mins_to_off": 55,
+    "mid": 3.85,
+    "spread_pct": 2.6
+   },
+   "move_pct": -25.5,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 9,
+   "notable": false
+  },
+  {
+   "slug": "ffos-las-1505",
+   "venue": "Ffos Las",
+   "off_utc": "2026-10-14T15:05:00Z",
+   "runner": "Ben Solo",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 2.91
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 2.38,
+    "spread_pct": 1.7
+   },
+   "move_pct": -18.2,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 10,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1630",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T16:30:00Z",
+   "runner": "Crystal Pier",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 34.31
+   },
+   "latest": {
+    "mins_to_off": 45,
+    "mid": 59.52,
+    "spread_pct": 16.8
+   },
+   "move_pct": 73.5,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 90,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1219",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T12:19:00Z",
+   "runner": "Troublesome Guest",
+   "first": {
+    "mins_to_off": 259,
+    "mid": 4.4
+   },
+   "latest": {
+    "mins_to_off": 4,
+    "mid": 3.52,
+    "spread_pct": 1.4
+   },
+   "move_pct": -19.8,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 11,
+   "notable": false
+  },
+  {
+   "slug": "ffos-las-1245",
+   "venue": "Ffos Las",
+   "off_utc": "2026-10-14T12:45:00Z",
+   "runner": "Miss Pearl",
+   "first": {
+    "mins_to_off": 285,
+    "mid": 20.81
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 34.72,
+    "spread_pct": 227.5
+   },
+   "move_pct": 66.8,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 89,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1329",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T13:29:00Z",
+   "runner": "Hamrin",
+   "first": {
+    "mins_to_off": 329,
+    "mid": 13.33
+   },
+   "latest": {
+    "mins_to_off": 14,
+    "mid": 20.66,
+    "spread_pct": 12.0
+   },
+   "move_pct": 55.0,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 89,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1514",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T15:14:00Z",
+   "runner": "Mayaada",
+   "first": {
+    "mins_to_off": 359,
+    "mid": 3.22
+   },
+   "latest": {
+    "mins_to_off": 14,
+    "mid": 2.55,
+    "spread_pct": 0.8
+   },
+   "move_pct": -20.9,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 11,
+   "notable": false
+  },
+  {
+   "slug": "punchestown-1640",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T16:40:00Z",
+   "runner": "Frisco Lad",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 3.01
+   },
+   "latest": {
+    "mins_to_off": 55,
+    "mid": 3.92,
+    "spread_pct": 1.3
+   },
+   "move_pct": 30.4,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 89,
+   "notable": false
+  },
+  {
+   "slug": "punchestown-1420",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T14:20:00Z",
+   "runner": "Avalo",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 9.46
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 7.1,
+    "spread_pct": 2.8
+   },
+   "move_pct": -24.9,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 12,
+   "notable": false
+  },
+  {
+   "slug": "punchestown-1607",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T16:07:00Z",
+   "runner": "My Cullen",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 7.67
+   },
+   "latest": {
+    "mins_to_off": 22,
+    "mid": 10.03,
+    "spread_pct": 9.0
+   },
+   "move_pct": 30.8,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 88,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1254",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T12:54:00Z",
+   "runner": "Ensor Mews",
+   "first": {
+    "mins_to_off": 294,
+    "mid": 7.78
+   },
+   "latest": {
+    "mins_to_off": 9,
+    "mid": 6.1,
+    "spread_pct": 3.3
+   },
+   "move_pct": -21.6,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 13,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1404",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T14:04:00Z",
+   "runner": "Knights Charge",
+   "first": {
+    "mins_to_off": 349,
+    "mid": 1.88
+   },
+   "latest": {
+    "mins_to_off": 4,
+    "mid": 2.28,
+    "spread_pct": 1.8
+   },
+   "move_pct": 21.3,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 87,
+   "notable": false
+  },
+  {
+   "slug": "ffos-las-1505",
+   "venue": "Ffos Las",
+   "off_utc": "2026-10-14T15:05:00Z",
+   "runner": "Etalon",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 10.91
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 8.3,
+    "spread_pct": 2.5
+   },
+   "move_pct": -23.9,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 13,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1520",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-14T15:20:00Z",
+   "runner": "You Did",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 9.28
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 7.1,
+    "spread_pct": 2.8
+   },
+   "move_pct": -23.5,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 13,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1547",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T15:47:00Z",
+   "runner": "Vega's Virtue",
+   "first": {
+    "mins_to_off": 347,
+    "mid": 9.65
+   },
+   "latest": {
+    "mins_to_off": 2,
+    "mid": 7.3,
+    "spread_pct": 2.8
+   },
+   "move_pct": -24.4,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 13,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1552",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-14T15:52:00Z",
+   "runner": "Farhh Echo",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 14.64
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 10.75,
+    "spread_pct": 4.6
+   },
+   "move_pct": -26.6,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 13,
+   "notable": false
+  },
+  {
+   "slug": "punchestown-1607",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T16:07:00Z",
+   "runner": "Aurea Fortuna",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 3.37
+   },
+   "latest": {
+    "mins_to_off": 22,
+    "mid": 2.74,
+    "spread_pct": 1.5
+   },
+   "move_pct": -18.7,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 13,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1254",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T12:54:00Z",
+   "runner": "Medaali",
+   "first": {
+    "mins_to_off": 294,
+    "mid": 8.47
+   },
+   "latest": {
+    "mins_to_off": 9,
+    "mid": 6.5,
+    "spread_pct": 3.1
+   },
+   "move_pct": -23.3,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 14,
+   "notable": false
+  },
+  {
+   "slug": "ffos-las-1320",
+   "venue": "Ffos Las",
+   "off_utc": "2026-10-14T13:20:00Z",
+   "runner": "Light Fandango",
+   "first": {
+    "mins_to_off": 320,
+    "mid": 14.2
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 20.66,
+    "spread_pct": 12.0
+   },
+   "move_pct": 45.5,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 86,
+   "notable": false
+  },
+  {
+   "slug": "ffos-las-1505",
+   "venue": "Ffos Las",
+   "off_utc": "2026-10-14T15:05:00Z",
+   "runner": "Gyenyame",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 8.56
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 6.59,
+    "spread_pct": 6.0
+   },
+   "move_pct": -22.9,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 14,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1514",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T15:14:00Z",
+   "runner": "Mr Tony",
+   "first": {
+    "mins_to_off": 359,
+    "mid": 8.69
+   },
+   "latest": {
+    "mins_to_off": 14,
+    "mid": 11.98,
+    "spread_pct": 8.4
+   },
+   "move_pct": 37.8,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 86,
+   "notable": false
+  },
+  {
+   "slug": "punchestown-1530",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T15:30:00Z",
+   "runner": "Apple's Of Bresil",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 5.45
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 4.35,
+    "spread_pct": 2.3
+   },
+   "move_pct": -20.1,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 14,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1404",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T14:04:00Z",
+   "runner": "Lady Roisia",
+   "first": {
+    "mins_to_off": 349,
+    "mid": 56.98
+   },
+   "latest": {
+    "mins_to_off": 4,
+    "mid": 34.78,
+    "spread_pct": 17.2
+   },
+   "move_pct": -39.0,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 15,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1439",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T14:39:00Z",
+   "runner": "It's All About You",
+   "first": {
+    "mins_to_off": 354,
+    "mid": 60.06
+   },
+   "latest": {
+    "mins_to_off": 9,
+    "mid": 84.03,
+    "spread_pct": 23.9
+   },
+   "move_pct": 39.9,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 85,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1439",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T14:39:00Z",
+   "runner": "Personal Best",
+   "first": {
+    "mins_to_off": 354,
+    "mid": 8.89
+   },
+   "latest": {
+    "mins_to_off": 9,
+    "mid": 6.9,
+    "spread_pct": 2.9
+   },
+   "move_pct": -22.4,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 15,
+   "notable": false
+  },
+  {
+   "slug": "punchestown-1640",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T16:40:00Z",
+   "runner": "Veales Cross",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 38.17
+   },
+   "latest": {
+    "mins_to_off": 55,
+    "mid": 23.23,
+    "spread_pct": 21.4
+   },
+   "move_pct": -39.1,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 15,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1730",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T17:30:00Z",
+   "runner": "Keithaar",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 5.15
+   },
+   "latest": {
+    "mins_to_off": 105,
+    "mid": 4.15,
+    "spread_pct": 2.4
+   },
+   "move_pct": -19.4,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 15,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1730",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T17:30:00Z",
+   "runner": "You're Sensational",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 2.95
+   },
+   "latest": {
+    "mins_to_off": 105,
+    "mid": 3.5,
+    "spread_pct": 2.9
+   },
+   "move_pct": 18.6,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 85,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1300",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-14T13:00:00Z",
+   "runner": "Watcha Snoop",
+   "first": {
+    "mins_to_off": 300,
+    "mid": 14.55
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 20.66,
+    "spread_pct": 12.0
+   },
+   "move_pct": 42.0,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 84,
+   "notable": false
+  },
+  {
+   "slug": "punchestown-1310",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T13:10:00Z",
+   "runner": "Fiveandahalf",
+   "first": {
+    "mins_to_off": 310,
+    "mid": 3.42
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 2.89,
+    "spread_pct": 3.5
+   },
+   "move_pct": -15.6,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 16,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1404",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T14:04:00Z",
+   "runner": "Port Of London",
+   "first": {
+    "mins_to_off": 349,
+    "mid": 18.23
+   },
+   "latest": {
+    "mins_to_off": 4,
+    "mid": 13.98,
+    "spread_pct": 7.1
+   },
+   "move_pct": -23.3,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 16,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1630",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T16:30:00Z",
+   "runner": "Be Frank",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 8.58
+   },
+   "latest": {
+    "mins_to_off": 45,
+    "mid": 11.48,
+    "spread_pct": 8.7
+   },
+   "move_pct": 33.8,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 84,
+   "notable": false
+  },
+  {
+   "slug": "ffos-las-1245",
+   "venue": "Ffos Las",
+   "off_utc": "2026-10-14T12:45:00Z",
+   "runner": "Izzy's Grey",
+   "first": {
+    "mins_to_off": 285,
+    "mid": 14.55
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 11.31,
+    "spread_pct": 26.6
+   },
+   "move_pct": -22.3,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 17,
+   "notable": false
+  },
+  {
+   "slug": "punchestown-1455",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T14:55:00Z",
+   "runner": "Chanceawetmorning",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 6.66
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 5.45,
+    "spread_pct": 5.5
+   },
+   "move_pct": -18.3,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 17,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1552",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-14T15:52:00Z",
+   "runner": "Got Grey",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 19.55
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 27.4,
+    "spread_pct": 11.0
+   },
+   "move_pct": 40.1,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 83,
+   "notable": false
+  },
+  {
+   "slug": "punchestown-1345",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T13:45:00Z",
+   "runner": "Fraher Field",
+   "first": {
+    "mins_to_off": 345,
+    "mid": 4.84
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 5.9,
+    "spread_pct": 3.4
+   },
+   "move_pct": 21.9,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 82,
+   "notable": false
+  },
+  {
+   "slug": "punchestown-1420",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T14:20:00Z",
+   "runner": "Feud",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 15.94
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 21.95,
+    "spread_pct": 9.0
+   },
+   "move_pct": 37.8,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 82,
+   "notable": false
+  },
+  {
+   "slug": "ffos-las-1430",
+   "venue": "Ffos Las",
+   "off_utc": "2026-10-14T14:30:00Z",
+   "runner": "Tutti Quanti",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 1.61
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 1.86,
+    "spread_pct": 0.5
+   },
+   "move_pct": 15.3,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 82,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1514",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T15:14:00Z",
+   "runner": "Magic Box",
+   "first": {
+    "mins_to_off": 359,
+    "mid": 16.16
+   },
+   "latest": {
+    "mins_to_off": 14,
+    "mid": 22.4,
+    "spread_pct": 13.3
+   },
+   "move_pct": 38.6,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 82,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1600",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T16:00:00Z",
+   "runner": "Algaihabane",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 9.39
+   },
+   "latest": {
+    "mins_to_off": 15,
+    "mid": 12.2,
+    "spread_pct": 12.4
+   },
+   "move_pct": 30.0,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 82,
+   "notable": false
+  },
+  {
+   "slug": "punchestown-1640",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T16:40:00Z",
+   "runner": "Hilly Filly",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 7.31
+   },
+   "latest": {
+    "mins_to_off": 55,
+    "mid": 8.89,
+    "spread_pct": 6.8
+   },
+   "move_pct": 21.6,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 82,
+   "notable": false
+  },
+  {
+   "slug": "punchestown-1235",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T12:35:00Z",
+   "runner": "Rich Treasure",
+   "first": {
+    "mins_to_off": 275,
+    "mid": 7.59
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 6.3,
+    "spread_pct": 3.2
+   },
+   "move_pct": -17.0,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 19,
+   "notable": false
+  },
+  {
+   "slug": "punchestown-1345",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T13:45:00Z",
+   "runner": "The Dotski",
+   "first": {
+    "mins_to_off": 345,
+    "mid": 2.42
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 2.11,
+    "spread_pct": 0.9
+   },
+   "move_pct": -12.8,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 19,
+   "notable": false
+  },
+  {
+   "slug": "punchestown-1420",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T14:20:00Z",
+   "runner": "Rockymountainbleu",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 14.85
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 20.22,
+    "spread_pct": 7.5
+   },
+   "move_pct": 36.2,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 81,
+   "notable": false
+  },
+  {
+   "slug": "ffos-las-1430",
+   "venue": "Ffos Las",
+   "off_utc": "2026-10-14T14:30:00Z",
+   "runner": "Tamarind Bay",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 8.67
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 11.2,
+    "spread_pct": 13.4
+   },
+   "move_pct": 29.2,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 81,
+   "notable": false
+  },
+  {
+   "slug": "punchestown-1640",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T16:40:00Z",
+   "runner": "Hill Silver",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 9.43
+   },
+   "latest": {
+    "mins_to_off": 55,
+    "mid": 12.2,
+    "spread_pct": 12.4
+   },
+   "move_pct": 29.3,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 81,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1730",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T17:30:00Z",
+   "runner": "Sand Dance",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 77.22
+   },
+   "latest": {
+    "mins_to_off": 105,
+    "mid": 51.28,
+    "spread_pct": 13.4
+   },
+   "move_pct": -33.6,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 19,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1800",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T18:00:00Z",
+   "runner": "Waistcoat",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 24.63
+   },
+   "latest": {
+    "mins_to_off": 135,
+    "mid": 18.94,
+    "spread_pct": 10.6
+   },
+   "move_pct": -23.1,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 19,
+   "notable": false
+  },
+  {
+   "slug": "punchestown-1310",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T13:10:00Z",
+   "runner": "Two Grand Sweeney",
+   "first": {
+    "mins_to_off": 145,
+    "mid": 29.46
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 42.46,
+    "spread_pct": 23.7
+   },
+   "move_pct": 44.2,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 80,
+   "notable": false
+  },
+  {
+   "slug": "ffos-las-1320",
+   "venue": "Ffos Las",
+   "off_utc": "2026-10-14T13:20:00Z",
+   "runner": "Wandering Ego",
+   "first": {
+    "mins_to_off": 320,
+    "mid": 6.14
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 7.3,
+    "spread_pct": 2.8
+   },
+   "move_pct": 18.9,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 80,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1525",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T15:25:00Z",
+   "runner": "Hayate",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 2.54
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 2.23,
+    "spread_pct": 0.9
+   },
+   "move_pct": -12.2,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 20,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1900",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T19:00:00Z",
+   "runner": "Metal Merchant",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 80.0
+   },
+   "latest": {
+    "mins_to_off": 195,
+    "mid": 53.91,
+    "spread_pct": 61.5
+   },
+   "move_pct": -32.6,
+   "band": [
+    35,
+    100
    ],
    "percentile": 20,
    "notable": false
@@ -1058,7 +2136,7 @@
     "mid": 1.99
    },
    "latest": {
-    "mins_to_off": 40,
+    "mins_to_off": 10,
     "mid": 2.25,
     "spread_pct": 2.7
    },
@@ -1071,157 +2149,245 @@
    "notable": false
   },
   {
+   "slug": "ffos-las-1320",
+   "venue": "Ffos Las",
+   "off_utc": "2026-10-14T13:20:00Z",
+   "runner": "Sinnatra",
+   "first": {
+    "mins_to_off": 320,
+    "mid": 2.91
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 3.27,
+    "spread_pct": 1.5
+   },
+   "move_pct": 12.6,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 79,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1404",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T14:04:00Z",
+   "runner": "Rogue Millions",
+   "first": {
+    "mins_to_off": 349,
+    "mid": 25.25
+   },
+   "latest": {
+    "mins_to_off": 4,
+    "mid": 20.22,
+    "spread_pct": 7.5
+   },
+   "move_pct": -19.9,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 21,
+   "notable": false
+  },
+  {
    "slug": "ffos-las-1355",
    "venue": "Ffos Las",
    "off_utc": "2026-10-14T13:55:00Z",
-   "runner": "Guard Your Dreams",
+   "runner": "Iron Bridge",
    "first": {
     "mins_to_off": 355,
-    "mid": 4.34
+    "mid": 8.67
    },
    "latest": {
-    "mins_to_off": 130,
+    "mins_to_off": 10,
+    "mid": 7.3,
+    "spread_pct": 2.8
+   },
+   "move_pct": -15.8,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 22,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1404",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T14:04:00Z",
+   "runner": "Heyzoom",
+   "first": {
+    "mins_to_off": 349,
+    "mid": 6.05
+   },
+   "latest": {
+    "mins_to_off": 4,
     "mid": 5.15,
     "spread_pct": 2.0
    },
-   "move_pct": 18.5,
+   "move_pct": -14.8,
    "band": [
-    3,
-    5
+    5,
+    8
    ],
-   "percentile": 79,
-   "notable": false
-  },
-  {
-   "slug": "nottingham-1514",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T15:14:00Z",
-   "runner": "Magic Box",
-   "first": {
-    "mins_to_off": 359,
-    "mid": 16.16
-   },
-   "latest": {
-    "mins_to_off": 209,
-    "mid": 21.6,
-    "spread_pct": 34.7
-   },
-   "move_pct": 33.7,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 79,
-   "notable": false
-  },
-  {
-   "slug": "nottingham-1329",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T13:29:00Z",
-   "runner": "Mythical Tale",
-   "first": {
-    "mins_to_off": 329,
-    "mid": 8.07
-   },
-   "latest": {
-    "mins_to_off": 104,
-    "mid": 10.14,
-    "spread_pct": 6.9
-   },
-   "move_pct": 25.7,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 78,
-   "notable": false
-  },
-  {
-   "slug": "ffos-las-1355",
-   "venue": "Ffos Las",
-   "off_utc": "2026-10-14T13:55:00Z",
-   "runner": "Hold Your Fort",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 10.91
-   },
-   "latest": {
-    "mins_to_off": 130,
-    "mid": 13.71,
-    "spread_pct": 10.9
-   },
-   "move_pct": 25.6,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 78,
-   "notable": false
-  },
-  {
-   "slug": "punchestown-1420",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T14:20:00Z",
-   "runner": "Take The Free",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 8.93
-   },
-   "latest": {
-    "mins_to_off": 155,
-    "mid": 11.2,
-    "spread_pct": 13.4
-   },
-   "move_pct": 25.5,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 78,
+   "percentile": 22,
    "notable": false
   },
   {
    "slug": "nottingham-1547",
    "venue": "Nottingham",
    "off_utc": "2026-10-14T15:47:00Z",
-   "runner": "Trinculo",
+   "runner": "Blue Hill",
    "first": {
     "mins_to_off": 347,
-    "mid": 17.67
+    "mid": 9.69
    },
    "latest": {
-    "mins_to_off": 242,
-    "mid": 14.64,
-    "spread_pct": 17.1
+    "mins_to_off": 2,
+    "mid": 8.1,
+    "spread_pct": 2.4
    },
-   "move_pct": -17.1,
+   "move_pct": -16.5,
    "band": [
-    13,
-    20
+    8,
+    13
    ],
    "percentile": 22,
    "notable": false
   },
   {
-   "slug": "wetherby-1552",
-   "venue": "Wetherby",
-   "off_utc": "2026-10-14T15:52:00Z",
-   "runner": "Dream Jet",
+   "slug": "nottingham-1547",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T15:47:00Z",
+   "runner": "Far Far Out",
    "first": {
-    "mins_to_off": 352,
-    "mid": 14.04
+    "mins_to_off": 332,
+    "mid": 71.94
    },
    "latest": {
-    "mins_to_off": 247,
-    "mid": 18.45,
-    "spread_pct": 10.7
+    "mins_to_off": 17,
+    "mid": 90.5,
+    "spread_pct": 93.2
    },
-   "move_pct": 31.5,
+   "move_pct": 25.8,
    "band": [
-    13,
-    20
+    35,
+    100
    ],
    "percentile": 78,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1600",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T16:00:00Z",
+   "runner": "Magical Life",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 73.26
+   },
+   "latest": {
+    "mins_to_off": 90,
+    "mid": 92.59,
+    "spread_pct": 5.6
+   },
+   "move_pct": 26.4,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 78,
+   "notable": false
+  },
+  {
+   "slug": "punchestown-1607",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T16:07:00Z",
+   "runner": "Fr Gilligansvoyge",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 30.12
+   },
+   "latest": {
+    "mins_to_off": 22,
+    "mid": 24.39,
+    "spread_pct": 12.2
+   },
+   "move_pct": -19.0,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 22,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1622",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T16:22:00Z",
+   "runner": "Legendsoftheland",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 4.95
+   },
+   "latest": {
+    "mins_to_off": 37,
+    "mid": 4.35,
+    "spread_pct": 2.3
+   },
+   "move_pct": -12.1,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 22,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1830",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T18:30:00Z",
+   "runner": "Dapper Valley",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 27.86
+   },
+   "latest": {
+    "mins_to_off": 180,
+    "mid": 38.76,
+    "spread_pct": 15.6
+   },
+   "move_pct": 39.1,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 78,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1900",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T19:00:00Z",
+   "runner": "Charlie's Choice",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 54.05
+   },
+   "latest": {
+    "mins_to_off": 195,
+    "mid": 37.81,
+    "spread_pct": 37.1
+   },
+   "move_pct": -30.1,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 22,
    "notable": false
   },
   {
@@ -1234,7 +2400,7 @@
     "mid": 2.0
    },
    "latest": {
-    "mins_to_off": 40,
+    "mins_to_off": 10,
     "mid": 1.79,
     "spread_pct": 1.7
    },
@@ -1247,20 +2413,64 @@
    "notable": false
   },
   {
+   "slug": "punchestown-1345",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T13:45:00Z",
+   "runner": "Amanha",
+   "first": {
+    "mins_to_off": 315,
+    "mid": 58.65
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 73.53,
+    "spread_pct": 26.9
+   },
+   "move_pct": 25.4,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 77,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1404",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T14:04:00Z",
+   "runner": "Lucky Camino",
+   "first": {
+    "mins_to_off": 349,
+    "mid": 53.33
+   },
+   "latest": {
+    "mins_to_off": 4,
+    "mid": 66.67,
+    "spread_pct": 23.0
+   },
+   "move_pct": 25.0,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 77,
+   "notable": false
+  },
+  {
    "slug": "punchestown-1420",
    "venue": "Punchestown",
    "off_utc": "2026-10-14T14:20:00Z",
-   "runner": "Avalo",
+   "runner": "Elusive Ogie",
    "first": {
     "mins_to_off": 350,
-    "mid": 9.46
+    "mid": 8.73
    },
    "latest": {
-    "mins_to_off": 155,
-    "mid": 7.98,
-    "spread_pct": 10.1
+    "mins_to_off": 5,
+    "mid": 7.39,
+    "spread_pct": 5.4
    },
-   "move_pct": -15.6,
+   "move_pct": -15.3,
    "band": [
     8,
     13
@@ -1272,42 +2482,64 @@
    "slug": "wetherby-1445",
    "venue": "Wetherby",
    "off_utc": "2026-10-14T14:45:00Z",
-   "runner": "Parisencore",
+   "runner": "Genois",
    "first": {
     "mins_to_off": 360,
-    "mid": 6.29
+    "mid": 7.58
    },
    "latest": {
-    "mins_to_off": 180,
-    "mid": 7.29,
-    "spread_pct": 8.2
+    "mins_to_off": 0,
+    "mid": 6.5,
+    "spread_pct": 3.1
    },
-   "move_pct": 15.9,
+   "move_pct": -14.2,
    "band": [
     5,
     8
    ],
-   "percentile": 77,
+   "percentile": 23,
    "notable": false
   },
   {
-   "slug": "punchestown-1455",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T14:55:00Z",
-   "runner": "Vitorio Piel",
+   "slug": "ffos-las-1505",
+   "venue": "Ffos Las",
+   "off_utc": "2026-10-14T15:05:00Z",
+   "runner": "Scarface",
    "first": {
-    "mins_to_off": 355,
-    "mid": 4.04
+    "mins_to_off": 350,
+    "mid": 14.64
    },
    "latest": {
-    "mins_to_off": 190,
-    "mid": 4.7,
-    "spread_pct": 4.3
+    "mins_to_off": 5,
+    "mid": 12.2,
+    "spread_pct": 12.4
    },
-   "move_pct": 16.2,
+   "move_pct": -16.7,
    "band": [
-    3,
-    5
+    13,
+    20
+   ],
+   "percentile": 23,
+   "notable": false
+  },
+  {
+   "slug": "ffos-las-1538",
+   "venue": "Ffos Las",
+   "off_utc": "2026-10-14T15:38:00Z",
+   "runner": "Riskintheground",
+   "first": {
+    "mins_to_off": 353,
+    "mid": 25.25
+   },
+   "latest": {
+    "mins_to_off": 8,
+    "mid": 34.78,
+    "spread_pct": 17.2
+   },
+   "move_pct": 37.7,
+   "band": [
+    20,
+    35
    ],
    "percentile": 77,
    "notable": false
@@ -1316,64 +2548,42 @@
    "slug": "ffos-las-1245",
    "venue": "Ffos Las",
    "off_utc": "2026-10-14T12:45:00Z",
-   "runner": "Miss Pearl",
+   "runner": "Bells Of Ufford",
    "first": {
     "mins_to_off": 285,
-    "mid": 20.81
+    "mid": 18.48
    },
    "latest": {
-    "mins_to_off": 75,
-    "mid": 28.45,
-    "spread_pct": 10.6
+    "mins_to_off": 0,
+    "mid": 23.98,
+    "spread_pct": 187.2
    },
-   "move_pct": 36.7,
+   "move_pct": 29.7,
    "band": [
-    20,
-    35
+    13,
+    20
    ],
    "percentile": 76,
    "notable": false
   },
   {
-   "slug": "punchestown-1345",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T13:45:00Z",
-   "runner": "The Dotski",
+   "slug": "ffos-las-1430",
+   "venue": "Ffos Las",
+   "off_utc": "2026-10-14T14:30:00Z",
+   "runner": "George's Lad",
    "first": {
-    "mins_to_off": 345,
-    "mid": 2.42
+    "mins_to_off": 360,
+    "mid": 6.69
    },
    "latest": {
-    "mins_to_off": 120,
-    "mid": 2.67,
-    "spread_pct": 2.2
+    "mins_to_off": 0,
+    "mid": 5.75,
+    "spread_pct": 5.2
    },
-   "move_pct": 10.4,
+   "move_pct": -14.1,
    "band": [
-    1.5,
-    3
-   ],
-   "percentile": 76,
-   "notable": false
-  },
-  {
-   "slug": "punchestown-1420",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T14:20:00Z",
-   "runner": "Duke Silver",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 30.17
-   },
-   "latest": {
-    "mins_to_off": 155,
-    "mid": 25.38,
-    "spread_pct": 31.7
-   },
-   "move_pct": -15.9,
-   "band": [
-    20,
-    35
+    5,
+    8
    ],
    "percentile": 24,
    "notable": false
@@ -1401,20 +2611,20 @@
    "notable": false
   },
   {
-   "slug": "wetherby-1520",
-   "venue": "Wetherby",
-   "off_utc": "2026-10-14T15:20:00Z",
-   "runner": "Rauzan",
+   "slug": "nottingham-1547",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T15:47:00Z",
+   "runner": "Trinculo",
    "first": {
-    "mins_to_off": 350,
-    "mid": 19.38
+    "mins_to_off": 347,
+    "mid": 17.67
    },
    "latest": {
-    "mins_to_off": 215,
-    "mid": 16.35,
-    "spread_pct": 18.3
+    "mins_to_off": 2,
+    "mid": 14.98,
+    "spread_pct": 6.7
    },
-   "move_pct": -15.6,
+   "move_pct": -15.2,
    "band": [
     13,
     20
@@ -1423,157 +2633,47 @@
    "notable": false
   },
   {
-   "slug": "ffos-las-1538",
-   "venue": "Ffos Las",
-   "off_utc": "2026-10-14T15:38:00Z",
-   "runner": "Down Memory Lane",
+   "slug": "kempton-1630",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T16:30:00Z",
+   "runner": "Gunfighter",
    "first": {
-    "mins_to_off": 353,
-    "mid": 34.31
+    "mins_to_off": 360,
+    "mid": 2.45
    },
    "latest": {
-    "mins_to_off": 233,
-    "mid": 46.84,
-    "spread_pct": 12.7
+    "mins_to_off": 45,
+    "mid": 2.2,
+    "spread_pct": 1.8
    },
-   "move_pct": 36.5,
+   "move_pct": -10.2,
    "band": [
-    20,
-    35
-   ],
-   "percentile": 76,
-   "notable": false
-  },
-  {
-   "slug": "punchestown-1607",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T16:07:00Z",
-   "runner": "Harbour Highway",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 3.69
-   },
-   "latest": {
-    "mins_to_off": 262,
-    "mid": 4.24,
-    "spread_pct": 7.1
-   },
-   "move_pct": 15.0,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 76,
-   "notable": false
-  },
-  {
-   "slug": "nottingham-1622",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T16:22:00Z",
-   "runner": "Caitlin G",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 56.98
-   },
-   "latest": {
-    "mins_to_off": 277,
-    "mid": 40.98,
-    "spread_pct": 4.9
-   },
-   "move_pct": -28.1,
-   "band": [
-    35,
-    100
+    1.5,
+    3
    ],
    "percentile": 24,
    "notable": false
   },
   {
-   "slug": "nottingham-1329",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T13:29:00Z",
-   "runner": "Hamrin",
+   "slug": "kempton-1700",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T17:00:00Z",
+   "runner": "Hexagonal",
    "first": {
-    "mins_to_off": 329,
-    "mid": 13.33
+    "mins_to_off": 360,
+    "mid": 50.89
    },
    "latest": {
-    "mins_to_off": 104,
-    "mid": 17.15,
-    "spread_pct": 14.5
+    "mins_to_off": 90,
+    "mid": 62.89,
+    "spread_pct": 55.2
    },
-   "move_pct": 28.6,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 75,
-   "notable": false
-  },
-  {
-   "slug": "nottingham-1254",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T12:54:00Z",
-   "runner": "Adamlyi",
-   "first": {
-    "mins_to_off": 294,
-    "mid": 3.95
-   },
-   "latest": {
-    "mins_to_off": 69,
-    "mid": 4.5,
-    "spread_pct": 4.5
-   },
-   "move_pct": 13.9,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 74,
-   "notable": false
-  },
-  {
-   "slug": "wetherby-1300",
-   "venue": "Wetherby",
-   "off_utc": "2026-10-14T13:00:00Z",
-   "runner": "Jambearee",
-   "first": {
-    "mins_to_off": 300,
-    "mid": 53.91
-   },
-   "latest": {
-    "mins_to_off": 75,
-    "mid": 65.15,
-    "spread_pct": 38.5
-   },
-   "move_pct": 20.8,
+   "move_pct": 23.6,
    "band": [
     35,
     100
    ],
-   "percentile": 74,
-   "notable": false
-  },
-  {
-   "slug": "punchestown-1310",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T13:10:00Z",
-   "runner": "Whisky Lads",
-   "first": {
-    "mins_to_off": 310,
-    "mid": 11.7
-   },
-   "latest": {
-    "mins_to_off": 85,
-    "mid": 10.14,
-    "spread_pct": 6.9
-   },
-   "move_pct": -13.3,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 26,
+   "percentile": 76,
    "notable": false
   },
   {
@@ -1586,148 +2686,82 @@
     "mid": 20.88
    },
    "latest": {
-    "mins_to_off": 104,
-    "mid": 17.95,
-    "spread_pct": 11.2
+    "mins_to_off": 14,
+    "mid": 17.75,
+    "spread_pct": 2.7
    },
-   "move_pct": -14.0,
+   "move_pct": -15.0,
    "band": [
     20,
     35
    ],
-   "percentile": 26,
+   "percentile": 25,
    "notable": false
   },
   {
-   "slug": "wetherby-1335",
+   "slug": "wetherby-1520",
    "venue": "Wetherby",
-   "off_utc": "2026-10-14T13:35:00Z",
-   "runner": "Evaluation",
-   "first": {
-    "mins_to_off": 335,
-    "mid": 6.14
-   },
-   "latest": {
-    "mins_to_off": 110,
-    "mid": 6.99,
-    "spread_pct": 5.7
-   },
-   "move_pct": 13.9,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 74,
-   "notable": false
-  },
-  {
-   "slug": "punchestown-1420",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T14:20:00Z",
-   "runner": "Park Of Kings",
+   "off_utc": "2026-10-14T15:20:00Z",
+   "runner": "Dr Seb",
    "first": {
     "mins_to_off": 350,
-    "mid": 95.24
+    "mid": 58.65
    },
    "latest": {
-    "mins_to_off": 155,
-    "mid": 70.67,
-    "spread_pct": 99.7
+    "mins_to_off": 5,
+    "mid": 42.83,
+    "spread_pct": 14.2
    },
-   "move_pct": -25.8,
+   "move_pct": -27.0,
    "band": [
     35,
     100
    ],
+   "percentile": 25,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1830",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T18:30:00Z",
+   "runner": "Mesaafi",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 11.48
+   },
+   "latest": {
+    "mins_to_off": 165,
+    "mid": 9.92,
+    "spread_pct": 11.1
+   },
+   "move_pct": -13.6,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 25,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1219",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T12:19:00Z",
+   "runner": "Enriched",
+   "first": {
+    "mins_to_off": 259,
+    "mid": 3.92
+   },
+   "latest": {
+    "mins_to_off": 4,
+    "mid": 3.52,
+    "spread_pct": 1.4
+   },
+   "move_pct": -10.2,
+   "band": [
+    3,
+    5
+   ],
    "percentile": 26,
-   "notable": false
-  },
-  {
-   "slug": "ffos-las-1538",
-   "venue": "Ffos Las",
-   "off_utc": "2026-10-14T15:38:00Z",
-   "runner": "Il Est Francais",
-   "first": {
-    "mins_to_off": 353,
-    "mid": 4.2
-   },
-   "latest": {
-    "mins_to_off": 233,
-    "mid": 4.8,
-    "spread_pct": 4.2
-   },
-   "move_pct": 14.3,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 74,
-   "notable": false
-  },
-  {
-   "slug": "nottingham-1547",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T15:47:00Z",
-   "runner": "Lillie Margot",
-   "first": {
-    "mins_to_off": 347,
-    "mid": 3.87
-   },
-   "latest": {
-    "mins_to_off": 242,
-    "mid": 4.4,
-    "spread_pct": 4.6
-   },
-   "move_pct": 13.6,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 74,
-   "notable": false
-  },
-  {
-   "slug": "nottingham-1404",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T14:04:00Z",
-   "runner": "Cuff It",
-   "first": {
-    "mins_to_off": 349,
-    "mid": 32.1
-   },
-   "latest": {
-    "mins_to_off": 139,
-    "mid": 41.67,
-    "spread_pct": 19.3
-   },
-   "move_pct": 29.8,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 72,
-   "notable": false
-  },
-  {
-   "slug": "wetherby-1410",
-   "venue": "Wetherby",
-   "off_utc": "2026-10-14T14:10:00Z",
-   "runner": "Captain Cool",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 3.1
-   },
-   "latest": {
-    "mins_to_off": 145,
-    "mid": 2.81,
-    "spread_pct": 2.1
-   },
-   "move_pct": -9.3,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 28,
    "notable": false
   },
   {
@@ -1740,11 +2774,231 @@
     "mid": 8.61
    },
    "latest": {
-    "mins_to_off": 190,
-    "mid": 10.25,
-    "spread_pct": 13.7
+    "mins_to_off": 10,
+    "mid": 10.37,
+    "spread_pct": 11.5
    },
-   "move_pct": 19.1,
+   "move_pct": 20.5,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 74,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1700",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T17:00:00Z",
+   "runner": "Dumuji",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 9.39
+   },
+   "latest": {
+    "mins_to_off": 75,
+    "mid": 8.16,
+    "spread_pct": 14.8
+   },
+   "move_pct": -13.1,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 26,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1439",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T14:39:00Z",
+   "runner": "Dunkeld Dreamer",
+   "first": {
+    "mins_to_off": 354,
+    "mid": 10.25
+   },
+   "latest": {
+    "mins_to_off": 9,
+    "mid": 12.25,
+    "spread_pct": 4.0
+   },
+   "move_pct": 19.5,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 73,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1445",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-14T14:45:00Z",
+   "runner": "Breizh River",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 2.8
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 3.05,
+    "spread_pct": 3.3
+   },
+   "move_pct": 8.9,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 73,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1600",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T16:00:00Z",
+   "runner": "Rupert The Brave",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 6.29
+   },
+   "latest": {
+    "mins_to_off": 15,
+    "mid": 5.55,
+    "spread_pct": 5.4
+   },
+   "move_pct": -11.8,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 27,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1300",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-14T13:00:00Z",
+   "runner": "Jambearee",
+   "first": {
+    "mins_to_off": 300,
+    "mid": 53.91
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 63.49,
+    "spread_pct": 31.9
+   },
+   "move_pct": 17.8,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 72,
+   "notable": false
+  },
+  {
+   "slug": "ffos-las-1320",
+   "venue": "Ffos Las",
+   "off_utc": "2026-10-14T13:20:00Z",
+   "runner": "Desertmore News",
+   "first": {
+    "mins_to_off": 320,
+    "mid": 6.79
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 7.6,
+    "spread_pct": 5.2
+   },
+   "move_pct": 11.8,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 72,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1410",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-14T14:10:00Z",
+   "runner": "Sir Tivo",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 7.58
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 8.49,
+    "spread_pct": 7.1
+   },
+   "move_pct": 12.0,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 72,
+   "notable": false
+  },
+  {
+   "slug": "punchestown-1420",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T14:20:00Z",
+   "runner": "Duke Silver",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 30.17
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 26.42,
+    "spread_pct": 11.4
+   },
+   "move_pct": -12.4,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 28,
+   "notable": false
+  },
+  {
+   "slug": "ffos-las-1505",
+   "venue": "Ffos Las",
+   "off_utc": "2026-10-14T15:05:00Z",
+   "runner": "Neon Moon",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 21.21
+   },
+   "latest": {
+    "mins_to_off": 95,
+    "mid": 18.71,
+    "spread_pct": 8.1
+   },
+   "move_pct": -11.8,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 28,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1552",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-14T15:52:00Z",
+   "runner": "Westerton",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 12.82
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 15.21,
+    "spread_pct": 9.9
+   },
+   "move_pct": 18.6,
    "band": [
     8,
     13
@@ -1753,86 +3007,20 @@
    "notable": false
   },
   {
-   "slug": "punchestown-1530",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T15:30:00Z",
-   "runner": "Croke Park",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 4.44
-   },
-   "latest": {
-    "mins_to_off": 225,
-    "mid": 5.0,
-    "spread_pct": 4.0
-   },
-   "move_pct": 12.4,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 72,
-   "notable": false
-  },
-  {
-   "slug": "punchestown-1530",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T15:30:00Z",
-   "runner": "Smallcraftwarning",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 68.73
-   },
-   "latest": {
-    "mins_to_off": 225,
-    "mid": 80.65,
-    "spread_pct": 31.4
-   },
-   "move_pct": 17.3,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 72,
-   "notable": false
-  },
-  {
-   "slug": "nottingham-1547",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T15:47:00Z",
-   "runner": "Napolian",
-   "first": {
-    "mins_to_off": 347,
-    "mid": 15.43
-   },
-   "latest": {
-    "mins_to_off": 242,
-    "mid": 13.49,
-    "spread_pct": 7.4
-   },
-   "move_pct": -12.6,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 28,
-   "notable": false
-  },
-  {
    "slug": "punchestown-1640",
    "venue": "Punchestown",
    "off_utc": "2026-10-14T16:40:00Z",
-   "runner": "El Bilo",
+   "runner": "Manu Reva",
    "first": {
-    "mins_to_off": 355,
-    "mid": 53.48
+    "mins_to_off": 340,
+    "mid": 64.94
    },
    "latest": {
-    "mins_to_off": 295,
-    "mid": 40.82,
-    "spread_pct": 115.6
+    "mins_to_off": 55,
+    "mid": 49.38,
+    "spread_pct": 36.2
    },
-   "move_pct": -23.7,
+   "move_pct": -24.0,
    "band": [
     35,
     100
@@ -1841,47 +3029,69 @@
    "notable": false
   },
   {
-   "slug": "punchestown-1310",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T13:10:00Z",
-   "runner": "Silken Thomas",
+   "slug": "kempton-1730",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T17:30:00Z",
+   "runner": "Iris Olivia",
    "first": {
-    "mins_to_off": 310,
-    "mid": 15.65
+    "mins_to_off": 360,
+    "mid": 5.45
    },
    "latest": {
-    "mins_to_off": 85,
-    "mid": 19.38,
-    "spread_pct": 15.6
+    "mins_to_off": 105,
+    "mid": 4.85,
+    "spread_pct": 2.0
    },
-   "move_pct": 23.8,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 71,
-   "notable": false
-  },
-  {
-   "slug": "nottingham-1329",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T13:29:00Z",
-   "runner": "Shared Odyssey",
-   "first": {
-    "mins_to_off": 329,
-    "mid": 7.18
-   },
-   "latest": {
-    "mins_to_off": 104,
-    "mid": 7.99,
-    "spread_pct": 5.0
-   },
-   "move_pct": 11.4,
+   "move_pct": -11.0,
    "band": [
     5,
     8
    ],
-   "percentile": 71,
+   "percentile": 28,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1830",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T18:30:00Z",
+   "runner": "Bolo Neighs",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 35.59
+   },
+   "latest": {
+    "mins_to_off": 165,
+    "mid": 41.84,
+    "spread_pct": 33.5
+   },
+   "move_pct": 17.6,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 72,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1335",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-14T13:35:00Z",
+   "runner": "Virtual Rock",
+   "first": {
+    "mins_to_off": 335,
+    "mid": 3.4
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 3.1,
+    "spread_pct": 3.2
+   },
+   "move_pct": -8.8,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 29,
    "notable": false
   },
   {
@@ -1907,20 +3117,64 @@
    "notable": false
   },
   {
-   "slug": "punchestown-1640",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T16:40:00Z",
-   "runner": "Hilly Filly",
+   "slug": "ffos-las-1505",
+   "venue": "Ffos Las",
+   "off_utc": "2026-10-14T15:05:00Z",
+   "runner": "Cruz Control",
    "first": {
-    "mins_to_off": 355,
-    "mid": 7.31
+    "mins_to_off": 350,
+    "mid": 12.93
    },
    "latest": {
-    "mins_to_off": 295,
-    "mid": 8.16,
-    "spread_pct": 14.8
+    "mins_to_off": 5,
+    "mid": 11.48,
+    "spread_pct": 8.7
    },
-   "move_pct": 11.5,
+   "move_pct": -11.2,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 29,
+   "notable": false
+  },
+  {
+   "slug": "ffos-las-1538",
+   "venue": "Ffos Las",
+   "off_utc": "2026-10-14T15:38:00Z",
+   "runner": "Matterhorn",
+   "first": {
+    "mins_to_off": 353,
+    "mid": 20.49
+   },
+   "latest": {
+    "mins_to_off": 8,
+    "mid": 18.23,
+    "spread_pct": 8.2
+   },
+   "move_pct": -11.0,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 29,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1630",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T16:30:00Z",
+   "runner": "Warning Symbol",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 5.85
+   },
+   "latest": {
+    "mins_to_off": 45,
+    "mid": 6.5,
+    "spread_pct": 3.1
+   },
+   "move_pct": 11.2,
    "band": [
     5,
     8
@@ -1929,62 +3183,18 @@
    "notable": false
   },
   {
-   "slug": "nottingham-1219",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T12:19:00Z",
-   "runner": "Blake's Lass",
+   "slug": "punchestown-1310",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T13:10:00Z",
+   "runner": "Silken Thomas",
    "first": {
-    "mins_to_off": 259,
-    "mid": 10.25
+    "mins_to_off": 310,
+    "mid": 15.65
    },
    "latest": {
-    "mins_to_off": 34,
-    "mid": 11.98,
-    "spread_pct": 8.4
-   },
-   "move_pct": 16.8,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 70,
-   "notable": false
-  },
-  {
-   "slug": "nottingham-1254",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T12:54:00Z",
-   "runner": "Medaali",
-   "first": {
-    "mins_to_off": 294,
-    "mid": 8.47
-   },
-   "latest": {
-    "mins_to_off": 69,
-    "mid": 7.6,
-    "spread_pct": 5.2
-   },
-   "move_pct": -10.3,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 30,
-   "notable": false
-  },
-  {
-   "slug": "nottingham-1404",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T14:04:00Z",
-   "runner": "Port Of London",
-   "first": {
-    "mins_to_off": 349,
-    "mid": 18.23
-   },
-   "latest": {
-    "mins_to_off": 139,
-    "mid": 16.22,
-    "spread_pct": 9.3
+    "mins_to_off": 10,
+    "mid": 13.93,
+    "spread_pct": 14.3
    },
    "move_pct": -11.0,
    "band": [
@@ -1995,20 +3205,86 @@
    "notable": false
   },
   {
-   "slug": "ffos-las-1430",
-   "venue": "Ffos Las",
-   "off_utc": "2026-10-14T14:30:00Z",
-   "runner": "Captain Teague",
+   "slug": "nottingham-1439",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T14:39:00Z",
+   "runner": "Neptunes Staircase",
    "first": {
-    "mins_to_off": 360,
-    "mid": 8.3
+    "mins_to_off": 354,
+    "mid": 21.81
    },
    "latest": {
-    "mins_to_off": 165,
-    "mid": 7.38,
-    "spread_pct": 10.9
+    "mins_to_off": 9,
+    "mid": 19.49,
+    "spread_pct": 5.1
    },
-   "move_pct": -11.1,
+   "move_pct": -10.6,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 30,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1547",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T15:47:00Z",
+   "runner": "Fickle Mcselfish",
+   "first": {
+    "mins_to_off": 347,
+    "mid": 26.04
+   },
+   "latest": {
+    "mins_to_off": 2,
+    "mid": 23.39,
+    "spread_pct": 12.9
+   },
+   "move_pct": -10.2,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 30,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1622",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T16:22:00Z",
+   "runner": "Caitlin G",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 56.98
+   },
+   "latest": {
+    "mins_to_off": 37,
+    "mid": 44.44,
+    "spread_pct": 22.5
+   },
+   "move_pct": -22.0,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 30,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1622",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T16:22:00Z",
+   "runner": "Son Of Astar",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 10.25
+   },
+   "latest": {
+    "mins_to_off": 37,
+    "mid": 9.2,
+    "spread_pct": 4.3
+   },
+   "move_pct": -10.3,
    "band": [
     8,
     13
@@ -2017,64 +3293,130 @@
    "notable": false
   },
   {
-   "slug": "nottingham-1404",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T14:04:00Z",
-   "runner": "Rogue Millions",
+   "slug": "punchestown-1235",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T12:35:00Z",
+   "runner": "Hansel The Purse",
    "first": {
-    "mins_to_off": 349,
-    "mid": 25.25
+    "mins_to_off": 275,
+    "mid": 9.47
    },
    "latest": {
-    "mins_to_off": 139,
-    "mid": 22.83,
-    "spread_pct": 17.5
+    "mins_to_off": 5,
+    "mid": 10.98,
+    "spread_pct": 9.0
    },
-   "move_pct": -9.6,
+   "move_pct": 15.9,
    "band": [
-    20,
-    35
-   ],
-   "percentile": 31,
-   "notable": false
-  },
-  {
-   "slug": "ffos-las-1430",
-   "venue": "Ffos Las",
-   "off_utc": "2026-10-14T14:30:00Z",
-   "runner": "Tutti Quanti",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 1.61
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 1.72,
-    "spread_pct": 1.2
-   },
-   "move_pct": 6.9,
-   "band": [
-    1.5,
-    3
+    8,
+    13
    ],
    "percentile": 69,
    "notable": false
   },
   {
-   "slug": "nottingham-1439",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T14:39:00Z",
-   "runner": "It's All About You",
+   "slug": "punchestown-1235",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T12:35:00Z",
+   "runner": "Way Horn",
    "first": {
-    "mins_to_off": 354,
-    "mid": 60.06
+    "mins_to_off": 275,
+    "mid": 14.64
    },
    "latest": {
-    "mins_to_off": 174,
-    "mid": 68.49,
-    "spread_pct": 29.4
+    "mins_to_off": 5,
+    "mid": 13.21,
+    "spread_pct": 11.4
    },
-   "move_pct": 14.0,
+   "move_pct": -9.8,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 31,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1329",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T13:29:00Z",
+   "runner": "Mythical Tale",
+   "first": {
+    "mins_to_off": 329,
+    "mid": 8.07
+   },
+   "latest": {
+    "mins_to_off": 14,
+    "mid": 9.39,
+    "spread_pct": 4.2
+   },
+   "move_pct": 16.4,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 69,
+   "notable": false
+  },
+  {
+   "slug": "punchestown-1420",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T14:20:00Z",
+   "runner": "Moon Mission",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 40.49
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 32.1,
+    "spread_pct": 21.8
+   },
+   "move_pct": -20.7,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 31,
+   "notable": false
+  },
+  {
+   "slug": "punchestown-1455",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T14:55:00Z",
+   "runner": "Vitorio Piel",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 4.04
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 4.45,
+    "spread_pct": 2.3
+   },
+   "move_pct": 10.0,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 69,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1514",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T15:14:00Z",
+   "runner": "Whatever Bruce",
+   "first": {
+    "mins_to_off": 359,
+    "mid": 85.11
+   },
+   "latest": {
+    "mins_to_off": 194,
+    "mid": 97.56,
+    "spread_pct": 93.6
+   },
+   "move_pct": 14.6,
    "band": [
     35,
     100
@@ -2083,23 +3425,23 @@
    "notable": false
   },
   {
-   "slug": "wetherby-1520",
-   "venue": "Wetherby",
-   "off_utc": "2026-10-14T15:20:00Z",
-   "runner": "Valette",
+   "slug": "punchestown-1530",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T15:30:00Z",
+   "runner": "Croke Park",
    "first": {
-    "mins_to_off": 350,
-    "mid": 10.91
+    "mins_to_off": 360,
+    "mid": 4.44
    },
    "latest": {
-    "mins_to_off": 215,
-    "mid": 12.71,
-    "spread_pct": 11.7
+    "mins_to_off": 0,
+    "mid": 4.9,
+    "spread_pct": 4.1
    },
-   "move_pct": 16.5,
+   "move_pct": 10.2,
    "band": [
-    8,
-    13
+    3,
+    5
    ],
    "percentile": 69,
    "notable": false
@@ -2127,47 +3469,47 @@
    "notable": false
   },
   {
-   "slug": "punchestown-1640",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T16:40:00Z",
-   "runner": "Hutton Star",
+   "slug": "kempton-1700",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T17:00:00Z",
+   "runner": "Assiri Heights",
    "first": {
-    "mins_to_off": 355,
-    "mid": 13.13
-   },
-   "latest": {
-    "mins_to_off": 295,
-    "mid": 15.94,
-    "spread_pct": 28.1
-   },
-   "move_pct": 21.4,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 69,
-   "notable": false
-  },
-  {
-   "slug": "wetherby-1300",
-   "venue": "Wetherby",
-   "off_utc": "2026-10-14T13:00:00Z",
-   "runner": "Magnetude",
-   "first": {
-    "mins_to_off": 300,
-    "mid": 1.56
+    "mins_to_off": 360,
+    "mid": 5.48
    },
    "latest": {
     "mins_to_off": 75,
-    "mid": 1.66,
-    "spread_pct": 1.8
+    "mid": 4.97,
+    "spread_pct": 16.1
    },
-   "move_pct": 6.4,
+   "move_pct": -9.4,
    "band": [
-    1.5,
-    3
+    5,
+    8
    ],
-   "percentile": 68,
+   "percentile": 31,
+   "notable": false
+  },
+  {
+   "slug": "punchestown-1235",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T12:35:00Z",
+   "runner": "Juarileo",
+   "first": {
+    "mins_to_off": 275,
+    "mid": 23.39
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 21.39,
+    "spread_pct": 14.0
+   },
+   "move_pct": -8.6,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 32,
    "notable": false
   },
   {
@@ -2193,18 +3535,40 @@
    "notable": false
   },
   {
-   "slug": "ffos-las-1505",
-   "venue": "Ffos Las",
-   "off_utc": "2026-10-14T15:05:00Z",
-   "runner": "Viroflay",
+   "slug": "wetherby-1335",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-14T13:35:00Z",
+   "runner": "My Chiquita",
    "first": {
-    "mins_to_off": 350,
-    "mid": 7.89
+    "mins_to_off": 335,
+    "mid": 6.57
    },
    "latest": {
-    "mins_to_off": 200,
+    "mins_to_off": 5,
     "mid": 7.19,
     "spread_pct": 5.6
+   },
+   "move_pct": 9.4,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 68,
+   "notable": false
+  },
+  {
+   "slug": "ffos-las-1613",
+   "venue": "Ffos Las",
+   "off_utc": "2026-10-14T16:13:00Z",
+   "runner": "Jaccours",
+   "first": {
+    "mins_to_off": 358,
+    "mid": 6.69
+   },
+   "latest": {
+    "mins_to_off": 28,
+    "mid": 6.1,
+    "spread_pct": 3.3
    },
    "move_pct": -8.8,
    "band": [
@@ -2215,20 +3579,42 @@
    "notable": false
   },
   {
-   "slug": "nottingham-1514",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T15:14:00Z",
-   "runner": "Mr Tony",
+   "slug": "kempton-1630",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T16:30:00Z",
+   "runner": "Magnatura",
    "first": {
-    "mins_to_off": 359,
-    "mid": 8.69
+    "mins_to_off": 360,
+    "mid": 9.92
    },
    "latest": {
-    "mins_to_off": 209,
-    "mid": 10.03,
-    "spread_pct": 9.0
+    "mins_to_off": 45,
+    "mid": 9.0,
+    "spread_pct": 4.4
    },
-   "move_pct": 15.4,
+   "move_pct": -9.3,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 32,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1730",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T17:30:00Z",
+   "runner": "Speed Nation",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 8.89
+   },
+   "latest": {
+    "mins_to_off": 105,
+    "mid": 10.25,
+    "spread_pct": 13.7
+   },
+   "move_pct": 15.3,
    "band": [
     8,
     13
@@ -2237,192 +3623,60 @@
    "notable": false
   },
   {
-   "slug": "ffos-las-1245",
-   "venue": "Ffos Las",
-   "off_utc": "2026-10-14T12:45:00Z",
-   "runner": "The Magus",
+   "slug": "kempton-1830",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T18:30:00Z",
+   "runner": "Fast Track Harry",
    "first": {
-    "mins_to_off": 285,
-    "mid": 15.56
+    "mins_to_off": 360,
+    "mid": 3.27
    },
    "latest": {
-    "mins_to_off": 60,
-    "mid": 14.2,
-    "spread_pct": 10.5
+    "mins_to_off": 165,
+    "mid": 3.02,
+    "spread_pct": 1.6
    },
-   "move_pct": -8.7,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 33,
-   "notable": false
-  },
-  {
-   "slug": "punchestown-1310",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T13:10:00Z",
-   "runner": "Quest For Answers",
-   "first": {
-    "mins_to_off": 310,
-    "mid": 95.69
-   },
-   "latest": {
-    "mins_to_off": 85,
-    "mid": 77.52,
-    "spread_pct": 64.5
-   },
-   "move_pct": -19.0,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 33,
-   "notable": false
-  },
-  {
-   "slug": "punchestown-1310",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T13:10:00Z",
-   "runner": "Thinkitdontjinxit",
-   "first": {
-    "mins_to_off": 310,
-    "mid": 3.92
-   },
-   "latest": {
-    "mins_to_off": 85,
-    "mid": 3.65,
-    "spread_pct": 2.7
-   },
-   "move_pct": -7.0,
+   "move_pct": -7.6,
    "band": [
     3,
     5
    ],
-   "percentile": 33,
+   "percentile": 32,
    "notable": false
   },
   {
-   "slug": "wetherby-1335",
-   "venue": "Wetherby",
-   "off_utc": "2026-10-14T13:35:00Z",
-   "runner": "Thank You Blue",
+   "slug": "nottingham-1254",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T12:54:00Z",
+   "runner": "Lone Warrior",
    "first": {
-    "mins_to_off": 335,
-    "mid": 27.43
+    "mins_to_off": 294,
+    "mid": 3.0
    },
    "latest": {
-    "mins_to_off": 110,
-    "mid": 25.25,
-    "spread_pct": 19.9
+    "mins_to_off": 9,
+    "mid": 3.17,
+    "spread_pct": 1.6
    },
-   "move_pct": -8.0,
+   "move_pct": 5.9,
    "band": [
-    20,
-    35
-   ],
-   "percentile": 33,
-   "notable": false
-  },
-  {
-   "slug": "ffos-las-1355",
-   "venue": "Ffos Las",
-   "off_utc": "2026-10-14T13:55:00Z",
-   "runner": "The Boola Boss",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 6.14
-   },
-   "latest": {
-    "mins_to_off": 130,
-    "mid": 6.7,
-    "spread_pct": 2.9
-   },
-   "move_pct": 9.1,
-   "band": [
-    5,
-    8
+    1.5,
+    3
    ],
    "percentile": 67,
    "notable": false
   },
   {
-   "slug": "punchestown-1420",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T14:20:00Z",
-   "runner": "Moon Mission",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 40.49
-   },
-   "latest": {
-    "mins_to_off": 155,
-    "mid": 32.89,
-    "spread_pct": 27.5
-   },
-   "move_pct": -18.8,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 33,
-   "notable": false
-  },
-  {
-   "slug": "nottingham-1514",
+   "slug": "nottingham-1329",
    "venue": "Nottingham",
-   "off_utc": "2026-10-14T15:14:00Z",
-   "runner": "Lieutenant Kije",
+   "off_utc": "2026-10-14T13:29:00Z",
+   "runner": "Fulcrum",
    "first": {
-    "mins_to_off": 359,
-    "mid": 21.6
-   },
-   "latest": {
-    "mins_to_off": 209,
-    "mid": 19.9,
-    "spread_pct": 35.0
-   },
-   "move_pct": -7.9,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 33,
-   "notable": false
-  },
-  {
-   "slug": "nottingham-1514",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T15:14:00Z",
-   "runner": "Whatever Bruce",
-   "first": {
-    "mins_to_off": 359,
-    "mid": 85.11
-   },
-   "latest": {
-    "mins_to_off": 254,
-    "mid": 95.24,
-    "spread_pct": 83.3
-   },
-   "move_pct": 11.9,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 67,
-   "notable": false
-  },
-  {
-   "slug": "wetherby-1552",
-   "venue": "Wetherby",
-   "off_utc": "2026-10-14T15:52:00Z",
-   "runner": "Noonetellsmenothin",
-   "first": {
-    "mins_to_off": 352,
+    "mins_to_off": 329,
     "mid": 5.29
    },
    "latest": {
-    "mins_to_off": 247,
+    "mins_to_off": 14,
     "mid": 4.85,
     "spread_pct": 2.0
    },
@@ -2435,619 +3689,179 @@
    "notable": false
   },
   {
-   "slug": "kempton-1630",
-   "venue": "Kempton",
-   "off_utc": "2026-10-14T16:30:00Z",
-   "runner": "Be Frank",
+   "slug": "wetherby-1335",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-14T13:35:00Z",
+   "runner": "Rebel Tribesman",
    "first": {
-    "mins_to_off": 360,
-    "mid": 8.58
+    "mins_to_off": 335,
+    "mid": 2.75
    },
    "latest": {
-    "mins_to_off": 285,
-    "mid": 9.81,
-    "spread_pct": 13.3
+    "mins_to_off": 5,
+    "mid": 2.91,
+    "spread_pct": 2.1
    },
-   "move_pct": 14.3,
+   "move_pct": 5.9,
    "band": [
-    8,
-    13
+    1.5,
+    3
    ],
    "percentile": 67,
    "notable": false
   },
   {
-   "slug": "kempton-1630",
-   "venue": "Kempton",
-   "off_utc": "2026-10-14T16:30:00Z",
-   "runner": "Gunfighter",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 2.45
-   },
-   "latest": {
-    "mins_to_off": 285,
-    "mid": 2.3,
-    "spread_pct": 1.7
-   },
-   "move_pct": -6.1,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 33,
-   "notable": false
-  },
-  {
-   "slug": "punchestown-1640",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T16:40:00Z",
-   "runner": "Sharbel",
+   "slug": "ffos-las-1355",
+   "venue": "Ffos Las",
+   "off_utc": "2026-10-14T13:55:00Z",
+   "runner": "Hold Your Fort",
    "first": {
     "mins_to_off": 355,
-    "mid": 5.17
+    "mid": 10.91
    },
    "latest": {
-    "mins_to_off": 295,
-    "mid": 4.74,
-    "spread_pct": 10.5
+    "mins_to_off": 10,
+    "mid": 12.48,
+    "spread_pct": 8.0
    },
-   "move_pct": -8.4,
+   "move_pct": 14.4,
    "band": [
-    5,
-    8
-   ],
-   "percentile": 33,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1700",
-   "venue": "Kempton",
-   "off_utc": "2026-10-14T17:00:00Z",
-   "runner": "Hexagonal",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 50.89
-   },
-   "latest": {
-    "mins_to_off": 315,
-    "mid": 57.14,
-    "spread_pct": 50.9
-   },
-   "move_pct": 12.3,
-   "band": [
-    35,
-    100
+    8,
+    13
    ],
    "percentile": 67,
-   "notable": false
-  },
-  {
-   "slug": "punchestown-1235",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T12:35:00Z",
-   "runner": "Juarileo",
-   "first": {
-    "mins_to_off": 275,
-    "mid": 23.39
-   },
-   "latest": {
-    "mins_to_off": 50,
-    "mid": 21.81,
-    "spread_pct": 18.3
-   },
-   "move_pct": -6.8,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 34,
-   "notable": false
-  },
-  {
-   "slug": "wetherby-1300",
-   "venue": "Wetherby",
-   "off_utc": "2026-10-14T13:00:00Z",
-   "runner": "Watcha Snoop",
-   "first": {
-    "mins_to_off": 300,
-    "mid": 14.55
-   },
-   "latest": {
-    "mins_to_off": 75,
-    "mid": 17.21,
-    "spread_pct": 8.6
-   },
-   "move_pct": 18.3,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 66,
-   "notable": false
-  },
-  {
-   "slug": "nottingham-1329",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T13:29:00Z",
-   "runner": "Avowed",
-   "first": {
-    "mins_to_off": 329,
-    "mid": 16.25
-   },
-   "latest": {
-    "mins_to_off": 104,
-    "mid": 14.98,
-    "spread_pct": 6.7
-   },
-   "move_pct": -7.8,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 34,
-   "notable": false
-  },
-  {
-   "slug": "punchestown-1345",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T13:45:00Z",
-   "runner": "Astelia",
-   "first": {
-    "mins_to_off": 345,
-    "mid": 3.97
-   },
-   "latest": {
-    "mins_to_off": 120,
-    "mid": 3.72,
-    "spread_pct": 4.0
-   },
-   "move_pct": -6.3,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 34,
-   "notable": false
-  },
-  {
-   "slug": "punchestown-1420",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T14:20:00Z",
-   "runner": "Majestic Force",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 28.78
-   },
-   "latest": {
-    "mins_to_off": 155,
-    "mid": 26.77,
-    "spread_pct": 33.8
-   },
-   "move_pct": -7.0,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 34,
-   "notable": false
-  },
-  {
-   "slug": "wetherby-1445",
-   "venue": "Wetherby",
-   "off_utc": "2026-10-14T14:45:00Z",
-   "runner": "Josh The Boss",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 2.79
-   },
-   "latest": {
-    "mins_to_off": 180,
-    "mid": 2.63,
-    "spread_pct": 2.3
-   },
-   "move_pct": -5.7,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 34,
-   "notable": false
-  },
-  {
-   "slug": "ffos-las-1505",
-   "venue": "Ffos Las",
-   "off_utc": "2026-10-14T15:05:00Z",
-   "runner": "Ballycamus",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 7.58
-   },
-   "latest": {
-    "mins_to_off": 200,
-    "mid": 8.2,
-    "spread_pct": 4.9
-   },
-   "move_pct": 8.2,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 66,
-   "notable": false
-  },
-  {
-   "slug": "ffos-las-1505",
-   "venue": "Ffos Las",
-   "off_utc": "2026-10-14T15:05:00Z",
-   "runner": "Gyenyame",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 8.56
-   },
-   "latest": {
-    "mins_to_off": 200,
-    "mid": 7.9,
-    "spread_pct": 2.5
-   },
-   "move_pct": -7.7,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 34,
-   "notable": false
-  },
-  {
-   "slug": "ffos-las-1538",
-   "venue": "Ffos Las",
-   "off_utc": "2026-10-14T15:38:00Z",
-   "runner": "Matterhorn",
-   "first": {
-    "mins_to_off": 353,
-    "mid": 20.49
-   },
-   "latest": {
-    "mins_to_off": 233,
-    "mid": 19.1,
-    "spread_pct": 18.3
-   },
-   "move_pct": -6.8,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 34,
-   "notable": false
-  },
-  {
-   "slug": "ffos-las-1613",
-   "venue": "Ffos Las",
-   "off_utc": "2026-10-14T16:13:00Z",
-   "runner": "Puddlesinthepark",
-   "first": {
-    "mins_to_off": 358,
-    "mid": 13.21
-   },
-   "latest": {
-    "mins_to_off": 268,
-    "mid": 15.6,
-    "spread_pct": 32.0
-   },
-   "move_pct": 18.1,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 66,
-   "notable": false
-  },
-  {
-   "slug": "nottingham-1622",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T16:22:00Z",
-   "runner": "Call Time",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 9.58
-   },
-   "latest": {
-    "mins_to_off": 277,
-    "mid": 8.78,
-    "spread_pct": 9.1
-   },
-   "move_pct": -8.3,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 34,
-   "notable": false
-  },
-  {
-   "slug": "punchestown-1235",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T12:35:00Z",
-   "runner": "Hansel The Purse",
-   "first": {
-    "mins_to_off": 275,
-    "mid": 9.47
-   },
-   "latest": {
-    "mins_to_off": 50,
-    "mid": 10.7,
-    "spread_pct": 14.0
-   },
-   "move_pct": 12.9,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 65,
-   "notable": false
-  },
-  {
-   "slug": "wetherby-1520",
-   "venue": "Wetherby",
-   "off_utc": "2026-10-14T15:20:00Z",
-   "runner": "Magic Gloves",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 9.92
-   },
-   "latest": {
-    "mins_to_off": 215,
-    "mid": 11.2,
-    "spread_pct": 13.4
-   },
-   "move_pct": 12.9,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 65,
-   "notable": false
-  },
-  {
-   "slug": "wetherby-1520",
-   "venue": "Wetherby",
-   "off_utc": "2026-10-14T15:20:00Z",
-   "runner": "Scottish Dancer",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 6.69
-   },
-   "latest": {
-    "mins_to_off": 215,
-    "mid": 6.19,
-    "spread_pct": 6.5
-   },
-   "move_pct": -7.4,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 35,
-   "notable": false
-  },
-  {
-   "slug": "wetherby-1520",
-   "venue": "Wetherby",
-   "off_utc": "2026-10-14T15:20:00Z",
-   "runner": "You Did",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 9.28
-   },
-   "latest": {
-    "mins_to_off": 215,
-    "mid": 8.58,
-    "spread_pct": 9.4
-   },
-   "move_pct": -7.5,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 35,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1525",
-   "venue": "Kempton",
-   "off_utc": "2026-10-14T15:25:00Z",
-   "runner": "Colaba",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 42.02
-   },
-   "latest": {
-    "mins_to_off": 220,
-    "mid": 46.3,
-    "spread_pct": 32.3
-   },
-   "move_pct": 10.2,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 65,
-   "notable": false
-  },
-  {
-   "slug": "punchestown-1530",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T15:30:00Z",
-   "runner": "Gorgeous Tom",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 1.74
-   },
-   "latest": {
-    "mins_to_off": 225,
-    "mid": 1.64,
-    "spread_pct": 1.8
-   },
-   "move_pct": -5.5,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 35,
-   "notable": false
-  },
-  {
-   "slug": "nottingham-1219",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T12:19:00Z",
-   "runner": "Troublesome Guest",
-   "first": {
-    "mins_to_off": 259,
-    "mid": 4.4
-   },
-   "latest": {
-    "mins_to_off": 34,
-    "mid": 4.14,
-    "spread_pct": 7.2
-   },
-   "move_pct": -5.8,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 36,
    "notable": false
   },
   {
    "slug": "wetherby-1410",
    "venue": "Wetherby",
    "off_utc": "2026-10-14T14:10:00Z",
-   "runner": "Singapore Trip",
+   "runner": "Captain Cool",
    "first": {
     "mins_to_off": 355,
-    "mid": 3.42
+    "mid": 3.1
    },
    "latest": {
-    "mins_to_off": 145,
-    "mid": 3.67,
-    "spread_pct": 4.1
+    "mins_to_off": 10,
+    "mid": 2.89,
+    "spread_pct": 2.1
    },
-   "move_pct": 7.4,
+   "move_pct": -6.7,
    "band": [
     3,
     5
    ],
-   "percentile": 64,
+   "percentile": 33,
    "notable": false
   },
   {
    "slug": "punchestown-1420",
    "venue": "Punchestown",
    "off_utc": "2026-10-14T14:20:00Z",
-   "runner": "Boo Radley",
+   "runner": "Park Of Kings",
    "first": {
     "mins_to_off": 350,
-    "mid": 15.86
+    "mid": 95.24
    },
    "latest": {
-    "mins_to_off": 155,
-    "mid": 18.48,
-    "spread_pct": 24.4
+    "mins_to_off": 35,
+    "mid": 77.52,
+    "spread_pct": 64.5
    },
-   "move_pct": 16.5,
+   "move_pct": -18.6,
    "band": [
-    13,
-    20
+    35,
+    100
    ],
-   "percentile": 64,
+   "percentile": 33,
    "notable": false
   },
   {
-   "slug": "nottingham-1439",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T14:39:00Z",
-   "runner": "Neptunes Staircase",
+   "slug": "wetherby-1552",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-14T15:52:00Z",
+   "runner": "Centurion's Sister",
    "first": {
-    "mins_to_off": 354,
-    "mid": 21.81
+    "mins_to_off": 352,
+    "mid": 2.82
    },
    "latest": {
-    "mins_to_off": 174,
-    "mid": 20.66,
-    "spread_pct": 12.0
+    "mins_to_off": 7,
+    "mid": 2.98,
+    "spread_pct": 1.3
    },
-   "move_pct": -5.3,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 36,
-   "notable": false
-  },
-  {
-   "slug": "nottingham-1514",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T15:14:00Z",
-   "runner": "Gwen's Girl",
-   "first": {
-    "mins_to_off": 359,
-    "mid": 34.31
-   },
-   "latest": {
-    "mins_to_off": 239,
-    "mid": 41.15,
-    "spread_pct": 29.4
-   },
-   "move_pct": 20.0,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 64,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1600",
-   "venue": "Kempton",
-   "off_utc": "2026-10-14T16:00:00Z",
-   "runner": "Noble Prince",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 2.71
-   },
-   "latest": {
-    "mins_to_off": 255,
-    "mid": 2.57,
-    "spread_pct": 2.3
-   },
-   "move_pct": -5.2,
+   "move_pct": 5.7,
    "band": [
     1.5,
     3
    ],
-   "percentile": 36,
+   "percentile": 67,
    "notable": false
   },
   {
-   "slug": "ffos-las-1245",
-   "venue": "Ffos Las",
-   "off_utc": "2026-10-14T12:45:00Z",
-   "runner": "Bells Of Ufford",
+   "slug": "nottingham-1254",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T12:54:00Z",
+   "runner": "Intsaar",
    "first": {
-    "mins_to_off": 285,
-    "mid": 18.48
+    "mins_to_off": 294,
+    "mid": 42.02
    },
    "latest": {
-    "mins_to_off": 60,
-    "mid": 21.39,
-    "spread_pct": 14.0
+    "mins_to_off": 9,
+    "mid": 46.84,
+    "spread_pct": 12.7
    },
-   "move_pct": 15.7,
+   "move_pct": 11.5,
    "band": [
-    13,
-    20
+    35,
+    100
    ],
-   "percentile": 63,
+   "percentile": 66,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1254",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T12:54:00Z",
+   "runner": "Journalism",
+   "first": {
+    "mins_to_off": 294,
+    "mid": 40.49
+   },
+   "latest": {
+    "mins_to_off": 9,
+    "mid": 44.84,
+    "spread_pct": 13.5
+   },
+   "move_pct": 10.8,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 66,
+   "notable": false
+  },
+  {
+   "slug": "punchestown-1310",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T13:10:00Z",
+   "runner": "Quest For Answers",
+   "first": {
+    "mins_to_off": 310,
+    "mid": 95.69
+   },
+   "latest": {
+    "mins_to_off": 25,
+    "mid": 78.74,
+    "spread_pct": 44.5
+   },
+   "move_pct": -17.7,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 34,
    "notable": false
   },
   {
@@ -3060,55 +3874,583 @@
     "mid": 29.5
    },
    "latest": {
-    "mins_to_off": 155,
-    "mid": 28.13,
-    "spread_pct": 35.7
+    "mins_to_off": 5,
+    "mid": 27.4,
+    "spread_pct": 11.0
    },
-   "move_pct": -4.6,
+   "move_pct": -7.1,
    "band": [
     20,
     35
    ],
-   "percentile": 37,
+   "percentile": 34,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1520",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-14T15:20:00Z",
+   "runner": "Gustoso",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 15.43
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 14.2,
+    "spread_pct": 10.5
+   },
+   "move_pct": -8.0,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 34,
    "notable": false
   },
   {
    "slug": "wetherby-1552",
    "venue": "Wetherby",
    "off_utc": "2026-10-14T15:52:00Z",
-   "runner": "Westerton",
+   "runner": "Dream Jet",
    "first": {
     "mins_to_off": 352,
-    "mid": 12.82
+    "mid": 14.04
    },
    "latest": {
-    "mins_to_off": 247,
-    "mid": 14.24,
-    "spread_pct": 3.4
+    "mins_to_off": 7,
+    "mid": 12.98,
+    "spread_pct": 7.7
    },
-   "move_pct": 11.1,
+   "move_pct": -7.5,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 34,
+   "notable": false
+  },
+  {
+   "slug": "punchestown-1607",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T16:07:00Z",
+   "runner": "Revolut Ned",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 58.31
+   },
+   "latest": {
+    "mins_to_off": 22,
+    "mid": 47.62,
+    "spread_pct": 27.1
+   },
+   "move_pct": -18.3,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 34,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1800",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T18:00:00Z",
+   "runner": "Do Bronxs",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 22.99
+   },
+   "latest": {
+    "mins_to_off": 135,
+    "mid": 21.39,
+    "spread_pct": 14.0
+   },
+   "move_pct": -7.0,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 34,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1900",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T19:00:00Z",
+   "runner": "Carnival Day",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 30.17
+   },
+   "latest": {
+    "mins_to_off": 195,
+    "mid": 28.09,
+    "spread_pct": 25.1
+   },
+   "move_pct": -6.9,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 34,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1900",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T19:00:00Z",
+   "runner": "Charmaine",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 12.71
+   },
+   "latest": {
+    "mins_to_off": 195,
+    "mid": 11.7,
+    "spread_pct": 12.8
+   },
+   "move_pct": -7.9,
    "band": [
     8,
     13
    ],
+   "percentile": 34,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1439",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T14:39:00Z",
+   "runner": "Rock N Roll Pinkie",
+   "first": {
+    "mins_to_off": 354,
+    "mid": 10.02
+   },
+   "latest": {
+    "mins_to_off": 9,
+    "mid": 9.29,
+    "spread_pct": 6.4
+   },
+   "move_pct": -7.3,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 35,
+   "notable": false
+  },
+  {
+   "slug": "punchestown-1455",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T14:55:00Z",
+   "runner": "Bunting",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 2.14
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 2.02,
+    "spread_pct": 2.0
+   },
+   "move_pct": -5.6,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 35,
+   "notable": false
+  },
+  {
+   "slug": "ffos-las-1613",
+   "venue": "Ffos Las",
+   "off_utc": "2026-10-14T16:13:00Z",
+   "runner": "Est Illic",
+   "first": {
+    "mins_to_off": 268,
+    "mid": 90.91
+   },
+   "latest": {
+    "mins_to_off": 88,
+    "mid": 99.5,
+    "spread_pct": 35.9
+   },
+   "move_pct": 9.5,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 65,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1800",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T18:00:00Z",
+   "runner": "Philanthropist",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 6.49
+   },
+   "latest": {
+    "mins_to_off": 135,
+    "mid": 6.99,
+    "spread_pct": 5.7
+   },
+   "move_pct": 7.8,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 65,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1830",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T18:30:00Z",
+   "runner": "Space Bear",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 11.7
+   },
+   "latest": {
+    "mins_to_off": 165,
+    "mid": 13.21,
+    "spread_pct": 11.4
+   },
+   "move_pct": 12.9,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 65,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1254",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T12:54:00Z",
+   "runner": "Adamlyi",
+   "first": {
+    "mins_to_off": 294,
+    "mid": 3.95
+   },
+   "latest": {
+    "mins_to_off": 9,
+    "mid": 4.25,
+    "spread_pct": 2.3
+   },
+   "move_pct": 7.6,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 64,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1329",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T13:29:00Z",
+   "runner": "Avowed",
+   "first": {
+    "mins_to_off": 329,
+    "mid": 16.25
+   },
+   "latest": {
+    "mins_to_off": 14,
+    "mid": 15.21,
+    "spread_pct": 9.9
+   },
+   "move_pct": -6.4,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 36,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1335",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-14T13:35:00Z",
+   "runner": "Thank You Blue",
+   "first": {
+    "mins_to_off": 335,
+    "mid": 27.43
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 25.97,
+    "spread_pct": 7.8
+   },
+   "move_pct": -5.3,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 36,
+   "notable": false
+  },
+  {
+   "slug": "ffos-las-1355",
+   "venue": "Ffos Las",
+   "off_utc": "2026-10-14T13:55:00Z",
+   "runner": "Guard Your Dreams",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 4.34
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 4.1,
+    "spread_pct": 4.9
+   },
+   "move_pct": -5.7,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 36,
+   "notable": false
+  },
+  {
+   "slug": "punchestown-1420",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T14:20:00Z",
+   "runner": "Majestic Force",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 28.78
+   },
+   "latest": {
+    "mins_to_off": 50,
+    "mid": 27.29,
+    "spread_pct": 18.4
+   },
+   "move_pct": -5.2,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 36,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1439",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T14:39:00Z",
+   "runner": "Believitanducan",
+   "first": {
+    "mins_to_off": 354,
+    "mid": 3.77
+   },
+   "latest": {
+    "mins_to_off": 9,
+    "mid": 4.05,
+    "spread_pct": 2.5
+   },
+   "move_pct": 7.3,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 64,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1547",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T15:47:00Z",
+   "runner": "Napolian",
+   "first": {
+    "mins_to_off": 347,
+    "mid": 15.43
+   },
+   "latest": {
+    "mins_to_off": 2,
+    "mid": 14.48,
+    "spread_pct": 6.8
+   },
+   "move_pct": -6.2,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 36,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1622",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T16:22:00Z",
+   "runner": "Spruces Due",
+   "first": {
+    "mins_to_off": 247,
+    "mid": 91.74
+   },
+   "latest": {
+    "mins_to_off": 172,
+    "mid": 99.5,
+    "spread_pct": 235.4
+   },
+   "move_pct": 8.5,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 64,
+   "notable": false
+  },
+  {
+   "slug": "punchestown-1235",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T12:35:00Z",
+   "runner": "Lunar Stride",
+   "first": {
+    "mins_to_off": 275,
+    "mid": 3.26
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 3.47,
+    "spread_pct": 1.5
+   },
+   "move_pct": 6.7,
+   "band": [
+    3,
+    5
+   ],
    "percentile": 63,
+   "notable": false
+  },
+  {
+   "slug": "ffos-las-1505",
+   "venue": "Ffos Las",
+   "off_utc": "2026-10-14T15:05:00Z",
+   "runner": "Ballycamus",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 7.58
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 7.1,
+    "spread_pct": 2.8
+   },
+   "move_pct": -6.4,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 37,
+   "notable": false
+  },
+  {
+   "slug": "ffos-las-1538",
+   "venue": "Ffos Las",
+   "off_utc": "2026-10-14T15:38:00Z",
+   "runner": "Down Memory Lane",
+   "first": {
+    "mins_to_off": 353,
+    "mid": 34.31
+   },
+   "latest": {
+    "mins_to_off": 8,
+    "mid": 40.82,
+    "spread_pct": 14.8
+   },
+   "move_pct": 19.0,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 63,
+   "notable": false
+  },
+  {
+   "slug": "ffos-las-1538",
+   "venue": "Ffos Las",
+   "off_utc": "2026-10-14T15:38:00Z",
+   "runner": "Il Est Francais",
+   "first": {
+    "mins_to_off": 353,
+    "mid": 4.2
+   },
+   "latest": {
+    "mins_to_off": 8,
+    "mid": 3.97,
+    "spread_pct": 1.3
+   },
+   "move_pct": -5.3,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 37,
+   "notable": false
+  },
+  {
+   "slug": "ffos-las-1538",
+   "venue": "Ffos Las",
+   "off_utc": "2026-10-14T15:38:00Z",
+   "runner": "Torneo",
+   "first": {
+    "mins_to_off": 353,
+    "mid": 7.69
+   },
+   "latest": {
+    "mins_to_off": 8,
+    "mid": 7.19,
+    "spread_pct": 5.6
+   },
+   "move_pct": -6.4,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 37,
    "notable": false
   },
   {
    "slug": "kempton-1600",
    "venue": "Kempton",
    "off_utc": "2026-10-14T16:00:00Z",
-   "runner": "Algaihabane",
+   "runner": "Noble Prince",
    "first": {
     "mins_to_off": 360,
-    "mid": 9.39
+    "mid": 2.71
    },
    "latest": {
-    "mins_to_off": 255,
-    "mid": 10.48,
-    "spread_pct": 9.6
+    "mins_to_off": 15,
+    "mid": 2.58,
+    "spread_pct": 1.5
    },
-   "move_pct": 11.6,
+   "move_pct": -4.8,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 37,
+   "notable": false
+  },
+  {
+   "slug": "punchestown-1607",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T16:07:00Z",
+   "runner": "Mags Nelson",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 10.99
+   },
+   "latest": {
+    "mins_to_off": 22,
+    "mid": 12.2,
+    "spread_pct": 12.4
+   },
+   "move_pct": 11.0,
    "band": [
     8,
     13
@@ -3117,25 +4459,69 @@
    "notable": false
   },
   {
-   "slug": "punchestown-1310",
+   "slug": "punchestown-1640",
    "venue": "Punchestown",
-   "off_utc": "2026-10-14T13:10:00Z",
-   "runner": "Apache Peak",
+   "off_utc": "2026-10-14T16:40:00Z",
+   "runner": "Time Takes Time",
    "first": {
-    "mins_to_off": 310,
-    "mid": 4.04
+    "mins_to_off": 250,
+    "mid": 84.39
    },
    "latest": {
-    "mins_to_off": 85,
-    "mid": 3.85,
-    "spread_pct": 2.6
+    "mins_to_off": 205,
+    "mid": 90.91,
+    "spread_pct": 495.0
    },
-   "move_pct": -4.8,
+   "move_pct": 7.7,
    "band": [
-    3,
-    5
+    35,
+    100
+   ],
+   "percentile": 63,
+   "notable": false
+  },
+  {
+   "slug": "ffos-las-1245",
+   "venue": "Ffos Las",
+   "off_utc": "2026-10-14T12:45:00Z",
+   "runner": "The Magus",
+   "first": {
+    "mins_to_off": 285,
+    "mid": 15.56
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 14.75,
+    "spread_pct": 37.2
+   },
+   "move_pct": -5.2,
+   "band": [
+    13,
+    20
    ],
    "percentile": 38,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1254",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T12:54:00Z",
+   "runner": "Trustintimes",
+   "first": {
+    "mins_to_off": 294,
+    "mid": 14.14
+   },
+   "latest": {
+    "mins_to_off": 9,
+    "mid": 16.22,
+    "spread_pct": 9.3
+   },
+   "move_pct": 14.7,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 62,
    "notable": false
   },
   {
@@ -3161,201 +4547,91 @@
    "notable": false
   },
   {
-   "slug": "nottingham-1329",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T13:29:00Z",
-   "runner": "Emaraat",
-   "first": {
-    "mins_to_off": 329,
-    "mid": 51.02
-   },
-   "latest": {
-    "mins_to_off": 104,
-    "mid": 43.67,
-    "spread_pct": 18.5
-   },
-   "move_pct": -14.4,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 38,
-   "notable": false
-  },
-  {
    "slug": "wetherby-1335",
    "venue": "Wetherby",
    "off_utc": "2026-10-14T13:35:00Z",
-   "runner": "Rebel Tribesman",
+   "runner": "Evaluation",
    "first": {
     "mins_to_off": 335,
-    "mid": 2.75
+    "mid": 6.14
    },
    "latest": {
-    "mins_to_off": 110,
-    "mid": 2.85,
-    "spread_pct": 2.1
-   },
-   "move_pct": 3.7,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 62,
-   "notable": false
-  },
-  {
-   "slug": "ffos-las-1430",
-   "venue": "Ffos Las",
-   "off_utc": "2026-10-14T14:30:00Z",
-   "runner": "George's Lad",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 6.69
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 6.29,
-    "spread_pct": 9.6
-   },
-   "move_pct": -6.0,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 38,
-   "notable": false
-  },
-  {
-   "slug": "nottingham-1439",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T14:39:00Z",
-   "runner": "Personal Best",
-   "first": {
-    "mins_to_off": 354,
-    "mid": 8.89
-   },
-   "latest": {
-    "mins_to_off": 174,
-    "mid": 8.39,
-    "spread_pct": 4.8
-   },
-   "move_pct": -5.6,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 38,
-   "notable": false
-  },
-  {
-   "slug": "ffos-las-1505",
-   "venue": "Ffos Las",
-   "off_utc": "2026-10-14T15:05:00Z",
-   "runner": "Cruz Control",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 12.93
-   },
-   "latest": {
-    "mins_to_off": 200,
-    "mid": 14.2,
-    "spread_pct": 10.5
-   },
-   "move_pct": 9.9,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 62,
-   "notable": false
-  },
-  {
-   "slug": "ffos-las-1505",
-   "venue": "Ffos Las",
-   "off_utc": "2026-10-14T15:05:00Z",
-   "runner": "Neon Moon",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 21.21
-   },
-   "latest": {
-    "mins_to_off": 200,
-    "mid": 20.39,
-    "spread_pct": 14.6
-   },
-   "move_pct": -3.9,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 38,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1525",
-   "venue": "Kempton",
-   "off_utc": "2026-10-14T15:25:00Z",
-   "runner": "Uomo Valeroso",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 6.39
-   },
-   "latest": {
-    "mins_to_off": 220,
-    "mid": 6.79,
-    "spread_pct": 5.8
-   },
-   "move_pct": 6.2,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 62,
-   "notable": false
-  },
-  {
-   "slug": "punchestown-1640",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T16:40:00Z",
-   "runner": "Frisco Lad",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 3.01
-   },
-   "latest": {
-    "mins_to_off": 295,
-    "mid": 3.19,
-    "spread_pct": 9.4
-   },
-   "move_pct": 6.1,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 62,
-   "notable": false
-  },
-  {
-   "slug": "nottingham-1254",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T12:54:00Z",
-   "runner": "Intsaar",
-   "first": {
-    "mins_to_off": 294,
-    "mid": 42.02
-   },
-   "latest": {
-    "mins_to_off": 69,
-    "mid": 44.44,
-    "spread_pct": 22.5
+    "mins_to_off": 5,
+    "mid": 6.5,
+    "spread_pct": 3.1
    },
    "move_pct": 5.8,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 62,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1700",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T17:00:00Z",
+   "runner": "Double Time",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 66.67
+   },
+   "latest": {
+    "mins_to_off": 75,
+    "mid": 56.98,
+    "spread_pct": 38.4
+   },
+   "move_pct": -14.5,
    "band": [
     35,
     100
    ],
-   "percentile": 61,
+   "percentile": 38,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1800",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T18:00:00Z",
+   "runner": "Blue Prince",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 8.49
+   },
+   "latest": {
+    "mins_to_off": 135,
+    "mid": 7.99,
+    "spread_pct": 5.0
+   },
+   "move_pct": -5.8,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 38,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1830",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T18:30:00Z",
+   "runner": "Berkshire Whisper",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 6.59
+   },
+   "latest": {
+    "mins_to_off": 165,
+    "mid": 6.99,
+    "spread_pct": 5.7
+   },
+   "move_pct": 6.0,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 62,
    "notable": false
   },
   {
@@ -3381,6 +4657,50 @@
    "notable": false
   },
   {
+   "slug": "punchestown-1345",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T13:45:00Z",
+   "runner": "Astelia",
+   "first": {
+    "mins_to_off": 345,
+    "mid": 3.97
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 4.2,
+    "spread_pct": 4.7
+   },
+   "move_pct": 5.7,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 61,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1404",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T14:04:00Z",
+   "runner": "Cuff It",
+   "first": {
+    "mins_to_off": 349,
+    "mid": 32.1
+   },
+   "latest": {
+    "mins_to_off": 4,
+    "mid": 31.3,
+    "spread_pct": 16.1
+   },
+   "move_pct": -2.5,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 39,
+   "notable": false
+  },
+  {
    "slug": "nottingham-1404",
    "venue": "Nottingham",
    "off_utc": "2026-10-14T14:04:00Z",
@@ -3390,7 +4710,7 @@
     "mid": 77.22
    },
    "latest": {
-    "mins_to_off": 139,
+    "mins_to_off": 4,
     "mid": 66.67,
     "spread_pct": 23.0
    },
@@ -3412,7 +4732,7 @@
     "mid": 32.89
    },
    "latest": {
-    "mins_to_off": 174,
+    "mins_to_off": 9,
     "mid": 32.1,
     "spread_pct": 21.8
    },
@@ -3425,172 +4745,106 @@
    "notable": false
   },
   {
-   "slug": "ffos-las-1613",
-   "venue": "Ffos Las",
-   "off_utc": "2026-10-14T16:13:00Z",
-   "runner": "Karuma Grey",
+   "slug": "kempton-1700",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T17:00:00Z",
+   "runner": "Mertoun",
    "first": {
-    "mins_to_off": 358,
-    "mid": 20.49
+    "mins_to_off": 360,
+    "mid": 3.07
    },
    "latest": {
-    "mins_to_off": 268,
-    "mid": 24.01,
-    "spread_pct": 29.2
+    "mins_to_off": 75,
+    "mid": 2.94,
+    "spread_pct": 4.1
    },
-   "move_pct": 17.2,
+   "move_pct": -4.4,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 39,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1830",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T18:30:00Z",
+   "runner": "Augustus Gloop",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 22.4
+   },
+   "latest": {
+    "mins_to_off": 165,
+    "mid": 21.81,
+    "spread_pct": 18.3
+   },
+   "move_pct": -2.6,
    "band": [
     20,
     35
    ],
+   "percentile": 39,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1830",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T18:30:00Z",
+   "runner": "Bintaryana",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 9.58
+   },
+   "latest": {
+    "mins_to_off": 165,
+    "mid": 10.46,
+    "spread_pct": 18.1
+   },
+   "move_pct": 9.2,
+   "band": [
+    8,
+    13
+   ],
    "percentile": 61,
+   "notable": false
+  },
+  {
+   "slug": "ffos-las-1538",
+   "venue": "Ffos Las",
+   "off_utc": "2026-10-14T15:38:00Z",
+   "runner": "Crebilly",
+   "first": {
+    "mins_to_off": 353,
+    "mid": 3.9
+   },
+   "latest": {
+    "mins_to_off": 8,
+    "mid": 4.1,
+    "spread_pct": 4.9
+   },
+   "move_pct": 5.1,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 60,
    "notable": false
   },
   {
    "slug": "nottingham-1622",
    "venue": "Nottingham",
    "off_utc": "2026-10-14T16:22:00Z",
-   "runner": "Son Of Astar",
+   "runner": "Shining Guest",
    "first": {
-    "mins_to_off": 352,
-    "mid": 10.25
-   },
-   "latest": {
     "mins_to_off": 277,
-    "mid": 9.69,
-    "spread_pct": 6.2
-   },
-   "move_pct": -5.5,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 39,
-   "notable": false
-  },
-  {
-   "slug": "punchestown-1640",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T16:40:00Z",
-   "runner": "Hill Silver",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 9.43
+    "mid": 88.11
    },
    "latest": {
-    "mins_to_off": 295,
-    "mid": 10.34,
-    "spread_pct": 20.3
-   },
-   "move_pct": 9.6,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 61,
-   "notable": false
-  },
-  {
-   "slug": "punchestown-1640",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T16:40:00Z",
-   "runner": "Manu Reva",
-   "first": {
-    "mins_to_off": 340,
-    "mid": 64.94
-   },
-   "latest": {
-    "mins_to_off": 295,
-    "mid": 68.73,
-    "spread_pct": 87.1
-   },
-   "move_pct": 5.8,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 61,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1700",
-   "venue": "Kempton",
-   "off_utc": "2026-10-14T17:00:00Z",
-   "runner": "Bold Suitor",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 32.26
-   },
-   "latest": {
-    "mins_to_off": 315,
-    "mid": 31.3,
-    "spread_pct": 16.1
-   },
-   "move_pct": -3.0,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 39,
-   "notable": false
-  },
-  {
-   "slug": "ffos-las-1245",
-   "venue": "Ffos Las",
-   "off_utc": "2026-10-14T12:45:00Z",
-   "runner": "Good For You",
-   "first": {
-    "mins_to_off": 285,
-    "mid": 17.87
-   },
-   "latest": {
-    "mins_to_off": 60,
-    "mid": 17.21,
-    "spread_pct": 8.6
-   },
-   "move_pct": -3.7,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 40,
-   "notable": false
-  },
-  {
-   "slug": "ffos-las-1320",
-   "venue": "Ffos Las",
-   "off_utc": "2026-10-14T13:20:00Z",
-   "runner": "Wandering Ego",
-   "first": {
-    "mins_to_off": 320,
-    "mid": 6.14
-   },
-   "latest": {
-    "mins_to_off": 95,
-    "mid": 5.85,
-    "spread_pct": 5.1
-   },
-   "move_pct": -4.8,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 40,
-   "notable": false
-  },
-  {
-   "slug": "punchestown-1345",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T13:45:00Z",
-   "runner": "Amanha",
-   "first": {
-    "mins_to_off": 315,
-    "mid": 58.65
-   },
-   "latest": {
-    "mins_to_off": 120,
-    "mid": 61.35,
-    "spread_pct": 59.8
+    "mins_to_off": 157,
+    "mid": 92.17,
+    "spread_pct": 152.0
    },
    "move_pct": 4.6,
    "band": [
@@ -3598,336 +4852,6 @@
     100
    ],
    "percentile": 60,
-   "notable": false
-  },
-  {
-   "slug": "punchestown-1345",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T13:45:00Z",
-   "runner": "Fraher Field",
-   "first": {
-    "mins_to_off": 345,
-    "mid": 4.84
-   },
-   "latest": {
-    "mins_to_off": 120,
-    "mid": 5.09,
-    "spread_pct": 7.9
-   },
-   "move_pct": 5.3,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 60,
-   "notable": false
-  },
-  {
-   "slug": "nottingham-1404",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T14:04:00Z",
-   "runner": "Knights Charge",
-   "first": {
-    "mins_to_off": 349,
-    "mid": 1.88
-   },
-   "latest": {
-    "mins_to_off": 139,
-    "mid": 1.94,
-    "spread_pct": 1.0
-   },
-   "move_pct": 3.2,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 60,
-   "notable": false
-  },
-  {
-   "slug": "ffos-las-1430",
-   "venue": "Ffos Las",
-   "off_utc": "2026-10-14T14:30:00Z",
-   "runner": "Tamarind Bay",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 8.67
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 8.29,
-    "spread_pct": 7.2
-   },
-   "move_pct": -4.4,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 40,
-   "notable": false
-  },
-  {
-   "slug": "nottingham-1439",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T14:39:00Z",
-   "runner": "Believitanducan",
-   "first": {
-    "mins_to_off": 354,
-    "mid": 3.77
-   },
-   "latest": {
-    "mins_to_off": 174,
-    "mid": 3.97,
-    "spread_pct": 1.3
-   },
-   "move_pct": 5.3,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 60,
-   "notable": false
-  },
-  {
-   "slug": "nottingham-1439",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T14:39:00Z",
-   "runner": "Rock N Roll Pinkie",
-   "first": {
-    "mins_to_off": 354,
-    "mid": 10.02
-   },
-   "latest": {
-    "mins_to_off": 174,
-    "mid": 9.6,
-    "spread_pct": 4.2
-   },
-   "move_pct": -4.2,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 40,
-   "notable": false
-  },
-  {
-   "slug": "nottingham-1514",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T15:14:00Z",
-   "runner": "Blue Boy Junior",
-   "first": {
-    "mins_to_off": 359,
-    "mid": 6.39
-   },
-   "latest": {
-    "mins_to_off": 209,
-    "mid": 6.09,
-    "spread_pct": 9.9
-   },
-   "move_pct": -4.8,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 40,
-   "notable": false
-  },
-  {
-   "slug": "punchestown-1235",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T12:35:00Z",
-   "runner": "Lunar Stride",
-   "first": {
-    "mins_to_off": 275,
-    "mid": 3.26
-   },
-   "latest": {
-    "mins_to_off": 50,
-    "mid": 3.14,
-    "spread_pct": 9.5
-   },
-   "move_pct": -3.5,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 41,
-   "notable": false
-  },
-  {
-   "slug": "nottingham-1254",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T12:54:00Z",
-   "runner": "Lone Warrior",
-   "first": {
-    "mins_to_off": 294,
-    "mid": 3.0
-   },
-   "latest": {
-    "mins_to_off": 69,
-    "mid": 2.89,
-    "spread_pct": 3.5
-   },
-   "move_pct": -3.6,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 41,
-   "notable": false
-  },
-  {
-   "slug": "ffos-las-1505",
-   "venue": "Ffos Las",
-   "off_utc": "2026-10-14T15:05:00Z",
-   "runner": "Etalon",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 10.91
-   },
-   "latest": {
-    "mins_to_off": 200,
-    "mid": 10.48,
-    "spread_pct": 9.6
-   },
-   "move_pct": -4.0,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 41,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1525",
-   "venue": "Kempton",
-   "off_utc": "2026-10-14T15:25:00Z",
-   "runner": "Hayate",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 2.54
-   },
-   "latest": {
-    "mins_to_off": 220,
-    "mid": 2.44,
-    "spread_pct": 1.6
-   },
-   "move_pct": -3.9,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 41,
-   "notable": false
-  },
-  {
-   "slug": "ffos-las-1538",
-   "venue": "Ffos Las",
-   "off_utc": "2026-10-14T15:38:00Z",
-   "runner": "Southoftheborder",
-   "first": {
-    "mins_to_off": 353,
-    "mid": 6.79
-   },
-   "latest": {
-    "mins_to_off": 233,
-    "mid": 6.5,
-    "spread_pct": 3.1
-   },
-   "move_pct": -4.3,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 41,
-   "notable": false
-  },
-  {
-   "slug": "ffos-las-1613",
-   "venue": "Ffos Las",
-   "off_utc": "2026-10-14T16:13:00Z",
-   "runner": "Yes And Yes",
-   "first": {
-    "mins_to_off": 358,
-    "mid": 15.65
-   },
-   "latest": {
-    "mins_to_off": 268,
-    "mid": 15.24,
-    "spread_pct": 26.4
-   },
-   "move_pct": -2.6,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 41,
-   "notable": false
-  },
-  {
-   "slug": "nottingham-1622",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T16:22:00Z",
-   "runner": "Solid Bond",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 8.69
-   },
-   "latest": {
-    "mins_to_off": 277,
-    "mid": 8.38,
-    "spread_pct": 9.6
-   },
-   "move_pct": -3.6,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 41,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1700",
-   "venue": "Kempton",
-   "off_utc": "2026-10-14T17:00:00Z",
-   "runner": "Assiri Heights",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 5.48
-   },
-   "latest": {
-    "mins_to_off": 315,
-    "mid": 5.25,
-    "spread_pct": 5.7
-   },
-   "move_pct": -4.4,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 41,
-   "notable": false
-  },
-  {
-   "slug": "ffos-las-1245",
-   "venue": "Ffos Las",
-   "off_utc": "2026-10-14T12:45:00Z",
-   "runner": "Wannabe",
-   "first": {
-    "mins_to_off": 285,
-    "mid": 4.95
-   },
-   "latest": {
-    "mins_to_off": 60,
-    "mid": 5.15,
-    "spread_pct": 2.0
-   },
-   "move_pct": 4.1,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 58,
    "notable": false
   },
   {
@@ -3940,33 +4864,341 @@
     "mid": 95.24
    },
    "latest": {
-    "mins_to_off": 85,
-    "mid": 84.39,
-    "spread_pct": 65.8
+    "mins_to_off": 25,
+    "mid": 99.01,
+    "spread_pct": 50.4
    },
-   "move_pct": -11.4,
+   "move_pct": 4.0,
    "band": [
     35,
     100
+   ],
+   "percentile": 59,
+   "notable": false
+  },
+  {
+   "slug": "ffos-las-1355",
+   "venue": "Ffos Las",
+   "off_utc": "2026-10-14T13:55:00Z",
+   "runner": "Nocte Volatus",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 12.93
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 12.48,
+    "spread_pct": 8.0
+   },
+   "move_pct": -3.4,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 41,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1514",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T15:14:00Z",
+   "runner": "Gunalt Wavelength",
+   "first": {
+    "mins_to_off": 359,
+    "mid": 12.41
+   },
+   "latest": {
+    "mins_to_off": 14,
+    "mid": 11.98,
+    "spread_pct": 8.4
+   },
+   "move_pct": -3.5,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 41,
+   "notable": false
+  },
+  {
+   "slug": "punchestown-1530",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T15:30:00Z",
+   "runner": "Gorgeous Tom",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 1.74
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 1.78,
+    "spread_pct": 0.6
+   },
+   "move_pct": 2.6,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 59,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1552",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-14T15:52:00Z",
+   "runner": "Noonetellsmenothin",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 5.29
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 5.05,
+    "spread_pct": 2.0
+   },
+   "move_pct": -4.6,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 41,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1630",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T16:30:00Z",
+   "runner": "Port Road",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 12.93
+   },
+   "latest": {
+    "mins_to_off": 45,
+    "mid": 12.48,
+    "spread_pct": 8.0
+   },
+   "move_pct": -3.4,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 41,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1700",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T17:00:00Z",
+   "runner": "Bold Suitor",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 32.26
+   },
+   "latest": {
+    "mins_to_off": 75,
+    "mid": 32.1,
+    "spread_pct": 21.8
+   },
+   "move_pct": -0.5,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 41,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1900",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T19:00:00Z",
+   "runner": "Nicator",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 5.49
+   },
+   "latest": {
+    "mins_to_off": 195,
+    "mid": 5.75,
+    "spread_pct": 5.2
+   },
+   "move_pct": 4.6,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 59,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1300",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-14T13:00:00Z",
+   "runner": "Magnetude",
+   "first": {
+    "mins_to_off": 300,
+    "mid": 1.56
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 1.51,
+    "spread_pct": 1.3
+   },
+   "move_pct": -3.5,
+   "band": [
+    1.5,
+    3
    ],
    "percentile": 42,
    "notable": false
   },
   {
-   "slug": "nottingham-1404",
+   "slug": "nottingham-1329",
    "venue": "Nottingham",
-   "off_utc": "2026-10-14T14:04:00Z",
-   "runner": "Lucky Camino",
+   "off_utc": "2026-10-14T13:29:00Z",
+   "runner": "Shared Odyssey",
    "first": {
-    "mins_to_off": 349,
-    "mid": 53.33
+    "mins_to_off": 329,
+    "mid": 7.18
    },
    "latest": {
-    "mins_to_off": 139,
-    "mid": 55.25,
-    "spread_pct": 30.5
+    "mins_to_off": 14,
+    "mid": 6.9,
+    "spread_pct": 2.9
    },
-   "move_pct": 3.6,
+   "move_pct": -3.9,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 42,
+   "notable": false
+  },
+  {
+   "slug": "ffos-las-1355",
+   "venue": "Ffos Las",
+   "off_utc": "2026-10-14T13:55:00Z",
+   "runner": "Sherborne",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 16.05
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 17.71,
+    "spread_pct": 8.3
+   },
+   "move_pct": 10.4,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 58,
+   "notable": false
+  },
+  {
+   "slug": "ffos-las-1613",
+   "venue": "Ffos Las",
+   "off_utc": "2026-10-14T16:13:00Z",
+   "runner": "Puddlesinthepark",
+   "first": {
+    "mins_to_off": 358,
+    "mid": 13.21
+   },
+   "latest": {
+    "mins_to_off": 28,
+    "mid": 12.98,
+    "spread_pct": 7.7
+   },
+   "move_pct": -1.8,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 42,
+   "notable": false
+  },
+  {
+   "slug": "ffos-las-1613",
+   "venue": "Ffos Las",
+   "off_utc": "2026-10-14T16:13:00Z",
+   "runner": "Yes Day",
+   "first": {
+    "mins_to_off": 358,
+    "mid": 6.14
+   },
+   "latest": {
+    "mins_to_off": 28,
+    "mid": 6.39,
+    "spread_pct": 6.3
+   },
+   "move_pct": 4.1,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 58,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1622",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T16:22:00Z",
+   "runner": "Call Time",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 9.58
+   },
+   "latest": {
+    "mins_to_off": 37,
+    "mid": 9.29,
+    "spread_pct": 6.4
+   },
+   "move_pct": -3.1,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 42,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1622",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T16:22:00Z",
+   "runner": "The Fixer",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 9.92
+   },
+   "latest": {
+    "mins_to_off": 37,
+    "mid": 9.6,
+    "spread_pct": 4.2
+   },
+   "move_pct": -3.3,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 42,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1830",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T18:30:00Z",
+   "runner": "Aigeas",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 46.3
+   },
+   "latest": {
+    "mins_to_off": 165,
+    "mid": 47.62,
+    "spread_pct": 27.1
+   },
+   "move_pct": 2.9,
    "band": [
     35,
     100
@@ -3975,20 +5207,42 @@
    "notable": false
   },
   {
-   "slug": "nottingham-1439",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T14:39:00Z",
-   "runner": "Dunkeld Dreamer",
+   "slug": "kempton-1830",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T18:30:00Z",
+   "runner": "Knebworth",
    "first": {
-    "mins_to_off": 354,
-    "mid": 10.25
+    "mins_to_off": 360,
+    "mid": 19.67
    },
    "latest": {
-    "mins_to_off": 174,
-    "mid": 10.98,
-    "spread_pct": 9.0
+    "mins_to_off": 165,
+    "mid": 21.81,
+    "spread_pct": 18.3
    },
-   "move_pct": 7.1,
+   "move_pct": 10.9,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 58,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1900",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T19:00:00Z",
+   "runner": "Wonder",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 10.7
+   },
+   "latest": {
+    "mins_to_off": 195,
+    "mid": 11.48,
+    "spread_pct": 8.7
+   },
+   "move_pct": 7.3,
    "band": [
     8,
     13
@@ -3997,42 +5251,20 @@
    "notable": false
   },
   {
-   "slug": "ffos-las-1505",
-   "venue": "Ffos Las",
-   "off_utc": "2026-10-14T15:05:00Z",
-   "runner": "Ben Solo",
+   "slug": "kempton-1930",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T19:30:00Z",
+   "runner": "Ablon",
    "first": {
-    "mins_to_off": 350,
-    "mid": 2.91
+    "mins_to_off": 360,
+    "mid": 4.95
    },
    "latest": {
-    "mins_to_off": 200,
-    "mid": 2.98,
-    "spread_pct": 1.3
+    "mins_to_off": 225,
+    "mid": 4.8,
+    "spread_pct": 4.2
    },
-   "move_pct": 2.4,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 58,
-   "notable": false
-  },
-  {
-   "slug": "nottingham-1514",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T15:14:00Z",
-   "runner": "Mayaada",
-   "first": {
-    "mins_to_off": 359,
-    "mid": 3.22
-   },
-   "latest": {
-    "mins_to_off": 209,
-    "mid": 3.12,
-    "spread_pct": 4.8
-   },
-   "move_pct": -3.1,
+   "move_pct": -3.0,
    "band": [
     3,
     5
@@ -4041,25 +5273,47 @@
    "notable": false
   },
   {
-   "slug": "nottingham-1404",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T14:04:00Z",
-   "runner": "Sir Hannibal",
+   "slug": "wetherby-1300",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-14T13:00:00Z",
+   "runner": "Royal Sapphire",
    "first": {
-    "mins_to_off": 349,
-    "mid": 25.25
+    "mins_to_off": 300,
+    "mid": 3.87
    },
    "latest": {
-    "mins_to_off": 139,
-    "mid": 25.41,
-    "spread_pct": 12.0
+    "mins_to_off": 0,
+    "mid": 3.77,
+    "spread_pct": 1.3
    },
-   "move_pct": 0.6,
+   "move_pct": -2.5,
    "band": [
-    20,
-    35
+    3,
+    5
    ],
    "percentile": 43,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1410",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-14T14:10:00Z",
+   "runner": "Singapore Trip",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 3.42
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 3.55,
+    "spread_pct": 2.8
+   },
+   "move_pct": 3.8,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 57,
    "notable": false
   },
   {
@@ -4085,108 +5339,64 @@
    "notable": false
   },
   {
-   "slug": "wetherby-1445",
-   "venue": "Wetherby",
-   "off_utc": "2026-10-14T14:45:00Z",
-   "runner": "Breizh River",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 2.8
-   },
-   "latest": {
-    "mins_to_off": 180,
-    "mid": 2.85,
-    "spread_pct": 2.1
-   },
-   "move_pct": 1.8,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 57,
-   "notable": false
-  },
-  {
-   "slug": "ffos-las-1538",
+   "slug": "ffos-las-1613",
    "venue": "Ffos Las",
-   "off_utc": "2026-10-14T15:38:00Z",
-   "runner": "Saint Segal",
+   "off_utc": "2026-10-14T16:13:00Z",
+   "runner": "Karuma Grey",
    "first": {
-    "mins_to_off": 353,
-    "mid": 8.49
+    "mins_to_off": 358,
+    "mid": 20.49
    },
    "latest": {
-    "mins_to_off": 233,
-    "mid": 8.29,
-    "spread_pct": 7.2
+    "mins_to_off": 28,
+    "mid": 20.66,
+    "spread_pct": 12.0
    },
-   "move_pct": -2.4,
+   "move_pct": 0.8,
    "band": [
-    8,
-    13
+    20,
+    35
    ],
    "percentile": 43,
    "notable": false
   },
   {
-   "slug": "nottingham-1622",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T16:22:00Z",
-   "runner": "The Fixer",
+   "slug": "ffos-las-1613",
+   "venue": "Ffos Las",
+   "off_utc": "2026-10-14T16:13:00Z",
+   "runner": "Yes And Yes",
    "first": {
-    "mins_to_off": 352,
-    "mid": 9.92
+    "mins_to_off": 358,
+    "mid": 15.65
    },
    "latest": {
-    "mins_to_off": 277,
-    "mid": 9.69,
-    "spread_pct": 6.2
+    "mins_to_off": 28,
+    "mid": 17.21,
+    "spread_pct": 8.6
    },
-   "move_pct": -2.3,
+   "move_pct": 10.0,
    "band": [
-    8,
-    13
+    13,
+    20
    ],
-   "percentile": 43,
+   "percentile": 57,
    "notable": false
   },
   {
-   "slug": "kempton-1630",
+   "slug": "kempton-1800",
    "venue": "Kempton",
-   "off_utc": "2026-10-14T16:30:00Z",
-   "runner": "Magnatura",
+   "off_utc": "2026-10-14T18:00:00Z",
+   "runner": "Chalk Mountain",
    "first": {
     "mins_to_off": 360,
-    "mid": 9.92
+    "mid": 5.69
    },
    "latest": {
-    "mins_to_off": 285,
-    "mid": 9.69,
-    "spread_pct": 6.2
+    "mins_to_off": 135,
+    "mid": 5.9,
+    "spread_pct": 3.4
    },
-   "move_pct": -2.3,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 43,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1630",
-   "venue": "Kempton",
-   "off_utc": "2026-10-14T16:30:00Z",
-   "runner": "Warning Symbol",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 5.85
-   },
-   "latest": {
-    "mins_to_off": 285,
-    "mid": 6.05,
-    "spread_pct": 5.0
-   },
-   "move_pct": 3.4,
+   "move_pct": 3.6,
    "band": [
     5,
     8
@@ -4195,47 +5405,25 @@
    "notable": false
   },
   {
-   "slug": "kempton-1700",
+   "slug": "kempton-1800",
    "venue": "Kempton",
-   "off_utc": "2026-10-14T17:00:00Z",
-   "runner": "Protectrix",
+   "off_utc": "2026-10-14T18:00:00Z",
+   "runner": "Marengo Storm",
    "first": {
     "mins_to_off": 360,
-    "mid": 6.09
+    "mid": 5.65
    },
    "latest": {
-    "mins_to_off": 315,
-    "mid": 6.3,
-    "spread_pct": 3.2
+    "mins_to_off": 135,
+    "mid": 5.85,
+    "spread_pct": 1.7
    },
-   "move_pct": 3.5,
+   "move_pct": 3.6,
    "band": [
     5,
     8
    ],
    "percentile": 57,
-   "notable": false
-  },
-  {
-   "slug": "nottingham-1219",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T12:19:00Z",
-   "runner": "Eagles Eternal",
-   "first": {
-    "mins_to_off": 259,
-    "mid": 43.67
-   },
-   "latest": {
-    "mins_to_off": 34,
-    "mid": 39.6,
-    "spread_pct": 20.4
-   },
-   "move_pct": -9.3,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 44,
    "notable": false
   },
   {
@@ -4261,45 +5449,23 @@
    "notable": false
   },
   {
-   "slug": "ffos-las-1355",
-   "venue": "Ffos Las",
-   "off_utc": "2026-10-14T13:55:00Z",
-   "runner": "Nocte Volatus",
+   "slug": "wetherby-1445",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-14T14:45:00Z",
+   "runner": "Josh The Boss",
    "first": {
-    "mins_to_off": 355,
-    "mid": 12.93
+    "mins_to_off": 360,
+    "mid": 2.79
    },
    "latest": {
-    "mins_to_off": 130,
-    "mid": 12.71,
-    "spread_pct": 11.7
+    "mins_to_off": 0,
+    "mid": 2.72,
+    "spread_pct": 1.5
    },
-   "move_pct": -1.7,
+   "move_pct": -2.5,
    "band": [
-    8,
-    13
-   ],
-   "percentile": 44,
-   "notable": false
-  },
-  {
-   "slug": "nottingham-1514",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T15:14:00Z",
-   "runner": "Gunalt Wavelength",
-   "first": {
-    "mins_to_off": 359,
-    "mid": 12.41
-   },
-   "latest": {
-    "mins_to_off": 209,
-    "mid": 12.2,
-    "spread_pct": 12.4
-   },
-   "move_pct": -1.7,
-   "band": [
-    8,
-    13
+    1.5,
+    3
    ],
    "percentile": 44,
    "notable": false
@@ -4308,61 +5474,127 @@
    "slug": "ffos-las-1538",
    "venue": "Ffos Las",
    "off_utc": "2026-10-14T15:38:00Z",
-   "runner": "Crebilly",
+   "runner": "Southoftheborder",
    "first": {
     "mins_to_off": 353,
-    "mid": 3.9
+    "mid": 6.79
    },
    "latest": {
-    "mins_to_off": 233,
-    "mid": 4.02,
-    "spread_pct": 3.7
+    "mins_to_off": 8,
+    "mid": 6.99,
+    "spread_pct": 5.7
    },
-   "move_pct": 3.2,
+   "move_pct": 2.9,
    "band": [
-    3,
-    5
+    5,
+    8
    ],
    "percentile": 56,
    "notable": false
   },
   {
-   "slug": "punchestown-1607",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T16:07:00Z",
-   "runner": "Mags Nelson",
+   "slug": "kempton-1600",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T16:00:00Z",
+   "runner": "Lady Caroline Lamb",
    "first": {
-    "mins_to_off": 352,
-    "mid": 10.99
+    "mins_to_off": 360,
+    "mid": 14.43
    },
    "latest": {
-    "mins_to_off": 262,
-    "mid": 10.79,
-    "spread_pct": 20.4
+    "mins_to_off": 15,
+    "mid": 15.71,
+    "spread_pct": 9.6
    },
-   "move_pct": -1.8,
+   "move_pct": 8.9,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 56,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1600",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T16:00:00Z",
+   "runner": "My A'ali Baba",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 32.89
+   },
+   "latest": {
+    "mins_to_off": 15,
+    "mid": 36.76,
+    "spread_pct": 16.3
+   },
+   "move_pct": 11.8,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 56,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1622",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T16:22:00Z",
+   "runner": "Solid Bond",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 8.69
+   },
+   "latest": {
+    "mins_to_off": 37,
+    "mid": 9.2,
+    "spread_pct": 4.3
+   },
+   "move_pct": 5.8,
    "band": [
     8,
     13
    ],
-   "percentile": 44,
+   "percentile": 56,
    "notable": false
   },
   {
-   "slug": "punchestown-1607",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T16:07:00Z",
-   "runner": "Revolut Ned",
+   "slug": "kempton-1630",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T16:30:00Z",
+   "runner": "Hitched",
    "first": {
-    "mins_to_off": 352,
-    "mid": 58.31
+    "mins_to_off": 360,
+    "mid": 36.36
    },
    "latest": {
-    "mins_to_off": 262,
-    "mid": 52.49,
-    "spread_pct": 53.2
+    "mins_to_off": 45,
+    "mid": 36.76,
+    "spread_pct": 16.3
    },
-   "move_pct": -10.0,
+   "move_pct": 1.1,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 56,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1930",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T19:30:00Z",
+   "runner": "Dinah Myte",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 66.67
+   },
+   "latest": {
+    "mins_to_off": 225,
+    "mid": 60.06,
+    "spread_pct": 41.9
+   },
+   "move_pct": -9.9,
    "band": [
     35,
     100
@@ -4371,42 +5603,20 @@
    "notable": false
   },
   {
-   "slug": "ffos-las-1613",
-   "venue": "Ffos Las",
-   "off_utc": "2026-10-14T16:13:00Z",
-   "runner": "Jaccours",
+   "slug": "kempton-1930",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T19:30:00Z",
+   "runner": "Glenna",
    "first": {
-    "mins_to_off": 358,
-    "mid": 6.69
+    "mins_to_off": 360,
+    "mid": 4.6
    },
    "latest": {
-    "mins_to_off": 268,
-    "mid": 6.49,
-    "spread_pct": 9.2
+    "mins_to_off": 225,
+    "mid": 4.75,
+    "spread_pct": 2.1
    },
-   "move_pct": -3.0,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 44,
-   "notable": false
-  },
-  {
-   "slug": "nottingham-1622",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T16:22:00Z",
-   "runner": "Rambuso Creek",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 4.54
-   },
-   "latest": {
-    "mins_to_off": 277,
-    "mid": 4.69,
-    "spread_pct": 8.5
-   },
-   "move_pct": 3.2,
+   "move_pct": 3.3,
    "band": [
     3,
     5
@@ -4437,89 +5647,45 @@
    "notable": false
   },
   {
-   "slug": "nottingham-1404",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T14:04:00Z",
-   "runner": "Heyzoom",
-   "first": {
-    "mins_to_off": 349,
-    "mid": 6.05
-   },
-   "latest": {
-    "mins_to_off": 139,
-    "mid": 6.19,
-    "spread_pct": 6.5
-   },
-   "move_pct": 2.4,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 55,
-   "notable": false
-  },
-  {
    "slug": "wetherby-1410",
    "venue": "Wetherby",
    "off_utc": "2026-10-14T14:10:00Z",
-   "runner": "Sir Tivo",
+   "runner": "In The Air",
    "first": {
     "mins_to_off": 355,
-    "mid": 7.58
+    "mid": 3.97
    },
    "latest": {
-    "mins_to_off": 145,
-    "mid": 7.78,
-    "spread_pct": 10.2
+    "mins_to_off": 10,
+    "mid": 3.9,
+    "spread_pct": 2.5
    },
-   "move_pct": 2.6,
+   "move_pct": -1.8,
    "band": [
-    5,
-    8
-   ],
-   "percentile": 55,
-   "notable": false
-  },
-  {
-   "slug": "wetherby-1445",
-   "venue": "Wetherby",
-   "off_utc": "2026-10-14T14:45:00Z",
-   "runner": "Genois",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 7.58
-   },
-   "latest": {
-    "mins_to_off": 180,
-    "mid": 7.39,
-    "spread_pct": 5.4
-   },
-   "move_pct": -2.4,
-   "band": [
-    5,
-    8
+    3,
+    5
    ],
    "percentile": 45,
    "notable": false
   },
   {
-   "slug": "punchestown-1455",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T14:55:00Z",
-   "runner": "Chanceawetmorning",
+   "slug": "wetherby-1520",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-14T15:20:00Z",
+   "runner": "French Diablo",
    "first": {
-    "mins_to_off": 355,
-    "mid": 6.66
+    "mins_to_off": 350,
+    "mid": 9.69
    },
    "latest": {
-    "mins_to_off": 190,
-    "mid": 6.49,
-    "spread_pct": 9.2
+    "mins_to_off": 5,
+    "mid": 9.6,
+    "spread_pct": 4.2
    },
-   "move_pct": -2.7,
+   "move_pct": -1.0,
    "band": [
-    5,
-    8
+    8,
+    13
    ],
    "percentile": 45,
    "notable": false
@@ -4534,97 +5700,141 @@
     "mid": 3.32
    },
    "latest": {
-    "mins_to_off": 215,
-    "mid": 3.42,
-    "spread_pct": 4.4
+    "mins_to_off": 5,
+    "mid": 3.27,
+    "spread_pct": 1.5
    },
-   "move_pct": 3.0,
+   "move_pct": -1.5,
    "band": [
     3,
     5
    ],
-   "percentile": 55,
+   "percentile": 45,
    "notable": false
   },
   {
-   "slug": "kempton-1600",
-   "venue": "Kempton",
-   "off_utc": "2026-10-14T16:00:00Z",
-   "runner": "Magical Life",
+   "slug": "ffos-las-1538",
+   "venue": "Ffos Las",
+   "off_utc": "2026-10-14T15:38:00Z",
+   "runner": "Saint Segal",
    "first": {
-    "mins_to_off": 360,
-    "mid": 73.26
+    "mins_to_off": 353,
+    "mid": 8.49
    },
    "latest": {
-    "mins_to_off": 255,
-    "mid": 73.26,
-    "spread_pct": 75.0
+    "mins_to_off": 8,
+    "mid": 8.39,
+    "spread_pct": 4.8
    },
-   "move_pct": 0.0,
+   "move_pct": -1.1,
    "band": [
-    35,
-    100
+    8,
+    13
    ],
-   "percentile": 55,
+   "percentile": 45,
    "notable": false
   },
   {
-   "slug": "punchestown-1607",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T16:07:00Z",
-   "runner": "Fr Gilligansvoyge",
+   "slug": "nottingham-1622",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T16:22:00Z",
+   "runner": "Jenny Jerome",
    "first": {
     "mins_to_off": 352,
-    "mid": 30.12
+    "mid": 9.92
    },
    "latest": {
-    "mins_to_off": 262,
-    "mid": 30.86,
-    "spread_pct": 29.0
+    "mins_to_off": 37,
+    "mid": 9.81,
+    "spread_pct": 13.3
    },
-   "move_pct": 2.5,
+   "move_pct": -1.1,
    "band": [
-    20,
-    35
+    8,
+    13
    ],
    "percentile": 45,
    "notable": false
   },
   {
-   "slug": "kempton-1630",
+   "slug": "kempton-1730",
    "venue": "Kempton",
-   "off_utc": "2026-10-14T16:30:00Z",
-   "runner": "Crystal Pier",
+   "off_utc": "2026-10-14T17:30:00Z",
+   "runner": "Zirconic",
    "first": {
     "mins_to_off": 360,
-    "mid": 34.31
+    "mid": 74.91
    },
    "latest": {
-    "mins_to_off": 285,
-    "mid": 37.88,
-    "spread_pct": 10.6
+    "mins_to_off": 105,
+    "mid": 68.49,
+    "spread_pct": 29.4
    },
-   "move_pct": 10.4,
+   "move_pct": -8.6,
    "band": [
-    20,
-    35
+    35,
+    100
+   ],
+   "percentile": 45,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1800",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T18:00:00Z",
+   "runner": "Siwa Oasis",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 7.39
+   },
+   "latest": {
+    "mins_to_off": 135,
+    "mid": 7.6,
+    "spread_pct": 5.2
+   },
+   "move_pct": 2.7,
+   "band": [
+    5,
+    8
    ],
    "percentile": 55,
    "notable": false
   },
   {
-   "slug": "kempton-1630",
+   "slug": "kempton-1900",
    "venue": "Kempton",
-   "off_utc": "2026-10-14T16:30:00Z",
-   "runner": "Hitched",
+   "off_utc": "2026-10-14T19:00:00Z",
+   "runner": "Assail",
    "first": {
     "mins_to_off": 360,
-    "mid": 36.36
+    "mid": 7.79
    },
    "latest": {
-    "mins_to_off": 285,
-    "mid": 36.36,
-    "spread_pct": 44.1
+    "mins_to_off": 195,
+    "mid": 7.58,
+    "spread_pct": 10.6
+   },
+   "move_pct": -2.8,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 45,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1900",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T19:00:00Z",
+   "runner": "Lyric",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 60.06
+   },
+   "latest": {
+    "mins_to_off": 195,
+    "mid": 60.06,
+    "spread_pct": 41.9
    },
    "move_pct": 0.0,
    "band": [
@@ -4632,89 +5842,23 @@
     100
    ],
    "percentile": 55,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1700",
-   "venue": "Kempton",
-   "off_utc": "2026-10-14T17:00:00Z",
-   "runner": "Chale Chalo",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 33.61
-   },
-   "latest": {
-    "mins_to_off": 315,
-    "mid": 34.31,
-    "spread_pct": 29.1
-   },
-   "move_pct": 2.1,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 45,
-   "notable": false
-  },
-  {
-   "slug": "punchestown-1235",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T12:35:00Z",
-   "runner": "Way Horn",
-   "first": {
-    "mins_to_off": 275,
-    "mid": 14.64
-   },
-   "latest": {
-    "mins_to_off": 50,
-    "mid": 15.71,
-    "spread_pct": 9.6
-   },
-   "move_pct": 7.3,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 54,
-   "notable": false
-  },
-  {
-   "slug": "ffos-las-1320",
-   "venue": "Ffos Las",
-   "off_utc": "2026-10-14T13:20:00Z",
-   "runner": "Sinnatra",
-   "first": {
-    "mins_to_off": 320,
-    "mid": 2.91
-   },
-   "latest": {
-    "mins_to_off": 95,
-    "mid": 2.93,
-    "spread_pct": 2.1
-   },
-   "move_pct": 0.7,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 54,
    "notable": false
   },
   {
    "slug": "ffos-las-1355",
    "venue": "Ffos Las",
    "off_utc": "2026-10-14T13:55:00Z",
-   "runner": "Sherborne",
+   "runner": "Lord Accord",
    "first": {
     "mins_to_off": 355,
-    "mid": 16.05
+    "mid": 15.56
    },
    "latest": {
-    "mins_to_off": 130,
-    "mid": 16.16,
-    "spread_pct": 15.6
+    "mins_to_off": 55,
+    "mid": 15.71,
+    "spread_pct": 9.6
    },
-   "move_pct": 0.6,
+   "move_pct": 0.9,
    "band": [
     13,
     20
@@ -4732,7 +5876,7 @@
     "mid": 11.24
    },
    "latest": {
-    "mins_to_off": 139,
+    "mins_to_off": 4,
     "mid": 11.24,
     "spread_pct": 4.4
    },
@@ -4748,81 +5892,81 @@
    "slug": "nottingham-1439",
    "venue": "Nottingham",
    "off_utc": "2026-10-14T14:39:00Z",
-   "runner": "Green Falcon",
+   "runner": "Trojan Sun",
    "first": {
     "mins_to_off": 354,
-    "mid": 4.2
+    "mid": 11.7
    },
    "latest": {
-    "mins_to_off": 174,
-    "mid": 4.3,
-    "spread_pct": 4.6
+    "mins_to_off": 9,
+    "mid": 12.25,
+    "spread_pct": 4.0
    },
-   "move_pct": 2.4,
+   "move_pct": 4.7,
    "band": [
-    3,
-    5
+    8,
+    13
    ],
    "percentile": 54,
    "notable": false
   },
   {
-   "slug": "punchestown-1530",
+   "slug": "punchestown-1640",
    "venue": "Punchestown",
-   "off_utc": "2026-10-14T15:30:00Z",
-   "runner": "Apple's Of Bresil",
+   "off_utc": "2026-10-14T16:40:00Z",
+   "runner": "El Bilo",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 53.48
+   },
+   "latest": {
+    "mins_to_off": 55,
+    "mid": 53.33,
+    "spread_pct": 22.1
+   },
+   "move_pct": -0.3,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 54,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1700",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T17:00:00Z",
+   "runner": "Chale Chalo",
    "first": {
     "mins_to_off": 360,
-    "mid": 5.45
+    "mid": 33.61
    },
    "latest": {
-    "mins_to_off": 225,
-    "mid": 5.55,
-    "spread_pct": 5.4
+    "mins_to_off": 75,
+    "mid": 34.78,
+    "spread_pct": 17.2
    },
-   "move_pct": 1.9,
+   "move_pct": 3.5,
    "band": [
-    5,
-    8
-   ],
-   "percentile": 54,
-   "notable": false
-  },
-  {
-   "slug": "wetherby-1552",
-   "venue": "Wetherby",
-   "off_utc": "2026-10-14T15:52:00Z",
-   "runner": "Fine Point",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 5.05
-   },
-   "latest": {
-    "mins_to_off": 247,
-    "mid": 4.95,
-    "spread_pct": 2.0
-   },
-   "move_pct": -1.9,
-   "band": [
-    5,
-    8
+    20,
+    35
    ],
    "percentile": 46,
    "notable": false
   },
   {
-   "slug": "kempton-1630",
+   "slug": "kempton-1930",
    "venue": "Kempton",
-   "off_utc": "2026-10-14T16:30:00Z",
-   "runner": "Port Road",
+   "off_utc": "2026-10-14T19:30:00Z",
+   "runner": "Spinney",
    "first": {
     "mins_to_off": 360,
-    "mid": 12.93
+    "mid": 11.48
    },
    "latest": {
-    "mins_to_off": 285,
-    "mid": 12.93,
-    "spread_pct": 15.5
+    "mins_to_off": 225,
+    "mid": 11.48,
+    "spread_pct": 8.7
    },
    "move_pct": 0.0,
    "band": [
@@ -4833,47 +5977,135 @@
    "notable": false
   },
   {
-   "slug": "punchestown-1640",
+   "slug": "punchestown-1310",
    "venue": "Punchestown",
-   "off_utc": "2026-10-14T16:40:00Z",
-   "runner": "Whispered Verdict",
+   "off_utc": "2026-10-14T13:10:00Z",
+   "runner": "Thinkitdontjinxit",
    "first": {
-    "mins_to_off": 355,
-    "mid": 30.67
+    "mins_to_off": 310,
+    "mid": 3.92
    },
    "latest": {
-    "mins_to_off": 295,
-    "mid": 31.55,
-    "spread_pct": 70.1
+    "mins_to_off": 25,
+    "mid": 3.9,
+    "spread_pct": 2.5
    },
-   "move_pct": 2.8,
+   "move_pct": -0.6,
    "band": [
-    20,
-    35
+    3,
+    5
    ],
-   "percentile": 46,
+   "percentile": 47,
    "notable": false
   },
   {
-   "slug": "wetherby-1520",
-   "venue": "Wetherby",
-   "off_utc": "2026-10-14T15:20:00Z",
-   "runner": "French Diablo",
+   "slug": "punchestown-1345",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T13:45:00Z",
+   "runner": "Cleopatra's Needle",
    "first": {
-    "mins_to_off": 350,
-    "mid": 9.69
+    "mins_to_off": 345,
+    "mid": 8.87
    },
    "latest": {
-    "mins_to_off": 215,
-    "mid": 10.03,
-    "spread_pct": 9.0
+    "mins_to_off": 0,
+    "mid": 9.2,
+    "spread_pct": 4.3
    },
-   "move_pct": 3.5,
+   "move_pct": 3.6,
    "band": [
     8,
     13
    ],
    "percentile": 53,
+   "notable": false
+  },
+  {
+   "slug": "ffos-las-1355",
+   "venue": "Ffos Las",
+   "off_utc": "2026-10-14T13:55:00Z",
+   "runner": "The Boola Boss",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 6.14
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 6.05,
+    "spread_pct": 5.0
+   },
+   "move_pct": -1.5,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 47,
+   "notable": false
+  },
+  {
+   "slug": "punchestown-1420",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T14:20:00Z",
+   "runner": "Wonderful Everyday",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 5.08
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 5.15,
+    "spread_pct": 2.0
+   },
+   "move_pct": 1.3,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 53,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1514",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T15:14:00Z",
+   "runner": "Blue Boy Junior",
+   "first": {
+    "mins_to_off": 359,
+    "mid": 6.39
+   },
+   "latest": {
+    "mins_to_off": 14,
+    "mid": 6.3,
+    "spread_pct": 3.2
+   },
+   "move_pct": -1.5,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 47,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1547",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T15:47:00Z",
+   "runner": "Lillie Margot",
+   "first": {
+    "mins_to_off": 347,
+    "mid": 3.87
+   },
+   "latest": {
+    "mins_to_off": 2,
+    "mid": 3.85,
+    "spread_pct": 2.6
+   },
+   "move_pct": -0.6,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 47,
    "notable": false
   },
   {
@@ -4899,106 +6131,40 @@
    "notable": false
   },
   {
-   "slug": "wetherby-1552",
-   "venue": "Wetherby",
-   "off_utc": "2026-10-14T15:52:00Z",
-   "runner": "Got Grey",
+   "slug": "ffos-las-1613",
+   "venue": "Ffos Las",
+   "off_utc": "2026-10-14T16:13:00Z",
+   "runner": "Gingerbred",
    "first": {
-    "mins_to_off": 352,
-    "mid": 19.55
+    "mins_to_off": 358,
+    "mid": 2.03
    },
    "latest": {
-    "mins_to_off": 247,
-    "mid": 19.96,
-    "spread_pct": 10.0
-   },
-   "move_pct": 2.1,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 47,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1600",
-   "venue": "Kempton",
-   "off_utc": "2026-10-14T16:00:00Z",
-   "runner": "Arctic Tsar",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 3.87
-   },
-   "latest": {
-    "mins_to_off": 255,
-    "mid": 3.95,
-    "spread_pct": 2.5
-   },
-   "move_pct": 2.0,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 53,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1600",
-   "venue": "Kempton",
-   "off_utc": "2026-10-14T16:00:00Z",
-   "runner": "Rupert The Brave",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 6.29
-   },
-   "latest": {
-    "mins_to_off": 255,
-    "mid": 6.19,
-    "spread_pct": 6.5
-   },
-   "move_pct": -1.5,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 47,
-   "notable": false
-  },
-  {
-   "slug": "nottingham-1622",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T16:22:00Z",
-   "runner": "Legendsoftheland",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 4.95
-   },
-   "latest": {
-    "mins_to_off": 277,
-    "mid": 5.05,
+    "mins_to_off": 28,
+    "mid": 2.04,
     "spread_pct": 2.0
    },
-   "move_pct": 2.0,
+   "move_pct": 0.5,
    "band": [
-    3,
-    5
+    1.5,
+    3
    ],
    "percentile": 53,
    "notable": false
   },
   {
-   "slug": "kempton-1700",
+   "slug": "kempton-1800",
    "venue": "Kempton",
-   "off_utc": "2026-10-14T17:00:00Z",
-   "runner": "Kitaro Kich",
+   "off_utc": "2026-10-14T18:00:00Z",
+   "runner": "Rage Of Thunder",
    "first": {
     "mins_to_off": 360,
-    "mid": 7.6
+    "mid": 6.99
    },
    "latest": {
-    "mins_to_off": 315,
-    "mid": 7.49,
-    "spread_pct": 8.0
+    "mins_to_off": 135,
+    "mid": 6.9,
+    "spread_pct": 2.9
    },
    "move_pct": -1.4,
    "band": [
@@ -5009,25 +6175,25 @@
    "notable": false
   },
   {
-   "slug": "kempton-1700",
+   "slug": "kempton-1900",
    "venue": "Kempton",
-   "off_utc": "2026-10-14T17:00:00Z",
-   "runner": "Mertoun",
+   "off_utc": "2026-10-14T19:00:00Z",
+   "runner": "Tryfan",
    "first": {
     "mins_to_off": 360,
-    "mid": 3.07
+    "mid": 9.05
    },
    "latest": {
-    "mins_to_off": 315,
-    "mid": 3.07,
-    "spread_pct": 4.9
+    "mins_to_off": 195,
+    "mid": 9.39,
+    "spread_pct": 4.2
    },
-   "move_pct": 0.0,
+   "move_pct": 3.8,
    "band": [
-    3,
-    5
+    8,
+    13
    ],
-   "percentile": 47,
+   "percentile": 53,
    "notable": false
   },
   {
@@ -5053,18 +6219,18 @@
    "notable": false
   },
   {
-   "slug": "nottingham-1329",
+   "slug": "nottingham-1514",
    "venue": "Nottingham",
-   "off_utc": "2026-10-14T13:29:00Z",
-   "runner": "Fulcrum",
+   "off_utc": "2026-10-14T15:14:00Z",
+   "runner": "Anton Mauve",
    "first": {
-    "mins_to_off": 329,
-    "mid": 5.29
+    "mins_to_off": 359,
+    "mid": 5.69
    },
    "latest": {
-    "mins_to_off": 104,
-    "mid": 5.35,
-    "spread_pct": 5.6
+    "mins_to_off": 14,
+    "mid": 5.75,
+    "spread_pct": 1.7
    },
    "move_pct": 1.0,
    "band": [
@@ -5075,108 +6241,20 @@
    "notable": false
   },
   {
-   "slug": "ffos-las-1355",
-   "venue": "Ffos Las",
-   "off_utc": "2026-10-14T13:55:00Z",
-   "runner": "Lord Accord",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 15.56
-   },
-   "latest": {
-    "mins_to_off": 130,
-    "mid": 16.45,
-    "spread_pct": 12.2
-   },
-   "move_pct": 5.7,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 52,
-   "notable": false
-  },
-  {
-   "slug": "wetherby-1410",
-   "venue": "Wetherby",
-   "off_utc": "2026-10-14T14:10:00Z",
-   "runner": "In The Air",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 3.97
-   },
-   "latest": {
-    "mins_to_off": 145,
-    "mid": 4.02,
-    "spread_pct": 3.7
-   },
-   "move_pct": 1.3,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 52,
-   "notable": false
-  },
-  {
    "slug": "nottingham-1514",
    "venue": "Nottingham",
    "off_utc": "2026-10-14T15:14:00Z",
-   "runner": "Anton Mauve",
+   "runner": "Lieutenant Kije",
    "first": {
     "mins_to_off": 359,
-    "mid": 5.69
+    "mid": 21.6
    },
    "latest": {
-    "mins_to_off": 209,
-    "mid": 5.65,
-    "spread_pct": 5.3
+    "mins_to_off": 14,
+    "mid": 22.47,
+    "spread_pct": 4.5
    },
-   "move_pct": -0.8,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 48,
-   "notable": false
-  },
-  {
-   "slug": "nottingham-1547",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T15:47:00Z",
-   "runner": "Far Far Out",
-   "first": {
-    "mins_to_off": 332,
-    "mid": 71.94
-   },
-   "latest": {
-    "mins_to_off": 242,
-    "mid": 70.42,
-    "spread_pct": 146.5
-   },
-   "move_pct": -2.1,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 52,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1600",
-   "venue": "Kempton",
-   "off_utc": "2026-10-14T16:00:00Z",
-   "runner": "My A'ali Baba",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 32.89
-   },
-   "latest": {
-    "mins_to_off": 255,
-    "mid": 34.31,
-    "spread_pct": 29.1
-   },
-   "move_pct": 4.3,
+   "move_pct": 4.0,
    "band": [
     20,
     35
@@ -5185,40 +6263,18 @@
    "notable": false
   },
   {
-   "slug": "ffos-las-1613",
-   "venue": "Ffos Las",
-   "off_utc": "2026-10-14T16:13:00Z",
-   "runner": "Gingerbred",
+   "slug": "wetherby-1552",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-14T15:52:00Z",
+   "runner": "Fine Point",
    "first": {
-    "mins_to_off": 358,
-    "mid": 2.03
+    "mins_to_off": 352,
+    "mid": 5.05
    },
    "latest": {
-    "mins_to_off": 268,
-    "mid": 2.02,
-    "spread_pct": 3.5
-   },
-   "move_pct": -0.3,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 52,
-   "notable": false
-  },
-  {
-   "slug": "ffos-las-1613",
-   "venue": "Ffos Las",
-   "off_utc": "2026-10-14T16:13:00Z",
-   "runner": "Yes Day",
-   "first": {
-    "mins_to_off": 358,
-    "mid": 6.14
-   },
-   "latest": {
-    "mins_to_off": 268,
-    "mid": 6.09,
-    "spread_pct": 9.9
+    "mins_to_off": 7,
+    "mid": 5.0,
+    "spread_pct": 4.0
    },
    "move_pct": -0.9,
    "band": [
@@ -5229,64 +6285,86 @@
    "notable": false
   },
   {
-   "slug": "nottingham-1622",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T16:22:00Z",
-   "runner": "Jenny Jerome",
+   "slug": "kempton-1700",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T17:00:00Z",
+   "runner": "Kitaro Kich",
    "first": {
-    "mins_to_off": 352,
-    "mid": 9.92
+    "mins_to_off": 360,
+    "mid": 7.6
    },
    "latest": {
-    "mins_to_off": 277,
-    "mid": 10.25,
-    "spread_pct": 13.7
+    "mins_to_off": 75,
+    "mid": 7.67,
+    "spread_pct": 13.0
    },
-   "move_pct": 3.3,
+   "move_pct": 0.9,
    "band": [
-    8,
-    13
+    5,
+    8
    ],
    "percentile": 52,
    "notable": false
   },
   {
-   "slug": "punchestown-1640",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T16:40:00Z",
-   "runner": "Veales Cross",
+   "slug": "kempton-1900",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T19:00:00Z",
+   "runner": "Londoner",
    "first": {
-    "mins_to_off": 355,
-    "mid": 38.17
+    "mins_to_off": 360,
+    "mid": 5.3
    },
    "latest": {
-    "mins_to_off": 295,
-    "mid": 35.91,
-    "spread_pct": 61.2
+    "mins_to_off": 195,
+    "mid": 5.35,
+    "spread_pct": 5.6
    },
-   "move_pct": -5.9,
+   "move_pct": 0.9,
    "band": [
-    35,
-    100
+    5,
+    8
+   ],
+   "percentile": 52,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1900",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T19:00:00Z",
+   "runner": "War Hawk",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 8.38
+   },
+   "latest": {
+    "mins_to_off": 195,
+    "mid": 8.47,
+    "spread_pct": 11.8
+   },
+   "move_pct": 1.1,
+   "band": [
+    8,
+    13
    ],
    "percentile": 48,
    "notable": false
   },
   {
-   "slug": "kempton-1700",
+   "slug": "kempton-1930",
    "venue": "Kempton",
-   "off_utc": "2026-10-14T17:00:00Z",
-   "runner": "Double Time",
+   "off_utc": "2026-10-14T19:30:00Z",
+   "runner": "Maywedance",
    "first": {
     "mins_to_off": 360,
-    "mid": 66.67
+    "mid": 42.83
    },
    "latest": {
-    "mins_to_off": 315,
-    "mid": 65.15,
-    "spread_pct": 38.5
+    "mins_to_off": 225,
+    "mid": 41.67,
+    "spread_pct": 19.3
    },
-   "move_pct": -2.3,
+   "move_pct": -2.7,
    "band": [
     35,
     100
@@ -5295,64 +6373,64 @@
    "notable": false
   },
   {
-   "slug": "nottingham-1254",
+   "slug": "kempton-1930",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T19:30:00Z",
+   "runner": "Royale Goodnight",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 5.99
+   },
+   "latest": {
+    "mins_to_off": 225,
+    "mid": 6.05,
+    "spread_pct": 5.0
+   },
+   "move_pct": 0.9,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 52,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1439",
    "venue": "Nottingham",
-   "off_utc": "2026-10-14T12:54:00Z",
-   "runner": "Journalism",
+   "off_utc": "2026-10-14T14:39:00Z",
+   "runner": "Green Falcon",
    "first": {
-    "mins_to_off": 294,
-    "mid": 40.49
+    "mins_to_off": 354,
+    "mid": 4.2
    },
    "latest": {
-    "mins_to_off": 69,
-    "mid": 38.39,
-    "spread_pct": 26.2
+    "mins_to_off": 9,
+    "mid": 4.25,
+    "spread_pct": 2.3
    },
-   "move_pct": -5.2,
+   "move_pct": 1.2,
    "band": [
-    35,
-    100
+    3,
+    5
    ],
-   "percentile": 49,
+   "percentile": 51,
    "notable": false
   },
   {
-   "slug": "punchestown-1420",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T14:20:00Z",
-   "runner": "Elusive Ogie",
+   "slug": "wetherby-1445",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-14T14:45:00Z",
+   "runner": "Parisencore",
    "first": {
-    "mins_to_off": 350,
-    "mid": 8.73
+    "mins_to_off": 360,
+    "mid": 6.29
    },
    "latest": {
-    "mins_to_off": 155,
-    "mid": 8.89,
-    "spread_pct": 6.8
+    "mins_to_off": 0,
+    "mid": 6.3,
+    "spread_pct": 3.2
    },
-   "move_pct": 1.9,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 49,
-   "notable": false
-  },
-  {
-   "slug": "punchestown-1420",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T14:20:00Z",
-   "runner": "Wonderful Everyday",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 5.08
-   },
-   "latest": {
-    "mins_to_off": 155,
-    "mid": 5.1,
-    "spread_pct": 3.9
-   },
-   "move_pct": 0.3,
+   "move_pct": 0.2,
    "band": [
     5,
     8
@@ -5361,47 +6439,69 @@
    "notable": false
   },
   {
-   "slug": "ffos-las-1538",
-   "venue": "Ffos Las",
-   "off_utc": "2026-10-14T15:38:00Z",
-   "runner": "Riskintheground",
+   "slug": "punchestown-1530",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T15:30:00Z",
+   "runner": "Smallcraftwarning",
    "first": {
-    "mins_to_off": 353,
-    "mid": 25.25
+    "mins_to_off": 360,
+    "mid": 68.73
    },
    "latest": {
-    "mins_to_off": 233,
-    "mid": 26.77,
-    "spread_pct": 33.8
+    "mins_to_off": 0,
+    "mid": 66.67,
+    "spread_pct": 23.0
    },
-   "move_pct": 6.0,
+   "move_pct": -3.0,
    "band": [
-    20,
-    35
+    35,
+    100
    ],
-   "percentile": 49,
+   "percentile": 51,
    "notable": false
   },
   {
    "slug": "kempton-1600",
    "venue": "Kempton",
    "off_utc": "2026-10-14T16:00:00Z",
-   "runner": "Lady Caroline Lamb",
+   "runner": "Arctic Tsar",
    "first": {
     "mins_to_off": 360,
-    "mid": 14.43
+    "mid": 3.87
    },
    "latest": {
-    "mins_to_off": 255,
-    "mid": 14.94,
-    "spread_pct": 13.4
+    "mins_to_off": 15,
+    "mid": 3.9,
+    "spread_pct": 2.5
    },
-   "move_pct": 3.5,
+   "move_pct": 0.7,
    "band": [
-    13,
-    20
+    3,
+    5
    ],
    "percentile": 49,
+   "notable": false
+  },
+  {
+   "slug": "nottingham-1622",
+   "venue": "Nottingham",
+   "off_utc": "2026-10-14T16:22:00Z",
+   "runner": "Rambuso Creek",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 4.54
+   },
+   "latest": {
+    "mins_to_off": 37,
+    "mid": 4.6,
+    "spread_pct": 4.3
+   },
+   "move_pct": 1.2,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 51,
    "notable": false
   },
   {
@@ -5414,168 +6514,168 @@
     "mid": 14.48
    },
    "latest": {
-    "mins_to_off": 285,
-    "mid": 14.94,
-    "spread_pct": 13.4
-   },
-   "move_pct": 3.1,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 49,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1700",
-   "venue": "Kempton",
-   "off_utc": "2026-10-14T17:00:00Z",
-   "runner": "Dumuji",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 9.39
-   },
-   "latest": {
-    "mins_to_off": 315,
-    "mid": 9.49,
-    "spread_pct": 6.4
-   },
-   "move_pct": 1.1,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 49,
-   "notable": false
-  },
-  {
-   "slug": "ffos-las-1245",
-   "venue": "Ffos Las",
-   "off_utc": "2026-10-14T12:45:00Z",
-   "runner": "Izzy's Grey",
-   "first": {
-    "mins_to_off": 285,
-    "mid": 14.55
-   },
-   "latest": {
-    "mins_to_off": 60,
-    "mid": 15.15,
-    "spread_pct": 16.5
-   },
-   "move_pct": 4.2,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 50,
-   "notable": false
-  },
-  {
-   "slug": "punchestown-1310",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T13:10:00Z",
-   "runner": "Two Grand Sweeney",
-   "first": {
-    "mins_to_off": 145,
-    "mid": 29.46
-   },
-   "latest": {
-    "mins_to_off": 85,
-    "mid": 31.3,
-    "spread_pct": 16.1
-   },
-   "move_pct": 6.3,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 50,
-   "notable": false
-  },
-  {
-   "slug": "punchestown-1420",
-   "venue": "Punchestown",
-   "off_utc": "2026-10-14T14:20:00Z",
-   "runner": "Rockymountainbleu",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 14.85
-   },
-   "latest": {
-    "mins_to_off": 155,
-    "mid": 15.43,
-    "spread_pct": 13.0
-   },
-   "move_pct": 3.9,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 50,
-   "notable": false
-  },
-  {
-   "slug": "nottingham-1439",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T14:39:00Z",
-   "runner": "Trojan Sun",
-   "first": {
-    "mins_to_off": 354,
-    "mid": 11.7
-   },
-   "latest": {
-    "mins_to_off": 174,
-    "mid": 11.98,
-    "spread_pct": 8.4
-   },
-   "move_pct": 2.3,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 50,
-   "notable": false
-  },
-  {
-   "slug": "ffos-las-1505",
-   "venue": "Ffos Las",
-   "off_utc": "2026-10-14T15:05:00Z",
-   "runner": "Scarface",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 14.64
-   },
-   "latest": {
-    "mins_to_off": 200,
+    "mins_to_off": 45,
     "mid": 15.21,
     "spread_pct": 9.9
    },
-   "move_pct": 3.9,
+   "move_pct": 5.0,
    "band": [
     13,
     20
    ],
-   "percentile": 50,
+   "percentile": 51,
    "notable": false
   },
   {
-   "slug": "nottingham-1514",
-   "venue": "Nottingham",
-   "off_utc": "2026-10-14T15:14:00Z",
-   "runner": "Ubetterseethis",
+   "slug": "punchestown-1640",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T16:40:00Z",
+   "runner": "Soleil D'aure",
    "first": {
-    "mins_to_off": 359,
-    "mid": 32.26
+    "mins_to_off": 355,
+    "mid": 13.22
    },
    "latest": {
-    "mins_to_off": 239,
-    "mid": 34.31,
-    "spread_pct": 29.1
+    "mins_to_off": 55,
+    "mid": 13.71,
+    "spread_pct": 10.9
    },
-   "move_pct": 6.3,
+   "move_pct": 3.7,
    "band": [
-    20,
-    35
+    13,
+    20
+   ],
+   "percentile": 49,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1730",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T17:30:00Z",
+   "runner": "Hidden Beyond",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 8.89
+   },
+   "latest": {
+    "mins_to_off": 105,
+    "mid": 9.0,
+    "spread_pct": 4.4
+   },
+   "move_pct": 1.2,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 49,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1730",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T17:30:00Z",
+   "runner": "Reveillez",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 88.5
+   },
+   "latest": {
+    "mins_to_off": 105,
+    "mid": 84.03,
+    "spread_pct": 23.9
+   },
+   "move_pct": -5.0,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 49,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1830",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T18:30:00Z",
+   "runner": "Art Lover",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 12.2
+   },
+   "latest": {
+    "mins_to_off": 165,
+    "mid": 12.41,
+    "spread_pct": 16.1
+   },
+   "move_pct": 1.7,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 49,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1930",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T19:30:00Z",
+   "runner": "Tenison",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 7.1
+   },
+   "latest": {
+    "mins_to_off": 225,
+    "mid": 7.1,
+    "spread_pct": 2.8
+   },
+   "move_pct": 0.0,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 49,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1930",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T19:30:00Z",
+   "runner": "Thunder Goddess",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 7.1
+   },
+   "latest": {
+    "mins_to_off": 225,
+    "mid": 7.1,
+    "spread_pct": 2.8
+   },
+   "move_pct": 0.0,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 49,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1520",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-14T15:20:00Z",
+   "runner": "Magic Gloves",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 9.92
+   },
+   "latest": {
+    "mins_to_off": 50,
+    "mid": 10.14,
+    "spread_pct": 6.9
+   },
+   "move_pct": 2.2,
+   "band": [
+    8,
+    13
    ],
    "percentile": 50,
    "notable": false
@@ -5595,6 +6695,50 @@
     "spread_pct": 49.8
    },
    "move_pct": -3.4,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 50,
+   "notable": false
+  },
+  {
+   "slug": "punchestown-1640",
+   "venue": "Punchestown",
+   "off_utc": "2026-10-14T16:40:00Z",
+   "runner": "Hutton Star",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 13.13
+   },
+   "latest": {
+    "mins_to_off": 55,
+    "mid": 13.71,
+    "spread_pct": 10.9
+   },
+   "move_pct": 4.4,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 50,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1900",
+   "venue": "Kempton",
+   "off_utc": "2026-10-14T19:00:00Z",
+   "runner": "Marhaba The Champ",
+   "first": {
+    "mins_to_off": 255,
+    "mid": 96.15
+   },
+   "latest": {
+    "mins_to_off": 195,
+    "mid": 92.59,
+    "spread_pct": 48.9
+   },
+   "move_pct": -3.7,
    "band": [
     35,
     100
