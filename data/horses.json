@@ -1,6 +1,6 @@
 {
  "schema": "horses_v5",
- "generated_at": "2026-10-16T16:00:37Z",
+ "generated_at": "2026-10-16T21:30:25Z",
  "source": "Historical race results",
  "note": "Every figure is computed using only races run STRICTLY BEFORE the race it describes — the `as_of` date on each horse. Groups with fewer than two runs are omitted rather than shown as a rate, because a 100% strike rate over one run is noise wearing the clothes of a finding. Our archive runs to 2026-10-15: a horse that ran after that date has those runs missing here, so read `career` as what we hold, not as a complete record.",
  "history_depth": {
@@ -19,7 +19,7 @@
   "still_missing": 1197,
   "note": "Sire totals count the progeny we hold. Breeding is complete for races up to 2026-07-22. After that date our live source carries it for about half of runners; we recover most of the rest from the same horse's other races, but not all. Recent races are therefore under-counted in sire totals."
  },
- "collected_through": "2026-10-16T15:00:02Z",
+ "collected_through": "2026-10-16T19:00:03Z",
  "distance_bands": [
   {
    "key": "sprint",
@@ -23045,12 +23045,12 @@
     }
    ],
    "jockey": {
-    "name": "Kevin Stott",
-    "runs": 3312,
-    "wins": 476,
-    "places": 1398,
-    "win_pct": 14.4,
-    "place_pct": 42.2
+    "name": "Oliver Stammers",
+    "runs": 1331,
+    "wins": 140,
+    "places": 435,
+    "win_pct": 10.5,
+    "place_pct": 32.7
    },
    "trainer": {
     "name": "Grant Tuer",
@@ -23076,6 +23076,23 @@
     "win_pct": 12.5,
     "place_pct": 29.6
    },
+   "jockey_trainer": {
+    "jockey": "Oliver Stammers",
+    "trainer": "Grant Tuer",
+    "runs": 554,
+    "wins": 65,
+    "places": 188,
+    "win_pct": 11.7,
+    "place_pct": 33.9
+   },
+   "jockey_here": {
+    "name": "Oliver Stammers",
+    "runs": 18,
+    "wins": 2,
+    "places": 3,
+    "win_pct": 11.1,
+    "place_pct": 16.7
+   },
    "trainer_here": {
     "name": "Grant Tuer",
     "runs": 51,
@@ -23085,22 +23102,22 @@
     "place_pct": 25.5
    },
    "jockey_at_course": {
-    "name": "Kevin Stott",
+    "name": "Oliver Stammers",
     "key": "Redcar",
-    "runs": 119,
-    "wins": 16,
-    "places": 51,
-    "win_pct": 13.4,
-    "place_pct": 42.9
+    "runs": 47,
+    "wins": 4,
+    "places": 12,
+    "win_pct": 8.5,
+    "place_pct": 25.5
    },
    "jockey_at_distance": {
-    "name": "Kevin Stott",
+    "name": "Oliver Stammers",
     "key": "sprint",
-    "runs": 1415,
-    "wins": 203,
-    "places": 607,
-    "win_pct": 14.3,
-    "place_pct": 42.9
+    "runs": 458,
+    "wins": 52,
+    "places": 142,
+    "win_pct": 11.4,
+    "place_pct": 31.0
    },
    "trainer_at_course": {
     "name": "Grant Tuer",
@@ -23154,7 +23171,7 @@
     "off_utc": "2026-10-16T16:12:00+01:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "non_runner"
+    "runner_status": "runner"
    },
    "as_of": "2026-10-16",
    "status": "has_history",
@@ -27218,12 +27235,12 @@
     }
    ],
    "jockey": {
-    "name": "Myla Coppins(5)",
-    "runs": 140,
-    "wins": 24,
-    "places": 53,
-    "win_pct": 17.1,
-    "place_pct": 37.9
+    "name": "Jack Doughty",
+    "runs": 1254,
+    "wins": 140,
+    "places": 438,
+    "win_pct": 11.2,
+    "place_pct": 34.9
    },
    "trainer": {
     "name": "Tony Carroll",
@@ -27250,21 +27267,21 @@
     "place_pct": 33.9
    },
    "jockey_trainer": {
-    "jockey": "Myla Coppins(5)",
+    "jockey": "Jack Doughty",
     "trainer": "Tony Carroll",
-    "runs": 129,
-    "wins": 24,
-    "places": 53,
-    "win_pct": 18.6,
-    "place_pct": 41.1
+    "runs": 652,
+    "wins": 79,
+    "places": 251,
+    "win_pct": 12.1,
+    "place_pct": 38.5
    },
    "jockey_here": {
-    "name": "Myla Coppins(5)",
-    "runs": 5,
-    "wins": 1,
-    "places": 4,
-    "win_pct": 20.0,
-    "place_pct": 80.0
+    "name": "Jack Doughty",
+    "runs": 11,
+    "wins": 2,
+    "places": 7,
+    "win_pct": 18.2,
+    "place_pct": 63.6
    },
    "trainer_here": {
     "name": "Tony Carroll",
@@ -27274,14 +27291,23 @@
     "win_pct": 14.7,
     "place_pct": 52.9
    },
+   "jockey_at_course": {
+    "name": "Jack Doughty",
+    "key": "Haydock",
+    "runs": 32,
+    "wins": 9,
+    "places": 15,
+    "win_pct": 28.1,
+    "place_pct": 46.9
+   },
    "jockey_at_distance": {
-    "name": "Myla Coppins(5)",
+    "name": "Jack Doughty",
     "key": "sprint",
-    "runs": 48,
-    "wins": 7,
-    "places": 19,
-    "win_pct": 14.6,
-    "place_pct": 39.6
+    "runs": 470,
+    "wins": 67,
+    "places": 178,
+    "win_pct": 14.3,
+    "place_pct": 37.9
    },
    "trainer_at_course": {
     "name": "Tony Carroll",
@@ -38263,12 +38289,12 @@
     }
    ],
    "jockey": {
-    "name": "Hector Crouch",
-    "runs": 3357,
-    "wins": 537,
-    "places": 1347,
-    "win_pct": 16.0,
-    "place_pct": 40.1
+    "name": "Luke Morris",
+    "runs": 6944,
+    "wins": 689,
+    "places": 2295,
+    "win_pct": 9.9,
+    "place_pct": 33.1
    },
    "trainer": {
     "name": "Heather Main",
@@ -38294,6 +38320,15 @@
     "win_pct": 9.8,
     "place_pct": 32.0
    },
+   "jockey_trainer": {
+    "jockey": "Luke Morris",
+    "trainer": "Heather Main",
+    "runs": 24,
+    "wins": 2,
+    "places": 7,
+    "win_pct": 8.3,
+    "place_pct": 29.2
+   },
    "trainer_here": {
     "name": "Heather Main",
     "runs": 10,
@@ -38303,22 +38338,22 @@
     "place_pct": 40.0
    },
    "jockey_at_course": {
-    "name": "Hector Crouch",
+    "name": "Luke Morris",
     "key": "Haydock",
-    "runs": 152,
-    "wins": 27,
-    "places": 63,
-    "win_pct": 17.8,
-    "place_pct": 41.4
+    "runs": 84,
+    "wins": 7,
+    "places": 21,
+    "win_pct": 8.3,
+    "place_pct": 25.0
    },
    "jockey_at_distance": {
-    "name": "Hector Crouch",
+    "name": "Luke Morris",
     "key": "sprint",
-    "runs": 969,
-    "wins": 157,
-    "places": 384,
-    "win_pct": 16.2,
-    "place_pct": 39.6
+    "runs": 2177,
+    "wins": 197,
+    "places": 665,
+    "win_pct": 9.0,
+    "place_pct": 30.5
    },
    "trainer_at_course": {
     "name": "Heather Main",
@@ -39396,12 +39431,12 @@
     }
    ],
    "jockey": {
-    "name": "Joe Leavy",
-    "runs": 1471,
-    "wins": 160,
-    "places": 508,
-    "win_pct": 10.9,
-    "place_pct": 34.5
+    "name": "Jack Mitchell",
+    "runs": 4013,
+    "wins": 613,
+    "places": 1725,
+    "win_pct": 15.3,
+    "place_pct": 43.0
    },
    "trainer": {
     "name": "Kevin & Lauren Frost",
@@ -39427,6 +39462,23 @@
     "win_pct": 13.2,
     "place_pct": 36.5
    },
+   "jockey_trainer": {
+    "jockey": "Jack Mitchell",
+    "trainer": "Kevin & Lauren Frost",
+    "runs": 16,
+    "wins": 5,
+    "places": 8,
+    "win_pct": 31.2,
+    "place_pct": 50.0
+   },
+   "jockey_here": {
+    "name": "Jack Mitchell",
+    "runs": 4,
+    "wins": 2,
+    "places": 2,
+    "win_pct": 50.0,
+    "place_pct": 50.0
+   },
    "trainer_here": {
     "name": "Kevin & Lauren Frost",
     "runs": 3,
@@ -39436,22 +39488,22 @@
     "place_pct": 0.0
    },
    "jockey_at_course": {
-    "name": "Joe Leavy",
+    "name": "Jack Mitchell",
     "key": "Haydock",
-    "runs": 32,
-    "wins": 2,
-    "places": 14,
-    "win_pct": 6.2,
-    "place_pct": 43.8
+    "runs": 71,
+    "wins": 12,
+    "places": 27,
+    "win_pct": 16.9,
+    "place_pct": 38.0
    },
    "jockey_at_distance": {
-    "name": "Joe Leavy",
+    "name": "Jack Mitchell",
     "key": "sprint",
-    "runs": 511,
-    "wins": 56,
-    "places": 183,
-    "win_pct": 11.0,
-    "place_pct": 35.8
+    "runs": 1139,
+    "wins": 179,
+    "places": 491,
+    "win_pct": 15.7,
+    "place_pct": 43.1
    },
    "trainer_at_distance": {
     "name": "Kevin & Lauren Frost",
@@ -39602,12 +39654,12 @@
     }
    ],
    "jockey": {
-    "name": "Oliver Stammers",
-    "runs": 1331,
-    "wins": 140,
-    "places": 435,
-    "win_pct": 10.5,
-    "place_pct": 32.7
+    "name": "Lewis Edmunds",
+    "runs": 3144,
+    "wins": 324,
+    "places": 973,
+    "win_pct": 10.3,
+    "place_pct": 30.9
    },
    "trainer": {
     "name": "Jessica Macey",
@@ -39634,21 +39686,21 @@
     "place_pct": 29.7
    },
    "jockey_trainer": {
-    "jockey": "Oliver Stammers",
+    "jockey": "Lewis Edmunds",
     "trainer": "Jessica Macey",
-    "runs": 65,
-    "wins": 5,
-    "places": 21,
-    "win_pct": 7.7,
-    "place_pct": 32.3
+    "runs": 392,
+    "wins": 33,
+    "places": 114,
+    "win_pct": 8.4,
+    "place_pct": 29.1
    },
    "jockey_here": {
-    "name": "Oliver Stammers",
-    "runs": 2,
-    "wins": 0,
-    "places": 1,
-    "win_pct": 0.0,
-    "place_pct": 50.0
+    "name": "Lewis Edmunds",
+    "runs": 18,
+    "wins": 5,
+    "places": 7,
+    "win_pct": 27.8,
+    "place_pct": 38.9
    },
    "trainer_here": {
     "name": "Jessica Macey",
@@ -39659,22 +39711,22 @@
     "place_pct": 36.4
    },
    "jockey_at_course": {
-    "name": "Oliver Stammers",
+    "name": "Lewis Edmunds",
     "key": "Haydock",
-    "runs": 25,
-    "wins": 3,
-    "places": 7,
-    "win_pct": 12.0,
-    "place_pct": 28.0
+    "runs": 55,
+    "wins": 7,
+    "places": 15,
+    "win_pct": 12.7,
+    "place_pct": 27.3
    },
    "jockey_at_distance": {
-    "name": "Oliver Stammers",
+    "name": "Lewis Edmunds",
     "key": "sprint",
-    "runs": 458,
-    "wins": 52,
-    "places": 142,
-    "win_pct": 11.4,
-    "place_pct": 31.0
+    "runs": 1274,
+    "wins": 139,
+    "places": 393,
+    "win_pct": 10.9,
+    "place_pct": 30.8
    },
    "trainer_at_course": {
     "name": "Jessica Macey",
