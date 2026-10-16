@@ -1,6 +1,6 @@
 {
  "schema": "horses_v5",
- "generated_at": "2026-10-16T12:00:37Z",
+ "generated_at": "2026-10-16T16:00:37Z",
  "source": "Historical race results",
  "note": "Every figure is computed using only races run STRICTLY BEFORE the race it describes — the `as_of` date on each horse. Groups with fewer than two runs are omitted rather than shown as a rate, because a 100% strike rate over one run is noise wearing the clothes of a finding. Our archive runs to 2026-10-15: a horse that ran after that date has those runs missing here, so read `career` as what we hold, not as a complete record.",
  "history_depth": {
@@ -19,7 +19,7 @@
   "still_missing": 1197,
   "note": "Sire totals count the progeny we hold. Breeding is complete for races up to 2026-07-22. After that date our live source carries it for about half of runners; we recover most of the rest from the same horse's other races, but not all. Recent races are therefore under-counted in sire totals."
  },
- "collected_through": "2026-10-16T11:00:03Z",
+ "collected_through": "2026-10-16T15:00:02Z",
  "distance_bands": [
   {
    "key": "sprint",
@@ -9397,7 +9397,7 @@
     "off_utc": "2026-10-16T14:37:00+01:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-16",
    "status": "has_history",
@@ -9531,7 +9531,7 @@
     "off_utc": "2026-10-16T14:37:00+01:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-16",
    "status": "has_history",
@@ -12059,12 +12059,12 @@
     }
    ],
    "jockey": {
-    "name": "Cieren Fallon",
-    "runs": 3747,
-    "wins": 529,
-    "places": 1464,
-    "win_pct": 14.1,
-    "place_pct": 39.1
+    "name": "Jason Hart",
+    "runs": 5529,
+    "wins": 695,
+    "places": 2018,
+    "win_pct": 12.6,
+    "place_pct": 36.5
    },
    "trainer": {
     "name": "Stephen Hanlon",
@@ -12091,22 +12091,22 @@
     "place_pct": 32.0
    },
    "jockey_at_course": {
-    "name": "Cieren Fallon",
+    "name": "Jason Hart",
     "key": "Redcar",
-    "runs": 60,
-    "wins": 11,
-    "places": 25,
-    "win_pct": 18.3,
-    "place_pct": 41.7
+    "runs": 269,
+    "wins": 38,
+    "places": 93,
+    "win_pct": 14.1,
+    "place_pct": 34.6
    },
    "jockey_at_distance": {
-    "name": "Cieren Fallon",
+    "name": "Jason Hart",
     "key": "sprint",
-    "runs": 1108,
-    "wins": 140,
-    "places": 395,
-    "win_pct": 12.6,
-    "place_pct": 35.6
+    "runs": 2196,
+    "wins": 280,
+    "places": 798,
+    "win_pct": 12.8,
+    "place_pct": 36.3
    },
    "trainer_at_distance": {
     "name": "Stephen Hanlon",
@@ -16727,12 +16727,12 @@
     }
    ],
    "jockey": {
-    "name": "Alistair Rawlinson",
-    "runs": 1870,
-    "wins": 175,
-    "places": 552,
-    "win_pct": 9.4,
-    "place_pct": 29.5
+    "name": "Lewis Edmunds",
+    "runs": 3144,
+    "wins": 324,
+    "places": 973,
+    "win_pct": 10.3,
+    "place_pct": 30.9
    },
    "trainer": {
     "name": "Simon Whitaker",
@@ -16758,23 +16758,32 @@
     "win_pct": 12.2,
     "place_pct": 36.9
    },
-   "jockey_at_course": {
-    "name": "Alistair Rawlinson",
-    "key": "Redcar",
-    "runs": 42,
+   "jockey_trainer": {
+    "jockey": "Lewis Edmunds",
+    "trainer": "Simon Whitaker",
+    "runs": 43,
     "wins": 5,
-    "places": 10,
-    "win_pct": 11.9,
-    "place_pct": 23.8
+    "places": 15,
+    "win_pct": 11.6,
+    "place_pct": 34.9
+   },
+   "jockey_at_course": {
+    "name": "Lewis Edmunds",
+    "key": "Redcar",
+    "runs": 62,
+    "wins": 1,
+    "places": 18,
+    "win_pct": 1.6,
+    "place_pct": 29.0
    },
    "jockey_at_distance": {
-    "name": "Alistair Rawlinson",
+    "name": "Lewis Edmunds",
     "key": "sprint",
-    "runs": 738,
-    "wins": 83,
-    "places": 240,
-    "win_pct": 11.2,
-    "place_pct": 32.5
+    "runs": 1274,
+    "wins": 139,
+    "places": 393,
+    "win_pct": 10.9,
+    "place_pct": 30.8
    },
    "trainer_at_course": {
     "name": "Simon Whitaker",
@@ -23145,7 +23154,7 @@
     "off_utc": "2026-10-16T16:12:00+01:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-16",
    "status": "has_history",
@@ -32775,7 +32784,7 @@
     "off_utc": "2026-10-16T16:48:00+01:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-16",
    "status": "has_history",
@@ -65562,12 +65571,12 @@
     }
    ],
    "jockey": {
-    "name": "Lexie Clarkson(7)",
-    "runs": 26,
-    "wins": 1,
-    "places": 4,
-    "win_pct": 3.8,
-    "place_pct": 15.4
+    "name": "Andrew Mullen",
+    "runs": 3433,
+    "wins": 280,
+    "places": 946,
+    "win_pct": 8.2,
+    "place_pct": 27.6
    },
    "trainer": {
     "name": "Lucinda Russell & Michael Scudamore",
@@ -65593,23 +65602,6 @@
     "win_pct": 7.4,
     "place_pct": 27.7
    },
-   "jockey_trainer": {
-    "jockey": "Lexie Clarkson(7)",
-    "trainer": "Lucinda Russell & Michael Scudamore",
-    "runs": 17,
-    "wins": 1,
-    "places": 2,
-    "win_pct": 5.9,
-    "place_pct": 11.8
-   },
-   "jockey_here": {
-    "name": "Lexie Clarkson(7)",
-    "runs": 5,
-    "wins": 0,
-    "places": 0,
-    "win_pct": 0.0,
-    "place_pct": 0.0
-   },
    "trainer_here": {
     "name": "Lucinda Russell & Michael Scudamore",
     "runs": 5,
@@ -65618,14 +65610,23 @@
     "win_pct": 0.0,
     "place_pct": 0.0
    },
+   "jockey_at_course": {
+    "name": "Andrew Mullen",
+    "key": "Newcastle (AW)",
+    "runs": 739,
+    "wins": 55,
+    "places": 192,
+    "win_pct": 7.4,
+    "place_pct": 26.0
+   },
    "jockey_at_distance": {
-    "name": "Lexie Clarkson(7)",
+    "name": "Andrew Mullen",
     "key": "mile",
-    "runs": 12,
-    "wins": 0,
-    "places": 1,
-    "win_pct": 0.0,
-    "place_pct": 8.3
+    "runs": 1302,
+    "wins": 111,
+    "places": 345,
+    "win_pct": 8.5,
+    "place_pct": 26.5
    },
    "trainer_at_course": {
     "name": "Lucinda Russell & Michael Scudamore",
@@ -70325,7 +70326,7 @@
     "off_utc": "2026-10-16T20:15:00+01:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-16",
    "status": "has_history",
