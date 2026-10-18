@@ -1,6 +1,6 @@
 {
  "schema": "movers_v1",
- "generated_at": "2026-10-18T16:00:01Z",
+ "generated_at": "2026-10-18T21:30:01Z",
  "source": "Smarkets public order book",
  "note": "'percentile' is where this move sits among all moves we have measured for runners opening at a similar price. The median move is near zero in every band; what changes with price is the spread of outcomes.",
  "baseline": {
@@ -78,7 +78,7 @@
    }
   ]
  },
- "collected_through": "2026-10-18T15:45:01Z",
+ "collected_through": "2026-10-18T21:30:01Z",
  "runners": [
   {
    "slug": "limerick-1330",
@@ -235,6 +235,28 @@
    "notable": true
   },
   {
+   "slug": "limerick-1600",
+   "venue": "Limerick",
+   "off_utc": "2026-10-18T16:00:00Z",
+   "runner": "Amen Kate",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 6.57
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 12.71,
+    "spread_pct": 11.7
+   },
+   "move_pct": 93.3,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 99,
+   "notable": true
+  },
+  {
    "slug": "limerick-1330",
    "venue": "Limerick",
    "off_utc": "2026-10-18T13:30:00Z",
@@ -301,6 +323,28 @@
    "notable": true
   },
   {
+   "slug": "limerick-1600",
+   "venue": "Limerick",
+   "off_utc": "2026-10-18T16:00:00Z",
+   "runner": "Echoing Silence",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 2.23
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 1.55,
+    "spread_pct": 1.3
+   },
+   "move_pct": -30.5,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 2,
+   "notable": true
+  },
+  {
    "slug": "leopardstown-1342",
    "venue": "Leopardstown",
    "off_utc": "2026-10-18T13:42:00Z",
@@ -315,6 +359,28 @@
     "spread_pct": 2.5
    },
    "move_pct": 50.2,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 97,
+   "notable": true
+  },
+  {
+   "slug": "limerick-1600",
+   "venue": "Limerick",
+   "off_utc": "2026-10-18T16:00:00Z",
+   "runner": "Future Prospect",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 2.77
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 4.1,
+    "spread_pct": 4.9
+   },
+   "move_pct": 48.0,
    "band": [
     1.5,
     3
@@ -494,50 +560,6 @@
    "band": [
     35,
     100
-   ],
-   "percentile": 94,
-   "notable": false
-  },
-  {
-   "slug": "limerick-1600",
-   "venue": "Limerick",
-   "off_utc": "2026-10-18T16:00:00Z",
-   "runner": "Echoing Silence",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 2.23
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 1.74,
-    "spread_pct": 1.7
-   },
-   "move_pct": -21.7,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 6,
-   "notable": false
-  },
-  {
-   "slug": "limerick-1600",
-   "venue": "Limerick",
-   "off_utc": "2026-10-18T16:00:00Z",
-   "runner": "Future Prospect",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 2.77
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 3.75,
-    "spread_pct": 2.7
-   },
-   "move_pct": 35.4,
-   "band": [
-    1.5,
-    3
    ],
    "percentile": 94,
    "notable": false
@@ -807,6 +829,28 @@
    "notable": false
   },
   {
+   "slug": "leopardstown-1612",
+   "venue": "Leopardstown",
+   "off_utc": "2026-10-18T16:12:00Z",
+   "runner": "Bella Colombia",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 28.05
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 48.9,
+    "spread_pct": 22.3
+   },
+   "move_pct": 74.3,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 90,
+   "notable": false
+  },
+  {
    "slug": "limerick-1300",
    "venue": "Limerick",
    "off_utc": "2026-10-18T13:00:00Z",
@@ -1049,6 +1093,50 @@
    "notable": false
   },
   {
+   "slug": "leopardstown-1612",
+   "venue": "Leopardstown",
+   "off_utc": "2026-10-18T16:12:00Z",
+   "runner": "Faoladh",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 16.99
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 25.41,
+    "spread_pct": 12.0
+   },
+   "move_pct": 49.6,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 87,
+   "notable": false
+  },
+  {
+   "slug": "leopardstown-1612",
+   "venue": "Leopardstown",
+   "off_utc": "2026-10-18T16:12:00Z",
+   "runner": "Zaraahmando",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 7.26
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 5.75,
+    "spread_pct": 1.7
+   },
+   "move_pct": -20.8,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 13,
+   "notable": false
+  },
+  {
    "slug": "limerick-1330",
    "venue": "Limerick",
    "off_utc": "2026-10-18T13:30:00Z",
@@ -1115,28 +1203,6 @@
    "notable": false
   },
   {
-   "slug": "leopardstown-1612",
-   "venue": "Leopardstown",
-   "off_utc": "2026-10-18T16:12:00Z",
-   "runner": "Bella Colombia",
-   "first": {
-    "mins_to_off": 357,
-    "mid": 28.05
-   },
-   "latest": {
-    "mins_to_off": 27,
-    "mid": 44.44,
-    "spread_pct": 22.5
-   },
-   "move_pct": 58.4,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 86,
-   "notable": false
-  },
-  {
    "slug": "leopardstown-1312",
    "venue": "Leopardstown",
    "off_utc": "2026-10-18T13:12:00Z",
@@ -1151,28 +1217,6 @@
     "spread_pct": 5.8
    },
    "move_pct": 25.2,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 85,
-   "notable": false
-  },
-  {
-   "slug": "limerick-1600",
-   "venue": "Limerick",
-   "off_utc": "2026-10-18T16:00:00Z",
-   "runner": "Amen Kate",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 6.57
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 8.29,
-    "spread_pct": 7.2
-   },
-   "move_pct": 26.1,
    "band": [
     5,
     8
@@ -1401,6 +1445,28 @@
    "notable": false
   },
   {
+   "slug": "leopardstown-1612",
+   "venue": "Leopardstown",
+   "off_utc": "2026-10-18T16:12:00Z",
+   "runner": "Bear Right",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 9.97
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 7.99,
+    "spread_pct": 5.0
+   },
+   "move_pct": -19.8,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 18,
+   "notable": false
+  },
+  {
    "slug": "limerick-1430",
    "venue": "Limerick",
    "off_utc": "2026-10-18T14:30:00Z",
@@ -1445,25 +1511,47 @@
    "notable": false
   },
   {
+   "slug": "limerick-1600",
+   "venue": "Limerick",
+   "off_utc": "2026-10-18T16:00:00Z",
+   "runner": "Straight Home",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 20.55
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 30.12,
+    "spread_pct": 23.2
+   },
+   "move_pct": 46.5,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 81,
+   "notable": false
+  },
+  {
    "slug": "leopardstown-1612",
    "venue": "Leopardstown",
    "off_utc": "2026-10-18T16:12:00Z",
-   "runner": "Faoladh",
+   "runner": "Bay Of Dreams",
    "first": {
     "mins_to_off": 357,
-    "mid": 16.99
+    "mid": 23.98
    },
    "latest": {
-    "mins_to_off": 27,
-    "mid": 23.39,
-    "spread_pct": 12.9
+    "mins_to_off": 12,
+    "mid": 18.71,
+    "spread_pct": 8.1
    },
-   "move_pct": 37.7,
+   "move_pct": -22.0,
    "band": [
-    13,
-    20
+    20,
+    35
    ],
-   "percentile": 81,
+   "percentile": 19,
    "notable": false
   },
   {
@@ -1643,28 +1731,6 @@
    "notable": false
   },
   {
-   "slug": "leopardstown-1612",
-   "venue": "Leopardstown",
-   "off_utc": "2026-10-18T16:12:00Z",
-   "runner": "Green Kite",
-   "first": {
-    "mins_to_off": 357,
-    "mid": 13.72
-   },
-   "latest": {
-    "mins_to_off": 27,
-    "mid": 11.2,
-    "spread_pct": 13.4
-   },
-   "move_pct": -18.3,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 21,
-   "notable": false
-  },
-  {
    "slug": "limerick-1400",
    "venue": "Limerick",
    "off_utc": "2026-10-18T14:00:00Z",
@@ -1684,28 +1750,6 @@
     35
    ],
    "percentile": 78,
-   "notable": false
-  },
-  {
-   "slug": "leopardstown-1612",
-   "venue": "Leopardstown",
-   "off_utc": "2026-10-18T16:12:00Z",
-   "runner": "Bear Right",
-   "first": {
-    "mins_to_off": 357,
-    "mid": 9.97
-   },
-   "latest": {
-    "mins_to_off": 27,
-    "mid": 8.39,
-    "spread_pct": 4.8
-   },
-   "move_pct": -15.8,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 22,
    "notable": false
   },
   {
@@ -1772,28 +1816,6 @@
     100
    ],
    "percentile": 77,
-   "notable": false
-  },
-  {
-   "slug": "leopardstown-1612",
-   "venue": "Leopardstown",
-   "off_utc": "2026-10-18T16:12:00Z",
-   "runner": "Bay Of Dreams",
-   "first": {
-    "mins_to_off": 357,
-    "mid": 23.98
-   },
-   "latest": {
-    "mins_to_off": 27,
-    "mid": 19.96,
-    "spread_pct": 10.0
-   },
-   "move_pct": -16.8,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 23,
    "notable": false
   },
   {
@@ -2130,22 +2152,22 @@
    "slug": "leopardstown-1612",
    "venue": "Leopardstown",
    "off_utc": "2026-10-18T16:12:00Z",
-   "runner": "Zaraahmando",
+   "runner": "Tachos",
    "first": {
     "mins_to_off": 357,
-    "mid": 7.26
+    "mid": 16.72
    },
    "latest": {
-    "mins_to_off": 27,
-    "mid": 6.3,
-    "spread_pct": 3.2
+    "mins_to_off": 12,
+    "mid": 21.39,
+    "spread_pct": 14.0
    },
-   "move_pct": -13.3,
+   "move_pct": 27.9,
    "band": [
-    5,
-    8
+    13,
+    20
    ],
-   "percentile": 25,
+   "percentile": 75,
    "notable": false
   },
   {
@@ -2284,22 +2306,22 @@
    "slug": "leopardstown-1612",
    "venue": "Leopardstown",
    "off_utc": "2026-10-18T16:12:00Z",
-   "runner": "Purely",
+   "runner": "Queen Aethelflaed",
    "first": {
     "mins_to_off": 357,
-    "mid": 12.51
+    "mid": 20.88
    },
    "latest": {
-    "mins_to_off": 27,
-    "mid": 14.98,
-    "spread_pct": 6.7
+    "mins_to_off": 12,
+    "mid": 18.23,
+    "spread_pct": 8.2
    },
-   "move_pct": 19.8,
+   "move_pct": -12.7,
    "band": [
-    8,
-    13
+    20,
+    35
    ],
-   "percentile": 73,
+   "percentile": 27,
    "notable": false
   },
   {
@@ -2809,28 +2831,6 @@
    "notable": false
   },
   {
-   "slug": "leopardstown-1612",
-   "venue": "Leopardstown",
-   "off_utc": "2026-10-18T16:12:00Z",
-   "runner": "Greek Flower",
-   "first": {
-    "mins_to_off": 357,
-    "mid": 11.18
-   },
-   "latest": {
-    "mins_to_off": 27,
-    "mid": 10.25,
-    "spread_pct": 4.9
-   },
-   "move_pct": -8.4,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 33,
-   "notable": false
-  },
-  {
    "slug": "leopardstown-1342",
    "venue": "Leopardstown",
    "off_utc": "2026-10-18T13:42:00Z",
@@ -3026,28 +3026,6 @@
     5
    ],
    "percentile": 35,
-   "notable": false
-  },
-  {
-   "slug": "limerick-1600",
-   "venue": "Limerick",
-   "off_utc": "2026-10-18T16:00:00Z",
-   "runner": "Straight Home",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 20.55
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 24.84,
-    "spread_pct": 16.3
-   },
-   "move_pct": 20.9,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 65,
    "notable": false
   },
   {
@@ -3271,6 +3249,28 @@
    "notable": false
   },
   {
+   "slug": "leopardstown-1612",
+   "venue": "Leopardstown",
+   "off_utc": "2026-10-18T16:12:00Z",
+   "runner": "Green Kite",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 13.72
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 12.98,
+    "spread_pct": 7.7
+   },
+   "move_pct": -5.4,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 37,
+   "notable": false
+  },
+  {
    "slug": "sedgefield-1420",
    "venue": "Sedgefield",
    "off_utc": "2026-10-18T14:20:00Z",
@@ -3398,28 +3398,6 @@
    "band": [
     13,
     20
-   ],
-   "percentile": 39,
-   "notable": false
-  },
-  {
-   "slug": "leopardstown-1612",
-   "venue": "Leopardstown",
-   "off_utc": "2026-10-18T16:12:00Z",
-   "runner": "Altimara",
-   "first": {
-    "mins_to_off": 357,
-    "mid": 9.34
-   },
-   "latest": {
-    "mins_to_off": 27,
-    "mid": 8.89,
-    "spread_pct": 6.8
-   },
-   "move_pct": -4.8,
-   "band": [
-    8,
-    13
    ],
    "percentile": 39,
    "notable": false
@@ -3667,6 +3645,50 @@
    "notable": false
   },
   {
+   "slug": "leopardstown-1612",
+   "venue": "Leopardstown",
+   "off_utc": "2026-10-18T16:12:00Z",
+   "runner": "Greek Flower",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 11.18
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 10.75,
+    "spread_pct": 4.6
+   },
+   "move_pct": -3.9,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 41,
+   "notable": false
+  },
+  {
+   "slug": "leopardstown-1612",
+   "venue": "Leopardstown",
+   "off_utc": "2026-10-18T16:12:00Z",
+   "runner": "Purely",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 12.51
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 13.49,
+    "spread_pct": 7.4
+   },
+   "move_pct": 7.8,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 59,
+   "notable": false
+  },
+  {
    "slug": "sedgefield-1320",
    "venue": "Sedgefield",
    "off_utc": "2026-10-18T13:20:00Z",
@@ -3730,28 +3752,6 @@
     13
    ],
    "percentile": 42,
-   "notable": false
-  },
-  {
-   "slug": "leopardstown-1612",
-   "venue": "Leopardstown",
-   "off_utc": "2026-10-18T16:12:00Z",
-   "runner": "Tachos",
-   "first": {
-    "mins_to_off": 357,
-    "mid": 16.72
-   },
-   "latest": {
-    "mins_to_off": 27,
-    "mid": 18.45,
-    "spread_pct": 10.7
-   },
-   "move_pct": 10.3,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 58,
    "notable": false
   },
   {
@@ -3887,6 +3887,28 @@
    "notable": false
   },
   {
+   "slug": "leopardstown-1612",
+   "venue": "Leopardstown",
+   "off_utc": "2026-10-18T16:12:00Z",
+   "runner": "Altimara",
+   "first": {
+    "mins_to_off": 357,
+    "mid": 9.34
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 9.2,
+    "spread_pct": 4.3
+   },
+   "move_pct": -1.5,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 44,
+   "notable": false
+  },
+  {
    "slug": "leopardstown-1412",
    "venue": "Leopardstown",
    "off_utc": "2026-10-18T14:12:00Z",
@@ -4000,22 +4022,22 @@
    "slug": "leopardstown-1612",
    "venue": "Leopardstown",
    "off_utc": "2026-10-18T16:12:00Z",
-   "runner": "Queen Aethelflaed",
+   "runner": "Bundle Of Interest",
    "first": {
     "mins_to_off": 357,
-    "mid": 20.88
+    "mid": 13.84
    },
    "latest": {
-    "mins_to_off": 27,
-    "mid": 21.39,
-    "spread_pct": 14.0
+    "mins_to_off": 12,
+    "mid": 14.98,
+    "spread_pct": 6.7
    },
-   "move_pct": 2.5,
+   "move_pct": 8.2,
    "band": [
-    20,
-    35
+    13,
+    20
    ],
-   "percentile": 45,
+   "percentile": 55,
    "notable": false
   },
   {
@@ -4028,7 +4050,7 @@
     "mid": 14.04
    },
    "latest": {
-    "mins_to_off": 27,
+    "mins_to_off": 12,
     "mid": 15.21,
     "spread_pct": 9.9
    },
@@ -4168,28 +4190,6 @@
    "band": [
     8,
     13
-   ],
-   "percentile": 46,
-   "notable": false
-  },
-  {
-   "slug": "leopardstown-1612",
-   "venue": "Leopardstown",
-   "off_utc": "2026-10-18T16:12:00Z",
-   "runner": "Bundle Of Interest",
-   "first": {
-    "mins_to_off": 357,
-    "mid": 13.84
-   },
-   "latest": {
-    "mins_to_off": 27,
-    "mid": 13.98,
-    "spread_pct": 7.1
-   },
-   "move_pct": 1.0,
-   "band": [
-    13,
-    20
    ],
    "percentile": 46,
    "notable": false
