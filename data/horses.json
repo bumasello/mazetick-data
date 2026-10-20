@@ -1,6 +1,6 @@
 {
  "schema": "horses_v5",
- "generated_at": "2026-10-20T07:00:37Z",
+ "generated_at": "2026-10-20T12:00:38Z",
  "source": "Historical race results",
  "note": "Every figure is computed using only races run STRICTLY BEFORE the race it describes — the `as_of` date on each horse. Groups with fewer than two runs are omitted rather than shown as a rate, because a 100% strike rate over one run is noise wearing the clothes of a finding. Our archive runs to 2026-10-19: a horse that ran after that date has those runs missing here, so read `career` as what we hold, not as a complete record.",
  "history_depth": {
@@ -19,7 +19,7 @@
   "still_missing": 1115,
   "note": "Sire totals count the progeny we hold. Breeding is complete for races up to 2026-07-22. After that date our live source carries it for about half of runners; we recover most of the rest from the same horse's other races, but not all. Recent races are therefore under-counted in sire totals."
  },
- "collected_through": "2026-10-20T06:00:02Z",
+ "collected_through": "2026-10-20T11:00:01Z",
  "distance_bands": [
   {
    "key": "sprint",
@@ -17598,12 +17598,12 @@
     }
    ],
    "jockey": {
-    "name": "Liam Wright(3)",
-    "runs": 562,
-    "wins": 57,
-    "places": 165,
-    "win_pct": 10.1,
-    "place_pct": 29.4
+    "name": "Olivia Haines(7)",
+    "runs": 108,
+    "wins": 16,
+    "places": 33,
+    "win_pct": 14.8,
+    "place_pct": 30.6
    },
    "trainer": {
     "name": "Matt Crawley",
@@ -17629,14 +17629,6 @@
     "win_pct": 9.7,
     "place_pct": 32.6
    },
-   "jockey_here": {
-    "name": "Liam Wright(3)",
-    "runs": 9,
-    "wins": 1,
-    "places": 7,
-    "win_pct": 11.1,
-    "place_pct": 77.8
-   },
    "trainer_here": {
     "name": "Matt Crawley",
     "runs": 6,
@@ -17645,23 +17637,14 @@
     "win_pct": 0.0,
     "place_pct": 50.0
    },
-   "jockey_at_course": {
-    "name": "Liam Wright(3)",
-    "key": "Yarmouth",
-    "runs": 39,
-    "wins": 2,
-    "places": 11,
-    "win_pct": 5.1,
-    "place_pct": 28.2
-   },
    "jockey_at_distance": {
-    "name": "Liam Wright(3)",
+    "name": "Olivia Haines(7)",
     "key": "middle",
-    "runs": 107,
-    "wins": 18,
-    "places": 37,
-    "win_pct": 16.8,
-    "place_pct": 34.6
+    "runs": 17,
+    "wins": 3,
+    "places": 5,
+    "win_pct": 17.6,
+    "place_pct": 29.4
    },
    "trainer_at_course": {
     "name": "Matt Crawley",
@@ -19785,7 +19768,7 @@
     "off_utc": "2026-10-20T15:35:00+01:00",
     "going": "soft",
     "distance": "middle",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-20",
    "status": "has_history",
@@ -20367,7 +20350,7 @@
     "off_utc": "2026-10-20T15:35:00+01:00",
     "going": "soft",
     "distance": "middle",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-20",
    "status": "has_history",
@@ -27532,7 +27515,7 @@
     "off_utc": "2026-10-20T16:10:00+01:00",
     "going": "soft",
     "distance": "middle",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-20",
    "status": "has_history",
@@ -27664,7 +27647,7 @@
     "off_utc": "2026-10-20T16:10:00+01:00",
     "going": "soft",
     "distance": "middle",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-20",
    "status": "has_history",
@@ -27797,7 +27780,7 @@
     "off_utc": "2026-10-20T16:10:00+01:00",
     "going": "soft",
     "distance": "middle",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-20",
    "status": "has_history",
@@ -30435,7 +30418,7 @@
     "off_utc": "2026-10-20T16:38:00+01:00",
     "going": "soft",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-20",
    "status": "has_history",
@@ -34511,7 +34494,7 @@
     "off_utc": "2026-10-20T16:45:00+01:00",
     "going": "soft",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-20",
    "status": "has_history",
@@ -48036,7 +48019,7 @@
     "off_utc": "2026-10-20T19:00:00+01:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-20",
    "status": "has_history",
@@ -54086,7 +54069,7 @@
     "off_utc": "2026-10-20T20:00:00+01:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-20",
    "status": "has_history",
@@ -56360,7 +56343,7 @@
     "off_utc": "2026-10-20T20:30:00+01:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-20",
    "status": "has_history",
