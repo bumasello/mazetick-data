@@ -1,6 +1,6 @@
 {
  "schema": "horses_v5",
- "generated_at": "2026-10-22T07:00:38Z",
+ "generated_at": "2026-10-22T12:00:39Z",
  "source": "Historical race results",
  "note": "Every figure is computed using only races run STRICTLY BEFORE the race it describes — the `as_of` date on each horse. Groups with fewer than two runs are omitted rather than shown as a rate, because a 100% strike rate over one run is noise wearing the clothes of a finding. Our archive runs to 2026-10-21: a horse that ran after that date has those runs missing here, so read `career` as what we hold, not as a complete record.",
  "history_depth": {
@@ -19,7 +19,7 @@
   "still_missing": 1089,
   "note": "Sire totals count the progeny we hold. Breeding is complete for races up to 2026-07-22. After that date our live source carries it for about half of runners; we recover most of the rest from the same horse's other races, but not all. Recent races are therefore under-counted in sire totals."
  },
- "collected_through": "2026-10-22T06:00:02Z",
+ "collected_through": "2026-10-22T11:00:02Z",
  "distance_bands": [
   {
    "key": "sprint",
@@ -1263,7 +1263,7 @@
     "off_utc": "2026-10-22T13:10:00+01:00",
     "going": "soft",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-22",
    "status": "debut",
@@ -1854,7 +1854,7 @@
     "off_utc": "2026-10-22T13:10:00+01:00",
     "going": "soft",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-22",
    "status": "has_history",
@@ -2159,7 +2159,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T13:17:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -2294,7 +2294,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T13:17:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -2437,7 +2437,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T13:17:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -2545,7 +2545,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T13:17:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -2688,7 +2688,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T13:17:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -2797,7 +2797,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T13:17:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -2905,7 +2905,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T13:17:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -2997,7 +2997,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T13:17:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -3090,7 +3090,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T13:17:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -3234,7 +3234,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T13:17:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -3342,7 +3342,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T13:17:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -3450,7 +3450,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T13:17:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -3658,7 +3658,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T13:17:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -5209,7 +5209,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T13:35:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -5359,9 +5359,9 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T13:35:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-22",
    "status": "no_record",
@@ -5451,7 +5451,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T13:35:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -5532,7 +5532,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T13:35:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -5667,7 +5667,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T13:35:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -5811,7 +5811,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T13:35:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -5918,9 +5918,9 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T13:35:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-22",
    "status": "has_history",
@@ -6025,7 +6025,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T13:35:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -6142,7 +6142,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T13:35:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -6309,7 +6309,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T13:35:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -6451,7 +6451,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T13:35:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -6576,7 +6576,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T13:35:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -6676,7 +6676,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T13:35:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -6809,7 +6809,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T13:35:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -7948,9 +7948,9 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T13:52:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-22",
    "status": "has_history",
@@ -8106,7 +8106,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T13:52:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -8223,7 +8223,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T13:52:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -8390,7 +8390,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T13:52:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -8573,7 +8573,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T13:52:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -8707,7 +8707,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T13:52:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -8874,7 +8874,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T13:52:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -9080,7 +9080,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T13:52:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -10372,7 +10372,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T14:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -10579,7 +10579,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T14:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -10808,7 +10808,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T14:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -10957,7 +10957,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T14:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -11065,7 +11065,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T14:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -11207,7 +11207,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T14:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -11356,7 +11356,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T14:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -11515,7 +11515,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T14:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -11657,7 +11657,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T14:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -11840,7 +11840,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T14:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -12071,7 +12071,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T14:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -12212,7 +12212,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T14:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -12361,7 +12361,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T14:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -12534,7 +12534,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T14:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -12699,7 +12699,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T14:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -12849,7 +12849,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T14:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -13041,9 +13041,9 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T14:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-22",
    "status": "has_history",
@@ -13254,9 +13254,9 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T14:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-22",
    "status": "has_history",
@@ -13387,9 +13387,9 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T14:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-22",
    "status": "has_history",
@@ -13849,7 +13849,7 @@
     "off_utc": "2026-10-22T14:20:00+01:00",
     "going": "soft",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-22",
    "status": "has_history",
@@ -14057,7 +14057,7 @@
     "off_utc": "2026-10-22T14:20:00+01:00",
     "going": "soft",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-22",
    "status": "has_history",
@@ -14717,7 +14717,7 @@
     "off_utc": "2026-10-22T14:20:00+01:00",
     "going": "soft",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-22",
    "status": "has_history",
@@ -16620,7 +16620,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T14:27:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -16844,7 +16844,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T14:27:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -17044,7 +17044,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T14:27:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -17236,7 +17236,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T14:27:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -17460,7 +17460,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T14:27:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -18881,7 +18881,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T14:46:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -19023,7 +19023,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T14:46:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -19172,7 +19172,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T14:46:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -19332,7 +19332,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T14:46:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -19447,7 +19447,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T14:46:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -19572,7 +19572,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T14:46:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -19653,7 +19653,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T14:46:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -19812,7 +19812,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T14:46:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -19971,7 +19971,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T14:46:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -20139,7 +20139,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T14:46:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -20281,7 +20281,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T14:46:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -20449,7 +20449,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T14:46:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -20600,7 +20600,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T14:46:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -21812,7 +21812,7 @@
     "off_utc": "2026-10-22T14:55:00+01:00",
     "going": "soft",
     "distance": "middle",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-22",
    "status": "has_history",
@@ -23147,7 +23147,7 @@
     "off_utc": "2026-10-22T14:55:00+01:00",
     "going": "soft",
     "distance": "middle",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-22",
    "status": "has_history",
@@ -23329,7 +23329,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T15:02:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -23428,7 +23428,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T15:02:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -23644,7 +23644,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T15:02:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -23770,7 +23770,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T15:02:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -23929,7 +23929,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T15:02:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -24134,7 +24134,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T15:02:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -24269,7 +24269,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T15:02:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -24452,7 +24452,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T15:02:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -24636,7 +24636,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T15:02:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -24868,7 +24868,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T15:02:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -25076,7 +25076,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T15:02:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -25332,7 +25332,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T15:02:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -25508,7 +25508,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T15:02:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -26342,7 +26342,7 @@
     "off_utc": "2026-10-22T15:11:00+01:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-22",
    "status": "no_record",
@@ -26439,7 +26439,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T15:21:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -26615,7 +26615,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T15:21:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -26791,7 +26791,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T15:21:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -26959,7 +26959,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T15:21:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -27125,7 +27125,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T15:21:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -27267,7 +27267,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T15:21:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -27410,7 +27410,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T15:21:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -27577,7 +27577,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T15:21:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -27751,7 +27751,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T15:21:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -27927,7 +27927,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T15:21:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -28078,7 +28078,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T15:21:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -28310,7 +28310,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T15:21:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -28502,7 +28502,7 @@
    "race": {
     "venue": "Clonmel",
     "off_utc": "2026-10-22T15:21:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -28663,7 +28663,7 @@
     "off_utc": "2026-10-22T15:30:00+01:00",
     "going": "soft",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-22",
    "status": "has_history",
@@ -29410,7 +29410,7 @@
     "off_utc": "2026-10-22T15:30:00+01:00",
     "going": "soft",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-22",
    "status": "has_history",
@@ -29586,7 +29586,7 @@
     "off_utc": "2026-10-22T15:30:00+01:00",
     "going": "soft",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-22",
    "status": "has_history",
@@ -31403,7 +31403,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T15:37:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -31603,7 +31603,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T15:37:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -31851,7 +31851,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T15:37:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -32003,7 +32003,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T15:37:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -32211,7 +32211,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T15:37:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -32427,7 +32427,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T15:37:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -32619,7 +32619,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T15:37:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -32794,7 +32794,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T15:37:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -33002,7 +33002,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T15:37:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -33162,7 +33162,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T15:37:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -33314,7 +33314,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T15:37:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -33482,7 +33482,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T15:37:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -33674,7 +33674,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T15:37:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -35718,7 +35718,7 @@
     "off_utc": "2026-10-22T15:56:00+01:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-22",
    "status": "has_history",
@@ -36625,7 +36625,7 @@
     "off_utc": "2026-10-22T16:05:00+01:00",
     "going": "soft",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-22",
    "status": "has_history",
@@ -36849,7 +36849,7 @@
     "off_utc": "2026-10-22T16:05:00+01:00",
     "going": "soft",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-22",
    "status": "has_history",
@@ -38920,7 +38920,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T16:12:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -39096,7 +39096,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T16:12:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -39279,7 +39279,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T16:12:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -39439,7 +39439,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T16:12:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -39663,7 +39663,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T16:12:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -39830,7 +39830,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T16:12:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -39877,7 +39877,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T16:12:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -40036,7 +40036,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T16:12:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -42853,7 +42853,7 @@
     "off_utc": "2026-10-22T16:26:00+01:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-22",
    "status": "has_history",
@@ -47114,7 +47114,7 @@
     "off_utc": "2026-10-22T16:40:00+01:00",
     "going": "soft",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-22",
    "status": "has_history",
@@ -47498,7 +47498,7 @@
     "off_utc": "2026-10-22T16:40:00+01:00",
     "going": "soft",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-22",
    "status": "has_history",
@@ -48265,7 +48265,7 @@
     "off_utc": "2026-10-22T16:40:00+01:00",
     "going": "soft",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-22",
    "status": "has_history",
@@ -48469,7 +48469,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T16:45:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -48677,7 +48677,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T16:45:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -48869,7 +48869,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T16:45:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -49189,7 +49189,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T16:45:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -55409,7 +55409,7 @@
     "off_utc": "2026-10-22T17:05:00+01:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-22",
    "status": "has_history",
@@ -55581,7 +55581,7 @@
     "off_utc": "2026-10-22T17:05:00+01:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-22",
    "status": "has_history",
@@ -55705,7 +55705,7 @@
     "off_utc": "2026-10-22T17:05:00+01:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-22",
    "status": "has_history",
@@ -57944,7 +57944,7 @@
     "off_utc": "2026-10-22T17:15:00+01:00",
     "going": "soft",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-22",
    "status": "has_history",
@@ -58416,7 +58416,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T17:20:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -58524,7 +58524,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T17:20:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -58633,7 +58633,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T17:20:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -58741,7 +58741,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T17:20:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -58840,7 +58840,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T17:20:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -58948,9 +58948,9 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-10-22T17:20:00+01:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-22",
    "status": "has_history",
@@ -64418,7 +64418,7 @@
     "off_utc": "2026-10-22T18:30:00+01:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-22",
    "status": "has_history",
@@ -67861,7 +67861,7 @@
     "off_utc": "2026-10-22T20:00:00+01:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-22",
    "status": "has_history",
