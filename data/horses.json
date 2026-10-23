@@ -1,6 +1,6 @@
 {
  "schema": "horses_v5",
- "generated_at": "2026-10-23T07:00:38Z",
+ "generated_at": "2026-10-23T12:00:39Z",
  "source": "Historical race results",
  "note": "Every figure is computed using only races run STRICTLY BEFORE the race it describes — the `as_of` date on each horse. Groups with fewer than two runs are omitted rather than shown as a rate, because a 100% strike rate over one run is noise wearing the clothes of a finding. Our archive runs to 2026-10-22: a horse that ran after that date has those runs missing here, so read `career` as what we hold, not as a complete record.",
  "history_depth": {
@@ -19,7 +19,7 @@
   "still_missing": 1075,
   "note": "Sire totals count the progeny we hold. Breeding is complete for races up to 2026-07-22. After that date our live source carries it for about half of runners; we recover most of the rest from the same horse's other races, but not all. Recent races are therefore under-counted in sire totals."
  },
- "collected_through": "2026-10-23T06:00:02Z",
+ "collected_through": "2026-10-23T11:00:03Z",
  "distance_bands": [
   {
    "key": "sprint",
@@ -903,7 +903,7 @@
     "off_utc": "2026-10-23T12:50:00+01:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-23",
    "status": "has_history",
@@ -1868,7 +1868,7 @@
     "off_utc": "2026-10-23T12:50:00+01:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-23",
    "status": "has_history",
@@ -2202,7 +2202,7 @@
     "off_utc": "2026-10-23T12:50:00+01:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "reserve"
+    "runner_status": "runner"
    },
    "as_of": "2026-10-23",
    "status": "has_history",
@@ -2216,6 +2216,14 @@
    "by_going": [],
    "by_course": [],
    "by_distance": [],
+   "jockey": {
+    "name": "Conor Clarke(7)",
+    "runs": 177,
+    "wins": 10,
+    "places": 38,
+    "win_pct": 5.6,
+    "place_pct": 21.5
+   },
    "trainer": {
     "name": "P J Rothwell",
     "runs": 2867,
@@ -2239,6 +2247,24 @@
     "places": 113,
     "win_pct": 8.1,
     "place_pct": 26.1
+   },
+   "jockey_trainer": {
+    "jockey": "Conor Clarke(7)",
+    "trainer": "P J Rothwell",
+    "runs": 13,
+    "wins": 1,
+    "places": 4,
+    "win_pct": 7.7,
+    "place_pct": 30.8
+   },
+   "jockey_at_distance": {
+    "name": "Conor Clarke(7)",
+    "key": "staying",
+    "runs": 161,
+    "wins": 7,
+    "places": 34,
+    "win_pct": 4.3,
+    "place_pct": 21.1
    },
    "trainer_at_course": {
     "name": "P J Rothwell",
@@ -2292,7 +2318,7 @@
     "off_utc": "2026-10-23T12:50:00+01:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-23",
    "status": "has_history",
@@ -2408,7 +2434,7 @@
     "off_utc": "2026-10-23T12:50:00+01:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-23",
    "status": "debut",
@@ -2479,7 +2505,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T13:15:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -2620,7 +2646,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T13:15:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -2796,7 +2822,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T13:15:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -2956,7 +2982,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T13:15:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -3139,7 +3165,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T13:15:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -3291,7 +3317,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T13:15:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -3475,9 +3501,9 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T13:15:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-23",
    "status": "has_history",
@@ -3643,7 +3669,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T13:15:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -3792,7 +3818,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T13:15:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -3950,7 +3976,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T13:15:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -4108,9 +4134,9 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T13:15:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-23",
    "status": "has_history",
@@ -4259,7 +4285,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T13:15:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -4451,7 +4477,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T13:15:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -8887,7 +8913,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T13:50:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -9062,7 +9088,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T13:50:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -9246,7 +9272,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T13:50:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -9413,7 +9439,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T13:50:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -9596,7 +9622,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T13:50:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -11907,7 +11933,7 @@
     "off_utc": "2026-10-23T14:00:00+01:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-23",
    "status": "has_history",
@@ -17460,7 +17486,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T14:25:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -17585,7 +17611,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T14:25:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -17816,7 +17842,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T14:25:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -17957,7 +17983,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T14:25:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -18116,7 +18142,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T14:25:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -18250,7 +18276,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T14:25:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -18417,7 +18443,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T14:25:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -18560,7 +18586,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T14:25:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -18701,7 +18727,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T14:25:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -18900,7 +18926,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T14:25:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -19043,7 +19069,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T14:25:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -19192,7 +19218,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T14:25:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -19391,7 +19417,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T14:25:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -22797,7 +22823,7 @@
     "off_utc": "2026-10-23T14:45:00+01:00",
     "going": "soft",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-23",
    "status": "has_history",
@@ -25056,7 +25082,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T15:00:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -25206,7 +25232,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T15:00:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -25357,7 +25383,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T15:00:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -25533,7 +25559,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T15:00:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -25683,7 +25709,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T15:00:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -25808,7 +25834,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T15:00:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -26008,7 +26034,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T15:00:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -26160,7 +26186,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T15:00:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -26310,7 +26336,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T15:00:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -26445,7 +26471,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T15:00:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -26606,7 +26632,7 @@
     "off_utc": "2026-10-23T15:10:00+01:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-23",
    "status": "has_history",
@@ -27151,7 +27177,7 @@
     "off_utc": "2026-10-23T15:10:00+01:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-23",
    "status": "has_history",
@@ -27482,7 +27508,7 @@
     "off_utc": "2026-10-23T15:10:00+01:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-23",
    "status": "has_history",
@@ -30459,7 +30485,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T15:35:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -30667,7 +30693,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T15:35:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -30883,7 +30909,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T15:35:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -31099,7 +31125,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T15:35:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -31248,7 +31274,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T15:35:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -31416,7 +31442,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T15:35:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -31584,9 +31610,9 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T15:35:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-23",
    "status": "has_history",
@@ -31776,7 +31802,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T15:35:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -32000,7 +32026,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T15:35:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -33343,7 +33369,7 @@
     "off_utc": "2026-10-23T15:45:00+01:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-23",
    "status": "has_history",
@@ -34723,7 +34749,7 @@
     "off_utc": "2026-10-23T15:45:00+01:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-23",
    "status": "has_history",
@@ -34904,7 +34930,7 @@
     "off_utc": "2026-10-23T15:45:00+01:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-23",
    "status": "has_history",
@@ -38044,7 +38070,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T16:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -38220,7 +38246,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T16:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -38347,7 +38373,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T16:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -38523,7 +38549,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T16:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -38649,7 +38675,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T16:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -38791,7 +38817,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T16:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -38959,7 +38985,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T16:10:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -39120,7 +39146,7 @@
     "off_utc": "2026-10-23T16:20:00+01:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-23",
    "status": "has_history",
@@ -39580,7 +39606,7 @@
     "off_utc": "2026-10-23T16:20:00+01:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-23",
    "status": "has_history",
@@ -40164,7 +40190,7 @@
     "off_utc": "2026-10-23T16:20:00+01:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-23",
    "status": "has_history",
@@ -43064,7 +43090,7 @@
     "off_utc": "2026-10-23T16:30:00+01:00",
     "going": "soft",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-23",
    "status": "has_history",
@@ -46676,7 +46702,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T16:45:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -46891,7 +46917,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T16:45:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -47090,7 +47116,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T16:45:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -47266,7 +47292,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T16:45:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -47432,7 +47458,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T16:45:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -47646,7 +47672,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T16:45:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -47836,7 +47862,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T16:45:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -47986,7 +48012,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T16:45:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -48112,7 +48138,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T16:45:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -48294,7 +48320,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T16:45:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -48461,7 +48487,7 @@
    "race": {
     "venue": "Cheltenham",
     "off_utc": "2026-10-23T16:45:00+01:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -50278,7 +50304,7 @@
     "off_utc": "2026-10-23T16:55:00+01:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-23",
    "status": "has_history",
@@ -50693,7 +50719,7 @@
     "off_utc": "2026-10-23T16:55:00+01:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-23",
    "status": "has_history",
@@ -53520,7 +53546,7 @@
     "off_utc": "2026-10-23T17:05:00+01:00",
     "going": "soft",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-23",
    "status": "has_history",
@@ -55654,7 +55680,7 @@
     "off_utc": "2026-10-23T17:15:00+01:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-23",
    "status": "has_history",
@@ -56769,7 +56795,7 @@
     "off_utc": "2026-10-23T17:15:00+01:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-23",
    "status": "has_history",
@@ -60868,7 +60894,7 @@
     "off_utc": "2026-10-23T17:35:00+01:00",
     "going": "soft",
     "distance": "middle",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-23",
    "status": "has_history",
@@ -63361,7 +63387,7 @@
     "off_utc": "2026-10-23T17:45:00+01:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-23",
    "status": "has_history",
@@ -64523,7 +64549,7 @@
     "off_utc": "2026-10-23T17:45:00+01:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-23",
    "status": "has_history",
@@ -64865,7 +64891,7 @@
     "off_utc": "2026-10-23T17:45:00+01:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "reserve"
+    "runner_status": "runner"
    },
    "as_of": "2026-10-23",
    "status": "has_history",
@@ -64922,6 +64948,14 @@
      "place_pct": 28.6
     }
    ],
+   "jockey": {
+    "name": "Nicola Burns(2)",
+    "runs": 268,
+    "wins": 12,
+    "places": 54,
+    "win_pct": 4.5,
+    "place_pct": 20.1
+   },
    "trainer": {
     "name": "Patrick J McKenna",
     "runs": 349,
@@ -64953,6 +64987,24 @@
     "places": 4,
     "win_pct": 7.1,
     "place_pct": 28.6
+   },
+   "jockey_at_course": {
+    "name": "Nicola Burns(2)",
+    "key": "Dundalk (AW)",
+    "runs": 80,
+    "wins": 7,
+    "places": 28,
+    "win_pct": 8.8,
+    "place_pct": 35.0
+   },
+   "jockey_at_distance": {
+    "name": "Nicola Burns(2)",
+    "key": "mile",
+    "runs": 134,
+    "wins": 5,
+    "places": 22,
+    "win_pct": 3.7,
+    "place_pct": 16.4
    },
    "trainer_at_course": {
     "name": "Patrick J McKenna",
@@ -65006,7 +65058,7 @@
     "off_utc": "2026-10-23T17:45:00+01:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "reserve"
+    "runner_status": "runner"
    },
    "as_of": "2026-10-23",
    "status": "has_history",
@@ -65071,6 +65123,14 @@
      "place_pct": 50.0
     }
    ],
+   "jockey": {
+    "name": "Jack Cleary",
+    "runs": 595,
+    "wins": 26,
+    "places": 106,
+    "win_pct": 4.4,
+    "place_pct": 17.8
+   },
    "trainer": {
     "name": "Ms Claire O'Connell",
     "runs": 257,
@@ -65102,6 +65162,24 @@
     "places": 3,
     "win_pct": 10.0,
     "place_pct": 30.0
+   },
+   "jockey_at_course": {
+    "name": "Jack Cleary",
+    "key": "Dundalk (AW)",
+    "runs": 155,
+    "wins": 8,
+    "places": 25,
+    "win_pct": 5.2,
+    "place_pct": 16.1
+   },
+   "jockey_at_distance": {
+    "name": "Jack Cleary",
+    "key": "mile",
+    "runs": 296,
+    "wins": 16,
+    "places": 54,
+    "win_pct": 5.4,
+    "place_pct": 18.2
    },
    "trainer_at_course": {
     "name": "Ms Claire O'Connell",
@@ -65155,7 +65233,7 @@
     "off_utc": "2026-10-23T17:45:00+01:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-23",
    "status": "has_history",
@@ -69779,7 +69857,7 @@
     "off_utc": "2026-10-23T18:15:00+01:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-23",
    "status": "has_history",
@@ -69928,7 +70006,7 @@
     "off_utc": "2026-10-23T18:15:00+01:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-23",
    "status": "has_history",
@@ -70077,7 +70155,7 @@
     "off_utc": "2026-10-23T18:15:00+01:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-23",
    "status": "has_history",
@@ -71816,7 +71894,7 @@
     "off_utc": "2026-10-23T18:30:00+01:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-23",
    "status": "has_history",
@@ -74258,7 +74336,7 @@
     "off_utc": "2026-10-23T19:00:00+01:00",
     "going": "good",
     "distance": "middle",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-23",
    "status": "has_history",
@@ -82950,7 +83028,7 @@
     "off_utc": "2026-10-23T19:45:00+01:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-23",
    "status": "has_history",
@@ -83032,7 +83110,7 @@
     "off_utc": "2026-10-23T19:45:00+01:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-23",
    "status": "has_history",
@@ -83096,7 +83174,7 @@
     "off_utc": "2026-10-23T19:45:00+01:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-23",
    "status": "has_history",
@@ -87330,7 +87408,7 @@
     "off_utc": "2026-10-23T20:15:00+01:00",
     "going": "good",
     "distance": "middle",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-23",
    "status": "has_history",
@@ -87386,7 +87464,7 @@
     "off_utc": "2026-10-23T20:15:00+01:00",
     "going": "good",
     "distance": "middle",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-23",
    "status": "has_history",
@@ -87510,7 +87588,7 @@
     "off_utc": "2026-10-23T20:15:00+01:00",
     "going": "good",
     "distance": "middle",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-23",
    "status": "has_history",
