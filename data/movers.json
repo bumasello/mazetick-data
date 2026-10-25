@@ -1,6 +1,6 @@
 {
  "schema": "movers_v1",
- "generated_at": "2026-10-25T12:00:01Z",
+ "generated_at": "2026-10-25T16:00:01Z",
  "source": "Smarkets public order book",
  "note": "'percentile' is where this move sits among all moves we have measured for runners opening at a similar price. The median move is near zero in every band; what changes with price is the spread of outcomes.",
  "baseline": {
@@ -78,72 +78,28 @@
    }
   ]
  },
- "collected_through": "2026-10-25T11:45:01Z",
+ "collected_through": "2026-10-25T15:45:01Z",
  "runners": [
   {
-   "slug": "galway-1307",
+   "slug": "galway-1232",
    "venue": "Galway",
-   "off_utc": "2026-10-25T13:07:00Z",
-   "runner": "Crecora Hills",
+   "off_utc": "2026-10-25T12:32:00Z",
+   "runner": "Lengaruka",
    "first": {
-    "mins_to_off": 307,
-    "mid": 5.09
+    "mins_to_off": 272,
+    "mid": 37.11
    },
    "latest": {
-    "mins_to_off": 82,
-    "mid": 9.69,
-    "spread_pct": 6.2
+    "mins_to_off": 17,
+    "mid": 88.89,
+    "spread_pct": 22.5
    },
-   "move_pct": 90.3,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 99,
-   "notable": true
-  },
-  {
-   "slug": "galway-1342",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T13:42:00Z",
-   "runner": "Clonbury Bridge",
-   "first": {
-    "mins_to_off": 342,
-    "mid": 95.24
-   },
-   "latest": {
-    "mins_to_off": 117,
-    "mid": 27.43,
-    "spread_pct": 29.4
-   },
-   "move_pct": -71.2,
+   "move_pct": 139.6,
    "band": [
     35,
     100
    ],
-   "percentile": 1,
-   "notable": true
-  },
-  {
-   "slug": "galway-1342",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T13:42:00Z",
-   "runner": "Dearg Mor",
-   "first": {
-    "mins_to_off": 342,
-    "mid": 6.37
-   },
-   "latest": {
-    "mins_to_off": 117,
-    "mid": 3.62,
-    "spread_pct": 6.9
-   },
-   "move_pct": -43.2,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 1,
+   "percentile": 100,
    "notable": true
   },
   {
@@ -156,170 +112,104 @@
     "mid": 90.91
    },
    "latest": {
-    "mins_to_off": 117,
-    "mid": 28.82,
-    "spread_pct": 31.3
+    "mins_to_off": 12,
+    "mid": 19.96,
+    "spread_pct": 10.0
    },
-   "move_pct": -68.3,
+   "move_pct": -78.0,
    "band": [
     35,
     100
+   ],
+   "percentile": 0,
+   "notable": true
+  },
+  {
+   "slug": "wexford-1400",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T14:00:00Z",
+   "runner": "Noon Blu Dodville",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 4.38
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 2.3,
+    "spread_pct": 3.5
+   },
+   "move_pct": -47.5,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 0,
+   "notable": true
+  },
+  {
+   "slug": "market-rasen-1623",
+   "venue": "Market Rasen",
+   "off_utc": "2026-10-25T16:23:00Z",
+   "runner": "Beau De Maine",
+   "first": {
+    "mins_to_off": 353,
+    "mid": 4.89
+   },
+   "latest": {
+    "mins_to_off": 38,
+    "mid": 2.48,
+    "spread_pct": 1.6
+   },
+   "move_pct": -49.3,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 0,
+   "notable": true
+  },
+  {
+   "slug": "galway-1342",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T13:42:00Z",
+   "runner": "Dearg Mor",
+   "first": {
+    "mins_to_off": 342,
+    "mid": 6.37
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 3.47,
+    "spread_pct": 1.5
+   },
+   "move_pct": -45.5,
+   "band": [
+    5,
+    8
    ],
    "percentile": 1,
    "notable": true
   },
   {
-   "slug": "galway-1232",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T12:32:00Z",
-   "runner": "Lengaruka",
+   "slug": "wexford-1507",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T15:07:00Z",
+   "runner": "Qaasid",
    "first": {
-    "mins_to_off": 272,
-    "mid": 37.11
+    "mins_to_off": 352,
+    "mid": 31.1
    },
    "latest": {
-    "mins_to_off": 47,
-    "mid": 75.47,
-    "spread_pct": 33.3
+    "mins_to_off": 7,
+    "mid": 84.75,
+    "spread_pct": 11.9
    },
-   "move_pct": 103.4,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 98,
-   "notable": true
-  },
-  {
-   "slug": "galway-1342",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T13:42:00Z",
-   "runner": "Springboard",
-   "first": {
-    "mins_to_off": 342,
-    "mid": 7.19
-   },
-   "latest": {
-    "mins_to_off": 117,
-    "mid": 4.7,
-    "spread_pct": 4.3
-   },
-   "move_pct": -34.7,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 3,
-   "notable": true
-  },
-  {
-   "slug": "galway-1450",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T14:50:00Z",
-   "runner": "Just For One",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 20.88
-   },
-   "latest": {
-    "mins_to_off": 185,
-    "mid": 10.7,
-    "spread_pct": 14.0
-   },
-   "move_pct": -48.8,
+   "move_pct": 172.5,
    "band": [
     20,
     35
    ],
-   "percentile": 3,
-   "notable": true
-  },
-  {
-   "slug": "galway-1307",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T13:07:00Z",
-   "runner": "Jupiter Du Gite",
-   "first": {
-    "mins_to_off": 307,
-    "mid": 10.03
-   },
-   "latest": {
-    "mins_to_off": 82,
-    "mid": 6.19,
-    "spread_pct": 6.5
-   },
-   "move_pct": -38.2,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 4,
-   "notable": true
-  },
-  {
-   "slug": "galway-1342",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T13:42:00Z",
-   "runner": "Harty Cup",
-   "first": {
-    "mins_to_off": 342,
-    "mid": 7.03
-   },
-   "latest": {
-    "mins_to_off": 117,
-    "mid": 11.2,
-    "spread_pct": 13.4
-   },
-   "move_pct": 59.3,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 96,
-   "notable": true
-  },
-  {
-   "slug": "galway-1520",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T15:20:00Z",
-   "runner": "Harpy Eagle",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 3.72
-   },
-   "latest": {
-    "mins_to_off": 215,
-    "mid": 2.65,
-    "spread_pct": 3.8
-   },
-   "move_pct": -28.8,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 4,
-   "notable": true
-  },
-  {
-   "slug": "galway-1520",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T15:20:00Z",
-   "runner": "Ole Ole",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 5.68
-   },
-   "latest": {
-    "mins_to_off": 215,
-    "mid": 3.83,
-    "spread_pct": 13.1
-   },
-   "move_pct": -32.5,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 4,
+   "percentile": 99,
    "notable": true
   },
   {
@@ -332,16 +222,566 @@
     "mid": 65.57
    },
    "latest": {
-    "mins_to_off": 82,
-    "mid": 30.12,
-    "spread_pct": 23.2
+    "mins_to_off": 22,
+    "mid": 23.81,
+    "spread_pct": 16.8
    },
-   "move_pct": -54.1,
+   "move_pct": -63.7,
    "band": [
     35,
     100
    ],
+   "percentile": 2,
+   "notable": true
+  },
+  {
+   "slug": "galway-1342",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T13:42:00Z",
+   "runner": "Lanzhou",
+   "first": {
+    "mins_to_off": 342,
+    "mid": 12.63
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 25.41,
+    "spread_pct": 12.0
+   },
+   "move_pct": 101.3,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 98,
+   "notable": true
+  },
+  {
+   "slug": "wexford-1435",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T14:35:00Z",
+   "runner": "Backinbusiness",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 39.14
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 78.74,
+    "spread_pct": 25.6
+   },
+   "move_pct": 101.2,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 98,
+   "notable": true
+  },
+  {
+   "slug": "galway-1520",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T15:20:00Z",
+   "runner": "Brother Walfrid",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 10.02
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 5.45,
+    "spread_pct": 5.5
+   },
+   "move_pct": -45.7,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 2,
+   "notable": true
+  },
+  {
+   "slug": "wexford-1640",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T16:40:00Z",
+   "runner": "Lake Pippaway",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 33.61
+   },
+   "latest": {
+    "mins_to_off": 55,
+    "mid": 84.39,
+    "spread_pct": 65.8
+   },
+   "move_pct": 151.1,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 98,
+   "notable": true
+  },
+  {
+   "slug": "wexford-1250",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T12:50:00Z",
+   "runner": "Kir",
+   "first": {
+    "mins_to_off": 290,
+    "mid": 9.05
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 5.5,
+    "spread_pct": 3.6
+   },
+   "move_pct": -39.3,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 3,
+   "notable": true
+  },
+  {
+   "slug": "market-rasen-1300",
+   "venue": "Market Rasen",
+   "off_utc": "2026-10-25T13:00:00Z",
+   "runner": "Kaldoun Des Rocs",
+   "first": {
+    "mins_to_off": 300,
+    "mid": 5.15
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 8.69,
+    "spread_pct": 6.9
+   },
+   "move_pct": 68.9,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 97,
+   "notable": true
+  },
+  {
+   "slug": "wexford-1400",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T14:00:00Z",
+   "runner": "Bay City Boy",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 16.05
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 33.9,
+    "spread_pct": 11.6
+   },
+   "move_pct": 111.2,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 97,
+   "notable": true
+  },
+  {
+   "slug": "galway-1417",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T14:17:00Z",
+   "runner": "Simply Natural",
+   "first": {
+    "mins_to_off": 347,
+    "mid": 2.94
+   },
+   "latest": {
+    "mins_to_off": 2,
+    "mid": 4.35,
+    "spread_pct": 2.3
+   },
+   "move_pct": 47.8,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 97,
+   "notable": true
+  },
+  {
+   "slug": "galway-1520",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T15:20:00Z",
+   "runner": "Harpy Eagle",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 3.72
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 2.51,
+    "spread_pct": 0.8
+   },
+   "move_pct": -32.5,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 3,
+   "notable": true
+  },
+  {
+   "slug": "galway-1630",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T16:30:00Z",
+   "runner": "Littlebeen",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 16.13
+   },
+   "latest": {
+    "mins_to_off": 45,
+    "mid": 33.61,
+    "spread_pct": 32.8
+   },
+   "move_pct": 108.4,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 97,
+   "notable": true
+  },
+  {
+   "slug": "wexford-1250",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T12:50:00Z",
+   "runner": "Pat's Legacy",
+   "first": {
+    "mins_to_off": 290,
+    "mid": 15.86
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 31.3,
+    "spread_pct": 16.1
+   },
+   "move_pct": 97.3,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 96,
+   "notable": true
+  },
+  {
+   "slug": "galway-1342",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T13:42:00Z",
+   "runner": "Springboard",
+   "first": {
+    "mins_to_off": 342,
+    "mid": 7.19
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 4.85,
+    "spread_pct": 2.0
+   },
+   "move_pct": -32.6,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 4,
+   "notable": true
+  },
+  {
+   "slug": "wexford-1540",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T15:40:00Z",
+   "runner": "Huntin Boots",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 2.8
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 2.08,
+    "spread_pct": 1.9
+   },
+   "move_pct": -25.7,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 4,
+   "notable": true
+  },
+  {
+   "slug": "galway-1307",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T13:07:00Z",
+   "runner": "Jupiter Du Gite",
+   "first": {
+    "mins_to_off": 307,
+    "mid": 10.03
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 6.5,
+    "spread_pct": 3.1
+   },
+   "move_pct": -35.2,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 5,
+   "notable": true
+  },
+  {
+   "slug": "market-rasen-1335",
+   "venue": "Market Rasen",
+   "off_utc": "2026-10-25T13:35:00Z",
+   "runner": "See Blue",
+   "first": {
+    "mins_to_off": 335,
+    "mid": 7.59
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 11.48,
+    "spread_pct": 8.7
+   },
+   "move_pct": 51.2,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 95,
+   "notable": true
+  },
+  {
+   "slug": "wexford-1400",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T14:00:00Z",
+   "runner": "Toll Road",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 6.7
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 10.25,
+    "spread_pct": 4.9
+   },
+   "move_pct": 52.8,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 95,
+   "notable": true
+  },
+  {
+   "slug": "galway-1417",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T14:17:00Z",
+   "runner": "Light Up The Dark",
+   "first": {
+    "mins_to_off": 347,
+    "mid": 2.06
+   },
+   "latest": {
+    "mins_to_off": 2,
+    "mid": 1.57,
+    "spread_pct": 1.3
+   },
+   "move_pct": -23.7,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 5,
+   "notable": true
+  },
+  {
+   "slug": "galway-1450",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T14:50:00Z",
+   "runner": "Just For One",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 20.88
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 11.98,
+    "spread_pct": 8.4
+   },
+   "move_pct": -42.6,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 5,
+   "notable": true
+  },
+  {
+   "slug": "galway-1450",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T14:50:00Z",
+   "runner": "Shellrunforbriggs",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 4.29
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 6.3,
+    "spread_pct": 3.2
+   },
+   "move_pct": 46.8,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 95,
+   "notable": true
+  },
+  {
+   "slug": "galway-1342",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T13:42:00Z",
+   "runner": "Dontcavein",
+   "first": {
+    "mins_to_off": 342,
+    "mid": 18.17
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 11.74,
+    "spread_pct": 4.3
+   },
+   "move_pct": -35.3,
+   "band": [
+    13,
+    20
+   ],
    "percentile": 6,
+   "notable": false
+  },
+  {
+   "slug": "galway-1342",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T13:42:00Z",
+   "runner": "Prince Palace",
+   "first": {
+    "mins_to_off": 342,
+    "mid": 14.35
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 25.41,
+    "spread_pct": 12.0
+   },
+   "move_pct": 77.1,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 94,
+   "notable": false
+  },
+  {
+   "slug": "galway-1417",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T14:17:00Z",
+   "runner": "Holly's Thunder",
+   "first": {
+    "mins_to_off": 347,
+    "mid": 8.84
+   },
+   "latest": {
+    "mins_to_off": 2,
+    "mid": 14.2,
+    "spread_pct": 10.5
+   },
+   "move_pct": 60.7,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 94,
+   "notable": false
+  },
+  {
+   "slug": "wexford-1435",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T14:35:00Z",
+   "runner": "Farney Bridge",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 13.2
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 23.39,
+    "spread_pct": 12.9
+   },
+   "move_pct": 77.2,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 94,
+   "notable": false
+  },
+  {
+   "slug": "galway-1630",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T16:30:00Z",
+   "runner": "Moscovite",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 3.04
+   },
+   "latest": {
+    "mins_to_off": 45,
+    "mid": 2.23,
+    "spread_pct": 2.7
+   },
+   "move_pct": -26.7,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 6,
+   "notable": false
+  },
+  {
+   "slug": "wexford-1250",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T12:50:00Z",
+   "runner": "Arcland",
+   "first": {
+    "mins_to_off": 290,
+    "mid": 21.1
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 38.76,
+    "spread_pct": 15.6
+   },
+   "move_pct": 83.7,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 93,
    "notable": false
   },
   {
@@ -367,6 +807,94 @@
    "notable": false
   },
   {
+   "slug": "galway-1307",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T13:07:00Z",
+   "runner": "One Last Tango",
+   "first": {
+    "mins_to_off": 307,
+    "mid": 97.56
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 48.9,
+    "spread_pct": 22.3
+   },
+   "move_pct": -49.9,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 8,
+   "notable": false
+  },
+  {
+   "slug": "galway-1342",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T13:42:00Z",
+   "runner": "Harty Cup",
+   "first": {
+    "mins_to_off": 342,
+    "mid": 7.03
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 9.79,
+    "spread_pct": 4.1
+   },
+   "move_pct": 39.3,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 92,
+   "notable": false
+  },
+  {
+   "slug": "wexford-1435",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T14:35:00Z",
+   "runner": "Grey Balls Of Fire",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 34.25
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 61.54,
+    "spread_pct": 24.4
+   },
+   "move_pct": 79.7,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 92,
+   "notable": false
+  },
+  {
+   "slug": "wexford-1507",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T15:07:00Z",
+   "runner": "Cathryns Ruby",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 9.21
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 6.39,
+    "spread_pct": 6.3
+   },
+   "move_pct": -30.6,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 8,
+   "notable": false
+  },
+  {
    "slug": "wexford-1507",
    "venue": "Wexford",
    "off_utc": "2026-10-25T15:07:00Z",
@@ -376,36 +904,58 @@
     "mid": 9.53
    },
    "latest": {
-    "mins_to_off": 202,
-    "mid": 6.46,
-    "spread_pct": 15.5
+    "mins_to_off": 7,
+    "mid": 6.59,
+    "spread_pct": 6.0
    },
-   "move_pct": -32.2,
+   "move_pct": -30.8,
    "band": [
     8,
     13
    ],
-   "percentile": 7,
+   "percentile": 8,
    "notable": false
   },
   {
-   "slug": "galway-1342",
+   "slug": "galway-1520",
    "venue": "Galway",
-   "off_utc": "2026-10-25T13:42:00Z",
-   "runner": "Prince Palace",
+   "off_utc": "2026-10-25T15:20:00Z",
+   "runner": "Ole Ole",
    "first": {
-    "mins_to_off": 342,
-    "mid": 14.35
+    "mins_to_off": 350,
+    "mid": 5.68
    },
    "latest": {
-    "mins_to_off": 117,
-    "mid": 23.81,
-    "spread_pct": 16.8
+    "mins_to_off": 5,
+    "mid": 4.15,
+    "spread_pct": 2.4
    },
-   "move_pct": 66.0,
+   "move_pct": -27.0,
    "band": [
-    13,
-    20
+    5,
+    8
+   ],
+   "percentile": 8,
+   "notable": false
+  },
+  {
+   "slug": "wexford-1540",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T15:40:00Z",
+   "runner": "Square Necker",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 2.21
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 2.84,
+    "spread_pct": 1.4
+   },
+   "move_pct": 28.7,
+   "band": [
+    1.5,
+    3
    ],
    "percentile": 92,
    "notable": false
@@ -420,11 +970,11 @@
     "mid": 3.82
    },
    "latest": {
-    "mins_to_off": 278,
-    "mid": 5.25,
-    "spread_pct": 5.7
+    "mins_to_off": 128,
+    "mid": 5.3,
+    "spread_pct": 3.8
    },
-   "move_pct": 37.3,
+   "move_pct": 38.7,
    "band": [
     3,
     5
@@ -436,39 +986,17 @@
    "slug": "wexford-1325",
    "venue": "Wexford",
    "off_utc": "2026-10-25T13:25:00Z",
-   "runner": "Fountain House",
+   "runner": "I Am Lorenzo",
    "first": {
     "mins_to_off": 325,
-    "mid": 5.19
+    "mid": 11.62
    },
    "latest": {
-    "mins_to_off": 100,
-    "mid": 7.1,
-    "spread_pct": 2.8
+    "mins_to_off": 10,
+    "mid": 17.21,
+    "spread_pct": 8.6
    },
-   "move_pct": 36.7,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 91,
-   "notable": false
-  },
-  {
-   "slug": "galway-1342",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T13:42:00Z",
-   "runner": "Lanzhou",
-   "first": {
-    "mins_to_off": 342,
-    "mid": 12.63
-   },
-   "latest": {
-    "mins_to_off": 117,
-    "mid": 18.8,
-    "spread_pct": 21.3
-   },
-   "move_pct": 48.9,
+   "move_pct": 48.1,
    "band": [
     8,
     13
@@ -477,23 +1005,67 @@
    "notable": false
   },
   {
-   "slug": "galway-1342",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T13:42:00Z",
-   "runner": "Leave In Secret",
+   "slug": "wexford-1435",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T14:35:00Z",
+   "runner": "Oyster Cottage",
    "first": {
-    "mins_to_off": 342,
-    "mid": 17.78
+    "mins_to_off": 350,
+    "mid": 56.82
    },
    "latest": {
-    "mins_to_off": 117,
-    "mid": 12.2,
-    "spread_pct": 12.4
+    "mins_to_off": 5,
+    "mid": 29.9,
+    "spread_pct": 13.5
    },
-   "move_pct": -31.4,
+   "move_pct": -47.4,
    "band": [
-    13,
-    20
+    35,
+    100
+   ],
+   "percentile": 9,
+   "notable": false
+  },
+  {
+   "slug": "wexford-1435",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T14:35:00Z",
+   "runner": "Soul Asylum",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 2.69
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 2.17,
+    "spread_pct": 0.9
+   },
+   "move_pct": -19.2,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 9,
+   "notable": false
+  },
+  {
+   "slug": "wexford-1610",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T16:10:00Z",
+   "runner": "Miss Mini Bee",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 7.8
+   },
+   "latest": {
+    "mins_to_off": 25,
+    "mid": 5.79,
+    "spread_pct": 6.9
+   },
+   "move_pct": -25.7,
+   "band": [
+    5,
+    8
    ],
    "percentile": 9,
    "notable": false
@@ -530,7 +1102,7 @@
     "mid": 9.46
    },
    "latest": {
-    "mins_to_off": 100,
+    "mins_to_off": 10,
     "mid": 6.79,
     "spread_pct": 5.8
    },
@@ -543,157 +1115,157 @@
    "notable": false
   },
   {
-   "slug": "galway-1450",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T14:50:00Z",
-   "runner": "Blue Train",
+   "slug": "wexford-1610",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T16:10:00Z",
+   "runner": "Diamond Tipp",
    "first": {
-    "mins_to_off": 350,
-    "mid": 24.63
+    "mins_to_off": 355,
+    "mid": 13.38
    },
    "latest": {
-    "mins_to_off": 185,
-    "mid": 16.35,
-    "spread_pct": 18.3
+    "mins_to_off": 25,
+    "mid": 9.49,
+    "spread_pct": 6.4
    },
-   "move_pct": -33.6,
+   "move_pct": -29.0,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 10,
+   "notable": false
+  },
+  {
+   "slug": "wexford-1610",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T16:10:00Z",
+   "runner": "Dromana Mist",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 25.25
+   },
+   "latest": {
+    "mins_to_off": 25,
+    "mid": 43.48,
+    "spread_pct": 43.6
+   },
+   "move_pct": 72.2,
    "band": [
     20,
     35
    ],
-   "percentile": 10,
+   "percentile": 90,
    "notable": false
   },
   {
-   "slug": "galway-1520",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T15:20:00Z",
-   "runner": "Brother Walfrid",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 10.02
-   },
-   "latest": {
-    "mins_to_off": 215,
-    "mid": 7.29,
-    "spread_pct": 8.2
-   },
-   "move_pct": -27.3,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 10,
-   "notable": false
-  },
-  {
-   "slug": "galway-1520",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T15:20:00Z",
-   "runner": "Fly Away Home",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 7.38
-   },
-   "latest": {
-    "mins_to_off": 215,
-    "mid": 5.63,
-    "spread_pct": 12.4
-   },
-   "move_pct": -23.7,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 10,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1400",
+   "slug": "wexford-1250",
    "venue": "Wexford",
-   "off_utc": "2026-10-25T14:00:00Z",
-   "runner": "Noon Blu Dodville",
+   "off_utc": "2026-10-25T12:50:00Z",
+   "runner": "Kelya",
    "first": {
-    "mins_to_off": 360,
-    "mid": 4.38
+    "mins_to_off": 290,
+    "mid": 24.36
    },
    "latest": {
-    "mins_to_off": 135,
-    "mid": 3.47,
-    "spread_pct": 4.3
+    "mins_to_off": 5,
+    "mid": 16.49,
+    "spread_pct": 6.1
    },
-   "move_pct": -20.7,
+   "move_pct": -32.3,
    "band": [
-    3,
-    5
+    20,
+    35
    ],
    "percentile": 11,
-   "notable": false
-  },
-  {
-   "slug": "galway-1307",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T13:07:00Z",
-   "runner": "Talk In The Park",
-   "first": {
-    "mins_to_off": 307,
-    "mid": 10.79
-   },
-   "latest": {
-    "mins_to_off": 82,
-    "mid": 8.09,
-    "spread_pct": 7.5
-   },
-   "move_pct": -25.0,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 12,
    "notable": false
   },
   {
    "slug": "galway-1342",
    "venue": "Galway",
    "off_utc": "2026-10-25T13:42:00Z",
-   "runner": "Bigbraveboy",
+   "runner": "Clonbury Bridge",
    "first": {
     "mins_to_off": 342,
-    "mid": 90.91
+    "mid": 95.24
    },
    "latest": {
-    "mins_to_off": 117,
-    "mid": 52.49,
-    "spread_pct": 53.2
+    "mins_to_off": 12,
+    "mid": 53.33,
+    "spread_pct": 22.1
    },
-   "move_pct": -42.3,
+   "move_pct": -44.0,
    "band": [
     35,
     100
    ],
-   "percentile": 12,
+   "percentile": 11,
    "notable": false
   },
   {
-   "slug": "wexford-1540",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T15:40:00Z",
-   "runner": "Ballyhoura",
+   "slug": "market-rasen-1441",
+   "venue": "Market Rasen",
+   "off_utc": "2026-10-25T14:41:00Z",
+   "runner": "The Doyen Chief",
    "first": {
-    "mins_to_off": 355,
-    "mid": 61.16
+    "mins_to_off": 356,
+    "mid": 5.17
    },
    "latest": {
-    "mins_to_off": 235,
-    "mid": 35.27,
-    "spread_pct": 82.1
+    "mins_to_off": 11,
+    "mid": 6.79,
+    "spread_pct": 5.8
    },
-   "move_pct": -42.3,
+   "move_pct": 31.4,
    "band": [
-    35,
-    100
+    5,
+    8
    ],
-   "percentile": 12,
+   "percentile": 89,
+   "notable": false
+  },
+  {
+   "slug": "market-rasen-1548",
+   "venue": "Market Rasen",
+   "off_utc": "2026-10-25T15:48:00Z",
+   "runner": "Justus",
+   "first": {
+    "mins_to_off": 348,
+    "mid": 5.94
+   },
+   "latest": {
+    "mins_to_off": 3,
+    "mid": 4.6,
+    "spread_pct": 4.3
+   },
+   "move_pct": -22.6,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 11,
+   "notable": false
+  },
+  {
+   "slug": "wexford-1435",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T14:35:00Z",
+   "runner": "Jessbers Wish",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 7.67
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 10.03,
+    "spread_pct": 9.0
+   },
+   "move_pct": 30.8,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 88,
    "notable": false
   },
   {
@@ -706,82 +1278,16 @@
     "mid": 11.25
    },
    "latest": {
-    "mins_to_off": 202,
-    "mid": 8.48,
-    "spread_pct": 23.6
+    "mins_to_off": 7,
+    "mid": 8.39,
+    "spread_pct": 4.8
    },
-   "move_pct": -24.6,
+   "move_pct": -25.4,
    "band": [
     8,
     13
    ],
-   "percentile": 13,
-   "notable": false
-  },
-  {
-   "slug": "galway-1307",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T13:07:00Z",
-   "runner": "One Last Tango",
-   "first": {
-    "mins_to_off": 307,
-    "mid": 97.56
-   },
-   "latest": {
-    "mins_to_off": 82,
-    "mid": 58.31,
-    "spread_pct": 34.2
-   },
-   "move_pct": -40.2,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 14,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1325",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T13:25:00Z",
-   "runner": "Luimneach",
-   "first": {
-    "mins_to_off": 325,
-    "mid": 7.67
-   },
-   "latest": {
-    "mins_to_off": 100,
-    "mid": 6.1,
-    "spread_pct": 3.3
-   },
-   "move_pct": -20.5,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 14,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1400",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T14:00:00Z",
-   "runner": "Ten Gears",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 6.09
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 7.69,
-    "spread_pct": 7.8
-   },
-   "move_pct": 26.3,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 86,
+   "percentile": 12,
    "notable": false
   },
   {
@@ -794,60 +1300,82 @@
     "mid": 4.29
    },
    "latest": {
-    "mins_to_off": 47,
-    "mid": 5.4,
-    "spread_pct": 3.7
+    "mins_to_off": 2,
+    "mid": 5.5,
+    "spread_pct": 3.6
    },
-   "move_pct": 25.8,
+   "move_pct": 28.1,
    "band": [
     3,
     5
    ],
-   "percentile": 85,
+   "percentile": 87,
    "notable": false
   },
   {
-   "slug": "galway-1450",
+   "slug": "galway-1307",
    "venue": "Galway",
-   "off_utc": "2026-10-25T14:50:00Z",
-   "runner": "Shellrunforbriggs",
+   "off_utc": "2026-10-25T13:07:00Z",
+   "runner": "Talk In The Park",
    "first": {
-    "mins_to_off": 350,
-    "mid": 4.29
+    "mins_to_off": 307,
+    "mid": 10.79
    },
    "latest": {
-    "mins_to_off": 185,
-    "mid": 5.4,
-    "spread_pct": 3.7
+    "mins_to_off": 7,
+    "mid": 8.2,
+    "spread_pct": 4.9
    },
-   "move_pct": 25.8,
+   "move_pct": -24.1,
    "band": [
-    3,
-    5
+    8,
+    13
    ],
-   "percentile": 85,
+   "percentile": 13,
    "notable": false
   },
   {
    "slug": "wexford-1507",
    "venue": "Wexford",
    "off_utc": "2026-10-25T15:07:00Z",
-   "runner": "Jay Jay Zee",
+   "runner": "Rathbawn Soldier",
    "first": {
-    "mins_to_off": 337,
-    "mid": 40.98
+    "mins_to_off": 352,
+    "mid": 18.81
    },
    "latest": {
-    "mins_to_off": 202,
-    "mid": 57.31,
-    "spread_pct": 183.0
+    "mins_to_off": 7,
+    "mid": 27.97,
+    "spread_pct": 7.0
    },
-   "move_pct": 39.8,
+   "move_pct": 48.7,
    "band": [
-    35,
-    100
+    13,
+    20
    ],
-   "percentile": 85,
+   "percentile": 87,
+   "notable": false
+  },
+  {
+   "slug": "wexford-1250",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T12:50:00Z",
+   "runner": "Maverick Mack",
+   "first": {
+    "mins_to_off": 290,
+    "mid": 26.7
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 41.67,
+    "spread_pct": 19.3
+   },
+   "move_pct": 56.0,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 86,
    "notable": false
   },
   {
@@ -860,236 +1388,38 @@
     "mid": 5.39
    },
    "latest": {
-    "mins_to_off": 75,
-    "mid": 6.7,
-    "spread_pct": 2.9
+    "mins_to_off": 0,
+    "mid": 4.3,
+    "spread_pct": 4.6
    },
-   "move_pct": 24.2,
+   "move_pct": -20.3,
    "band": [
     5,
     8
    ],
-   "percentile": 84,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1435",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T14:35:00Z",
-   "runner": "Oyster Cottage",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 56.82
-   },
-   "latest": {
-    "mins_to_off": 170,
-    "mid": 35.59,
-    "spread_pct": 48.0
-   },
-   "move_pct": -37.4,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 16,
-   "notable": false
-  },
-  {
-   "slug": "galway-1520",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T15:20:00Z",
-   "runner": "Tradonthebay",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 64.31
-   },
-   "latest": {
-    "mins_to_off": 215,
-    "mid": 40.0,
-    "spread_pct": 74.6
-   },
-   "move_pct": -37.8,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 16,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1250",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T12:50:00Z",
-   "runner": "Pat's Legacy",
-   "first": {
-    "mins_to_off": 290,
-    "mid": 15.86
-   },
-   "latest": {
-    "mins_to_off": 65,
-    "mid": 22.22,
-    "spread_pct": 22.5
-   },
-   "move_pct": 40.1,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 83,
+   "percentile": 14,
    "notable": false
   },
   {
    "slug": "wexford-1325",
    "venue": "Wexford",
    "off_utc": "2026-10-25T13:25:00Z",
-   "runner": "I Am Lorenzo",
+   "runner": "Fountain House",
    "first": {
     "mins_to_off": 325,
-    "mid": 11.62
+    "mid": 5.19
    },
    "latest": {
-    "mins_to_off": 100,
-    "mid": 15.43,
-    "spread_pct": 13.0
+    "mins_to_off": 10,
+    "mid": 6.59,
+    "spread_pct": 6.0
    },
-   "move_pct": 32.8,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 83,
-   "notable": false
-  },
-  {
-   "slug": "market-rasen-1335",
-   "venue": "Market Rasen",
-   "off_utc": "2026-10-25T13:35:00Z",
-   "runner": "Don Dandy",
-   "first": {
-    "mins_to_off": 335,
-    "mid": 1.75
-   },
-   "latest": {
-    "mins_to_off": 110,
-    "mid": 2.05,
-    "spread_pct": 1.0
-   },
-   "move_pct": 16.9,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 83,
-   "notable": false
-  },
-  {
-   "slug": "market-rasen-1513",
-   "venue": "Market Rasen",
-   "off_utc": "2026-10-25T15:13:00Z",
-   "runner": "McGrath From Clune",
-   "first": {
-    "mins_to_off": 358,
-    "mid": 22.6
-   },
-   "latest": {
-    "mins_to_off": 208,
-    "mid": 33.61,
-    "spread_pct": 32.8
-   },
-   "move_pct": 48.7,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 83,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1610",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T16:10:00Z",
-   "runner": "Miss Mini Bee",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 7.8
-   },
-   "latest": {
-    "mins_to_off": 265,
-    "mid": 6.37,
-    "spread_pct": 12.5
-   },
-   "move_pct": -18.3,
+   "move_pct": 27.0,
    "band": [
     5,
     8
    ],
-   "percentile": 17,
-   "notable": false
-  },
-  {
-   "slug": "galway-1556",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T15:56:00Z",
-   "runner": "Bois D'angos",
-   "first": {
-    "mins_to_off": 356,
-    "mid": 16.93
-   },
-   "latest": {
-    "mins_to_off": 251,
-    "mid": 13.42,
-    "spread_pct": 14.8
-   },
-   "move_pct": -20.7,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 18,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1250",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T12:50:00Z",
-   "runner": "Chase The Moon",
-   "first": {
-    "mins_to_off": 290,
-    "mid": 9.07
-   },
-   "latest": {
-    "mins_to_off": 65,
-    "mid": 7.38,
-    "spread_pct": 10.9
-   },
-   "move_pct": -18.7,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 19,
-   "notable": false
-  },
-  {
-   "slug": "market-rasen-1335",
-   "venue": "Market Rasen",
-   "off_utc": "2026-10-25T13:35:00Z",
-   "runner": "Solar Jet",
-   "first": {
-    "mins_to_off": 260,
-    "mid": 84.39
-   },
-   "latest": {
-    "mins_to_off": 110,
-    "mid": 55.56,
-    "spread_pct": 42.9
-   },
-   "move_pct": -34.2,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 19,
+   "percentile": 86,
    "notable": false
   },
   {
@@ -1102,16 +1432,302 @@
     "mid": 26.42
    },
    "latest": {
-    "mins_to_off": 117,
-    "mid": 38.46,
-    "spread_pct": 41.7
+    "mins_to_off": 12,
+    "mid": 41.67,
+    "spread_pct": 19.3
    },
-   "move_pct": 45.6,
+   "move_pct": 57.7,
    "band": [
     20,
     35
    ],
-   "percentile": 81,
+   "percentile": 86,
+   "notable": false
+  },
+  {
+   "slug": "market-rasen-1410",
+   "venue": "Market Rasen",
+   "off_utc": "2026-10-25T14:10:00Z",
+   "runner": "Mars Harper",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 37.81
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 53.33,
+    "spread_pct": 22.1
+   },
+   "move_pct": 41.1,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 86,
+   "notable": false
+  },
+  {
+   "slug": "market-rasen-1548",
+   "venue": "Market Rasen",
+   "off_utc": "2026-10-25T15:48:00Z",
+   "runner": "Battle Stride",
+   "first": {
+    "mins_to_off": 348,
+    "mid": 80.65
+   },
+   "latest": {
+    "mins_to_off": 3,
+    "mid": 48.9,
+    "spread_pct": 22.3
+   },
+   "move_pct": -39.4,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 14,
+   "notable": false
+  },
+  {
+   "slug": "galway-1342",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T13:42:00Z",
+   "runner": "Leave In Secret",
+   "first": {
+    "mins_to_off": 342,
+    "mid": 17.78
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 13.49,
+    "spread_pct": 7.4
+   },
+   "move_pct": -24.1,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 15,
+   "notable": false
+  },
+  {
+   "slug": "galway-1342",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T13:42:00Z",
+   "runner": "Bigbraveboy",
+   "first": {
+    "mins_to_off": 342,
+    "mid": 90.91
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 56.5,
+    "spread_pct": 26.4
+   },
+   "move_pct": -37.9,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 16,
+   "notable": false
+  },
+  {
+   "slug": "wexford-1507",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T15:07:00Z",
+   "runner": "River Vale",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 13.84
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 19.74,
+    "spread_pct": 2.6
+   },
+   "move_pct": 42.6,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 84,
+   "notable": false
+  },
+  {
+   "slug": "galway-1556",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T15:56:00Z",
+   "runner": "Suresuresure",
+   "first": {
+    "mins_to_off": 356,
+    "mid": 22.99
+   },
+   "latest": {
+    "mins_to_off": 11,
+    "mid": 17.21,
+    "spread_pct": 8.6
+   },
+   "move_pct": -25.1,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 16,
+   "notable": false
+  },
+  {
+   "slug": "wexford-1640",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T16:40:00Z",
+   "runner": "B U Train",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 19.38
+   },
+   "latest": {
+    "mins_to_off": 55,
+    "mid": 14.94,
+    "spread_pct": 13.4
+   },
+   "move_pct": -22.9,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 16,
+   "notable": false
+  },
+  {
+   "slug": "wexford-1250",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T12:50:00Z",
+   "runner": "Mullaghgloss",
+   "first": {
+    "mins_to_off": 290,
+    "mid": 12.93
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 17.21,
+    "spread_pct": 8.6
+   },
+   "move_pct": 33.1,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 83,
+   "notable": false
+  },
+  {
+   "slug": "wexford-1400",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T14:00:00Z",
+   "runner": "Ten Gears",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 6.09
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 7.5,
+    "spread_pct": 2.6
+   },
+   "move_pct": 23.2,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 83,
+   "notable": false
+  },
+  {
+   "slug": "wexford-1540",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T15:40:00Z",
+   "runner": "Vango At Dawn",
+   "first": {
+    "mins_to_off": 310,
+    "mid": 68.73
+   },
+   "latest": {
+    "mins_to_off": 25,
+    "mid": 92.59,
+    "spread_pct": 48.9
+   },
+   "move_pct": 34.7,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 83,
+   "notable": false
+  },
+  {
+   "slug": "market-rasen-1441",
+   "venue": "Market Rasen",
+   "off_utc": "2026-10-25T14:41:00Z",
+   "runner": "Livin On Luco",
+   "first": {
+    "mins_to_off": 356,
+    "mid": 3.97
+   },
+   "latest": {
+    "mins_to_off": 11,
+    "mid": 3.4,
+    "spread_pct": 2.9
+   },
+   "move_pct": -14.4,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 18,
+   "notable": false
+  },
+  {
+   "slug": "wexford-1507",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T15:07:00Z",
+   "runner": "Albatala",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 12.73
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 10.25,
+    "spread_pct": 4.9
+   },
+   "move_pct": -19.5,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 18,
+   "notable": false
+  },
+  {
+   "slug": "market-rasen-1623",
+   "venue": "Market Rasen",
+   "off_utc": "2026-10-25T16:23:00Z",
+   "runner": "Soviet Sailor",
+   "first": {
+    "mins_to_off": 353,
+    "mid": 13.93
+   },
+   "latest": {
+    "mins_to_off": 38,
+    "mid": 10.98,
+    "spread_pct": 9.0
+   },
+   "move_pct": -21.2,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 18,
    "notable": false
   },
   {
@@ -1137,25 +1753,69 @@
    "notable": false
   },
   {
-   "slug": "market-rasen-1441",
-   "venue": "Market Rasen",
-   "off_utc": "2026-10-25T14:41:00Z",
-   "runner": "Rivers Corner",
+   "slug": "wexford-1400",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T14:00:00Z",
+   "runner": "One For Christy",
    "first": {
-    "mins_to_off": 356,
-    "mid": 4.74
+    "mins_to_off": 285,
+    "mid": 46.73
    },
    "latest": {
-    "mins_to_off": 176,
-    "mid": 5.74,
-    "spread_pct": 20.9
+    "mins_to_off": 15,
+    "mid": 61.54,
+    "spread_pct": 48.7
    },
-   "move_pct": 21.1,
+   "move_pct": 31.7,
    "band": [
-    3,
-    5
+    35,
+    100
    ],
    "percentile": 81,
+   "notable": false
+  },
+  {
+   "slug": "market-rasen-1513",
+   "venue": "Market Rasen",
+   "off_utc": "2026-10-25T15:13:00Z",
+   "runner": "McGrath From Clune",
+   "first": {
+    "mins_to_off": 358,
+    "mid": 22.6
+   },
+   "latest": {
+    "mins_to_off": 13,
+    "mid": 32.73,
+    "spread_pct": 18.2
+   },
+   "move_pct": 44.8,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 81,
+   "notable": false
+  },
+  {
+   "slug": "wexford-1507",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T15:07:00Z",
+   "runner": "Jay Jay Zee",
+   "first": {
+    "mins_to_off": 337,
+    "mid": 40.98
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 53.33,
+    "spread_pct": 22.1
+   },
+   "move_pct": 30.1,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 80,
    "notable": false
   },
   {
@@ -1168,170 +1828,16 @@
     "mid": 60.06
    },
    "latest": {
-    "mins_to_off": 47,
-    "mid": 77.52,
-    "spread_pct": 64.5
+    "mins_to_off": 2,
+    "mid": 76.63,
+    "spread_pct": 19.3
    },
-   "move_pct": 29.1,
+   "move_pct": 27.6,
    "band": [
     35,
     100
    ],
-   "percentile": 80,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1250",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T12:50:00Z",
-   "runner": "Arcland",
-   "first": {
-    "mins_to_off": 290,
-    "mid": 21.1
-   },
-   "latest": {
-    "mins_to_off": 65,
-    "mid": 30.17,
-    "spread_pct": 33.1
-   },
-   "move_pct": 43.0,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 80,
-   "notable": false
-  },
-  {
-   "slug": "market-rasen-1300",
-   "venue": "Market Rasen",
-   "off_utc": "2026-10-25T13:00:00Z",
-   "runner": "Military Cross",
-   "first": {
-    "mins_to_off": 300,
-    "mid": 14.14
-   },
-   "latest": {
-    "mins_to_off": 75,
-    "mid": 19.1,
-    "spread_pct": 18.3
-   },
-   "move_pct": 35.1,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 80,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1325",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T13:25:00Z",
-   "runner": "Choccabloc",
-   "first": {
-    "mins_to_off": 325,
-    "mid": 40.4
-   },
-   "latest": {
-    "mins_to_off": 100,
-    "mid": 52.08,
-    "spread_pct": 26.5
-   },
-   "move_pct": 28.9,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 80,
-   "notable": false
-  },
-  {
-   "slug": "galway-1417",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T14:17:00Z",
-   "runner": "Sanctity Of Space",
-   "first": {
-    "mins_to_off": 347,
-    "mid": 56.34
-   },
-   "latest": {
-    "mins_to_off": 152,
-    "mid": 37.95,
-    "spread_pct": 68.4
-   },
-   "move_pct": -32.6,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 20,
-   "notable": false
-  },
-  {
-   "slug": "market-rasen-1548",
-   "venue": "Market Rasen",
-   "off_utc": "2026-10-25T15:48:00Z",
-   "runner": "Battle Stride",
-   "first": {
-    "mins_to_off": 348,
-    "mid": 80.65
-   },
-   "latest": {
-    "mins_to_off": 243,
-    "mid": 54.2,
-    "spread_pct": 136.4
-   },
-   "move_pct": -32.8,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 20,
-   "notable": false
-  },
-  {
-   "slug": "market-rasen-1623",
-   "venue": "Market Rasen",
-   "off_utc": "2026-10-25T16:23:00Z",
-   "runner": "Beau De Maine",
-   "first": {
-    "mins_to_off": 353,
-    "mid": 4.89
-   },
-   "latest": {
-    "mins_to_off": 278,
-    "mid": 4.24,
-    "spread_pct": 7.1
-   },
-   "move_pct": -13.2,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 20,
-   "notable": false
-  },
-  {
-   "slug": "market-rasen-1300",
-   "venue": "Market Rasen",
-   "off_utc": "2026-10-25T13:00:00Z",
-   "runner": "Moore Brion",
-   "first": {
-    "mins_to_off": 300,
-    "mid": 1.91
-   },
-   "latest": {
-    "mins_to_off": 75,
-    "mid": 1.69,
-    "spread_pct": 1.2
-   },
-   "move_pct": -11.7,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 21,
+   "percentile": 79,
    "notable": false
   },
   {
@@ -1344,11 +1850,11 @@
     "mid": 85.47
    },
    "latest": {
-    "mins_to_off": 132,
-    "mid": 57.97,
-    "spread_pct": 70.2
+    "mins_to_off": 12,
+    "mid": 58.31,
+    "spread_pct": 34.2
    },
-   "move_pct": -32.2,
+   "move_pct": -31.8,
    "band": [
     35,
     100
@@ -1357,64 +1863,130 @@
    "notable": false
   },
   {
-   "slug": "wexford-1400",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T14:00:00Z",
-   "runner": "Hansel The Purse",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 13.01
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 10.7,
-    "spread_pct": 14.0
-   },
-   "move_pct": -17.8,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 21,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1540",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T15:40:00Z",
-   "runner": "Well Friend",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 31.5
-   },
-   "latest": {
-    "mins_to_off": 235,
-    "mid": 25.28,
-    "spread_pct": 65.2
-   },
-   "move_pct": -19.7,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 21,
-   "notable": false
-  },
-  {
    "slug": "galway-1232",
    "venue": "Galway",
    "off_utc": "2026-10-25T12:32:00Z",
-   "runner": "Will Do",
+   "runner": "Chart Topper",
    "first": {
     "mins_to_off": 272,
-    "mid": 5.24
+    "mid": 2.25
    },
    "latest": {
-    "mins_to_off": 47,
-    "mid": 4.5,
-    "spread_pct": 4.5
+    "mins_to_off": 2,
+    "mid": 2.0,
+    "spread_pct": 2.0
    },
-   "move_pct": -14.1,
+   "move_pct": -11.1,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 22,
+   "notable": false
+  },
+  {
+   "slug": "wexford-1507",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T15:07:00Z",
+   "runner": "Jumbos Jet",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 8.54
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 7.1,
+    "spread_pct": 2.8
+   },
+   "move_pct": -16.9,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 22,
+   "notable": false
+  },
+  {
+   "slug": "galway-1520",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T15:20:00Z",
+   "runner": "Fly Away Home",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 7.38
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 6.3,
+    "spread_pct": 3.2
+   },
+   "move_pct": -14.6,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 22,
+   "notable": false
+  },
+  {
+   "slug": "wexford-1610",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T16:10:00Z",
+   "runner": "Dunsy Rock",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 3.47
+   },
+   "latest": {
+    "mins_to_off": 25,
+    "mid": 4.1,
+    "spread_pct": 4.9
+   },
+   "move_pct": 18.0,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 78,
+   "notable": false
+  },
+  {
+   "slug": "galway-1630",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T16:30:00Z",
+   "runner": "Va La Vie",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 3.4
+   },
+   "latest": {
+    "mins_to_off": 45,
+    "mid": 3.97,
+    "spread_pct": 1.3
+   },
+   "move_pct": 17.0,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 78,
+   "notable": false
+  },
+  {
+   "slug": "wexford-1325",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T13:25:00Z",
+   "runner": "Luimneach",
+   "first": {
+    "mins_to_off": 325,
+    "mid": 7.67
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 6.59,
+    "spread_pct": 6.0
+   },
+   "move_pct": -14.0,
    "band": [
     5,
     8
@@ -1423,108 +1995,42 @@
    "notable": false
   },
   {
-   "slug": "galway-1342",
+   "slug": "wexford-1325",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T13:25:00Z",
+   "runner": "Scalpnagoon",
+   "first": {
+    "mins_to_off": 325,
+    "mid": 23.64
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 32.1,
+    "spread_pct": 21.8
+   },
+   "move_pct": 35.8,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 77,
+   "notable": false
+  },
+  {
+   "slug": "galway-1307",
    "venue": "Galway",
-   "off_utc": "2026-10-25T13:42:00Z",
-   "runner": "Dontcavein",
+   "off_utc": "2026-10-25T13:07:00Z",
+   "runner": "Only For Our Man",
    "first": {
-    "mins_to_off": 342,
-    "mid": 18.17
+    "mins_to_off": 307,
+    "mid": 6.95
    },
    "latest": {
-    "mins_to_off": 117,
-    "mid": 15.21,
-    "spread_pct": 9.9
+    "mins_to_off": 7,
+    "mid": 7.99,
+    "spread_pct": 5.0
    },
-   "move_pct": -16.3,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 23,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1400",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T14:00:00Z",
-   "runner": "Burleigh Beach",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 30.21
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 24.84,
-    "spread_pct": 16.3
-   },
-   "move_pct": -17.8,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 23,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1507",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T15:07:00Z",
-   "runner": "Qaasid",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 31.1
-   },
-   "latest": {
-    "mins_to_off": 202,
-    "mid": 25.71,
-    "spread_pct": 62.1
-   },
-   "move_pct": -17.4,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 23,
-   "notable": false
-  },
-  {
-   "slug": "market-rasen-1513",
-   "venue": "Market Rasen",
-   "off_utc": "2026-10-25T15:13:00Z",
-   "runner": "Gambie Tiep",
-   "first": {
-    "mins_to_off": 358,
-    "mid": 4.14
-   },
-   "latest": {
-    "mins_to_off": 208,
-    "mid": 3.67,
-    "spread_pct": 4.1
-   },
-   "move_pct": -11.4,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 23,
-   "notable": false
-  },
-  {
-   "slug": "market-rasen-1441",
-   "venue": "Market Rasen",
-   "off_utc": "2026-10-25T14:41:00Z",
-   "runner": "The Doyen Chief",
-   "first": {
-    "mins_to_off": 356,
-    "mid": 5.17
-   },
-   "latest": {
-    "mins_to_off": 176,
-    "mid": 5.94,
-    "spread_pct": 8.4
-   },
-   "move_pct": 14.9,
+   "move_pct": 15.0,
    "band": [
     5,
     8
@@ -1533,23 +2039,23 @@
    "notable": false
   },
   {
-   "slug": "market-rasen-1548",
-   "venue": "Market Rasen",
-   "off_utc": "2026-10-25T15:48:00Z",
-   "runner": "Justus",
+   "slug": "galway-1450",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T14:50:00Z",
+   "runner": "Blue Train",
    "first": {
-    "mins_to_off": 348,
-    "mid": 5.94
+    "mins_to_off": 350,
+    "mid": 24.63
    },
    "latest": {
-    "mins_to_off": 243,
-    "mid": 5.15,
-    "spread_pct": 5.8
+    "mins_to_off": 5,
+    "mid": 20.66,
+    "spread_pct": 12.0
    },
-   "move_pct": -13.4,
+   "move_pct": -16.1,
    "band": [
-    5,
-    8
+    20,
+    35
    ],
    "percentile": 24,
    "notable": false
@@ -1564,566 +2070,82 @@
     "mid": 9.92
    },
    "latest": {
-    "mins_to_off": 285,
-    "mid": 8.44,
-    "spread_pct": 16.6
+    "mins_to_off": 45,
+    "mid": 12.2,
+    "spread_pct": 12.4
    },
-   "move_pct": -14.9,
+   "move_pct": 23.0,
    "band": [
     8,
     13
    ],
-   "percentile": 24,
-   "notable": false
-  },
-  {
-   "slug": "galway-1232",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T12:32:00Z",
-   "runner": "Mint Boy",
-   "first": {
-    "mins_to_off": 272,
-    "mid": 10.46
-   },
-   "latest": {
-    "mins_to_off": 47,
-    "mid": 12.71,
-    "spread_pct": 11.7
-   },
-   "move_pct": 21.5,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 75,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1640",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T16:40:00Z",
-   "runner": "Payslip",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 3.57
-   },
-   "latest": {
-    "mins_to_off": 295,
-    "mid": 3.2,
-    "spread_pct": 6.3
-   },
-   "move_pct": -10.5,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 25,
-   "notable": false
-  },
-  {
-   "slug": "galway-1232",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T12:32:00Z",
-   "runner": "Chart Topper",
-   "first": {
-    "mins_to_off": 272,
-    "mid": 2.25
-   },
-   "latest": {
-    "mins_to_off": 47,
-    "mid": 2.05,
-    "spread_pct": 1.0
-   },
-   "move_pct": -8.8,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 26,
-   "notable": false
-  },
-  {
-   "slug": "market-rasen-1335",
-   "venue": "Market Rasen",
-   "off_utc": "2026-10-25T13:35:00Z",
-   "runner": "See Blue",
-   "first": {
-    "mins_to_off": 335,
-    "mid": 7.59
-   },
-   "latest": {
-    "mins_to_off": 110,
-    "mid": 6.69,
-    "spread_pct": 8.9
-   },
-   "move_pct": -11.9,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 26,
-   "notable": false
-  },
-  {
-   "slug": "market-rasen-1441",
-   "venue": "Market Rasen",
-   "off_utc": "2026-10-25T14:41:00Z",
-   "runner": "Livin On Luco",
-   "first": {
-    "mins_to_off": 356,
-    "mid": 3.97
-   },
-   "latest": {
-    "mins_to_off": 176,
-    "mid": 3.57,
-    "spread_pct": 4.2
-   },
-   "move_pct": -10.0,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 26,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1507",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T15:07:00Z",
-   "runner": "Albatala",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 12.73
-   },
-   "latest": {
-    "mins_to_off": 202,
-    "mid": 10.99,
-    "spread_pct": 24.5
-   },
-   "move_pct": -13.7,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 26,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1507",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T15:07:00Z",
-   "runner": "Cathryns Ruby",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 9.21
-   },
-   "latest": {
-    "mins_to_off": 202,
-    "mid": 7.96,
-    "spread_pct": 15.0
-   },
-   "move_pct": -13.6,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 26,
-   "notable": false
-  },
-  {
-   "slug": "market-rasen-1548",
-   "venue": "Market Rasen",
-   "off_utc": "2026-10-25T15:48:00Z",
-   "runner": "Klapton Boy",
-   "first": {
-    "mins_to_off": 348,
-    "mid": 7.1
-   },
-   "latest": {
-    "mins_to_off": 243,
-    "mid": 6.23,
-    "spread_pct": 11.3
-   },
-   "move_pct": -12.2,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 26,
+   "percentile": 76,
    "notable": false
   },
   {
    "slug": "wexford-1250",
    "venue": "Wexford",
    "off_utc": "2026-10-25T12:50:00Z",
-   "runner": "Kir",
+   "runner": "Chase The Moon",
    "first": {
     "mins_to_off": 290,
-    "mid": 9.05
+    "mid": 9.07
    },
    "latest": {
-    "mins_to_off": 65,
-    "mid": 7.89,
-    "spread_pct": 7.6
+    "mins_to_off": 5,
+    "mid": 7.79,
+    "spread_pct": 5.1
    },
-   "move_pct": -12.9,
+   "move_pct": -14.1,
    "band": [
     8,
     13
    ],
-   "percentile": 27,
-   "notable": false
-  },
-  {
-   "slug": "galway-1307",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T13:07:00Z",
-   "runner": "Only For Our Man",
-   "first": {
-    "mins_to_off": 307,
-    "mid": 6.95
-   },
-   "latest": {
-    "mins_to_off": 82,
-    "mid": 6.14,
-    "spread_pct": 8.2
-   },
-   "move_pct": -11.6,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 27,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1325",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T13:25:00Z",
-   "runner": "Scalpnagoon",
-   "first": {
-    "mins_to_off": 325,
-    "mid": 23.64
-   },
-   "latest": {
-    "mins_to_off": 100,
-    "mid": 30.86,
-    "spread_pct": 29.0
-   },
-   "move_pct": 30.6,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 73,
-   "notable": false
-  },
-  {
-   "slug": "galway-1417",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T14:17:00Z",
-   "runner": "Simply Natural",
-   "first": {
-    "mins_to_off": 347,
-    "mid": 2.94
-   },
-   "latest": {
-    "mins_to_off": 152,
-    "mid": 3.22,
-    "spread_pct": 10.9
-   },
-   "move_pct": 9.3,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 73,
-   "notable": false
-  },
-  {
-   "slug": "galway-1450",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T14:50:00Z",
-   "runner": "Hesgonethatway",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 26.25
-   },
-   "latest": {
-    "mins_to_off": 185,
-    "mid": 22.65,
-    "spread_pct": 33.3
-   },
-   "move_pct": -13.7,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 27,
-   "notable": false
-  },
-  {
-   "slug": "market-rasen-1623",
-   "venue": "Market Rasen",
-   "off_utc": "2026-10-25T16:23:00Z",
-   "runner": "Clos Du Mouche",
-   "first": {
-    "mins_to_off": 353,
-    "mid": 2.47
-   },
-   "latest": {
-    "mins_to_off": 278,
-    "mid": 2.26,
-    "spread_pct": 1.8
-   },
-   "move_pct": -8.5,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 27,
-   "notable": false
-  },
-  {
-   "slug": "galway-1630",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T16:30:00Z",
-   "runner": "Littlebeen",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 16.13
-   },
-   "latest": {
-    "mins_to_off": 285,
-    "mid": 20.18,
-    "spread_pct": 24.8
-   },
-   "move_pct": 25.1,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 73,
-   "notable": false
-  },
-  {
-   "slug": "market-rasen-1335",
-   "venue": "Market Rasen",
-   "off_utc": "2026-10-25T13:35:00Z",
-   "runner": "Minella Buoy",
-   "first": {
-    "mins_to_off": 335,
-    "mid": 3.72
-   },
-   "latest": {
-    "mins_to_off": 110,
-    "mid": 3.37,
-    "spread_pct": 4.4
-   },
-   "move_pct": -9.2,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 28,
-   "notable": false
-  },
-  {
-   "slug": "market-rasen-1410",
-   "venue": "Market Rasen",
-   "off_utc": "2026-10-25T14:10:00Z",
-   "runner": "Ga Law",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 5.79
-   },
-   "latest": {
-    "mins_to_off": 145,
-    "mid": 6.5,
-    "spread_pct": 3.1
-   },
-   "move_pct": 12.2,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 72,
-   "notable": false
-  },
-  {
-   "slug": "galway-1450",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T14:50:00Z",
-   "runner": "Rockbrook",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 22.65
-   },
-   "latest": {
-    "mins_to_off": 185,
-    "mid": 19.88,
-    "spread_pct": 27.5
-   },
-   "move_pct": -12.2,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 28,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1640",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T16:40:00Z",
-   "runner": "Socrates Smiled",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 2.04
-   },
-   "latest": {
-    "mins_to_off": 295,
-    "mid": 2.22,
-    "spread_pct": 5.4
-   },
-   "move_pct": 8.8,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 72,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1400",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T14:00:00Z",
-   "runner": "One For Christy",
-   "first": {
-    "mins_to_off": 285,
-    "mid": 46.73
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 54.05,
-    "spread_pct": 47.9
-   },
-   "move_pct": 15.7,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 71,
-   "notable": false
-  },
-  {
-   "slug": "galway-1630",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T16:30:00Z",
-   "runner": "Moscovite",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 3.04
-   },
-   "latest": {
-    "mins_to_off": 285,
-    "mid": 3.39,
-    "spread_pct": 8.8
-   },
-   "move_pct": 11.5,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 71,
-   "notable": false
-  },
-  {
-   "slug": "galway-1307",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T13:07:00Z",
-   "runner": "Illtakehimmyself",
-   "first": {
-    "mins_to_off": 307,
-    "mid": 5.39
-   },
-   "latest": {
-    "mins_to_off": 82,
-    "mid": 4.84,
-    "spread_pct": 6.2
-   },
-   "move_pct": -10.1,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 30,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1400",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T14:00:00Z",
-   "runner": "The Two Degrees",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 4.94
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 4.54,
-    "spread_pct": 6.6
-   },
-   "move_pct": -8.0,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 31,
+   "percentile": 25,
    "notable": false
   },
   {
    "slug": "wexford-1507",
    "venue": "Wexford",
    "off_utc": "2026-10-25T15:07:00Z",
-   "runner": "Crowsatedappletart",
+   "runner": "Prince Inger",
    "first": {
     "mins_to_off": 352,
-    "mid": 14.24
+    "mid": 29.24
    },
    "latest": {
-    "mins_to_off": 202,
-    "mid": 12.82,
-    "spread_pct": 23.4
+    "mins_to_off": 7,
+    "mid": 24.84,
+    "spread_pct": 16.3
    },
-   "move_pct": -10.0,
+   "move_pct": -15.0,
    "band": [
-    13,
-    20
+    20,
+    35
    ],
-   "percentile": 31,
+   "percentile": 25,
    "notable": false
   },
   {
-   "slug": "wexford-1540",
+   "slug": "wexford-1400",
    "venue": "Wexford",
-   "off_utc": "2026-10-25T15:40:00Z",
-   "runner": "Whelkeen View",
+   "off_utc": "2026-10-25T14:00:00Z",
+   "runner": "Hansel The Purse",
    "first": {
-    "mins_to_off": 355,
-    "mid": 18.83
+    "mins_to_off": 360,
+    "mid": 13.01
    },
    "latest": {
-    "mins_to_off": 235,
-    "mid": 16.95,
-    "spread_pct": 26.6
+    "mins_to_off": 0,
+    "mid": 11.2,
+    "spread_pct": 13.4
    },
-   "move_pct": -10.0,
+   "move_pct": -13.9,
    "band": [
     13,
     20
    ],
-   "percentile": 31,
+   "percentile": 26,
    "notable": false
   },
   {
@@ -2136,38 +2158,368 @@
     "mid": 3.45
    },
    "latest": {
-    "mins_to_off": 243,
-    "mid": 3.17,
-    "spread_pct": 4.7
+    "mins_to_off": 3,
+    "mid": 3.1,
+    "spread_pct": 3.2
    },
-   "move_pct": -7.9,
+   "move_pct": -10.1,
    "band": [
     3,
     5
    ],
-   "percentile": 31,
+   "percentile": 26,
+   "notable": false
+  },
+  {
+   "slug": "galway-1307",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T13:07:00Z",
+   "runner": "Dgalwaygallivantor",
+   "first": {
+    "mins_to_off": 307,
+    "mid": 10.02
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 11.98,
+    "spread_pct": 8.4
+   },
+   "move_pct": 19.5,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 73,
+   "notable": false
+  },
+  {
+   "slug": "wexford-1507",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T15:07:00Z",
+   "runner": "Esticky End",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 13.53
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 16.99,
+    "spread_pct": 6.0
+   },
+   "move_pct": 25.6,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 73,
+   "notable": false
+  },
+  {
+   "slug": "market-rasen-1548",
+   "venue": "Market Rasen",
+   "off_utc": "2026-10-25T15:48:00Z",
+   "runner": "Kourosh",
+   "first": {
+    "mins_to_off": 348,
+    "mid": 9.58
+   },
+   "latest": {
+    "mins_to_off": 3,
+    "mid": 11.48,
+    "spread_pct": 8.7
+   },
+   "move_pct": 19.8,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 73,
+   "notable": false
+  },
+  {
+   "slug": "galway-1556",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T15:56:00Z",
+   "runner": "The Iron Chef",
+   "first": {
+    "mins_to_off": 356,
+    "mid": 23.64
+   },
+   "latest": {
+    "mins_to_off": 11,
+    "mid": 30.72,
+    "spread_pct": 19.5
+   },
+   "move_pct": 30.0,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 73,
+   "notable": false
+  },
+  {
+   "slug": "market-rasen-1410",
+   "venue": "Market Rasen",
+   "off_utc": "2026-10-25T14:10:00Z",
+   "runner": "Ga Law",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 5.79
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 6.49,
+    "spread_pct": 9.2
+   },
+   "move_pct": 12.0,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 72,
+   "notable": false
+  },
+  {
+   "slug": "galway-1450",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T14:50:00Z",
+   "runner": "Space Warrior",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 8.53
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 7.49,
+    "spread_pct": 8.0
+   },
+   "move_pct": -12.2,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 28,
    "notable": false
   },
   {
    "slug": "wexford-1250",
    "venue": "Wexford",
    "off_utc": "2026-10-25T12:50:00Z",
-   "runner": "Long Branch",
+   "runner": "No Looking Back",
    "first": {
     "mins_to_off": 290,
-    "mid": 8.96
+    "mid": 10.58
    },
    "latest": {
-    "mins_to_off": 65,
-    "mid": 10.37,
-    "spread_pct": 11.5
+    "mins_to_off": 5,
+    "mid": 12.48,
+    "spread_pct": 8.0
    },
-   "move_pct": 15.7,
+   "move_pct": 18.0,
    "band": [
     8,
     13
    ],
-   "percentile": 68,
+   "percentile": 71,
+   "notable": false
+  },
+  {
+   "slug": "market-rasen-1300",
+   "venue": "Market Rasen",
+   "off_utc": "2026-10-25T13:00:00Z",
+   "runner": "Military Cross",
+   "first": {
+    "mins_to_off": 300,
+    "mid": 14.14
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 12.48,
+    "spread_pct": 8.0
+   },
+   "move_pct": -11.7,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 29,
+   "notable": false
+  },
+  {
+   "slug": "wexford-1435",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T14:35:00Z",
+   "runner": "Game Shadow",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 73.53
+   },
+   "latest": {
+    "mins_to_off": 20,
+    "mid": 56.5,
+    "spread_pct": 26.4
+   },
+   "move_pct": -23.2,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 29,
+   "notable": false
+  },
+  {
+   "slug": "galway-1450",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T14:50:00Z",
+   "runner": "Hesgonethatway",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 26.25
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 23.39,
+    "spread_pct": 12.9
+   },
+   "move_pct": -10.9,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 29,
+   "notable": false
+  },
+  {
+   "slug": "wexford-1540",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T15:40:00Z",
+   "runner": "Well Friend",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 31.5
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 27.86,
+    "spread_pct": 14.6
+   },
+   "move_pct": -11.6,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 29,
+   "notable": false
+  },
+  {
+   "slug": "galway-1630",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T16:30:00Z",
+   "runner": "Mozart's Song",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 7.96
+   },
+   "latest": {
+    "mins_to_off": 45,
+    "mid": 8.87,
+    "spread_pct": 11.2
+   },
+   "move_pct": 11.5,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 71,
+   "notable": false
+  },
+  {
+   "slug": "wexford-1325",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T13:25:00Z",
+   "runner": "Miss Doyenne",
+   "first": {
+    "mins_to_off": 325,
+    "mid": 11.11
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 12.98,
+    "spread_pct": 7.7
+   },
+   "move_pct": 16.8,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 70,
+   "notable": false
+  },
+  {
+   "slug": "wexford-1640",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T16:40:00Z",
+   "runner": "Certavi Et Vici",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 8.98
+   },
+   "latest": {
+    "mins_to_off": 55,
+    "mid": 10.48,
+    "spread_pct": 9.6
+   },
+   "move_pct": 16.7,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 70,
+   "notable": false
+  },
+  {
+   "slug": "wexford-1400",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T14:00:00Z",
+   "runner": "The Two Degrees",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 4.94
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 5.45,
+    "spread_pct": 5.5
+   },
+   "move_pct": 10.3,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 69,
+   "notable": false
+  },
+  {
+   "slug": "wexford-1250",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T12:50:00Z",
+   "runner": "Lisnagar Fortune",
+   "first": {
+    "mins_to_off": 290,
+    "mid": 70.92
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 56.5,
+    "spread_pct": 26.4
+   },
+   "move_pct": -20.3,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 32,
    "notable": false
   },
   {
@@ -2193,72 +2545,6 @@
    "notable": false
   },
   {
-   "slug": "galway-1307",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T13:07:00Z",
-   "runner": "Nine Graces",
-   "first": {
-    "mins_to_off": 307,
-    "mid": 20.49
-   },
-   "latest": {
-    "mins_to_off": 82,
-    "mid": 25.38,
-    "spread_pct": 31.7
-   },
-   "move_pct": 23.9,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 68,
-   "notable": false
-  },
-  {
-   "slug": "galway-1342",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T13:42:00Z",
-   "runner": "Piccolo Player",
-   "first": {
-    "mins_to_off": 342,
-    "mid": 21.95
-   },
-   "latest": {
-    "mins_to_off": 117,
-    "mid": 19.96,
-    "spread_pct": 10.0
-   },
-   "move_pct": -9.1,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 32,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1400",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T14:00:00Z",
-   "runner": "Bay City Boy",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 16.05
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 14.55,
-    "spread_pct": 24.0
-   },
-   "move_pct": -9.4,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 32,
-   "notable": false
-  },
-  {
    "slug": "market-rasen-1410",
    "venue": "Market Rasen",
    "off_utc": "2026-10-25T14:10:00Z",
@@ -2268,7 +2554,7 @@
     "mid": 3.27
    },
    "latest": {
-    "mins_to_off": 145,
+    "mins_to_off": 10,
     "mid": 3.05,
     "spread_pct": 3.3
    },
@@ -2281,91 +2567,157 @@
    "notable": false
   },
   {
-   "slug": "wexford-1610",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T16:10:00Z",
-   "runner": "Diamond Tipp",
+   "slug": "galway-1450",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T14:50:00Z",
+   "runner": "Inthenickoftime",
    "first": {
-    "mins_to_off": 355,
-    "mid": 13.38
+    "mins_to_off": 350,
+    "mid": 3.72
    },
    "latest": {
-    "mins_to_off": 265,
-    "mid": 12.12,
-    "spread_pct": 20.6
+    "mins_to_off": 5,
+    "mid": 3.45,
+    "spread_pct": 2.9
    },
-   "move_pct": -9.4,
+   "move_pct": -7.3,
    "band": [
-    13,
-    20
+    3,
+    5
    ],
    "percentile": 32,
    "notable": false
   },
   {
-   "slug": "galway-1307",
+   "slug": "wexford-1507",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T15:07:00Z",
+   "runner": "Chosen Shant",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 16.67
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 19.96,
+    "spread_pct": 10.0
+   },
+   "move_pct": 19.8,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 68,
+   "notable": false
+  },
+  {
+   "slug": "galway-1556",
    "venue": "Galway",
-   "off_utc": "2026-10-25T13:07:00Z",
-   "runner": "Folly Master",
+   "off_utc": "2026-10-25T15:56:00Z",
+   "runner": "Rebel Reba",
    "first": {
-    "mins_to_off": 307,
-    "mid": 14.22
+    "mins_to_off": 356,
+    "mid": 12.12
    },
    "latest": {
-    "mins_to_off": 82,
-    "mid": 16.86,
-    "spread_pct": 17.7
+    "mins_to_off": 11,
+    "mid": 10.98,
+    "spread_pct": 9.0
    },
-   "move_pct": 18.5,
+   "move_pct": -9.4,
    "band": [
-    13,
-    20
+    8,
+    13
    ],
-   "percentile": 67,
+   "percentile": 32,
    "notable": false
   },
   {
-   "slug": "wexford-1435",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T14:35:00Z",
-   "runner": "Farney Bridge",
+   "slug": "market-rasen-1300",
+   "venue": "Market Rasen",
+   "off_utc": "2026-10-25T13:00:00Z",
+   "runner": "Moore Brion",
    "first": {
-    "mins_to_off": 350,
-    "mid": 13.2
+    "mins_to_off": 300,
+    "mid": 1.91
    },
    "latest": {
-    "mins_to_off": 170,
-    "mid": 15.65,
-    "spread_pct": 16.1
+    "mins_to_off": 0,
+    "mid": 1.8,
+    "spread_pct": 1.1
    },
-   "move_pct": 18.5,
+   "move_pct": -6.0,
    "band": [
-    13,
-    20
+    1.5,
+    3
    ],
-   "percentile": 67,
+   "percentile": 33,
    "notable": false
   },
   {
-   "slug": "wexford-1435",
+   "slug": "wexford-1325",
    "venue": "Wexford",
-   "off_utc": "2026-10-25T14:35:00Z",
-   "runner": "Katoomba",
+   "off_utc": "2026-10-25T13:25:00Z",
+   "runner": "The Great Nudie",
    "first": {
-    "mins_to_off": 200,
-    "mid": 79.05
+    "mins_to_off": 325,
+    "mid": 6.98
    },
    "latest": {
-    "mins_to_off": 170,
+    "mins_to_off": 10,
+    "mid": 6.39,
+    "spread_pct": 6.3
+   },
+   "move_pct": -8.4,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 33,
+   "notable": false
+  },
+  {
+   "slug": "market-rasen-1335",
+   "venue": "Market Rasen",
+   "off_utc": "2026-10-25T13:35:00Z",
+   "runner": "Ollierob",
+   "first": {
+    "mins_to_off": 335,
+    "mid": 56.82
+   },
+   "latest": {
+    "mins_to_off": 5,
     "mid": 63.49,
     "spread_pct": 31.9
    },
-   "move_pct": -19.7,
+   "move_pct": 11.7,
    "band": [
     35,
     100
    ],
-   "percentile": 33,
+   "percentile": 67,
+   "notable": false
+  },
+  {
+   "slug": "wexford-1435",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T14:35:00Z",
+   "runner": "Llem's",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 68.26
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 76.63,
+    "spread_pct": 19.3
+   },
+   "move_pct": 12.3,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 67,
    "notable": false
   },
   {
@@ -2391,89 +2743,67 @@
    "notable": false
   },
   {
-   "slug": "galway-1630",
+   "slug": "galway-1556",
    "venue": "Galway",
-   "off_utc": "2026-10-25T16:30:00Z",
-   "runner": "Va La Vie",
+   "off_utc": "2026-10-25T15:56:00Z",
+   "runner": "Doctor Elvis",
    "first": {
-    "mins_to_off": 360,
-    "mid": 3.4
+    "mins_to_off": 356,
+    "mid": 5.25
    },
    "latest": {
-    "mins_to_off": 285,
-    "mid": 3.17,
-    "spread_pct": 4.7
+    "mins_to_off": 11,
+    "mid": 4.8,
+    "spread_pct": 4.2
    },
-   "move_pct": -6.6,
+   "move_pct": -8.5,
    "band": [
-    3,
-    5
+    5,
+    8
    ],
    "percentile": 33,
    "notable": false
   },
   {
-   "slug": "wexford-1250",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T12:50:00Z",
-   "runner": "King In Love",
-   "first": {
-    "mins_to_off": 290,
-    "mid": 55.1
-   },
-   "latest": {
-    "mins_to_off": 65,
-    "mid": 44.94,
-    "spread_pct": 53.2
-   },
-   "move_pct": -18.4,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 34,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1435",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T14:35:00Z",
-   "runner": "Game Shadow",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 73.53
-   },
-   "latest": {
-    "mins_to_off": 170,
-    "mid": 60.06,
-    "spread_pct": 41.9
-   },
-   "move_pct": -18.3,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 34,
-   "notable": false
-  },
-  {
-   "slug": "market-rasen-1513",
+   "slug": "market-rasen-1623",
    "venue": "Market Rasen",
-   "off_utc": "2026-10-25T15:13:00Z",
-   "runner": "Walkinthewoods",
+   "off_utc": "2026-10-25T16:23:00Z",
+   "runner": "Clos Du Mouche",
    "first": {
-    "mins_to_off": 358,
-    "mid": 22.47
+    "mins_to_off": 353,
+    "mid": 2.47
    },
    "latest": {
-    "mins_to_off": 208,
-    "mid": 27.29,
-    "spread_pct": 18.4
+    "mins_to_off": 38,
+    "mid": 2.32,
+    "spread_pct": 1.7
    },
-   "move_pct": 21.4,
+   "move_pct": -6.1,
    "band": [
-    20,
-    35
+    1.5,
+    3
+   ],
+   "percentile": 33,
+   "notable": false
+  },
+  {
+   "slug": "galway-1556",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T15:56:00Z",
+   "runner": "Bulgaden Castle",
+   "first": {
+    "mins_to_off": 356,
+    "mid": 1.89
+   },
+   "latest": {
+    "mins_to_off": 11,
+    "mid": 2.0,
+    "spread_pct": 2.0
+   },
+   "move_pct": 5.8,
+   "band": [
+    1.5,
+    3
    ],
    "percentile": 66,
    "notable": false
@@ -2482,44 +2812,88 @@
    "slug": "galway-1630",
    "venue": "Galway",
    "off_utc": "2026-10-25T16:30:00Z",
-   "runner": "Mozart's Song",
+   "runner": "Nolans Fair Day",
    "first": {
     "mins_to_off": 360,
-    "mid": 7.96
+    "mid": 11.18
    },
    "latest": {
-    "mins_to_off": 285,
-    "mid": 8.6,
-    "spread_pct": 4.6
+    "mins_to_off": 45,
+    "mid": 12.71,
+    "spread_pct": 11.7
    },
-   "move_pct": 8.1,
+   "move_pct": 13.7,
    "band": [
-    5,
-    8
+    8,
+    13
    ],
    "percentile": 66,
    "notable": false
   },
   {
-   "slug": "market-rasen-1300",
-   "venue": "Market Rasen",
-   "off_utc": "2026-10-25T13:00:00Z",
-   "runner": "Kaldoun Des Rocs",
+   "slug": "wexford-1640",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T16:40:00Z",
+   "runner": "Socrates Smiled",
    "first": {
-    "mins_to_off": 300,
-    "mid": 5.15
+    "mins_to_off": 355,
+    "mid": 2.04
    },
    "latest": {
-    "mins_to_off": 75,
-    "mid": 5.55,
-    "spread_pct": 1.8
+    "mins_to_off": 55,
+    "mid": 1.92,
+    "spread_pct": 2.1
    },
-   "move_pct": 7.9,
+   "move_pct": -5.9,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 34,
+   "notable": false
+  },
+  {
+   "slug": "galway-1232",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T12:32:00Z",
+   "runner": "Will Do",
+   "first": {
+    "mins_to_off": 272,
+    "mid": 5.24
+   },
+   "latest": {
+    "mins_to_off": 2,
+    "mid": 4.85,
+    "spread_pct": 2.0
+   },
+   "move_pct": -7.4,
    "band": [
     5,
     8
    ],
-   "percentile": 65,
+   "percentile": 35,
+   "notable": false
+  },
+  {
+   "slug": "market-rasen-1335",
+   "venue": "Market Rasen",
+   "off_utc": "2026-10-25T13:35:00Z",
+   "runner": "Minella Buoy",
+   "first": {
+    "mins_to_off": 335,
+    "mid": 3.72
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 3.5,
+    "spread_pct": 2.9
+   },
+   "move_pct": -5.9,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 35,
    "notable": false
   },
   {
@@ -2545,72 +2919,6 @@
    "notable": false
   },
   {
-   "slug": "wexford-1435",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T14:35:00Z",
-   "runner": "Backinbusiness",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 39.14
-   },
-   "latest": {
-    "mins_to_off": 170,
-    "mid": 42.92,
-    "spread_pct": 76.6
-   },
-   "move_pct": 9.7,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 65,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1507",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T15:07:00Z",
-   "runner": "Prince Inger",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 29.24
-   },
-   "latest": {
-    "mins_to_off": 202,
-    "mid": 27.4,
-    "spread_pct": 11.0
-   },
-   "move_pct": -6.3,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 35,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1507",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T15:07:00Z",
-   "runner": "Rathbawn Soldier",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 18.81
-   },
-   "latest": {
-    "mins_to_off": 202,
-    "mid": 17.5,
-    "spread_pct": 34.4
-   },
-   "move_pct": -7.0,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 35,
-   "notable": false
-  },
-  {
    "slug": "wexford-1640",
    "venue": "Wexford",
    "off_utc": "2026-10-25T16:40:00Z",
@@ -2620,11 +2928,11 @@
     "mid": 24.01
    },
    "latest": {
-    "mins_to_off": 295,
-    "mid": 22.6,
-    "spread_pct": 26.4
+    "mins_to_off": 55,
+    "mid": 22.4,
+    "spread_pct": 13.3
    },
-   "move_pct": -5.9,
+   "move_pct": -6.7,
    "band": [
     20,
     35
@@ -2633,67 +2941,67 @@
    "notable": false
   },
   {
-   "slug": "market-rasen-1335",
-   "venue": "Market Rasen",
-   "off_utc": "2026-10-25T13:35:00Z",
-   "runner": "Elm Creek",
+   "slug": "galway-1307",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T13:07:00Z",
+   "runner": "Folly Master",
    "first": {
-    "mins_to_off": 320,
-    "mid": 62.89
+    "mins_to_off": 307,
+    "mid": 14.22
    },
    "latest": {
-    "mins_to_off": 110,
-    "mid": 52.49,
-    "spread_pct": 39.8
+    "mins_to_off": 7,
+    "mid": 16.45,
+    "spread_pct": 12.2
    },
-   "move_pct": -16.5,
+   "move_pct": 15.6,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 64,
+   "notable": false
+  },
+  {
+   "slug": "wexford-1435",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T14:35:00Z",
+   "runner": "Katoomba",
+   "first": {
+    "mins_to_off": 200,
+    "mid": 79.05
+   },
+   "latest": {
+    "mins_to_off": 20,
+    "mid": 85.84,
+    "spread_pct": 28.9
+   },
+   "move_pct": 8.6,
    "band": [
     35,
     100
    ],
-   "percentile": 36,
+   "percentile": 64,
    "notable": false
   },
   {
-   "slug": "wexford-1540",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T15:40:00Z",
-   "runner": "Coffeemorninggirls",
+   "slug": "galway-1556",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T15:56:00Z",
+   "runner": "Fergy Five",
    "first": {
-    "mins_to_off": 355,
-    "mid": 22.12
+    "mins_to_off": 101,
+    "mid": 90.91
    },
    "latest": {
-    "mins_to_off": 235,
-    "mid": 20.88,
-    "spread_pct": 26.3
+    "mins_to_off": 11,
+    "mid": 99.01,
+    "spread_pct": 50.4
    },
-   "move_pct": -5.6,
+   "move_pct": 8.9,
    "band": [
-    20,
-    35
-   ],
-   "percentile": 36,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1540",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T15:40:00Z",
-   "runner": "Huntin Boots",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 2.8
-   },
-   "latest": {
-    "mins_to_off": 235,
-    "mid": 2.93,
-    "spread_pct": 4.8
-   },
-   "move_pct": 4.6,
-   "band": [
-    1.5,
-    3
+    35,
+    100
    ],
    "percentile": 64,
    "notable": false
@@ -2702,308 +3010,22 @@
    "slug": "wexford-1610",
    "venue": "Wexford",
    "off_utc": "2026-10-25T16:10:00Z",
-   "runner": "Somersby Roost",
+   "runner": "Baymount",
    "first": {
     "mins_to_off": 355,
-    "mid": 13.53
+    "mid": 3.35
    },
    "latest": {
-    "mins_to_off": 265,
-    "mid": 15.75,
-    "spread_pct": 25.3
+    "mins_to_off": 25,
+    "mid": 3.6,
+    "spread_pct": 2.8
    },
-   "move_pct": 16.4,
+   "move_pct": 7.5,
    "band": [
-    13,
-    20
+    3,
+    5
    ],
    "percentile": 64,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1250",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T12:50:00Z",
-   "runner": "No Looking Back",
-   "first": {
-    "mins_to_off": 290,
-    "mid": 10.58
-   },
-   "latest": {
-    "mins_to_off": 65,
-    "mid": 9.92,
-    "spread_pct": 11.1
-   },
-   "move_pct": -6.3,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 37,
-   "notable": false
-  },
-  {
-   "slug": "galway-1417",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T14:17:00Z",
-   "runner": "Holly's Thunder",
-   "first": {
-    "mins_to_off": 347,
-    "mid": 8.84
-   },
-   "latest": {
-    "mins_to_off": 152,
-    "mid": 9.81,
-    "spread_pct": 13.3
-   },
-   "move_pct": 10.9,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 63,
-   "notable": false
-  },
-  {
-   "slug": "galway-1450",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T14:50:00Z",
-   "runner": "Castleheath",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 5.08
-   },
-   "latest": {
-    "mins_to_off": 185,
-    "mid": 5.4,
-    "spread_pct": 3.7
-   },
-   "move_pct": 6.2,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 62,
-   "notable": false
-  },
-  {
-   "slug": "galway-1417",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T14:17:00Z",
-   "runner": "Esteio",
-   "first": {
-    "mins_to_off": 347,
-    "mid": 37.95
-   },
-   "latest": {
-    "mins_to_off": 152,
-    "mid": 32.89,
-    "spread_pct": 45.6
-   },
-   "move_pct": -13.3,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 39,
-   "notable": false
-  },
-  {
-   "slug": "galway-1417",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T14:17:00Z",
-   "runner": "Light Up The Dark",
-   "first": {
-    "mins_to_off": 347,
-    "mid": 2.06
-   },
-   "latest": {
-    "mins_to_off": 152,
-    "mid": 1.97,
-    "spread_pct": 5.1
-   },
-   "move_pct": -4.3,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 39,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1435",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T14:35:00Z",
-   "runner": "Jessbers Wish",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 7.67
-   },
-   "latest": {
-    "mins_to_off": 170,
-    "mid": 8.07,
-    "spread_pct": 12.4
-   },
-   "move_pct": 5.2,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 61,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1507",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T15:07:00Z",
-   "runner": "Jumbos Jet",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 8.54
-   },
-   "latest": {
-    "mins_to_off": 202,
-    "mid": 9.34,
-    "spread_pct": 22.5
-   },
-   "move_pct": 9.3,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 61,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1507",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T15:07:00Z",
-   "runner": "River Vale",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 13.84
-   },
-   "latest": {
-    "mins_to_off": 202,
-    "mid": 13.2,
-    "spread_pct": 30.4
-   },
-   "move_pct": -4.6,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 39,
-   "notable": false
-  },
-  {
-   "slug": "market-rasen-1548",
-   "venue": "Market Rasen",
-   "off_utc": "2026-10-25T15:48:00Z",
-   "runner": "Kourosh",
-   "first": {
-    "mins_to_off": 348,
-    "mid": 9.58
-   },
-   "latest": {
-    "mins_to_off": 243,
-    "mid": 10.48,
-    "spread_pct": 9.6
-   },
-   "move_pct": 9.3,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 61,
-   "notable": false
-  },
-  {
-   "slug": "galway-1556",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T15:56:00Z",
-   "runner": "Suresuresure",
-   "first": {
-    "mins_to_off": 356,
-    "mid": 22.99
-   },
-   "latest": {
-    "mins_to_off": 251,
-    "mid": 22.27,
-    "spread_pct": 29.1
-   },
-   "move_pct": -3.1,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 39,
-   "notable": false
-  },
-  {
-   "slug": "market-rasen-1335",
-   "venue": "Market Rasen",
-   "off_utc": "2026-10-25T13:35:00Z",
-   "runner": "Ollierob",
-   "first": {
-    "mins_to_off": 335,
-    "mid": 56.82
-   },
-   "latest": {
-    "mins_to_off": 110,
-    "mid": 49.38,
-    "spread_pct": 36.2
-   },
-   "move_pct": -13.1,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 40,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1435",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T14:35:00Z",
-   "runner": "Llem's",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 68.26
-   },
-   "latest": {
-    "mins_to_off": 170,
-    "mid": 59.7,
-    "spread_pct": 64.8
-   },
-   "move_pct": -12.5,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 40,
-   "notable": false
-  },
-  {
-   "slug": "market-rasen-1441",
-   "venue": "Market Rasen",
-   "off_utc": "2026-10-25T14:41:00Z",
-   "runner": "Paper Mill",
-   "first": {
-    "mins_to_off": 356,
-    "mid": 2.83
-   },
-   "latest": {
-    "mins_to_off": 176,
-    "mid": 2.72,
-    "spread_pct": 7.4
-   },
-   "move_pct": -4.0,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 40,
    "notable": false
   },
   {
@@ -3016,80 +3038,432 @@
     "mid": 9.21
    },
    "latest": {
-    "mins_to_off": 265,
-    "mid": 10.02,
-    "spread_pct": 18.0
+    "mins_to_off": 25,
+    "mid": 8.58,
+    "spread_pct": 9.4
    },
-   "move_pct": 8.8,
+   "move_pct": -6.8,
    "band": [
     8,
     13
    ],
-   "percentile": 60,
+   "percentile": 36,
    "notable": false
   },
   {
-   "slug": "galway-1450",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T14:50:00Z",
-   "runner": "Space Warrior",
+   "slug": "wexford-1640",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T16:40:00Z",
+   "runner": "Payslip",
    "first": {
-    "mins_to_off": 350,
-    "mid": 8.53
+    "mins_to_off": 355,
+    "mid": 3.57
    },
    "latest": {
-    "mins_to_off": 185,
-    "mid": 8.18,
-    "spread_pct": 9.8
+    "mins_to_off": 55,
+    "mid": 3.85,
+    "spread_pct": 2.6
    },
-   "move_pct": -4.0,
+   "move_pct": 7.8,
    "band": [
-    8,
-    13
+    3,
+    5
    ],
-   "percentile": 41,
-   "notable": false
-  },
-  {
-   "slug": "galway-1556",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T15:56:00Z",
-   "runner": "Always Scoring",
-   "first": {
-    "mins_to_off": 281,
-    "mid": 64.94
-   },
-   "latest": {
-    "mins_to_off": 251,
-    "mid": 57.14,
-    "spread_pct": 50.9
-   },
-   "move_pct": -12.0,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 41,
+   "percentile": 64,
    "notable": false
   },
   {
    "slug": "wexford-1250",
    "venue": "Wexford",
    "off_utc": "2026-10-25T12:50:00Z",
-   "runner": "Lisnagar Fortune",
+   "runner": "Caher Roes Den",
    "first": {
     "mins_to_off": 290,
-    "mid": 70.92
+    "mid": 3.47
    },
    "latest": {
-    "mins_to_off": 65,
-    "mid": 62.7,
-    "spread_pct": 67.0
+    "mins_to_off": 5,
+    "mid": 3.7,
+    "spread_pct": 2.7
    },
-   "move_pct": -11.6,
+   "move_pct": 6.6,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 63,
+   "notable": false
+  },
+  {
+   "slug": "market-rasen-1335",
+   "venue": "Market Rasen",
+   "off_utc": "2026-10-25T13:35:00Z",
+   "runner": "Elm Creek",
+   "first": {
+    "mins_to_off": 320,
+    "mid": 62.89
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 53.33,
+    "spread_pct": 22.1
+   },
+   "move_pct": -15.2,
    "band": [
     35,
     100
+   ],
+   "percentile": 37,
+   "notable": false
+  },
+  {
+   "slug": "galway-1417",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T14:17:00Z",
+   "runner": "Esteio",
+   "first": {
+    "mins_to_off": 347,
+    "mid": 37.95
+   },
+   "latest": {
+    "mins_to_off": 2,
+    "mid": 32.1,
+    "spread_pct": 21.8
+   },
+   "move_pct": -15.4,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 37,
+   "notable": false
+  },
+  {
+   "slug": "market-rasen-1513",
+   "venue": "Market Rasen",
+   "off_utc": "2026-10-25T15:13:00Z",
+   "runner": "Gambie Tiep",
+   "first": {
+    "mins_to_off": 358,
+    "mid": 4.14
+   },
+   "latest": {
+    "mins_to_off": 13,
+    "mid": 3.92,
+    "spread_pct": 1.3
+   },
+   "move_pct": -5.3,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 37,
+   "notable": false
+  },
+  {
+   "slug": "galway-1520",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T15:20:00Z",
+   "runner": "Tradonthebay",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 64.31
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 55.25,
+    "spread_pct": 30.5
+   },
+   "move_pct": -14.1,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 38,
+   "notable": false
+  },
+  {
+   "slug": "wexford-1540",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T15:40:00Z",
+   "runner": "Whelkeen View",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 18.83
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 21.39,
+    "spread_pct": 14.0
+   },
+   "move_pct": 13.6,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 62,
+   "notable": false
+  },
+  {
+   "slug": "wexford-1610",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T16:10:00Z",
+   "runner": "Somersby Roost",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 13.53
+   },
+   "latest": {
+    "mins_to_off": 25,
+    "mid": 15.36,
+    "spread_pct": 19.5
+   },
+   "move_pct": 13.5,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 62,
+   "notable": false
+  },
+  {
+   "slug": "galway-1307",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T13:07:00Z",
+   "runner": "Nine Graces",
+   "first": {
+    "mins_to_off": 307,
+    "mid": 20.49
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 23.81,
+    "spread_pct": 16.8
+   },
+   "move_pct": 16.2,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 61,
+   "notable": false
+  },
+  {
+   "slug": "market-rasen-1410",
+   "venue": "Market Rasen",
+   "off_utc": "2026-10-25T14:10:00Z",
+   "runner": "Tommy's Oscar",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 4.9
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 4.7,
+    "spread_pct": 4.3
+   },
+   "move_pct": -4.1,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 39,
+   "notable": false
+  },
+  {
+   "slug": "galway-1556",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T15:56:00Z",
+   "runner": "Bois D'angos",
+   "first": {
+    "mins_to_off": 356,
+    "mid": 16.93
+   },
+   "latest": {
+    "mins_to_off": 11,
+    "mid": 16.25,
+    "spread_pct": 3.1
+   },
+   "move_pct": -4.1,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 39,
+   "notable": false
+  },
+  {
+   "slug": "wexford-1400",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T14:00:00Z",
+   "runner": "Burleigh Beach",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 30.21
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 34.78,
+    "spread_pct": 17.2
+   },
+   "move_pct": 15.1,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 60,
+   "notable": false
+  },
+  {
+   "slug": "wexford-1325",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T13:25:00Z",
+   "runner": "Choccabloc",
+   "first": {
+    "mins_to_off": 325,
+    "mid": 40.4
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 35.59,
+    "spread_pct": 22.3
+   },
+   "move_pct": -11.9,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 41,
+   "notable": false
+  },
+  {
+   "slug": "galway-1232",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T12:32:00Z",
+   "runner": "Mint Boy",
+   "first": {
+    "mins_to_off": 272,
+    "mid": 10.46
+   },
+   "latest": {
+    "mins_to_off": 2,
+    "mid": 11.2,
+    "spread_pct": 13.4
+   },
+   "move_pct": 7.1,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 58,
+   "notable": false
+  },
+  {
+   "slug": "galway-1307",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T13:07:00Z",
+   "runner": "Crecora Hills",
+   "first": {
+    "mins_to_off": 307,
+    "mid": 5.09
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 4.9,
+    "spread_pct": 4.1
+   },
+   "move_pct": -3.8,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 42,
+   "notable": false
+  },
+  {
+   "slug": "wexford-1325",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T13:25:00Z",
+   "runner": "Watch The Weather",
+   "first": {
+    "mins_to_off": 325,
+    "mid": 5.83
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 6.05,
+    "spread_pct": 5.0
+   },
+   "move_pct": 3.7,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 58,
+   "notable": false
+  },
+  {
+   "slug": "galway-1417",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T14:17:00Z",
+   "runner": "Sanctity Of Space",
+   "first": {
+    "mins_to_off": 347,
+    "mid": 56.34
+   },
+   "latest": {
+    "mins_to_off": 2,
+    "mid": 50.13,
+    "spread_pct": 17.7
+   },
+   "move_pct": -11.0,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 42,
+   "notable": false
+  },
+  {
+   "slug": "market-rasen-1441",
+   "venue": "Market Rasen",
+   "off_utc": "2026-10-25T14:41:00Z",
+   "runner": "Rivers Corner",
+   "first": {
+    "mins_to_off": 356,
+    "mid": 4.74
+   },
+   "latest": {
+    "mins_to_off": 11,
+    "mid": 4.95,
+    "spread_pct": 2.0
+   },
+   "move_pct": 4.5,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 58,
+   "notable": false
+  },
+  {
+   "slug": "wexford-1507",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T15:07:00Z",
+   "runner": "Crowsatedappletart",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 14.24
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 13.98,
+    "spread_pct": 7.1
+   },
+   "move_pct": -1.9,
+   "band": [
+    13,
+    20
    ],
    "percentile": 42,
    "notable": false
@@ -3098,22 +3472,44 @@
    "slug": "wexford-1540",
    "venue": "Wexford",
    "off_utc": "2026-10-25T15:40:00Z",
-   "runner": "El Bilo",
+   "runner": "Ballyhoura",
    "first": {
-    "mins_to_off": 340,
-    "mid": 80.97
+    "mins_to_off": 355,
+    "mid": 61.16
    },
    "latest": {
-    "mins_to_off": 235,
-    "mid": 71.68,
-    "spread_pct": 160.7
+    "mins_to_off": 10,
+    "mid": 63.49,
+    "spread_pct": 31.9
    },
-   "move_pct": -11.5,
+   "move_pct": 3.8,
    "band": [
     35,
     100
    ],
-   "percentile": 42,
+   "percentile": 58,
+   "notable": false
+  },
+  {
+   "slug": "market-rasen-1548",
+   "venue": "Market Rasen",
+   "off_utc": "2026-10-25T15:48:00Z",
+   "runner": "Klapton Boy",
+   "first": {
+    "mins_to_off": 348,
+    "mid": 7.1
+   },
+   "latest": {
+    "mins_to_off": 3,
+    "mid": 7.39,
+    "spread_pct": 5.4
+   },
+   "move_pct": 4.2,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 58,
    "notable": false
   },
   {
@@ -3139,72 +3535,6 @@
    "notable": false
   },
   {
-   "slug": "galway-1556",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T15:56:00Z",
-   "runner": "The Iron Chef",
-   "first": {
-    "mins_to_off": 356,
-    "mid": 23.64
-   },
-   "latest": {
-    "mins_to_off": 251,
-    "mid": 26.7,
-    "spread_pct": 45.1
-   },
-   "move_pct": 13.0,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 58,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1640",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T16:40:00Z",
-   "runner": "Lake Pippaway",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 33.61
-   },
-   "latest": {
-    "mins_to_off": 295,
-    "mid": 33.5,
-    "spread_pct": 50.8
-   },
-   "move_pct": -0.3,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 42,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1250",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T12:50:00Z",
-   "runner": "Caher Roes Den",
-   "first": {
-    "mins_to_off": 290,
-    "mid": 3.47
-   },
-   "latest": {
-    "mins_to_off": 65,
-    "mid": 3.6,
-    "spread_pct": 2.8
-   },
-   "move_pct": 3.7,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 57,
-   "notable": false
-  },
-  {
    "slug": "galway-1417",
    "venue": "Galway",
    "off_utc": "2026-10-25T14:17:00Z",
@@ -3227,23 +3557,45 @@
    "notable": false
   },
   {
-   "slug": "wexford-1435",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T14:35:00Z",
-   "runner": "Lirakali",
+   "slug": "galway-1450",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T14:50:00Z",
+   "runner": "Castleheath",
    "first": {
     "mins_to_off": 350,
-    "mid": 3.19
+    "mid": 5.08
    },
    "latest": {
-    "mins_to_off": 170,
-    "mid": 3.32,
-    "spread_pct": 7.5
+    "mins_to_off": 5,
+    "mid": 4.9,
+    "spread_pct": 4.1
    },
-   "move_pct": 4.0,
+   "move_pct": -3.6,
    "band": [
-    3,
-    5
+    5,
+    8
+   ],
+   "percentile": 43,
+   "notable": false
+  },
+  {
+   "slug": "galway-1450",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T14:50:00Z",
+   "runner": "Rockbrook",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 22.65
+   },
+   "latest": {
+    "mins_to_off": 5,
+    "mid": 25.41,
+    "spread_pct": 12.0
+   },
+   "move_pct": 12.2,
+   "band": [
+    20,
+    35
    ],
    "percentile": 57,
    "notable": false
@@ -3271,421 +3623,25 @@
    "notable": false
   },
   {
-   "slug": "wexford-1540",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T15:40:00Z",
-   "runner": "Reilly's Pocket",
-   "first": {
-    "mins_to_off": 295,
-    "mid": 89.29
-   },
-   "latest": {
-    "mins_to_off": 235,
-    "mid": 80.0,
-    "spread_pct": 237.5
-   },
-   "move_pct": -10.4,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 43,
-   "notable": false
-  },
-  {
-   "slug": "galway-1556",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T15:56:00Z",
-   "runner": "Rebel Reba",
-   "first": {
-    "mins_to_off": 356,
-    "mid": 12.12
-   },
-   "latest": {
-    "mins_to_off": 251,
-    "mid": 11.81,
-    "spread_pct": 25.3
-   },
-   "move_pct": -2.5,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 43,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1610",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T16:10:00Z",
-   "runner": "Dromana Mist",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 25.25
-   },
-   "latest": {
-    "mins_to_off": 265,
-    "mid": 25.38,
-    "spread_pct": 43.5
-   },
-   "move_pct": 0.5,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 43,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1640",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T16:40:00Z",
-   "runner": "B U Train",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 19.38
-   },
-   "latest": {
-    "mins_to_off": 295,
-    "mid": 19.1,
-    "spread_pct": 18.3
-   },
-   "move_pct": -1.4,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 43,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1640",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T16:40:00Z",
-   "runner": "Certavi Et Vici",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 8.98
-   },
-   "latest": {
-    "mins_to_off": 295,
-    "mid": 8.76,
-    "spread_pct": 13.7
-   },
-   "move_pct": -2.5,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 43,
-   "notable": false
-  },
-  {
-   "slug": "market-rasen-1410",
+   "slug": "market-rasen-1335",
    "venue": "Market Rasen",
-   "off_utc": "2026-10-25T14:10:00Z",
-   "runner": "Mars Harper",
+   "off_utc": "2026-10-25T13:35:00Z",
+   "runner": "Solar Jet",
    "first": {
-    "mins_to_off": 355,
-    "mid": 37.81
+    "mins_to_off": 260,
+    "mid": 84.39
    },
    "latest": {
-    "mins_to_off": 145,
-    "mid": 34.31,
-    "spread_pct": 29.1
+    "mins_to_off": 5,
+    "mid": 76.63,
+    "spread_pct": 19.3
    },
-   "move_pct": -9.3,
+   "move_pct": -9.2,
    "band": [
     35,
     100
    ],
    "percentile": 44,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1507",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T15:07:00Z",
-   "runner": "Chosen Shant",
-   "first": {
-    "mins_to_off": 352,
-    "mid": 16.67
-   },
-   "latest": {
-    "mins_to_off": 202,
-    "mid": 18.07,
-    "spread_pct": 52.5
-   },
-   "move_pct": 8.4,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 56,
-   "notable": false
-  },
-  {
-   "slug": "galway-1556",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T15:56:00Z",
-   "runner": "Bulgaden Castle",
-   "first": {
-    "mins_to_off": 356,
-    "mid": 1.89
-   },
-   "latest": {
-    "mins_to_off": 251,
-    "mid": 1.92,
-    "spread_pct": 0.5
-   },
-   "move_pct": 1.3,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 56,
-   "notable": false
-  },
-  {
-   "slug": "market-rasen-1623",
-   "venue": "Market Rasen",
-   "off_utc": "2026-10-25T16:23:00Z",
-   "runner": "Soviet Sailor",
-   "first": {
-    "mins_to_off": 353,
-    "mid": 13.93
-   },
-   "latest": {
-    "mins_to_off": 278,
-    "mid": 15.15,
-    "spread_pct": 16.5
-   },
-   "move_pct": 8.8,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 56,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1250",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T12:50:00Z",
-   "runner": "Kelya",
-   "first": {
-    "mins_to_off": 290,
-    "mid": 24.36
-   },
-   "latest": {
-    "mins_to_off": 65,
-    "mid": 26.77,
-    "spread_pct": 33.8
-   },
-   "move_pct": 9.9,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 55,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1250",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T12:50:00Z",
-   "runner": "Maverick Mack",
-   "first": {
-    "mins_to_off": 290,
-    "mid": 26.7
-   },
-   "latest": {
-    "mins_to_off": 65,
-    "mid": 29.46,
-    "spread_pct": 27.3
-   },
-   "move_pct": 10.3,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 55,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1325",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T13:25:00Z",
-   "runner": "Miss Doyenne",
-   "first": {
-    "mins_to_off": 325,
-    "mid": 11.11
-   },
-   "latest": {
-    "mins_to_off": 100,
-    "mid": 11.7,
-    "spread_pct": 12.8
-   },
-   "move_pct": 5.3,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 55,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1325",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T13:25:00Z",
-   "runner": "The Great Nudie",
-   "first": {
-    "mins_to_off": 325,
-    "mid": 6.98
-   },
-   "latest": {
-    "mins_to_off": 100,
-    "mid": 6.79,
-    "spread_pct": 5.8
-   },
-   "move_pct": -2.6,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 45,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1400",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T14:00:00Z",
-   "runner": "Toll Road",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 6.7
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 6.89,
-    "spread_pct": 8.7
-   },
-   "move_pct": 2.7,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 55,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1540",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T15:40:00Z",
-   "runner": "Square Necker",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 2.21
-   },
-   "latest": {
-    "mins_to_off": 235,
-    "mid": 2.23,
-    "spread_pct": 6.3
-   },
-   "move_pct": 1.0,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 55,
-   "notable": false
-  },
-  {
-   "slug": "market-rasen-1548",
-   "venue": "Market Rasen",
-   "off_utc": "2026-10-25T15:48:00Z",
-   "runner": "Character Testing",
-   "first": {
-    "mins_to_off": 348,
-    "mid": 4.55
-   },
-   "latest": {
-    "mins_to_off": 243,
-    "mid": 4.5,
-    "spread_pct": 4.5
-   },
-   "move_pct": -1.1,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 45,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1610",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T16:10:00Z",
-   "runner": "Baymount",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 3.35
-   },
-   "latest": {
-    "mins_to_off": 265,
-    "mid": 3.45,
-    "spread_pct": 5.8
-   },
-   "move_pct": 3.0,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 55,
-   "notable": false
-  },
-  {
-   "slug": "market-rasen-1623",
-   "venue": "Market Rasen",
-   "off_utc": "2026-10-25T16:23:00Z",
-   "runner": "Ezenli",
-   "first": {
-    "mins_to_off": 353,
-    "mid": 13.13
-   },
-   "latest": {
-    "mins_to_off": 278,
-    "mid": 14.2,
-    "spread_pct": 10.5
-   },
-   "move_pct": 8.2,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 55,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1325",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T13:25:00Z",
-   "runner": "Duffys Hodey",
-   "first": {
-    "mins_to_off": 325,
-    "mid": 26.04
-   },
-   "latest": {
-    "mins_to_off": 100,
-    "mid": 26.67,
-    "spread_pct": 22.7
-   },
-   "move_pct": 2.4,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 46,
    "notable": false
   },
   {
@@ -3698,55 +3654,99 @@
     "mid": 3.07
    },
    "latest": {
-    "mins_to_off": 208,
-    "mid": 3.15,
-    "spread_pct": 3.2
+    "mins_to_off": 13,
+    "mid": 3.01,
+    "spread_pct": 2.3
    },
-   "move_pct": 2.5,
+   "move_pct": -1.9,
    "band": [
     3,
     5
    ],
-   "percentile": 54,
+   "percentile": 44,
+   "notable": false
+  },
+  {
+   "slug": "galway-1307",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T13:07:00Z",
+   "runner": "Illtakehimmyself",
+   "first": {
+    "mins_to_off": 307,
+    "mid": 5.39
+   },
+   "latest": {
+    "mins_to_off": 7,
+    "mid": 5.25,
+    "spread_pct": 5.7
+   },
+   "move_pct": -2.7,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 45,
+   "notable": false
+  },
+  {
+   "slug": "galway-1342",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T13:42:00Z",
+   "runner": "Piccolo Player",
+   "first": {
+    "mins_to_off": 342,
+    "mid": 21.95
+   },
+   "latest": {
+    "mins_to_off": 12,
+    "mid": 22.4,
+    "spread_pct": 13.3
+   },
+   "move_pct": 2.0,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 45,
    "notable": false
   },
   {
    "slug": "galway-1556",
    "venue": "Galway",
    "off_utc": "2026-10-25T15:56:00Z",
-   "runner": "Doctor Elvis",
+   "runner": "Kiltinan",
    "first": {
-    "mins_to_off": 356,
-    "mid": 5.25
+    "mins_to_off": 191,
+    "mid": 86.58
    },
    "latest": {
-    "mins_to_off": 251,
-    "mid": 5.15,
-    "spread_pct": 2.0
+    "mins_to_off": 56,
+    "mid": 86.58,
+    "spread_pct": 75.0
    },
-   "move_pct": -1.8,
+   "move_pct": 0.0,
    "band": [
-    5,
-    8
+    35,
+    100
    ],
-   "percentile": 46,
+   "percentile": 55,
    "notable": false
   },
   {
-   "slug": "galway-1630",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T16:30:00Z",
-   "runner": "Nolans Fair Day",
+   "slug": "wexford-1250",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T12:50:00Z",
+   "runner": "Long Branch",
    "first": {
-    "mins_to_off": 360,
-    "mid": 11.18
+    "mins_to_off": 290,
+    "mid": 8.96
    },
    "latest": {
-    "mins_to_off": 285,
-    "mid": 11.7,
-    "spread_pct": 12.8
+    "mins_to_off": 5,
+    "mid": 9.39,
+    "spread_pct": 4.2
    },
-   "move_pct": 4.7,
+   "move_pct": 4.8,
    "band": [
     8,
     13
@@ -3755,86 +3755,86 @@
    "notable": false
   },
   {
-   "slug": "wexford-1325",
+   "slug": "wexford-1435",
    "venue": "Wexford",
-   "off_utc": "2026-10-25T13:25:00Z",
-   "runner": "Watch The Weather",
+   "off_utc": "2026-10-25T14:35:00Z",
+   "runner": "Lirakali",
    "first": {
-    "mins_to_off": 325,
-    "mid": 5.83
+    "mins_to_off": 350,
+    "mid": 3.19
    },
    "latest": {
-    "mins_to_off": 100,
-    "mid": 5.75,
-    "spread_pct": 5.2
+    "mins_to_off": 5,
+    "mid": 3.27,
+    "spread_pct": 1.5
    },
-   "move_pct": -1.4,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 47,
-   "notable": false
-  },
-  {
-   "slug": "market-rasen-1410",
-   "venue": "Market Rasen",
-   "off_utc": "2026-10-25T14:10:00Z",
-   "runner": "Tommy's Oscar",
-   "first": {
-    "mins_to_off": 355,
-    "mid": 4.9
-   },
-   "latest": {
-    "mins_to_off": 145,
-    "mid": 4.9,
-    "spread_pct": 4.1
-   },
-   "move_pct": 0.0,
+   "move_pct": 2.6,
    "band": [
     3,
     5
    ],
-   "percentile": 47,
+   "percentile": 54,
    "notable": false
   },
   {
-   "slug": "wexford-1435",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T14:35:00Z",
-   "runner": "Grey Balls Of Fire",
+   "slug": "market-rasen-1623",
+   "venue": "Market Rasen",
+   "off_utc": "2026-10-25T16:23:00Z",
+   "runner": "Ezenli",
    "first": {
-    "mins_to_off": 350,
-    "mid": 34.25
+    "mins_to_off": 353,
+    "mid": 13.13
    },
    "latest": {
-    "mins_to_off": 170,
-    "mid": 37.11,
-    "spread_pct": 32.3
+    "mins_to_off": 38,
+    "mid": 13.21,
+    "spread_pct": 11.4
    },
-   "move_pct": 8.3,
+   "move_pct": 0.6,
    "band": [
-    20,
-    35
+    13,
+    20
+   ],
+   "percentile": 46,
+   "notable": false
+  },
+  {
+   "slug": "wexford-1540",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T15:40:00Z",
+   "runner": "El Bilo",
+   "first": {
+    "mins_to_off": 340,
+    "mid": 80.97
+   },
+   "latest": {
+    "mins_to_off": 25,
+    "mid": 80.0,
+    "spread_pct": 75.8
+   },
+   "move_pct": -1.2,
+   "band": [
+    35,
+    100
    ],
    "percentile": 53,
    "notable": false
   },
   {
-   "slug": "galway-1450",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T14:50:00Z",
-   "runner": "Inthenickoftime",
+   "slug": "market-rasen-1548",
+   "venue": "Market Rasen",
+   "off_utc": "2026-10-25T15:48:00Z",
+   "runner": "Character Testing",
    "first": {
-    "mins_to_off": 350,
-    "mid": 3.72
+    "mins_to_off": 348,
+    "mid": 4.55
    },
    "latest": {
-    "mins_to_off": 185,
-    "mid": 3.7,
-    "spread_pct": 2.7
+    "mins_to_off": 3,
+    "mid": 4.55,
+    "spread_pct": 2.2
    },
-   "move_pct": -0.6,
+   "move_pct": 0.0,
    "band": [
     3,
     5
@@ -3852,55 +3852,11 @@
     "mid": 2.94
    },
    "latest": {
-    "mins_to_off": 208,
-    "mid": 2.94,
-    "spread_pct": 7.1
+    "mins_to_off": 13,
+    "mid": 2.89,
+    "spread_pct": 0.7
    },
-   "move_pct": 0.1,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 53,
-   "notable": false
-  },
-  {
-   "slug": "galway-1307",
-   "venue": "Galway",
-   "off_utc": "2026-10-25T13:07:00Z",
-   "runner": "Dgalwaygallivantor",
-   "first": {
-    "mins_to_off": 307,
-    "mid": 10.02
-   },
-   "latest": {
-    "mins_to_off": 82,
-    "mid": 10.37,
-    "spread_pct": 11.5
-   },
-   "move_pct": 3.5,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 52,
-   "notable": false
-  },
-  {
-   "slug": "wexford-1435",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T14:35:00Z",
-   "runner": "Soul Asylum",
-   "first": {
-    "mins_to_off": 350,
-    "mid": 2.69
-   },
-   "latest": {
-    "mins_to_off": 170,
-    "mid": 2.64,
-    "spread_pct": 3.0
-   },
-   "move_pct": -1.8,
+   "move_pct": -1.7,
    "band": [
     1.5,
     3
@@ -3909,25 +3865,47 @@
    "notable": false
   },
   {
-   "slug": "wexford-1540",
+   "slug": "wexford-1250",
    "venue": "Wexford",
-   "off_utc": "2026-10-25T15:40:00Z",
-   "runner": "Vango At Dawn",
+   "off_utc": "2026-10-25T12:50:00Z",
+   "runner": "King In Love",
    "first": {
-    "mins_to_off": 310,
-    "mid": 68.73
+    "mins_to_off": 290,
+    "mid": 55.1
    },
    "latest": {
-    "mins_to_off": 235,
-    "mid": 64.52,
-    "spread_pct": 118.5
+    "mins_to_off": 5,
+    "mid": 53.33,
+    "spread_pct": 22.1
    },
-   "move_pct": -6.1,
+   "move_pct": -3.2,
    "band": [
     35,
     100
    ],
-   "percentile": 48,
+   "percentile": 51,
+   "notable": false
+  },
+  {
+   "slug": "wexford-1325",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T13:25:00Z",
+   "runner": "Duffys Hodey",
+   "first": {
+    "mins_to_off": 325,
+    "mid": 26.04
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 27.4,
+    "spread_pct": 11.0
+   },
+   "move_pct": 5.2,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 49,
    "notable": false
   },
   {
@@ -3940,7 +3918,7 @@
     "mid": 3.42
    },
    "latest": {
-    "mins_to_off": 145,
+    "mins_to_off": 10,
     "mid": 3.45,
     "spread_pct": 2.9
    },
@@ -3950,6 +3928,50 @@
     5
    ],
    "percentile": 49,
+   "notable": false
+  },
+  {
+   "slug": "market-rasen-1441",
+   "venue": "Market Rasen",
+   "off_utc": "2026-10-25T14:41:00Z",
+   "runner": "Paper Mill",
+   "first": {
+    "mins_to_off": 356,
+    "mid": 2.83
+   },
+   "latest": {
+    "mins_to_off": 11,
+    "mid": 2.81,
+    "spread_pct": 2.1
+   },
+   "move_pct": -0.7,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 51,
+   "notable": false
+  },
+  {
+   "slug": "market-rasen-1513",
+   "venue": "Market Rasen",
+   "off_utc": "2026-10-25T15:13:00Z",
+   "runner": "Walkinthewoods",
+   "first": {
+    "mins_to_off": 358,
+    "mid": 22.47
+   },
+   "latest": {
+    "mins_to_off": 13,
+    "mid": 23.95,
+    "spread_pct": 8.4
+   },
+   "move_pct": 6.6,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 51,
    "notable": false
   },
   {
@@ -3975,67 +3997,89 @@
    "notable": false
   },
   {
-   "slug": "wexford-1610",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T16:10:00Z",
-   "runner": "Dunsy Rock",
+   "slug": "galway-1556",
+   "venue": "Galway",
+   "off_utc": "2026-10-25T15:56:00Z",
+   "runner": "Always Scoring",
    "first": {
-    "mins_to_off": 355,
-    "mid": 3.47
+    "mins_to_off": 281,
+    "mid": 64.94
    },
    "latest": {
-    "mins_to_off": 265,
-    "mid": 3.5,
-    "spread_pct": 5.7
+    "mins_to_off": 11,
+    "mid": 61.54,
+    "spread_pct": 24.4
    },
-   "move_pct": 0.7,
+   "move_pct": -5.2,
    "band": [
-    3,
-    5
+    35,
+    100
    ],
    "percentile": 49,
    "notable": false
   },
   {
-   "slug": "wexford-1250",
-   "venue": "Wexford",
-   "off_utc": "2026-10-25T12:50:00Z",
-   "runner": "Mullaghgloss",
+   "slug": "market-rasen-1335",
+   "venue": "Market Rasen",
+   "off_utc": "2026-10-25T13:35:00Z",
+   "runner": "Don Dandy",
    "first": {
-    "mins_to_off": 290,
-    "mid": 12.93
+    "mins_to_off": 335,
+    "mid": 1.75
    },
    "latest": {
-    "mins_to_off": 65,
-    "mid": 13.21,
-    "spread_pct": 11.4
+    "mins_to_off": 5,
+    "mid": 1.74,
+    "spread_pct": 0.6
    },
-   "move_pct": 2.2,
+   "move_pct": -1.1,
    "band": [
-    8,
-    13
+    1.5,
+    3
    ],
    "percentile": 50,
    "notable": false
   },
   {
-   "slug": "wexford-1507",
+   "slug": "wexford-1540",
    "venue": "Wexford",
-   "off_utc": "2026-10-25T15:07:00Z",
-   "runner": "Esticky End",
+   "off_utc": "2026-10-25T15:40:00Z",
+   "runner": "Coffeemorninggirls",
    "first": {
-    "mins_to_off": 352,
-    "mid": 13.53
+    "mins_to_off": 355,
+    "mid": 22.12
    },
    "latest": {
-    "mins_to_off": 202,
-    "mid": 14.07,
-    "spread_pct": 35.5
+    "mins_to_off": 10,
+    "mid": 23.39,
+    "spread_pct": 12.9
    },
-   "move_pct": 4.0,
+   "move_pct": 5.7,
    "band": [
-    13,
-    20
+    20,
+    35
+   ],
+   "percentile": 50,
+   "notable": false
+  },
+  {
+   "slug": "wexford-1540",
+   "venue": "Wexford",
+   "off_utc": "2026-10-25T15:40:00Z",
+   "runner": "Reilly's Pocket",
+   "first": {
+    "mins_to_off": 295,
+    "mid": 89.29
+   },
+   "latest": {
+    "mins_to_off": 10,
+    "mid": 85.47,
+    "spread_pct": 46.8
+   },
+   "move_pct": -4.3,
+   "band": [
+    35,
+    100
    ],
    "percentile": 50,
    "notable": false
