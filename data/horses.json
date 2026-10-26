@@ -1,6 +1,6 @@
 {
  "schema": "horses_v5",
- "generated_at": "2026-10-26T12:00:42Z",
+ "generated_at": "2026-10-26T16:00:42Z",
  "source": "Historical race results",
  "note": "Every figure is computed using only races run STRICTLY BEFORE the race it describes — the `as_of` date on each horse. Groups with fewer than two runs are omitted rather than shown as a rate, because a 100% strike rate over one run is noise wearing the clothes of a finding. Our archive runs to 2026-10-25: a horse that ran after that date has those runs missing here, so read `career` as what we hold, not as a complete record.",
  "history_depth": {
@@ -19,7 +19,7 @@
   "still_missing": 1047,
   "note": "Sire totals count the progeny we hold. Breeding is complete for races up to 2026-07-22. After that date our live source carries it for about half of runners; we recover most of the rest from the same horse's other races, but not all. Recent races are therefore under-counted in sire totals."
  },
- "collected_through": "2026-10-26T11:00:02Z",
+ "collected_through": "2026-10-26T15:00:01Z",
  "distance_bands": [
   {
    "key": "sprint",
@@ -2037,14 +2037,6 @@
      "place_pct": 0.0
     }
    ],
-   "jockey": {
-    "name": "Mr Evan Daly",
-    "runs": 1,
-    "wins": 0,
-    "places": 1,
-    "win_pct": 0.0,
-    "place_pct": 100.0
-   },
    "trainer": {
     "name": "Syd Hosie",
     "runs": 426,
@@ -4045,7 +4037,7 @@
     "off_utc": "2026-10-26T12:55:00+00:00",
     "going": "soft",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-26",
    "status": "debut",
@@ -7485,12 +7477,12 @@
     }
    ],
    "jockey": {
-    "name": "Mike O'Connor",
-    "runs": 1116,
-    "wins": 78,
-    "places": 249,
-    "win_pct": 7.0,
-    "place_pct": 22.3
+    "name": "Darragh O'Keeffe",
+    "runs": 3985,
+    "wins": 388,
+    "places": 1250,
+    "win_pct": 9.7,
+    "place_pct": 31.4
    },
    "trainer": {
     "name": "Henry de Bromhead",
@@ -7517,13 +7509,21 @@
     "place_pct": 33.1
    },
    "jockey_trainer": {
-    "jockey": "Mike O'Connor",
+    "jockey": "Darragh O'Keeffe",
     "trainer": "Henry de Bromhead",
-    "runs": 377,
-    "wins": 46,
-    "places": 127,
-    "win_pct": 12.2,
-    "place_pct": 33.7
+    "runs": 785,
+    "wins": 122,
+    "places": 347,
+    "win_pct": 15.5,
+    "place_pct": 44.2
+   },
+   "jockey_here": {
+    "name": "Darragh O'Keeffe",
+    "runs": 2,
+    "wins": 0,
+    "places": 1,
+    "win_pct": 0.0,
+    "place_pct": 50.0
    },
    "trainer_here": {
     "name": "Henry de Bromhead",
@@ -7534,22 +7534,22 @@
     "place_pct": 66.7
    },
    "jockey_at_course": {
-    "name": "Mike O'Connor",
+    "name": "Darragh O'Keeffe",
     "key": "Galway",
-    "runs": 33,
-    "wins": 2,
-    "places": 9,
-    "win_pct": 6.1,
-    "place_pct": 27.3
+    "runs": 181,
+    "wins": 17,
+    "places": 51,
+    "win_pct": 9.4,
+    "place_pct": 28.2
    },
    "jockey_at_distance": {
-    "name": "Mike O'Connor",
+    "name": "Darragh O'Keeffe",
     "key": "staying",
-    "runs": 1103,
-    "wins": 77,
-    "places": 246,
-    "win_pct": 7.0,
-    "place_pct": 22.3
+    "runs": 3941,
+    "wins": 387,
+    "places": 1246,
+    "win_pct": 9.8,
+    "place_pct": 31.6
    },
    "trainer_at_course": {
     "name": "Henry de Bromhead",
@@ -9004,7 +9004,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T13:25:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "middle",
     "runner_status": "runner"
    },
@@ -9154,7 +9154,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T13:25:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "middle",
     "runner_status": "runner"
    },
@@ -9354,7 +9354,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T13:25:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "middle",
     "runner_status": "runner"
    },
@@ -9554,7 +9554,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T13:25:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "middle",
     "runner_status": "runner"
    },
@@ -9776,7 +9776,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T13:25:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "middle",
     "runner_status": "runner"
    },
@@ -10016,7 +10016,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T13:25:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "middle",
     "runner_status": "runner"
    },
@@ -10192,7 +10192,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T13:25:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "middle",
     "runner_status": "runner"
    },
@@ -10342,7 +10342,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T13:25:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "middle",
     "runner_status": "runner"
    },
@@ -10526,7 +10526,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T13:25:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "middle",
     "runner_status": "runner"
    },
@@ -10684,7 +10684,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T13:25:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "middle",
     "runner_status": "non_runner"
    },
@@ -10900,7 +10900,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T13:25:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "middle",
     "runner_status": "runner"
    },
@@ -11147,7 +11147,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T13:25:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "middle",
     "runner_status": "runner"
    },
@@ -11330,7 +11330,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T13:25:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "middle",
     "runner_status": "runner"
    },
@@ -11498,7 +11498,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T13:25:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "middle",
     "runner_status": "runner"
    },
@@ -11690,7 +11690,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T13:25:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "middle",
     "runner_status": "runner"
    },
@@ -13525,7 +13525,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T13:42:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -13717,7 +13717,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T13:42:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -13851,7 +13851,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T13:42:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -13968,7 +13968,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T13:42:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -14101,7 +14101,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T13:42:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -14252,7 +14252,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T13:42:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -14395,7 +14395,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T13:42:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -14546,7 +14546,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T13:42:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -14629,7 +14629,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T13:42:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -14803,7 +14803,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T13:42:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -14838,12 +14838,12 @@
     }
    ],
    "jockey": {
-    "name": "Anna McGuinness(7)",
-    "runs": 165,
-    "wins": 6,
-    "places": 27,
-    "win_pct": 3.6,
-    "place_pct": 16.4
+    "name": "Danny Mullins",
+    "runs": 2970,
+    "wins": 306,
+    "places": 906,
+    "win_pct": 10.3,
+    "place_pct": 30.5
    },
    "trainer": {
     "name": "Ms Margaret Mullins",
@@ -14869,6 +14869,15 @@
     "win_pct": 11.6,
     "place_pct": 34.5
    },
+   "jockey_trainer": {
+    "jockey": "Danny Mullins",
+    "trainer": "Ms Margaret Mullins",
+    "runs": 214,
+    "wins": 25,
+    "places": 64,
+    "win_pct": 11.7,
+    "place_pct": 29.9
+   },
    "trainer_here": {
     "name": "Ms Margaret Mullins",
     "runs": 3,
@@ -14877,14 +14886,23 @@
     "win_pct": 0.0,
     "place_pct": 0.0
    },
+   "jockey_at_course": {
+    "name": "Danny Mullins",
+    "key": "Galway",
+    "runs": 112,
+    "wins": 9,
+    "places": 29,
+    "win_pct": 8.0,
+    "place_pct": 25.9
+   },
    "jockey_at_distance": {
-    "name": "Anna McGuinness(7)",
+    "name": "Danny Mullins",
     "key": "staying",
-    "runs": 162,
-    "wins": 6,
-    "places": 26,
-    "win_pct": 3.7,
-    "place_pct": 16.0
+    "runs": 2960,
+    "wins": 306,
+    "places": 902,
+    "win_pct": 10.3,
+    "place_pct": 30.5
    },
    "trainer_at_course": {
     "name": "Ms Margaret Mullins",
@@ -16580,7 +16598,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T13:55:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "middle",
     "runner_status": "runner"
    },
@@ -16706,7 +16724,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T13:55:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "middle",
     "runner_status": "runner"
    },
@@ -16833,7 +16851,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T13:55:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "middle",
     "runner_status": "non_runner"
    },
@@ -16941,7 +16959,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T13:55:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "middle",
     "runner_status": "runner"
    },
@@ -17066,7 +17084,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T13:55:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "middle",
     "runner_status": "runner"
    },
@@ -17192,7 +17210,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T13:55:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "middle",
     "runner_status": "runner"
    },
@@ -17325,7 +17343,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T13:55:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "middle",
     "runner_status": "runner"
    },
@@ -17450,7 +17468,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T13:55:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "middle",
     "runner_status": "runner"
    },
@@ -17592,7 +17610,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T13:55:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "middle",
     "runner_status": "runner"
    },
@@ -17691,7 +17709,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T13:55:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "middle",
     "runner_status": "runner"
    },
@@ -17816,7 +17834,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T13:55:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "middle",
     "runner_status": "runner"
    },
@@ -21092,12 +21110,12 @@
     }
    ],
    "jockey": {
-    "name": "Shane Gray",
-    "runs": 2100,
-    "wins": 211,
-    "places": 604,
-    "win_pct": 10.0,
-    "place_pct": 28.8
+    "name": "Alistair Rawlinson",
+    "runs": 1876,
+    "wins": 175,
+    "places": 552,
+    "win_pct": 9.3,
+    "place_pct": 29.4
    },
    "trainer": {
     "name": "Phillip Makin",
@@ -21123,15 +21141,6 @@
     "win_pct": 6.1,
     "place_pct": 28.6
    },
-   "jockey_trainer": {
-    "jockey": "Shane Gray",
-    "trainer": "Phillip Makin",
-    "runs": 100,
-    "wins": 4,
-    "places": 23,
-    "win_pct": 4.0,
-    "place_pct": 23.0
-   },
    "trainer_here": {
     "name": "Phillip Makin",
     "runs": 8,
@@ -21141,22 +21150,22 @@
     "place_pct": 25.0
    },
    "jockey_at_course": {
-    "name": "Shane Gray",
+    "name": "Alistair Rawlinson",
     "key": "Leicester",
-    "runs": 26,
+    "runs": 52,
     "wins": 3,
-    "places": 8,
-    "win_pct": 11.5,
-    "place_pct": 30.8
+    "places": 12,
+    "win_pct": 5.8,
+    "place_pct": 23.1
    },
    "jockey_at_distance": {
-    "name": "Shane Gray",
+    "name": "Alistair Rawlinson",
     "key": "mile",
-    "runs": 829,
-    "wins": 81,
+    "runs": 806,
+    "wins": 77,
     "places": 229,
-    "win_pct": 9.8,
-    "place_pct": 27.6
+    "win_pct": 9.6,
+    "place_pct": 28.4
    },
    "trainer_at_course": {
     "name": "Phillip Makin",
@@ -21252,12 +21261,12 @@
     }
    ],
    "jockey": {
-    "name": "William Cox",
-    "runs": 1368,
-    "wins": 62,
-    "places": 263,
-    "win_pct": 4.5,
-    "place_pct": 19.2
+    "name": "Olivia Tubb(5)",
+    "runs": 237,
+    "wins": 25,
+    "places": 85,
+    "win_pct": 10.5,
+    "place_pct": 35.9
    },
    "trainer": {
     "name": "Dominic Ffrench Davis",
@@ -21283,15 +21292,6 @@
     "win_pct": 9.0,
     "place_pct": 26.6
    },
-   "jockey_trainer": {
-    "jockey": "William Cox",
-    "trainer": "Dominic Ffrench Davis",
-    "runs": 20,
-    "wins": 2,
-    "places": 2,
-    "win_pct": 10.0,
-    "place_pct": 10.0
-   },
    "trainer_here": {
     "name": "Dominic Ffrench Davis",
     "runs": 4,
@@ -21300,23 +21300,14 @@
     "win_pct": 0.0,
     "place_pct": 0.0
    },
-   "jockey_at_course": {
-    "name": "William Cox",
-    "key": "Leicester",
-    "runs": 31,
-    "wins": 1,
-    "places": 7,
-    "win_pct": 3.2,
-    "place_pct": 22.6
-   },
    "jockey_at_distance": {
-    "name": "William Cox",
+    "name": "Olivia Tubb(5)",
     "key": "mile",
-    "runs": 553,
-    "wins": 20,
-    "places": 90,
-    "win_pct": 3.6,
-    "place_pct": 16.3
+    "runs": 98,
+    "wins": 8,
+    "places": 32,
+    "win_pct": 8.2,
+    "place_pct": 32.7
    },
    "trainer_at_course": {
     "name": "Dominic Ffrench Davis",
@@ -21795,7 +21786,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T14:12:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -21938,7 +21929,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T14:12:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -22047,7 +22038,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T14:12:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "non_runner"
    },
@@ -22156,7 +22147,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T14:12:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -22248,7 +22239,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T14:12:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -22399,7 +22390,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T14:12:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -22523,7 +22514,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T14:12:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -22631,7 +22622,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T14:12:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -22648,12 +22639,12 @@
    "by_course": [],
    "by_distance": [],
    "jockey": {
-    "name": "Alan O'Sullivan(5)",
-    "runs": 286,
-    "wins": 23,
-    "places": 75,
-    "win_pct": 8.0,
-    "place_pct": 26.2
+    "name": "Darragh O'Keeffe",
+    "runs": 3985,
+    "wins": 388,
+    "places": 1250,
+    "win_pct": 9.7,
+    "place_pct": 31.4
    },
    "trainer": {
     "name": "Henry de Bromhead",
@@ -22679,23 +22670,32 @@
     "win_pct": 15.7,
     "place_pct": 38.1
    },
+   "jockey_trainer": {
+    "jockey": "Darragh O'Keeffe",
+    "trainer": "Henry de Bromhead",
+    "runs": 785,
+    "wins": 122,
+    "places": 347,
+    "win_pct": 15.5,
+    "place_pct": 44.2
+   },
    "jockey_at_course": {
-    "name": "Alan O'Sullivan(5)",
+    "name": "Darragh O'Keeffe",
     "key": "Galway",
-    "runs": 14,
-    "wins": 2,
-    "places": 4,
-    "win_pct": 14.3,
-    "place_pct": 28.6
+    "runs": 181,
+    "wins": 17,
+    "places": 51,
+    "win_pct": 9.4,
+    "place_pct": 28.2
    },
    "jockey_at_distance": {
-    "name": "Alan O'Sullivan(5)",
+    "name": "Darragh O'Keeffe",
     "key": "staying",
-    "runs": 285,
-    "wins": 23,
-    "places": 75,
-    "win_pct": 8.1,
-    "place_pct": 26.3
+    "runs": 3941,
+    "wins": 387,
+    "places": 1246,
+    "win_pct": 9.8,
+    "place_pct": 31.6
    },
    "trainer_at_course": {
     "name": "Henry de Bromhead",
@@ -22730,7 +22730,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T14:12:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -22874,7 +22874,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T14:12:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -23007,7 +23007,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T14:12:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -23694,7 +23694,7 @@
     "off_utc": "2026-10-26T14:18:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-26",
    "status": "has_history",
@@ -24173,12 +24173,12 @@
     }
    ],
    "jockey": {
-    "name": "Ben Poste",
-    "runs": 1702,
-    "wins": 64,
-    "places": 402,
-    "win_pct": 3.8,
-    "place_pct": 23.6
+    "name": "Gavin Sheehan",
+    "runs": 2961,
+    "wins": 517,
+    "places": 1343,
+    "win_pct": 17.5,
+    "place_pct": 45.4
    },
    "trainer": {
     "name": "Tom Symonds",
@@ -24204,15 +24204,6 @@
     "win_pct": 12.8,
     "place_pct": 46.8
    },
-   "jockey_trainer": {
-    "jockey": "Ben Poste",
-    "trainer": "Tom Symonds",
-    "runs": 369,
-    "wins": 30,
-    "places": 124,
-    "win_pct": 8.1,
-    "place_pct": 33.6
-   },
    "trainer_here": {
     "name": "Tom Symonds",
     "runs": 8,
@@ -24222,22 +24213,22 @@
     "place_pct": 12.5
    },
    "jockey_at_course": {
-    "name": "Ben Poste",
+    "name": "Gavin Sheehan",
     "key": "Hereford",
-    "runs": 167,
-    "wins": 9,
-    "places": 46,
-    "win_pct": 5.4,
-    "place_pct": 27.5
+    "runs": 85,
+    "wins": 16,
+    "places": 48,
+    "win_pct": 18.8,
+    "place_pct": 56.5
    },
    "jockey_at_distance": {
-    "name": "Ben Poste",
+    "name": "Gavin Sheehan",
     "key": "staying",
-    "runs": 1700,
-    "wins": 64,
-    "places": 402,
-    "win_pct": 3.8,
-    "place_pct": 23.6
+    "runs": 2956,
+    "wins": 517,
+    "places": 1341,
+    "win_pct": 17.5,
+    "place_pct": 45.4
    },
    "trainer_at_course": {
     "name": "Tom Symonds",
@@ -24568,7 +24559,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T14:25:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "mile",
     "runner_status": "runner"
    },
@@ -24791,7 +24782,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T14:25:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "mile",
     "runner_status": "runner"
    },
@@ -24983,7 +24974,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T14:25:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "mile",
     "runner_status": "runner"
    },
@@ -25223,7 +25214,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T14:25:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "mile",
     "runner_status": "runner"
    },
@@ -25463,7 +25454,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T14:25:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "mile",
     "runner_status": "runner"
    },
@@ -25606,7 +25597,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T14:25:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "mile",
     "runner_status": "runner"
    },
@@ -25782,7 +25773,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T14:25:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "mile",
     "runner_status": "runner"
    },
@@ -26038,7 +26029,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T14:25:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "mile",
     "runner_status": "runner"
    },
@@ -26294,7 +26285,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T14:25:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "mile",
     "runner_status": "non_runner"
    },
@@ -26435,7 +26426,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T14:25:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "mile",
     "runner_status": "non_runner"
    },
@@ -26627,7 +26618,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T14:25:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "mile",
     "runner_status": "runner"
    },
@@ -26835,7 +26826,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T14:25:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "mile",
     "runner_status": "runner"
    },
@@ -30508,12 +30499,12 @@
     }
    ],
    "jockey": {
-    "name": "William Cox",
-    "runs": 1368,
-    "wins": 62,
-    "places": 263,
-    "win_pct": 4.5,
-    "place_pct": 19.2
+    "name": "David Probert",
+    "runs": 5914,
+    "wins": 729,
+    "places": 2085,
+    "win_pct": 12.3,
+    "place_pct": 35.3
    },
    "trainer": {
     "name": "Nikki Evans",
@@ -30539,6 +30530,23 @@
     "win_pct": 9.9,
     "place_pct": 33.2
    },
+   "jockey_trainer": {
+    "jockey": "David Probert",
+    "trainer": "Nikki Evans",
+    "runs": 13,
+    "wins": 0,
+    "places": 2,
+    "win_pct": 0.0,
+    "place_pct": 15.4
+   },
+   "jockey_here": {
+    "name": "David Probert",
+    "runs": 5,
+    "wins": 1,
+    "places": 3,
+    "win_pct": 20.0,
+    "place_pct": 60.0
+   },
    "trainer_here": {
     "name": "Nikki Evans",
     "runs": 8,
@@ -30548,22 +30556,22 @@
     "place_pct": 12.5
    },
    "jockey_at_course": {
-    "name": "William Cox",
+    "name": "David Probert",
     "key": "Leicester",
-    "runs": 31,
-    "wins": 1,
-    "places": 7,
-    "win_pct": 3.2,
-    "place_pct": 22.6
+    "runs": 128,
+    "wins": 20,
+    "places": 54,
+    "win_pct": 15.6,
+    "place_pct": 42.2
    },
    "jockey_at_distance": {
-    "name": "William Cox",
+    "name": "David Probert",
     "key": "middle",
-    "runs": 309,
-    "wins": 15,
-    "places": 52,
-    "win_pct": 4.9,
-    "place_pct": 16.8
+    "runs": 1292,
+    "wins": 164,
+    "places": 478,
+    "win_pct": 12.7,
+    "place_pct": 37.0
    },
    "trainer_at_course": {
     "name": "Nikki Evans",
@@ -32756,7 +32764,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T14:45:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -32855,7 +32863,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T14:45:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -32963,7 +32971,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T14:45:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -33079,7 +33087,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T14:45:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -33214,7 +33222,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T14:45:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -33323,7 +33331,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T14:45:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -33430,7 +33438,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T14:45:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -33588,7 +33596,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T14:45:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -33696,7 +33704,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T14:45:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -33804,7 +33812,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T14:45:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -33938,7 +33946,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T14:45:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -34081,7 +34089,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T14:45:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -34180,7 +34188,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T14:45:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -34287,7 +34295,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T14:45:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -34431,7 +34439,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T14:45:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -34515,12 +34523,12 @@
     }
    ],
    "jockey": {
-    "name": "Donagh Meyler",
-    "runs": 1984,
-    "wins": 157,
-    "places": 515,
-    "win_pct": 7.9,
-    "place_pct": 26.0
+    "name": "Danny Mullins",
+    "runs": 2970,
+    "wins": 306,
+    "places": 906,
+    "win_pct": 10.3,
+    "place_pct": 30.5
    },
    "trainer": {
     "name": "Emmet Mullins",
@@ -34547,21 +34555,13 @@
     "place_pct": 31.4
    },
    "jockey_trainer": {
-    "jockey": "Donagh Meyler",
+    "jockey": "Danny Mullins",
     "trainer": "Emmet Mullins",
-    "runs": 197,
-    "wins": 25,
-    "places": 71,
-    "win_pct": 12.7,
-    "place_pct": 36.0
-   },
-   "jockey_here": {
-    "name": "Donagh Meyler",
-    "runs": 2,
-    "wins": 0,
-    "places": 0,
-    "win_pct": 0.0,
-    "place_pct": 0.0
+    "runs": 27,
+    "wins": 2,
+    "places": 10,
+    "win_pct": 7.4,
+    "place_pct": 37.0
    },
    "trainer_here": {
     "name": "Emmet Mullins",
@@ -34572,22 +34572,22 @@
     "place_pct": 42.9
    },
    "jockey_at_course": {
-    "name": "Donagh Meyler",
+    "name": "Danny Mullins",
     "key": "Galway",
-    "runs": 71,
-    "wins": 3,
-    "places": 17,
-    "win_pct": 4.2,
-    "place_pct": 23.9
+    "runs": 112,
+    "wins": 9,
+    "places": 29,
+    "win_pct": 8.0,
+    "place_pct": 25.9
    },
    "jockey_at_distance": {
-    "name": "Donagh Meyler",
+    "name": "Danny Mullins",
     "key": "staying",
-    "runs": 1984,
-    "wins": 157,
-    "places": 515,
-    "win_pct": 7.9,
-    "place_pct": 26.0
+    "runs": 2960,
+    "wins": 306,
+    "places": 902,
+    "win_pct": 10.3,
+    "place_pct": 30.5
    },
    "trainer_at_course": {
     "name": "Emmet Mullins",
@@ -34631,7 +34631,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T14:45:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -34764,7 +34764,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T14:45:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -34855,7 +34855,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T14:45:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -35014,7 +35014,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T14:45:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "non_runner"
    },
@@ -35147,7 +35147,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T14:45:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -35255,9 +35255,9 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T14:45:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
-    "runner_status": "reserve"
+    "runner_status": "runner"
    },
    "as_of": "2026-10-26",
    "status": "debut",
@@ -35271,6 +35271,14 @@
    "by_going": [],
    "by_course": [],
    "by_distance": [],
+   "jockey": {
+    "name": "Richard Deegan",
+    "runs": 1214,
+    "wins": 54,
+    "places": 204,
+    "win_pct": 4.4,
+    "place_pct": 16.8
+   },
    "trainer": {
     "name": "Donal Hassett",
     "runs": 151,
@@ -35294,6 +35302,24 @@
     "places": 383,
     "win_pct": 13.6,
     "place_pct": 38.4
+   },
+   "jockey_at_course": {
+    "name": "Richard Deegan",
+    "key": "Galway",
+    "runs": 41,
+    "wins": 2,
+    "places": 6,
+    "win_pct": 4.9,
+    "place_pct": 14.6
+   },
+   "jockey_at_distance": {
+    "name": "Richard Deegan",
+    "key": "staying",
+    "runs": 1213,
+    "wins": 54,
+    "places": 204,
+    "win_pct": 4.5,
+    "place_pct": 16.8
    },
    "trainer_at_distance": {
     "name": "Donal Hassett",
@@ -36373,7 +36399,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T15:00:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "mile",
     "runner_status": "runner"
    },
@@ -36540,7 +36566,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T15:00:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "mile",
     "runner_status": "runner"
    },
@@ -36732,7 +36758,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T15:00:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "mile",
     "runner_status": "runner"
    },
@@ -36907,7 +36933,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T15:00:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "mile",
     "runner_status": "runner"
    },
@@ -37147,7 +37173,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T15:00:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "mile",
     "runner_status": "non_runner"
    },
@@ -37355,7 +37381,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T15:00:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "mile",
     "runner_status": "runner"
    },
@@ -37555,7 +37581,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T15:00:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "mile",
     "runner_status": "runner"
    },
@@ -37779,7 +37805,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T15:00:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "mile",
     "runner_status": "runner"
    },
@@ -37947,7 +37973,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T15:00:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "mile",
     "runner_status": "runner"
    },
@@ -38105,7 +38131,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T15:00:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "mile",
     "runner_status": "runner"
    },
@@ -38337,7 +38363,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T15:00:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "mile",
     "runner_status": "non_runner"
    },
@@ -38505,7 +38531,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T15:00:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "mile",
     "runner_status": "runner"
    },
@@ -38688,7 +38714,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T15:00:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "mile",
     "runner_status": "runner"
    },
@@ -38896,7 +38922,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T15:00:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "mile",
     "runner_status": "runner"
    },
@@ -41652,12 +41678,12 @@
     }
    ],
    "jockey": {
-    "name": "Shane Gray",
-    "runs": 2100,
-    "wins": 211,
-    "places": 604,
-    "win_pct": 10.0,
-    "place_pct": 28.8
+    "name": "Dylan Hogan",
+    "runs": 2112,
+    "wins": 214,
+    "places": 707,
+    "win_pct": 10.1,
+    "place_pct": 33.5
    },
    "trainer": {
     "name": "K. R. Burke",
@@ -41683,23 +41709,6 @@
     "win_pct": 3.8,
     "place_pct": 21.8
    },
-   "jockey_trainer": {
-    "jockey": "Shane Gray",
-    "trainer": "K. R. Burke",
-    "runs": 139,
-    "wins": 26,
-    "places": 60,
-    "win_pct": 18.7,
-    "place_pct": 43.2
-   },
-   "jockey_here": {
-    "name": "Shane Gray",
-    "runs": 2,
-    "wins": 0,
-    "places": 0,
-    "win_pct": 0.0,
-    "place_pct": 0.0
-   },
    "trainer_here": {
     "name": "K. R. Burke",
     "runs": 46,
@@ -41709,22 +41718,22 @@
     "place_pct": 43.5
    },
    "jockey_at_course": {
-    "name": "Shane Gray",
+    "name": "Dylan Hogan",
     "key": "Leicester",
-    "runs": 26,
-    "wins": 3,
-    "places": 8,
-    "win_pct": 11.5,
-    "place_pct": 30.8
+    "runs": 80,
+    "wins": 6,
+    "places": 22,
+    "win_pct": 7.5,
+    "place_pct": 27.5
    },
    "jockey_at_distance": {
-    "name": "Shane Gray",
+    "name": "Dylan Hogan",
     "key": "mile",
-    "runs": 829,
-    "wins": 81,
-    "places": 229,
-    "win_pct": 9.8,
-    "place_pct": 27.6
+    "runs": 941,
+    "wins": 69,
+    "places": 280,
+    "win_pct": 7.3,
+    "place_pct": 29.8
    },
    "trainer_at_course": {
     "name": "K. R. Burke",
@@ -42102,7 +42111,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T15:20:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -42270,7 +42279,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T15:20:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -42420,7 +42429,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T15:20:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -42496,12 +42505,12 @@
     }
    ],
    "jockey": {
-    "name": "Niall Moore(5)",
-    "runs": 519,
-    "wins": 32,
-    "places": 104,
-    "win_pct": 6.2,
-    "place_pct": 20.0
+    "name": "Brian Hayes",
+    "runs": 1957,
+    "wins": 180,
+    "places": 520,
+    "win_pct": 9.2,
+    "place_pct": 26.6
    },
    "trainer": {
     "name": "Philip Fenton",
@@ -42528,21 +42537,21 @@
     "place_pct": 38.1
    },
    "jockey_trainer": {
-    "jockey": "Niall Moore(5)",
+    "jockey": "Brian Hayes",
     "trainer": "Philip Fenton",
-    "runs": 242,
-    "wins": 20,
-    "places": 62,
-    "win_pct": 8.3,
-    "place_pct": 25.6
+    "runs": 235,
+    "wins": 18,
+    "places": 66,
+    "win_pct": 7.7,
+    "place_pct": 28.1
    },
    "jockey_here": {
-    "name": "Niall Moore(5)",
-    "runs": 6,
-    "wins": 1,
+    "name": "Brian Hayes",
+    "runs": 5,
+    "wins": 0,
     "places": 3,
-    "win_pct": 16.7,
-    "place_pct": 50.0
+    "win_pct": 0.0,
+    "place_pct": 60.0
    },
    "trainer_here": {
     "name": "Philip Fenton",
@@ -42552,14 +42561,23 @@
     "win_pct": 7.7,
     "place_pct": 46.2
    },
+   "jockey_at_course": {
+    "name": "Brian Hayes",
+    "key": "Galway",
+    "runs": 83,
+    "wins": 8,
+    "places": 21,
+    "win_pct": 9.6,
+    "place_pct": 25.3
+   },
    "jockey_at_distance": {
-    "name": "Niall Moore(5)",
+    "name": "Brian Hayes",
     "key": "staying",
-    "runs": 519,
-    "wins": 32,
-    "places": 104,
-    "win_pct": 6.2,
-    "place_pct": 20.0
+    "runs": 1952,
+    "wins": 180,
+    "places": 519,
+    "win_pct": 9.2,
+    "place_pct": 26.6
    },
    "trainer_at_course": {
     "name": "Philip Fenton",
@@ -42595,9 +42613,9 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T15:20:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-26",
    "status": "has_history",
@@ -42787,7 +42805,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T15:20:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -42987,7 +43005,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T15:20:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -43187,7 +43205,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T15:20:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -43255,12 +43273,12 @@
     }
    ],
    "jockey": {
-    "name": "Donagh Meyler",
-    "runs": 1984,
-    "wins": 157,
-    "places": 515,
-    "win_pct": 7.9,
-    "place_pct": 26.0
+    "name": "Niall Moore(5)",
+    "runs": 519,
+    "wins": 32,
+    "places": 104,
+    "win_pct": 6.2,
+    "place_pct": 20.0
    },
    "trainer": {
     "name": "Philip Fenton",
@@ -43286,6 +43304,23 @@
     "win_pct": 12.0,
     "place_pct": 33.1
    },
+   "jockey_trainer": {
+    "jockey": "Niall Moore(5)",
+    "trainer": "Philip Fenton",
+    "runs": 242,
+    "wins": 20,
+    "places": 62,
+    "win_pct": 8.3,
+    "place_pct": 25.6
+   },
+   "jockey_here": {
+    "name": "Niall Moore(5)",
+    "runs": 6,
+    "wins": 2,
+    "places": 2,
+    "win_pct": 33.3,
+    "place_pct": 33.3
+   },
    "trainer_here": {
     "name": "Philip Fenton",
     "runs": 14,
@@ -43294,23 +43329,14 @@
     "win_pct": 28.6,
     "place_pct": 28.6
    },
-   "jockey_at_course": {
-    "name": "Donagh Meyler",
-    "key": "Galway",
-    "runs": 71,
-    "wins": 3,
-    "places": 17,
-    "win_pct": 4.2,
-    "place_pct": 23.9
-   },
    "jockey_at_distance": {
-    "name": "Donagh Meyler",
+    "name": "Niall Moore(5)",
     "key": "staying",
-    "runs": 1984,
-    "wins": 157,
-    "places": 515,
-    "win_pct": 7.9,
-    "place_pct": 26.0
+    "runs": 519,
+    "wins": 32,
+    "places": 104,
+    "win_pct": 6.2,
+    "place_pct": 20.0
    },
    "trainer_at_course": {
     "name": "Philip Fenton",
@@ -43346,7 +43372,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T15:20:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -43522,7 +43548,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T15:20:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -43672,7 +43698,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T15:20:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -43887,7 +43913,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T15:20:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -44013,7 +44039,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T15:20:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -44113,7 +44139,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T15:20:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "non_runner"
    },
@@ -44238,7 +44264,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T15:20:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -46079,7 +46105,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T15:35:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "sprint",
     "runner_status": "runner"
    },
@@ -46303,7 +46329,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T15:35:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "sprint",
     "runner_status": "runner"
    },
@@ -46454,7 +46480,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T15:35:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "sprint",
     "runner_status": "runner"
    },
@@ -46621,7 +46647,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T15:35:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "sprint",
     "runner_status": "runner"
    },
@@ -46780,7 +46806,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T15:35:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "sprint",
     "runner_status": "runner"
    },
@@ -46980,7 +47006,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T15:35:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "sprint",
     "runner_status": "runner"
    },
@@ -47172,7 +47198,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T15:35:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "sprint",
     "runner_status": "runner"
    },
@@ -47388,7 +47414,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T15:35:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "sprint",
     "runner_status": "runner"
    },
@@ -47604,7 +47630,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T15:35:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "sprint",
     "runner_status": "runner"
    },
@@ -47884,7 +47910,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T15:35:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "sprint",
     "runner_status": "runner"
    },
@@ -48059,7 +48085,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T15:35:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "sprint",
     "runner_status": "runner"
    },
@@ -48290,7 +48316,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T15:35:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "sprint",
     "runner_status": "runner"
    },
@@ -48490,7 +48516,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T15:35:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "sprint",
     "runner_status": "runner"
    },
@@ -48641,7 +48667,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T15:35:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "sprint",
     "runner_status": "non_runner"
    },
@@ -48799,7 +48825,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T15:35:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "sprint",
     "runner_status": "runner"
    },
@@ -52033,7 +52059,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T15:55:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -52233,7 +52259,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T15:55:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -52409,7 +52435,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T15:55:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -52575,7 +52601,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T15:55:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -52733,7 +52759,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T15:55:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -52909,7 +52935,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T15:55:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -53061,7 +53087,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T15:55:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -53236,7 +53262,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T15:55:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -53428,7 +53454,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T15:55:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -53563,7 +53589,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T15:55:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -53580,12 +53606,12 @@
    "by_course": [],
    "by_distance": [],
    "jockey": {
-    "name": "Mike O'Connor",
-    "runs": 1116,
-    "wins": 78,
-    "places": 249,
-    "win_pct": 7.0,
-    "place_pct": 22.3
+    "name": "Darragh O'Keeffe",
+    "runs": 3985,
+    "wins": 388,
+    "places": 1250,
+    "win_pct": 9.7,
+    "place_pct": 31.4
    },
    "trainer": {
     "name": "Henry de Bromhead",
@@ -53612,31 +53638,31 @@
     "place_pct": 45.0
    },
    "jockey_trainer": {
-    "jockey": "Mike O'Connor",
+    "jockey": "Darragh O'Keeffe",
     "trainer": "Henry de Bromhead",
-    "runs": 377,
-    "wins": 46,
-    "places": 127,
-    "win_pct": 12.2,
-    "place_pct": 33.7
+    "runs": 785,
+    "wins": 122,
+    "places": 347,
+    "win_pct": 15.5,
+    "place_pct": 44.2
    },
    "jockey_at_course": {
-    "name": "Mike O'Connor",
+    "name": "Darragh O'Keeffe",
     "key": "Galway",
-    "runs": 33,
-    "wins": 2,
-    "places": 9,
-    "win_pct": 6.1,
-    "place_pct": 27.3
+    "runs": 181,
+    "wins": 17,
+    "places": 51,
+    "win_pct": 9.4,
+    "place_pct": 28.2
    },
    "jockey_at_distance": {
-    "name": "Mike O'Connor",
+    "name": "Darragh O'Keeffe",
     "key": "staying",
-    "runs": 1103,
-    "wins": 77,
-    "places": 246,
-    "win_pct": 7.0,
-    "place_pct": 22.3
+    "runs": 3941,
+    "wins": 387,
+    "places": 1246,
+    "win_pct": 9.8,
+    "place_pct": 31.6
    },
    "trainer_at_course": {
     "name": "Henry de Bromhead",
@@ -53672,7 +53698,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T15:55:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "non_runner"
    },
@@ -53815,7 +53841,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T15:55:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -53949,7 +53975,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T15:55:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -54090,7 +54116,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T15:55:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -54222,7 +54248,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T15:55:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -54274,12 +54300,12 @@
     }
    ],
    "jockey": {
-    "name": "Kevin Sexton",
-    "runs": 1134,
-    "wins": 87,
-    "places": 265,
-    "win_pct": 7.7,
-    "place_pct": 23.4
+    "name": "Sam Ewing",
+    "runs": 1975,
+    "wins": 188,
+    "places": 558,
+    "win_pct": 9.5,
+    "place_pct": 28.3
    },
    "trainer": {
     "name": "Gavin Cromwell",
@@ -54306,13 +54332,13 @@
     "place_pct": 18.9
    },
    "jockey_trainer": {
-    "jockey": "Kevin Sexton",
+    "jockey": "Sam Ewing",
     "trainer": "Gavin Cromwell",
-    "runs": 29,
+    "runs": 27,
     "wins": 2,
-    "places": 4,
-    "win_pct": 6.9,
-    "place_pct": 13.8
+    "places": 8,
+    "win_pct": 7.4,
+    "place_pct": 29.6
    },
    "trainer_here": {
     "name": "Gavin Cromwell",
@@ -54323,22 +54349,22 @@
     "place_pct": 0.0
    },
    "jockey_at_course": {
-    "name": "Kevin Sexton",
+    "name": "Sam Ewing",
     "key": "Galway",
-    "runs": 47,
-    "wins": 5,
-    "places": 13,
-    "win_pct": 10.6,
-    "place_pct": 27.7
+    "runs": 90,
+    "wins": 11,
+    "places": 25,
+    "win_pct": 12.2,
+    "place_pct": 27.8
    },
    "jockey_at_distance": {
-    "name": "Kevin Sexton",
+    "name": "Sam Ewing",
     "key": "staying",
-    "runs": 1134,
-    "wins": 87,
-    "places": 265,
-    "win_pct": 7.7,
-    "place_pct": 23.4
+    "runs": 1342,
+    "wins": 121,
+    "places": 396,
+    "win_pct": 9.0,
+    "place_pct": 29.5
    },
    "trainer_at_course": {
     "name": "Gavin Cromwell",
@@ -54390,7 +54416,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T15:55:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -54557,7 +54583,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T15:55:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -54731,7 +54757,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T15:55:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -54915,7 +54941,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T15:55:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -55057,7 +55083,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T15:55:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -55239,9 +55265,9 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T15:55:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-26",
    "status": "has_history",
@@ -56803,7 +56829,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T16:05:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "sprint",
     "runner_status": "runner"
    },
@@ -57067,7 +57093,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T16:05:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "sprint",
     "runner_status": "runner"
    },
@@ -57331,7 +57357,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T16:05:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "sprint",
     "runner_status": "runner"
    },
@@ -57531,7 +57557,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T16:05:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "sprint",
     "runner_status": "runner"
    },
@@ -57697,7 +57723,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T16:05:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "sprint",
     "runner_status": "runner"
    },
@@ -57897,7 +57923,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T16:05:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "sprint",
     "runner_status": "runner"
    },
@@ -58129,7 +58155,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T16:05:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "sprint",
     "runner_status": "runner"
    },
@@ -58361,7 +58387,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T16:05:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "sprint",
     "runner_status": "runner"
    },
@@ -58625,7 +58651,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T16:05:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "sprint",
     "runner_status": "runner"
    },
@@ -58889,7 +58915,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T16:05:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "sprint",
     "runner_status": "runner"
    },
@@ -59079,7 +59105,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T16:05:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "sprint",
     "runner_status": "runner"
    },
@@ -59279,7 +59305,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T16:05:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "sprint",
     "runner_status": "runner"
    },
@@ -59446,7 +59472,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T16:05:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "sprint",
     "runner_status": "runner"
    },
@@ -59627,7 +59653,7 @@
    "race": {
     "venue": "Redcar",
     "off_utc": "2026-10-26T16:05:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "sprint",
     "runner_status": "runner"
    },
@@ -66288,7 +66314,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T16:32:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -66388,7 +66414,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T16:32:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -66505,7 +66531,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T16:32:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -66604,7 +66630,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T16:32:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -66703,7 +66729,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T16:32:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -66812,7 +66838,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T16:32:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -66892,7 +66918,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T16:32:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -66991,7 +67017,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T16:32:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -67141,7 +67167,7 @@
    "race": {
     "venue": "Galway",
     "off_utc": "2026-10-26T16:32:00+00:00",
-    "going": "soft",
+    "going": "heavy",
     "distance": "staying",
     "runner_status": "non_runner"
    },
@@ -78043,7 +78069,7 @@
     "off_utc": "2026-10-26T18:30:00+00:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-26",
    "status": "has_history",
@@ -83033,7 +83059,7 @@
     "off_utc": "2026-10-26T19:15:00+00:00",
     "going": "soft",
     "distance": "middle",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-26",
    "status": "has_history",
@@ -90379,7 +90405,7 @@
     "off_utc": "2026-10-26T20:00:00+00:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-26",
    "status": "has_history",
