@@ -1,6 +1,6 @@
 {
  "schema": "horses_v5",
- "generated_at": "2026-10-27T16:00:41Z",
+ "generated_at": "2026-10-27T21:30:31Z",
  "source": "Historical race results",
  "note": "Every figure is computed using only races run STRICTLY BEFORE the race it describes — the `as_of` date on each horse. Groups with fewer than two runs are omitted rather than shown as a rate, because a 100% strike rate over one run is noise wearing the clothes of a finding. Our archive runs to 2026-10-26: a horse that ran after that date has those runs missing here, so read `career` as what we hold, not as a complete record.",
  "history_depth": {
@@ -19,7 +19,7 @@
   "still_missing": 1037,
   "note": "Sire totals count the progeny we hold. Breeding is complete for races up to 2026-07-22. After that date our live source carries it for about half of runners; we recover most of the rest from the same horse's other races, but not all. Recent races are therefore under-counted in sire totals."
  },
- "collected_through": "2026-10-27T15:00:02Z",
+ "collected_through": "2026-10-27T19:00:02Z",
  "distance_bands": [
   {
    "key": "sprint",
@@ -22768,7 +22768,7 @@
     "off_utc": "2026-10-27T14:46:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "non_runner"
+    "runner_status": "runner"
    },
    "as_of": "2026-10-27",
    "status": "has_history",
@@ -23900,12 +23900,12 @@
     }
    ],
    "jockey": {
-    "name": "Sean Bowen",
-    "runs": 4303,
-    "wins": 837,
-    "places": 1968,
-    "win_pct": 19.5,
-    "place_pct": 45.7
+    "name": "Freddie Keighley(5)",
+    "runs": 165,
+    "wins": 17,
+    "places": 71,
+    "win_pct": 10.3,
+    "place_pct": 43.0
    },
    "trainer": {
     "name": "Martin Keighley",
@@ -23932,21 +23932,13 @@
     "place_pct": 31.8
    },
    "jockey_trainer": {
-    "jockey": "Sean Bowen",
+    "jockey": "Freddie Keighley(5)",
     "trainer": "Martin Keighley",
-    "runs": 296,
-    "wins": 57,
-    "places": 133,
-    "win_pct": 19.3,
-    "place_pct": 44.9
-   },
-   "jockey_here": {
-    "name": "Sean Bowen",
-    "runs": 3,
-    "wins": 0,
-    "places": 0,
-    "win_pct": 0.0,
-    "place_pct": 0.0
+    "runs": 95,
+    "wins": 10,
+    "places": 39,
+    "win_pct": 10.5,
+    "place_pct": 41.1
    },
    "trainer_here": {
     "name": "Martin Keighley",
@@ -23956,23 +23948,14 @@
     "win_pct": 0.0,
     "place_pct": 42.9
    },
-   "jockey_at_course": {
-    "name": "Sean Bowen",
-    "key": "Bangor-on-Dee",
-    "runs": 115,
-    "wins": 19,
-    "places": 47,
-    "win_pct": 16.5,
-    "place_pct": 40.9
-   },
    "jockey_at_distance": {
-    "name": "Sean Bowen",
+    "name": "Freddie Keighley(5)",
     "key": "staying",
-    "runs": 4279,
-    "wins": 835,
-    "places": 1964,
-    "win_pct": 19.5,
-    "place_pct": 45.9
+    "runs": 161,
+    "wins": 17,
+    "places": 71,
+    "win_pct": 10.6,
+    "place_pct": 44.1
    },
    "trainer_at_course": {
     "name": "Martin Keighley",
@@ -30795,12 +30778,12 @@
     }
    ],
    "jockey": {
-    "name": "Toby Wynne",
-    "runs": 693,
-    "wins": 90,
-    "places": 238,
-    "win_pct": 13.0,
-    "place_pct": 34.3
+    "name": "Charlie Deutsch",
+    "runs": 1840,
+    "wins": 245,
+    "places": 694,
+    "win_pct": 13.3,
+    "place_pct": 37.7
    },
    "trainer": {
     "name": "Mel Rowley",
@@ -30827,13 +30810,21 @@
     "place_pct": 31.8
    },
    "jockey_trainer": {
-    "jockey": "Toby Wynne",
+    "jockey": "Charlie Deutsch",
     "trainer": "Mel Rowley",
-    "runs": 25,
-    "wins": 0,
-    "places": 5,
-    "win_pct": 0.0,
-    "place_pct": 20.0
+    "runs": 153,
+    "wins": 21,
+    "places": 59,
+    "win_pct": 13.7,
+    "place_pct": 38.6
+   },
+   "jockey_here": {
+    "name": "Charlie Deutsch",
+    "runs": 9,
+    "wins": 2,
+    "places": 4,
+    "win_pct": 22.2,
+    "place_pct": 44.4
    },
    "trainer_here": {
     "name": "Mel Rowley",
@@ -30844,22 +30835,22 @@
     "place_pct": 44.4
    },
    "jockey_at_course": {
-    "name": "Toby Wynne",
+    "name": "Charlie Deutsch",
     "key": "Bangor-on-Dee",
-    "runs": 93,
-    "wins": 19,
-    "places": 46,
-    "win_pct": 20.4,
-    "place_pct": 49.5
+    "runs": 83,
+    "wins": 15,
+    "places": 24,
+    "win_pct": 18.1,
+    "place_pct": 28.9
    },
    "jockey_at_distance": {
-    "name": "Toby Wynne",
+    "name": "Charlie Deutsch",
     "key": "staying",
-    "runs": 687,
-    "wins": 90,
-    "places": 235,
-    "win_pct": 13.1,
-    "place_pct": 34.2
+    "runs": 1835,
+    "wins": 245,
+    "places": 693,
+    "win_pct": 13.4,
+    "place_pct": 37.8
    },
    "trainer_at_course": {
     "name": "Mel Rowley",
@@ -40510,12 +40501,12 @@
     }
    ],
    "jockey": {
-    "name": "Toby Wynne",
-    "runs": 693,
-    "wins": 90,
-    "places": 238,
-    "win_pct": 13.0,
-    "place_pct": 34.3
+    "name": "Jack Tudor",
+    "runs": 2043,
+    "wins": 241,
+    "places": 648,
+    "win_pct": 11.8,
+    "place_pct": 31.7
    },
    "trainer": {
     "name": "Oliver Greenall & Josh Guerriero",
@@ -40542,13 +40533,13 @@
     "place_pct": 36.7
    },
    "jockey_trainer": {
-    "jockey": "Toby Wynne",
+    "jockey": "Jack Tudor",
     "trainer": "Oliver Greenall & Josh Guerriero",
-    "runs": 403,
-    "wins": 56,
-    "places": 157,
-    "win_pct": 13.9,
-    "place_pct": 39.0
+    "runs": 51,
+    "wins": 5,
+    "places": 15,
+    "win_pct": 9.8,
+    "place_pct": 29.4
    },
    "trainer_here": {
     "name": "Oliver Greenall & Josh Guerriero",
@@ -40559,22 +40550,22 @@
     "place_pct": 50.0
    },
    "jockey_at_course": {
-    "name": "Toby Wynne",
+    "name": "Jack Tudor",
     "key": "Bangor-on-Dee",
-    "runs": 93,
-    "wins": 19,
-    "places": 46,
-    "win_pct": 20.4,
-    "place_pct": 49.5
+    "runs": 46,
+    "wins": 6,
+    "places": 17,
+    "win_pct": 13.0,
+    "place_pct": 37.0
    },
    "jockey_at_distance": {
-    "name": "Toby Wynne",
+    "name": "Jack Tudor",
     "key": "staying",
-    "runs": 687,
-    "wins": 90,
-    "places": 235,
-    "win_pct": 13.1,
-    "place_pct": 34.2
+    "runs": 2043,
+    "wins": 241,
+    "places": 648,
+    "win_pct": 11.8,
+    "place_pct": 31.7
    },
    "trainer_at_course": {
     "name": "Oliver Greenall & Josh Guerriero",
@@ -40645,12 +40636,12 @@
     }
    ],
    "jockey": {
-    "name": "Adam Wedge",
-    "runs": 2512,
-    "wins": 307,
-    "places": 881,
-    "win_pct": 12.2,
-    "place_pct": 35.1
+    "name": "Jack Tudor",
+    "runs": 2043,
+    "wins": 241,
+    "places": 648,
+    "win_pct": 11.8,
+    "place_pct": 31.7
    },
    "trainer": {
     "name": "Christian Williams",
@@ -40661,13 +40652,21 @@
     "place_pct": 26.9
    },
    "jockey_trainer": {
-    "jockey": "Adam Wedge",
+    "jockey": "Jack Tudor",
     "trainer": "Christian Williams",
-    "runs": 57,
-    "wins": 8,
-    "places": 18,
-    "win_pct": 14.0,
-    "place_pct": 31.6
+    "runs": 867,
+    "wins": 88,
+    "places": 251,
+    "win_pct": 10.1,
+    "place_pct": 29.0
+   },
+   "jockey_here": {
+    "name": "Jack Tudor",
+    "runs": 3,
+    "wins": 0,
+    "places": 0,
+    "win_pct": 0.0,
+    "place_pct": 0.0
    },
    "trainer_here": {
     "name": "Christian Williams",
@@ -40678,22 +40677,22 @@
     "place_pct": 0.0
    },
    "jockey_at_course": {
-    "name": "Adam Wedge",
+    "name": "Jack Tudor",
     "key": "Bangor-on-Dee",
-    "runs": 39,
-    "wins": 4,
-    "places": 8,
-    "win_pct": 10.3,
-    "place_pct": 20.5
+    "runs": 46,
+    "wins": 6,
+    "places": 17,
+    "win_pct": 13.0,
+    "place_pct": 37.0
    },
    "jockey_at_distance": {
-    "name": "Adam Wedge",
+    "name": "Jack Tudor",
     "key": "staying",
-    "runs": 2505,
-    "wins": 307,
-    "places": 880,
-    "win_pct": 12.3,
-    "place_pct": 35.1
+    "runs": 2043,
+    "wins": 241,
+    "places": 648,
+    "win_pct": 11.8,
+    "place_pct": 31.7
    },
    "trainer_at_course": {
     "name": "Christian Williams",
@@ -41642,6 +41641,14 @@
     "win_pct": 4.3,
     "place_pct": 14.2
    },
+   "trainer": {
+    "name": "A. J. Martin",
+    "runs": 1381,
+    "wins": 95,
+    "places": 281,
+    "win_pct": 6.9,
+    "place_pct": 20.3
+   },
    "sire": {
     "name": "Pedro The Great",
     "runs": 156,
@@ -41650,9 +41657,26 @@
     "win_pct": 5.1,
     "place_pct": 28.8
    },
+   "jockey_trainer": {
+    "jockey": "Robbie Colgan",
+    "trainer": "A. J. Martin",
+    "runs": 94,
+    "wins": 7,
+    "places": 13,
+    "win_pct": 7.4,
+    "place_pct": 13.8
+   },
    "jockey_here": {
     "name": "Robbie Colgan",
     "runs": 2,
+    "wins": 0,
+    "places": 0,
+    "win_pct": 0.0,
+    "place_pct": 0.0
+   },
+   "trainer_here": {
+    "name": "A. J. Martin",
+    "runs": 5,
     "wins": 0,
     "places": 0,
     "win_pct": 0.0,
@@ -41675,6 +41699,24 @@
     "places": 78,
     "win_pct": 3.7,
     "place_pct": 15.3
+   },
+   "trainer_at_course": {
+    "name": "A. J. Martin",
+    "key": "Galway",
+    "runs": 82,
+    "wins": 6,
+    "places": 17,
+    "win_pct": 7.3,
+    "place_pct": 20.7
+   },
+   "trainer_at_distance": {
+    "name": "A. J. Martin",
+    "key": "middle",
+    "runs": 289,
+    "wins": 24,
+    "places": 70,
+    "win_pct": 8.3,
+    "place_pct": 24.2
    },
    "recent_90d": {
     "days": 90,
@@ -46020,12 +46062,12 @@
    "by_course": [],
    "by_distance": [],
    "jockey": {
-    "name": "James Bowen",
-    "runs": 2540,
-    "wins": 368,
-    "places": 1133,
-    "win_pct": 14.5,
-    "place_pct": 44.6
+    "name": "Paul O'Brien",
+    "runs": 1458,
+    "wins": 185,
+    "places": 542,
+    "win_pct": 12.7,
+    "place_pct": 37.2
    },
    "trainer": {
     "name": "Richard Hobson",
@@ -46051,23 +46093,32 @@
     "win_pct": 9.9,
     "place_pct": 31.6
    },
+   "jockey_trainer": {
+    "jockey": "Paul O'Brien",
+    "trainer": "Richard Hobson",
+    "runs": 59,
+    "wins": 9,
+    "places": 22,
+    "win_pct": 15.3,
+    "place_pct": 37.3
+   },
    "jockey_at_course": {
-    "name": "James Bowen",
+    "name": "Paul O'Brien",
     "key": "Bangor-on-Dee",
-    "runs": 47,
-    "wins": 6,
-    "places": 21,
-    "win_pct": 12.8,
-    "place_pct": 44.7
+    "runs": 17,
+    "wins": 2,
+    "places": 7,
+    "win_pct": 11.8,
+    "place_pct": 41.2
    },
    "jockey_at_distance": {
-    "name": "James Bowen",
+    "name": "Paul O'Brien",
     "key": "staying",
-    "runs": 2538,
-    "wins": 368,
-    "places": 1133,
-    "win_pct": 14.5,
-    "place_pct": 44.6
+    "runs": 1454,
+    "wins": 185,
+    "places": 541,
+    "win_pct": 12.7,
+    "place_pct": 37.2
    },
    "trainer_at_course": {
     "name": "Richard Hobson",
@@ -57643,12 +57694,12 @@
     }
    ],
    "jockey": {
-    "name": "Georgia Dobie",
-    "runs": 1115,
-    "wins": 92,
-    "places": 293,
-    "win_pct": 8.3,
-    "place_pct": 26.3
+    "name": "Josephine Gordon",
+    "runs": 1722,
+    "wins": 125,
+    "places": 424,
+    "win_pct": 7.3,
+    "place_pct": 24.6
    },
    "trainer": {
     "name": "Craig Benton",
@@ -57674,23 +57725,6 @@
     "win_pct": 8.5,
     "place_pct": 25.7
    },
-   "jockey_trainer": {
-    "jockey": "Georgia Dobie",
-    "trainer": "Craig Benton",
-    "runs": 98,
-    "wins": 12,
-    "places": 34,
-    "win_pct": 12.2,
-    "place_pct": 34.7
-   },
-   "jockey_here": {
-    "name": "Georgia Dobie",
-    "runs": 15,
-    "wins": 0,
-    "places": 0,
-    "win_pct": 0.0,
-    "place_pct": 0.0
-   },
    "trainer_here": {
     "name": "Craig Benton",
     "runs": 20,
@@ -57700,22 +57734,22 @@
     "place_pct": 10.0
    },
    "jockey_at_course": {
-    "name": "Georgia Dobie",
+    "name": "Josephine Gordon",
     "key": "Wolverhampton (AW)",
-    "runs": 110,
-    "wins": 8,
-    "places": 28,
-    "win_pct": 7.3,
-    "place_pct": 25.5
+    "runs": 273,
+    "wins": 14,
+    "places": 69,
+    "win_pct": 5.1,
+    "place_pct": 25.3
    },
    "jockey_at_distance": {
-    "name": "Georgia Dobie",
+    "name": "Josephine Gordon",
     "key": "mile",
-    "runs": 514,
-    "wins": 46,
-    "places": 150,
-    "win_pct": 8.9,
-    "place_pct": 29.2
+    "runs": 722,
+    "wins": 50,
+    "places": 165,
+    "win_pct": 6.9,
+    "place_pct": 22.9
    },
    "trainer_at_course": {
     "name": "Craig Benton",
@@ -59195,12 +59229,12 @@
     }
    ],
    "jockey": {
-    "name": "Georgia Dobie",
-    "runs": 1115,
-    "wins": 92,
-    "places": 293,
-    "win_pct": 8.3,
-    "place_pct": 26.3
+    "name": "Josephine Gordon",
+    "runs": 1722,
+    "wins": 125,
+    "places": 424,
+    "win_pct": 7.3,
+    "place_pct": 24.6
    },
    "trainer": {
     "name": "Craig Benton",
@@ -59226,23 +59260,6 @@
     "win_pct": 9.4,
     "place_pct": 29.1
    },
-   "jockey_trainer": {
-    "jockey": "Georgia Dobie",
-    "trainer": "Craig Benton",
-    "runs": 98,
-    "wins": 12,
-    "places": 34,
-    "win_pct": 12.2,
-    "place_pct": 34.7
-   },
-   "jockey_here": {
-    "name": "Georgia Dobie",
-    "runs": 24,
-    "wins": 3,
-    "places": 8,
-    "win_pct": 12.5,
-    "place_pct": 33.3
-   },
    "trainer_here": {
     "name": "Craig Benton",
     "runs": 28,
@@ -59252,22 +59269,22 @@
     "place_pct": 32.1
    },
    "jockey_at_course": {
-    "name": "Georgia Dobie",
+    "name": "Josephine Gordon",
     "key": "Wolverhampton (AW)",
-    "runs": 110,
-    "wins": 8,
-    "places": 28,
-    "win_pct": 7.3,
-    "place_pct": 25.5
+    "runs": 273,
+    "wins": 14,
+    "places": 69,
+    "win_pct": 5.1,
+    "place_pct": 25.3
    },
    "jockey_at_distance": {
-    "name": "Georgia Dobie",
+    "name": "Josephine Gordon",
     "key": "mile",
-    "runs": 514,
-    "wins": 46,
-    "places": 150,
-    "win_pct": 8.9,
-    "place_pct": 29.2
+    "runs": 722,
+    "wins": 50,
+    "places": 165,
+    "win_pct": 6.9,
+    "place_pct": 22.9
    },
    "trainer_at_course": {
     "name": "Craig Benton",
@@ -60392,12 +60409,12 @@
     }
    ],
    "jockey": {
-    "name": "Seamus Cronin(3)",
-    "runs": 94,
-    "wins": 10,
-    "places": 38,
-    "win_pct": 10.6,
-    "place_pct": 40.4
+    "name": "Rossa Ryan",
+    "runs": 5811,
+    "wins": 931,
+    "places": 2482,
+    "win_pct": 16.0,
+    "place_pct": 42.7
    },
    "trainer": {
     "name": "Michael Attwater",
@@ -60424,20 +60441,12 @@
     "place_pct": 35.2
    },
    "jockey_trainer": {
-    "jockey": "Seamus Cronin(3)",
+    "jockey": "Rossa Ryan",
     "trainer": "Michael Attwater",
-    "runs": 12,
-    "wins": 0,
-    "places": 2,
-    "win_pct": 0.0,
-    "place_pct": 16.7
-   },
-   "jockey_here": {
-    "name": "Seamus Cronin(3)",
-    "runs": 3,
-    "wins": 0,
-    "places": 1,
-    "win_pct": 0.0,
+    "runs": 39,
+    "wins": 5,
+    "places": 13,
+    "win_pct": 12.8,
     "place_pct": 33.3
    },
    "trainer_here": {
@@ -60448,14 +60457,23 @@
     "win_pct": 0.0,
     "place_pct": 20.0
    },
+   "jockey_at_course": {
+    "name": "Rossa Ryan",
+    "key": "Wolverhampton (AW)",
+    "runs": 673,
+    "wins": 141,
+    "places": 335,
+    "win_pct": 21.0,
+    "place_pct": 49.8
+   },
    "jockey_at_distance": {
-    "name": "Seamus Cronin(3)",
+    "name": "Rossa Ryan",
     "key": "sprint",
-    "runs": 37,
-    "wins": 3,
-    "places": 18,
-    "win_pct": 8.1,
-    "place_pct": 48.6
+    "runs": 1903,
+    "wins": 303,
+    "places": 813,
+    "win_pct": 15.9,
+    "place_pct": 42.7
    },
    "trainer_at_course": {
     "name": "Michael Attwater",
