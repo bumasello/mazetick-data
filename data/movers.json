@@ -1,6 +1,6 @@
 {
  "schema": "movers_v1",
- "generated_at": "2026-10-28T16:00:01Z",
+ "generated_at": "2026-10-28T21:30:01Z",
  "source": "Smarkets public order book",
  "note": "'percentile' is where this move sits among all moves we have measured for runners opening at a similar price. The median move is near zero in every band; what changes with price is the spread of outcomes.",
  "baseline": {
@@ -78,8 +78,52 @@
    }
   ]
  },
- "collected_through": "2026-10-28T15:45:01Z",
+ "collected_through": "2026-10-28T21:30:01Z",
  "runners": [
+  {
+   "slug": "dundalk-1700",
+   "venue": "Dundalk",
+   "off_utc": "2026-10-28T17:00:00Z",
+   "runner": "Rayastar",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 52.22
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 11.24,
+    "spread_pct": 4.4
+   },
+   "move_pct": -78.5,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 0,
+   "notable": true
+  },
+  {
+   "slug": "kempton-1815",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T18:15:00Z",
+   "runner": "Zoulette",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 35.59
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 87.34,
+    "spread_pct": 6.1
+   },
+   "move_pct": 145.4,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 100,
+   "notable": true
+  },
   {
    "slug": "dundalk-1500",
    "venue": "Dundalk",
@@ -191,6 +235,50 @@
    "notable": true
   },
   {
+   "slug": "dundalk-1700",
+   "venue": "Dundalk",
+   "off_utc": "2026-10-28T17:00:00Z",
+   "runner": "Let Me Free",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 45.66
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 95.69,
+    "spread_pct": 26.3
+   },
+   "move_pct": 109.6,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 99,
+   "notable": true
+  },
+  {
+   "slug": "kempton-1845",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T18:45:00Z",
+   "runner": "Lord Ragnar",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 16.45
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 39.92,
+    "spread_pct": 10.0
+   },
+   "move_pct": 142.7,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 99,
+   "notable": true
+  },
+  {
    "slug": "nottingham-1246",
    "venue": "Nottingham",
    "off_utc": "2026-10-28T12:46:00Z",
@@ -279,20 +367,42 @@
    "notable": true
   },
   {
-   "slug": "newton-abbot-1621",
-   "venue": "Newton Abbot",
-   "off_utc": "2026-10-28T16:21:00Z",
-   "runner": "Storm Cracker",
+   "slug": "dundalk-1600",
+   "venue": "Dundalk",
+   "off_utc": "2026-10-28T16:00:00Z",
+   "runner": "Fan Club",
    "first": {
-    "mins_to_off": 351,
-    "mid": 12.32
+    "mins_to_off": 360,
+    "mid": 21.1
    },
    "latest": {
-    "mins_to_off": 36,
-    "mid": 24.39,
-    "spread_pct": 12.2
+    "mins_to_off": 0,
+    "mid": 53.33,
+    "spread_pct": 22.1
    },
-   "move_pct": 97.9,
+   "move_pct": 152.8,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 98,
+   "notable": true
+  },
+  {
+   "slug": "dundalk-1600",
+   "venue": "Dundalk",
+   "off_utc": "2026-10-28T16:00:00Z",
+   "runner": "Pallatine Hills",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 12.51
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 25.41,
+    "spread_pct": 12.0
+   },
+   "move_pct": 103.2,
    "band": [
     8,
     13
@@ -301,25 +411,69 @@
    "notable": true
   },
   {
-   "slug": "kempton-1745",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T17:45:00Z",
-   "runner": "Sand Dance",
+   "slug": "dundalk-1630",
+   "venue": "Dundalk",
+   "off_utc": "2026-10-28T16:30:00Z",
+   "runner": "All Hail",
    "first": {
     "mins_to_off": 360,
-    "mid": 20.66
+    "mid": 24.72
    },
    "latest": {
-    "mins_to_off": 120,
-    "mid": 9.58,
-    "spread_pct": 8.4
+    "mins_to_off": 0,
+    "mid": 63.49,
+    "spread_pct": 31.9
    },
-   "move_pct": -53.6,
+   "move_pct": 156.8,
    "band": [
     20,
     35
    ],
+   "percentile": 98,
+   "notable": true
+  },
+  {
+   "slug": "kempton-1645",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T16:45:00Z",
+   "runner": "Dora Vita",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 82.3
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 29.9,
+    "spread_pct": 13.5
+   },
+   "move_pct": -63.7,
+   "band": [
+    35,
+    100
+   ],
    "percentile": 2,
+   "notable": true
+  },
+  {
+   "slug": "kempton-1715",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T17:15:00Z",
+   "runner": "Gloriola",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 39.06
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 76.63,
+    "spread_pct": 19.3
+   },
+   "move_pct": 96.2,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 98,
    "notable": true
   },
   {
@@ -433,25 +587,25 @@
    "notable": true
   },
   {
-   "slug": "dundalk-1700",
+   "slug": "dundalk-1600",
    "venue": "Dundalk",
-   "off_utc": "2026-10-28T17:00:00Z",
-   "runner": "Rayastar",
+   "off_utc": "2026-10-28T16:00:00Z",
+   "runner": "Ukiyo",
    "first": {
-    "mins_to_off": 360,
-    "mid": 52.22
+    "mins_to_off": 270,
+    "mid": 53.33
    },
    "latest": {
-    "mins_to_off": 75,
-    "mid": 20.24,
-    "spread_pct": 32.0
+    "mins_to_off": 0,
+    "mid": 99.5,
+    "spread_pct": 35.9
    },
-   "move_pct": -61.2,
+   "move_pct": 86.6,
    "band": [
     35,
     100
    ],
-   "percentile": 3,
+   "percentile": 97,
    "notable": true
   },
   {
@@ -587,50 +741,6 @@
    "notable": true
   },
   {
-   "slug": "dundalk-1600",
-   "venue": "Dundalk",
-   "off_utc": "2026-10-28T16:00:00Z",
-   "runner": "Emily's Boy",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 11.67
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 20.39,
-    "spread_pct": 14.6
-   },
-   "move_pct": 74.7,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 96,
-   "notable": true
-  },
-  {
-   "slug": "dundalk-1600",
-   "venue": "Dundalk",
-   "off_utc": "2026-10-28T16:00:00Z",
-   "runner": "Pallatine Hills",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 12.51
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 22.27,
-    "spread_pct": 29.1
-   },
-   "move_pct": 78.1,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 96,
-   "notable": true
-  },
-  {
    "slug": "nottingham-1416",
    "venue": "Nottingham",
    "off_utc": "2026-10-28T14:16:00Z",
@@ -719,25 +829,47 @@
    "notable": true
   },
   {
-   "slug": "newton-abbot-1621",
-   "venue": "Newton Abbot",
-   "off_utc": "2026-10-28T16:21:00Z",
-   "runner": "Par Avion",
+   "slug": "dundalk-1600",
+   "venue": "Dundalk",
+   "off_utc": "2026-10-28T16:00:00Z",
+   "runner": "Hot To Foxtrot",
    "first": {
-    "mins_to_off": 351,
-    "mid": 2.82
+    "mins_to_off": 360,
+    "mid": 10.1
    },
    "latest": {
-    "mins_to_off": 36,
-    "mid": 2.14,
-    "spread_pct": 3.7
+    "mins_to_off": 0,
+    "mid": 17.21,
+    "spread_pct": 8.6
    },
-   "move_pct": -24.1,
+   "move_pct": 70.5,
    "band": [
-    1.5,
-    3
+    8,
+    13
    ],
-   "percentile": 5,
+   "percentile": 95,
+   "notable": true
+  },
+  {
+   "slug": "dundalk-1600",
+   "venue": "Dundalk",
+   "off_utc": "2026-10-28T16:00:00Z",
+   "runner": "Macadam's Rock",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 20.18
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 41.67,
+    "spread_pct": 19.3
+   },
+   "move_pct": 106.5,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 95,
    "notable": true
   },
   {
@@ -750,16 +882,38 @@
     "mid": 4.38
    },
    "latest": {
-    "mins_to_off": 75,
-    "mid": 6.49,
-    "spread_pct": 9.2
+    "mins_to_off": 0,
+    "mid": 6.39,
+    "spread_pct": 6.3
    },
-   "move_pct": 48.1,
+   "move_pct": 46.0,
    "band": [
     3,
     5
    ],
    "percentile": 95,
+   "notable": true
+  },
+  {
+   "slug": "kempton-1745",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T17:45:00Z",
+   "runner": "Sand Dance",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 20.66
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 11.48,
+    "spread_pct": 8.7
+   },
+   "move_pct": -44.4,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 5,
    "notable": true
   },
   {
@@ -939,67 +1093,23 @@
    "notable": false
   },
   {
-   "slug": "kempton-1615",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T16:15:00Z",
-   "runner": "Balon D'or",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 43.2
-   },
-   "latest": {
-    "mins_to_off": 30,
-    "mid": 71.94,
-    "spread_pct": 42.0
-   },
-   "move_pct": 66.5,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 94,
-   "notable": false
-  },
-  {
    "slug": "kempton-1645",
    "venue": "Kempton",
    "off_utc": "2026-10-28T16:45:00Z",
-   "runner": "Seapearl",
+   "runner": "Far Far Out",
    "first": {
     "mins_to_off": 360,
-    "mid": 8.96
+    "mid": 32.1
    },
    "latest": {
-    "mins_to_off": 60,
-    "mid": 14.43,
-    "spread_pct": 13.9
+    "mins_to_off": 0,
+    "mid": 61.54,
+    "spread_pct": 24.4
    },
-   "move_pct": 61.0,
+   "move_pct": 91.7,
    "band": [
-    8,
-    13
-   ],
-   "percentile": 94,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1815",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T18:15:00Z",
-   "runner": "Zoulette",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 35.59
-   },
-   "latest": {
-    "mins_to_off": 150,
-    "mid": 59.7,
-    "spread_pct": 64.8
-   },
-   "move_pct": 67.8,
-   "band": [
-    35,
-    100
+    20,
+    35
    ],
    "percentile": 94,
    "notable": false
@@ -1137,47 +1247,25 @@
    "notable": false
   },
   {
-   "slug": "dundalk-1600",
-   "venue": "Dundalk",
-   "off_utc": "2026-10-28T16:00:00Z",
-   "runner": "Macadam's Rock",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 20.18
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 37.59,
-    "spread_pct": 21.3
-   },
-   "move_pct": 86.3,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 93,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1615",
+   "slug": "kempton-1745",
    "venue": "Kempton",
-   "off_utc": "2026-10-28T16:15:00Z",
-   "runner": "Shaws Phoenix",
+   "off_utc": "2026-10-28T17:45:00Z",
+   "runner": "Waiting",
    "first": {
     "mins_to_off": 360,
-    "mid": 35.71
+    "mid": 16.65
    },
    "latest": {
-    "mins_to_off": 30,
-    "mid": 58.31,
-    "spread_pct": 34.2
+    "mins_to_off": 0,
+    "mid": 10.98,
+    "spread_pct": 9.0
    },
-   "move_pct": 63.3,
+   "move_pct": -34.1,
    "band": [
-    35,
-    100
+    13,
+    20
    ],
-   "percentile": 93,
+   "percentile": 7,
    "notable": false
   },
   {
@@ -1294,20 +1382,20 @@
    "slug": "dundalk-1600",
    "venue": "Dundalk",
    "off_utc": "2026-10-28T16:00:00Z",
-   "runner": "Fan Club",
+   "runner": "Emily's Boy",
    "first": {
     "mins_to_off": 360,
-    "mid": 21.1
+    "mid": 11.67
    },
    "latest": {
-    "mins_to_off": 15,
-    "mid": 37.59,
-    "spread_pct": 21.3
+    "mins_to_off": 0,
+    "mid": 18.23,
+    "spread_pct": 8.2
    },
-   "move_pct": 78.2,
+   "move_pct": 56.2,
    "band": [
-    20,
-    35
+    8,
+    13
    ],
    "percentile": 92,
    "notable": false
@@ -1316,44 +1404,132 @@
    "slug": "dundalk-1600",
    "venue": "Dundalk",
    "off_utc": "2026-10-28T16:00:00Z",
-   "runner": "Jazzit",
+   "runner": "The Bear Trap",
    "first": {
     "mins_to_off": 360,
-    "mid": 5.88
+    "mid": 12.18
    },
    "latest": {
-    "mins_to_off": 15,
-    "mid": 4.34,
-    "spread_pct": 11.5
+    "mins_to_off": 0,
+    "mid": 8.39,
+    "spread_pct": 4.8
    },
-   "move_pct": -26.3,
+   "move_pct": -31.1,
    "band": [
-    5,
-    8
+    8,
+    13
    ],
    "percentile": 8,
+   "notable": false
+  },
+  {
+   "slug": "newton-abbot-1621",
+   "venue": "Newton Abbot",
+   "off_utc": "2026-10-28T16:21:00Z",
+   "runner": "Storm Cracker",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 12.32
+   },
+   "latest": {
+    "mins_to_off": 6,
+    "mid": 19.21,
+    "spread_pct": 7.9
+   },
+   "move_pct": 55.9,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 92,
    "notable": false
   },
   {
    "slug": "dundalk-1630",
    "venue": "Dundalk",
    "off_utc": "2026-10-28T16:30:00Z",
-   "runner": "Whistling Jamesie",
+   "runner": "Shamanka",
    "first": {
     "mins_to_off": 360,
-    "mid": 15.24
+    "mid": 17.87
    },
    "latest": {
-    "mins_to_off": 45,
-    "mid": 10.25,
-    "spread_pct": 4.9
+    "mins_to_off": 0,
+    "mid": 29.9,
+    "spread_pct": 13.5
    },
-   "move_pct": -32.8,
+   "move_pct": 67.3,
    "band": [
     13,
     20
    ],
+   "percentile": 92,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1630",
+   "venue": "Dundalk",
+   "off_utc": "2026-10-28T16:30:00Z",
+   "runner": "Strikepoint",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 11.04
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 7.6,
+    "spread_pct": 5.2
+   },
+   "move_pct": -31.2,
+   "band": [
+    8,
+    13
+   ],
    "percentile": 8,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1730",
+   "venue": "Dundalk",
+   "off_utc": "2026-10-28T17:30:00Z",
+   "runner": "Essential Comedy",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 52.77
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 84.03,
+    "spread_pct": 23.9
+   },
+   "move_pct": 59.2,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 92,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1845",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T18:45:00Z",
+   "runner": "Conciliate",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 18.94
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 31.3,
+    "spread_pct": 16.1
+   },
+   "move_pct": 65.3,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 92,
    "notable": false
   },
   {
@@ -1511,20 +1687,20 @@
    "notable": false
   },
   {
-   "slug": "dundalk-1630",
-   "venue": "Dundalk",
-   "off_utc": "2026-10-28T16:30:00Z",
-   "runner": "Expound",
+   "slug": "kempton-1845",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T18:45:00Z",
+   "runner": "Treasurer",
    "first": {
     "mins_to_off": 360,
-    "mid": 19.78
+    "mid": 13.84
    },
    "latest": {
-    "mins_to_off": 45,
-    "mid": 32.1,
-    "spread_pct": 21.8
+    "mins_to_off": 0,
+    "mid": 22.4,
+    "spread_pct": 13.3
    },
-   "move_pct": 62.3,
+   "move_pct": 61.8,
    "band": [
     13,
     20
@@ -1533,47 +1709,25 @@
    "notable": false
   },
   {
-   "slug": "kempton-1645",
+   "slug": "kempton-1915",
    "venue": "Kempton",
-   "off_utc": "2026-10-28T16:45:00Z",
-   "runner": "Dora Vita",
+   "off_utc": "2026-10-28T19:15:00Z",
+   "runner": "Stay In Your Lane",
    "first": {
     "mins_to_off": 360,
-    "mid": 82.3
+    "mid": 27.29
    },
    "latest": {
-    "mins_to_off": 60,
-    "mid": 42.46,
-    "spread_pct": 23.7
+    "mins_to_off": 0,
+    "mid": 17.71,
+    "spread_pct": 8.3
    },
-   "move_pct": -48.4,
+   "move_pct": -35.1,
    "band": [
-    35,
-    100
+    20,
+    35
    ],
    "percentile": 9,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1715",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T17:15:00Z",
-   "runner": "Melodical",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 7.69
-   },
-   "latest": {
-    "mins_to_off": 90,
-    "mid": 10.58,
-    "spread_pct": 16.0
-   },
-   "move_pct": 37.6,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 91,
    "notable": false
   },
   {
@@ -1690,20 +1844,130 @@
    "slug": "newton-abbot-1621",
    "venue": "Newton Abbot",
    "off_utc": "2026-10-28T16:21:00Z",
-   "runner": "Straw Merchant",
+   "runner": "De Inovator",
    "first": {
     "mins_to_off": 351,
-    "mid": 7.78
+    "mid": 6.19
    },
    "latest": {
-    "mins_to_off": 36,
-    "mid": 10.58,
-    "spread_pct": 16.0
+    "mins_to_off": 6,
+    "mid": 8.39,
+    "spread_pct": 4.8
    },
-   "move_pct": 36.0,
+   "move_pct": 35.5,
    "band": [
     5,
     8
+   ],
+   "percentile": 90,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1630",
+   "venue": "Dundalk",
+   "off_utc": "2026-10-28T16:30:00Z",
+   "runner": "Roman Harry",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 10.79
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 7.79,
+    "spread_pct": 5.1
+   },
+   "move_pct": -27.8,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 10,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1645",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T16:45:00Z",
+   "runner": "Gatlinburg",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 13.53
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 21.39,
+    "spread_pct": 14.0
+   },
+   "move_pct": 58.1,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 90,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1645",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T16:45:00Z",
+   "runner": "Upsomdowns",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 6.1
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 4.65,
+    "spread_pct": 2.1
+   },
+   "move_pct": -23.8,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 10,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1715",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T17:15:00Z",
+   "runner": "Melodical",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 7.69
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 10.48,
+    "spread_pct": 9.6
+   },
+   "move_pct": 36.2,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 90,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1730",
+   "venue": "Dundalk",
+   "off_utc": "2026-10-28T17:30:00Z",
+   "runner": "Pepper Noir",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 55.4
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 84.03,
+    "spread_pct": 23.9
+   },
+   "move_pct": 51.7,
+   "band": [
+    35,
+    100
    ],
    "percentile": 90,
    "notable": false
@@ -1885,6 +2149,28 @@
    "notable": false
   },
   {
+   "slug": "dundalk-1600",
+   "venue": "Dundalk",
+   "off_utc": "2026-10-28T16:00:00Z",
+   "runner": "Jazzit",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 5.88
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 4.55,
+    "spread_pct": 2.2
+   },
+   "move_pct": -22.6,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 11,
+   "notable": false
+  },
+  {
    "slug": "newton-abbot-1351",
    "venue": "Newton Abbot",
    "off_utc": "2026-10-28T13:51:00Z",
@@ -2048,7 +2334,7 @@
     "mid": 5.64
    },
    "latest": {
-    "mins_to_off": 21,
+    "mins_to_off": 6,
     "mid": 4.4,
     "spread_pct": 4.6
    },
@@ -2061,25 +2347,113 @@
    "notable": false
   },
   {
-   "slug": "kempton-1615",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T16:15:00Z",
-   "runner": "Shining Guest",
+   "slug": "newton-abbot-1621",
+   "venue": "Newton Abbot",
+   "off_utc": "2026-10-28T16:21:00Z",
+   "runner": "The Gift Shop",
    "first": {
-    "mins_to_off": 360,
-    "mid": 84.03
+    "mins_to_off": 351,
+    "mid": 5.09
    },
    "latest": {
-    "mins_to_off": 30,
-    "mid": 47.62,
-    "spread_pct": 27.1
+    "mins_to_off": 6,
+    "mid": 3.97,
+    "spread_pct": 1.3
    },
-   "move_pct": -43.3,
+   "move_pct": -21.9,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 12,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1630",
+   "venue": "Dundalk",
+   "off_utc": "2026-10-28T16:30:00Z",
+   "runner": "Expound",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 19.78
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 29.9,
+    "spread_pct": 13.5
+   },
+   "move_pct": 51.1,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 88,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1845",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T18:45:00Z",
+   "runner": "Pure Mint",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 2.06
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 1.71,
+    "spread_pct": 1.2
+   },
+   "move_pct": -17.0,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 12,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1945",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T19:45:00Z",
+   "runner": "Youthful King",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 65.57
+   },
+   "latest": {
+    "mins_to_off": 105,
+    "mid": 96.15,
+    "spread_pct": 42.1
+   },
+   "move_pct": 46.6,
    "band": [
     35,
     100
    ],
-   "percentile": 12,
+   "percentile": 88,
+   "notable": false
+  },
+  {
+   "slug": "kempton-2015",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T20:15:00Z",
+   "runner": "The Bitter Moose",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 8.78
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 12.48,
+    "spread_pct": 8.0
+   },
+   "move_pct": 42.1,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 88,
    "notable": false
   },
   {
@@ -2149,6 +2523,94 @@
    "notable": false
   },
   {
+   "slug": "kempton-1615",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T16:15:00Z",
+   "runner": "Balon D'or",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 43.2
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 61.54,
+    "spread_pct": 24.4
+   },
+   "move_pct": 42.5,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 87,
+   "notable": false
+  },
+  {
+   "slug": "newton-abbot-1621",
+   "venue": "Newton Abbot",
+   "off_utc": "2026-10-28T16:21:00Z",
+   "runner": "Straw Merchant",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 7.78
+   },
+   "latest": {
+    "mins_to_off": 6,
+    "mid": 10.03,
+    "spread_pct": 9.0
+   },
+   "move_pct": 28.9,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 87,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1645",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T16:45:00Z",
+   "runner": "Seapearl",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 8.96
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 12.48,
+    "spread_pct": 8.0
+   },
+   "move_pct": 39.3,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 87,
+   "notable": false
+  },
+  {
+   "slug": "kempton-2015",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T20:15:00Z",
+   "runner": "Herculeus",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 9.79
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 13.75,
+    "spread_pct": 3.7
+   },
+   "move_pct": 40.3,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 87,
+   "notable": false
+  },
+  {
    "slug": "newton-abbot-1521",
    "venue": "Newton Abbot",
    "off_utc": "2026-10-28T15:21:00Z",
@@ -2215,42 +2677,42 @@
    "notable": false
   },
   {
-   "slug": "huntingdon-1606",
-   "venue": "Huntingdon",
-   "off_utc": "2026-10-28T16:06:00Z",
-   "runner": "Seedling",
+   "slug": "kempton-1615",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T16:15:00Z",
+   "runner": "Shining Guest",
    "first": {
-    "mins_to_off": 351,
-    "mid": 9.05
+    "mins_to_off": 360,
+    "mid": 84.03
    },
    "latest": {
-    "mins_to_off": 21,
-    "mid": 12.48,
-    "spread_pct": 8.0
+    "mins_to_off": 0,
+    "mid": 50.13,
+    "spread_pct": 17.7
    },
-   "move_pct": 38.0,
+   "move_pct": -40.4,
    "band": [
-    8,
-    13
+    35,
+    100
    ],
-   "percentile": 86,
+   "percentile": 14,
    "notable": false
   },
   {
-   "slug": "dundalk-1630",
+   "slug": "dundalk-1730",
    "venue": "Dundalk",
-   "off_utc": "2026-10-28T16:30:00Z",
-   "runner": "Final Boss",
+   "off_utc": "2026-10-28T17:30:00Z",
+   "runner": "Dancing Steve",
    "first": {
     "mins_to_off": 360,
-    "mid": 14.22
+    "mid": 18.15
    },
    "latest": {
-    "mins_to_off": 45,
-    "mid": 10.7,
-    "spread_pct": 14.0
+    "mins_to_off": 0,
+    "mid": 13.49,
+    "spread_pct": 7.4
    },
-   "move_pct": -24.8,
+   "move_pct": -25.7,
    "band": [
     13,
     20
@@ -2259,23 +2721,45 @@
    "notable": false
   },
   {
-   "slug": "dundalk-1630",
-   "venue": "Dundalk",
-   "off_utc": "2026-10-28T16:30:00Z",
-   "runner": "Strikepoint",
+   "slug": "kempton-1815",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T18:15:00Z",
+   "runner": "Daisy Roots",
    "first": {
     "mins_to_off": 360,
-    "mid": 11.04
+    "mid": 21.1
    },
    "latest": {
-    "mins_to_off": 45,
-    "mid": 15.21,
-    "spread_pct": 9.9
+    "mins_to_off": 0,
+    "mid": 32.73,
+    "spread_pct": 18.2
    },
-   "move_pct": 37.7,
+   "move_pct": 55.2,
    "band": [
-    8,
-    13
+    20,
+    35
+   ],
+   "percentile": 86,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1815",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T18:15:00Z",
+   "runner": "Medway Queen",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 5.9
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 7.6,
+    "spread_pct": 5.2
+   },
+   "move_pct": 28.8,
+   "band": [
+    5,
+    8
    ],
    "percentile": 86,
    "notable": false
@@ -2366,6 +2850,50 @@
     13
    ],
    "percentile": 15,
+   "notable": false
+  },
+  {
+   "slug": "newton-abbot-1621",
+   "venue": "Newton Abbot",
+   "off_utc": "2026-10-28T16:21:00Z",
+   "runner": "Miss Spec",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 16.65
+   },
+   "latest": {
+    "mins_to_off": 6,
+    "mid": 12.71,
+    "spread_pct": 11.7
+   },
+   "move_pct": -23.7,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 15,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1730",
+   "venue": "Dundalk",
+   "off_utc": "2026-10-28T17:30:00Z",
+   "runner": "Copper Craft",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 5.94
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 7.5,
+    "spread_pct": 2.6
+   },
+   "move_pct": 26.2,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 85,
    "notable": false
   },
   {
@@ -2523,23 +3051,133 @@
    "notable": false
   },
   {
-   "slug": "kempton-2015",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T20:15:00Z",
-   "runner": "Zero Carbon",
+   "slug": "dundalk-1600",
+   "venue": "Dundalk",
+   "off_utc": "2026-10-28T16:00:00Z",
+   "runner": "Auguste Gusteau",
    "first": {
     "mins_to_off": 360,
-    "mid": 26.77
+    "mid": 60.06
    },
    "latest": {
-    "mins_to_off": 270,
-    "mid": 40.4,
-    "spread_pct": 25.0
+    "mins_to_off": 0,
+    "mid": 37.59,
+    "spread_pct": 21.3
    },
-   "move_pct": 50.9,
+   "move_pct": -37.4,
    "band": [
-    20,
-    35
+    35,
+    100
+   ],
+   "percentile": 16,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1745",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T17:45:00Z",
+   "runner": "Howluckyweare",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 19.49
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 14.98,
+    "spread_pct": 6.7
+   },
+   "move_pct": -23.1,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 16,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1745",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T17:45:00Z",
+   "runner": "Lady Margo",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 2.81
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 3.3,
+    "spread_pct": 3.0
+   },
+   "move_pct": 17.4,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 84,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1745",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T17:45:00Z",
+   "runner": "Perfectly Adorable",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 16.86
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 12.98,
+    "spread_pct": 7.7
+   },
+   "move_pct": -23.0,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 16,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1815",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T18:15:00Z",
+   "runner": "Maria Da Silva",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 3.72
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 3.12,
+    "spread_pct": 1.6
+   },
+   "move_pct": -16.1,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 16,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1945",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T19:45:00Z",
+   "runner": "Brighton View",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 6.19
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 7.7,
+    "spread_pct": 2.6
+   },
+   "move_pct": 24.3,
+   "band": [
+    5,
+    8
    ],
    "percentile": 84,
    "notable": false
@@ -2699,67 +3337,23 @@
    "notable": false
   },
   {
-   "slug": "dundalk-1600",
-   "venue": "Dundalk",
-   "off_utc": "2026-10-28T16:00:00Z",
-   "runner": "Hot To Foxtrot",
+   "slug": "kempton-1715",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T17:15:00Z",
+   "runner": "Claytons Kolatonic",
    "first": {
     "mins_to_off": 360,
-    "mid": 10.1
+    "mid": 16.25
    },
    "latest": {
-    "mins_to_off": 15,
-    "mid": 13.2,
-    "spread_pct": 30.4
+    "mins_to_off": 0,
+    "mid": 22.4,
+    "spread_pct": 13.3
    },
-   "move_pct": 30.8,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 82,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1700",
-   "venue": "Dundalk",
-   "off_utc": "2026-10-28T17:00:00Z",
-   "runner": "Belle Parvenue",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 14.55
-   },
-   "latest": {
-    "mins_to_off": 75,
-    "mid": 20.08,
-    "spread_pct": 17.4
-   },
-   "move_pct": 38.1,
+   "move_pct": 37.8,
    "band": [
     13,
     20
-   ],
-   "percentile": 82,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1730",
-   "venue": "Dundalk",
-   "off_utc": "2026-10-28T17:30:00Z",
-   "runner": "Copper Craft",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 5.94
-   },
-   "latest": {
-    "mins_to_off": 105,
-    "mid": 7.26,
-    "spread_pct": 13.8
-   },
-   "move_pct": 22.3,
-   "band": [
-    5,
-    8
    ],
    "percentile": 82,
    "notable": false
@@ -2831,69 +3425,25 @@
    "notable": false
   },
   {
-   "slug": "dundalk-1600",
-   "venue": "Dundalk",
-   "off_utc": "2026-10-28T16:00:00Z",
-   "runner": "Battleforsupremacy",
+   "slug": "kempton-1945",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T19:45:00Z",
+   "runner": "Majestic",
    "first": {
     "mins_to_off": 360,
-    "mid": 5.25
+    "mid": 49.38
    },
    "latest": {
-    "mins_to_off": 15,
-    "mid": 6.32,
-    "spread_pct": 14.2
+    "mins_to_off": 0,
+    "mid": 32.73,
+    "spread_pct": 18.2
    },
-   "move_pct": 20.2,
+   "move_pct": -33.7,
    "band": [
-    5,
-    8
-   ],
-   "percentile": 81,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1630",
-   "venue": "Dundalk",
-   "off_utc": "2026-10-28T16:30:00Z",
-   "runner": "Roman Harry",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 10.79
-   },
-   "latest": {
-    "mins_to_off": 45,
-    "mid": 8.8,
-    "spread_pct": 4.6
-   },
-   "move_pct": -18.5,
-   "band": [
-    8,
-    13
+    35,
+    100
    ],
    "percentile": 19,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1645",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T16:45:00Z",
-   "runner": "Far Far Out",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 32.1
-   },
-   "latest": {
-    "mins_to_off": 60,
-    "mid": 46.3,
-    "spread_pct": 32.3
-   },
-   "move_pct": 44.2,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 81,
    "notable": false
   },
   {
@@ -2963,23 +3513,89 @@
    "notable": false
   },
   {
-   "slug": "dundalk-1600",
+   "slug": "dundalk-1630",
    "venue": "Dundalk",
-   "off_utc": "2026-10-28T16:00:00Z",
-   "runner": "The Bear Trap",
+   "off_utc": "2026-10-28T16:30:00Z",
+   "runner": "Whistling Jamesie",
    "first": {
     "mins_to_off": 360,
-    "mid": 12.18
+    "mid": 15.24
    },
    "latest": {
-    "mins_to_off": 15,
-    "mid": 10.02,
-    "spread_pct": 18.0
+    "mins_to_off": 0,
+    "mid": 20.66,
+    "spread_pct": 12.0
    },
-   "move_pct": -17.7,
+   "move_pct": 35.5,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 80,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1700",
+   "venue": "Dundalk",
+   "off_utc": "2026-10-28T17:00:00Z",
+   "runner": "Guana Dynasty",
+   "first": {
+    "mins_to_off": 285,
+    "mid": 73.53
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 95.69,
+    "spread_pct": 26.3
+   },
+   "move_pct": 30.1,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 80,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1945",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T19:45:00Z",
+   "runner": "Almekarem",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 8.89
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 7.29,
+    "spread_pct": 8.2
+   },
+   "move_pct": -18.0,
    "band": [
     8,
     13
+   ],
+   "percentile": 20,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1945",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T19:45:00Z",
+   "runner": "Forever Penywern",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 7.99
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 6.7,
+    "spread_pct": 2.9
+   },
+   "move_pct": -16.2,
+   "band": [
+    5,
+    8
    ],
    "percentile": 20,
    "notable": false
@@ -3095,20 +3711,20 @@
    "notable": false
   },
   {
-   "slug": "dundalk-1630",
-   "venue": "Dundalk",
-   "off_utc": "2026-10-28T16:30:00Z",
-   "runner": "Glen Breeze",
+   "slug": "huntingdon-1606",
+   "venue": "Huntingdon",
+   "off_utc": "2026-10-28T16:06:00Z",
+   "runner": "Seedling",
    "first": {
-    "mins_to_off": 360,
-    "mid": 12.0
+    "mins_to_off": 351,
+    "mid": 9.05
    },
    "latest": {
-    "mins_to_off": 45,
-    "mid": 15.21,
-    "spread_pct": 9.9
+    "mins_to_off": 6,
+    "mid": 11.48,
+    "spread_pct": 8.7
    },
-   "move_pct": 26.7,
+   "move_pct": 26.9,
    "band": [
     8,
     13
@@ -3117,25 +3733,25 @@
    "notable": false
   },
   {
-   "slug": "dundalk-1630",
-   "venue": "Dundalk",
-   "off_utc": "2026-10-28T16:30:00Z",
-   "runner": "Jazzy Dancer",
+   "slug": "kempton-1615",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T16:15:00Z",
+   "runner": "Marianne Mozart",
    "first": {
     "mins_to_off": 360,
-    "mid": 34.36
+    "mid": 5.88
    },
    "latest": {
-    "mins_to_off": 45,
-    "mid": 27.4,
-    "spread_pct": 11.0
+    "mins_to_off": 0,
+    "mid": 6.99,
+    "spread_pct": 5.7
    },
-   "move_pct": -20.3,
+   "move_pct": 18.8,
    "band": [
-    20,
-    35
+    5,
+    8
    ],
-   "percentile": 21,
+   "percentile": 79,
    "notable": false
   },
   {
@@ -3161,25 +3777,25 @@
    "notable": false
   },
   {
-   "slug": "kempton-1815",
+   "slug": "kempton-1745",
    "venue": "Kempton",
-   "off_utc": "2026-10-28T18:15:00Z",
-   "runner": "Maria Da Silva",
+   "off_utc": "2026-10-28T17:45:00Z",
+   "runner": "Thespian Queen",
    "first": {
     "mins_to_off": 360,
-    "mid": 3.72
+    "mid": 2.54
    },
    "latest": {
-    "mins_to_off": 150,
-    "mid": 3.25,
-    "spread_pct": 3.1
+    "mins_to_off": 0,
+    "mid": 2.86,
+    "spread_pct": 1.4
    },
-   "move_pct": -12.7,
+   "move_pct": 12.7,
    "band": [
-    3,
-    5
+    1.5,
+    3
    ],
-   "percentile": 21,
+   "percentile": 79,
    "notable": false
   },
   {
@@ -3249,45 +3865,45 @@
    "notable": false
   },
   {
-   "slug": "huntingdon-1606",
-   "venue": "Huntingdon",
-   "off_utc": "2026-10-28T16:06:00Z",
-   "runner": "Arm's Of An Angel",
+   "slug": "kempton-1615",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T16:15:00Z",
+   "runner": "Insuspense",
    "first": {
-    "mins_to_off": 351,
-    "mid": 4.34
+    "mins_to_off": 360,
+    "mid": 3.45
    },
    "latest": {
-    "mins_to_off": 21,
-    "mid": 5.1,
-    "spread_pct": 3.9
+    "mins_to_off": 0,
+    "mid": 3.02,
+    "spread_pct": 1.6
    },
-   "move_pct": 17.3,
+   "move_pct": -12.3,
    "band": [
     3,
     5
    ],
-   "percentile": 78,
+   "percentile": 22,
    "notable": false
   },
   {
-   "slug": "newton-abbot-1621",
-   "venue": "Newton Abbot",
-   "off_utc": "2026-10-28T16:21:00Z",
-   "runner": "De Inovator",
+   "slug": "kempton-1615",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T16:15:00Z",
+   "runner": "Shielas Well",
    "first": {
-    "mins_to_off": 351,
-    "mid": 6.19
+    "mins_to_off": 360,
+    "mid": 52.49
    },
    "latest": {
-    "mins_to_off": 36,
-    "mid": 7.29,
-    "spread_pct": 8.2
+    "mins_to_off": 15,
+    "mid": 66.67,
+    "spread_pct": 23.0
    },
-   "move_pct": 17.6,
+   "move_pct": 27.0,
    "band": [
-    5,
-    8
+    35,
+    100
    ],
    "percentile": 78,
    "notable": false
@@ -3315,91 +3931,47 @@
    "notable": false
   },
   {
-   "slug": "kempton-1715",
+   "slug": "kempton-1915",
    "venue": "Kempton",
-   "off_utc": "2026-10-28T17:15:00Z",
-   "runner": "Baggie Boy",
+   "off_utc": "2026-10-28T19:15:00Z",
+   "runner": "Poor Relation",
    "first": {
-    "mins_to_off": 345,
-    "mid": 98.52
+    "mins_to_off": 360,
+    "mid": 23.64
    },
    "latest": {
-    "mins_to_off": 90,
-    "mid": 68.73,
-    "spread_pct": 87.1
+    "mins_to_off": 0,
+    "mid": 19.21,
+    "spread_pct": 7.9
    },
-   "move_pct": -30.2,
+   "move_pct": -18.7,
    "band": [
-    35,
-    100
+    20,
+    35
    ],
    "percentile": 22,
    "notable": false
   },
   {
-   "slug": "kempton-1745",
+   "slug": "kempton-2015",
    "venue": "Kempton",
-   "off_utc": "2026-10-28T17:45:00Z",
-   "runner": "Howluckyweare",
+   "off_utc": "2026-10-28T20:15:00Z",
+   "runner": "Whitesnake",
    "first": {
     "mins_to_off": 360,
-    "mid": 19.49
+    "mid": 4.34
    },
    "latest": {
-    "mins_to_off": 120,
-    "mid": 16.16,
-    "spread_pct": 15.6
+    "mins_to_off": 0,
+    "mid": 3.82,
+    "spread_pct": 1.3
    },
-   "move_pct": -17.1,
+   "move_pct": -12.0,
    "band": [
-    13,
-    20
+    3,
+    5
    ],
    "percentile": 22,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1745",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T17:45:00Z",
-   "runner": "Lady Margo",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 2.81
-   },
-   "latest": {
-    "mins_to_off": 120,
-    "mid": 3.15,
-    "spread_pct": 3.2
-   },
-   "move_pct": 12.1,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 78,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1815",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T18:15:00Z",
-   "runner": "Connie Moon",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 17.08
-   },
-   "latest": {
-    "mins_to_off": 150,
-    "mid": 22.6,
-    "spread_pct": 26.4
-   },
-   "move_pct": 32.3,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 78,
    "notable": false
   },
   {
@@ -3535,69 +4107,113 @@
    "notable": false
   },
   {
-   "slug": "kempton-1615",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T16:15:00Z",
-   "runner": "Lion Ring",
+   "slug": "huntingdon-1606",
+   "venue": "Huntingdon",
+   "off_utc": "2026-10-28T16:06:00Z",
+   "runner": "Tommy Tipa",
    "first": {
-    "mins_to_off": 360,
-    "mid": 58.65
+    "mins_to_off": 351,
+    "mid": 18.67
    },
    "latest": {
-    "mins_to_off": 30,
-    "mid": 73.53,
-    "spread_pct": 48.1
+    "mins_to_off": 6,
+    "mid": 24.39,
+    "spread_pct": 12.2
    },
-   "move_pct": 25.4,
+   "move_pct": 30.6,
    "band": [
-    35,
-    100
+    13,
+    20
    ],
    "percentile": 77,
    "notable": false
   },
   {
-   "slug": "kempton-1715",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T17:15:00Z",
-   "runner": "Gloriola",
+   "slug": "newton-abbot-1621",
+   "venue": "Newton Abbot",
+   "off_utc": "2026-10-28T16:21:00Z",
+   "runner": "Par Avion",
    "first": {
-    "mins_to_off": 360,
-    "mid": 39.06
+    "mins_to_off": 351,
+    "mid": 2.82
    },
    "latest": {
-    "mins_to_off": 90,
-    "mid": 48.66,
-    "spread_pct": 80.6
+    "mins_to_off": 6,
+    "mid": 2.52,
+    "spread_pct": 1.6
    },
-   "move_pct": 24.6,
+   "move_pct": -10.6,
    "band": [
-    35,
-    100
+    1.5,
+    3
+   ],
+   "percentile": 23,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1815",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T18:15:00Z",
+   "runner": "Connie Moon",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 17.08
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 22.4,
+    "spread_pct": 13.3
+   },
+   "move_pct": 31.1,
+   "band": [
+    13,
+    20
    ],
    "percentile": 77,
    "notable": false
   },
   {
-   "slug": "kempton-1945",
+   "slug": "kempton-1815",
    "venue": "Kempton",
-   "off_utc": "2026-10-28T19:45:00Z",
-   "runner": "Youthful King",
+   "off_utc": "2026-10-28T18:15:00Z",
+   "runner": "Goomah",
    "first": {
     "mins_to_off": 360,
-    "mid": 65.57
+    "mid": 3.84
    },
    "latest": {
-    "mins_to_off": 240,
-    "mid": 81.97,
-    "spread_pct": 85.4
+    "mins_to_off": 0,
+    "mid": 3.4,
+    "spread_pct": 2.9
    },
-   "move_pct": 25.0,
+   "move_pct": -11.6,
    "band": [
-    35,
-    100
+    3,
+    5
    ],
-   "percentile": 77,
+   "percentile": 23,
+   "notable": false
+  },
+  {
+   "slug": "kempton-2015",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T20:15:00Z",
+   "runner": "Split Elevens",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 8.16
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 6.9,
+    "spread_pct": 2.9
+   },
+   "move_pct": -15.4,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 23,
    "notable": false
   },
   {
@@ -3642,28 +4258,6 @@
     13
    ],
    "percentile": 24,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1815",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T18:15:00Z",
-   "runner": "Medway Queen",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 5.9
-   },
-   "latest": {
-    "mins_to_off": 150,
-    "mid": 6.79,
-    "spread_pct": 5.8
-   },
-   "move_pct": 15.2,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 76,
    "notable": false
   },
   {
@@ -3799,86 +4393,64 @@
    "notable": false
   },
   {
-   "slug": "dundalk-1600",
-   "venue": "Dundalk",
-   "off_utc": "2026-10-28T16:00:00Z",
-   "runner": "Ocean Echo",
+   "slug": "huntingdon-1606",
+   "venue": "Huntingdon",
+   "off_utc": "2026-10-28T16:06:00Z",
+   "runner": "Mossy Moon",
    "first": {
-    "mins_to_off": 360,
-    "mid": 20.18
+    "mins_to_off": 351,
+    "mid": 5.05
    },
    "latest": {
-    "mins_to_off": 15,
-    "mid": 17.15,
-    "spread_pct": 14.5
+    "mins_to_off": 6,
+    "mid": 4.4,
+    "spread_pct": 4.6
    },
-   "move_pct": -15.0,
+   "move_pct": -12.8,
    "band": [
-    20,
-    35
+    5,
+    8
    ],
    "percentile": 25,
    "notable": false
   },
   {
-   "slug": "dundalk-1700",
-   "venue": "Dundalk",
-   "off_utc": "2026-10-28T17:00:00Z",
-   "runner": "Crayons In The Sky",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 1.69
-   },
-   "latest": {
-    "mins_to_off": 75,
-    "mid": 1.52,
-    "spread_pct": 2.0
-   },
-   "move_pct": -10.0,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 25,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1815",
+   "slug": "kempton-1615",
    "venue": "Kempton",
-   "off_utc": "2026-10-28T18:15:00Z",
-   "runner": "Goomah",
+   "off_utc": "2026-10-28T16:15:00Z",
+   "runner": "King Cherry",
    "first": {
     "mins_to_off": 360,
-    "mid": 3.84
+    "mid": 10.14
    },
    "latest": {
-    "mins_to_off": 150,
-    "mid": 3.45,
-    "spread_pct": 5.8
+    "mins_to_off": 0,
+    "mid": 8.7,
+    "spread_pct": 2.3
    },
-   "move_pct": -10.3,
+   "move_pct": -14.2,
    "band": [
-    3,
-    5
+    8,
+    13
    ],
    "percentile": 25,
    "notable": false
   },
   {
-   "slug": "kempton-1815",
+   "slug": "kempton-2015",
    "venue": "Kempton",
-   "off_utc": "2026-10-28T18:15:00Z",
-   "runner": "Rating",
+   "off_utc": "2026-10-28T20:15:00Z",
+   "runner": "Ziggy's Condor",
    "first": {
     "mins_to_off": 360,
-    "mid": 24.63
+    "mid": 32.26
    },
    "latest": {
-    "mins_to_off": 150,
-    "mid": 32.89,
-    "spread_pct": 27.5
+    "mins_to_off": 0,
+    "mid": 42.83,
+    "spread_pct": 14.2
    },
-   "move_pct": 33.6,
+   "move_pct": 32.8,
    "band": [
     20,
     35
@@ -3918,9 +4490,9 @@
     "mid": 16.56
    },
    "latest": {
-    "mins_to_off": 15,
+    "mins_to_off": 0,
     "mid": 14.24,
-    "spread_pct": 38.7
+    "spread_pct": 3.4
    },
    "move_pct": -14.0,
    "band": [
@@ -3931,23 +4503,23 @@
    "notable": false
   },
   {
-   "slug": "kempton-1715",
+   "slug": "kempton-1945",
    "venue": "Kempton",
-   "off_utc": "2026-10-28T17:15:00Z",
-   "runner": "Claytons Kolatonic",
+   "off_utc": "2026-10-28T19:45:00Z",
+   "runner": "Star Time",
    "first": {
     "mins_to_off": 360,
-    "mid": 16.25
+    "mid": 5.1
    },
    "latest": {
-    "mins_to_off": 90,
-    "mid": 20.66,
-    "spread_pct": 12.0
+    "mins_to_off": 0,
+    "mid": 5.8,
+    "spread_pct": 3.4
    },
-   "move_pct": 27.2,
+   "move_pct": 13.7,
    "band": [
-    13,
-    20
+    5,
+    8
    ],
    "percentile": 74,
    "notable": false
@@ -4066,64 +4638,64 @@
    "slug": "huntingdon-1606",
    "venue": "Huntingdon",
    "off_utc": "2026-10-28T16:06:00Z",
-   "runner": "Mossy Moon",
+   "runner": "Arm's Of An Angel",
    "first": {
     "mins_to_off": 351,
-    "mid": 5.05
+    "mid": 4.34
    },
    "latest": {
-    "mins_to_off": 21,
-    "mid": 4.45,
-    "spread_pct": 2.3
+    "mins_to_off": 6,
+    "mid": 4.9,
+    "spread_pct": 4.1
    },
-   "move_pct": -11.8,
+   "move_pct": 12.7,
    "band": [
-    5,
-    8
-   ],
-   "percentile": 27,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1630",
-   "venue": "Dundalk",
-   "off_utc": "2026-10-28T16:30:00Z",
-   "runner": "Leannespour",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 6.37
-   },
-   "latest": {
-    "mins_to_off": 45,
-    "mid": 7.19,
-    "spread_pct": 5.6
-   },
-   "move_pct": 12.9,
-   "band": [
-    5,
-    8
+    3,
+    5
    ],
    "percentile": 73,
    "notable": false
   },
   {
-   "slug": "kempton-1645",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T16:45:00Z",
-   "runner": "Girls Allowed",
+   "slug": "dundalk-1700",
+   "venue": "Dundalk",
+   "off_utc": "2026-10-28T17:00:00Z",
+   "runner": "Cafe Oh Lait",
    "first": {
     "mins_to_off": 360,
-    "mid": 2.51
+    "mid": 31.3
    },
    "latest": {
-    "mins_to_off": 60,
-    "mid": 2.29,
-    "spread_pct": 2.6
+    "mins_to_off": 0,
+    "mid": 40.82,
+    "spread_pct": 14.8
    },
-   "move_pct": -8.7,
+   "move_pct": 30.4,
    "band": [
-    1.5,
-    3
+    20,
+    35
+   ],
+   "percentile": 73,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1730",
+   "venue": "Dundalk",
+   "off_utc": "2026-10-28T17:30:00Z",
+   "runner": "Celtic Druid",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 19.49
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 16.99,
+    "spread_pct": 6.0
+   },
+   "move_pct": -12.8,
+   "band": [
+    13,
+    20
    ],
    "percentile": 27,
    "notable": false
@@ -4168,6 +4740,94 @@
    "band": [
     8,
     13
+   ],
+   "percentile": 72,
+   "notable": false
+  },
+  {
+   "slug": "huntingdon-1606",
+   "venue": "Huntingdon",
+   "off_utc": "2026-10-28T16:06:00Z",
+   "runner": "Kauto Line",
+   "first": {
+    "mins_to_off": 351,
+    "mid": 4.54
+   },
+   "latest": {
+    "mins_to_off": 6,
+    "mid": 5.1,
+    "spread_pct": 3.9
+   },
+   "move_pct": 12.2,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 72,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1615",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T16:15:00Z",
+   "runner": "Marra Donna",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 10.91
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 12.98,
+    "spread_pct": 7.7
+   },
+   "move_pct": 18.9,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 72,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1630",
+   "venue": "Dundalk",
+   "off_utc": "2026-10-28T16:30:00Z",
+   "runner": "Una Matata",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 3.92
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 3.55,
+    "spread_pct": 2.8
+   },
+   "move_pct": -9.4,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 28,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1915",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T19:15:00Z",
+   "runner": "Arabian Summer",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 1.92
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 2.1,
+    "spread_pct": 1.9
+   },
+   "move_pct": 9.1,
+   "band": [
+    1.5,
+    3
    ],
    "percentile": 72,
    "notable": false
@@ -4239,25 +4899,25 @@
    "notable": false
   },
   {
-   "slug": "dundalk-1730",
-   "venue": "Dundalk",
-   "off_utc": "2026-10-28T17:30:00Z",
-   "runner": "Rich Belief",
+   "slug": "kempton-1815",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T18:15:00Z",
+   "runner": "Rating",
    "first": {
     "mins_to_off": 360,
-    "mid": 40.98
+    "mid": 24.63
    },
    "latest": {
-    "mins_to_off": 105,
-    "mid": 31.5,
-    "spread_pct": 25.3
+    "mins_to_off": 0,
+    "mid": 31.3,
+    "spread_pct": 16.1
    },
-   "move_pct": -23.1,
+   "move_pct": 27.1,
    "band": [
-    35,
-    100
+    20,
+    35
    ],
-   "percentile": 29,
+   "percentile": 71,
    "notable": false
   },
   {
@@ -4305,28 +4965,6 @@
    "notable": false
   },
   {
-   "slug": "kempton-1815",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T18:15:00Z",
-   "runner": "Amarachi",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 7.29
-   },
-   "latest": {
-    "mins_to_off": 150,
-    "mid": 8.09,
-    "spread_pct": 7.5
-   },
-   "move_pct": 11.0,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 70,
-   "notable": false
-  },
-  {
    "slug": "nottingham-1316",
    "venue": "Nottingham",
    "off_utc": "2026-10-28T13:16:00Z",
@@ -4371,45 +5009,23 @@
    "notable": false
   },
   {
-   "slug": "kempton-1615",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T16:15:00Z",
-   "runner": "Insuspense",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 3.45
-   },
-   "latest": {
-    "mins_to_off": 30,
-    "mid": 3.17,
-    "spread_pct": 1.6
-   },
-   "move_pct": -8.0,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 31,
-   "notable": false
-  },
-  {
    "slug": "dundalk-1630",
    "venue": "Dundalk",
    "off_utc": "2026-10-28T16:30:00Z",
-   "runner": "All Hail",
+   "runner": "Final Boss",
    "first": {
     "mins_to_off": 360,
-    "mid": 24.72
+    "mid": 14.22
    },
    "latest": {
-    "mins_to_off": 45,
-    "mid": 30.72,
-    "spread_pct": 19.5
+    "mins_to_off": 0,
+    "mid": 17.21,
+    "spread_pct": 8.6
    },
-   "move_pct": 24.3,
+   "move_pct": 21.0,
    "band": [
-    20,
-    35
+    13,
+    20
    ],
    "percentile": 69,
    "notable": false
@@ -4437,25 +5053,25 @@
    "notable": false
   },
   {
-   "slug": "kempton-1645",
+   "slug": "kempton-1845",
    "venue": "Kempton",
-   "off_utc": "2026-10-28T16:45:00Z",
-   "runner": "Wild Rosie",
+   "off_utc": "2026-10-28T18:45:00Z",
+   "runner": "Arthur Carrot",
    "first": {
     "mins_to_off": 360,
-    "mid": 8.47
+    "mid": 10.91
    },
    "latest": {
-    "mins_to_off": 60,
-    "mid": 7.6,
-    "spread_pct": 5.2
+    "mins_to_off": 0,
+    "mid": 12.71,
+    "spread_pct": 11.7
    },
-   "move_pct": -10.3,
+   "move_pct": 16.5,
    "band": [
     8,
     13
    ],
-   "percentile": 31,
+   "percentile": 69,
    "notable": false
   },
   {
@@ -4481,69 +5097,47 @@
    "notable": false
   },
   {
-   "slug": "dundalk-1730",
-   "venue": "Dundalk",
-   "off_utc": "2026-10-28T17:30:00Z",
-   "runner": "Celtic Druid",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 19.49
-   },
-   "latest": {
-    "mins_to_off": 105,
-    "mid": 17.67,
-    "spread_pct": 14.2
-   },
-   "move_pct": -9.4,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 32,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1745",
+   "slug": "kempton-1915",
    "venue": "Kempton",
-   "off_utc": "2026-10-28T17:45:00Z",
-   "runner": "Thespian Queen",
+   "off_utc": "2026-10-28T19:15:00Z",
+   "runner": "Tausret",
    "first": {
     "mins_to_off": 360,
-    "mid": 2.54
+    "mid": 2.62
    },
    "latest": {
-    "mins_to_off": 120,
-    "mid": 2.7,
-    "spread_pct": 2.9
+    "mins_to_off": 0,
+    "mid": 2.45,
+    "spread_pct": 0.8
    },
-   "move_pct": 6.3,
+   "move_pct": -6.5,
    "band": [
     1.5,
     3
    ],
-   "percentile": 68,
+   "percentile": 32,
    "notable": false
   },
   {
-   "slug": "kempton-1945",
+   "slug": "kempton-2015",
    "venue": "Kempton",
-   "off_utc": "2026-10-28T19:45:00Z",
-   "runner": "Blue Hercules",
+   "off_utc": "2026-10-28T20:15:00Z",
+   "runner": "Benavente",
    "first": {
-    "mins_to_off": 360,
-    "mid": 10.48
+    "mins_to_off": 165,
+    "mid": 81.63
    },
    "latest": {
-    "mins_to_off": 240,
-    "mid": 9.49,
-    "spread_pct": 6.4
+    "mins_to_off": 60,
+    "mid": 92.59,
+    "spread_pct": 32.3
    },
-   "move_pct": -9.4,
+   "move_pct": 13.4,
    "band": [
-    8,
-    13
+    35,
+    100
    ],
-   "percentile": 32,
+   "percentile": 68,
    "notable": false
   },
   {
@@ -4591,28 +5185,6 @@
    "notable": false
   },
   {
-   "slug": "dundalk-1600",
-   "venue": "Dundalk",
-   "off_utc": "2026-10-28T16:00:00Z",
-   "runner": "Pocket Jacks",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 8.08
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 9.28,
-    "spread_pct": 10.8
-   },
-   "move_pct": 14.8,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 67,
-   "notable": false
-  },
-  {
    "slug": "huntingdon-1606",
    "venue": "Huntingdon",
    "off_utc": "2026-10-28T16:06:00Z",
@@ -4652,72 +5224,6 @@
    "band": [
     35,
     100
-   ],
-   "percentile": 67,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1615",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T16:15:00Z",
-   "runner": "Shielas Well",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 52.49
-   },
-   "latest": {
-    "mins_to_off": 30,
-    "mid": 58.65,
-    "spread_pct": 46.2
-   },
-   "move_pct": 11.7,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 67,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1745",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T17:45:00Z",
-   "runner": "Perfectly Adorable",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 16.86
-   },
-   "latest": {
-    "mins_to_off": 120,
-    "mid": 15.43,
-    "spread_pct": 13.0
-   },
-   "move_pct": -8.5,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 33,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1815",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T18:15:00Z",
-   "runner": "Daisy Roots",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 21.1
-   },
-   "latest": {
-    "mins_to_off": 150,
-    "mid": 25.84,
-    "spread_pct": 15.6
-   },
-   "move_pct": 22.5,
-   "band": [
-    20,
-    35
    ],
    "percentile": 67,
    "notable": false
@@ -4767,45 +5273,23 @@
    "notable": false
   },
   {
-   "slug": "dundalk-1700",
+   "slug": "dundalk-1730",
    "venue": "Dundalk",
-   "off_utc": "2026-10-28T17:00:00Z",
-   "runner": "Westminster Waltz",
-   "first": {
-    "mins_to_off": 330,
-    "mid": 63.69
-   },
-   "latest": {
-    "mins_to_off": 75,
-    "mid": 70.67,
-    "spread_pct": 99.7
-   },
-   "move_pct": 11.0,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 66,
-   "notable": false
-  },
-  {
-   "slug": "kempton-2015",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T20:15:00Z",
-   "runner": "Ziggy's Condor",
+   "off_utc": "2026-10-28T17:30:00Z",
+   "runner": "Enchanted Lady",
    "first": {
     "mins_to_off": 360,
-    "mid": 32.26
+    "mid": 5.64
    },
    "latest": {
-    "mins_to_off": 270,
-    "mid": 29.9,
-    "spread_pct": 13.5
+    "mins_to_off": 0,
+    "mid": 5.2,
+    "spread_pct": 3.8
    },
-   "move_pct": -7.3,
+   "move_pct": -7.8,
    "band": [
-    20,
-    35
+    5,
+    8
    ],
    "percentile": 34,
    "notable": false
@@ -4877,28 +5361,6 @@
    "notable": false
   },
   {
-   "slug": "huntingdon-1606",
-   "venue": "Huntingdon",
-   "off_utc": "2026-10-28T16:06:00Z",
-   "runner": "Kauto Line",
-   "first": {
-    "mins_to_off": 351,
-    "mid": 4.54
-   },
-   "latest": {
-    "mins_to_off": 21,
-    "mid": 4.9,
-    "spread_pct": 4.1
-   },
-   "move_pct": 7.8,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 65,
-   "notable": false
-  },
-  {
    "slug": "newton-abbot-1621",
    "venue": "Newton Abbot",
    "off_utc": "2026-10-28T16:21:00Z",
@@ -4921,23 +5383,89 @@
    "notable": false
   },
   {
-   "slug": "kempton-1745",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T17:45:00Z",
-   "runner": "Waiting",
+   "slug": "dundalk-1730",
+   "venue": "Dundalk",
+   "off_utc": "2026-10-28T17:30:00Z",
+   "runner": "Alexa Next",
    "first": {
     "mins_to_off": 360,
-    "mid": 16.65
+    "mid": 34.36
    },
    "latest": {
-    "mins_to_off": 120,
-    "mid": 15.43,
-    "spread_pct": 13.0
+    "mins_to_off": 0,
+    "mid": 32.1,
+    "spread_pct": 21.8
    },
-   "move_pct": -7.3,
+   "move_pct": -6.6,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 35,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1730",
+   "venue": "Dundalk",
+   "off_utc": "2026-10-28T17:30:00Z",
+   "runner": "Rich Belief",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 40.98
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 44.84,
+    "spread_pct": 13.5
+   },
+   "move_pct": 9.4,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 65,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1730",
+   "venue": "Dundalk",
+   "off_utc": "2026-10-28T17:30:00Z",
+   "runner": "Wandering Rocks",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 16.13
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 14.98,
+    "spread_pct": 6.7
+   },
+   "move_pct": -7.1,
    "band": [
     13,
     20
+   ],
+   "percentile": 35,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1945",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T19:45:00Z",
+   "runner": "Thinthread",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 21.1
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 19.67,
+    "spread_pct": 12.8
+   },
+   "move_pct": -6.8,
+   "band": [
+    20,
+    35
    ],
    "percentile": 35,
    "notable": false
@@ -5012,108 +5540,108 @@
    "slug": "dundalk-1630",
    "venue": "Dundalk",
    "off_utc": "2026-10-28T16:30:00Z",
-   "runner": "Una Matata",
+   "runner": "Glen Breeze",
    "first": {
     "mins_to_off": 360,
-    "mid": 3.92
+    "mid": 12.0
    },
    "latest": {
-    "mins_to_off": 45,
-    "mid": 3.7,
-    "spread_pct": 2.7
+    "mins_to_off": 0,
+    "mid": 13.49,
+    "spread_pct": 7.4
    },
-   "move_pct": -5.6,
+   "move_pct": 12.3,
    "band": [
-    3,
-    5
-   ],
-   "percentile": 36,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1730",
-   "venue": "Dundalk",
-   "off_utc": "2026-10-28T17:30:00Z",
-   "runner": "Battling Siki",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 31.4
-   },
-   "latest": {
-    "mins_to_off": 105,
-    "mid": 37.59,
-    "spread_pct": 21.3
-   },
-   "move_pct": 19.7,
-   "band": [
-    20,
-    35
+    8,
+    13
    ],
    "percentile": 64,
    "notable": false
   },
   {
-   "slug": "dundalk-1730",
-   "venue": "Dundalk",
-   "off_utc": "2026-10-28T17:30:00Z",
-   "runner": "Enchanted Lady",
+   "slug": "kempton-1745",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T17:45:00Z",
+   "runner": "Fifth Amendment",
    "first": {
     "mins_to_off": 360,
-    "mid": 5.64
+    "mid": 84.39
    },
    "latest": {
-    "mins_to_off": 105,
-    "mid": 5.25,
-    "spread_pct": 5.7
+    "mins_to_off": 0,
+    "mid": 91.74,
+    "spread_pct": 16.6
    },
-   "move_pct": -7.0,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 36,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1730",
-   "venue": "Dundalk",
-   "off_utc": "2026-10-28T17:30:00Z",
-   "runner": "Pepper Noir",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 55.4
-   },
-   "latest": {
-    "mins_to_off": 105,
-    "mid": 46.51,
-    "spread_pct": 47.0
-   },
-   "move_pct": -16.0,
+   "move_pct": 8.7,
    "band": [
     35,
     100
    ],
-   "percentile": 36,
+   "percentile": 64,
    "notable": false
   },
   {
    "slug": "kempton-1945",
    "venue": "Kempton",
    "off_utc": "2026-10-28T19:45:00Z",
-   "runner": "Winged One",
+   "runner": "Imperial Cult",
    "first": {
     "mins_to_off": 360,
-    "mid": 4.65
+    "mid": 48.9
    },
    "latest": {
-    "mins_to_off": 240,
-    "mid": 5.0,
-    "spread_pct": 4.0
+    "mins_to_off": 0,
+    "mid": 53.33,
+    "spread_pct": 22.1
    },
-   "move_pct": 7.6,
+   "move_pct": 9.1,
    "band": [
-    3,
-    5
+    35,
+    100
+   ],
+   "percentile": 64,
+   "notable": false
+  },
+  {
+   "slug": "kempton-2015",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T20:15:00Z",
+   "runner": "Hexagonal",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 75.47
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 81.97,
+    "spread_pct": 18.2
+   },
+   "move_pct": 8.6,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 64,
+   "notable": false
+  },
+  {
+   "slug": "kempton-2015",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T20:15:00Z",
+   "runner": "Strong Voice",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 6.14
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 6.59,
+    "spread_pct": 6.0
+   },
+   "move_pct": 7.4,
+   "band": [
+    5,
+    8
    ],
    "percentile": 64,
    "notable": false
@@ -5210,22 +5738,22 @@
    "slug": "kempton-1615",
    "venue": "Kempton",
    "off_utc": "2026-10-28T16:15:00Z",
-   "runner": "Henry Tudor",
+   "runner": "Lazzar",
    "first": {
     "mins_to_off": 360,
-    "mid": 12.48
+    "mid": 5.55
    },
    "latest": {
-    "mins_to_off": 30,
-    "mid": 11.7,
-    "spread_pct": 12.8
+    "mins_to_off": 0,
+    "mid": 5.9,
+    "spread_pct": 3.4
    },
-   "move_pct": -6.3,
+   "move_pct": 6.3,
    "band": [
-    8,
-    13
+    5,
+    8
    ],
-   "percentile": 37,
+   "percentile": 63,
    "notable": false
   },
   {
@@ -5295,91 +5823,25 @@
    "notable": false
   },
   {
-   "slug": "dundalk-1600",
+   "slug": "dundalk-1730",
    "venue": "Dundalk",
-   "off_utc": "2026-10-28T16:00:00Z",
-   "runner": "Ukiyo",
-   "first": {
-    "mins_to_off": 270,
-    "mid": 53.33
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 56.98,
-    "spread_pct": 38.4
-   },
-   "move_pct": 6.8,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 62,
-   "notable": false
-  },
-  {
-   "slug": "huntingdon-1606",
-   "venue": "Huntingdon",
-   "off_utc": "2026-10-28T16:06:00Z",
-   "runner": "Tommy Tipa",
-   "first": {
-    "mins_to_off": 351,
-    "mid": 18.67
-   },
-   "latest": {
-    "mins_to_off": 21,
-    "mid": 21.39,
-    "spread_pct": 14.0
-   },
-   "move_pct": 14.5,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 62,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1700",
-   "venue": "Dundalk",
-   "off_utc": "2026-10-28T17:00:00Z",
-   "runner": "Legacy Of Stardom",
-   "first": {
-    "mins_to_off": 105,
-    "mid": 82.64
-   },
-   "latest": {
-    "mins_to_off": 75,
-    "mid": 70.67,
-    "spread_pct": 99.7
-   },
-   "move_pct": -14.5,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 38,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1915",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T19:15:00Z",
-   "runner": "Poor Relation",
+   "off_utc": "2026-10-28T17:30:00Z",
+   "runner": "Battling Siki",
    "first": {
     "mins_to_off": 360,
-    "mid": 23.64
+    "mid": 31.4
    },
    "latest": {
-    "mins_to_off": 210,
-    "mid": 22.83,
-    "spread_pct": 17.5
+    "mins_to_off": 0,
+    "mid": 36.76,
+    "spread_pct": 16.3
    },
-   "move_pct": -3.4,
+   "move_pct": 17.1,
    "band": [
     20,
     35
    ],
-   "percentile": 38,
+   "percentile": 62,
    "notable": false
   },
   {
@@ -5493,20 +5955,20 @@
    "notable": false
   },
   {
-   "slug": "kempton-1615",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T16:15:00Z",
-   "runner": "Lazzar",
+   "slug": "dundalk-1600",
+   "venue": "Dundalk",
+   "off_utc": "2026-10-28T16:00:00Z",
+   "runner": "Battleforsupremacy",
    "first": {
     "mins_to_off": 360,
-    "mid": 5.55
+    "mid": 5.25
    },
    "latest": {
-    "mins_to_off": 30,
-    "mid": 5.85,
-    "spread_pct": 5.1
+    "mins_to_off": 0,
+    "mid": 5.55,
+    "spread_pct": 1.8
    },
-   "move_pct": 5.4,
+   "move_pct": 5.6,
    "band": [
     5,
     8
@@ -5515,23 +5977,23 @@
    "notable": false
   },
   {
-   "slug": "dundalk-1730",
-   "venue": "Dundalk",
-   "off_utc": "2026-10-28T17:30:00Z",
-   "runner": "Cozone",
+   "slug": "kempton-1945",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T19:45:00Z",
+   "runner": "Blue Hercules",
    "first": {
     "mins_to_off": 360,
-    "mid": 84.39
+    "mid": 10.48
    },
    "latest": {
-    "mins_to_off": 105,
-    "mid": 88.89,
-    "spread_pct": 85.4
+    "mins_to_off": 0,
+    "mid": 11.48,
+    "spread_pct": 8.7
    },
-   "move_pct": 5.3,
+   "move_pct": 9.6,
    "band": [
-    35,
-    100
+    8,
+    13
    ],
    "percentile": 61,
    "notable": false
@@ -5603,25 +6065,91 @@
    "notable": false
   },
   {
-   "slug": "kempton-1645",
+   "slug": "kempton-1615",
    "venue": "Kempton",
-   "off_utc": "2026-10-28T16:45:00Z",
-   "runner": "Upsomdowns",
+   "off_utc": "2026-10-28T16:15:00Z",
+   "runner": "Lion Ring",
    "first": {
     "mins_to_off": 360,
-    "mid": 6.1
+    "mid": 58.65
    },
    "latest": {
-    "mins_to_off": 60,
-    "mid": 6.39,
-    "spread_pct": 6.3
+    "mins_to_off": 0,
+    "mid": 61.54,
+    "spread_pct": 24.4
    },
    "move_pct": 4.9,
    "band": [
-    5,
-    8
+    35,
+    100
    ],
    "percentile": 60,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1615",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T16:15:00Z",
+   "runner": "Shaws Phoenix",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 35.71
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 31.3,
+    "spread_pct": 16.1
+   },
+   "move_pct": -12.4,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 40,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1630",
+   "venue": "Dundalk",
+   "off_utc": "2026-10-28T16:30:00Z",
+   "runner": "Jazzy Dancer",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 34.36
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 39.6,
+    "spread_pct": 20.4
+   },
+   "move_pct": 15.2,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 60,
+   "notable": false
+  },
+  {
+   "slug": "dundalk-1700",
+   "venue": "Dundalk",
+   "off_utc": "2026-10-28T17:00:00Z",
+   "runner": "Belle Parvenue",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 14.55
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 13.98,
+    "spread_pct": 7.1
+   },
+   "move_pct": -3.9,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 40,
    "notable": false
   },
   {
@@ -5669,45 +6197,23 @@
    "notable": false
   },
   {
-   "slug": "dundalk-1700",
+   "slug": "dundalk-1630",
    "venue": "Dundalk",
-   "off_utc": "2026-10-28T17:00:00Z",
-   "runner": "Let Me Free",
+   "off_utc": "2026-10-28T16:30:00Z",
+   "runner": "Leannespour",
    "first": {
     "mins_to_off": 360,
-    "mid": 45.66
+    "mid": 6.37
    },
    "latest": {
-    "mins_to_off": 75,
-    "mid": 47.62,
-    "spread_pct": 27.1
+    "mins_to_off": 0,
+    "mid": 6.1,
+    "spread_pct": 3.3
    },
-   "move_pct": 4.3,
+   "move_pct": -4.3,
    "band": [
-    35,
-    100
-   ],
-   "percentile": 59,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1945",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T19:45:00Z",
-   "runner": "Majestic",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 49.38
-   },
-   "latest": {
-    "mins_to_off": 240,
-    "mid": 43.48,
-    "spread_pct": 43.6
-   },
-   "move_pct": -12.0,
-   "band": [
-    35,
-    100
+    5,
+    8
    ],
    "percentile": 41,
    "notable": false
@@ -5810,82 +6316,60 @@
     "mid": 88.5
    },
    "latest": {
-    "mins_to_off": 45,
-    "mid": 90.91,
-    "spread_pct": 65.9
+    "mins_to_off": 0,
+    "mid": 78.74,
+    "spread_pct": 25.6
    },
-   "move_pct": 2.7,
+   "move_pct": -11.0,
    "band": [
     35,
     100
    ],
-   "percentile": 58,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1630",
-   "venue": "Dundalk",
-   "off_utc": "2026-10-28T16:30:00Z",
-   "runner": "Shamanka",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 17.87
-   },
-   "latest": {
-    "mins_to_off": 45,
-    "mid": 19.67,
-    "spread_pct": 12.8
-   },
-   "move_pct": 10.0,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 58,
+   "percentile": 42,
    "notable": false
   },
   {
    "slug": "dundalk-1700",
    "venue": "Dundalk",
    "off_utc": "2026-10-28T17:00:00Z",
-   "runner": "Guana Dynasty",
+   "runner": "Westminster Waltz",
    "first": {
-    "mins_to_off": 285,
-    "mid": 73.53
+    "mins_to_off": 330,
+    "mid": 63.69
    },
    "latest": {
-    "mins_to_off": 105,
-    "mid": 76.34,
-    "spread_pct": 230.7
+    "mins_to_off": 0,
+    "mid": 56.5,
+    "spread_pct": 26.4
    },
-   "move_pct": 3.8,
+   "move_pct": -11.3,
    "band": [
     35,
     100
    ],
-   "percentile": 58,
+   "percentile": 42,
    "notable": false
   },
   {
-   "slug": "kempton-1915",
+   "slug": "kempton-1815",
    "venue": "Kempton",
-   "off_utc": "2026-10-28T19:15:00Z",
-   "runner": "Stay In Your Lane",
+   "off_utc": "2026-10-28T18:15:00Z",
+   "runner": "Amarachi",
    "first": {
     "mins_to_off": 360,
-    "mid": 27.29
+    "mid": 7.29
    },
    "latest": {
-    "mins_to_off": 210,
-    "mid": 27.29,
-    "spread_pct": 18.4
+    "mins_to_off": 0,
+    "mid": 7.6,
+    "spread_pct": 5.2
    },
-   "move_pct": 0.0,
+   "move_pct": 4.3,
    "band": [
-    20,
-    35
+    5,
+    8
    ],
-   "percentile": 42,
+   "percentile": 58,
    "notable": false
   },
   {
@@ -5911,89 +6395,23 @@
    "notable": false
   },
   {
-   "slug": "dundalk-1600",
-   "venue": "Dundalk",
-   "off_utc": "2026-10-28T16:00:00Z",
-   "runner": "Auguste Gusteau",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 60.06
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 61.54,
-    "spread_pct": 48.7
-   },
-   "move_pct": 2.5,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 57,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1615",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T16:15:00Z",
-   "runner": "Marianne Mozart",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 5.88
-   },
-   "latest": {
-    "mins_to_off": 30,
-    "mid": 6.1,
-    "spread_pct": 3.3
-   },
-   "move_pct": 3.6,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 57,
-   "notable": false
-  },
-  {
    "slug": "kempton-1645",
    "venue": "Kempton",
    "off_utc": "2026-10-28T16:45:00Z",
-   "runner": "Malakai Kite",
+   "runner": "Wild Rosie",
    "first": {
     "mins_to_off": 360,
-    "mid": 55.56
+    "mid": 8.47
    },
    "latest": {
-    "mins_to_off": 60,
-    "mid": 56.98,
-    "spread_pct": 38.4
+    "mins_to_off": 0,
+    "mid": 8.29,
+    "spread_pct": 7.2
    },
-   "move_pct": 2.6,
+   "move_pct": -2.2,
    "band": [
-    35,
-    100
-   ],
-   "percentile": 57,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1945",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T19:45:00Z",
-   "runner": "Brighton View",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 6.19
-   },
-   "latest": {
-    "mins_to_off": 240,
-    "mid": 5.99,
-    "spread_pct": 6.7
-   },
-   "move_pct": -3.2,
-   "band": [
-    5,
-    8
+    8,
+    13
    ],
    "percentile": 43,
    "notable": false
@@ -6002,22 +6420,22 @@
    "slug": "kempton-2015",
    "venue": "Kempton",
    "off_utc": "2026-10-28T20:15:00Z",
-   "runner": "Herculeus",
+   "runner": "Zero Carbon",
    "first": {
     "mins_to_off": 360,
-    "mid": 9.79
+    "mid": 26.77
    },
    "latest": {
-    "mins_to_off": 270,
-    "mid": 10.48,
-    "spread_pct": 9.6
+    "mins_to_off": 0,
+    "mid": 26.85,
+    "spread_pct": 14.8
    },
-   "move_pct": 7.0,
+   "move_pct": 0.3,
    "band": [
-    8,
-    13
+    20,
+    35
    ],
-   "percentile": 57,
+   "percentile": 43,
    "notable": false
   },
   {
@@ -6065,6 +6483,28 @@
    "notable": false
   },
   {
+   "slug": "dundalk-1600",
+   "venue": "Dundalk",
+   "off_utc": "2026-10-28T16:00:00Z",
+   "runner": "Cash On Black",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 55.25
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 50.13,
+    "spread_pct": 17.7
+   },
+   "move_pct": -9.3,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 44,
+   "notable": false
+  },
+  {
    "slug": "huntingdon-1606",
    "venue": "Huntingdon",
    "off_utc": "2026-10-28T16:06:00Z",
@@ -6087,18 +6527,40 @@
    "notable": false
   },
   {
-   "slug": "kempton-1615",
+   "slug": "kempton-1645",
    "venue": "Kempton",
-   "off_utc": "2026-10-28T16:15:00Z",
-   "runner": "King Cherry",
+   "off_utc": "2026-10-28T16:45:00Z",
+   "runner": "Malakai Kite",
    "first": {
     "mins_to_off": 360,
-    "mid": 10.14
+    "mid": 55.56
    },
    "latest": {
-    "mins_to_off": 30,
-    "mid": 10.75,
-    "spread_pct": 4.6
+    "mins_to_off": 0,
+    "mid": 56.5,
+    "spread_pct": 26.4
+   },
+   "move_pct": 1.7,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 56,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1845",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T18:45:00Z",
+   "runner": "Thames Waterman",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 12.93
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 13.71,
+    "spread_pct": 10.9
    },
    "move_pct": 6.0,
    "band": [
@@ -6112,22 +6574,22 @@
    "slug": "kempton-2015",
    "venue": "Kempton",
    "off_utc": "2026-10-28T20:15:00Z",
-   "runner": "Whitesnake",
+   "runner": "Generous Rascal",
    "first": {
     "mins_to_off": 360,
-    "mid": 4.34
+    "mid": 11.92
    },
    "latest": {
-    "mins_to_off": 270,
-    "mid": 4.5,
-    "spread_pct": 4.5
+    "mins_to_off": 0,
+    "mid": 11.74,
+    "spread_pct": 4.3
    },
-   "move_pct": 3.5,
+   "move_pct": -1.5,
    "band": [
-    3,
-    5
+    8,
+    13
    ],
-   "percentile": 56,
+   "percentile": 44,
    "notable": false
   },
   {
@@ -6175,42 +6637,20 @@
    "notable": false
   },
   {
-   "slug": "dundalk-1600",
-   "venue": "Dundalk",
-   "off_utc": "2026-10-28T16:00:00Z",
-   "runner": "Cash On Black",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 55.25
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 55.25,
-    "spread_pct": 30.5
-   },
-   "move_pct": 0.0,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 55,
-   "notable": false
-  },
-  {
    "slug": "kempton-1615",
    "venue": "Kempton",
    "off_utc": "2026-10-28T16:15:00Z",
-   "runner": "Marra Donna",
+   "runner": "Henry Tudor",
    "first": {
     "mins_to_off": 360,
-    "mid": 10.91
+    "mid": 12.48
    },
    "latest": {
-    "mins_to_off": 30,
-    "mid": 11.48,
-    "spread_pct": 8.7
+    "mins_to_off": 0,
+    "mid": 13.21,
+    "spread_pct": 11.4
    },
-   "move_pct": 5.2,
+   "move_pct": 5.8,
    "band": [
     8,
     13
@@ -6219,128 +6659,18 @@
    "notable": false
   },
   {
-   "slug": "kempton-1715",
+   "slug": "kempton-1745",
    "venue": "Kempton",
-   "off_utc": "2026-10-28T17:15:00Z",
-   "runner": "Roccobear",
+   "off_utc": "2026-10-28T17:45:00Z",
+   "runner": "Acechaser",
    "first": {
-    "mins_to_off": 360,
-    "mid": 7.89
+    "mins_to_off": 45,
+    "mid": 99.01
    },
    "latest": {
-    "mins_to_off": 90,
-    "mid": 8.1,
-    "spread_pct": 2.4
-   },
-   "move_pct": 2.7,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 55,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1730",
-   "venue": "Dundalk",
-   "off_utc": "2026-10-28T17:30:00Z",
-   "runner": "Coolnagrattan",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 5.53
-   },
-   "latest": {
-    "mins_to_off": 105,
-    "mid": 5.39,
-    "spread_pct": 7.4
-   },
-   "move_pct": -2.5,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 45,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1730",
-   "venue": "Dundalk",
-   "off_utc": "2026-10-28T17:30:00Z",
-   "runner": "Dancing Steve",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 18.15
-   },
-   "latest": {
-    "mins_to_off": 105,
-    "mid": 18.17,
-    "spread_pct": 13.7
-   },
-   "move_pct": 0.1,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 45,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1945",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T19:45:00Z",
-   "runner": "Imperial Cult",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 48.9
-   },
-   "latest": {
-    "mins_to_off": 240,
-    "mid": 48.9,
-    "spread_pct": 22.3
-   },
-   "move_pct": 0.0,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 55,
-   "notable": false
-  },
-  {
-   "slug": "kempton-2015",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T20:15:00Z",
-   "runner": "Hexagonal",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 75.47
-   },
-   "latest": {
-    "mins_to_off": 270,
-    "mid": 75.47,
-    "spread_pct": 33.3
-   },
-   "move_pct": 0.0,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 55,
-   "notable": false
-  },
-  {
-   "slug": "kempton-2015",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T20:15:00Z",
-   "runner": "Talking Bear",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 80.65
-   },
-   "latest": {
-    "mins_to_off": 270,
-    "mid": 80.65,
-    "spread_pct": 31.4
+    "mins_to_off": 0,
+    "mid": 99.01,
+    "spread_pct": 20.0
    },
    "move_pct": 0.0,
    "band": [
@@ -6395,113 +6725,25 @@
    "notable": false
   },
   {
-   "slug": "kempton-1645",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T16:45:00Z",
-   "runner": "Blue Hill",
+   "slug": "dundalk-1700",
+   "venue": "Dundalk",
+   "off_utc": "2026-10-28T17:00:00Z",
+   "runner": "Legacy Of Stardom",
    "first": {
-    "mins_to_off": 360,
-    "mid": 14.14
+    "mins_to_off": 105,
+    "mid": 82.64
    },
    "latest": {
-    "mins_to_off": 60,
-    "mid": 14.2,
-    "spread_pct": 10.5
+    "mins_to_off": 30,
+    "mid": 82.3,
+    "spread_pct": 36.5
    },
-   "move_pct": 0.4,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 46,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1815",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T18:15:00Z",
-   "runner": "Q T Pie",
-   "first": {
-    "mins_to_off": 270,
-    "mid": 99.01
-   },
-   "latest": {
-    "mins_to_off": 240,
-    "mid": 98.04,
-    "spread_pct": 137.8
-   },
-   "move_pct": -1.0,
+   "move_pct": -0.4,
    "band": [
     35,
     100
    ],
    "percentile": 54,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1845",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T18:45:00Z",
-   "runner": "Thames Waterman",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 12.93
-   },
-   "latest": {
-    "mins_to_off": 180,
-    "mid": 12.93,
-    "spread_pct": 15.5
-   },
-   "move_pct": 0.0,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 46,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1945",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T19:45:00Z",
-   "runner": "Star Time",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 5.1
-   },
-   "latest": {
-    "mins_to_off": 240,
-    "mid": 5.0,
-    "spread_pct": 4.0
-   },
-   "move_pct": -2.0,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 46,
-   "notable": false
-  },
-  {
-   "slug": "kempton-2015",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T20:15:00Z",
-   "runner": "Split Elevens",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 8.16
-   },
-   "latest": {
-    "mins_to_off": 270,
-    "mid": 8.09,
-    "spread_pct": 7.5
-   },
-   "move_pct": -0.8,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 46,
    "notable": false
   },
   {
@@ -6549,23 +6791,23 @@
    "notable": false
   },
   {
-   "slug": "newton-abbot-1621",
-   "venue": "Newton Abbot",
-   "off_utc": "2026-10-28T16:21:00Z",
-   "runner": "Miss Spec",
+   "slug": "dundalk-1600",
+   "venue": "Dundalk",
+   "off_utc": "2026-10-28T16:00:00Z",
+   "runner": "Pocket Jacks",
    "first": {
-    "mins_to_off": 351,
-    "mid": 16.65
+    "mins_to_off": 360,
+    "mid": 8.08
    },
    "latest": {
-    "mins_to_off": 36,
-    "mid": 17.67,
-    "spread_pct": 14.2
+    "mins_to_off": 0,
+    "mid": 8.39,
+    "spread_pct": 4.8
    },
-   "move_pct": 6.1,
+   "move_pct": 3.9,
    "band": [
-    13,
-    20
+    8,
+    13
    ],
    "percentile": 53,
    "notable": false
@@ -6574,132 +6816,66 @@
    "slug": "kempton-1645",
    "venue": "Kempton",
    "off_utc": "2026-10-28T16:45:00Z",
-   "runner": "Gatlinburg",
+   "runner": "Girls Allowed",
    "first": {
     "mins_to_off": 360,
-    "mid": 13.53
+    "mid": 2.51
    },
    "latest": {
-    "mins_to_off": 60,
-    "mid": 13.71,
-    "spread_pct": 10.9
+    "mins_to_off": 0,
+    "mid": 2.52,
+    "spread_pct": 1.6
    },
-   "move_pct": 1.3,
+   "move_pct": 0.5,
    "band": [
-    13,
-    20
+    1.5,
+    3
    ],
-   "percentile": 47,
+   "percentile": 53,
    "notable": false
   },
   {
    "slug": "dundalk-1730",
    "venue": "Dundalk",
    "off_utc": "2026-10-28T17:30:00Z",
-   "runner": "Essential Comedy",
+   "runner": "Coolnagrattan",
    "first": {
     "mins_to_off": 360,
-    "mid": 52.77
+    "mid": 5.53
    },
    "latest": {
-    "mins_to_off": 105,
-    "mid": 49.26,
-    "spread_pct": 64.8
+    "mins_to_off": 0,
+    "mid": 5.45,
+    "spread_pct": 1.9
    },
-   "move_pct": -6.7,
+   "move_pct": -1.4,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 47,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1745",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T17:45:00Z",
+   "runner": "Loaded Dice",
+   "first": {
+    "mins_to_off": 75,
+    "mid": 99.01
+   },
+   "latest": {
+    "mins_to_off": 45,
+    "mid": 97.56,
+    "spread_pct": 93.6
+   },
+   "move_pct": -1.5,
    "band": [
     35,
     100
    ],
-   "percentile": 47,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1845",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T18:45:00Z",
-   "runner": "Lord Ragnar",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 16.45
-   },
-   "latest": {
-    "mins_to_off": 180,
-    "mid": 16.75,
-    "spread_pct": 3.0
-   },
-   "move_pct": 1.8,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 47,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1845",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T18:45:00Z",
-   "runner": "Pure Mint",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 2.06
-   },
-   "latest": {
-    "mins_to_off": 180,
-    "mid": 2.02,
-    "spread_pct": 2.0
-   },
-   "move_pct": -1.9,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 47,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1915",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T19:15:00Z",
-   "runner": "Tausret",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 2.62
-   },
-   "latest": {
-    "mins_to_off": 210,
-    "mid": 2.57,
-    "spread_pct": 3.9
-   },
-   "move_pct": -1.9,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 47,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1945",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T19:45:00Z",
-   "runner": "Thinthread",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 21.1
-   },
-   "latest": {
-    "mins_to_off": 240,
-    "mid": 21.81,
-    "spread_pct": 18.3
-   },
-   "move_pct": 3.4,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 47,
+   "percentile": 53,
    "notable": false
   },
   {
@@ -6712,7 +6888,7 @@
     "mid": 8.78
    },
    "latest": {
-    "mins_to_off": 270,
+    "mins_to_off": 0,
     "mid": 8.8,
     "spread_pct": 4.6
    },
@@ -6720,6 +6896,28 @@
    "band": [
     8,
     13
+   ],
+   "percentile": 47,
+   "notable": false
+  },
+  {
+   "slug": "kempton-2015",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T20:15:00Z",
+   "runner": "Talking Bear",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 80.65
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 74.63,
+    "spread_pct": 13.5
+   },
+   "move_pct": -7.5,
+   "band": [
+    35,
+    100
    ],
    "percentile": 47,
    "notable": false
@@ -6769,47 +6967,25 @@
    "notable": false
   },
   {
-   "slug": "newton-abbot-1621",
-   "venue": "Newton Abbot",
-   "off_utc": "2026-10-28T16:21:00Z",
-   "runner": "The Gift Shop",
-   "first": {
-    "mins_to_off": 351,
-    "mid": 5.09
-   },
-   "latest": {
-    "mins_to_off": 36,
-    "mid": 5.05,
-    "spread_pct": 6.0
-   },
-   "move_pct": -0.9,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 48,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1700",
+   "slug": "dundalk-1600",
    "venue": "Dundalk",
-   "off_utc": "2026-10-28T17:00:00Z",
-   "runner": "Cafe Oh Lait",
+   "off_utc": "2026-10-28T16:00:00Z",
+   "runner": "Ocean Echo",
    "first": {
     "mins_to_off": 360,
-    "mid": 31.3
+    "mid": 20.18
    },
    "latest": {
-    "mins_to_off": 75,
-    "mid": 33.61,
-    "spread_pct": 32.8
+    "mins_to_off": 0,
+    "mid": 20.94,
+    "spread_pct": 9.4
    },
-   "move_pct": 7.4,
+   "move_pct": 3.8,
    "band": [
     20,
     35
    ],
-   "percentile": 52,
+   "percentile": 48,
    "notable": false
   },
   {
@@ -6835,6 +7011,28 @@
    "notable": false
   },
   {
+   "slug": "kempton-1715",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T17:15:00Z",
+   "runner": "Roccobear",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 7.89
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 7.79,
+    "spread_pct": 5.1
+   },
+   "move_pct": -1.2,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 48,
+   "notable": false
+  },
+  {
    "slug": "dundalk-1730",
    "venue": "Dundalk",
    "off_utc": "2026-10-28T17:30:00Z",
@@ -6844,102 +7042,36 @@
     "mid": 5.35
    },
    "latest": {
-    "mins_to_off": 105,
-    "mid": 5.39,
-    "spread_pct": 7.4
+    "mins_to_off": 0,
+    "mid": 5.3,
+    "spread_pct": 3.8
    },
-   "move_pct": 0.9,
+   "move_pct": -0.9,
    "band": [
     5,
     8
-   ],
-   "percentile": 52,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1845",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T18:45:00Z",
-   "runner": "Conciliate",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 18.94
-   },
-   "latest": {
-    "mins_to_off": 180,
-    "mid": 19.96,
-    "spread_pct": 10.0
-   },
-   "move_pct": 5.4,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 52,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1845",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T18:45:00Z",
-   "runner": "Treasurer",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 13.84
-   },
-   "latest": {
-    "mins_to_off": 180,
-    "mid": 14.14,
-    "spread_pct": 17.7
-   },
-   "move_pct": 2.2,
-   "band": [
-    13,
-    20
    ],
    "percentile": 48,
    "notable": false
   },
   {
-   "slug": "kempton-1915",
+   "slug": "kempton-1815",
    "venue": "Kempton",
-   "off_utc": "2026-10-28T19:15:00Z",
-   "runner": "Arabian Summer",
+   "off_utc": "2026-10-28T18:15:00Z",
+   "runner": "Q T Pie",
    "first": {
-    "mins_to_off": 360,
-    "mid": 1.92
-   },
-   "latest": {
-    "mins_to_off": 210,
-    "mid": 1.92,
-    "spread_pct": 1.1
-   },
-   "move_pct": -0.2,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 52,
-   "notable": false
-  },
-  {
-   "slug": "kempton-2015",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T20:15:00Z",
-   "runner": "Generous Rascal",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 11.92
-   },
-   "latest": {
     "mins_to_off": 270,
-    "mid": 11.98,
-    "spread_pct": 8.4
+    "mid": 99.01
    },
-   "move_pct": 0.5,
+   "latest": {
+    "mins_to_off": 15,
+    "mid": 92.59,
+    "spread_pct": 32.3
+   },
+   "move_pct": -6.5,
    "band": [
-    8,
-    13
+    35,
+    100
    ],
    "percentile": 48,
    "notable": false
@@ -7055,64 +7187,20 @@
    "notable": false
   },
   {
-   "slug": "dundalk-1730",
-   "venue": "Dundalk",
-   "off_utc": "2026-10-28T17:30:00Z",
-   "runner": "Alexa Next",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 34.36
-   },
-   "latest": {
-    "mins_to_off": 105,
-    "mid": 36.17,
-    "spread_pct": 52.8
-   },
-   "move_pct": 5.2,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 49,
-   "notable": false
-  },
-  {
-   "slug": "dundalk-1730",
-   "venue": "Dundalk",
-   "off_utc": "2026-10-28T17:30:00Z",
-   "runner": "Wandering Rocks",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 16.13
-   },
-   "latest": {
-    "mins_to_off": 105,
-    "mid": 16.86,
-    "spread_pct": 17.7
-   },
-   "move_pct": 4.6,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 51,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1745",
+   "slug": "kempton-1715",
    "venue": "Kempton",
-   "off_utc": "2026-10-28T17:45:00Z",
-   "runner": "Fifth Amendment",
+   "off_utc": "2026-10-28T17:15:00Z",
+   "runner": "Baggie Boy",
    "first": {
-    "mins_to_off": 360,
-    "mid": 84.39
+    "mins_to_off": 345,
+    "mid": 98.52
    },
    "latest": {
-    "mins_to_off": 120,
-    "mid": 81.63,
-    "spread_pct": 55.1
+    "mins_to_off": 15,
+    "mid": 95.69,
+    "spread_pct": 26.3
    },
-   "move_pct": -3.3,
+   "move_pct": -2.9,
    "band": [
     35,
     100
@@ -7121,23 +7209,23 @@
    "notable": false
   },
   {
-   "slug": "kempton-1845",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T18:45:00Z",
-   "runner": "Arthur Carrot",
+   "slug": "dundalk-1730",
+   "venue": "Dundalk",
+   "off_utc": "2026-10-28T17:30:00Z",
+   "runner": "Cozone",
    "first": {
     "mins_to_off": 360,
-    "mid": 10.91
+    "mid": 84.39
    },
    "latest": {
-    "mins_to_off": 180,
-    "mid": 11.2,
-    "spread_pct": 13.4
+    "mins_to_off": 30,
+    "mid": 81.97,
+    "spread_pct": 18.2
    },
-   "move_pct": 2.7,
+   "move_pct": -2.9,
    "band": [
-    8,
-    13
+    35,
+    100
    ],
    "percentile": 51,
    "notable": false
@@ -7152,53 +7240,9 @@
     "mid": 6.05
    },
    "latest": {
-    "mins_to_off": 180,
+    "mins_to_off": 0,
     "mid": 6.05,
     "spread_pct": 5.0
-   },
-   "move_pct": 0.0,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 49,
-   "notable": false
-  },
-  {
-   "slug": "kempton-1945",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T19:45:00Z",
-   "runner": "Forever Penywern",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 7.99
-   },
-   "latest": {
-    "mins_to_off": 240,
-    "mid": 7.99,
-    "spread_pct": 5.0
-   },
-   "move_pct": 0.0,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 49,
-   "notable": false
-  },
-  {
-   "slug": "kempton-2015",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T20:15:00Z",
-   "runner": "Strong Voice",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 6.14
-   },
-   "latest": {
-    "mins_to_off": 270,
-    "mid": 6.14,
-    "spread_pct": 8.2
    },
    "move_pct": 0.0,
    "band": [
@@ -7253,45 +7297,67 @@
    "notable": false
   },
   {
-   "slug": "kempton-1945",
+   "slug": "kempton-1645",
    "venue": "Kempton",
-   "off_utc": "2026-10-28T19:45:00Z",
-   "runner": "Almekarem",
+   "off_utc": "2026-10-28T16:45:00Z",
+   "runner": "Blue Hill",
    "first": {
     "mins_to_off": 360,
-    "mid": 8.89
+    "mid": 14.14
    },
    "latest": {
-    "mins_to_off": 240,
-    "mid": 9.09,
-    "spread_pct": 6.6
+    "mins_to_off": 0,
+    "mid": 14.72,
+    "spread_pct": 10.2
    },
-   "move_pct": 2.3,
+   "move_pct": 4.0,
    "band": [
-    8,
-    13
+    13,
+    20
    ],
    "percentile": 50,
    "notable": false
   },
   {
-   "slug": "kempton-2015",
-   "venue": "Kempton",
-   "off_utc": "2026-10-28T20:15:00Z",
-   "runner": "The Bitter Moose",
+   "slug": "dundalk-1700",
+   "venue": "Dundalk",
+   "off_utc": "2026-10-28T17:00:00Z",
+   "runner": "Crayons In The Sky",
    "first": {
     "mins_to_off": 360,
-    "mid": 8.78
+    "mid": 1.69
    },
    "latest": {
-    "mins_to_off": 270,
-    "mid": 9.0,
-    "spread_pct": 4.4
+    "mins_to_off": 0,
+    "mid": 1.68,
+    "spread_pct": 1.2
    },
-   "move_pct": 2.4,
+   "move_pct": -0.8,
    "band": [
-    8,
-    13
+    1.5,
+    3
+   ],
+   "percentile": 50,
+   "notable": false
+  },
+  {
+   "slug": "kempton-1945",
+   "venue": "Kempton",
+   "off_utc": "2026-10-28T19:45:00Z",
+   "runner": "Winged One",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 4.65
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 4.7,
+    "spread_pct": 4.3
+   },
+   "move_pct": 1.1,
+   "band": [
+    3,
+    5
    ],
    "percentile": 50,
    "notable": false
