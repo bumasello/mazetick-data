@@ -1,6 +1,6 @@
 {
  "schema": "horses_v5",
- "generated_at": "2026-10-30T12:00:43Z",
+ "generated_at": "2026-10-30T16:00:43Z",
  "source": "Historical race results",
  "note": "Every figure is computed using only races run STRICTLY BEFORE the race it describes — the `as_of` date on each horse. Groups with fewer than two runs are omitted rather than shown as a rate, because a 100% strike rate over one run is noise wearing the clothes of a finding. Our archive runs to 2026-10-29: a horse that ran after that date has those runs missing here, so read `career` as what we hold, not as a complete record.",
  "history_depth": {
@@ -19,7 +19,7 @@
   "still_missing": 1020,
   "note": "Sire totals count the progeny we hold. Breeding is complete for races up to 2026-07-22. After that date our live source carries it for about half of runners; we recover most of the rest from the same horse's other races, but not all. Recent races are therefore under-counted in sire totals."
  },
- "collected_through": "2026-10-30T11:00:02Z",
+ "collected_through": "2026-10-30T15:00:02Z",
  "distance_bands": [
   {
    "key": "sprint",
@@ -3568,7 +3568,7 @@
     "off_utc": "2026-10-30T12:40:00+00:00",
     "going": "soft",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-30",
    "status": "debut",
@@ -13008,7 +13008,7 @@
     "off_utc": "2026-10-30T13:30:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-30",
    "status": "has_history",
@@ -13133,7 +13133,7 @@
     "off_utc": "2026-10-30T13:30:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-30",
    "status": "has_history",
@@ -13241,7 +13241,7 @@
     "off_utc": "2026-10-30T13:30:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-30",
    "status": "has_history",
@@ -18757,12 +18757,12 @@
     }
    ],
    "jockey": {
-    "name": "Ricky Doyle",
-    "runs": 1566,
-    "wins": 96,
-    "places": 328,
-    "win_pct": 6.1,
-    "place_pct": 20.9
+    "name": "Danny Mullins",
+    "runs": 2970,
+    "wins": 306,
+    "places": 906,
+    "win_pct": 10.3,
+    "place_pct": 30.5
    },
    "trainer": {
     "name": "S G Carey",
@@ -18788,14 +18788,6 @@
     "win_pct": 11.2,
     "place_pct": 33.5
    },
-   "jockey_here": {
-    "name": "Ricky Doyle",
-    "runs": 2,
-    "wins": 1,
-    "places": 1,
-    "win_pct": 50.0,
-    "place_pct": 50.0
-   },
    "trainer_here": {
     "name": "S G Carey",
     "runs": 5,
@@ -18805,22 +18797,22 @@
     "place_pct": 20.0
    },
    "jockey_at_course": {
-    "name": "Ricky Doyle",
+    "name": "Danny Mullins",
     "key": "Down Royal",
-    "runs": 45,
-    "wins": 0,
-    "places": 9,
-    "win_pct": 0.0,
-    "place_pct": 20.0
+    "runs": 62,
+    "wins": 4,
+    "places": 17,
+    "win_pct": 6.5,
+    "place_pct": 27.4
    },
    "jockey_at_distance": {
-    "name": "Ricky Doyle",
+    "name": "Danny Mullins",
     "key": "staying",
-    "runs": 1566,
-    "wins": 96,
-    "places": 328,
-    "win_pct": 6.1,
-    "place_pct": 20.9
+    "runs": 2960,
+    "wins": 306,
+    "places": 902,
+    "win_pct": 10.3,
+    "place_pct": 30.5
    },
    "trainer_at_distance": {
     "name": "S G Carey",
@@ -19143,7 +19135,7 @@
     "off_utc": "2026-10-30T14:00:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-30",
    "status": "has_history",
@@ -22329,7 +22321,7 @@
     "off_utc": "2026-10-30T14:20:00+00:00",
     "going": "soft",
     "distance": "middle",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-30",
    "status": "has_history",
@@ -23821,12 +23813,12 @@
     }
    ],
    "jockey": {
-    "name": "Danny Gilligan",
-    "runs": 1157,
-    "wins": 127,
-    "places": 383,
-    "win_pct": 11.0,
-    "place_pct": 33.1
+    "name": "Jack Kennedy",
+    "runs": 2364,
+    "wins": 447,
+    "places": 1128,
+    "win_pct": 18.9,
+    "place_pct": 47.7
    },
    "trainer": {
     "name": "Gordon Elliott",
@@ -23853,13 +23845,21 @@
     "place_pct": 40.9
    },
    "jockey_trainer": {
-    "jockey": "Danny Gilligan",
+    "jockey": "Jack Kennedy",
     "trainer": "Gordon Elliott",
-    "runs": 531,
-    "wins": 65,
-    "places": 203,
-    "win_pct": 12.2,
-    "place_pct": 38.2
+    "runs": 2023,
+    "wins": 394,
+    "places": 990,
+    "win_pct": 19.5,
+    "place_pct": 48.9
+   },
+   "jockey_here": {
+    "name": "Jack Kennedy",
+    "runs": 5,
+    "wins": 2,
+    "places": 2,
+    "win_pct": 40.0,
+    "place_pct": 40.0
    },
    "trainer_here": {
     "name": "Gordon Elliott",
@@ -23870,22 +23870,22 @@
     "place_pct": 40.0
    },
    "jockey_at_course": {
-    "name": "Danny Gilligan",
+    "name": "Jack Kennedy",
     "key": "Down Royal",
-    "runs": 41,
-    "wins": 10,
-    "places": 20,
-    "win_pct": 24.4,
-    "place_pct": 48.8
+    "runs": 91,
+    "wins": 33,
+    "places": 49,
+    "win_pct": 36.3,
+    "place_pct": 53.8
    },
    "jockey_at_distance": {
-    "name": "Danny Gilligan",
+    "name": "Jack Kennedy",
     "key": "staying",
-    "runs": 1059,
-    "wins": 121,
-    "places": 360,
-    "win_pct": 11.4,
-    "place_pct": 34.0
+    "runs": 2360,
+    "wins": 447,
+    "places": 1128,
+    "win_pct": 18.9,
+    "place_pct": 47.8
    },
    "trainer_at_course": {
     "name": "Gordon Elliott",
@@ -24082,7 +24082,7 @@
     "off_utc": "2026-10-30T14:35:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-30",
    "status": "has_history",
@@ -31760,7 +31760,7 @@
     "off_utc": "2026-10-30T15:10:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-30",
    "status": "has_history",
@@ -36584,7 +36584,7 @@
     "off_utc": "2026-10-30T15:45:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-30",
    "status": "has_history",
@@ -37053,7 +37053,7 @@
     "off_utc": "2026-10-30T15:45:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-30",
    "status": "has_history",
@@ -37178,7 +37178,7 @@
     "off_utc": "2026-10-30T15:45:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-30",
    "status": "has_history",
@@ -37313,7 +37313,7 @@
     "off_utc": "2026-10-30T15:45:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-30",
    "status": "has_history",
@@ -37840,7 +37840,7 @@
     "off_utc": "2026-10-30T15:45:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-30",
    "status": "has_history",
@@ -37975,7 +37975,7 @@
     "off_utc": "2026-10-30T15:45:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-30",
    "status": "has_history",
@@ -42970,7 +42970,7 @@
     "off_utc": "2026-10-30T16:10:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-30",
    "status": "has_history",
@@ -56972,7 +56972,7 @@
     "off_utc": "2026-10-30T18:00:00+00:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-30",
    "status": "has_history",
@@ -57097,7 +57097,7 @@
     "off_utc": "2026-10-30T18:00:00+00:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-30",
    "status": "has_history",
@@ -57270,7 +57270,7 @@
     "off_utc": "2026-10-30T18:00:00+00:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-30",
    "status": "has_history",
@@ -64213,7 +64213,7 @@
     "off_utc": "2026-10-30T18:45:00+00:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-30",
    "status": "has_history",
@@ -66343,7 +66343,7 @@
     "off_utc": "2026-10-30T19:00:00+00:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "reserve"
+    "runner_status": "runner"
    },
    "as_of": "2026-10-30",
    "status": "has_history",
@@ -66357,6 +66357,14 @@
    "by_going": [],
    "by_course": [],
    "by_distance": [],
+   "jockey": {
+    "name": "Jack Kearney",
+    "runs": 956,
+    "wins": 68,
+    "places": 216,
+    "win_pct": 7.1,
+    "place_pct": 22.6
+   },
    "trainer": {
     "name": "G. M. Lyons",
     "runs": 2026,
@@ -66380,6 +66388,33 @@
     "places": 633,
     "win_pct": 10.5,
     "place_pct": 31.7
+   },
+   "jockey_trainer": {
+    "jockey": "Jack Kearney",
+    "trainer": "G. M. Lyons",
+    "runs": 70,
+    "wins": 4,
+    "places": 16,
+    "win_pct": 5.7,
+    "place_pct": 22.9
+   },
+   "jockey_at_course": {
+    "name": "Jack Kearney",
+    "key": "Dundalk (AW)",
+    "runs": 370,
+    "wins": 35,
+    "places": 114,
+    "win_pct": 9.5,
+    "place_pct": 30.8
+   },
+   "jockey_at_distance": {
+    "name": "Jack Kearney",
+    "key": "mile",
+    "runs": 445,
+    "wins": 39,
+    "places": 113,
+    "win_pct": 8.8,
+    "place_pct": 25.4
    },
    "trainer_at_course": {
     "name": "G. M. Lyons",
@@ -71614,7 +71649,7 @@
     "off_utc": "2026-10-30T19:30:00+00:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-30",
    "status": "has_history",
@@ -71747,7 +71782,7 @@
     "off_utc": "2026-10-30T19:30:00+00:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-30",
    "status": "has_history",
@@ -71912,7 +71947,7 @@
     "off_utc": "2026-10-30T19:30:00+00:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-30",
    "status": "has_history",
@@ -76731,7 +76766,7 @@
     "off_utc": "2026-10-30T20:00:00+00:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-30",
    "status": "has_history",
@@ -76864,7 +76899,7 @@
     "off_utc": "2026-10-30T20:00:00+00:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-30",
    "status": "has_history",
@@ -77037,7 +77072,7 @@
     "off_utc": "2026-10-30T20:00:00+00:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-10-30",
    "status": "has_history",
