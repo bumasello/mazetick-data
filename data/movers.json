@@ -1,6 +1,6 @@
 {
  "schema": "movers_v1",
- "generated_at": "2026-10-31T07:00:01Z",
+ "generated_at": "2026-10-31T12:00:01Z",
  "source": "Smarkets public order book",
  "note": "'percentile' is where this move sits among all moves we have measured for runners opening at a similar price. The median move is near zero in every band; what changes with price is the spread of outcomes.",
  "baseline": {
@@ -78,6 +78,4539 @@
    }
   ]
  },
- "collected_through": null,
- "runners": []
+ "collected_through": "2026-10-31T11:45:01Z",
+ "runners": [
+  {
+   "slug": "ayr-1428",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T14:28:00Z",
+   "runner": "Rock On Jet",
+   "first": {
+    "mins_to_off": 358,
+    "mid": 58.31
+   },
+   "latest": {
+    "mins_to_off": 163,
+    "mid": 20.6,
+    "spread_pct": 36.3
+   },
+   "move_pct": -64.7,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 2,
+   "notable": true
+  },
+  {
+   "slug": "ascot-1433",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T14:33:00Z",
+   "runner": "Tapley",
+   "first": {
+    "mins_to_off": 348,
+    "mid": 10.14
+   },
+   "latest": {
+    "mins_to_off": 168,
+    "mid": 6.37,
+    "spread_pct": 12.5
+   },
+   "move_pct": -37.2,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 4,
+   "notable": true
+  },
+  {
+   "slug": "ayr-1243",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T12:43:00Z",
+   "runner": "Jackson Court",
+   "first": {
+    "mins_to_off": 283,
+    "mid": 73.53
+   },
+   "latest": {
+    "mins_to_off": 58,
+    "mid": 32.1,
+    "spread_pct": 21.8
+   },
+   "move_pct": -56.3,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 5,
+   "notable": true
+  },
+  {
+   "slug": "ayr-1353",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T13:53:00Z",
+   "runner": "Loch Cuan",
+   "first": {
+    "mins_to_off": 353,
+    "mid": 11.92
+   },
+   "latest": {
+    "mins_to_off": 128,
+    "mid": 19.88,
+    "spread_pct": 27.5
+   },
+   "move_pct": 66.8,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 95,
+   "notable": true
+  },
+  {
+   "slug": "ayr-1428",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T14:28:00Z",
+   "runner": "My Kiwi Girl",
+   "first": {
+    "mins_to_off": 358,
+    "mid": 16.65
+   },
+   "latest": {
+    "mins_to_off": 163,
+    "mid": 30.86,
+    "spread_pct": 39.0
+   },
+   "move_pct": 85.3,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 95,
+   "notable": true
+  },
+  {
+   "slug": "ayr-1428",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T14:28:00Z",
+   "runner": "Wolfburg",
+   "first": {
+    "mins_to_off": 358,
+    "mid": 7.58
+   },
+   "latest": {
+    "mins_to_off": 163,
+    "mid": 11.7,
+    "spread_pct": 12.8
+   },
+   "move_pct": 54.4,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 95,
+   "notable": true
+  },
+  {
+   "slug": "wetherby-1603",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-31T16:03:00Z",
+   "runner": "Upfordebate",
+   "first": {
+    "mins_to_off": 348,
+    "mid": 7.18
+   },
+   "latest": {
+    "mins_to_off": 258,
+    "mid": 11.04,
+    "spread_pct": 30.9
+   },
+   "move_pct": 53.9,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 95,
+   "notable": true
+  },
+  {
+   "slug": "wetherby-1235",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-31T12:35:00Z",
+   "runner": "St Michael's Well",
+   "first": {
+    "mins_to_off": 275,
+    "mid": 11.42
+   },
+   "latest": {
+    "mins_to_off": 50,
+    "mid": 18.71,
+    "spread_pct": 8.1
+   },
+   "move_pct": 63.9,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 94,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1418",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-31T14:18:00Z",
+   "runner": "Lavida Adiva",
+   "first": {
+    "mins_to_off": 348,
+    "mid": 9.43
+   },
+   "latest": {
+    "mins_to_off": 153,
+    "mid": 6.29,
+    "spread_pct": 9.6
+   },
+   "move_pct": -33.4,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 6,
+   "notable": false
+  },
+  {
+   "slug": "newmarket-1558",
+   "venue": "Newmarket",
+   "off_utc": "2026-10-31T15:58:00Z",
+   "runner": "Supreme Clarets",
+   "first": {
+    "mins_to_off": 283,
+    "mid": 23.23
+   },
+   "latest": {
+    "mins_to_off": 253,
+    "mid": 13.71,
+    "spread_pct": 10.9
+   },
+   "move_pct": -41.0,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 6,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1418",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-31T14:18:00Z",
+   "runner": "Strong Leader",
+   "first": {
+    "mins_to_off": 348,
+    "mid": 2.98
+   },
+   "latest": {
+    "mins_to_off": 153,
+    "mid": 2.37,
+    "spread_pct": 2.5
+   },
+   "move_pct": -20.4,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 8,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1243",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T12:43:00Z",
+   "runner": "Battle Of Arsuf",
+   "first": {
+    "mins_to_off": 283,
+    "mid": 19.88
+   },
+   "latest": {
+    "mins_to_off": 58,
+    "mid": 13.71,
+    "spread_pct": 10.9
+   },
+   "move_pct": -31.0,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 9,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1243",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T12:43:00Z",
+   "runner": "Majordomo",
+   "first": {
+    "mins_to_off": 283,
+    "mid": 5.83
+   },
+   "latest": {
+    "mins_to_off": 58,
+    "mid": 4.4,
+    "spread_pct": 4.6
+   },
+   "move_pct": -24.6,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 9,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1243",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T12:43:00Z",
+   "runner": "King Kubala",
+   "first": {
+    "mins_to_off": 283,
+    "mid": 5.24
+   },
+   "latest": {
+    "mins_to_off": 58,
+    "mid": 7.09,
+    "spread_pct": 8.5
+   },
+   "move_pct": 35.3,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 90,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1428",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T14:28:00Z",
+   "runner": "Moon Phases",
+   "first": {
+    "mins_to_off": 358,
+    "mid": 8.96
+   },
+   "latest": {
+    "mins_to_off": 163,
+    "mid": 6.46,
+    "spread_pct": 15.5
+   },
+   "move_pct": -27.9,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 10,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1510",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T15:10:00Z",
+   "runner": "Seven Airs",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 56.98
+   },
+   "latest": {
+    "mins_to_off": 205,
+    "mid": 85.47,
+    "spread_pct": 46.8
+   },
+   "move_pct": 50.0,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 90,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1543",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T15:43:00Z",
+   "runner": "Williethebuilder",
+   "first": {
+    "mins_to_off": 358,
+    "mid": 17.71
+   },
+   "latest": {
+    "mins_to_off": 238,
+    "mid": 12.48,
+    "spread_pct": 8.0
+   },
+   "move_pct": -29.5,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 10,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1345",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-31T13:45:00Z",
+   "runner": "Kateira",
+   "first": {
+    "mins_to_off": 345,
+    "mid": 2.15
+   },
+   "latest": {
+    "mins_to_off": 120,
+    "mid": 2.59,
+    "spread_pct": 0.8
+   },
+   "move_pct": 20.5,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 87,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1250",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T12:50:00Z",
+   "runner": "Secret Sniper",
+   "first": {
+    "mins_to_off": 290,
+    "mid": 3.87
+   },
+   "latest": {
+    "mins_to_off": 65,
+    "mid": 3.17,
+    "spread_pct": 1.6
+   },
+   "move_pct": -18.0,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 14,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1353",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T13:53:00Z",
+   "runner": "Knomorediamonds",
+   "first": {
+    "mins_to_off": 353,
+    "mid": 5.74
+   },
+   "latest": {
+    "mins_to_off": 128,
+    "mid": 4.64,
+    "spread_pct": 10.8
+   },
+   "move_pct": -19.2,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 15,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1433",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T14:33:00Z",
+   "runner": "Imperial Alex",
+   "first": {
+    "mins_to_off": 348,
+    "mid": 14.74
+   },
+   "latest": {
+    "mins_to_off": 168,
+    "mid": 21.39,
+    "spread_pct": 14.0
+   },
+   "move_pct": 45.1,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 85,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1600",
+   "venue": "Southwell",
+   "off_utc": "2026-10-31T16:00:00Z",
+   "runner": "Volenti",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 5.69
+   },
+   "latest": {
+    "mins_to_off": 255,
+    "mid": 4.6,
+    "spread_pct": 4.3
+   },
+   "move_pct": -19.2,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 15,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1455",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-31T14:55:00Z",
+   "runner": "Handstands",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 4.4
+   },
+   "latest": {
+    "mins_to_off": 190,
+    "mid": 5.45,
+    "spread_pct": 5.5
+   },
+   "move_pct": 23.8,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 84,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1503",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T15:03:00Z",
+   "runner": "Dancing Fruits",
+   "first": {
+    "mins_to_off": 273,
+    "mid": 6.29
+   },
+   "latest": {
+    "mins_to_off": 198,
+    "mid": 7.79,
+    "spread_pct": 5.1
+   },
+   "move_pct": 24.0,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 84,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1615",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T16:15:00Z",
+   "runner": "Jota's Gold",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 62.11
+   },
+   "latest": {
+    "mins_to_off": 270,
+    "mid": 85.47,
+    "spread_pct": 46.8
+   },
+   "move_pct": 37.6,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 84,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1345",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-31T13:45:00Z",
+   "runner": "La Conquiere",
+   "first": {
+    "mins_to_off": 345,
+    "mid": 2.61
+   },
+   "latest": {
+    "mins_to_off": 120,
+    "mid": 2.26,
+    "spread_pct": 3.5
+   },
+   "move_pct": -13.4,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 17,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1455",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-31T14:55:00Z",
+   "runner": "Pic D'Orhy",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 2.43
+   },
+   "latest": {
+    "mins_to_off": 190,
+    "mid": 2.11,
+    "spread_pct": 2.8
+   },
+   "move_pct": -13.2,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 17,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1455",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-31T14:55:00Z",
+   "runner": "Riskintheground",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 32.1
+   },
+   "latest": {
+    "mins_to_off": 190,
+    "mid": 47.96,
+    "spread_pct": 8.2
+   },
+   "move_pct": 49.4,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 83,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1503",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T15:03:00Z",
+   "runner": "Liberty Coach",
+   "first": {
+    "mins_to_off": 273,
+    "mid": 5.19
+   },
+   "latest": {
+    "mins_to_off": 198,
+    "mid": 6.39,
+    "spread_pct": 6.3
+   },
+   "move_pct": 23.1,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 83,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1510",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T15:10:00Z",
+   "runner": "No Way Jay",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 2.89
+   },
+   "latest": {
+    "mins_to_off": 205,
+    "mid": 2.51,
+    "spread_pct": 0.8
+   },
+   "move_pct": -13.1,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 17,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1610",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T16:10:00Z",
+   "runner": "Secret Secret",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 24.63
+   },
+   "latest": {
+    "mins_to_off": 265,
+    "mid": 18.52,
+    "spread_pct": 32.3
+   },
+   "move_pct": -24.8,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 17,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1250",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T12:50:00Z",
+   "runner": "Lord Chamberlain",
+   "first": {
+    "mins_to_off": 290,
+    "mid": 13.93
+   },
+   "latest": {
+    "mins_to_off": 65,
+    "mid": 19.21,
+    "spread_pct": 7.9
+   },
+   "move_pct": 37.9,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 82,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1530",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-31T15:30:00Z",
+   "runner": "Klitschko",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 4.99
+   },
+   "latest": {
+    "mins_to_off": 225,
+    "mid": 6.09,
+    "spread_pct": 9.9
+   },
+   "move_pct": 21.9,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 82,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1530",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-31T15:30:00Z",
+   "runner": "Filibustering",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 2.81
+   },
+   "latest": {
+    "mins_to_off": 225,
+    "mid": 2.45,
+    "spread_pct": 2.5
+   },
+   "move_pct": -12.8,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 19,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1537",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T15:37:00Z",
+   "runner": "Platin Moon",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 7.58
+   },
+   "latest": {
+    "mins_to_off": 232,
+    "mid": 6.29,
+    "spread_pct": 9.6
+   },
+   "move_pct": -17.1,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 19,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1428",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T14:28:00Z",
+   "runner": "Halftheworldaway",
+   "first": {
+    "mins_to_off": 358,
+    "mid": 4.16
+   },
+   "latest": {
+    "mins_to_off": 163,
+    "mid": 4.94,
+    "spread_pct": 10.1
+   },
+   "move_pct": 18.6,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 80,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1503",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T15:03:00Z",
+   "runner": "Pure Gold",
+   "first": {
+    "mins_to_off": 273,
+    "mid": 8.76
+   },
+   "latest": {
+    "mins_to_off": 198,
+    "mid": 7.18,
+    "spread_pct": 11.2
+   },
+   "move_pct": -18.0,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 20,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1503",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T15:03:00Z",
+   "runner": "She's Notjoeking",
+   "first": {
+    "mins_to_off": 273,
+    "mid": 3.67
+   },
+   "latest": {
+    "mins_to_off": 198,
+    "mid": 3.17,
+    "spread_pct": 1.6
+   },
+   "move_pct": -13.5,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 20,
+   "notable": false
+  },
+  {
+   "slug": "newmarket-1558",
+   "venue": "Newmarket",
+   "off_utc": "2026-10-31T15:58:00Z",
+   "runner": "Dwindling Funds",
+   "first": {
+    "mins_to_off": 283,
+    "mid": 9.39
+   },
+   "latest": {
+    "mins_to_off": 253,
+    "mid": 7.69,
+    "spread_pct": 7.8
+   },
+   "move_pct": -18.1,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 20,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1610",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T16:10:00Z",
+   "runner": "Junior Des Mottes",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 32.0
+   },
+   "latest": {
+    "mins_to_off": 265,
+    "mid": 25.38,
+    "spread_pct": 31.7
+   },
+   "move_pct": -20.7,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 20,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1250",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T12:50:00Z",
+   "runner": "Top Coeur",
+   "first": {
+    "mins_to_off": 290,
+    "mid": 20.88
+   },
+   "latest": {
+    "mins_to_off": 65,
+    "mid": 29.33,
+    "spread_pct": 17.1
+   },
+   "move_pct": 40.5,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 79,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1353",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T13:53:00Z",
+   "runner": "Eagles Reprieve",
+   "first": {
+    "mins_to_off": 353,
+    "mid": 4.79
+   },
+   "latest": {
+    "mins_to_off": 128,
+    "mid": 5.59,
+    "spread_pct": 7.2
+   },
+   "move_pct": 16.7,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 78,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1537",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T15:37:00Z",
+   "runner": "Soldante",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 4.85
+   },
+   "latest": {
+    "mins_to_off": 232,
+    "mid": 4.25,
+    "spread_pct": 2.3
+   },
+   "move_pct": -12.4,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 22,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1600",
+   "venue": "Southwell",
+   "off_utc": "2026-10-31T16:00:00Z",
+   "runner": "Captive Beauty",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 18.38
+   },
+   "latest": {
+    "mins_to_off": 255,
+    "mid": 15.15,
+    "spread_pct": 16.5
+   },
+   "move_pct": -17.6,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 22,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1353",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T13:53:00Z",
+   "runner": "Blue Las",
+   "first": {
+    "mins_to_off": 353,
+    "mid": 6.98
+   },
+   "latest": {
+    "mins_to_off": 128,
+    "mid": 8.16,
+    "spread_pct": 14.8
+   },
+   "move_pct": 16.9,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 77,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1400",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T14:00:00Z",
+   "runner": "Jour D'Evasion",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 21.81
+   },
+   "latest": {
+    "mins_to_off": 135,
+    "mid": 17.95,
+    "spread_pct": 11.2
+   },
+   "move_pct": -17.7,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 23,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1510",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T15:10:00Z",
+   "runner": "Babs",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 3.72
+   },
+   "latest": {
+    "mins_to_off": 205,
+    "mid": 4.3,
+    "spread_pct": 4.6
+   },
+   "move_pct": 15.5,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 76,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1235",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-31T12:35:00Z",
+   "runner": "Measure Of A Man",
+   "first": {
+    "mins_to_off": 275,
+    "mid": 11.2
+   },
+   "latest": {
+    "mins_to_off": 50,
+    "mid": 13.71,
+    "spread_pct": 10.9
+   },
+   "move_pct": 22.3,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 75,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1243",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T12:43:00Z",
+   "runner": "The Skecher",
+   "first": {
+    "mins_to_off": 283,
+    "mid": 1.9
+   },
+   "latest": {
+    "mins_to_off": 58,
+    "mid": 2.1,
+    "spread_pct": 1.9
+   },
+   "move_pct": 10.2,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 75,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1400",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T14:00:00Z",
+   "runner": "Gabriel's Getaway",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 9.79
+   },
+   "latest": {
+    "mins_to_off": 135,
+    "mid": 11.98,
+    "spread_pct": 8.4
+   },
+   "move_pct": 22.3,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 75,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1418",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-31T14:18:00Z",
+   "runner": "Paggane",
+   "first": {
+    "mins_to_off": 348,
+    "mid": 7.06
+   },
+   "latest": {
+    "mins_to_off": 228,
+    "mid": 6.14,
+    "spread_pct": 8.2
+   },
+   "move_pct": -13.1,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 25,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1455",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-31T14:55:00Z",
+   "runner": "Hitman",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 21.1
+   },
+   "latest": {
+    "mins_to_off": 190,
+    "mid": 27.86,
+    "spread_pct": 14.6
+   },
+   "move_pct": 32.0,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 74,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1600",
+   "venue": "Southwell",
+   "off_utc": "2026-10-31T16:00:00Z",
+   "runner": "Age Of Time",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 13.33
+   },
+   "latest": {
+    "mins_to_off": 255,
+    "mid": 11.42,
+    "spread_pct": 17.5
+   },
+   "move_pct": -14.4,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 26,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1600",
+   "venue": "Southwell",
+   "off_utc": "2026-10-31T16:00:00Z",
+   "runner": "Archangel Josepi",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 55.56
+   },
+   "latest": {
+    "mins_to_off": 255,
+    "mid": 41.15,
+    "spread_pct": 29.4
+   },
+   "move_pct": -25.9,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 26,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1610",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T16:10:00Z",
+   "runner": "Bollin Matilda",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 6.12
+   },
+   "latest": {
+    "mins_to_off": 265,
+    "mid": 6.99,
+    "spread_pct": 5.7
+   },
+   "move_pct": 14.3,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 74,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1325",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T13:25:00Z",
+   "runner": "Glynn Brae",
+   "first": {
+    "mins_to_off": 325,
+    "mid": 4.9
+   },
+   "latest": {
+    "mins_to_off": 100,
+    "mid": 5.55,
+    "spread_pct": 5.4
+   },
+   "move_pct": 13.2,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 73,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1433",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T14:33:00Z",
+   "runner": "Transmission",
+   "first": {
+    "mins_to_off": 348,
+    "mid": 17.78
+   },
+   "latest": {
+    "mins_to_off": 168,
+    "mid": 22.4,
+    "spread_pct": 13.3
+   },
+   "move_pct": 26.0,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 73,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1543",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T15:43:00Z",
+   "runner": "Parchment",
+   "first": {
+    "mins_to_off": 358,
+    "mid": 33.56
+   },
+   "latest": {
+    "mins_to_off": 238,
+    "mid": 43.67,
+    "spread_pct": 18.5
+   },
+   "move_pct": 30.1,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 73,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1543",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T15:43:00Z",
+   "runner": "Zillow",
+   "first": {
+    "mins_to_off": 358,
+    "mid": 40.82
+   },
+   "latest": {
+    "mins_to_off": 238,
+    "mid": 48.9,
+    "spread_pct": 22.3
+   },
+   "move_pct": 19.8,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 73,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1600",
+   "venue": "Southwell",
+   "off_utc": "2026-10-31T16:00:00Z",
+   "runner": "Mercurius Power",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 14.94
+   },
+   "latest": {
+    "mins_to_off": 255,
+    "mid": 12.93,
+    "spread_pct": 15.5
+   },
+   "move_pct": -13.4,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 27,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1615",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T16:15:00Z",
+   "runner": "Jack's Succes",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 20.08
+   },
+   "latest": {
+    "mins_to_off": 270,
+    "mid": 17.38,
+    "spread_pct": 17.3
+   },
+   "move_pct": -13.5,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 27,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1615",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T16:15:00Z",
+   "runner": "The Rarest Hour",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 81.97
+   },
+   "latest": {
+    "mins_to_off": 270,
+    "mid": 98.04,
+    "spread_pct": 137.8
+   },
+   "move_pct": 19.6,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 73,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1635",
+   "venue": "Southwell",
+   "off_utc": "2026-10-31T16:35:00Z",
+   "runner": "Cy Twombly",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 66.67
+   },
+   "latest": {
+    "mins_to_off": 290,
+    "mid": 49.51,
+    "spread_pct": 50.4
+   },
+   "move_pct": -25.7,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 27,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1235",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-31T12:35:00Z",
+   "runner": "Venezuelan",
+   "first": {
+    "mins_to_off": 275,
+    "mid": 11.92
+   },
+   "latest": {
+    "mins_to_off": 50,
+    "mid": 10.48,
+    "spread_pct": 9.6
+   },
+   "move_pct": -12.1,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 28,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1250",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T12:50:00Z",
+   "runner": "Beau Quali",
+   "first": {
+    "mins_to_off": 290,
+    "mid": 16.65
+   },
+   "latest": {
+    "mins_to_off": 65,
+    "mid": 20.66,
+    "spread_pct": 12.0
+   },
+   "move_pct": 24.1,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 72,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1310",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-31T13:10:00Z",
+   "runner": "Geryville",
+   "first": {
+    "mins_to_off": 310,
+    "mid": 22.22
+   },
+   "latest": {
+    "mins_to_off": 85,
+    "mid": 28.69,
+    "spread_pct": 21.2
+   },
+   "move_pct": 29.1,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 72,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1503",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T15:03:00Z",
+   "runner": "Vampire Slayer",
+   "first": {
+    "mins_to_off": 273,
+    "mid": 13.33
+   },
+   "latest": {
+    "mins_to_off": 198,
+    "mid": 11.7,
+    "spread_pct": 12.8
+   },
+   "move_pct": -12.2,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 28,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1600",
+   "venue": "Southwell",
+   "off_utc": "2026-10-31T16:00:00Z",
+   "runner": "Oxford Circus",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 13.63
+   },
+   "latest": {
+    "mins_to_off": 255,
+    "mid": 11.92,
+    "spread_pct": 16.8
+   },
+   "move_pct": -12.6,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 28,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1615",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T16:15:00Z",
+   "runner": "Hoo's The Jet",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 49.38
+   },
+   "latest": {
+    "mins_to_off": 270,
+    "mid": 37.59,
+    "spread_pct": 21.3
+   },
+   "move_pct": -23.9,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 28,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1353",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T13:53:00Z",
+   "runner": "Serious Chat",
+   "first": {
+    "mins_to_off": 353,
+    "mid": 12.32
+   },
+   "latest": {
+    "mins_to_off": 128,
+    "mid": 10.91,
+    "spread_pct": 18.4
+   },
+   "move_pct": -11.5,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 29,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1600",
+   "venue": "Southwell",
+   "off_utc": "2026-10-31T16:00:00Z",
+   "runner": "Launceston",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 10.46
+   },
+   "latest": {
+    "mins_to_off": 255,
+    "mid": 9.28,
+    "spread_pct": 10.8
+   },
+   "move_pct": -11.3,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 29,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1603",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-31T16:03:00Z",
+   "runner": "Slaney Opera",
+   "first": {
+    "mins_to_off": 348,
+    "mid": 10.48
+   },
+   "latest": {
+    "mins_to_off": 258,
+    "mid": 9.25,
+    "spread_pct": 15.2
+   },
+   "move_pct": -11.7,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 29,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1610",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T16:10:00Z",
+   "runner": "Reagrove Lord",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 9.92
+   },
+   "latest": {
+    "mins_to_off": 265,
+    "mid": 8.8,
+    "spread_pct": 4.6
+   },
+   "move_pct": -11.3,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 29,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1705",
+   "venue": "Southwell",
+   "off_utc": "2026-10-31T17:05:00Z",
+   "runner": "My A'ali Baba",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 72.2
+   },
+   "latest": {
+    "mins_to_off": 320,
+    "mid": 84.03,
+    "spread_pct": 96.3
+   },
+   "move_pct": 16.4,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 71,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1310",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-31T13:10:00Z",
+   "runner": "Ladronne",
+   "first": {
+    "mins_to_off": 310,
+    "mid": 42.02
+   },
+   "latest": {
+    "mins_to_off": 85,
+    "mid": 32.89,
+    "spread_pct": 27.5
+   },
+   "move_pct": -21.7,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 30,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1503",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T15:03:00Z",
+   "runner": "Dee's Getaway",
+   "first": {
+    "mins_to_off": 273,
+    "mid": 27.29
+   },
+   "latest": {
+    "mins_to_off": 198,
+    "mid": 24.48,
+    "spread_pct": 4.2
+   },
+   "move_pct": -10.3,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 30,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1600",
+   "venue": "Southwell",
+   "off_utc": "2026-10-31T16:00:00Z",
+   "runner": "Secret Road",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 55.4
+   },
+   "latest": {
+    "mins_to_off": 255,
+    "mid": 43.38,
+    "spread_pct": 59.6
+   },
+   "move_pct": -21.7,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 30,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1610",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T16:10:00Z",
+   "runner": "Anamanda",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 9.92
+   },
+   "latest": {
+    "mins_to_off": 265,
+    "mid": 11.62,
+    "spread_pct": 21.5
+   },
+   "move_pct": 17.1,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 70,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1428",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T14:28:00Z",
+   "runner": "Tommy Combats",
+   "first": {
+    "mins_to_off": 358,
+    "mid": 5.29
+   },
+   "latest": {
+    "mins_to_off": 163,
+    "mid": 5.83,
+    "spread_pct": 12.0
+   },
+   "move_pct": 10.1,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 69,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1600",
+   "venue": "Southwell",
+   "off_utc": "2026-10-31T16:00:00Z",
+   "runner": "Distillate",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 5.49
+   },
+   "latest": {
+    "mins_to_off": 255,
+    "mid": 4.99,
+    "spread_pct": 8.0
+   },
+   "move_pct": -9.1,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 31,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1600",
+   "venue": "Southwell",
+   "off_utc": "2026-10-31T16:00:00Z",
+   "runner": "Joud",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 27.43
+   },
+   "latest": {
+    "mins_to_off": 255,
+    "mid": 24.72,
+    "spread_pct": 36.5
+   },
+   "move_pct": -9.9,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 31,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1318",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T13:18:00Z",
+   "runner": "Midnight Moonshine",
+   "first": {
+    "mins_to_off": 138,
+    "mid": 16.25
+   },
+   "latest": {
+    "mins_to_off": 93,
+    "mid": 14.72,
+    "spread_pct": 10.2
+   },
+   "move_pct": -9.4,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 32,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1325",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T13:25:00Z",
+   "runner": "Dance And Glance",
+   "first": {
+    "mins_to_off": 325,
+    "mid": 4.02
+   },
+   "latest": {
+    "mins_to_off": 100,
+    "mid": 4.4,
+    "spread_pct": 4.6
+   },
+   "move_pct": 9.3,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 68,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1503",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T15:03:00Z",
+   "runner": "Clanokre Lass",
+   "first": {
+    "mins_to_off": 273,
+    "mid": 25.0
+   },
+   "latest": {
+    "mins_to_off": 198,
+    "mid": 30.86,
+    "spread_pct": 29.0
+   },
+   "move_pct": 23.5,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 68,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1537",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T15:37:00Z",
+   "runner": "He's Bresilian",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 4.54
+   },
+   "latest": {
+    "mins_to_off": 232,
+    "mid": 4.2,
+    "spread_pct": 4.7
+   },
+   "move_pct": -7.6,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 32,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1325",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T13:25:00Z",
+   "runner": "The Gray Ghost",
+   "first": {
+    "mins_to_off": 325,
+    "mid": 5.3
+   },
+   "latest": {
+    "mins_to_off": 100,
+    "mid": 4.85,
+    "spread_pct": 2.0
+   },
+   "move_pct": -8.5,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 33,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1530",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-31T15:30:00Z",
+   "runner": "Banderas",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 12.63
+   },
+   "latest": {
+    "mins_to_off": 225,
+    "mid": 14.55,
+    "spread_pct": 24.0
+   },
+   "move_pct": 15.2,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 67,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1610",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T16:10:00Z",
+   "runner": "Better Be Definite",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 11.62
+   },
+   "latest": {
+    "mins_to_off": 265,
+    "mid": 10.58,
+    "spread_pct": 16.0
+   },
+   "move_pct": -8.9,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 33,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1610",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T16:10:00Z",
+   "runner": "Coventry",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 8.67
+   },
+   "latest": {
+    "mins_to_off": 265,
+    "mid": 7.87,
+    "spread_pct": 12.7
+   },
+   "move_pct": -9.2,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 33,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1635",
+   "venue": "Southwell",
+   "off_utc": "2026-10-31T16:35:00Z",
+   "runner": "Blue Samuna",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 17.27
+   },
+   "latest": {
+    "mins_to_off": 290,
+    "mid": 20.49,
+    "spread_pct": 22.0
+   },
+   "move_pct": 18.6,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 67,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1250",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T12:50:00Z",
+   "runner": "Fidendum",
+   "first": {
+    "mins_to_off": 290,
+    "mid": 8.98
+   },
+   "latest": {
+    "mins_to_off": 65,
+    "mid": 10.25,
+    "spread_pct": 4.9
+   },
+   "move_pct": 14.1,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 66,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1345",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-31T13:45:00Z",
+   "runner": "St Irene",
+   "first": {
+    "mins_to_off": 345,
+    "mid": 16.35
+   },
+   "latest": {
+    "mins_to_off": 120,
+    "mid": 15.15,
+    "spread_pct": 16.5
+   },
+   "move_pct": -7.3,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 34,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1353",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T13:53:00Z",
+   "runner": "The G Wizard",
+   "first": {
+    "mins_to_off": 353,
+    "mid": 3.12
+   },
+   "latest": {
+    "mins_to_off": 128,
+    "mid": 2.92,
+    "spread_pct": 1.4
+   },
+   "move_pct": -6.5,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 34,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1428",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T14:28:00Z",
+   "runner": "One More Stroke",
+   "first": {
+    "mins_to_off": 343,
+    "mid": 42.02
+   },
+   "latest": {
+    "mins_to_off": 163,
+    "mid": 34.31,
+    "spread_pct": 29.1
+   },
+   "move_pct": -18.4,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 34,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1543",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T15:43:00Z",
+   "runner": "Hamlet's Night",
+   "first": {
+    "mins_to_off": 358,
+    "mid": 30.72
+   },
+   "latest": {
+    "mins_to_off": 238,
+    "mid": 28.45,
+    "spread_pct": 10.6
+   },
+   "move_pct": -7.4,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 34,
+   "notable": false
+  },
+  {
+   "slug": "newmarket-1558",
+   "venue": "Newmarket",
+   "off_utc": "2026-10-31T15:58:00Z",
+   "runner": "Mister Bluebird",
+   "first": {
+    "mins_to_off": 283,
+    "mid": 31.5
+   },
+   "latest": {
+    "mins_to_off": 253,
+    "mid": 38.39,
+    "spread_pct": 26.2
+   },
+   "move_pct": 21.9,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 66,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1310",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-31T13:10:00Z",
+   "runner": "Koukeo",
+   "first": {
+    "mins_to_off": 310,
+    "mid": 5.88
+   },
+   "latest": {
+    "mins_to_off": 85,
+    "mid": 5.45,
+    "spread_pct": 1.9
+   },
+   "move_pct": -7.4,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 35,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1318",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T13:18:00Z",
+   "runner": "Cave Hill",
+   "first": {
+    "mins_to_off": 138,
+    "mid": 7.99
+   },
+   "latest": {
+    "mins_to_off": 93,
+    "mid": 7.39,
+    "spread_pct": 5.4
+   },
+   "move_pct": -7.5,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 35,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1455",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-31T14:55:00Z",
+   "runner": "The Real Whacker",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 6.59
+   },
+   "latest": {
+    "mins_to_off": 190,
+    "mid": 7.1,
+    "spread_pct": 2.8
+   },
+   "move_pct": 7.6,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 65,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1510",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T15:10:00Z",
+   "runner": "Masterius",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 10.14
+   },
+   "latest": {
+    "mins_to_off": 205,
+    "mid": 11.42,
+    "spread_pct": 17.5
+   },
+   "move_pct": 12.6,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 65,
+   "notable": false
+  },
+  {
+   "slug": "newmarket-1558",
+   "venue": "Newmarket",
+   "off_utc": "2026-10-31T15:58:00Z",
+   "runner": "Silver Trumpet",
+   "first": {
+    "mins_to_off": 283,
+    "mid": 50.76
+   },
+   "latest": {
+    "mins_to_off": 253,
+    "mid": 55.56,
+    "spread_pct": 42.9
+   },
+   "move_pct": 9.4,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 65,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1635",
+   "venue": "Southwell",
+   "off_utc": "2026-10-31T16:35:00Z",
+   "runner": "Star Suepreme",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 43.38
+   },
+   "latest": {
+    "mins_to_off": 290,
+    "mid": 47.62,
+    "spread_pct": 27.1
+   },
+   "move_pct": 9.8,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 65,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1705",
+   "venue": "Southwell",
+   "off_utc": "2026-10-31T17:05:00Z",
+   "runner": "Tiora Time",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 13.93
+   },
+   "latest": {
+    "mins_to_off": 320,
+    "mid": 13.01,
+    "spread_pct": 26.9
+   },
+   "move_pct": -6.6,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 35,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1243",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T12:43:00Z",
+   "runner": "Bay Runner",
+   "first": {
+    "mins_to_off": 283,
+    "mid": 19.19
+   },
+   "latest": {
+    "mins_to_off": 58,
+    "mid": 22.4,
+    "spread_pct": 13.3
+   },
+   "move_pct": 16.7,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 64,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1310",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-31T13:10:00Z",
+   "runner": "Marty Mcfly",
+   "first": {
+    "mins_to_off": 310,
+    "mid": 12.2
+   },
+   "latest": {
+    "mins_to_off": 85,
+    "mid": 13.71,
+    "spread_pct": 10.9
+   },
+   "move_pct": 12.3,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 64,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1325",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T13:25:00Z",
+   "runner": "Jet To Vegas",
+   "first": {
+    "mins_to_off": 325,
+    "mid": 3.65
+   },
+   "latest": {
+    "mins_to_off": 100,
+    "mid": 3.45,
+    "spread_pct": 2.9
+   },
+   "move_pct": -5.5,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 36,
+   "notable": false
+  },
+  {
+   "slug": "newmarket-1558",
+   "venue": "Newmarket",
+   "off_utc": "2026-10-31T15:58:00Z",
+   "runner": "Alpha Magic",
+   "first": {
+    "mins_to_off": 283,
+    "mid": 14.43
+   },
+   "latest": {
+    "mins_to_off": 253,
+    "mid": 16.72,
+    "spread_pct": 9.0
+   },
+   "move_pct": 15.9,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 64,
+   "notable": false
+  },
+  {
+   "slug": "newmarket-1558",
+   "venue": "Newmarket",
+   "off_utc": "2026-10-31T15:58:00Z",
+   "runner": "Daydreama",
+   "first": {
+    "mins_to_off": 283,
+    "mid": 9.81
+   },
+   "latest": {
+    "mins_to_off": 253,
+    "mid": 10.98,
+    "spread_pct": 9.0
+   },
+   "move_pct": 11.9,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 64,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1603",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-31T16:03:00Z",
+   "runner": "Sledgehammer",
+   "first": {
+    "mins_to_off": 348,
+    "mid": 1.69
+   },
+   "latest": {
+    "mins_to_off": 258,
+    "mid": 1.6,
+    "spread_pct": 1.9
+   },
+   "move_pct": -5.3,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 36,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1635",
+   "venue": "Southwell",
+   "off_utc": "2026-10-31T16:35:00Z",
+   "runner": "Desert Charm",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 14.85
+   },
+   "latest": {
+    "mins_to_off": 290,
+    "mid": 13.93,
+    "spread_pct": 14.3
+   },
+   "move_pct": -6.2,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 36,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1325",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T13:25:00Z",
+   "runner": "Merely A Detail",
+   "first": {
+    "mins_to_off": 325,
+    "mid": 10.7
+   },
+   "latest": {
+    "mins_to_off": 100,
+    "mid": 10.03,
+    "spread_pct": 9.0
+   },
+   "move_pct": -6.2,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 37,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1400",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T14:00:00Z",
+   "runner": "Boothill",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 10.14
+   },
+   "latest": {
+    "mins_to_off": 135,
+    "mid": 9.49,
+    "spread_pct": 6.4
+   },
+   "move_pct": -6.4,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 37,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1433",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T14:33:00Z",
+   "runner": "Califet En Vol",
+   "first": {
+    "mins_to_off": 348,
+    "mid": 4.13
+   },
+   "latest": {
+    "mins_to_off": 168,
+    "mid": 4.4,
+    "spread_pct": 4.6
+   },
+   "move_pct": 6.4,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 63,
+   "notable": false
+  },
+  {
+   "slug": "newmarket-1558",
+   "venue": "Newmarket",
+   "off_utc": "2026-10-31T15:58:00Z",
+   "runner": "Stenmark",
+   "first": {
+    "mins_to_off": 283,
+    "mid": 37.59
+   },
+   "latest": {
+    "mins_to_off": 253,
+    "mid": 40.4,
+    "spread_pct": 25.0
+   },
+   "move_pct": 7.5,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 63,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1600",
+   "venue": "Southwell",
+   "off_utc": "2026-10-31T16:00:00Z",
+   "runner": "Far Ahead",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 21.6
+   },
+   "latest": {
+    "mins_to_off": 255,
+    "mid": 25.64,
+    "spread_pct": 23.4
+   },
+   "move_pct": 18.7,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 63,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1610",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T16:10:00Z",
+   "runner": "Maura Jeanne",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 9.69
+   },
+   "latest": {
+    "mins_to_off": 265,
+    "mid": 10.79,
+    "spread_pct": 20.4
+   },
+   "move_pct": 11.3,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 63,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1250",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T12:50:00Z",
+   "runner": "Jammy Jay",
+   "first": {
+    "mins_to_off": 290,
+    "mid": 10.37
+   },
+   "latest": {
+    "mins_to_off": 65,
+    "mid": 11.48,
+    "spread_pct": 8.7
+   },
+   "move_pct": 10.7,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 62,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1318",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T13:18:00Z",
+   "runner": "The Grey Venture",
+   "first": {
+    "mins_to_off": 138,
+    "mid": 21.81
+   },
+   "latest": {
+    "mins_to_off": 93,
+    "mid": 20.94,
+    "spread_pct": 9.4
+   },
+   "move_pct": -4.0,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 38,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1530",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-31T15:30:00Z",
+   "runner": "Race To Base",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 2.71
+   },
+   "latest": {
+    "mins_to_off": 225,
+    "mid": 2.81,
+    "spread_pct": 2.1
+   },
+   "move_pct": 3.7,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 62,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1600",
+   "venue": "Southwell",
+   "off_utc": "2026-10-31T16:00:00Z",
+   "runner": "Dumfries",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 20.92
+   },
+   "latest": {
+    "mins_to_off": 255,
+    "mid": 20.18,
+    "spread_pct": 24.8
+   },
+   "move_pct": -3.5,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 38,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1318",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T13:18:00Z",
+   "runner": "Jo Arengeot Bey Aa",
+   "first": {
+    "mins_to_off": 138,
+    "mid": 30.86
+   },
+   "latest": {
+    "mins_to_off": 93,
+    "mid": 30.12,
+    "spread_pct": 23.2
+   },
+   "move_pct": -2.4,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 39,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1400",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T14:00:00Z",
+   "runner": "Vanderpoel",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 6.29
+   },
+   "latest": {
+    "mins_to_off": 135,
+    "mid": 5.95,
+    "spread_pct": 1.7
+   },
+   "move_pct": -5.4,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 39,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1428",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T14:28:00Z",
+   "runner": "Monochromix",
+   "first": {
+    "mins_to_off": 358,
+    "mid": 12.18
+   },
+   "latest": {
+    "mins_to_off": 163,
+    "mid": 11.62,
+    "spread_pct": 21.5
+   },
+   "move_pct": -4.6,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 39,
+   "notable": false
+  },
+  {
+   "slug": "newmarket-1558",
+   "venue": "Newmarket",
+   "off_utc": "2026-10-31T15:58:00Z",
+   "runner": "Kennington",
+   "first": {
+    "mins_to_off": 283,
+    "mid": 6.05
+   },
+   "latest": {
+    "mins_to_off": 253,
+    "mid": 6.39,
+    "spread_pct": 6.3
+   },
+   "move_pct": 5.8,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 61,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1600",
+   "venue": "Southwell",
+   "off_utc": "2026-10-31T16:00:00Z",
+   "runner": "Book Of Life",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 10.91
+   },
+   "latest": {
+    "mins_to_off": 330,
+    "mid": 10.37,
+    "spread_pct": 11.5
+   },
+   "move_pct": -5.0,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 39,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1615",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T16:15:00Z",
+   "runner": "Colombe D'or",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 4.35
+   },
+   "latest": {
+    "mins_to_off": 270,
+    "mid": 4.6,
+    "spread_pct": 4.3
+   },
+   "move_pct": 5.7,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 61,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1503",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T15:03:00Z",
+   "runner": "Ginger Mail",
+   "first": {
+    "mins_to_off": 273,
+    "mid": 8.67
+   },
+   "latest": {
+    "mins_to_off": 198,
+    "mid": 8.29,
+    "spread_pct": 7.2
+   },
+   "move_pct": -4.4,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 40,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1543",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T15:43:00Z",
+   "runner": "Gibbs Island",
+   "first": {
+    "mins_to_off": 358,
+    "mid": 15.71
+   },
+   "latest": {
+    "mins_to_off": 238,
+    "mid": 15.21,
+    "spread_pct": 9.9
+   },
+   "move_pct": -3.2,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 40,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1543",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T15:43:00Z",
+   "runner": "Morning Mayhem",
+   "first": {
+    "mins_to_off": 358,
+    "mid": 23.39
+   },
+   "latest": {
+    "mins_to_off": 238,
+    "mid": 22.83,
+    "spread_pct": 17.5
+   },
+   "move_pct": -2.4,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 40,
+   "notable": false
+  },
+  {
+   "slug": "newmarket-1558",
+   "venue": "Newmarket",
+   "off_utc": "2026-10-31T15:58:00Z",
+   "runner": "Prosperitas",
+   "first": {
+    "mins_to_off": 283,
+    "mid": 18.38
+   },
+   "latest": {
+    "mins_to_off": 253,
+    "mid": 20.66,
+    "spread_pct": 12.0
+   },
+   "move_pct": 12.4,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 60,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1610",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T16:10:00Z",
+   "runner": "Melbourne Ghost",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 15.65
+   },
+   "latest": {
+    "mins_to_off": 265,
+    "mid": 15.05,
+    "spread_pct": 23.3
+   },
+   "move_pct": -3.8,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 40,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1610",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T16:10:00Z",
+   "runner": "Run Baby Run",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 86.58
+   },
+   "latest": {
+    "mins_to_off": 265,
+    "mid": 90.91,
+    "spread_pct": 65.9
+   },
+   "move_pct": 5.0,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 60,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1615",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T16:15:00Z",
+   "runner": "Saint Argente",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 3.3
+   },
+   "latest": {
+    "mins_to_off": 270,
+    "mid": 3.17,
+    "spread_pct": 4.7
+   },
+   "move_pct": -3.8,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 40,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1635",
+   "venue": "Southwell",
+   "off_utc": "2026-10-31T16:35:00Z",
+   "runner": "Oppenheimer",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 2.45
+   },
+   "latest": {
+    "mins_to_off": 290,
+    "mid": 2.35,
+    "spread_pct": 2.5
+   },
+   "move_pct": -4.0,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 40,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1705",
+   "venue": "Southwell",
+   "off_utc": "2026-10-31T17:05:00Z",
+   "runner": "Bowdens",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 31.55
+   },
+   "latest": {
+    "mins_to_off": 320,
+    "mid": 30.86,
+    "spread_pct": 39.0
+   },
+   "move_pct": -2.2,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 40,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1705",
+   "venue": "Southwell",
+   "off_utc": "2026-10-31T17:05:00Z",
+   "runner": "Talamon",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 8.37
+   },
+   "latest": {
+    "mins_to_off": 320,
+    "mid": 9.13,
+    "spread_pct": 17.5
+   },
+   "move_pct": 9.1,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 60,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1400",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T14:00:00Z",
+   "runner": "Martator",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 11.48
+   },
+   "latest": {
+    "mins_to_off": 135,
+    "mid": 12.41,
+    "spread_pct": 16.1
+   },
+   "move_pct": 8.1,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 59,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1433",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T14:33:00Z",
+   "runner": "Queensbury Boy",
+   "first": {
+    "mins_to_off": 348,
+    "mid": 6.79
+   },
+   "latest": {
+    "mins_to_off": 168,
+    "mid": 7.09,
+    "spread_pct": 8.5
+   },
+   "move_pct": 4.3,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 59,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1433",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T14:33:00Z",
+   "runner": "Your Darling",
+   "first": {
+    "mins_to_off": 348,
+    "mid": 20.81
+   },
+   "latest": {
+    "mins_to_off": 168,
+    "mid": 20.66,
+    "spread_pct": 12.0
+   },
+   "move_pct": -0.7,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 41,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1537",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T15:37:00Z",
+   "runner": "The Hatchet",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 5.45
+   },
+   "latest": {
+    "mins_to_off": 232,
+    "mid": 5.19,
+    "spread_pct": 7.7
+   },
+   "move_pct": -4.7,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 41,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1400",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T14:00:00Z",
+   "runner": "Shakeyatailfeather",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 20.08
+   },
+   "latest": {
+    "mins_to_off": 135,
+    "mid": 22.83,
+    "spread_pct": 17.5
+   },
+   "move_pct": 13.7,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 58,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1428",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T14:28:00Z",
+   "runner": "Great Pepper",
+   "first": {
+    "mins_to_off": 358,
+    "mid": 20.24
+   },
+   "latest": {
+    "mins_to_off": 163,
+    "mid": 22.83,
+    "spread_pct": 17.5
+   },
+   "move_pct": 12.8,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 58,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1543",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T15:43:00Z",
+   "runner": "Brendas Asking",
+   "first": {
+    "mins_to_off": 358,
+    "mid": 29.9
+   },
+   "latest": {
+    "mins_to_off": 238,
+    "mid": 29.9,
+    "spread_pct": 13.5
+   },
+   "move_pct": 0.0,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 42,
+   "notable": false
+  },
+  {
+   "slug": "newmarket-1558",
+   "venue": "Newmarket",
+   "off_utc": "2026-10-31T15:58:00Z",
+   "runner": "Tex",
+   "first": {
+    "mins_to_off": 283,
+    "mid": 10.7
+   },
+   "latest": {
+    "mins_to_off": 253,
+    "mid": 11.48,
+    "spread_pct": 8.7
+   },
+   "move_pct": 7.3,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 58,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1635",
+   "venue": "Southwell",
+   "off_utc": "2026-10-31T16:35:00Z",
+   "runner": "Lili Marleen",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 5.75
+   },
+   "latest": {
+    "mins_to_off": 290,
+    "mid": 5.99,
+    "spread_pct": 6.7
+   },
+   "move_pct": 4.3,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 58,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1250",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T12:50:00Z",
+   "runner": "Media Mogul",
+   "first": {
+    "mins_to_off": 290,
+    "mid": 4.1
+   },
+   "latest": {
+    "mins_to_off": 65,
+    "mid": 4.25,
+    "spread_pct": 2.3
+   },
+   "move_pct": 3.7,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 57,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1310",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-31T13:10:00Z",
+   "runner": "Kahavari",
+   "first": {
+    "mins_to_off": 310,
+    "mid": 6.49
+   },
+   "latest": {
+    "mins_to_off": 85,
+    "mid": 6.69,
+    "spread_pct": 8.9
+   },
+   "move_pct": 3.1,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 57,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1318",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T13:18:00Z",
+   "runner": "Nights In Venice",
+   "first": {
+    "mins_to_off": 138,
+    "mid": 9.28
+   },
+   "latest": {
+    "mins_to_off": 93,
+    "mid": 9.92,
+    "spread_pct": 11.1
+   },
+   "move_pct": 6.9,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 57,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1537",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T15:37:00Z",
+   "runner": "Tales Of Bravery",
+   "first": {
+    "mins_to_off": 352,
+    "mid": 5.79
+   },
+   "latest": {
+    "mins_to_off": 232,
+    "mid": 5.59,
+    "spread_pct": 7.2
+   },
+   "move_pct": -3.4,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 43,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1543",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T15:43:00Z",
+   "runner": "Rightsotom",
+   "first": {
+    "mins_to_off": 358,
+    "mid": 41.67
+   },
+   "latest": {
+    "mins_to_off": 238,
+    "mid": 42.83,
+    "spread_pct": 14.2
+   },
+   "move_pct": 2.8,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 57,
+   "notable": false
+  },
+  {
+   "slug": "newmarket-1558",
+   "venue": "Newmarket",
+   "off_utc": "2026-10-31T15:58:00Z",
+   "runner": "George Wickham",
+   "first": {
+    "mins_to_off": 283,
+    "mid": 8.89
+   },
+   "latest": {
+    "mins_to_off": 253,
+    "mid": 9.49,
+    "spread_pct": 6.4
+   },
+   "move_pct": 6.8,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 57,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1635",
+   "venue": "Southwell",
+   "off_utc": "2026-10-31T16:35:00Z",
+   "runner": "Hear The Drums",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 23.39
+   },
+   "latest": {
+    "mins_to_off": 290,
+    "mid": 26.25,
+    "spread_pct": 19.1
+   },
+   "move_pct": 12.2,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 57,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1635",
+   "venue": "Southwell",
+   "off_utc": "2026-10-31T16:35:00Z",
+   "runner": "Mali Star",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 73.8
+   },
+   "latest": {
+    "mins_to_off": 290,
+    "mid": 75.47,
+    "spread_pct": 86.8
+   },
+   "move_pct": 2.3,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 57,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1635",
+   "venue": "Southwell",
+   "off_utc": "2026-10-31T16:35:00Z",
+   "runner": "Mythical Isle",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 11.92
+   },
+   "latest": {
+    "mins_to_off": 290,
+    "mid": 12.71,
+    "spread_pct": 11.7
+   },
+   "move_pct": 6.6,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 57,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1400",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T14:00:00Z",
+   "runner": "Glengouly",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 65.15
+   },
+   "latest": {
+    "mins_to_off": 135,
+    "mid": 58.65,
+    "spread_pct": 46.2
+   },
+   "move_pct": -10.0,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 44,
+   "notable": false
+  },
+  {
+   "slug": "newmarket-1558",
+   "venue": "Newmarket",
+   "off_utc": "2026-10-31T15:58:00Z",
+   "runner": "Majestic Wave",
+   "first": {
+    "mins_to_off": 283,
+    "mid": 53.91
+   },
+   "latest": {
+    "mins_to_off": 253,
+    "mid": 48.9,
+    "spread_pct": 22.3
+   },
+   "move_pct": -9.3,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 44,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1615",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T16:15:00Z",
+   "runner": "Wheresdcueballgoin",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 73.53
+   },
+   "latest": {
+    "mins_to_off": 270,
+    "mid": 66.67,
+    "spread_pct": 44.7
+   },
+   "move_pct": -9.3,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 44,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1705",
+   "venue": "Southwell",
+   "off_utc": "2026-10-31T17:05:00Z",
+   "runner": "National Honour",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 1.67
+   },
+   "latest": {
+    "mins_to_off": 320,
+    "mid": 1.63,
+    "spread_pct": 2.4
+   },
+   "move_pct": -2.6,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 44,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1310",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-31T13:10:00Z",
+   "runner": "Palamon",
+   "first": {
+    "mins_to_off": 310,
+    "mid": 3.35
+   },
+   "latest": {
+    "mins_to_off": 85,
+    "mid": 3.45,
+    "spread_pct": 2.9
+   },
+   "move_pct": 3.0,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 55,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1433",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T14:33:00Z",
+   "runner": "Henry's Friend",
+   "first": {
+    "mins_to_off": 348,
+    "mid": 8.78
+   },
+   "latest": {
+    "mins_to_off": 168,
+    "mid": 8.7,
+    "spread_pct": 2.3
+   },
+   "move_pct": -1.0,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 45,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1433",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T14:33:00Z",
+   "runner": "Somespring Special",
+   "first": {
+    "mins_to_off": 333,
+    "mid": 32.26
+   },
+   "latest": {
+    "mins_to_off": 168,
+    "mid": 32.89,
+    "spread_pct": 27.5
+   },
+   "move_pct": 2.0,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 45,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1543",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T15:43:00Z",
+   "runner": "Emerald Time",
+   "first": {
+    "mins_to_off": 358,
+    "mid": 38.76
+   },
+   "latest": {
+    "mins_to_off": 238,
+    "mid": 35.59,
+    "spread_pct": 22.3
+   },
+   "move_pct": -8.2,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 45,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1543",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T15:43:00Z",
+   "runner": "Gower Prince",
+   "first": {
+    "mins_to_off": 358,
+    "mid": 27.86
+   },
+   "latest": {
+    "mins_to_off": 238,
+    "mid": 28.45,
+    "spread_pct": 10.6
+   },
+   "move_pct": 2.1,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 45,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1543",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T15:43:00Z",
+   "runner": "Trustintimes",
+   "first": {
+    "mins_to_off": 358,
+    "mid": 3.42
+   },
+   "latest": {
+    "mins_to_off": 238,
+    "mid": 3.52,
+    "spread_pct": 4.3
+   },
+   "move_pct": 2.9,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 55,
+   "notable": false
+  },
+  {
+   "slug": "newmarket-1558",
+   "venue": "Newmarket",
+   "off_utc": "2026-10-31T15:58:00Z",
+   "runner": "Stellar Vision",
+   "first": {
+    "mins_to_off": 283,
+    "mid": 50.76
+   },
+   "latest": {
+    "mins_to_off": 253,
+    "mid": 46.3,
+    "spread_pct": 32.3
+   },
+   "move_pct": -8.8,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 45,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1610",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T16:10:00Z",
+   "runner": "Ck O'mara",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 5.55
+   },
+   "latest": {
+    "mins_to_off": 265,
+    "mid": 5.39,
+    "spread_pct": 7.4
+   },
+   "move_pct": -2.8,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 45,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1635",
+   "venue": "Southwell",
+   "off_utc": "2026-10-31T16:35:00Z",
+   "runner": "Kondratiev Wave",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 58.31
+   },
+   "latest": {
+    "mins_to_off": 290,
+    "mid": 58.48,
+    "spread_pct": 58.0
+   },
+   "move_pct": 0.3,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 55,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1235",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-31T12:35:00Z",
+   "runner": "Loopy Mag",
+   "first": {
+    "mins_to_off": 275,
+    "mid": 14.43
+   },
+   "latest": {
+    "mins_to_off": 50,
+    "mid": 14.64,
+    "spread_pct": 17.1
+   },
+   "move_pct": 1.5,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 46,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1243",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T12:43:00Z",
+   "runner": "Noble Thistle",
+   "first": {
+    "mins_to_off": 283,
+    "mid": 84.39
+   },
+   "latest": {
+    "mins_to_off": 118,
+    "mid": 84.03,
+    "spread_pct": 96.3
+   },
+   "move_pct": -0.4,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 54,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1250",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T12:50:00Z",
+   "runner": "Mr Rafiki",
+   "first": {
+    "mins_to_off": 290,
+    "mid": 19.67
+   },
+   "latest": {
+    "mins_to_off": 65,
+    "mid": 21.1,
+    "spread_pct": 16.6
+   },
+   "move_pct": 7.3,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 54,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1318",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T13:18:00Z",
+   "runner": "Lewa House",
+   "first": {
+    "mins_to_off": 138,
+    "mid": 50.76
+   },
+   "latest": {
+    "mins_to_off": 93,
+    "mid": 50.76,
+    "spread_pct": 31.2
+   },
+   "move_pct": 0.0,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 54,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1318",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T13:18:00Z",
+   "runner": "Rob Roy Macgregor",
+   "first": {
+    "mins_to_off": 138,
+    "mid": 10.48
+   },
+   "latest": {
+    "mins_to_off": 93,
+    "mid": 10.48,
+    "spread_pct": 9.6
+   },
+   "move_pct": 0.0,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 46,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1345",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-31T13:45:00Z",
+   "runner": "Ooh Betty",
+   "first": {
+    "mins_to_off": 345,
+    "mid": 9.58
+   },
+   "latest": {
+    "mins_to_off": 120,
+    "mid": 10.03,
+    "spread_pct": 9.0
+   },
+   "move_pct": 4.7,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 54,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1400",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T14:00:00Z",
+   "runner": "Brookie",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 16.45
+   },
+   "latest": {
+    "mins_to_off": 135,
+    "mid": 16.65,
+    "spread_pct": 14.9
+   },
+   "move_pct": 1.2,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 46,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1400",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T14:00:00Z",
+   "runner": "Gore Point",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 14.2
+   },
+   "latest": {
+    "mins_to_off": 135,
+    "mid": 15.21,
+    "spread_pct": 9.9
+   },
+   "move_pct": 7.1,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 54,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1543",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T15:43:00Z",
+   "runner": "Fasol",
+   "first": {
+    "mins_to_off": 358,
+    "mid": 12.98
+   },
+   "latest": {
+    "mins_to_off": 238,
+    "mid": 12.98,
+    "spread_pct": 7.7
+   },
+   "move_pct": 0.0,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 46,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1543",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T15:43:00Z",
+   "runner": "Messerschmitt",
+   "first": {
+    "mins_to_off": 358,
+    "mid": 11.48
+   },
+   "latest": {
+    "mins_to_off": 238,
+    "mid": 11.48,
+    "spread_pct": 8.7
+   },
+   "move_pct": 0.0,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 46,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1543",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T15:43:00Z",
+   "runner": "Nap Hand",
+   "first": {
+    "mins_to_off": 358,
+    "mid": 14.72
+   },
+   "latest": {
+    "mins_to_off": 238,
+    "mid": 15.71,
+    "spread_pct": 9.6
+   },
+   "move_pct": 6.8,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 54,
+   "notable": false
+  },
+  {
+   "slug": "newmarket-1558",
+   "venue": "Newmarket",
+   "off_utc": "2026-10-31T15:58:00Z",
+   "runner": "Dream Vega",
+   "first": {
+    "mins_to_off": 283,
+    "mid": 19.1
+   },
+   "latest": {
+    "mins_to_off": 253,
+    "mid": 19.38,
+    "spread_pct": 15.6
+   },
+   "move_pct": 1.5,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 46,
+   "notable": false
+  },
+  {
+   "slug": "newmarket-1558",
+   "venue": "Newmarket",
+   "off_utc": "2026-10-31T15:58:00Z",
+   "runner": "Emery Down",
+   "first": {
+    "mins_to_off": 283,
+    "mid": 27.86
+   },
+   "latest": {
+    "mins_to_off": 253,
+    "mid": 28.69,
+    "spread_pct": 21.2
+   },
+   "move_pct": 3.0,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 46,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1603",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-31T16:03:00Z",
+   "runner": "Paddy O'Mahler",
+   "first": {
+    "mins_to_off": 348,
+    "mid": 5.64
+   },
+   "latest": {
+    "mins_to_off": 258,
+    "mid": 5.54,
+    "spread_pct": 9.0
+   },
+   "move_pct": -1.8,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 46,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1635",
+   "venue": "Southwell",
+   "off_utc": "2026-10-31T16:35:00Z",
+   "runner": "Millbuie",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 62.89
+   },
+   "latest": {
+    "mins_to_off": 290,
+    "mid": 62.89,
+    "spread_pct": 55.2
+   },
+   "move_pct": 0.0,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 54,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1705",
+   "venue": "Southwell",
+   "off_utc": "2026-10-31T17:05:00Z",
+   "runner": "Drum Bay",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 9.58
+   },
+   "latest": {
+    "mins_to_off": 320,
+    "mid": 9.58,
+    "spread_pct": 8.4
+   },
+   "move_pct": 0.0,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 46,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1400",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T14:00:00Z",
+   "runner": "Teddy Blue",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 15.94
+   },
+   "latest": {
+    "mins_to_off": 135,
+    "mid": 16.93,
+    "spread_pct": 11.7
+   },
+   "move_pct": 6.3,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 53,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1428",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T14:28:00Z",
+   "runner": "Cavalier Du Luy",
+   "first": {
+    "mins_to_off": 358,
+    "mid": 7.35
+   },
+   "latest": {
+    "mins_to_off": 163,
+    "mid": 7.23,
+    "spread_pct": 19.3
+   },
+   "move_pct": -1.6,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 47,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1433",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T14:33:00Z",
+   "runner": "Neon Moon",
+   "first": {
+    "mins_to_off": 348,
+    "mid": 17.15
+   },
+   "latest": {
+    "mins_to_off": 168,
+    "mid": 18.23,
+    "spread_pct": 8.2
+   },
+   "move_pct": 6.3,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 53,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1455",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-31T14:55:00Z",
+   "runner": "Twinjets",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 7.19
+   },
+   "latest": {
+    "mins_to_off": 190,
+    "mid": 7.09,
+    "spread_pct": 8.5
+   },
+   "move_pct": -1.5,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 47,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1510",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T15:10:00Z",
+   "runner": "Sportingsilvermine",
+   "first": {
+    "mins_to_off": 355,
+    "mid": 3.75
+   },
+   "latest": {
+    "mins_to_off": 205,
+    "mid": 3.82,
+    "spread_pct": 3.9
+   },
+   "move_pct": 2.0,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 53,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1543",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T15:43:00Z",
+   "runner": "Moveit Like Minnie",
+   "first": {
+    "mins_to_off": 358,
+    "mid": 13.49
+   },
+   "latest": {
+    "mins_to_off": 238,
+    "mid": 13.75,
+    "spread_pct": 3.7
+   },
+   "move_pct": 1.9,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 47,
+   "notable": false
+  },
+  {
+   "slug": "newmarket-1558",
+   "venue": "Newmarket",
+   "off_utc": "2026-10-31T15:58:00Z",
+   "runner": "Gorgeous Mr George",
+   "first": {
+    "mins_to_off": 283,
+    "mid": 14.43
+   },
+   "latest": {
+    "mins_to_off": 253,
+    "mid": 14.72,
+    "spread_pct": 10.2
+   },
+   "move_pct": 2.0,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 47,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1310",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-31T13:10:00Z",
+   "runner": "Tanking Along",
+   "first": {
+    "mins_to_off": 310,
+    "mid": 5.7
+   },
+   "latest": {
+    "mins_to_off": 85,
+    "mid": 5.65,
+    "spread_pct": 5.3
+   },
+   "move_pct": -0.9,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 48,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1318",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T13:18:00Z",
+   "runner": "Jirko",
+   "first": {
+    "mins_to_off": 138,
+    "mid": 8.8
+   },
+   "latest": {
+    "mins_to_off": 93,
+    "mid": 8.89,
+    "spread_pct": 6.8
+   },
+   "move_pct": 1.1,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 48,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1318",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T13:18:00Z",
+   "runner": "Torosay",
+   "first": {
+    "mins_to_off": 138,
+    "mid": 8.49
+   },
+   "latest": {
+    "mins_to_off": 93,
+    "mid": 8.8,
+    "spread_pct": 4.6
+   },
+   "move_pct": 3.6,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 52,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1615",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T16:15:00Z",
+   "runner": "Lord Churchill",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 3.57
+   },
+   "latest": {
+    "mins_to_off": 270,
+    "mid": 3.62,
+    "spread_pct": 1.4
+   },
+   "move_pct": 1.4,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 52,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1615",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T16:15:00Z",
+   "runner": "Shane's Spirit",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 12.82
+   },
+   "latest": {
+    "mins_to_off": 270,
+    "mid": 13.21,
+    "spread_pct": 11.4
+   },
+   "move_pct": 3.0,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 52,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1318",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T13:18:00Z",
+   "runner": "Didntgotwenty",
+   "first": {
+    "mins_to_off": 138,
+    "mid": 4.15
+   },
+   "latest": {
+    "mins_to_off": 93,
+    "mid": 4.2,
+    "spread_pct": 4.7
+   },
+   "move_pct": 1.2,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 51,
+   "notable": false
+  },
+  {
+   "slug": "ayr-1318",
+   "venue": "Ayr",
+   "off_utc": "2026-10-31T13:18:00Z",
+   "runner": "Jet Light",
+   "first": {
+    "mins_to_off": 138,
+    "mid": 20.81
+   },
+   "latest": {
+    "mins_to_off": 93,
+    "mid": 21.81,
+    "spread_pct": 18.3
+   },
+   "move_pct": 4.8,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 49,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1400",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T14:00:00Z",
+   "runner": "Aeros Luck",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 9.6
+   },
+   "latest": {
+    "mins_to_off": 135,
+    "mid": 9.79,
+    "spread_pct": 4.1
+   },
+   "move_pct": 2.1,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 49,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1400",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T14:00:00Z",
+   "runner": "Haas Boy",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 6.39
+   },
+   "latest": {
+    "mins_to_off": 135,
+    "mid": 6.37,
+    "spread_pct": 12.5
+   },
+   "move_pct": -0.3,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 49,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1418",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-31T14:18:00Z",
+   "runner": "Take No Chances",
+   "first": {
+    "mins_to_off": 348,
+    "mid": 2.39
+   },
+   "latest": {
+    "mins_to_off": 153,
+    "mid": 2.37,
+    "spread_pct": 2.5
+   },
+   "move_pct": -0.7,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 51,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1433",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T14:33:00Z",
+   "runner": "Viroflay",
+   "first": {
+    "mins_to_off": 348,
+    "mid": 7.09
+   },
+   "latest": {
+    "mins_to_off": 168,
+    "mid": 7.09,
+    "spread_pct": 8.5
+   },
+   "move_pct": 0.0,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 49,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1543",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T15:43:00Z",
+   "runner": "Indemnity",
+   "first": {
+    "mins_to_off": 358,
+    "mid": 31.3
+   },
+   "latest": {
+    "mins_to_off": 238,
+    "mid": 32.73,
+    "spread_pct": 18.2
+   },
+   "move_pct": 4.6,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 49,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1705",
+   "venue": "Southwell",
+   "off_utc": "2026-10-31T17:05:00Z",
+   "runner": "Dandyman Dan",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 16.45
+   },
+   "latest": {
+    "mins_to_off": 320,
+    "mid": 16.95,
+    "spread_pct": 26.6
+   },
+   "move_pct": 3.1,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 49,
+   "notable": false
+  },
+  {
+   "slug": "ascot-1250",
+   "venue": "Ascot",
+   "off_utc": "2026-10-31T12:50:00Z",
+   "runner": "Handmedownastar",
+   "first": {
+    "mins_to_off": 290,
+    "mid": 14.14
+   },
+   "latest": {
+    "mins_to_off": 65,
+    "mid": 14.72,
+    "spread_pct": 10.2
+   },
+   "move_pct": 4.0,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 50,
+   "notable": false
+  },
+  {
+   "slug": "wetherby-1310",
+   "venue": "Wetherby",
+   "off_utc": "2026-10-31T13:10:00Z",
+   "runner": "William Cody",
+   "first": {
+    "mins_to_off": 310,
+    "mid": 17.95
+   },
+   "latest": {
+    "mins_to_off": 85,
+    "mid": 18.71,
+    "spread_pct": 8.1
+   },
+   "move_pct": 4.2,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 50,
+   "notable": false
+  },
+  {
+   "slug": "southwell-1635",
+   "venue": "Southwell",
+   "off_utc": "2026-10-31T16:35:00Z",
+   "runner": "Zabriskie Point",
+   "first": {
+    "mins_to_off": 350,
+    "mid": 12.12
+   },
+   "latest": {
+    "mins_to_off": 290,
+    "mid": 12.41,
+    "spread_pct": 16.1
+   },
+   "move_pct": 2.4,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 50,
+   "notable": false
+  }
+ ]
 }
