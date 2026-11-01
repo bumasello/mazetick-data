@@ -1,10 +1,10 @@
 {
  "schema": "extra_places_v1",
- "generated_at": "2026-11-01T07:00:01Z",
+ "generated_at": "2026-11-01T12:00:01Z",
  "source": "Paddy Power public race pages",
  "note": "'extra_place' compares the bookmaker's offer with the bookmaker's own ladder, derived from our collection — not with the classic each-way table, which it does not follow.",
  "ladder_days": 57,
- "collected_through": "2026-11-01T06:00:01Z",
+ "collected_through": "2026-11-01T11:00:01Z",
  "races": [
   {
    "slug": "worcester-1210",
@@ -125,14 +125,14 @@
    "name": "2m Mdn Hrd",
    "handicap": false,
    "each_way": true,
-   "field_size": 13,
+   "field_size": 12,
    "terms": {
     "places": 3,
     "fraction": [
      1,
      5
     ],
-    "bog": false
+    "bog": true
    },
    "house_standard": {
     "places": 3,
@@ -151,6 +151,15 @@
       1,
       5
      ]
+    },
+    {
+     "at": "2026-11-01T10:00:01Z",
+     "field_size": 12,
+     "places": 3,
+     "fraction": [
+      1,
+      5
+     ]
     }
    ]
   },
@@ -162,12 +171,12 @@
    "name": "2m5f Nov Hcap Chs",
    "handicap": true,
    "each_way": true,
-   "field_size": 7,
+   "field_size": 6,
    "terms": {
-    "places": 2,
+    "places": 1,
     "fraction": [
      1,
-     4
+     1
     ],
     "bog": true
    },
@@ -197,6 +206,15 @@
       1,
       4
      ]
+    },
+    {
+     "at": "2026-11-01T08:00:01Z",
+     "field_size": 6,
+     "places": 1,
+     "fraction": [
+      1,
+      1
+     ]
     }
    ]
   },
@@ -208,14 +226,14 @@
    "name": "2m4f Hcap Chs",
    "handicap": true,
    "each_way": true,
-   "field_size": 16,
+   "field_size": 15,
    "terms": {
     "places": 4,
     "fraction": [
      1,
      5
     ],
-    "bog": false
+    "bog": true
    },
    "house_standard": {
     "places": 4,
@@ -229,6 +247,15 @@
     {
      "at": "2026-10-31T06:00:01Z",
      "field_size": 16,
+     "places": 4,
+     "fraction": [
+      1,
+      5
+     ]
+    },
+    {
+     "at": "2026-11-01T09:00:01Z",
+     "field_size": 15,
      "places": 4,
      "fraction": [
       1,
@@ -319,14 +346,14 @@
    "name": "2m Mdn Hrd",
    "handicap": false,
    "each_way": true,
-   "field_size": 23,
+   "field_size": 22,
    "terms": {
     "places": 3,
     "fraction": [
      1,
      5
     ],
-    "bog": false
+    "bog": true
    },
    "house_standard": {
     "places": 3,
@@ -340,6 +367,15 @@
     {
      "at": "2026-10-31T06:00:01Z",
      "field_size": 23,
+     "places": 3,
+     "fraction": [
+      1,
+      5
+     ]
+    },
+    {
+     "at": "2026-11-01T10:00:01Z",
+     "field_size": 22,
      "places": 3,
      "fraction": [
       1,
@@ -430,14 +466,14 @@
    "name": "7f Cond Stks",
    "handicap": false,
    "each_way": true,
-   "field_size": 12,
+   "field_size": 11,
    "terms": {
     "places": 3,
     "fraction": [
      1,
      5
     ],
-    "bog": false
+    "bog": true
    },
    "house_standard": {
     "places": 3,
@@ -451,6 +487,15 @@
     {
      "at": "2026-10-31T06:00:01Z",
      "field_size": 12,
+     "places": 3,
+     "fraction": [
+      1,
+      5
+     ]
+    },
+    {
+     "at": "2026-11-01T11:00:01Z",
+     "field_size": 11,
      "places": 3,
      "fraction": [
       1,
@@ -504,14 +549,14 @@
    "name": "2m4f Hcap Hrd",
    "handicap": true,
    "each_way": true,
-   "field_size": 18,
+   "field_size": 16,
    "terms": {
-    "places": 5,
+    "places": 4,
     "fraction": [
      1,
      5
     ],
-    "bog": false
+    "bog": true
    },
    "house_standard": {
     "places": 4,
@@ -520,12 +565,30 @@
      5
     ]
    },
-   "extra_place": true,
+   "extra_place": false,
    "history": [
     {
      "at": "2026-10-31T06:00:01Z",
      "field_size": 18,
      "places": 5,
+     "fraction": [
+      1,
+      5
+     ]
+    },
+    {
+     "at": "2026-11-01T08:00:01Z",
+     "field_size": 17,
+     "places": 4,
+     "fraction": [
+      1,
+      5
+     ]
+    },
+    {
+     "at": "2026-11-01T10:00:01Z",
+     "field_size": 16,
+     "places": 4,
      "fraction": [
       1,
       5
@@ -624,27 +687,36 @@
    "name": "7f Hcap",
    "handicap": true,
    "each_way": true,
-   "field_size": 30,
+   "field_size": 27,
    "terms": {
     "places": 6,
     "fraction": [
      1,
      5
     ],
-    "bog": false
+    "bog": true
    },
    "house_standard": {
-    "places": 6,
+    "places": 4,
     "fraction": [
      1,
-     5
+     4
     ]
    },
-   "extra_place": false,
+   "extra_place": true,
    "history": [
     {
      "at": "2026-10-31T06:00:01Z",
      "field_size": 30,
+     "places": 6,
+     "fraction": [
+      1,
+      5
+     ]
+    },
+    {
+     "at": "2026-11-01T11:00:01Z",
+     "field_size": 27,
      "places": 6,
      "fraction": [
       1,
@@ -883,20 +955,20 @@
    "name": "2m4f Grd3 Nov Chs",
    "handicap": false,
    "each_way": true,
-   "field_size": 10,
+   "field_size": 9,
    "terms": {
-    "places": 3,
+    "places": 2,
     "fraction": [
      1,
-     5
+     4
     ],
     "bog": true
    },
    "house_standard": {
-    "places": 3,
+    "places": 2,
     "fraction": [
      1,
-     5
+     4
     ]
    },
    "extra_place": false,
@@ -908,6 +980,15 @@
      "fraction": [
       1,
       5
+     ]
+    },
+    {
+     "at": "2026-11-01T11:00:01Z",
+     "field_size": 9,
+     "places": 2,
+     "fraction": [
+      1,
+      4
      ]
     }
    ]
@@ -994,14 +1075,14 @@
    "name": "1m Hcap",
    "handicap": true,
    "each_way": true,
-   "field_size": 24,
+   "field_size": 23,
    "terms": {
     "places": 5,
     "fraction": [
      1,
      5
     ],
-    "bog": false
+    "bog": true
    },
    "house_standard": {
     "places": 4,
@@ -1015,6 +1096,15 @@
     {
      "at": "2026-10-31T06:00:01Z",
      "field_size": 24,
+     "places": 5,
+     "fraction": [
+      1,
+      5
+     ]
+    },
+    {
+     "at": "2026-11-01T10:00:01Z",
+     "field_size": 23,
      "places": 5,
      "fraction": [
       1,
@@ -1068,7 +1158,7 @@
    "name": "3m4f Hcap Chs",
    "handicap": true,
    "each_way": true,
-   "field_size": 12,
+   "field_size": 11,
    "terms": {
     "places": 3,
     "fraction": [
@@ -1089,6 +1179,15 @@
     {
      "at": "2026-10-31T06:00:01Z",
      "field_size": 12,
+     "places": 3,
+     "fraction": [
+      1,
+      5
+     ]
+    },
+    {
+     "at": "2026-11-01T09:00:01Z",
+     "field_size": 11,
      "places": 3,
      "fraction": [
       1,
@@ -1253,14 +1352,14 @@
    "name": "2m Hcap Hrd",
    "handicap": true,
    "each_way": true,
-   "field_size": 26,
+   "field_size": 23,
    "terms": {
     "places": 6,
     "fraction": [
      1,
      5
     ],
-    "bog": false
+    "bog": true
    },
    "house_standard": {
     "places": 4,
@@ -1274,6 +1373,15 @@
     {
      "at": "2026-10-31T06:00:01Z",
      "field_size": 26,
+     "places": 6,
+     "fraction": [
+      1,
+      5
+     ]
+    },
+    {
+     "at": "2026-11-01T10:00:01Z",
+     "field_size": 23,
      "places": 6,
      "fraction": [
       1,
@@ -1327,14 +1435,14 @@
    "name": "1m4f Listed",
    "handicap": false,
    "each_way": true,
-   "field_size": 15,
+   "field_size": 14,
    "terms": {
     "places": 4,
     "fraction": [
      1,
      5
     ],
-    "bog": false
+    "bog": true
    },
    "house_standard": {
     "places": 3,
@@ -1348,6 +1456,15 @@
     {
      "at": "2026-10-31T06:00:01Z",
      "field_size": 15,
+     "places": 4,
+     "fraction": [
+      1,
+      5
+     ]
+    },
+    {
+     "at": "2026-11-01T11:00:01Z",
+     "field_size": 14,
      "places": 4,
      "fraction": [
       1,
@@ -1588,10 +1705,10 @@
    "each_way": true,
    "field_size": 15,
    "terms": {
-    "places": 3,
+    "places": 4,
     "fraction": [
      1,
-     4
+     5
     ],
     "bog": false
    },
@@ -1611,6 +1728,15 @@
      "fraction": [
       1,
       4
+     ]
+    },
+    {
+     "at": "2026-11-01T10:00:01Z",
+     "field_size": 15,
+     "places": 4,
+     "fraction": [
+      1,
+      5
      ]
     }
    ]
@@ -1773,10 +1899,10 @@
    "each_way": true,
    "field_size": 15,
    "terms": {
-    "places": 3,
+    "places": 4,
     "fraction": [
      1,
-     4
+     5
     ],
     "bog": false
    },
@@ -1796,6 +1922,15 @@
      "fraction": [
       1,
       4
+     ]
+    },
+    {
+     "at": "2026-11-01T10:00:01Z",
+     "field_size": 15,
+     "places": 4,
+     "fraction": [
+      1,
+      5
      ]
     }
    ]
@@ -1958,7 +2093,7 @@
    "each_way": true,
    "field_size": 13,
    "terms": {
-    "places": 3,
+    "places": 4,
     "fraction": [
      1,
      5
@@ -1978,6 +2113,15 @@
      "at": "2026-11-01T06:00:01Z",
      "field_size": 13,
      "places": 3,
+     "fraction": [
+      1,
+      5
+     ]
+    },
+    {
+     "at": "2026-11-01T10:00:01Z",
+     "field_size": 13,
+     "places": 4,
      "fraction": [
       1,
       5
@@ -2106,10 +2250,10 @@
    "each_way": true,
    "field_size": 15,
    "terms": {
-    "places": 3,
+    "places": 4,
     "fraction": [
      1,
-     4
+     5
     ],
     "bog": false
    },
@@ -2130,6 +2274,15 @@
       1,
       4
      ]
+    },
+    {
+     "at": "2026-11-01T10:00:01Z",
+     "field_size": 15,
+     "places": 4,
+     "fraction": [
+      1,
+      5
+     ]
     }
    ]
   },
@@ -2143,10 +2296,10 @@
    "each_way": true,
    "field_size": 15,
    "terms": {
-    "places": 3,
+    "places": 4,
     "fraction": [
      1,
-     4
+     5
     ],
     "bog": false
    },
@@ -2166,6 +2319,15 @@
      "fraction": [
       1,
       4
+     ]
+    },
+    {
+     "at": "2026-11-01T10:00:01Z",
+     "field_size": 15,
+     "places": 4,
+     "fraction": [
+      1,
+      5
      ]
     }
    ]
