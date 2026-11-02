@@ -1,6 +1,6 @@
 {
  "schema": "movers_v1",
- "generated_at": "2026-11-02T16:00:02Z",
+ "generated_at": "2026-11-02T21:30:01Z",
  "source": "Smarkets public order book",
  "note": "'percentile' is where this move sits among all moves we have measured for runners opening at a similar price. The median move is near zero in every band; what changes with price is the spread of outcomes.",
  "baseline": {
@@ -78,7 +78,7 @@
    }
   ]
  },
- "collected_through": "2026-11-02T15:45:01Z",
+ "collected_through": "2026-11-02T21:15:01Z",
  "runners": [
   {
    "slug": "plumpton-1330",
@@ -142,6 +142,28 @@
    "band": [
     20,
     35
+   ],
+   "percentile": 0,
+   "notable": true
+  },
+  {
+   "slug": "plumpton-1600",
+   "venue": "Plumpton",
+   "off_utc": "2026-11-02T16:00:00Z",
+   "runner": "Keno Black",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 9.18
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 3.8,
+    "spread_pct": 2.7
+   },
+   "move_pct": -58.6,
+   "band": [
+    8,
+    13
    ],
    "percentile": 0,
    "notable": true
@@ -279,6 +301,72 @@
    "notable": true
   },
   {
+   "slug": "chelmsford-city-1745",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T17:45:00Z",
+   "runner": "Terroir",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 16.56
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 42.83,
+    "spread_pct": 14.2
+   },
+   "move_pct": 158.7,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 99,
+   "notable": true
+  },
+  {
+   "slug": "wolverhampton-1830",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T18:30:00Z",
+   "runner": "Steamroller",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 8.18
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 18.23,
+    "spread_pct": 8.2
+   },
+   "move_pct": 122.9,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 99,
+   "notable": true
+  },
+  {
+   "slug": "wolverhampton-1930",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T19:30:00Z",
+   "runner": "Sovereign Bay",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 3.5
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 6.1,
+    "spread_pct": 3.3
+   },
+   "move_pct": 74.3,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 99,
+   "notable": true
+  },
+  {
    "slug": "plumpton-1400",
    "venue": "Plumpton",
    "off_utc": "2026-11-02T14:00:00Z",
@@ -367,6 +455,138 @@
    "notable": true
   },
   {
+   "slug": "chelmsford-city-1745",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T17:45:00Z",
+   "runner": "Reichenbach Falls",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 8.69
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 17.21,
+    "spread_pct": 8.6
+   },
+   "move_pct": 98.0,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 98,
+   "notable": true
+  },
+  {
+   "slug": "chelmsford-city-1745",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T17:45:00Z",
+   "runner": "Rocsane",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 4.02
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 2.61,
+    "spread_pct": 0.8
+   },
+   "move_pct": -35.1,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 2,
+   "notable": true
+  },
+  {
+   "slug": "chelmsford-city-1745",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T17:45:00Z",
+   "runner": "Terry O",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 28.82
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 13.24,
+    "spread_pct": 3.7
+   },
+   "move_pct": -54.0,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 2,
+   "notable": true
+  },
+  {
+   "slug": "wolverhampton-1800",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T18:00:00Z",
+   "runner": "Past Passion",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 6.89
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 4.2,
+    "spread_pct": 4.7
+   },
+   "move_pct": -39.1,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 2,
+   "notable": true
+  },
+  {
+   "slug": "chelmsford-city-1815",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T18:15:00Z",
+   "runner": "Desert Legend",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 8.58
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 17.48,
+    "spread_pct": 5.6
+   },
+   "move_pct": 103.8,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 98,
+   "notable": true
+  },
+  {
+   "slug": "chelmsford-city-1845",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T18:45:00Z",
+   "runner": "Young Clarissa",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 7.06
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 4.15,
+    "spread_pct": 2.4
+   },
+   "move_pct": -41.3,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 2,
+   "notable": true
+  },
+  {
    "slug": "southwell-1315",
    "venue": "Southwell",
    "off_utc": "2026-11-02T13:15:00Z",
@@ -406,6 +626,50 @@
    "band": [
     8,
     13
+   ],
+   "percentile": 3,
+   "notable": true
+  },
+  {
+   "slug": "wolverhampton-1700",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T17:00:00Z",
+   "runner": "The Dragon King",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 16.65
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 34.78,
+    "spread_pct": 17.2
+   },
+   "move_pct": 108.9,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 97,
+   "notable": true
+  },
+  {
+   "slug": "chelmsford-city-1715",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T17:15:00Z",
+   "runner": "Brosna Town",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 15.56
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 8.7,
+    "spread_pct": 2.3
+   },
+   "move_pct": -44.1,
+   "band": [
+    13,
+    20
    ],
    "percentile": 3,
    "notable": true
@@ -477,25 +741,25 @@
    "notable": true
   },
   {
-   "slug": "plumpton-1600",
-   "venue": "Plumpton",
-   "off_utc": "2026-11-02T16:00:00Z",
-   "runner": "Kandor",
+   "slug": "wolverhampton-1730",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T17:30:00Z",
+   "runner": "Chalk Mountain",
    "first": {
     "mins_to_off": 360,
-    "mid": 19.1
+    "mid": 5.85
    },
    "latest": {
-    "mins_to_off": 15,
-    "mid": 36.76,
-    "spread_pct": 16.3
+    "mins_to_off": 0,
+    "mid": 3.85,
+    "spread_pct": 5.2
    },
-   "move_pct": 92.5,
+   "move_pct": -34.2,
    "band": [
-    13,
-    20
+    5,
+    8
    ],
-   "percentile": 96,
+   "percentile": 4,
    "notable": true
   },
   {
@@ -538,6 +802,28 @@
    "band": [
     13,
     20
+   ],
+   "percentile": 95,
+   "notable": true
+  },
+  {
+   "slug": "chelmsford-city-1645",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T16:45:00Z",
+   "runner": "Rebel Path",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 3.92
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 5.7,
+    "spread_pct": 3.5
+   },
+   "move_pct": 45.2,
+   "band": [
+    3,
+    5
    ],
    "percentile": 95,
    "notable": true
@@ -587,25 +873,69 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1700",
+   "slug": "wolverhampton-1800",
    "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T17:00:00Z",
-   "runner": "Reciprocated",
+   "off_utc": "2026-11-02T18:00:00Z",
+   "runner": "Dadawada",
    "first": {
     "mins_to_off": 360,
-    "mid": 7.9
+    "mid": 37.11
    },
    "latest": {
-    "mins_to_off": 75,
-    "mid": 5.55,
-    "spread_pct": 1.8
+    "mins_to_off": 0,
+    "mid": 61.54,
+    "spread_pct": 24.4
    },
-   "move_pct": -29.7,
+   "move_pct": 65.8,
    "band": [
-    5,
-    8
+    35,
+    100
+   ],
+   "percentile": 94,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1930",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T19:30:00Z",
+   "runner": "Carwyn",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 58.31
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 27.4,
+    "spread_pct": 11.0
+   },
+   "move_pct": -53.0,
+   "band": [
+    35,
+    100
    ],
    "percentile": 6,
+   "notable": false
+  },
+  {
+   "slug": "chelmsford-city-1945",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T19:45:00Z",
+   "runner": "Obsidian Dream",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 58.31
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 99.01,
+    "spread_pct": 20.0
+   },
+   "move_pct": 69.8,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 94,
    "notable": false
   },
   {
@@ -631,25 +961,69 @@
    "notable": false
   },
   {
-   "slug": "chelmsford-city-1745",
-   "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T17:45:00Z",
-   "runner": "Terry O",
+   "slug": "plumpton-1600",
+   "venue": "Plumpton",
+   "off_utc": "2026-11-02T16:00:00Z",
+   "runner": "Kandor",
    "first": {
     "mins_to_off": 360,
-    "mid": 28.82
+    "mid": 19.1
    },
    "latest": {
-    "mins_to_off": 120,
-    "mid": 17.57,
-    "spread_pct": 19.9
+    "mins_to_off": 0,
+    "mid": 32.73,
+    "spread_pct": 18.2
    },
-   "move_pct": -39.0,
+   "move_pct": 71.4,
    "band": [
-    20,
-    35
+    13,
+    20
    ],
-   "percentile": 7,
+   "percentile": 93,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1800",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T18:00:00Z",
+   "runner": "Cavan Lady",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 3.92
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 5.5,
+    "spread_pct": 3.6
+   },
+   "move_pct": 40.1,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 93,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1800",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T18:00:00Z",
+   "runner": "Havana Grey Star",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 12.2
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 19.21,
+    "spread_pct": 7.9
+   },
+   "move_pct": 57.4,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 93,
    "notable": false
   },
   {
@@ -719,25 +1093,69 @@
    "notable": false
   },
   {
-   "slug": "chelmsford-city-1745",
-   "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T17:45:00Z",
-   "runner": "Quai Louis",
+   "slug": "plumpton-1600",
+   "venue": "Plumpton",
+   "off_utc": "2026-11-02T16:00:00Z",
+   "runner": "Calme Olympien",
    "first": {
     "mins_to_off": 360,
-    "mid": 3.12
+    "mid": 7.49
    },
    "latest": {
-    "mins_to_off": 120,
-    "mid": 4.3,
-    "spread_pct": 4.6
+    "mins_to_off": 0,
+    "mid": 10.48,
+    "spread_pct": 9.6
    },
-   "move_pct": 37.6,
+   "move_pct": 39.9,
    "band": [
-    3,
-    5
+    5,
+    8
    ],
    "percentile": 92,
+   "notable": false
+  },
+  {
+   "slug": "chelmsford-city-1715",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T17:15:00Z",
+   "runner": "Mother Dear",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 5.59
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 7.9,
+    "spread_pct": 2.5
+   },
+   "move_pct": 41.2,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 92,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1800",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T18:00:00Z",
+   "runner": "Calef",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 6.1
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 4.5,
+    "spread_pct": 4.5
+   },
+   "move_pct": -26.2,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 8,
    "notable": false
   },
   {
@@ -785,47 +1203,25 @@
    "notable": false
   },
   {
-   "slug": "plumpton-1600",
-   "venue": "Plumpton",
-   "off_utc": "2026-11-02T16:00:00Z",
-   "runner": "Keno Black",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 9.18
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 6.59,
-    "spread_pct": 6.0
-   },
-   "move_pct": -28.2,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 9,
-   "notable": false
-  },
-  {
    "slug": "wolverhampton-1630",
    "venue": "Wolverhampton",
    "off_utc": "2026-11-02T16:30:00Z",
-   "runner": "The Anthony Gover",
+   "runner": "Show Biz Kid",
    "first": {
     "mins_to_off": 360,
-    "mid": 2.68
+    "mid": 15.36
    },
    "latest": {
-    "mins_to_off": 45,
-    "mid": 2.15,
-    "spread_pct": 0.9
+    "mins_to_off": 0,
+    "mid": 25.41,
+    "spread_pct": 12.0
    },
-   "move_pct": -19.8,
+   "move_pct": 65.4,
    "band": [
-    1.5,
-    3
+    13,
+    20
    ],
-   "percentile": 9,
+   "percentile": 91,
    "notable": false
   },
   {
@@ -873,6 +1269,116 @@
    "notable": false
   },
   {
+   "slug": "chelmsford-city-1645",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T16:45:00Z",
+   "runner": "Startling",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 3.55
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 2.8,
+    "spread_pct": 1.4
+   },
+   "move_pct": -21.1,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 10,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1730",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T17:30:00Z",
+   "runner": "King Of Chaos",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 31.6
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 54.35,
+    "spread_pct": 82.3
+   },
+   "move_pct": 72.0,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 90,
+   "notable": false
+  },
+  {
+   "slug": "chelmsford-city-1745",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T17:45:00Z",
+   "runner": "Quai Louis",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 3.12
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 4.1,
+    "spread_pct": 4.9
+   },
+   "move_pct": 31.2,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 90,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1800",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T18:00:00Z",
+   "runner": "Ricky's Rocket",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 17.67
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 28.45,
+    "spread_pct": 10.6
+   },
+   "move_pct": 61.0,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 90,
+   "notable": false
+  },
+  {
+   "slug": "chelmsford-city-1815",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T18:15:00Z",
+   "runner": "Blue Pete",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 3.42
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 2.68,
+    "spread_pct": 1.5
+   },
+   "move_pct": -21.7,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 10,
+   "notable": false
+  },
+  {
    "slug": "plumpton-1400",
    "venue": "Plumpton",
    "off_utc": "2026-11-02T14:00:00Z",
@@ -917,25 +1423,25 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1800",
+   "slug": "wolverhampton-1930",
    "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T18:00:00Z",
-   "runner": "Dadawada",
+   "off_utc": "2026-11-02T19:30:00Z",
+   "runner": "Rajendra",
    "first": {
     "mins_to_off": 360,
-    "mid": 37.11
+    "mid": 5.3
    },
    "latest": {
-    "mins_to_off": 135,
-    "mid": 55.25,
-    "spread_pct": 30.5
+    "mins_to_off": 0,
+    "mid": 4.05,
+    "spread_pct": 2.5
    },
-   "move_pct": 48.9,
+   "move_pct": -23.6,
    "band": [
-    35,
-    100
+    5,
+    8
    ],
-   "percentile": 89,
+   "percentile": 11,
    "notable": false
   },
   {
@@ -983,64 +1489,42 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1630",
+   "slug": "wolverhampton-1730",
    "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T16:30:00Z",
-   "runner": "Crimson Road",
+   "off_utc": "2026-11-02T17:30:00Z",
+   "runner": "Alaminos",
    "first": {
     "mins_to_off": 360,
-    "mid": 13.93
+    "mid": 4.05
    },
    "latest": {
-    "mins_to_off": 45,
-    "mid": 21.39,
-    "spread_pct": 14.0
+    "mins_to_off": 0,
+    "mid": 5.19,
+    "spread_pct": 7.7
    },
-   "move_pct": 53.6,
+   "move_pct": 28.2,
    "band": [
-    13,
-    20
+    3,
+    5
    ],
    "percentile": 88,
    "notable": false
   },
   {
-   "slug": "wolverhampton-1700",
+   "slug": "wolverhampton-1730",
    "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T17:00:00Z",
-   "runner": "Distillation",
+   "off_utc": "2026-11-02T17:30:00Z",
+   "runner": "Follow Your Heart",
    "first": {
     "mins_to_off": 360,
-    "mid": 9.6
+    "mid": 53.33
    },
    "latest": {
-    "mins_to_off": 75,
-    "mid": 13.71,
-    "spread_pct": 10.9
+    "mins_to_off": 0,
+    "mid": 30.77,
+    "spread_pct": 48.8
    },
-   "move_pct": 42.8,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 88,
-   "notable": false
-  },
-  {
-   "slug": "chelmsford-city-1745",
-   "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T17:45:00Z",
-   "runner": "Cosmocrat",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 49.38
-   },
-   "latest": {
-    "mins_to_off": 120,
-    "mid": 27.86,
-    "spread_pct": 14.6
-   },
-   "move_pct": -43.6,
+   "move_pct": -42.3,
    "band": [
     35,
     100
@@ -1049,25 +1533,69 @@
    "notable": false
   },
   {
-   "slug": "chelmsford-city-1815",
-   "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T18:15:00Z",
-   "runner": "Blue Pete",
+   "slug": "wolverhampton-1900",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T19:00:00Z",
+   "runner": "Percy Jones",
    "first": {
     "mins_to_off": 360,
-    "mid": 3.42
+    "mid": 5.94
    },
    "latest": {
-    "mins_to_off": 150,
-    "mid": 2.76,
-    "spread_pct": 1.5
+    "mins_to_off": 0,
+    "mid": 7.79,
+    "spread_pct": 5.1
    },
-   "move_pct": -19.4,
+   "move_pct": 31.2,
    "band": [
-    3,
-    5
+    5,
+    8
    ],
-   "percentile": 12,
+   "percentile": 88,
+   "notable": false
+  },
+  {
+   "slug": "chelmsford-city-1945",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T19:45:00Z",
+   "runner": "Shades Of May",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 14.43
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 21.95,
+    "spread_pct": 9.0
+   },
+   "move_pct": 52.1,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 88,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-2000",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T20:00:00Z",
+   "runner": "Deep Sleep",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 6.1
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 7.99,
+    "spread_pct": 5.0
+   },
+   "move_pct": 31.1,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 88,
    "notable": false
   },
   {
@@ -1159,45 +1687,89 @@
    "notable": false
   },
   {
-   "slug": "plumpton-1600",
-   "venue": "Plumpton",
-   "off_utc": "2026-11-02T16:00:00Z",
-   "runner": "Low Expectations",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 5.4
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 4.25,
-    "spread_pct": 2.3
-   },
-   "move_pct": -21.3,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 13,
-   "notable": false
-  },
-  {
    "slug": "chelmsford-city-1745",
    "venue": "Chelmsford City",
    "off_utc": "2026-11-02T17:45:00Z",
-   "runner": "Rocsane",
+   "runner": "Denver Sluice",
    "first": {
     "mins_to_off": 360,
-    "mid": 4.02
+    "mid": 29.46
    },
    "latest": {
-    "mins_to_off": 120,
-    "mid": 3.27,
-    "spread_pct": 4.6
+    "mins_to_off": 0,
+    "mid": 46.84,
+    "spread_pct": 12.7
    },
-   "move_pct": -18.6,
+   "move_pct": 59.0,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 87,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1830",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T18:30:00Z",
+   "runner": "Raider",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 24.01
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 38.76,
+    "spread_pct": 15.6
+   },
+   "move_pct": 61.4,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 87,
+   "notable": false
+  },
+  {
+   "slug": "chelmsford-city-1845",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T18:45:00Z",
+   "runner": "Lady's Grace",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 3.77
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 4.8,
+    "spread_pct": 4.2
+   },
+   "move_pct": 27.1,
    "band": [
     3,
     5
+   ],
+   "percentile": 87,
+   "notable": false
+  },
+  {
+   "slug": "chelmsford-city-2015",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T20:15:00Z",
+   "runner": "Liberate",
+   "first": {
+    "mins_to_off": 75,
+    "mid": 90.91
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 53.33,
+    "spread_pct": 22.1
+   },
+   "move_pct": -41.3,
+   "band": [
+    35,
+    100
    ],
    "percentile": 13,
    "notable": false
@@ -1220,28 +1792,6 @@
    "band": [
     8,
     13
-   ],
-   "percentile": 14,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1930",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T19:30:00Z",
-   "runner": "Carwyn",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 58.31
-   },
-   "latest": {
-    "mins_to_off": 225,
-    "mid": 35.03,
-    "spread_pct": 34.2
-   },
-   "move_pct": -39.9,
-   "band": [
-    35,
-    100
    ],
    "percentile": 14,
    "notable": false
@@ -1313,45 +1863,67 @@
    "notable": false
   },
   {
-   "slug": "chelmsford-city-1715",
-   "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T17:15:00Z",
-   "runner": "Big Bear Hug",
+   "slug": "wolverhampton-1730",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T17:30:00Z",
+   "runner": "Trust Amy",
    "first": {
     "mins_to_off": 360,
-    "mid": 22.22
+    "mid": 37.81
    },
    "latest": {
-    "mins_to_off": 90,
-    "mid": 34.31,
-    "spread_pct": 38.0
+    "mins_to_off": 15,
+    "mid": 53.33,
+    "spread_pct": 22.1
    },
-   "move_pct": 54.4,
+   "move_pct": 41.1,
    "band": [
-    20,
-    35
+    35,
+    100
    ],
    "percentile": 85,
    "notable": false
   },
   {
-   "slug": "chelmsford-city-1845",
-   "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T18:45:00Z",
-   "runner": "Young Clarissa",
+   "slug": "wolverhampton-1930",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T19:30:00Z",
+   "runner": "Shes Got The Blues",
    "first": {
     "mins_to_off": 360,
-    "mid": 7.06
+    "mid": 5.79
    },
    "latest": {
-    "mins_to_off": 180,
-    "mid": 5.69,
-    "spread_pct": 7.0
+    "mins_to_off": 0,
+    "mid": 4.65,
+    "spread_pct": 2.1
    },
-   "move_pct": -19.4,
+   "move_pct": -19.7,
    "band": [
     5,
     8
+   ],
+   "percentile": 15,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-2030",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T20:30:00Z",
+   "runner": "Megaphone",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 19.74
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 14.98,
+    "spread_pct": 6.7
+   },
+   "move_pct": -24.1,
+   "band": [
+    13,
+    20
    ],
    "percentile": 15,
    "notable": false
@@ -1401,69 +1973,47 @@
    "notable": false
   },
   {
-   "slug": "plumpton-1600",
-   "venue": "Plumpton",
-   "off_utc": "2026-11-02T16:00:00Z",
-   "runner": "Calme Olympien",
+   "slug": "wolverhampton-1630",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T16:30:00Z",
+   "runner": "Lunella",
    "first": {
     "mins_to_off": 360,
-    "mid": 7.49
+    "mid": 30.86
    },
    "latest": {
-    "mins_to_off": 15,
-    "mid": 9.29,
-    "spread_pct": 6.4
+    "mins_to_off": 0,
+    "mid": 22.83,
+    "spread_pct": 17.5
    },
-   "move_pct": 24.1,
+   "move_pct": -26.0,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 16,
+   "notable": false
+  },
+  {
+   "slug": "chelmsford-city-1715",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T17:15:00Z",
+   "runner": "Lady Ridgewood",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 5.25
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 6.5,
+    "spread_pct": 3.1
+   },
+   "move_pct": 23.9,
    "band": [
     5,
     8
    ],
    "percentile": 84,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1800",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T18:00:00Z",
-   "runner": "Calef",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 6.1
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 4.95,
-    "spread_pct": 2.0
-   },
-   "move_pct": -18.8,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 16,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1800",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T18:00:00Z",
-   "runner": "Past Passion",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 6.89
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 5.6,
-    "spread_pct": 3.6
-   },
-   "move_pct": -18.7,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 16,
    "notable": false
   },
   {
@@ -1489,23 +2039,67 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1830",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T18:30:00Z",
-   "runner": "Ruthless Ambition",
+   "slug": "plumpton-1600",
+   "venue": "Plumpton",
+   "off_utc": "2026-11-02T16:00:00Z",
+   "runner": "The Boss Bear",
    "first": {
     "mins_to_off": 360,
-    "mid": 73.26
+    "mid": 2.64
    },
    "latest": {
-    "mins_to_off": 180,
-    "mid": 99.01,
-    "spread_pct": 100.6
+    "mins_to_off": 0,
+    "mid": 3.07,
+    "spread_pct": 1.6
    },
-   "move_pct": 35.1,
+   "move_pct": 16.5,
    "band": [
-    35,
-    100
+    1.5,
+    3
+   ],
+   "percentile": 83,
+   "notable": false
+  },
+  {
+   "slug": "chelmsford-city-1645",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T16:45:00Z",
+   "runner": "Ancient Times",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 9.07
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 7.19,
+    "spread_pct": 5.6
+   },
+   "move_pct": -20.7,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 17,
+   "notable": false
+  },
+  {
+   "slug": "chelmsford-city-1645",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T16:45:00Z",
+   "runner": "Elvetham",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 7.38
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 9.09,
+    "spread_pct": 6.6
+   },
+   "move_pct": 23.2,
+   "band": [
+    5,
+    8
    ],
    "percentile": 83,
    "notable": false
@@ -1555,135 +2149,69 @@
    "notable": false
   },
   {
-   "slug": "plumpton-1600",
-   "venue": "Plumpton",
-   "off_utc": "2026-11-02T16:00:00Z",
-   "runner": "Coastal Command",
+   "slug": "wolverhampton-1700",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T17:00:00Z",
+   "runner": "Commander Of Life",
    "first": {
     "mins_to_off": 360,
-    "mid": 9.16
+    "mid": 13.63
    },
    "latest": {
-    "mins_to_off": 15,
-    "mid": 11.98,
-    "spread_pct": 8.4
+    "mins_to_off": 0,
+    "mid": 10.7,
+    "spread_pct": 14.0
    },
-   "move_pct": 30.7,
+   "move_pct": -21.6,
    "band": [
-    8,
-    13
-   ],
-   "percentile": 82,
-   "notable": false
-  },
-  {
-   "slug": "chelmsford-city-1645",
-   "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T16:45:00Z",
-   "runner": "Ancient Times",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 9.07
-   },
-   "latest": {
-    "mins_to_off": 60,
-    "mid": 7.29,
-    "spread_pct": 8.2
-   },
-   "move_pct": -19.7,
-   "band": [
-    8,
-    13
+    13,
+    20
    ],
    "percentile": 18,
    "notable": false
   },
   {
-   "slug": "chelmsford-city-1645",
+   "slug": "chelmsford-city-1715",
    "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T16:45:00Z",
-   "runner": "Startling",
+   "off_utc": "2026-11-02T17:15:00Z",
+   "runner": "Charging Thunder",
    "first": {
     "mins_to_off": 360,
-    "mid": 3.55
+    "mid": 4.65
    },
    "latest": {
-    "mins_to_off": 60,
-    "mid": 4.3,
-    "spread_pct": 4.6
+    "mins_to_off": 0,
+    "mid": 3.97,
+    "spread_pct": 1.3
    },
-   "move_pct": 21.2,
+   "move_pct": -14.4,
    "band": [
     3,
     5
    ],
-   "percentile": 82,
+   "percentile": 18,
    "notable": false
   },
   {
-   "slug": "wolverhampton-1730",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T17:30:00Z",
-   "runner": "Trust Amy",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 37.81
-   },
-   "latest": {
-    "mins_to_off": 105,
-    "mid": 50.76,
-    "spread_pct": 31.2
-   },
-   "move_pct": 34.3,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 82,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1800",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T18:00:00Z",
-   "runner": "Cavan Lady",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 3.92
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 4.75,
-    "spread_pct": 2.1
-   },
-   "move_pct": 21.0,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 82,
-   "notable": false
-  },
-  {
-   "slug": "chelmsford-city-1815",
+   "slug": "chelmsford-city-1745",
    "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T18:15:00Z",
-   "runner": "Beechwood Glory",
+   "off_utc": "2026-11-02T17:45:00Z",
+   "runner": "Anna Belardo",
    "first": {
     "mins_to_off": 360,
-    "mid": 3.02
+    "mid": 31.5
    },
    "latest": {
-    "mins_to_off": 150,
-    "mid": 3.65,
-    "spread_pct": 2.7
+    "mins_to_off": 0,
+    "mid": 23.95,
+    "spread_pct": 8.4
    },
-   "move_pct": 20.9,
+   "move_pct": -24.0,
    "band": [
-    3,
-    5
+    20,
+    35
    ],
-   "percentile": 82,
+   "percentile": 18,
    "notable": false
   },
   {
@@ -1723,6 +2251,116 @@
     "spread_pct": 2.1
    },
    "move_pct": -14.2,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 19,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1700",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T17:00:00Z",
+   "runner": "Reciprocated",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 7.9
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 6.59,
+    "spread_pct": 6.0
+   },
+   "move_pct": -16.5,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 19,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1900",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T19:00:00Z",
+   "runner": "That Darn Cantor",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 3.92
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 3.38,
+    "spread_pct": 1.5
+   },
+   "move_pct": -14.0,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 19,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1930",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T19:30:00Z",
+   "runner": "Moonlight Melody",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 40.49
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 26.42,
+    "spread_pct": 11.4
+   },
+   "move_pct": -34.7,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 19,
+   "notable": false
+  },
+  {
+   "slug": "chelmsford-city-1945",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T19:45:00Z",
+   "runner": "Fresh Fade",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 18.48
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 25.41,
+    "spread_pct": 12.0
+   },
+   "move_pct": 37.5,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 81,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-2000",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T20:00:00Z",
+   "runner": "Stipulation",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 4.24
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 3.65,
+    "spread_pct": 2.7
+   },
+   "move_pct": -14.0,
    "band": [
     3,
     5
@@ -1775,6 +2413,28 @@
    "notable": false
   },
   {
+   "slug": "wolverhampton-2000",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T20:00:00Z",
+   "runner": "Amazing Anita",
+   "first": {
+    "mins_to_off": 330,
+    "mid": 99.01
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 66.67,
+    "spread_pct": 23.0
+   },
+   "move_pct": -32.7,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 20,
+   "notable": false
+  },
+  {
    "slug": "southwell-1315",
    "venue": "Southwell",
    "off_utc": "2026-11-02T13:15:00Z",
@@ -1819,47 +2479,69 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1630",
+   "slug": "wolverhampton-1700",
    "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T16:30:00Z",
-   "runner": "Show Biz Kid",
+   "off_utc": "2026-11-02T17:00:00Z",
+   "runner": "Distillation",
    "first": {
     "mins_to_off": 360,
-    "mid": 15.36
+    "mid": 9.6
    },
    "latest": {
-    "mins_to_off": 45,
-    "mid": 20.66,
-    "spread_pct": 12.0
+    "mins_to_off": 0,
+    "mid": 12.2,
+    "spread_pct": 12.4
    },
-   "move_pct": 34.5,
+   "move_pct": 27.2,
    "band": [
-    13,
-    20
+    8,
+    13
    ],
    "percentile": 79,
    "notable": false
   },
   {
-   "slug": "wolverhampton-1730",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T17:30:00Z",
-   "runner": "Tonal",
+   "slug": "chelmsford-city-1915",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T19:15:00Z",
+   "runner": "Queen Tamara",
    "first": {
     "mins_to_off": 360,
-    "mid": 13.42
+    "mid": 7.39
    },
    "latest": {
-    "mins_to_off": 105,
-    "mid": 17.95,
-    "spread_pct": 11.2
+    "mins_to_off": 0,
+    "mid": 8.8,
+    "spread_pct": 4.6
    },
-   "move_pct": 33.8,
+   "move_pct": 19.0,
    "band": [
-    13,
-    20
+    5,
+    8
    ],
    "percentile": 79,
+   "notable": false
+  },
+  {
+   "slug": "chelmsford-city-1945",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T19:45:00Z",
+   "runner": "Intervention",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 3.22
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 2.82,
+    "spread_pct": 1.4
+   },
+   "move_pct": -12.5,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 21,
    "notable": false
   },
   {
@@ -1885,6 +2567,50 @@
    "notable": false
   },
   {
+   "slug": "wolverhampton-1630",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T16:30:00Z",
+   "runner": "Under The Sun",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 6.5
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 5.55,
+    "spread_pct": 5.4
+   },
+   "move_pct": -14.7,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 22,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-2030",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T20:30:00Z",
+   "runner": "Geemann",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 20.81
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 16.99,
+    "spread_pct": 6.0
+   },
+   "move_pct": -18.4,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 22,
+   "notable": false
+  },
+  {
    "slug": "plumpton-1530",
    "venue": "Plumpton",
    "off_utc": "2026-11-02T15:30:00Z",
@@ -1907,179 +2633,135 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1730",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T17:30:00Z",
-   "runner": "Peter The Wolf",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 4.59
-   },
-   "latest": {
-    "mins_to_off": 105,
-    "mid": 4.05,
-    "spread_pct": 2.5
-   },
-   "move_pct": -11.8,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 23,
-   "notable": false
-  },
-  {
-   "slug": "chelmsford-city-1745",
+   "slug": "chelmsford-city-1945",
    "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T17:45:00Z",
-   "runner": "Hell Of An Angel",
+   "off_utc": "2026-11-02T19:45:00Z",
+   "runner": "Orange Emperor",
    "first": {
     "mins_to_off": 360,
-    "mid": 19.21
+    "mid": 6.59
    },
    "latest": {
-    "mins_to_off": 120,
-    "mid": 15.99,
-    "spread_pct": 6.2
+    "mins_to_off": 0,
+    "mid": 7.7,
+    "spread_pct": 2.6
    },
-   "move_pct": -16.8,
+   "move_pct": 16.7,
    "band": [
-    13,
-    20
-   ],
-   "percentile": 23,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1830",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T18:30:00Z",
-   "runner": "Steamroller",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 8.18
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 10.14,
-    "spread_pct": 6.9
-   },
-   "move_pct": 24.0,
-   "band": [
-    8,
-    13
+    5,
+    8
    ],
    "percentile": 77,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-2030",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T20:30:00Z",
+   "runner": "Daytona Lady",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 5.3
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 6.1,
+    "spread_pct": 3.3
+   },
+   "move_pct": 15.1,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 76,
+   "notable": false
+  },
+  {
+   "slug": "plumpton-1600",
+   "venue": "Plumpton",
+   "off_utc": "2026-11-02T16:00:00Z",
+   "runner": "Low Expectations",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 5.4
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 6.19,
+    "spread_pct": 6.5
+   },
+   "move_pct": 14.7,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 75,
+   "notable": false
+  },
+  {
+   "slug": "plumpton-1600",
+   "venue": "Plumpton",
+   "off_utc": "2026-11-02T16:00:00Z",
+   "runner": "Everyonesgame",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 23.64
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 31.3,
+    "spread_pct": 16.1
+   },
+   "move_pct": 32.4,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 74,
    "notable": false
   },
   {
    "slug": "chelmsford-city-1815",
    "venue": "Chelmsford City",
    "off_utc": "2026-11-02T18:15:00Z",
-   "runner": "Invincible Isaac",
+   "runner": "Knock Three Times",
    "first": {
     "mins_to_off": 360,
-    "mid": 10.7
+    "mid": 26.04
    },
    "latest": {
-    "mins_to_off": 150,
-    "mid": 13.21,
-    "spread_pct": 11.4
+    "mins_to_off": 0,
+    "mid": 22.4,
+    "spread_pct": 13.3
    },
-   "move_pct": 23.5,
+   "move_pct": -14.0,
    "band": [
-    8,
-    13
-   ],
-   "percentile": 76,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1700",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T17:00:00Z",
-   "runner": "The Dragon King",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 16.65
-   },
-   "latest": {
-    "mins_to_off": 75,
-    "mid": 21.39,
-    "spread_pct": 14.0
-   },
-   "move_pct": 28.4,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 75,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1930",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T19:30:00Z",
-   "runner": "Moonlight Melody",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 40.49
-   },
-   "latest": {
-    "mins_to_off": 225,
-    "mid": 49.38,
-    "spread_pct": 36.2
-   },
-   "move_pct": 22.0,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 75,
-   "notable": false
-  },
-  {
-   "slug": "chelmsford-city-1645",
-   "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T16:45:00Z",
-   "runner": "The Fixer",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 9.92
-   },
-   "latest": {
-    "mins_to_off": 60,
-    "mid": 8.6,
-    "spread_pct": 4.6
-   },
-   "move_pct": -13.3,
-   "band": [
-    8,
-    13
+    20,
+    35
    ],
    "percentile": 26,
    "notable": false
   },
   {
-   "slug": "chelmsford-city-1915",
-   "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T19:15:00Z",
-   "runner": "Ice Sovereigns",
+   "slug": "wolverhampton-1900",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T19:00:00Z",
+   "runner": "Dijon Gone",
    "first": {
     "mins_to_off": 360,
-    "mid": 14.2
+    "mid": 24.24
    },
    "latest": {
-    "mins_to_off": 210,
-    "mid": 12.2,
-    "spread_pct": 12.4
+    "mins_to_off": 0,
+    "mid": 31.9,
+    "spread_pct": 12.5
    },
-   "move_pct": -14.1,
+   "move_pct": 31.6,
    "band": [
-    13,
-    20
+    20,
+    35
    ],
-   "percentile": 26,
+   "percentile": 74,
    "notable": false
   },
   {
@@ -2105,47 +2787,113 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1630",
+   "slug": "wolverhampton-1730",
    "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T16:30:00Z",
-   "runner": "Tortured Soul",
+   "off_utc": "2026-11-02T17:30:00Z",
+   "runner": "Tonal",
    "first": {
     "mins_to_off": 360,
-    "mid": 32.89
+    "mid": 13.42
    },
    "latest": {
-    "mins_to_off": 45,
-    "mid": 42.83,
-    "spread_pct": 14.2
+    "mins_to_off": 0,
+    "mid": 16.81,
+    "spread_pct": 32.8
    },
-   "move_pct": 30.2,
+   "move_pct": 25.2,
    "band": [
-    20,
-    35
+    13,
+    20
    ],
    "percentile": 73,
    "notable": false
   },
   {
-   "slug": "chelmsford-city-1945",
+   "slug": "chelmsford-city-1745",
    "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T19:45:00Z",
-   "runner": "Orange Emperor",
+   "off_utc": "2026-11-02T17:45:00Z",
+   "runner": "Cosmocrat",
    "first": {
     "mins_to_off": 360,
-    "mid": 6.59
+    "mid": 49.38
    },
    "latest": {
-    "mins_to_off": 240,
-    "mid": 5.8,
-    "spread_pct": 3.4
+    "mins_to_off": 0,
+    "mid": 36.76,
+    "spread_pct": 16.3
    },
-   "move_pct": -12.1,
+   "move_pct": -25.6,
    "band": [
-    5,
-    8
+    35,
+    100
    ],
    "percentile": 27,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1800",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T18:00:00Z",
+   "runner": "Carrow Road",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 43.48
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 52.36,
+    "spread_pct": 9.4
+   },
+   "move_pct": 20.4,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 73,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-2000",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T20:00:00Z",
+   "runner": "Snaafy",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 8.47
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 7.39,
+    "spread_pct": 5.4
+   },
+   "move_pct": -12.7,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 27,
+   "notable": false
+  },
+  {
+   "slug": "chelmsford-city-2015",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T20:15:00Z",
+   "runner": "Magician of Riga",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 4.84
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 5.45,
+    "spread_pct": 1.9
+   },
+   "move_pct": 12.5,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 73,
    "notable": false
   },
   {
@@ -2171,69 +2919,69 @@
    "notable": false
   },
   {
-   "slug": "chelmsford-city-1815",
-   "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T18:15:00Z",
-   "runner": "Enamored",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 43.48
-   },
-   "latest": {
-    "mins_to_off": 150,
-    "mid": 32.73,
-    "spread_pct": 18.2
-   },
-   "move_pct": -24.7,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 28,
-   "notable": false
-  },
-  {
-   "slug": "chelmsford-city-1845",
-   "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T18:45:00Z",
-   "runner": "Mo Rocko",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 88.5
-   },
-   "latest": {
-    "mins_to_off": 180,
-    "mid": 66.67,
-    "spread_pct": 44.7
-   },
-   "move_pct": -24.7,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 28,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-2000",
+   "slug": "wolverhampton-1630",
    "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T20:00:00Z",
-   "runner": "Imola",
+   "off_utc": "2026-11-02T16:30:00Z",
+   "runner": "Serious Look",
    "first": {
     "mins_to_off": 360,
-    "mid": 28.13
+    "mid": 8.98
    },
    "latest": {
-    "mins_to_off": 255,
-    "mid": 24.63,
-    "spread_pct": 24.5
+    "mins_to_off": 0,
+    "mid": 10.7,
+    "spread_pct": 14.0
    },
-   "move_pct": -12.4,
+   "move_pct": 19.1,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 72,
+   "notable": false
+  },
+  {
+   "slug": "chelmsford-city-1945",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T19:45:00Z",
+   "runner": "Candy Warhol",
+   "first": {
+    "mins_to_off": 300,
+    "mid": 84.39
+   },
+   "latest": {
+    "mins_to_off": 30,
+    "mid": 99.5,
+    "spread_pct": 35.9
+   },
+   "move_pct": 17.9,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 72,
+   "notable": false
+  },
+  {
+   "slug": "chelmsford-city-2015",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T20:15:00Z",
+   "runner": "Renesmee",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 20.49
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 26.42,
+    "spread_pct": 11.4
+   },
+   "move_pct": 28.9,
    "band": [
     20,
     35
    ],
-   "percentile": 28,
+   "percentile": 72,
    "notable": false
   },
   {
@@ -2303,69 +3051,91 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1700",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T17:00:00Z",
-   "runner": "Two Commanders",
+   "slug": "chelmsford-city-1815",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T18:15:00Z",
+   "runner": "Bearly Blue",
    "first": {
     "mins_to_off": 360,
-    "mid": 3.67
+    "mid": 28.09
    },
    "latest": {
-    "mins_to_off": 75,
-    "mid": 4.1,
-    "spread_pct": 4.9
+    "mins_to_off": 0,
+    "mid": 35.91,
+    "spread_pct": 11.2
    },
-   "move_pct": 11.5,
+   "move_pct": 27.8,
    "band": [
-    3,
-    5
+    20,
+    35
    ],
    "percentile": 71,
    "notable": false
   },
   {
-   "slug": "chelmsford-city-1715",
-   "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T17:15:00Z",
-   "runner": "Brosna Town",
+   "slug": "wolverhampton-1830",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T18:30:00Z",
+   "runner": "Ruthless Ambition",
    "first": {
     "mins_to_off": 360,
-    "mid": 15.56
+    "mid": 73.26
    },
    "latest": {
-    "mins_to_off": 90,
-    "mid": 13.71,
-    "spread_pct": 10.9
+    "mins_to_off": 0,
+    "mid": 56.5,
+    "spread_pct": 26.4
    },
-   "move_pct": -11.9,
+   "move_pct": -22.9,
    "band": [
-    13,
-    20
+    35,
+    100
    ],
    "percentile": 29,
    "notable": false
   },
   {
-   "slug": "chelmsford-city-1745",
+   "slug": "chelmsford-city-1845",
    "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T17:45:00Z",
-   "runner": "Terroir",
+   "off_utc": "2026-11-02T18:45:00Z",
+   "runner": "Honeymoon Bear",
    "first": {
     "mins_to_off": 360,
-    "mid": 16.56
+    "mid": 32.1
    },
    "latest": {
-    "mins_to_off": 120,
-    "mid": 20.39,
-    "spread_pct": 14.6
+    "mins_to_off": 0,
+    "mid": 40.82,
+    "spread_pct": 14.8
    },
-   "move_pct": 23.1,
+   "move_pct": 27.1,
    "band": [
-    13,
-    20
+    20,
+    35
    ],
    "percentile": 71,
+   "notable": false
+  },
+  {
+   "slug": "chelmsford-city-1945",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T19:45:00Z",
+   "runner": "Chloe's Courage",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 37.11
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 28.49,
+    "spread_pct": 3.4
+   },
+   "move_pct": -23.2,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 29,
    "notable": false
   },
   {
@@ -2413,47 +3183,69 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1700",
+   "slug": "wolverhampton-1630",
    "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T17:00:00Z",
-   "runner": "Montezin",
+   "off_utc": "2026-11-02T16:30:00Z",
+   "runner": "The Anthony Gover",
    "first": {
     "mins_to_off": 360,
-    "mid": 3.95
+    "mid": 2.68
    },
    "latest": {
-    "mins_to_off": 75,
-    "mid": 3.62,
-    "spread_pct": 1.4
+    "mins_to_off": 0,
+    "mid": 2.49,
+    "spread_pct": 2.4
    },
-   "move_pct": -8.2,
+   "move_pct": -7.1,
    "band": [
-    3,
-    5
+    1.5,
+    3
    ],
    "percentile": 30,
    "notable": false
   },
   {
-   "slug": "wolverhampton-1800",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T18:00:00Z",
-   "runner": "Carrow Road",
+   "slug": "chelmsford-city-1815",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T18:15:00Z",
+   "runner": "Beechwood Glory",
    "first": {
     "mins_to_off": 360,
-    "mid": 43.48
+    "mid": 3.02
    },
    "latest": {
-    "mins_to_off": 135,
-    "mid": 50.13,
-    "spread_pct": 17.7
+    "mins_to_off": 0,
+    "mid": 3.35,
+    "spread_pct": 3.0
    },
-   "move_pct": 15.3,
+   "move_pct": 11.0,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 70,
+   "notable": false
+  },
+  {
+   "slug": "chelmsford-city-1945",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T19:45:00Z",
+   "runner": "Shush A Minute",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 98.04
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 76.63,
+    "spread_pct": 19.3
+   },
+   "move_pct": -21.8,
    "band": [
     35,
     100
    ],
-   "percentile": 70,
+   "percentile": 30,
    "notable": false
   },
   {
@@ -2479,111 +3271,67 @@
    "notable": false
   },
   {
-   "slug": "plumpton-1600",
-   "venue": "Plumpton",
-   "off_utc": "2026-11-02T16:00:00Z",
-   "runner": "The Boss Bear",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 2.64
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 2.83,
-    "spread_pct": 2.1
-   },
-   "move_pct": 7.2,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 69,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1630",
+   "slug": "wolverhampton-1700",
    "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T16:30:00Z",
-   "runner": "Serious Look",
+   "off_utc": "2026-11-02T17:00:00Z",
+   "runner": "Two Commanders",
    "first": {
     "mins_to_off": 360,
-    "mid": 8.98
+    "mid": 3.67
    },
    "latest": {
-    "mins_to_off": 45,
-    "mid": 10.48,
-    "spread_pct": 9.6
+    "mins_to_off": 0,
+    "mid": 3.38,
+    "spread_pct": 1.5
    },
-   "move_pct": 16.7,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 69,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1730",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T17:30:00Z",
-   "runner": "Alaminos",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 4.05
-   },
-   "latest": {
-    "mins_to_off": 105,
-    "mid": 4.45,
-    "spread_pct": 2.3
-   },
-   "move_pct": 9.9,
+   "move_pct": -8.1,
    "band": [
     3,
     5
-   ],
-   "percentile": 69,
-   "notable": false
-  },
-  {
-   "slug": "chelmsford-city-1815",
-   "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T18:15:00Z",
-   "runner": "Bearly Blue",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 28.09
-   },
-   "latest": {
-    "mins_to_off": 150,
-    "mid": 25.25,
-    "spread_pct": 19.9
-   },
-   "move_pct": -10.1,
-   "band": [
-    20,
-    35
    ],
    "percentile": 31,
    "notable": false
   },
   {
-   "slug": "wolverhampton-1900",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T19:00:00Z",
-   "runner": "Dijon Gone",
+   "slug": "chelmsford-city-1945",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T19:45:00Z",
+   "runner": "Yachtsman",
    "first": {
     "mins_to_off": 360,
-    "mid": 24.24
+    "mid": 9.1
    },
    "latest": {
-    "mins_to_off": 195,
-    "mid": 21.81,
-    "spread_pct": 18.3
+    "mins_to_off": 0,
+    "mid": 8.2,
+    "spread_pct": 4.9
    },
-   "move_pct": -10.0,
+   "move_pct": -9.9,
    "band": [
-    20,
-    35
+    8,
+    13
+   ],
+   "percentile": 31,
+   "notable": false
+  },
+  {
+   "slug": "chelmsford-city-2015",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T20:15:00Z",
+   "runner": "Maestro Del Mar",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 4.5
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 4.15,
+    "spread_pct": 2.4
+   },
+   "move_pct": -7.7,
+   "band": [
+    3,
+    5
    ],
    "percentile": 31,
    "notable": false
@@ -2608,50 +3356,6 @@
     13
    ],
    "percentile": 68,
-   "notable": false
-  },
-  {
-   "slug": "chelmsford-city-1645",
-   "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T16:45:00Z",
-   "runner": "Rebel Path",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 3.92
-   },
-   "latest": {
-    "mins_to_off": 60,
-    "mid": 3.65,
-    "spread_pct": 2.7
-   },
-   "move_pct": -7.0,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 32,
-   "notable": false
-  },
-  {
-   "slug": "chelmsford-city-1745",
-   "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T17:45:00Z",
-   "runner": "Anna Belardo",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 31.5
-   },
-   "latest": {
-    "mins_to_off": 120,
-    "mid": 28.69,
-    "spread_pct": 21.2
-   },
-   "move_pct": -8.9,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 32,
    "notable": false
   },
   {
@@ -2686,7 +3390,7 @@
     "mid": 8.29
    },
    "latest": {
-    "mins_to_off": 45,
+    "mins_to_off": 0,
     "mid": 9.49,
     "spread_pct": 6.4
    },
@@ -2699,45 +3403,23 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1630",
+   "slug": "wolverhampton-1800",
    "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T16:30:00Z",
-   "runner": "Under The Sun",
+   "off_utc": "2026-11-02T18:00:00Z",
+   "runner": "Mollisha",
    "first": {
     "mins_to_off": 360,
-    "mid": 6.5
+    "mid": 14.48
    },
    "latest": {
-    "mins_to_off": 45,
-    "mid": 7.1,
-    "spread_pct": 2.8
+    "mins_to_off": 0,
+    "mid": 17.26,
+    "spread_pct": 2.9
    },
-   "move_pct": 9.2,
+   "move_pct": 19.2,
    "band": [
-    5,
-    8
-   ],
-   "percentile": 67,
-   "notable": false
-  },
-  {
-   "slug": "chelmsford-city-1715",
-   "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T17:15:00Z",
-   "runner": "Charging Thunder",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 4.65
-   },
-   "latest": {
-    "mins_to_off": 90,
-    "mid": 5.05,
-    "spread_pct": 2.0
-   },
-   "move_pct": 8.7,
-   "band": [
-    3,
-    5
+    13,
+    20
    ],
    "percentile": 67,
    "notable": false
@@ -2746,20 +3428,42 @@
    "slug": "chelmsford-city-1845",
    "venue": "Chelmsford City",
    "off_utc": "2026-11-02T18:45:00Z",
-   "runner": "Lady's Grace",
+   "runner": "Mo Rocko",
    "first": {
     "mins_to_off": 360,
-    "mid": 3.77
+    "mid": 88.5
    },
    "latest": {
-    "mins_to_off": 180,
-    "mid": 4.1,
-    "spread_pct": 4.9
+    "mins_to_off": 0,
+    "mid": 71.68,
+    "spread_pct": 21.0
    },
-   "move_pct": 8.6,
+   "move_pct": -19.0,
    "band": [
-    3,
-    5
+    35,
+    100
+   ],
+   "percentile": 33,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-2000",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T20:00:00Z",
+   "runner": "Token Love",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 10.7
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 12.25,
+    "spread_pct": 4.0
+   },
+   "move_pct": 14.5,
+   "band": [
+    8,
+    13
    ],
    "percentile": 67,
    "notable": false
@@ -2809,47 +3513,91 @@
    "notable": false
   },
   {
-   "slug": "chelmsford-city-1645",
-   "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T16:45:00Z",
-   "runner": "Elvetham",
+   "slug": "plumpton-1600",
+   "venue": "Plumpton",
+   "off_utc": "2026-11-02T16:00:00Z",
+   "runner": "Coastal Command",
    "first": {
     "mins_to_off": 360,
-    "mid": 7.38
+    "mid": 9.16
    },
    "latest": {
-    "mins_to_off": 60,
-    "mid": 7.99,
-    "spread_pct": 5.0
+    "mins_to_off": 0,
+    "mid": 10.48,
+    "spread_pct": 9.6
    },
-   "move_pct": 8.4,
+   "move_pct": 14.4,
    "band": [
-    5,
-    8
+    8,
+    13
    ],
    "percentile": 66,
    "notable": false
   },
   {
-   "slug": "wolverhampton-1700",
+   "slug": "wolverhampton-1630",
    "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T17:00:00Z",
-   "runner": "Warm Spell",
+   "off_utc": "2026-11-02T16:30:00Z",
+   "runner": "Study Up",
    "first": {
     "mins_to_off": 360,
-    "mid": 31.6
+    "mid": 18.94
    },
    "latest": {
-    "mins_to_off": 75,
-    "mid": 29.33,
-    "spread_pct": 17.1
+    "mins_to_off": 0,
+    "mid": 22.4,
+    "spread_pct": 13.3
    },
-   "move_pct": -7.2,
+   "move_pct": 18.3,
    "band": [
-    20,
-    35
+    13,
+    20
    ],
-   "percentile": 34,
+   "percentile": 66,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1830",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T18:30:00Z",
+   "runner": "Journalism",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 85.84
+   },
+   "latest": {
+    "mins_to_off": 60,
+    "mid": 95.69,
+    "spread_pct": 26.3
+   },
+   "move_pct": 11.5,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 66,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1830",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T18:30:00Z",
+   "runner": "Medaali",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 7.18
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 7.79,
+    "spread_pct": 5.1
+   },
+   "move_pct": 8.6,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 66,
    "notable": false
   },
   {
@@ -2862,7 +3610,7 @@
     "mid": 4.0
    },
    "latest": {
-    "mins_to_off": 210,
+    "mins_to_off": 0,
     "mid": 3.75,
     "spread_pct": 2.7
    },
@@ -2870,6 +3618,28 @@
    "band": [
     3,
     5
+   ],
+   "percentile": 34,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-2000",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T20:00:00Z",
+   "runner": "It's Life",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 29.46
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 27.4,
+    "spread_pct": 11.0
+   },
+   "move_pct": -7.0,
+   "band": [
+    20,
+    35
    ],
    "percentile": 34,
    "notable": false
@@ -2897,47 +3667,69 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1730",
+   "slug": "wolverhampton-1800",
    "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T17:30:00Z",
-   "runner": "Sergeant Pep",
+   "off_utc": "2026-11-02T18:00:00Z",
+   "runner": "Penny Capri",
    "first": {
     "mins_to_off": 360,
-    "mid": 5.99
+    "mid": 35.03
    },
    "latest": {
-    "mins_to_off": 105,
-    "mid": 5.55,
-    "spread_pct": 1.8
+    "mins_to_off": 0,
+    "mid": 38.76,
+    "spread_pct": 15.6
    },
-   "move_pct": -7.4,
+   "move_pct": 10.7,
    "band": [
-    5,
-    8
+    35,
+    100
    ],
-   "percentile": 35,
+   "percentile": 65,
    "notable": false
   },
   {
-   "slug": "chelmsford-city-1915",
-   "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T19:15:00Z",
-   "runner": "Queen Tamara",
+   "slug": "wolverhampton-1930",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T19:30:00Z",
+   "runner": "Labiche",
    "first": {
     "mins_to_off": 360,
-    "mid": 7.39
+    "mid": 10.37
    },
    "latest": {
-    "mins_to_off": 210,
-    "mid": 7.99,
-    "spread_pct": 5.0
+    "mins_to_off": 0,
+    "mid": 11.74,
+    "spread_pct": 4.3
    },
-   "move_pct": 8.1,
+   "move_pct": 13.3,
    "band": [
-    5,
-    8
+    8,
+    13
    ],
    "percentile": 65,
+   "notable": false
+  },
+  {
+   "slug": "chelmsford-city-1945",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T19:45:00Z",
+   "runner": "Shaw Park",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 12.2
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 11.24,
+    "spread_pct": 4.4
+   },
+   "move_pct": -7.9,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 35,
    "notable": false
   },
   {
@@ -2982,226 +3774,6 @@
     13
    ],
    "percentile": 36,
-   "notable": false
-  },
-  {
-   "slug": "chelmsford-city-1715",
-   "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T17:15:00Z",
-   "runner": "Gemmari",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 3.17
-   },
-   "latest": {
-    "mins_to_off": 90,
-    "mid": 2.99,
-    "spread_pct": 3.7
-   },
-   "move_pct": -5.6,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 36,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1800",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T18:00:00Z",
-   "runner": "Havana Grey Star",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 12.2
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 13.71,
-    "spread_pct": 10.9
-   },
-   "move_pct": 12.3,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 64,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1830",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T18:30:00Z",
-   "runner": "Watch The King",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 62.7
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 68.49,
-    "spread_pct": 29.4
-   },
-   "move_pct": 9.2,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 64,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1900",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T19:00:00Z",
-   "runner": "Choir Boy",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 24.01
-   },
-   "latest": {
-    "mins_to_off": 195,
-    "mid": 28.69,
-    "spread_pct": 21.2
-   },
-   "move_pct": 19.5,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 64,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1900",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T19:00:00Z",
-   "runner": "That Darn Cantor",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 3.92
-   },
-   "latest": {
-    "mins_to_off": 195,
-    "mid": 3.7,
-    "spread_pct": 2.7
-   },
-   "move_pct": -5.8,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 36,
-   "notable": false
-  },
-  {
-   "slug": "chelmsford-city-1915",
-   "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T19:15:00Z",
-   "runner": "Moostar",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 15.65
-   },
-   "latest": {
-    "mins_to_off": 210,
-    "mid": 18.17,
-    "spread_pct": 13.7
-   },
-   "move_pct": 16.1,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 64,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-2000",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T20:00:00Z",
-   "runner": "Clarissa Eclipse",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 67.34
-   },
-   "latest": {
-    "mins_to_off": 255,
-    "mid": 73.53,
-    "spread_pct": 26.9
-   },
-   "move_pct": 9.2,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 64,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-2000",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T20:00:00Z",
-   "runner": "Tiger Beetle",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 21.91
-   },
-   "latest": {
-    "mins_to_off": 255,
-    "mid": 26.25,
-    "spread_pct": 19.1
-   },
-   "move_pct": 19.8,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 64,
-   "notable": false
-  },
-  {
-   "slug": "chelmsford-city-2015",
-   "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T20:15:00Z",
-   "runner": "Maestro Del Mar",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 4.5
-   },
-   "latest": {
-    "mins_to_off": 270,
-    "mid": 4.25,
-    "spread_pct": 2.3
-   },
-   "move_pct": -5.5,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 36,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-2030",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T20:30:00Z",
-   "runner": "Daytona Lady",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 5.3
-   },
-   "latest": {
-    "mins_to_off": 285,
-    "mid": 5.69,
-    "spread_pct": 7.0
-   },
-   "move_pct": 7.5,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 64,
    "notable": false
   },
   {
@@ -3293,179 +3865,135 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1730",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T17:30:00Z",
-   "runner": "King Of Chaos",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 31.6
-   },
-   "latest": {
-    "mins_to_off": 105,
-    "mid": 30.12,
-    "spread_pct": 23.2
-   },
-   "move_pct": -4.7,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 37,
-   "notable": false
-  },
-  {
    "slug": "chelmsford-city-1815",
    "venue": "Chelmsford City",
    "off_utc": "2026-11-02T18:15:00Z",
-   "runner": "Knock Three Times",
+   "runner": "Last Dandelion",
    "first": {
     "mins_to_off": 360,
-    "mid": 26.04
+    "mid": 15.65
    },
    "latest": {
-    "mins_to_off": 150,
-    "mid": 24.84,
-    "spread_pct": 16.3
+    "mins_to_off": 0,
+    "mid": 14.74,
+    "spread_pct": 3.4
    },
-   "move_pct": -4.6,
+   "move_pct": -5.8,
    "band": [
-    20,
-    35
+    13,
+    20
    ],
    "percentile": 37,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1930",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T19:30:00Z",
-   "runner": "Sovereign Bay",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 3.5
-   },
-   "latest": {
-    "mins_to_off": 225,
-    "mid": 3.72,
-    "spread_pct": 4.0
-   },
-   "move_pct": 6.4,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 63,
-   "notable": false
-  },
-  {
-   "slug": "plumpton-1600",
-   "venue": "Plumpton",
-   "off_utc": "2026-11-02T16:00:00Z",
-   "runner": "Everyonesgame",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 23.64
-   },
-   "latest": {
-    "mins_to_off": 15,
-    "mid": 22.83,
-    "spread_pct": 17.5
-   },
-   "move_pct": -3.4,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 38,
-   "notable": false
-  },
-  {
-   "slug": "chelmsford-city-1745",
-   "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T17:45:00Z",
-   "runner": "Reece's Call",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 12.2
-   },
-   "latest": {
-    "mins_to_off": 120,
-    "mid": 13.42,
-    "spread_pct": 14.8
-   },
-   "move_pct": 10.0,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 62,
-   "notable": false
-  },
-  {
-   "slug": "chelmsford-city-1815",
-   "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T18:15:00Z",
-   "runner": "Desert Legend",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 8.58
-   },
-   "latest": {
-    "mins_to_off": 150,
-    "mid": 9.49,
-    "spread_pct": 6.4
-   },
-   "move_pct": 10.6,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 62,
    "notable": false
   },
   {
    "slug": "wolverhampton-1830",
    "venue": "Wolverhampton",
    "off_utc": "2026-11-02T18:30:00Z",
-   "runner": "Raider",
+   "runner": "Watch The King",
    "first": {
     "mins_to_off": 360,
-    "mid": 24.01
+    "mid": 62.7
    },
    "latest": {
-    "mins_to_off": 165,
-    "mid": 28.09,
-    "spread_pct": 25.1
+    "mins_to_off": 0,
+    "mid": 53.33,
+    "spread_pct": 22.1
    },
-   "move_pct": 17.0,
+   "move_pct": -14.9,
+   "band": [
+    35,
+    100
+   ],
+   "percentile": 37,
+   "notable": false
+  },
+  {
+   "slug": "chelmsford-city-1845",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T18:45:00Z",
+   "runner": "Wedyan",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 1.95
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 2.03,
+    "spread_pct": 1.0
+   },
+   "move_pct": 4.1,
+   "band": [
+    1.5,
+    3
+   ],
+   "percentile": 63,
+   "notable": false
+  },
+  {
+   "slug": "chelmsford-city-1945",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T19:45:00Z",
+   "runner": "Enpassant",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 26.04
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 24.94,
+    "spread_pct": 8.0
+   },
+   "move_pct": -4.2,
    "band": [
     20,
     35
+   ],
+   "percentile": 37,
+   "notable": false
+  },
+  {
+   "slug": "chelmsford-city-1745",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T17:45:00Z",
+   "runner": "Hell Of An Angel",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 19.21
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 21.95,
+    "spread_pct": 9.0
+   },
+   "move_pct": 14.3,
+   "band": [
+    13,
+    20
    ],
    "percentile": 62,
    "notable": false
   },
   {
-   "slug": "chelmsford-city-2015",
+   "slug": "chelmsford-city-1915",
    "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T20:15:00Z",
-   "runner": "Magician of Riga",
+   "off_utc": "2026-11-02T19:15:00Z",
+   "runner": "Ice Sovereigns",
    "first": {
     "mins_to_off": 360,
-    "mid": 4.84
+    "mid": 14.2
    },
    "latest": {
-    "mins_to_off": 270,
-    "mid": 5.15,
-    "spread_pct": 5.8
+    "mins_to_off": 0,
+    "mid": 13.49,
+    "spread_pct": 7.4
    },
-   "move_pct": 6.2,
+   "move_pct": -5.1,
    "band": [
-    3,
-    5
+    13,
+    20
    ],
-   "percentile": 62,
+   "percentile": 38,
    "notable": false
   },
   {
@@ -3513,47 +4041,113 @@
    "notable": false
   },
   {
-   "slug": "chelmsford-city-1815",
+   "slug": "chelmsford-city-1645",
    "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T18:15:00Z",
-   "runner": "Frumoasa",
+   "off_utc": "2026-11-02T16:45:00Z",
+   "runner": "London Is Blue",
    "first": {
     "mins_to_off": 360,
-    "mid": 65.57
+    "mid": 15.05
    },
    "latest": {
-    "mins_to_off": 150,
-    "mid": 56.5,
-    "spread_pct": 26.4
+    "mins_to_off": 0,
+    "mid": 14.48,
+    "spread_pct": 6.8
    },
-   "move_pct": -13.8,
+   "move_pct": -3.8,
    "band": [
-    35,
-    100
+    13,
+    20
    ],
    "percentile": 39,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1900",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T19:00:00Z",
+   "runner": "Choir Boy",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 24.01
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 23.39,
+    "spread_pct": 12.9
+   },
+   "move_pct": -2.6,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 39,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-2000",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T20:00:00Z",
+   "runner": "Mohaab",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 16.16
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 18.23,
+    "spread_pct": 8.2
+   },
+   "move_pct": 12.9,
+   "band": [
+    13,
+    20
+   ],
+   "percentile": 61,
    "notable": false
   },
   {
    "slug": "wolverhampton-2030",
    "venue": "Wolverhampton",
    "off_utc": "2026-11-02T20:30:00Z",
-   "runner": "Geemann",
+   "runner": "My Mate Kev",
    "first": {
     "mins_to_off": 360,
-    "mid": 20.81
+    "mid": 4.5
    },
    "latest": {
-    "mins_to_off": 285,
-    "mid": 20.18,
-    "spread_pct": 24.8
+    "mins_to_off": 0,
+    "mid": 4.75,
+    "spread_pct": 2.1
    },
-   "move_pct": -3.0,
+   "move_pct": 5.6,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 61,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-2030",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T20:30:00Z",
+   "runner": "Sarafina Mshairi",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 20.94
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 24.39,
+    "spread_pct": 12.2
+   },
+   "move_pct": 16.5,
    "band": [
     20,
     35
    ],
-   "percentile": 39,
+   "percentile": 61,
    "notable": false
   },
   {
@@ -3645,25 +4239,69 @@
    "notable": false
   },
   {
-   "slug": "chelmsford-city-1715",
-   "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T17:15:00Z",
-   "runner": "Lady Ridgewood",
+   "slug": "wolverhampton-1730",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T17:30:00Z",
+   "runner": "Peter The Wolf",
    "first": {
     "mins_to_off": 360,
-    "mid": 5.25
+    "mid": 4.59
    },
    "latest": {
-    "mins_to_off": 90,
-    "mid": 5.5,
-    "spread_pct": 3.6
+    "mins_to_off": 0,
+    "mid": 4.83,
+    "spread_pct": 14.5
    },
-   "move_pct": 4.8,
+   "move_pct": 5.1,
    "band": [
-    5,
-    8
+    3,
+    5
    ],
    "percentile": 60,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1800",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T18:00:00Z",
+   "runner": "Agent Rose",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 24.39
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 23.95,
+    "spread_pct": 8.4
+   },
+   "move_pct": -1.8,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 40,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1900",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T19:00:00Z",
+   "runner": "Ottoman",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 9.69
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 9.3,
+    "spread_pct": 2.1
+   },
+   "move_pct": -4.1,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 40,
    "notable": false
   },
   {
@@ -3676,11 +4314,11 @@
     "mid": 24.24
    },
    "latest": {
-    "mins_to_off": 210,
-    "mid": 23.81,
-    "spread_pct": 16.8
+    "mins_to_off": 0,
+    "mid": 23.95,
+    "spread_pct": 8.4
    },
-   "move_pct": -1.8,
+   "move_pct": -1.2,
    "band": [
     20,
     35
@@ -3689,67 +4327,23 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1930",
+   "slug": "wolverhampton-2000",
    "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T19:30:00Z",
-   "runner": "Labiche",
+   "off_utc": "2026-11-02T20:00:00Z",
+   "runner": "New Objective",
    "first": {
     "mins_to_off": 360,
-    "mid": 10.37
+    "mid": 5.2
    },
    "latest": {
-    "mins_to_off": 225,
-    "mid": 9.92,
-    "spread_pct": 11.1
-   },
-   "move_pct": -4.3,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 40,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1930",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T19:30:00Z",
-   "runner": "Rajendra",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 5.3
-   },
-   "latest": {
-    "mins_to_off": 225,
-    "mid": 5.05,
-    "spread_pct": 6.0
-   },
-   "move_pct": -4.8,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 40,
-   "notable": false
-  },
-  {
-   "slug": "chelmsford-city-1945",
-   "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T19:45:00Z",
-   "runner": "Candy Warhol",
-   "first": {
-    "mins_to_off": 300,
-    "mid": 84.39
-   },
-   "latest": {
-    "mins_to_off": 240,
-    "mid": 88.5,
-    "spread_pct": 57.1
+    "mins_to_off": 0,
+    "mid": 5.45,
+    "spread_pct": 1.9
    },
    "move_pct": 4.9,
    "band": [
-    35,
-    100
+    5,
+    8
    ],
    "percentile": 60,
    "notable": false
@@ -3758,20 +4352,20 @@
    "slug": "wolverhampton-2030",
    "venue": "Wolverhampton",
    "off_utc": "2026-11-02T20:30:00Z",
-   "runner": "The Feminine Urge",
+   "runner": "Cool Doc Boy",
    "first": {
     "mins_to_off": 360,
-    "mid": 21.39
+    "mid": 10.7
    },
    "latest": {
-    "mins_to_off": 285,
-    "mid": 20.94,
-    "spread_pct": 9.4
+    "mins_to_off": 0,
+    "mid": 10.25,
+    "spread_pct": 4.9
    },
-   "move_pct": -2.1,
+   "move_pct": -4.2,
    "band": [
-    20,
-    35
+    8,
+    13
    ],
    "percentile": 40,
    "notable": false
@@ -3821,89 +4415,111 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1800",
+   "slug": "wolverhampton-1630",
    "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T18:00:00Z",
-   "runner": "Ricky's Rocket",
+   "off_utc": "2026-11-02T16:30:00Z",
+   "runner": "Tortured Soul",
    "first": {
     "mins_to_off": 360,
-    "mid": 17.67
+    "mid": 32.89
    },
    "latest": {
-    "mins_to_off": 135,
-    "mid": 19.67,
-    "spread_pct": 12.8
+    "mins_to_off": 0,
+    "mid": 37.81,
+    "spread_pct": 37.1
    },
-   "move_pct": 11.3,
+   "move_pct": 14.9,
    "band": [
-    13,
-    20
+    20,
+    35
    ],
    "percentile": 59,
    "notable": false
   },
   {
-   "slug": "wolverhampton-1930",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T19:30:00Z",
-   "runner": "Shes Got The Blues",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 5.79
-   },
-   "latest": {
-    "mins_to_off": 225,
-    "mid": 6.05,
-    "spread_pct": 5.0
-   },
-   "move_pct": 4.4,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 59,
-   "notable": false
-  },
-  {
-   "slug": "chelmsford-city-1945",
+   "slug": "chelmsford-city-1715",
    "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T19:45:00Z",
-   "runner": "Shaw Park",
+   "off_utc": "2026-11-02T17:15:00Z",
+   "runner": "Big Bear Hug",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 22.22
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 25.41,
+    "spread_pct": 12.0
+   },
+   "move_pct": 14.4,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 59,
+   "notable": false
+  },
+  {
+   "slug": "chelmsford-city-1745",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T17:45:00Z",
+   "runner": "Reece's Call",
    "first": {
     "mins_to_off": 360,
     "mid": 12.2
    },
    "latest": {
-    "mins_to_off": 240,
-    "mid": 13.21,
-    "spread_pct": 11.4
+    "mins_to_off": 0,
+    "mid": 11.74,
+    "spread_pct": 4.3
    },
-   "move_pct": 8.3,
+   "move_pct": -3.8,
    "band": [
     8,
     13
    ],
-   "percentile": 59,
+   "percentile": 41,
+   "notable": false
+  },
+  {
+   "slug": "chelmsford-city-2015",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T20:15:00Z",
+   "runner": "Kokoluna",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 10.14
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 9.79,
+    "spread_pct": 4.1
+   },
+   "move_pct": -3.4,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 41,
    "notable": false
   },
   {
    "slug": "wolverhampton-2030",
    "venue": "Wolverhampton",
    "off_utc": "2026-11-02T20:30:00Z",
-   "runner": "My Boy Jack",
+   "runner": "Macarone",
    "first": {
     "mins_to_off": 360,
-    "mid": 35.71
+    "mid": 4.3
    },
    "latest": {
-    "mins_to_off": 285,
-    "mid": 31.6,
-    "spread_pct": 34.8
+    "mins_to_off": 0,
+    "mid": 4.15,
+    "spread_pct": 2.4
    },
-   "move_pct": -11.5,
+   "move_pct": -3.4,
    "band": [
-    35,
-    100
+    3,
+    5
    ],
    "percentile": 41,
    "notable": false
@@ -3975,64 +4591,108 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1730",
+   "slug": "wolverhampton-1630",
    "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T17:30:00Z",
-   "runner": "Chalk Mountain",
+   "off_utc": "2026-11-02T16:30:00Z",
+   "runner": "Crimson Road",
    "first": {
     "mins_to_off": 360,
-    "mid": 5.85
+    "mid": 13.93
    },
    "latest": {
-    "mins_to_off": 105,
-    "mid": 6.1,
-    "spread_pct": 3.3
+    "mins_to_off": 0,
+    "mid": 13.71,
+    "spread_pct": 10.9
    },
-   "move_pct": 4.3,
+   "move_pct": -1.6,
    "band": [
-    5,
-    8
+    13,
+    20
    ],
-   "percentile": 58,
+   "percentile": 42,
    "notable": false
   },
   {
-   "slug": "wolverhampton-1830",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T18:30:00Z",
-   "runner": "Journalism",
+   "slug": "chelmsford-city-1645",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T16:45:00Z",
+   "runner": "The Fixer",
    "first": {
     "mins_to_off": 360,
-    "mid": 85.84
+    "mid": 9.92
    },
    "latest": {
-    "mins_to_off": 165,
-    "mid": 88.89,
-    "spread_pct": 22.5
+    "mins_to_off": 0,
+    "mid": 9.6,
+    "spread_pct": 4.2
    },
-   "move_pct": 3.6,
+   "move_pct": -3.3,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 42,
+   "notable": false
+  },
+  {
+   "slug": "chelmsford-city-1815",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T18:15:00Z",
+   "runner": "Enamored",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 43.48
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 38.76,
+    "spread_pct": 15.6
+   },
+   "move_pct": -10.9,
    "band": [
     35,
     100
    ],
-   "percentile": 58,
+   "percentile": 42,
    "notable": false
   },
   {
    "slug": "wolverhampton-1900",
    "venue": "Wolverhampton",
    "off_utc": "2026-11-02T19:00:00Z",
-   "runner": "Percy Jones",
+   "runner": "Captain Cairney",
    "first": {
     "mins_to_off": 360,
-    "mid": 5.94
+    "mid": 4.95
    },
    "latest": {
-    "mins_to_off": 195,
-    "mid": 6.19,
-    "spread_pct": 6.5
+    "mins_to_off": 0,
+    "mid": 4.8,
+    "spread_pct": 4.2
    },
-   "move_pct": 4.3,
+   "move_pct": -3.0,
+   "band": [
+    3,
+    5
+   ],
+   "percentile": 42,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-1900",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T19:00:00Z",
+   "runner": "Fiefdom",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 7.58
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 7.9,
+    "spread_pct": 2.5
+   },
+   "move_pct": 4.2,
    "band": [
     5,
     8
@@ -4041,47 +4701,25 @@
    "notable": false
   },
   {
-   "slug": "chelmsford-city-1915",
-   "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T19:15:00Z",
-   "runner": "Inside Story",
+   "slug": "wolverhampton-2000",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T20:00:00Z",
+   "runner": "Imola",
    "first": {
     "mins_to_off": 360,
-    "mid": 3.7
+    "mid": 28.13
    },
    "latest": {
-    "mins_to_off": 210,
-    "mid": 3.85,
-    "spread_pct": 2.6
+    "mins_to_off": 0,
+    "mid": 31.9,
+    "spread_pct": 12.5
    },
-   "move_pct": 4.1,
+   "move_pct": 13.4,
    "band": [
-    3,
-    5
+    20,
+    35
    ],
    "percentile": 58,
-   "notable": false
-  },
-  {
-   "slug": "chelmsford-city-2015",
-   "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T20:15:00Z",
-   "runner": "Hamdania",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 13.49
-   },
-   "latest": {
-    "mins_to_off": 270,
-    "mid": 13.24,
-    "spread_pct": 3.7
-   },
-   "move_pct": -1.8,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 42,
    "notable": false
   },
   {
@@ -4094,11 +4732,11 @@
     "mid": 39.14
    },
    "latest": {
-    "mins_to_off": 270,
-    "mid": 40.4,
-    "spread_pct": 25.0
+    "mins_to_off": 0,
+    "mid": 40.82,
+    "spread_pct": 14.8
    },
-   "move_pct": 3.2,
+   "move_pct": 4.3,
    "band": [
     35,
     100
@@ -4110,20 +4748,20 @@
    "slug": "wolverhampton-2030",
    "venue": "Wolverhampton",
    "off_utc": "2026-11-02T20:30:00Z",
-   "runner": "Sarafina Mshairi",
+   "runner": "Yaahobby",
    "first": {
     "mins_to_off": 360,
-    "mid": 20.94
+    "mid": 19.67
    },
    "latest": {
-    "mins_to_off": 285,
-    "mid": 20.94,
-    "spread_pct": 9.4
+    "mins_to_off": 0,
+    "mid": 19.21,
+    "spread_pct": 7.9
    },
-   "move_pct": 0.0,
+   "move_pct": -2.3,
    "band": [
-    20,
-    35
+    13,
+    20
    ],
    "percentile": 42,
    "notable": false
@@ -4173,89 +4811,89 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1630",
+   "slug": "wolverhampton-1700",
    "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T16:30:00Z",
-   "runner": "Lunella",
+   "off_utc": "2026-11-02T17:00:00Z",
+   "runner": "Enricher",
    "first": {
     "mins_to_off": 360,
-    "mid": 30.86
+    "mid": 12.98
    },
    "latest": {
-    "mins_to_off": 45,
-    "mid": 34.78,
-    "spread_pct": 17.2
+    "mins_to_off": 0,
+    "mid": 12.71,
+    "spread_pct": 11.7
    },
-   "move_pct": 12.7,
+   "move_pct": -2.1,
    "band": [
-    20,
-    35
+    8,
+    13
    ],
-   "percentile": 57,
+   "percentile": 43,
    "notable": false
   },
   {
-   "slug": "wolverhampton-1800",
+   "slug": "wolverhampton-1700",
    "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T18:00:00Z",
-   "runner": "Agent Rose",
+   "off_utc": "2026-11-02T17:00:00Z",
+   "runner": "Montezin",
    "first": {
     "mins_to_off": 360,
-    "mid": 24.39
+    "mid": 3.95
    },
    "latest": {
-    "mins_to_off": 135,
-    "mid": 27.4,
-    "spread_pct": 11.0
+    "mins_to_off": 0,
+    "mid": 4.1,
+    "spread_pct": 4.9
    },
-   "move_pct": 12.3,
+   "move_pct": 3.7,
    "band": [
-    20,
-    35
+    3,
+    5
    ],
    "percentile": 57,
    "notable": false
   },
   {
-   "slug": "chelmsford-city-1845",
+   "slug": "chelmsford-city-1915",
    "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T18:45:00Z",
-   "runner": "Wedyan",
+   "off_utc": "2026-11-02T19:15:00Z",
+   "runner": "Bella Bisbee",
    "first": {
     "mins_to_off": 360,
-    "mid": 1.95
+    "mid": 22.22
    },
    "latest": {
-    "mins_to_off": 180,
-    "mid": 1.98,
-    "spread_pct": 1.5
-   },
-   "move_pct": 1.8,
-   "band": [
-    1.5,
-    3
-   ],
-   "percentile": 57,
-   "notable": false
-  },
-  {
-   "slug": "chelmsford-city-1945",
-   "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T19:45:00Z",
-   "runner": "Enpassant",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 26.04
-   },
-   "latest": {
-    "mins_to_off": 240,
-    "mid": 26.25,
-    "spread_pct": 19.1
+    "mins_to_off": 0,
+    "mid": 22.4,
+    "spread_pct": 13.3
    },
    "move_pct": 0.8,
    "band": [
     20,
     35
+   ],
+   "percentile": 43,
+   "notable": false
+  },
+  {
+   "slug": "wolverhampton-2030",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T20:30:00Z",
+   "runner": "My Boy Jack",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 35.71
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 31.9,
+    "spread_pct": 12.5
+   },
+   "move_pct": -10.7,
+   "band": [
+    35,
+    100
    ],
    "percentile": 43,
    "notable": false
@@ -4283,25 +4921,25 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1630",
+   "slug": "wolverhampton-1700",
    "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T16:30:00Z",
-   "runner": "Study Up",
+   "off_utc": "2026-11-02T17:00:00Z",
+   "runner": "Warm Spell",
    "first": {
     "mins_to_off": 360,
-    "mid": 18.94
+    "mid": 31.6
    },
    "latest": {
-    "mins_to_off": 45,
-    "mid": 20.66,
-    "spread_pct": 12.0
+    "mins_to_off": 0,
+    "mid": 32.1,
+    "spread_pct": 21.8
    },
-   "move_pct": 9.1,
+   "move_pct": 1.6,
    "band": [
-    13,
-    20
+    20,
+    35
    ],
-   "percentile": 56,
+   "percentile": 44,
    "notable": false
   },
   {
@@ -4314,324 +4952,38 @@
     "mid": 19.38
    },
    "latest": {
-    "mins_to_off": 60,
-    "mid": 19.21,
-    "spread_pct": 7.9
+    "mins_to_off": 0,
+    "mid": 20.94,
+    "spread_pct": 9.4
    },
-   "move_pct": -0.9,
+   "move_pct": 8.1,
    "band": [
     13,
     20
    ],
-   "percentile": 44,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1800",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T18:00:00Z",
-   "runner": "Fancied Angel",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 8.29
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 8.8,
-    "spread_pct": 4.6
-   },
-   "move_pct": 6.1,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 56,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1900",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T19:00:00Z",
-   "runner": "Captain Cairney",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 4.95
-   },
-   "latest": {
-    "mins_to_off": 195,
-    "mid": 5.1,
-    "spread_pct": 3.9
-   },
-   "move_pct": 3.1,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 56,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1900",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T19:00:00Z",
-   "runner": "Ottoman",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 9.69
-   },
-   "latest": {
-    "mins_to_off": 195,
-    "mid": 9.58,
-    "spread_pct": 8.4
-   },
-   "move_pct": -1.2,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 44,
-   "notable": false
-  },
-  {
-   "slug": "chelmsford-city-1945",
-   "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T19:45:00Z",
-   "runner": "Chloe's Courage",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 37.11
-   },
-   "latest": {
-    "mins_to_off": 240,
-    "mid": 33.56,
-    "spread_pct": 23.8
-   },
-   "move_pct": -9.6,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 44,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-2000",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T20:00:00Z",
-   "runner": "It's Life",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 29.46
-   },
-   "latest": {
-    "mins_to_off": 255,
-    "mid": 32.89,
-    "spread_pct": 27.5
-   },
-   "move_pct": 11.7,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 56,
-   "notable": false
-  },
-  {
-   "slug": "chelmsford-city-1715",
-   "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T17:15:00Z",
-   "runner": "Mother Dear",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 5.59
-   },
-   "latest": {
-    "mins_to_off": 90,
-    "mid": 5.45,
-    "spread_pct": 5.5
-   },
-   "move_pct": -2.6,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 45,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1800",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T18:00:00Z",
-   "runner": "Mollisha",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 14.48
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 14.48,
-    "spread_pct": 6.8
-   },
-   "move_pct": 0.0,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 45,
+   "percentile": 55,
    "notable": false
   },
   {
    "slug": "chelmsford-city-1845",
    "venue": "Chelmsford City",
    "off_utc": "2026-11-02T18:45:00Z",
-   "runner": "Honeymoon Bear",
+   "runner": "Alidoolally",
    "first": {
     "mins_to_off": 360,
-    "mid": 32.1
+    "mid": 94.79
    },
    "latest": {
-    "mins_to_off": 180,
-    "mid": 35.59,
-    "spread_pct": 22.3
+    "mins_to_off": 30,
+    "mid": 95.69,
+    "spread_pct": 26.3
    },
-   "move_pct": 10.9,
+   "move_pct": 1.0,
    "band": [
-    20,
-    35
+    35,
+    100
    ],
    "percentile": 55,
-   "notable": false
-  },
-  {
-   "slug": "chelmsford-city-1945",
-   "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T19:45:00Z",
-   "runner": "Fresh Fade",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 18.48
-   },
-   "latest": {
-    "mins_to_off": 240,
-    "mid": 18.48,
-    "spread_pct": 5.5
-   },
-   "move_pct": 0.0,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 45,
-   "notable": false
-  },
-  {
-   "slug": "chelmsford-city-1945",
-   "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T19:45:00Z",
-   "runner": "Shades Of May",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 14.43
-   },
-   "latest": {
-    "mins_to_off": 240,
-    "mid": 14.43,
-    "spread_pct": 13.9
-   },
-   "move_pct": 0.0,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 45,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-2000",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T20:00:00Z",
-   "runner": "Deep Sleep",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 6.1
-   },
-   "latest": {
-    "mins_to_off": 255,
-    "mid": 5.94,
-    "spread_pct": 8.4
-   },
-   "move_pct": -2.6,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 45,
-   "notable": false
-  },
-  {
-   "slug": "chelmsford-city-2015",
-   "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T20:15:00Z",
-   "runner": "Kokoluna",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 10.14
-   },
-   "latest": {
-    "mins_to_off": 270,
-    "mid": 10.7,
-    "spread_pct": 14.0
-   },
-   "move_pct": 5.5,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 55,
-   "notable": false
-  },
-  {
-   "slug": "chelmsford-city-2015",
-   "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T20:15:00Z",
-   "runner": "Renesmee",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 20.49
-   },
-   "latest": {
-    "mins_to_off": 270,
-    "mid": 22.6,
-    "spread_pct": 26.4
-   },
-   "move_pct": 10.3,
-   "band": [
-    20,
-    35
-   ],
-   "percentile": 55,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-2030",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T20:30:00Z",
-   "runner": "Megaphone",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 19.74
-   },
-   "latest": {
-    "mins_to_off": 285,
-    "mid": 19.74,
-    "spread_pct": 2.6
-   },
-   "move_pct": 0.0,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 45,
    "notable": false
   },
   {
@@ -4679,18 +5031,18 @@
    "notable": false
   },
   {
-   "slug": "chelmsford-city-1645",
-   "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T16:45:00Z",
-   "runner": "London Is Blue",
+   "slug": "wolverhampton-1730",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T17:30:00Z",
+   "runner": "He's A Gentleman",
    "first": {
     "mins_to_off": 360,
-    "mid": 15.05
+    "mid": 16.45
    },
    "latest": {
-    "mins_to_off": 60,
-    "mid": 15.21,
-    "spread_pct": 9.9
+    "mins_to_off": 0,
+    "mid": 16.63,
+    "spread_pct": 30.1
    },
    "move_pct": 1.1,
    "band": [
@@ -4701,64 +5053,20 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-1730",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T17:30:00Z",
-   "runner": "Follow Your Heart",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 53.33
-   },
-   "latest": {
-    "mins_to_off": 105,
-    "mid": 53.33,
-    "spread_pct": 22.1
-   },
-   "move_pct": 0.0,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 54,
-   "notable": false
-  },
-  {
-   "slug": "chelmsford-city-1745",
+   "slug": "chelmsford-city-2015",
    "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T17:45:00Z",
-   "runner": "Reichenbach Falls",
+   "off_utc": "2026-11-02T20:15:00Z",
+   "runner": "Metallo",
    "first": {
     "mins_to_off": 360,
-    "mid": 8.69
+    "mid": 3.05
    },
    "latest": {
-    "mins_to_off": 120,
-    "mid": 8.69,
-    "spread_pct": 6.9
+    "mins_to_off": 0,
+    "mid": 3.12,
+    "spread_pct": 1.6
    },
-   "move_pct": 0.0,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 46,
-   "notable": false
-  },
-  {
-   "slug": "chelmsford-city-1945",
-   "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T19:45:00Z",
-   "runner": "Intervention",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 3.22
-   },
-   "latest": {
-    "mins_to_off": 240,
-    "mid": 3.3,
-    "spread_pct": 3.0
-   },
-   "move_pct": 2.4,
+   "move_pct": 2.5,
    "band": [
     3,
     5
@@ -4767,69 +5075,25 @@
    "notable": false
   },
   {
-   "slug": "wolverhampton-2000",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T20:00:00Z",
-   "runner": "Token Love",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 10.7
-   },
-   "latest": {
-    "mins_to_off": 255,
-    "mid": 10.7,
-    "spread_pct": 14.0
-   },
-   "move_pct": 0.0,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 46,
-   "notable": false
-  },
-  {
    "slug": "wolverhampton-2030",
    "venue": "Wolverhampton",
    "off_utc": "2026-11-02T20:30:00Z",
-   "runner": "Cool Doc Boy",
+   "runner": "The Feminine Urge",
    "first": {
     "mins_to_off": 360,
-    "mid": 10.7
+    "mid": 21.39
    },
    "latest": {
-    "mins_to_off": 285,
-    "mid": 10.7,
-    "spread_pct": 14.0
+    "mins_to_off": 0,
+    "mid": 23.39,
+    "spread_pct": 12.9
    },
-   "move_pct": 0.0,
+   "move_pct": 9.4,
    "band": [
-    8,
-    13
+    20,
+    35
    ],
-   "percentile": 46,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-2030",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T20:30:00Z",
-   "runner": "My Mate Kev",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 4.5
-   },
-   "latest": {
-    "mins_to_off": 285,
-    "mid": 4.45,
-    "spread_pct": 2.3
-   },
-   "move_pct": -1.1,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 46,
+   "percentile": 54,
    "notable": false
   },
   {
@@ -4902,66 +5166,22 @@
    "slug": "wolverhampton-1730",
    "venue": "Wolverhampton",
    "off_utc": "2026-11-02T17:30:00Z",
-   "runner": "He's A Gentleman",
+   "runner": "Sergeant Pep",
    "first": {
     "mins_to_off": 360,
-    "mid": 16.45
+    "mid": 5.99
    },
    "latest": {
-    "mins_to_off": 105,
-    "mid": 16.72,
-    "spread_pct": 9.0
+    "mins_to_off": 0,
+    "mid": 6.09,
+    "spread_pct": 9.9
    },
-   "move_pct": 1.7,
+   "move_pct": 1.6,
    "band": [
-    13,
-    20
+    5,
+    8
    ],
-   "percentile": 47,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1800",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T18:00:00Z",
-   "runner": "Penny Capri",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 35.03
-   },
-   "latest": {
-    "mins_to_off": 135,
-    "mid": 32.73,
-    "spread_pct": 18.2
-   },
-   "move_pct": -6.5,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 47,
-   "notable": false
-  },
-  {
-   "slug": "chelmsford-city-1815",
-   "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T18:15:00Z",
-   "runner": "Last Dandelion",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 15.65
-   },
-   "latest": {
-    "mins_to_off": 150,
-    "mid": 15.94,
-    "spread_pct": 12.6
-   },
-   "move_pct": 1.8,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 47,
+   "percentile": 53,
    "notable": false
   },
   {
@@ -4996,7 +5216,7 @@
     "mid": 17.38
    },
    "latest": {
-    "mins_to_off": 195,
+    "mins_to_off": 0,
     "mid": 17.71,
     "spread_pct": 8.3
    },
@@ -5009,86 +5229,42 @@
    "notable": false
   },
   {
-   "slug": "chelmsford-city-1945",
-   "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T19:45:00Z",
-   "runner": "Obsidian Dream",
+   "slug": "wolverhampton-2000",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T20:00:00Z",
+   "runner": "Clarissa Eclipse",
    "first": {
     "mins_to_off": 360,
-    "mid": 58.31
+    "mid": 67.34
    },
    "latest": {
-    "mins_to_off": 240,
-    "mid": 54.5,
-    "spread_pct": 18.1
+    "mins_to_off": 0,
+    "mid": 66.67,
+    "spread_pct": 23.0
    },
-   "move_pct": -6.5,
+   "move_pct": -1.0,
    "band": [
     35,
     100
    ],
-   "percentile": 47,
+   "percentile": 53,
    "notable": false
   },
   {
-   "slug": "wolverhampton-2000",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T20:00:00Z",
-   "runner": "Mohaab",
+   "slug": "chelmsford-city-2015",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T20:15:00Z",
+   "runner": "Hamdania",
    "first": {
     "mins_to_off": 360,
-    "mid": 16.16
+    "mid": 13.49
    },
    "latest": {
-    "mins_to_off": 255,
-    "mid": 16.45,
-    "spread_pct": 12.2
+    "mins_to_off": 0,
+    "mid": 13.75,
+    "spread_pct": 3.7
    },
-   "move_pct": 1.8,
-   "band": [
-    13,
-    20
-   ],
-   "percentile": 47,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-2000",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T20:00:00Z",
-   "runner": "Snaafy",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 8.47
-   },
-   "latest": {
-    "mins_to_off": 255,
-    "mid": 8.49,
-    "spread_pct": 7.1
-   },
-   "move_pct": 0.2,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 47,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-2030",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T20:30:00Z",
-   "runner": "Yaahobby",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 19.67
-   },
-   "latest": {
-    "mins_to_off": 285,
-    "mid": 20.08,
-    "spread_pct": 17.4
-   },
-   "move_pct": 2.1,
+   "move_pct": 1.9,
    "band": [
     13,
     20
@@ -5141,126 +5317,38 @@
    "notable": false
   },
   {
-   "slug": "chelmsford-city-1745",
+   "slug": "chelmsford-city-1715",
    "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T17:45:00Z",
-   "runner": "Denver Sluice",
+   "off_utc": "2026-11-02T17:15:00Z",
+   "runner": "Gemmari",
    "first": {
     "mins_to_off": 360,
-    "mid": 29.46
+    "mid": 3.17
    },
    "latest": {
-    "mins_to_off": 120,
-    "mid": 30.72,
-    "spread_pct": 19.5
+    "mins_to_off": 0,
+    "mid": 3.17,
+    "spread_pct": 1.6
    },
-   "move_pct": 4.3,
+   "move_pct": 0.0,
    "band": [
-    20,
-    35
+    3,
+    5
    ],
    "percentile": 48,
    "notable": false
   },
   {
-   "slug": "wolverhampton-1830",
+   "slug": "wolverhampton-1800",
    "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T18:30:00Z",
-   "runner": "Medaali",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 7.18
-   },
-   "latest": {
-    "mins_to_off": 165,
-    "mid": 7.09,
-    "spread_pct": 8.5
-   },
-   "move_pct": -1.2,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 48,
-   "notable": false
-  },
-  {
-   "slug": "chelmsford-city-1845",
-   "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T18:45:00Z",
-   "runner": "Alidoolally",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 94.79
-   },
-   "latest": {
-    "mins_to_off": 180,
-    "mid": 92.59,
-    "spread_pct": 5.6
-   },
-   "move_pct": -2.3,
-   "band": [
-    35,
-    100
-   ],
-   "percentile": 52,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1900",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T19:00:00Z",
-   "runner": "Fiefdom",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 7.58
-   },
-   "latest": {
-    "mins_to_off": 195,
-    "mid": 7.49,
-    "spread_pct": 8.0
-   },
-   "move_pct": -1.2,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 48,
-   "notable": false
-  },
-  {
-   "slug": "chelmsford-city-1915",
-   "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T19:15:00Z",
-   "runner": "Handle With Care",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 7.49
-   },
-   "latest": {
-    "mins_to_off": 210,
-    "mid": 7.39,
-    "spread_pct": 5.4
-   },
-   "move_pct": -1.3,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 48,
-   "notable": false
-  },
-  {
-   "slug": "chelmsford-city-1945",
-   "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T19:45:00Z",
-   "runner": "Dark Mandate",
+   "off_utc": "2026-11-02T18:00:00Z",
+   "runner": "Fancied Angel",
    "first": {
     "mins_to_off": 360,
     "mid": 8.29
    },
    "latest": {
-    "mins_to_off": 240,
+    "mins_to_off": 0,
     "mid": 8.6,
     "spread_pct": 4.6
    },
@@ -5273,113 +5361,113 @@
    "notable": false
   },
   {
-   "slug": "chelmsford-city-1945",
+   "slug": "chelmsford-city-1815",
    "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T19:45:00Z",
-   "runner": "Shush A Minute",
+   "off_utc": "2026-11-02T18:15:00Z",
+   "runner": "Frumoasa",
    "first": {
     "mins_to_off": 360,
-    "mid": 98.04
+    "mid": 65.57
    },
    "latest": {
-    "mins_to_off": 240,
-    "mid": 96.15,
-    "spread_pct": 42.1
+    "mins_to_off": 0,
+    "mid": 61.54,
+    "spread_pct": 24.4
    },
-   "move_pct": -1.9,
+   "move_pct": -6.2,
    "band": [
     35,
     100
    ],
-   "percentile": 52,
-   "notable": false
-  },
-  {
-   "slug": "chelmsford-city-2015",
-   "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T20:15:00Z",
-   "runner": "Metallo",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 3.05
-   },
-   "latest": {
-    "mins_to_off": 270,
-    "mid": 3.05,
-    "spread_pct": 3.3
-   },
-   "move_pct": 0.0,
-   "band": [
-    3,
-    5
-   ],
    "percentile": 48,
    "notable": false
   },
   {
-   "slug": "wolverhampton-2030",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T20:30:00Z",
-   "runner": "Macarone",
+   "slug": "chelmsford-city-1815",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T18:15:00Z",
+   "runner": "Invincible Isaac",
    "first": {
     "mins_to_off": 360,
-    "mid": 4.3
+    "mid": 10.7
    },
    "latest": {
-    "mins_to_off": 285,
-    "mid": 4.3,
+    "mins_to_off": 0,
+    "mid": 10.75,
     "spread_pct": 4.6
    },
-   "move_pct": 0.0,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 48,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1700",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T17:00:00Z",
-   "runner": "Enricher",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 12.98
-   },
-   "latest": {
-    "mins_to_off": 75,
-    "mid": 13.21,
-    "spread_pct": 11.4
-   },
-   "move_pct": 1.8,
+   "move_pct": 0.5,
    "band": [
     8,
     13
    ],
-   "percentile": 49,
+   "percentile": 48,
    "notable": false
   },
   {
    "slug": "chelmsford-city-1915",
    "venue": "Chelmsford City",
    "off_utc": "2026-11-02T19:15:00Z",
-   "runner": "Bella Bisbee",
+   "runner": "Inside Story",
    "first": {
     "mins_to_off": 360,
-    "mid": 22.22
+    "mid": 3.7
    },
    "latest": {
-    "mins_to_off": 210,
-    "mid": 23.39,
-    "spread_pct": 12.9
+    "mins_to_off": 0,
+    "mid": 3.75,
+    "spread_pct": 2.7
    },
-   "move_pct": 5.3,
+   "move_pct": 1.3,
    "band": [
-    20,
-    35
+    3,
+    5
    ],
-   "percentile": 49,
+   "percentile": 52,
+   "notable": false
+  },
+  {
+   "slug": "chelmsford-city-1945",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T19:45:00Z",
+   "runner": "Dark Mandate",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 8.29
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 8.6,
+    "spread_pct": 4.6
+   },
+   "move_pct": 3.7,
+   "band": [
+    8,
+    13
+   ],
+   "percentile": 52,
+   "notable": false
+  },
+  {
+   "slug": "chelmsford-city-1915",
+   "venue": "Chelmsford City",
+   "off_utc": "2026-11-02T19:15:00Z",
+   "runner": "Handle With Care",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 7.49
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 7.5,
+    "spread_pct": 2.6
+   },
+   "move_pct": 0.2,
+   "band": [
+    5,
+    8
+   ],
+   "percentile": 51,
    "notable": false
   },
   {
@@ -5392,7 +5480,7 @@
     "mid": 6.19
    },
    "latest": {
-    "mins_to_off": 225,
+    "mins_to_off": 0,
     "mid": 6.19,
     "spread_pct": 6.5
    },
@@ -5414,11 +5502,11 @@
     "mid": 16.45
    },
    "latest": {
-    "mins_to_off": 225,
-    "mid": 17.21,
-    "spread_pct": 8.6
+    "mins_to_off": 0,
+    "mid": 17.26,
+    "spread_pct": 2.9
    },
-   "move_pct": 4.6,
+   "move_pct": 4.9,
    "band": [
     13,
     20
@@ -5427,86 +5515,42 @@
    "notable": false
   },
   {
-   "slug": "chelmsford-city-1945",
+   "slug": "wolverhampton-2000",
+   "venue": "Wolverhampton",
+   "off_utc": "2026-11-02T20:00:00Z",
+   "runner": "Tiger Beetle",
+   "first": {
+    "mins_to_off": 360,
+    "mid": 21.91
+   },
+   "latest": {
+    "mins_to_off": 0,
+    "mid": 22.94,
+    "spread_pct": 8.7
+   },
+   "move_pct": 4.7,
+   "band": [
+    20,
+    35
+   ],
+   "percentile": 49,
+   "notable": false
+  },
+  {
+   "slug": "chelmsford-city-1915",
    "venue": "Chelmsford City",
-   "off_utc": "2026-11-02T19:45:00Z",
-   "runner": "Yachtsman",
+   "off_utc": "2026-11-02T19:15:00Z",
+   "runner": "Moostar",
    "first": {
     "mins_to_off": 360,
-    "mid": 9.1
+    "mid": 15.65
    },
    "latest": {
-    "mins_to_off": 240,
-    "mid": 9.29,
-    "spread_pct": 6.4
+    "mins_to_off": 0,
+    "mid": 16.22,
+    "spread_pct": 9.3
    },
-   "move_pct": 2.1,
-   "band": [
-    8,
-    13
-   ],
-   "percentile": 49,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-2000",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T20:00:00Z",
-   "runner": "New Objective",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 5.2
-   },
-   "latest": {
-    "mins_to_off": 255,
-    "mid": 5.2,
-    "spread_pct": 3.8
-   },
-   "move_pct": 0.0,
-   "band": [
-    5,
-    8
-   ],
-   "percentile": 49,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-2000",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T20:00:00Z",
-   "runner": "Stipulation",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 4.24
-   },
-   "latest": {
-    "mins_to_off": 255,
-    "mid": 4.3,
-    "spread_pct": 4.6
-   },
-   "move_pct": 1.2,
-   "band": [
-    3,
-    5
-   ],
-   "percentile": 51,
-   "notable": false
-  },
-  {
-   "slug": "wolverhampton-1700",
-   "venue": "Wolverhampton",
-   "off_utc": "2026-11-02T17:00:00Z",
-   "runner": "Commander Of Life",
-   "first": {
-    "mins_to_off": 360,
-    "mid": 13.63
-   },
-   "latest": {
-    "mins_to_off": 75,
-    "mid": 14.2,
-    "spread_pct": 10.5
-   },
-   "move_pct": 4.2,
+   "move_pct": 3.6,
    "band": [
     13,
     20
