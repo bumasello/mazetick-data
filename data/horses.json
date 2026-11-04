@@ -1,6 +1,6 @@
 {
  "schema": "horses_v5",
- "generated_at": "2026-11-04T07:00:43Z",
+ "generated_at": "2026-11-04T12:00:44Z",
  "source": "Historical race results",
  "note": "Every figure is computed using only races run STRICTLY BEFORE the race it describes — the `as_of` date on each horse. Groups with fewer than two runs are omitted rather than shown as a rate, because a 100% strike rate over one run is noise wearing the clothes of a finding. Our archive runs to 2026-11-03: a horse that ran after that date has those runs missing here, so read `career` as what we hold, not as a complete record.",
  "history_depth": {
@@ -19,7 +19,7 @@
   "still_missing": 995,
   "note": "Sire totals count the progeny we hold. Breeding is complete for races up to 2026-07-22. After that date our live source carries it for about half of runners; we recover most of the rest from the same horse's other races, but not all. Recent races are therefore under-counted in sire totals."
  },
- "collected_through": "2026-11-04T06:00:01Z",
+ "collected_through": "2026-11-04T11:00:02Z",
  "distance_bands": [
   {
    "key": "sprint",
@@ -292,7 +292,7 @@
     "off_utc": "2026-11-04T12:05:00+00:00",
     "going": "soft",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-04",
    "status": "has_history",
@@ -3128,7 +3128,7 @@
    "race": {
     "venue": "Chepstow",
     "off_utc": "2026-11-04T12:20:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -3311,7 +3311,7 @@
    "race": {
     "venue": "Chepstow",
     "off_utc": "2026-11-04T12:20:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -3493,7 +3493,7 @@
    "race": {
     "venue": "Chepstow",
     "off_utc": "2026-11-04T12:20:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -3676,7 +3676,7 @@
    "race": {
     "venue": "Chepstow",
     "off_utc": "2026-11-04T12:20:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -3827,7 +3827,7 @@
    "race": {
     "venue": "Chepstow",
     "off_utc": "2026-11-04T12:20:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -9024,7 +9024,7 @@
     "off_utc": "2026-11-04T12:51:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-04",
    "status": "has_history",
@@ -9281,7 +9281,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T13:00:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -9446,7 +9446,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T13:00:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -9554,9 +9554,9 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T13:00:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-04",
    "status": "has_history",
@@ -9680,7 +9680,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T13:00:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -9788,7 +9788,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T13:00:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -9896,7 +9896,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T13:00:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -10004,7 +10004,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T13:00:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -10111,7 +10111,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T13:00:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -10201,7 +10201,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T13:00:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -10344,7 +10344,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T13:00:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -10452,7 +10452,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T13:00:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -10551,7 +10551,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T13:00:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -10668,7 +10668,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T13:00:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -10767,7 +10767,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T13:00:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -10884,9 +10884,9 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T13:00:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
-    "runner_status": "reserve"
+    "runner_status": "runner"
    },
    "as_of": "2026-11-04",
    "status": "no_record",
@@ -10900,6 +10900,14 @@
    "by_going": [],
    "by_course": [],
    "by_distance": [],
+   "jockey": {
+    "name": "Darragh O'Keeffe",
+    "runs": 3999,
+    "wins": 390,
+    "places": 1259,
+    "win_pct": 9.8,
+    "place_pct": 31.5
+   },
    "trainer": {
     "name": "Henry de Bromhead",
     "runs": 4942,
@@ -10923,6 +10931,33 @@
     "places": 30,
     "win_pct": 14.3,
     "place_pct": 47.6
+   },
+   "jockey_trainer": {
+    "jockey": "Darragh O'Keeffe",
+    "trainer": "Henry de Bromhead",
+    "runs": 797,
+    "wins": 124,
+    "places": 355,
+    "win_pct": 15.6,
+    "place_pct": 44.5
+   },
+   "jockey_at_course": {
+    "name": "Darragh O'Keeffe",
+    "key": "Wexford",
+    "runs": 213,
+    "wins": 34,
+    "places": 85,
+    "win_pct": 16.0,
+    "place_pct": 39.9
+   },
+   "jockey_at_distance": {
+    "name": "Darragh O'Keeffe",
+    "key": "staying",
+    "runs": 3955,
+    "wins": 389,
+    "places": 1255,
+    "win_pct": 9.8,
+    "place_pct": 31.7
    },
    "trainer_at_course": {
     "name": "Henry de Bromhead",
@@ -10957,9 +10992,9 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T13:00:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-04",
    "status": "no_record",
@@ -11030,9 +11065,9 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T13:00:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-04",
    "status": "has_history",
@@ -17318,7 +17353,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T13:33:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -17478,7 +17513,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T13:33:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -17595,7 +17630,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T13:33:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -17746,7 +17781,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T13:33:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -17889,7 +17924,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T13:33:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -18073,7 +18108,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T13:33:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -18249,7 +18284,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T13:33:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -18431,7 +18466,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T13:33:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -18607,9 +18642,9 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T13:33:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-04",
    "status": "has_history",
@@ -23674,7 +23709,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T14:05:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -23782,9 +23817,9 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T14:05:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-04",
    "status": "no_record",
@@ -23890,7 +23925,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T14:05:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -24032,7 +24067,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T14:05:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -24157,7 +24192,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T14:05:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -24300,7 +24335,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T14:05:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -24419,7 +24454,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T14:05:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -24570,7 +24605,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T14:05:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -24712,7 +24747,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T14:05:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -24812,7 +24847,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T14:05:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -24927,7 +24962,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T14:05:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -25053,7 +25088,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T14:05:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -25187,7 +25222,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T14:05:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -25329,7 +25364,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T14:05:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -25462,9 +25497,9 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T14:05:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
-    "runner_status": "reserve"
+    "runner_status": "runner"
    },
    "as_of": "2026-11-04",
    "status": "has_history",
@@ -25496,6 +25531,14 @@
      "place_pct": 0.0
     }
    ],
+   "jockey": {
+    "name": "Ross Berry(7)",
+    "runs": 102,
+    "wins": 2,
+    "places": 11,
+    "win_pct": 2.0,
+    "place_pct": 10.8
+   },
    "trainer": {
     "name": "Paul Nolan",
     "runs": 1550,
@@ -25527,6 +25570,24 @@
     "places": 0,
     "win_pct": 0.0,
     "place_pct": 0.0
+   },
+   "jockey_at_course": {
+    "name": "Ross Berry(7)",
+    "key": "Wexford",
+    "runs": 13,
+    "wins": 0,
+    "places": 1,
+    "win_pct": 0.0,
+    "place_pct": 7.7
+   },
+   "jockey_at_distance": {
+    "name": "Ross Berry(7)",
+    "key": "staying",
+    "runs": 102,
+    "wins": 2,
+    "places": 11,
+    "win_pct": 2.0,
+    "place_pct": 10.8
    },
    "trainer_at_course": {
     "name": "Paul Nolan",
@@ -25578,9 +25639,9 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T14:05:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
-    "runner_status": "reserve"
+    "runner_status": "runner"
    },
    "as_of": "2026-11-04",
    "status": "has_history",
@@ -25612,6 +25673,14 @@
      "place_pct": 0.0
     }
    ],
+   "jockey": {
+    "name": "Kevin Healy(7)",
+    "runs": 167,
+    "wins": 16,
+    "places": 50,
+    "win_pct": 9.6,
+    "place_pct": 29.9
+   },
    "trainer": {
     "name": "Gordon Elliott",
     "runs": 8664,
@@ -25635,6 +25704,33 @@
     "places": 653,
     "win_pct": 15.4,
     "place_pct": 40.9
+   },
+   "jockey_trainer": {
+    "jockey": "Kevin Healy(7)",
+    "trainer": "Gordon Elliott",
+    "runs": 22,
+    "wins": 0,
+    "places": 7,
+    "win_pct": 0.0,
+    "place_pct": 31.8
+   },
+   "jockey_at_course": {
+    "name": "Kevin Healy(7)",
+    "key": "Wexford",
+    "runs": 19,
+    "wins": 1,
+    "places": 7,
+    "win_pct": 5.3,
+    "place_pct": 36.8
+   },
+   "jockey_at_distance": {
+    "name": "Kevin Healy(7)",
+    "key": "staying",
+    "runs": 166,
+    "wins": 16,
+    "places": 50,
+    "win_pct": 9.6,
+    "place_pct": 30.1
    },
    "trainer_at_course": {
     "name": "Gordon Elliott",
@@ -25670,9 +25766,9 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T14:05:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-04",
    "status": "has_history",
@@ -26481,7 +26577,7 @@
     "off_utc": "2026-11-04T14:15:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-04",
    "status": "has_history",
@@ -32477,7 +32573,7 @@
    "race": {
     "venue": "Chepstow",
     "off_utc": "2026-11-04T14:30:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -32618,7 +32714,7 @@
    "race": {
     "venue": "Chepstow",
     "off_utc": "2026-11-04T14:30:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -32842,7 +32938,7 @@
    "race": {
     "venue": "Chepstow",
     "off_utc": "2026-11-04T14:30:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -33026,7 +33122,7 @@
    "race": {
     "venue": "Chepstow",
     "off_utc": "2026-11-04T14:30:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -33218,7 +33314,7 @@
    "race": {
     "venue": "Chepstow",
     "off_utc": "2026-11-04T14:30:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -33434,7 +33530,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T14:37:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -33641,7 +33737,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T14:37:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -33825,7 +33921,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T14:37:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -33960,7 +34056,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T14:37:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -34102,7 +34198,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T14:37:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -34254,7 +34350,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T14:37:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -34438,7 +34534,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T14:37:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -34580,7 +34676,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T14:37:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -34739,7 +34835,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T14:37:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -34898,7 +34994,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T14:37:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -35073,7 +35169,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T14:37:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -35249,7 +35345,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T14:37:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -35424,7 +35520,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T14:37:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -35575,7 +35671,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T14:37:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -35790,9 +35886,9 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T14:37:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-04",
    "status": "has_history",
@@ -35923,9 +36019,9 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T14:37:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-04",
    "status": "has_history",
@@ -36064,9 +36160,9 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T14:37:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-04",
    "status": "has_history",
@@ -42685,7 +42781,7 @@
    "race": {
     "venue": "Chepstow",
     "off_utc": "2026-11-04T15:05:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -42835,7 +42931,7 @@
    "race": {
     "venue": "Chepstow",
     "off_utc": "2026-11-04T15:05:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -43027,7 +43123,7 @@
    "race": {
     "venue": "Chepstow",
     "off_utc": "2026-11-04T15:05:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -43227,7 +43323,7 @@
    "race": {
     "venue": "Chepstow",
     "off_utc": "2026-11-04T15:05:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -43403,9 +43499,9 @@
    "race": {
     "venue": "Chepstow",
     "off_utc": "2026-11-04T15:05:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-04",
    "status": "has_history",
@@ -43520,9 +43616,9 @@
    "race": {
     "venue": "Chepstow",
     "off_utc": "2026-11-04T15:05:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-04",
    "status": "has_history",
@@ -43679,7 +43775,7 @@
    "race": {
     "venue": "Chepstow",
     "off_utc": "2026-11-04T15:05:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -43845,7 +43941,7 @@
    "race": {
     "venue": "Chepstow",
     "off_utc": "2026-11-04T15:05:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -44005,7 +44101,7 @@
    "race": {
     "venue": "Chepstow",
     "off_utc": "2026-11-04T15:05:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -44189,7 +44285,7 @@
    "race": {
     "venue": "Chepstow",
     "off_utc": "2026-11-04T15:05:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -44372,9 +44468,9 @@
    "race": {
     "venue": "Chepstow",
     "off_utc": "2026-11-04T15:05:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-04",
    "status": "has_history",
@@ -44562,7 +44658,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T15:10:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -44705,7 +44801,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T15:10:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -44873,9 +44969,9 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T15:10:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-04",
    "status": "has_history",
@@ -45041,9 +45137,9 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T15:10:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-04",
    "status": "has_history",
@@ -45233,7 +45329,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T15:10:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -45441,7 +45537,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T15:10:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -49634,7 +49730,7 @@
     "off_utc": "2026-11-04T15:23:00+00:00",
     "going": "soft",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-04",
    "status": "has_history",
@@ -53517,7 +53613,7 @@
     "off_utc": "2026-11-04T15:40:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-04",
    "status": "has_history",
@@ -55498,7 +55594,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T15:45:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -55641,7 +55737,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T15:45:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -55776,7 +55872,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T15:45:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -55875,9 +55971,9 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T15:45:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-04",
    "status": "has_history",
@@ -55984,7 +56080,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T15:45:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -56127,7 +56223,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T15:45:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -56262,7 +56358,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T15:45:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -56405,7 +56501,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T15:45:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -56548,9 +56644,9 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T15:45:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-04",
    "status": "has_history",
@@ -56648,7 +56744,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T15:45:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -56791,7 +56887,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T15:45:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -63771,7 +63867,7 @@
     "off_utc": "2026-11-04T16:00:00+00:00",
     "going": "soft",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-04",
    "status": "debut",
@@ -65527,7 +65623,7 @@
    "race": {
     "venue": "Chepstow",
     "off_utc": "2026-11-04T16:10:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -65635,7 +65731,7 @@
    "race": {
     "venue": "Chepstow",
     "off_utc": "2026-11-04T16:10:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -65725,7 +65821,7 @@
    "race": {
     "venue": "Chepstow",
     "off_utc": "2026-11-04T16:10:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -65833,7 +65929,7 @@
    "race": {
     "venue": "Chepstow",
     "off_utc": "2026-11-04T16:10:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -65932,9 +66028,9 @@
    "race": {
     "venue": "Chepstow",
     "off_utc": "2026-11-04T16:10:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-04",
    "status": "debut",
@@ -66022,7 +66118,7 @@
    "race": {
     "venue": "Chepstow",
     "off_utc": "2026-11-04T16:10:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -66130,9 +66226,9 @@
    "race": {
     "venue": "Chepstow",
     "off_utc": "2026-11-04T16:10:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-04",
    "status": "debut",
@@ -66222,7 +66318,7 @@
    "race": {
     "venue": "Chepstow",
     "off_utc": "2026-11-04T16:10:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -66330,7 +66426,7 @@
    "race": {
     "venue": "Chepstow",
     "off_utc": "2026-11-04T16:10:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -66439,7 +66535,7 @@
    "race": {
     "venue": "Chepstow",
     "off_utc": "2026-11-04T16:10:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -66547,7 +66643,7 @@
    "race": {
     "venue": "Chepstow",
     "off_utc": "2026-11-04T16:10:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -66639,7 +66735,7 @@
    "race": {
     "venue": "Chepstow",
     "off_utc": "2026-11-04T16:10:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -66656,12 +66752,12 @@
    "by_course": [],
    "by_distance": [],
    "jockey": {
-    "name": "Brendan Powell",
-    "runs": 2571,
-    "wins": 301,
-    "places": 965,
-    "win_pct": 11.7,
-    "place_pct": 37.5
+    "name": "Freddie Gingell",
+    "runs": 597,
+    "wins": 111,
+    "places": 280,
+    "win_pct": 18.6,
+    "place_pct": 46.9
    },
    "trainer": {
     "name": "Joe Tizzard",
@@ -66688,31 +66784,31 @@
     "place_pct": 29.5
    },
    "jockey_trainer": {
-    "jockey": "Brendan Powell",
+    "jockey": "Freddie Gingell",
     "trainer": "Joe Tizzard",
-    "runs": 955,
-    "wins": 132,
-    "places": 414,
-    "win_pct": 13.8,
-    "place_pct": 43.4
+    "runs": 245,
+    "wins": 44,
+    "places": 106,
+    "win_pct": 18.0,
+    "place_pct": 43.3
    },
    "jockey_at_course": {
-    "name": "Brendan Powell",
+    "name": "Freddie Gingell",
     "key": "Chepstow",
-    "runs": 117,
-    "wins": 7,
-    "places": 32,
-    "win_pct": 6.0,
-    "place_pct": 27.4
+    "runs": 36,
+    "wins": 5,
+    "places": 16,
+    "win_pct": 13.9,
+    "place_pct": 44.4
    },
    "jockey_at_distance": {
-    "name": "Brendan Powell",
+    "name": "Freddie Gingell",
     "key": "staying",
-    "runs": 2563,
-    "wins": 300,
-    "places": 963,
-    "win_pct": 11.7,
-    "place_pct": 37.6
+    "runs": 594,
+    "wins": 111,
+    "places": 280,
+    "win_pct": 18.7,
+    "place_pct": 47.1
    },
    "trainer_at_course": {
     "name": "Joe Tizzard",
@@ -66747,7 +66843,7 @@
    "race": {
     "venue": "Chepstow",
     "off_utc": "2026-11-04T16:10:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -66847,7 +66943,7 @@
    "race": {
     "venue": "Chepstow",
     "off_utc": "2026-11-04T16:10:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -66955,7 +67051,7 @@
    "race": {
     "venue": "Chepstow",
     "off_utc": "2026-11-04T16:10:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -67054,7 +67150,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T16:20:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -67196,7 +67292,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T16:20:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -67355,7 +67451,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T16:20:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -67496,7 +67592,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T16:20:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -67603,7 +67699,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T16:20:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -67769,7 +67865,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T16:20:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -67928,7 +68024,7 @@
    "race": {
     "venue": "Wexford",
     "off_utc": "2026-11-04T16:20:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -69468,7 +69564,7 @@
     "off_utc": "2026-11-04T16:30:00+00:00",
     "going": "soft",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-04",
    "status": "has_history",
@@ -76134,7 +76230,7 @@
     "off_utc": "2026-11-04T17:45:00+00:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-04",
    "status": "debut",
