@@ -1,6 +1,6 @@
 {
  "schema": "horses_v5",
- "generated_at": "2026-11-05T12:00:47Z",
+ "generated_at": "2026-11-05T21:30:34Z",
  "source": "Historical race results",
  "note": "Every figure is computed using only races run STRICTLY BEFORE the race it describes — the `as_of` date on each horse. Groups with fewer than two runs are omitted rather than shown as a rate, because a 100% strike rate over one run is noise wearing the clothes of a finding. Our archive runs to 2026-11-04: a horse that ran after that date has those runs missing here, so read `career` as what we hold, not as a complete record.",
  "history_depth": {
@@ -19,7 +19,7 @@
   "still_missing": 990,
   "note": "Sire totals count the progeny we hold. Breeding is complete for races up to 2026-07-22. After that date our live source carries it for about half of runners; we recover most of the rest from the same horse's other races, but not all. Recent races are therefore under-counted in sire totals."
  },
- "collected_through": "2026-11-05T11:00:02Z",
+ "collected_through": "2026-11-05T19:00:02Z",
  "distance_bands": [
   {
    "key": "sprint",
@@ -3139,7 +3139,7 @@
     "off_utc": "2026-11-05T12:50:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-05",
    "status": "has_history",
@@ -10060,7 +10060,7 @@
     "off_utc": "2026-11-05T13:34:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-05",
    "status": "has_history",
@@ -11344,7 +11344,7 @@
     "off_utc": "2026-11-05T13:43:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-05",
    "status": "has_history",
@@ -21786,7 +21786,7 @@
     "off_utc": "2026-11-05T14:25:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-05",
    "status": "has_history",
@@ -33870,7 +33870,7 @@
     "off_utc": "2026-11-05T15:10:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-05",
    "status": "has_history",
@@ -34088,12 +34088,12 @@
     }
    ],
    "jockey": {
-    "name": "Danny Mullins",
-    "runs": 2980,
-    "wins": 308,
-    "places": 910,
-    "win_pct": 10.3,
-    "place_pct": 30.5
+    "name": "Paul Townend",
+    "runs": 2179,
+    "wins": 748,
+    "places": 1377,
+    "win_pct": 34.3,
+    "place_pct": 63.2
    },
    "trainer": {
     "name": "W. P. Mullins",
@@ -34120,16 +34120,16 @@
     "place_pct": 45.1
    },
    "jockey_trainer": {
-    "jockey": "Danny Mullins",
+    "jockey": "Paul Townend",
     "trainer": "W. P. Mullins",
-    "runs": 815,
-    "wins": 123,
-    "places": 341,
-    "win_pct": 15.1,
-    "place_pct": 41.8
+    "runs": 1998,
+    "wins": 718,
+    "places": 1297,
+    "win_pct": 35.9,
+    "place_pct": 64.9
    },
    "jockey_here": {
-    "name": "Danny Mullins",
+    "name": "Paul Townend",
     "runs": 3,
     "wins": 1,
     "places": 2,
@@ -34145,22 +34145,22 @@
     "place_pct": 57.1
    },
    "jockey_at_course": {
-    "name": "Danny Mullins",
+    "name": "Paul Townend",
     "key": "Clonmel",
-    "runs": 150,
-    "wins": 14,
-    "places": 44,
-    "win_pct": 9.3,
-    "place_pct": 29.3
+    "runs": 72,
+    "wins": 31,
+    "places": 57,
+    "win_pct": 43.1,
+    "place_pct": 79.2
    },
    "jockey_at_distance": {
-    "name": "Danny Mullins",
+    "name": "Paul Townend",
     "key": "staying",
-    "runs": 2970,
-    "wins": 308,
-    "places": 906,
-    "win_pct": 10.4,
-    "place_pct": 30.5
+    "runs": 2177,
+    "wins": 748,
+    "places": 1377,
+    "win_pct": 34.4,
+    "place_pct": 63.3
    },
    "trainer_at_course": {
     "name": "W. P. Mullins",
@@ -34256,12 +34256,12 @@
     }
    ],
    "jockey": {
-    "name": "J. J. Slevin",
-    "runs": 2706,
-    "wins": 242,
-    "places": 736,
-    "win_pct": 8.9,
-    "place_pct": 27.2
+    "name": "Danny Mullins",
+    "runs": 2980,
+    "wins": 308,
+    "places": 910,
+    "win_pct": 10.3,
+    "place_pct": 30.5
    },
    "trainer": {
     "name": "Ms Margaret Mullins",
@@ -34287,6 +34287,23 @@
     "win_pct": 11.2,
     "place_pct": 33.5
    },
+   "jockey_trainer": {
+    "jockey": "Danny Mullins",
+    "trainer": "Ms Margaret Mullins",
+    "runs": 214,
+    "wins": 25,
+    "places": 64,
+    "win_pct": 11.7,
+    "place_pct": 29.9
+   },
+   "jockey_here": {
+    "name": "Danny Mullins",
+    "runs": 11,
+    "wins": 1,
+    "places": 4,
+    "win_pct": 9.1,
+    "place_pct": 36.4
+   },
    "trainer_here": {
     "name": "Ms Margaret Mullins",
     "runs": 14,
@@ -34296,22 +34313,22 @@
     "place_pct": 42.9
    },
    "jockey_at_course": {
-    "name": "J. J. Slevin",
+    "name": "Danny Mullins",
     "key": "Clonmel",
-    "runs": 114,
-    "wins": 10,
-    "places": 29,
-    "win_pct": 8.8,
-    "place_pct": 25.4
+    "runs": 150,
+    "wins": 14,
+    "places": 44,
+    "win_pct": 9.3,
+    "place_pct": 29.3
    },
    "jockey_at_distance": {
-    "name": "J. J. Slevin",
+    "name": "Danny Mullins",
     "key": "staying",
-    "runs": 2693,
-    "wins": 242,
-    "places": 735,
-    "win_pct": 9.0,
-    "place_pct": 27.3
+    "runs": 2970,
+    "wins": 308,
+    "places": 906,
+    "win_pct": 10.4,
+    "place_pct": 30.5
    },
    "trainer_at_course": {
     "name": "Ms Margaret Mullins",
@@ -36768,7 +36785,7 @@
     "off_utc": "2026-11-05T15:22:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-05",
    "status": "has_history",
@@ -44236,6 +44253,14 @@
     "win_pct": 8.7,
     "place_pct": 28.1
    },
+   "trainer": {
+    "name": "A. J. Martin",
+    "runs": 1386,
+    "wins": 95,
+    "places": 283,
+    "win_pct": 6.9,
+    "place_pct": 20.4
+   },
    "sire": {
     "name": "Atlantic Waves",
     "runs": 40,
@@ -44251,6 +44276,23 @@
     "places": 9,
     "win_pct": 5.0,
     "place_pct": 22.5
+   },
+   "jockey_trainer": {
+    "jockey": "Daniel King",
+    "trainer": "A. J. Martin",
+    "runs": 95,
+    "wins": 6,
+    "places": 26,
+    "win_pct": 6.3,
+    "place_pct": 27.4
+   },
+   "trainer_here": {
+    "name": "A. J. Martin",
+    "runs": 17,
+    "wins": 0,
+    "places": 2,
+    "win_pct": 0.0,
+    "place_pct": 11.8
    },
    "jockey_at_course": {
     "name": "Daniel King",
@@ -44269,6 +44311,24 @@
     "places": 315,
     "win_pct": 8.5,
     "place_pct": 26.7
+   },
+   "trainer_at_course": {
+    "name": "A. J. Martin",
+    "key": "Clonmel",
+    "runs": 16,
+    "wins": 0,
+    "places": 2,
+    "win_pct": 0.0,
+    "place_pct": 12.5
+   },
+   "trainer_at_distance": {
+    "name": "A. J. Martin",
+    "key": "staying",
+    "runs": 935,
+    "wins": 63,
+    "places": 197,
+    "win_pct": 6.7,
+    "place_pct": 21.1
    },
    "recent_30d": {
     "days": 30,
@@ -60544,7 +60604,7 @@
     "off_utc": "2026-11-05T17:30:00+00:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-05",
    "status": "has_history",
@@ -61234,12 +61294,12 @@
    "by_course": [],
    "by_distance": [],
    "jockey": {
-    "name": "Clifford Lee",
-    "runs": 3285,
-    "wins": 466,
-    "places": 1252,
-    "win_pct": 14.2,
-    "place_pct": 38.1
+    "name": "Joanna Mason",
+    "runs": 2877,
+    "wins": 299,
+    "places": 908,
+    "win_pct": 10.4,
+    "place_pct": 31.6
    },
    "trainer": {
     "name": "Jonathan Portman",
@@ -61266,22 +61326,22 @@
     "place_pct": 31.4
    },
    "jockey_at_course": {
-    "name": "Clifford Lee",
+    "name": "Joanna Mason",
     "key": "Southwell (AW)",
-    "runs": 299,
-    "wins": 45,
-    "places": 128,
-    "win_pct": 15.1,
-    "place_pct": 42.8
+    "runs": 378,
+    "wins": 38,
+    "places": 110,
+    "win_pct": 10.1,
+    "place_pct": 29.1
    },
    "jockey_at_distance": {
-    "name": "Clifford Lee",
+    "name": "Joanna Mason",
     "key": "sprint",
-    "runs": 1461,
-    "wins": 227,
-    "places": 591,
-    "win_pct": 15.5,
-    "place_pct": 40.5
+    "runs": 1075,
+    "wins": 116,
+    "places": 324,
+    "win_pct": 10.8,
+    "place_pct": 30.1
    },
    "trainer_at_course": {
     "name": "Jonathan Portman",
@@ -63942,7 +64002,7 @@
     "off_utc": "2026-11-05T18:15:00+00:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-05",
    "status": "has_history",
