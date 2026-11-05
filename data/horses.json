@@ -1,6 +1,6 @@
 {
  "schema": "horses_v5",
- "generated_at": "2026-11-05T07:00:43Z",
+ "generated_at": "2026-11-05T12:00:47Z",
  "source": "Historical race results",
  "note": "Every figure is computed using only races run STRICTLY BEFORE the race it describes — the `as_of` date on each horse. Groups with fewer than two runs are omitted rather than shown as a rate, because a 100% strike rate over one run is noise wearing the clothes of a finding. Our archive runs to 2026-11-04: a horse that ran after that date has those runs missing here, so read `career` as what we hold, not as a complete record.",
  "history_depth": {
@@ -19,7 +19,7 @@
   "still_missing": 990,
   "note": "Sire totals count the progeny we hold. Breeding is complete for races up to 2026-07-22. After that date our live source carries it for about half of runners; we recover most of the rest from the same horse's other races, but not all. Recent races are therefore under-counted in sire totals."
  },
- "collected_through": "2026-11-05T06:00:02Z",
+ "collected_through": "2026-11-05T11:00:02Z",
  "distance_bands": [
   {
    "key": "sprint",
@@ -3814,7 +3814,7 @@
     "off_utc": "2026-11-05T12:50:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-05",
    "status": "no_record",
@@ -3922,7 +3922,7 @@
     "off_utc": "2026-11-05T12:50:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-05",
    "status": "has_history",
@@ -9119,7 +9119,7 @@
     "off_utc": "2026-11-05T13:25:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-05",
    "status": "has_history",
@@ -25386,7 +25386,7 @@
     "off_utc": "2026-11-05T14:30:00+00:00",
     "going": "good",
     "distance": "middle",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-05",
    "status": "has_history",
@@ -26817,7 +26817,7 @@
     "off_utc": "2026-11-05T14:35:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-05",
    "status": "has_history",
@@ -43188,7 +43188,7 @@
     "off_utc": "2026-11-05T15:45:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-05",
    "status": "has_history",
@@ -44236,14 +44236,6 @@
     "win_pct": 8.7,
     "place_pct": 28.1
    },
-   "trainer": {
-    "name": "A. J. Martin",
-    "runs": 1386,
-    "wins": 95,
-    "places": 283,
-    "win_pct": 6.9,
-    "place_pct": 20.4
-   },
    "sire": {
     "name": "Atlantic Waves",
     "runs": 40,
@@ -44259,23 +44251,6 @@
     "places": 9,
     "win_pct": 5.0,
     "place_pct": 22.5
-   },
-   "jockey_trainer": {
-    "jockey": "Daniel King",
-    "trainer": "A. J. Martin",
-    "runs": 95,
-    "wins": 6,
-    "places": 26,
-    "win_pct": 6.3,
-    "place_pct": 27.4
-   },
-   "trainer_here": {
-    "name": "A. J. Martin",
-    "runs": 17,
-    "wins": 0,
-    "places": 2,
-    "win_pct": 0.0,
-    "place_pct": 11.8
    },
    "jockey_at_course": {
     "name": "Daniel King",
@@ -44294,24 +44269,6 @@
     "places": 315,
     "win_pct": 8.5,
     "place_pct": 26.7
-   },
-   "trainer_at_course": {
-    "name": "A. J. Martin",
-    "key": "Clonmel",
-    "runs": 16,
-    "wins": 0,
-    "places": 2,
-    "win_pct": 0.0,
-    "place_pct": 12.5
-   },
-   "trainer_at_distance": {
-    "name": "A. J. Martin",
-    "key": "staying",
-    "runs": 935,
-    "wins": 63,
-    "places": 197,
-    "win_pct": 6.7,
-    "place_pct": 21.1
    },
    "recent_30d": {
     "days": 30,
@@ -55173,7 +55130,7 @@
     "age": "2",
     "sex": "gelding",
     "colour": "ch",
-    "owner": "Daniel Macauliffe, Anoj Don & Al Racing",
+    "owner": "Daniel MacAuliffe, Anoj Don & AL Racing",
     "damsire": "Indesatchel",
     "dam": "Romany Gypsy"
    }
@@ -58670,7 +58627,7 @@
     "off_utc": "2026-11-05T17:15:00+00:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-05",
    "status": "has_history",
