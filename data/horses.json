@@ -1,6 +1,6 @@
 {
  "schema": "horses_v5",
- "generated_at": "2026-11-06T12:00:45Z",
+ "generated_at": "2026-11-06T16:00:45Z",
  "source": "Historical race results",
  "note": "Every figure is computed using only races run STRICTLY BEFORE the race it describes — the `as_of` date on each horse. Groups with fewer than two runs are omitted rather than shown as a rate, because a 100% strike rate over one run is noise wearing the clothes of a finding. Our archive runs to 2026-11-05: a horse that ran after that date has those runs missing here, so read `career` as what we hold, not as a complete record.",
  "history_depth": {
@@ -19,7 +19,7 @@
   "still_missing": 983,
   "note": "Sire totals count the progeny we hold. Breeding is complete for races up to 2026-07-22. After that date our live source carries it for about half of runners; we recover most of the rest from the same horse's other races, but not all. Recent races are therefore under-counted in sire totals."
  },
- "collected_through": "2026-11-06T11:00:02Z",
+ "collected_through": "2026-11-06T15:00:01Z",
  "distance_bands": [
   {
    "key": "sprint",
@@ -3770,7 +3770,7 @@
     "off_utc": "2026-11-06T13:15:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-06",
    "status": "has_history",
@@ -5539,7 +5539,7 @@
     "off_utc": "2026-11-06T13:25:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-06",
    "status": "has_history",
@@ -24758,7 +24758,7 @@
     "off_utc": "2026-11-06T15:52:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-06",
    "status": "has_history",
@@ -40457,7 +40457,7 @@
     "off_utc": "2026-11-06T18:15:00+00:00",
     "going": "good",
     "distance": "middle",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-06",
    "status": "has_history",
@@ -47764,7 +47764,7 @@
     "off_utc": "2026-11-06T18:45:00+00:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "reserve"
+    "runner_status": "runner"
    },
    "as_of": "2026-11-06",
    "status": "has_history",
@@ -47853,6 +47853,14 @@
      "place_pct": 33.3
     }
    ],
+   "jockey": {
+    "name": "Robert Whearty",
+    "runs": 912,
+    "wins": 63,
+    "places": 196,
+    "win_pct": 6.9,
+    "place_pct": 21.5
+   },
    "trainer": {
     "name": "G. M. Lyons",
     "runs": 2032,
@@ -47884,6 +47892,24 @@
     "places": 4,
     "win_pct": 20.0,
     "place_pct": 40.0
+   },
+   "jockey_at_course": {
+    "name": "Robert Whearty",
+    "key": "Dundalk (AW)",
+    "runs": 315,
+    "wins": 24,
+    "places": 76,
+    "win_pct": 7.6,
+    "place_pct": 24.1
+   },
+   "jockey_at_distance": {
+    "name": "Robert Whearty",
+    "key": "mile",
+    "runs": 432,
+    "wins": 26,
+    "places": 84,
+    "win_pct": 6.0,
+    "place_pct": 19.4
    },
    "trainer_at_course": {
     "name": "G. M. Lyons",
@@ -47929,7 +47955,7 @@
     "off_utc": "2026-11-06T18:45:00+00:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-06",
    "status": "has_history",
@@ -48019,7 +48045,7 @@
     "off_utc": "2026-11-06T18:45:00+00:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-06",
    "status": "has_history",
@@ -50774,12 +50800,12 @@
     }
    ],
    "jockey": {
-    "name": "Sam James",
-    "runs": 2846,
-    "wins": 333,
-    "places": 998,
-    "win_pct": 11.7,
-    "place_pct": 35.1
+    "name": "Alex Jary(3)",
+    "runs": 972,
+    "wins": 70,
+    "places": 243,
+    "win_pct": 7.2,
+    "place_pct": 25.0
    },
    "trainer": {
     "name": "Gary Rutherford",
@@ -50814,22 +50840,22 @@
     "place_pct": 38.9
    },
    "jockey_at_course": {
-    "name": "Sam James",
+    "name": "Alex Jary(3)",
     "key": "Newcastle (AW)",
-    "runs": 460,
-    "wins": 35,
-    "places": 151,
-    "win_pct": 7.6,
-    "place_pct": 32.8
+    "runs": 233,
+    "wins": 15,
+    "places": 59,
+    "win_pct": 6.4,
+    "place_pct": 25.3
    },
    "jockey_at_distance": {
-    "name": "Sam James",
+    "name": "Alex Jary(3)",
     "key": "sprint",
-    "runs": 1264,
-    "wins": 146,
-    "places": 441,
-    "win_pct": 11.6,
-    "place_pct": 34.9
+    "runs": 593,
+    "wins": 54,
+    "places": 167,
+    "win_pct": 9.1,
+    "place_pct": 28.2
    },
    "trainer_at_course": {
     "name": "Gary Rutherford",
@@ -51285,7 +51311,7 @@
     "off_utc": "2026-11-06T19:15:00+00:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-06",
    "status": "has_history",
@@ -51723,7 +51749,7 @@
     "off_utc": "2026-11-06T19:15:00+00:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-06",
    "status": "debut",
@@ -56537,7 +56563,7 @@
     "off_utc": "2026-11-06T20:15:00+00:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-06",
    "status": "has_history",
@@ -56670,7 +56696,7 @@
     "off_utc": "2026-11-06T20:15:00+00:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "reserve"
+    "runner_status": "runner"
    },
    "as_of": "2026-11-06",
    "status": "has_history",
@@ -56735,6 +56761,14 @@
      "place_pct": 25.0
     }
    ],
+   "jockey": {
+    "name": "Siobhan Rutledge",
+    "runs": 1361,
+    "wins": 78,
+    "places": 245,
+    "win_pct": 5.7,
+    "place_pct": 18.0
+   },
    "trainer": {
     "name": "H Rogers",
     "runs": 422,
@@ -56759,6 +56793,23 @@
     "win_pct": 9.8,
     "place_pct": 28.3
    },
+   "jockey_trainer": {
+    "jockey": "Siobhan Rutledge",
+    "trainer": "H Rogers",
+    "runs": 80,
+    "wins": 8,
+    "places": 17,
+    "win_pct": 10.0,
+    "place_pct": 21.2
+   },
+   "jockey_here": {
+    "name": "Siobhan Rutledge",
+    "runs": 9,
+    "wins": 1,
+    "places": 1,
+    "win_pct": 11.1,
+    "place_pct": 11.1
+   },
    "trainer_here": {
     "name": "H Rogers",
     "runs": 10,
@@ -56766,6 +56817,24 @@
     "places": 1,
     "win_pct": 10.0,
     "place_pct": 10.0
+   },
+   "jockey_at_course": {
+    "name": "Siobhan Rutledge",
+    "key": "Dundalk (AW)",
+    "runs": 500,
+    "wins": 37,
+    "places": 100,
+    "win_pct": 7.4,
+    "place_pct": 20.0
+   },
+   "jockey_at_distance": {
+    "name": "Siobhan Rutledge",
+    "key": "mile",
+    "runs": 574,
+    "wins": 28,
+    "places": 98,
+    "win_pct": 4.9,
+    "place_pct": 17.1
    },
    "trainer_at_course": {
     "name": "H Rogers",
@@ -56819,7 +56888,7 @@
     "off_utc": "2026-11-06T20:15:00+00:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "reserve"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-06",
    "status": "has_history",
