@@ -1,6 +1,6 @@
 {
  "schema": "horses_v5",
- "generated_at": "2026-11-07T12:00:46Z",
+ "generated_at": "2026-11-07T16:00:45Z",
  "source": "Historical race results",
  "note": "Every figure is computed using only races run STRICTLY BEFORE the race it describes — the `as_of` date on each horse. Groups with fewer than two runs are omitted rather than shown as a rate, because a 100% strike rate over one run is noise wearing the clothes of a finding. Our archive runs to 2026-11-06: a horse that ran after that date has those runs missing here, so read `career` as what we hold, not as a complete record.",
  "history_depth": {
@@ -19,7 +19,7 @@
   "still_missing": 982,
   "note": "Sire totals count the progeny we hold. Breeding is complete for races up to 2026-07-22. After that date our live source carries it for about half of runners; we recover most of the rest from the same horse's other races, but not all. Recent races are therefore under-counted in sire totals."
  },
- "collected_through": "2026-11-07T11:00:02Z",
+ "collected_through": "2026-11-07T15:00:02Z",
  "distance_bands": [
   {
    "key": "sprint",
@@ -404,6 +404,14 @@
     "win_pct": 6.0,
     "place_pct": 26.0
    },
+   "trainer": {
+    "name": "Mark Walford",
+    "runs": 2059,
+    "wins": 205,
+    "places": 651,
+    "win_pct": 10.0,
+    "place_pct": 31.6
+   },
    "sire": {
     "name": "Power",
     "runs": 1308,
@@ -420,6 +428,14 @@
     "win_pct": 9.6,
     "place_pct": 29.3
    },
+   "trainer_here": {
+    "name": "Mark Walford",
+    "runs": 59,
+    "wins": 11,
+    "places": 25,
+    "win_pct": 18.6,
+    "place_pct": 42.4
+   },
    "jockey_at_distance": {
     "name": "Kyle McHugh",
     "key": "mile",
@@ -428,6 +444,24 @@
     "places": 26,
     "win_pct": 6.0,
     "place_pct": 31.0
+   },
+   "trainer_at_course": {
+    "name": "Mark Walford",
+    "key": "Doncaster",
+    "runs": 81,
+    "wins": 7,
+    "places": 21,
+    "win_pct": 8.6,
+    "place_pct": 25.9
+   },
+   "trainer_at_distance": {
+    "name": "Mark Walford",
+    "key": "mile",
+    "runs": 456,
+    "wins": 33,
+    "places": 108,
+    "win_pct": 7.2,
+    "place_pct": 23.7
    },
    "recent_30d": {
     "days": 30,
@@ -5425,7 +5459,7 @@
     "off_utc": "2026-11-07T12:20:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-07",
    "status": "has_history",
@@ -12688,6 +12722,14 @@
     "win_pct": 9.4,
     "place_pct": 31.2
    },
+   "trainer": {
+    "name": "Mark Walford",
+    "runs": 2059,
+    "wins": 205,
+    "places": 651,
+    "win_pct": 10.0,
+    "place_pct": 31.6
+   },
    "sire": {
     "name": "Dartmouth",
     "runs": 407,
@@ -12704,8 +12746,25 @@
     "win_pct": 8.4,
     "place_pct": 22.1
    },
+   "jockey_trainer": {
+    "jockey": "Jamie Hamilton",
+    "trainer": "Mark Walford",
+    "runs": 638,
+    "wins": 83,
+    "places": 244,
+    "win_pct": 13.0,
+    "place_pct": 38.2
+   },
    "jockey_here": {
     "name": "Jamie Hamilton",
+    "runs": 2,
+    "wins": 0,
+    "places": 0,
+    "win_pct": 0.0,
+    "place_pct": 0.0
+   },
+   "trainer_here": {
+    "name": "Mark Walford",
     "runs": 2,
     "wins": 0,
     "places": 0,
@@ -12729,6 +12788,24 @@
     "places": 544,
     "win_pct": 9.4,
     "place_pct": 31.2
+   },
+   "trainer_at_course": {
+    "name": "Mark Walford",
+    "key": "Kelso",
+    "runs": 40,
+    "wins": 2,
+    "places": 13,
+    "win_pct": 5.0,
+    "place_pct": 32.5
+   },
+   "trainer_at_distance": {
+    "name": "Mark Walford",
+    "key": "staying",
+    "runs": 1105,
+    "wins": 131,
+    "places": 413,
+    "win_pct": 11.9,
+    "place_pct": 37.4
    },
    "recent_30d": {
     "days": 30,
@@ -18053,6 +18130,14 @@
     "win_pct": 9.4,
     "place_pct": 31.2
    },
+   "trainer": {
+    "name": "Mark Walford",
+    "runs": 2059,
+    "wins": 205,
+    "places": 651,
+    "win_pct": 10.0,
+    "place_pct": 31.6
+   },
    "sire": {
     "name": "Kapgarde",
     "runs": 2428,
@@ -18069,6 +18154,15 @@
     "win_pct": 12.9,
     "place_pct": 37.6
    },
+   "jockey_trainer": {
+    "jockey": "Jamie Hamilton",
+    "trainer": "Mark Walford",
+    "runs": 638,
+    "wins": 83,
+    "places": 244,
+    "win_pct": 13.0,
+    "place_pct": 38.2
+   },
    "jockey_here": {
     "name": "Jamie Hamilton",
     "runs": 11,
@@ -18076,6 +18170,14 @@
     "places": 6,
     "win_pct": 18.2,
     "place_pct": 54.5
+   },
+   "trainer_here": {
+    "name": "Mark Walford",
+    "runs": 15,
+    "wins": 2,
+    "places": 6,
+    "win_pct": 13.3,
+    "place_pct": 40.0
    },
    "jockey_at_course": {
     "name": "Jamie Hamilton",
@@ -18094,6 +18196,24 @@
     "places": 544,
     "win_pct": 9.4,
     "place_pct": 31.2
+   },
+   "trainer_at_course": {
+    "name": "Mark Walford",
+    "key": "Kelso",
+    "runs": 40,
+    "wins": 2,
+    "places": 13,
+    "win_pct": 5.0,
+    "place_pct": 32.5
+   },
+   "trainer_at_distance": {
+    "name": "Mark Walford",
+    "key": "staying",
+    "runs": 1105,
+    "wins": 131,
+    "places": 413,
+    "win_pct": 11.9,
+    "place_pct": 37.4
    },
    "recent_30d": {
     "days": 30,
@@ -25669,7 +25789,7 @@
     "off_utc": "2026-11-07T14:00:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-07",
    "status": "has_history",
@@ -53737,7 +53857,7 @@
     "off_utc": "2026-11-07T15:30:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-07",
    "status": "has_history",
@@ -75578,7 +75698,7 @@
     "off_utc": "2026-11-07T16:00:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-07",
    "status": "has_history",
@@ -84856,7 +84976,7 @@
     "off_utc": "2026-11-07T18:00:00+00:00",
     "going": "good",
     "distance": "middle",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-07",
    "status": "has_history",
