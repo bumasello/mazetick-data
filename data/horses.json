@@ -1,6 +1,6 @@
 {
  "schema": "horses_v5",
- "generated_at": "2026-11-12T12:00:03Z",
+ "generated_at": "2026-11-12T16:00:02Z",
  "source": "Historical race results",
  "note": "Every figure is computed using only races run STRICTLY BEFORE the race it describes — the `as_of` date on each horse. Groups with fewer than two runs are omitted rather than shown as a rate, because a 100% strike rate over one run is noise wearing the clothes of a finding. Our archive runs to 2026-11-11: a horse that ran after that date has those runs missing here, so read `career` as what we hold, not as a complete record.",
  "history_depth": {
@@ -19,7 +19,7 @@
   "still_missing": 974,
   "note": "Sire totals count the progeny we hold. Breeding is complete for races up to 2026-07-22. After that date our live source carries it for about half of runners; we recover most of the rest from the same horse's other races, but not all. Recent races are therefore under-counted in sire totals."
  },
- "collected_through": "2026-11-12T11:00:01Z",
+ "collected_through": "2026-11-12T15:00:02Z",
  "distance_bands": [
   {
    "key": "sprint",
@@ -13087,12 +13087,12 @@
     }
    ],
    "jockey": {
-    "name": "Mr Ian Cribbin(7)",
-    "runs": 7,
-    "wins": 1,
-    "places": 1,
-    "win_pct": 14.3,
-    "place_pct": 14.3
+    "name": "Harry Sexton",
+    "runs": 407,
+    "wins": 17,
+    "places": 73,
+    "win_pct": 4.2,
+    "place_pct": 17.9
    },
    "trainer": {
     "name": "Peter McCreery",
@@ -13125,6 +13125,15 @@
     "places": 0,
     "win_pct": 0.0,
     "place_pct": 0.0
+   },
+   "jockey_at_distance": {
+    "name": "Harry Sexton",
+    "key": "staying",
+    "runs": 404,
+    "wins": 17,
+    "places": 73,
+    "win_pct": 4.2,
+    "place_pct": 18.1
    },
    "trainer_at_distance": {
     "name": "Peter McCreery",
@@ -21018,12 +21027,12 @@
     }
    ],
    "jockey": {
-    "name": "Darragh O'Keeffe",
-    "runs": 4016,
-    "wins": 393,
-    "places": 1265,
-    "win_pct": 9.8,
-    "place_pct": 31.5
+    "name": "Mike O'Connor",
+    "runs": 1126,
+    "wins": 78,
+    "places": 252,
+    "win_pct": 6.9,
+    "place_pct": 22.4
    },
    "trainer": {
     "name": "Henry de Bromhead",
@@ -21050,21 +21059,13 @@
     "place_pct": 36.5
    },
    "jockey_trainer": {
-    "jockey": "Darragh O'Keeffe",
+    "jockey": "Mike O'Connor",
     "trainer": "Henry de Bromhead",
-    "runs": 811,
-    "wins": 127,
-    "places": 361,
-    "win_pct": 15.7,
-    "place_pct": 44.5
-   },
-   "jockey_here": {
-    "name": "Darragh O'Keeffe",
-    "runs": 3,
-    "wins": 0,
-    "places": 3,
-    "win_pct": 0.0,
-    "place_pct": 100.0
+    "runs": 384,
+    "wins": 46,
+    "places": 130,
+    "win_pct": 12.0,
+    "place_pct": 33.9
    },
    "trainer_here": {
     "name": "Henry de Bromhead",
@@ -21075,22 +21076,22 @@
     "place_pct": 100.0
    },
    "jockey_at_course": {
-    "name": "Darragh O'Keeffe",
+    "name": "Mike O'Connor",
     "key": "Thurles",
-    "runs": 169,
-    "wins": 21,
-    "places": 54,
-    "win_pct": 12.4,
-    "place_pct": 32.0
+    "runs": 30,
+    "wins": 1,
+    "places": 5,
+    "win_pct": 3.3,
+    "place_pct": 16.7
    },
    "jockey_at_distance": {
-    "name": "Darragh O'Keeffe",
+    "name": "Mike O'Connor",
     "key": "staying",
-    "runs": 3972,
-    "wins": 392,
-    "places": 1261,
-    "win_pct": 9.9,
-    "place_pct": 31.7
+    "runs": 1113,
+    "wins": 77,
+    "places": 249,
+    "win_pct": 6.9,
+    "place_pct": 22.4
    },
    "trainer_at_course": {
     "name": "Henry de Bromhead",
@@ -21487,7 +21488,7 @@
     "off_utc": "2026-11-12T14:38:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-12",
    "status": "has_history",
@@ -25513,12 +25514,12 @@
     }
    ],
    "jockey": {
-    "name": "Darragh O'Keeffe",
-    "runs": 4016,
-    "wins": 393,
-    "places": 1265,
-    "win_pct": 9.8,
-    "place_pct": 31.5
+    "name": "Sean Flanagan",
+    "runs": 2864,
+    "wins": 262,
+    "places": 838,
+    "win_pct": 9.1,
+    "place_pct": 29.3
    },
    "trainer": {
     "name": "Henry de Bromhead",
@@ -25545,21 +25546,13 @@
     "place_pct": 28.8
    },
    "jockey_trainer": {
-    "jockey": "Darragh O'Keeffe",
+    "jockey": "Sean Flanagan",
     "trainer": "Henry de Bromhead",
-    "runs": 811,
-    "wins": 127,
-    "places": 361,
-    "win_pct": 15.7,
-    "place_pct": 44.5
-   },
-   "jockey_here": {
-    "name": "Darragh O'Keeffe",
-    "runs": 2,
-    "wins": 0,
-    "places": 1,
-    "win_pct": 0.0,
-    "place_pct": 50.0
+    "runs": 64,
+    "wins": 12,
+    "places": 25,
+    "win_pct": 18.8,
+    "place_pct": 39.1
    },
    "trainer_here": {
     "name": "Henry de Bromhead",
@@ -25570,22 +25563,22 @@
     "place_pct": 33.3
    },
    "jockey_at_course": {
-    "name": "Darragh O'Keeffe",
+    "name": "Sean Flanagan",
     "key": "Thurles",
-    "runs": 169,
-    "wins": 21,
-    "places": 54,
-    "win_pct": 12.4,
-    "place_pct": 32.0
+    "runs": 99,
+    "wins": 11,
+    "places": 25,
+    "win_pct": 11.1,
+    "place_pct": 25.3
    },
    "jockey_at_distance": {
-    "name": "Darragh O'Keeffe",
+    "name": "Sean Flanagan",
     "key": "staying",
-    "runs": 3972,
-    "wins": 392,
-    "places": 1261,
-    "win_pct": 9.9,
-    "place_pct": 31.7
+    "runs": 2861,
+    "wins": 261,
+    "places": 837,
+    "win_pct": 9.1,
+    "place_pct": 29.3
    },
    "trainer_at_course": {
     "name": "Henry de Bromhead",
@@ -30335,12 +30328,12 @@
     }
    ],
    "jockey": {
-    "name": "Darragh O'Keeffe",
-    "runs": 4016,
-    "wins": 393,
-    "places": 1265,
-    "win_pct": 9.8,
-    "place_pct": 31.5
+    "name": "Alan O'Sullivan(5)",
+    "runs": 305,
+    "wins": 25,
+    "places": 80,
+    "win_pct": 8.2,
+    "place_pct": 26.2
    },
    "trainer": {
     "name": "M Flannery",
@@ -30366,14 +30359,6 @@
     "win_pct": 10.0,
     "place_pct": 32.5
    },
-   "jockey_here": {
-    "name": "Darragh O'Keeffe",
-    "runs": 9,
-    "wins": 0,
-    "places": 5,
-    "win_pct": 0.0,
-    "place_pct": 55.6
-   },
    "trainer_here": {
     "name": "M Flannery",
     "runs": 18,
@@ -30382,23 +30367,14 @@
     "win_pct": 11.1,
     "place_pct": 55.6
    },
-   "jockey_at_course": {
-    "name": "Darragh O'Keeffe",
-    "key": "Thurles",
-    "runs": 169,
-    "wins": 21,
-    "places": 54,
-    "win_pct": 12.4,
-    "place_pct": 32.0
-   },
    "jockey_at_distance": {
-    "name": "Darragh O'Keeffe",
+    "name": "Alan O'Sullivan(5)",
     "key": "staying",
-    "runs": 3972,
-    "wins": 392,
-    "places": 1261,
-    "win_pct": 9.9,
-    "place_pct": 31.7
+    "runs": 304,
+    "wins": 25,
+    "places": 80,
+    "win_pct": 8.2,
+    "place_pct": 26.3
    },
    "trainer_at_distance": {
     "name": "M Flannery",
