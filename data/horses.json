@@ -1,6 +1,6 @@
 {
  "schema": "horses_v5",
- "generated_at": "2026-11-13T16:00:03Z",
+ "generated_at": "2026-11-13T21:30:02Z",
  "source": "Historical race results",
  "note": "Every figure is computed using only races run STRICTLY BEFORE the race it describes — the `as_of` date on each horse. Groups with fewer than two runs are omitted rather than shown as a rate, because a 100% strike rate over one run is noise wearing the clothes of a finding. Our archive runs to 2026-11-12: a horse that ran after that date has those runs missing here, so read `career` as what we hold, not as a complete record.",
  "history_depth": {
@@ -19,7 +19,7 @@
   "still_missing": 970,
   "note": "Sire totals count the progeny we hold. Breeding is complete for races up to 2026-07-22. After that date our live source carries it for about half of runners; we recover most of the rest from the same horse's other races, but not all. Recent races are therefore under-counted in sire totals."
  },
- "collected_through": "2026-11-13T15:00:01Z",
+ "collected_through": "2026-11-13T19:00:01Z",
  "distance_bands": [
   {
    "key": "sprint",
@@ -18371,7 +18371,7 @@
     "off_utc": "2026-11-13T15:30:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-13",
    "status": "has_history",
@@ -19524,12 +19524,12 @@
     }
    ],
    "jockey": {
-    "name": "Theo Gillard",
-    "runs": 1256,
-    "wins": 123,
-    "places": 466,
-    "win_pct": 9.8,
-    "place_pct": 37.1
+    "name": "Peter Kavanagh",
+    "runs": 856,
+    "wins": 76,
+    "places": 264,
+    "win_pct": 8.9,
+    "place_pct": 30.8
    },
    "trainer": {
     "name": "Donald McCain",
@@ -19556,21 +19556,13 @@
     "place_pct": 38.7
    },
    "jockey_trainer": {
-    "jockey": "Theo Gillard",
+    "jockey": "Peter Kavanagh",
     "trainer": "Donald McCain",
-    "runs": 924,
-    "wins": 95,
-    "places": 369,
-    "win_pct": 10.3,
-    "place_pct": 39.9
-   },
-   "jockey_here": {
-    "name": "Theo Gillard",
-    "runs": 2,
-    "wins": 0,
-    "places": 0,
-    "win_pct": 0.0,
-    "place_pct": 0.0
+    "runs": 252,
+    "wins": 33,
+    "places": 104,
+    "win_pct": 13.1,
+    "place_pct": 41.3
    },
    "trainer_here": {
     "name": "Donald McCain",
@@ -19581,22 +19573,22 @@
     "place_pct": 0.0
    },
    "jockey_at_course": {
-    "name": "Theo Gillard",
+    "name": "Peter Kavanagh",
     "key": "Sedgefield",
-    "runs": 81,
-    "wins": 16,
-    "places": 35,
-    "win_pct": 19.8,
-    "place_pct": 43.2
+    "runs": 83,
+    "wins": 6,
+    "places": 21,
+    "win_pct": 7.2,
+    "place_pct": 25.3
    },
    "jockey_at_distance": {
-    "name": "Theo Gillard",
+    "name": "Peter Kavanagh",
     "key": "staying",
-    "runs": 1253,
-    "wins": 123,
-    "places": 466,
-    "win_pct": 9.8,
-    "place_pct": 37.2
+    "runs": 856,
+    "wins": 76,
+    "places": 264,
+    "win_pct": 8.9,
+    "place_pct": 30.8
    },
    "trainer_at_course": {
     "name": "Donald McCain",
@@ -21967,7 +21959,7 @@
     "off_utc": "2026-11-13T16:00:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-13",
    "status": "has_history",
@@ -32821,7 +32813,7 @@
     "off_utc": "2026-11-13T20:00:00+00:00",
     "going": "good",
     "distance": "middle",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-13",
    "status": "has_history",
