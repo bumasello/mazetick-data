@@ -1,6 +1,6 @@
 {
  "schema": "horses_v5",
- "generated_at": "2026-11-15T07:00:03Z",
+ "generated_at": "2026-11-15T12:00:02Z",
  "source": "Historical race results",
  "note": "Every figure is computed using only races run STRICTLY BEFORE the race it describes — the `as_of` date on each horse. Groups with fewer than two runs are omitted rather than shown as a rate, because a 100% strike rate over one run is noise wearing the clothes of a finding. Our archive runs to 2026-11-14: a horse that ran after that date has those runs missing here, so read `career` as what we hold, not as a complete record.",
  "history_depth": {
@@ -19,7 +19,7 @@
   "still_missing": 966,
   "note": "Sire totals count the progeny we hold. Breeding is complete for races up to 2026-07-22. After that date our live source carries it for about half of runners; we recover most of the rest from the same horse's other races, but not all. Recent races are therefore under-counted in sire totals."
  },
- "collected_through": "2026-11-15T06:00:02Z",
+ "collected_through": "2026-11-15T11:00:01Z",
  "distance_bands": [
   {
    "key": "sprint",
@@ -3267,7 +3267,7 @@
     "off_utc": "2026-11-15T12:10:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-15",
    "status": "has_history",
@@ -3659,7 +3659,7 @@
     "off_utc": "2026-11-15T12:10:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-15",
    "status": "has_history",
@@ -4768,7 +4768,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T12:30:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -4936,7 +4936,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T12:30:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -5095,7 +5095,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T12:30:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -5237,7 +5237,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T12:30:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -5388,7 +5388,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T12:30:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -5531,7 +5531,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T12:30:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -5705,7 +5705,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T12:30:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -5814,7 +5814,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T12:30:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -6039,14 +6039,6 @@
     "win_pct": 13.9,
     "place_pct": 30.5
    },
-   "trainer": {
-    "name": "Noel C. Kelly",
-    "runs": 986,
-    "wins": 81,
-    "places": 196,
-    "win_pct": 8.2,
-    "place_pct": 19.9
-   },
    "sire": {
     "name": "Valirann",
     "runs": 1277,
@@ -6063,23 +6055,6 @@
     "win_pct": 11.0,
     "place_pct": 29.4
    },
-   "jockey_trainer": {
-    "jockey": "Mr O McGill(5)",
-    "trainer": "Noel C. Kelly",
-    "runs": 126,
-    "wins": 22,
-    "places": 47,
-    "win_pct": 17.5,
-    "place_pct": 37.3
-   },
-   "trainer_here": {
-    "name": "Noel C. Kelly",
-    "runs": 6,
-    "wins": 0,
-    "places": 1,
-    "win_pct": 0.0,
-    "place_pct": 16.7
-   },
    "jockey_at_distance": {
     "name": "Mr O McGill(5)",
     "key": "staying",
@@ -6088,24 +6063,6 @@
     "places": 78,
     "win_pct": 13.7,
     "place_pct": 30.6
-   },
-   "trainer_at_course": {
-    "name": "Noel C. Kelly",
-    "key": "Navan",
-    "runs": 53,
-    "wins": 0,
-    "places": 1,
-    "win_pct": 0.0,
-    "place_pct": 1.9
-   },
-   "trainer_at_distance": {
-    "name": "Noel C. Kelly",
-    "key": "staying",
-    "runs": 805,
-    "wins": 67,
-    "places": 163,
-    "win_pct": 8.3,
-    "place_pct": 20.2
    },
    "recent_30d": {
     "days": 30,
@@ -8279,14 +8236,6 @@
     "win_pct": 5.0,
     "place_pct": 15.0
    },
-   "trainer": {
-    "name": "Noel C. Kelly",
-    "runs": 986,
-    "wins": 81,
-    "places": 196,
-    "win_pct": 8.2,
-    "place_pct": 19.9
-   },
    "sire": {
     "name": "Getaway",
     "runs": 8547,
@@ -8303,23 +8252,6 @@
     "win_pct": 11.2,
     "place_pct": 33.4
    },
-   "jockey_trainer": {
-    "jockey": "Ms E Dunseath(7)",
-    "trainer": "Noel C. Kelly",
-    "runs": 20,
-    "wins": 1,
-    "places": 3,
-    "win_pct": 5.0,
-    "place_pct": 15.0
-   },
-   "trainer_here": {
-    "name": "Noel C. Kelly",
-    "runs": 3,
-    "wins": 1,
-    "places": 2,
-    "win_pct": 33.3,
-    "place_pct": 66.7
-   },
    "jockey_at_distance": {
     "name": "Ms E Dunseath(7)",
     "key": "staying",
@@ -8328,24 +8260,6 @@
     "places": 2,
     "win_pct": 0.0,
     "place_pct": 11.1
-   },
-   "trainer_at_course": {
-    "name": "Noel C. Kelly",
-    "key": "Navan",
-    "runs": 53,
-    "wins": 0,
-    "places": 1,
-    "win_pct": 0.0,
-    "place_pct": 1.9
-   },
-   "trainer_at_distance": {
-    "name": "Noel C. Kelly",
-    "key": "staying",
-    "runs": 805,
-    "wins": 67,
-    "places": 163,
-    "win_pct": 8.3,
-    "place_pct": 20.2
    },
    "recent_90d": {
     "days": 90,
@@ -9560,7 +9474,7 @@
     "off_utc": "2026-11-15T12:40:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-15",
    "status": "has_history",
@@ -10003,7 +9917,7 @@
     "off_utc": "2026-11-15T12:40:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "reserve"
+    "runner_status": "runner"
    },
    "as_of": "2026-11-15",
    "status": "has_history",
@@ -10035,6 +9949,14 @@
      "place_pct": 0.0
     }
    ],
+   "jockey": {
+    "name": "Ethan O'Sullivan(7)",
+    "runs": 148,
+    "wins": 10,
+    "places": 24,
+    "win_pct": 6.8,
+    "place_pct": 16.2
+   },
    "trainer": {
     "name": "Gordon Elliott",
     "runs": 8717,
@@ -10066,6 +9988,15 @@
     "places": 0,
     "win_pct": 0.0,
     "place_pct": 0.0
+   },
+   "jockey_at_distance": {
+    "name": "Ethan O'Sullivan(7)",
+    "key": "staying",
+    "runs": 146,
+    "wins": 10,
+    "places": 24,
+    "win_pct": 6.8,
+    "place_pct": 16.4
    },
    "trainer_at_course": {
     "name": "Gordon Elliott",
@@ -11878,7 +11809,7 @@
     "off_utc": "2026-11-15T12:50:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-15",
    "status": "has_history",
@@ -14687,7 +14618,7 @@
     "off_utc": "2026-11-15T13:15:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-15",
    "status": "has_history",
@@ -15870,7 +15801,7 @@
     "off_utc": "2026-11-15T13:25:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-15",
    "status": "has_history",
@@ -17290,7 +17221,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T13:43:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -17449,7 +17380,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T13:43:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -17624,7 +17555,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T13:43:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -17760,7 +17691,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T13:43:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -17868,7 +17799,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T13:43:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -18019,7 +17950,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T13:43:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -18117,7 +18048,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T13:43:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -18242,7 +18173,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T13:43:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -18434,7 +18365,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T13:43:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -18559,7 +18490,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T13:43:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -18710,7 +18641,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T13:43:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -18809,9 +18740,9 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T13:43:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-15",
    "status": "has_history",
@@ -18926,7 +18857,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T13:43:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -19077,7 +19008,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T13:43:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -21953,7 +21884,7 @@
     "off_utc": "2026-11-15T14:00:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-15",
    "status": "has_history",
@@ -23720,7 +23651,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T14:20:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -23919,7 +23850,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T14:20:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -24009,7 +23940,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T14:20:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -24152,7 +24083,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T14:20:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -24269,7 +24200,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T14:20:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -24429,7 +24360,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T14:20:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -24537,7 +24468,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T14:20:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -24712,7 +24643,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T14:20:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -24819,7 +24750,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T14:20:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -24978,7 +24909,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T14:20:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -25069,7 +25000,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T14:20:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -25457,7 +25388,7 @@
     "off_utc": "2026-11-15T14:25:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-15",
    "status": "has_history",
@@ -27185,7 +27116,7 @@
     "off_utc": "2026-11-15T14:35:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-15",
    "status": "has_history",
@@ -33921,7 +33852,7 @@
     "off_utc": "2026-11-15T15:10:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-15",
    "status": "has_history",
@@ -36604,7 +36535,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T15:25:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -36721,7 +36652,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T15:25:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -36879,7 +36810,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T15:25:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -37063,7 +36994,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T15:25:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -37231,9 +37162,9 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T15:25:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-15",
    "status": "has_history",
@@ -37391,7 +37322,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T15:25:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -37591,7 +37522,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T15:25:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -37734,7 +37665,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T15:25:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -37941,7 +37872,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T15:25:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -38093,7 +38024,7 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T15:25:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -38285,9 +38216,9 @@
    "race": {
     "venue": "Fontwell",
     "off_utc": "2026-11-15T15:25:00+00:00",
-    "going": "soft",
+    "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-15",
    "status": "has_history",
@@ -40712,7 +40643,7 @@
     "off_utc": "2026-11-15T15:45:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-15",
    "status": "has_history",
