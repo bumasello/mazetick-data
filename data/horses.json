@@ -1,6 +1,6 @@
 {
  "schema": "horses_v5",
- "generated_at": "2026-11-17T12:00:03Z",
+ "generated_at": "2026-11-17T16:00:03Z",
  "source": "Historical race results",
  "note": "Every figure is computed using only races run STRICTLY BEFORE the race it describes — the `as_of` date on each horse. Groups with fewer than two runs are omitted rather than shown as a rate, because a 100% strike rate over one run is noise wearing the clothes of a finding. Our archive runs to 2026-11-16: a horse that ran after that date has those runs missing here, so read `career` as what we hold, not as a complete record.",
  "history_depth": {
@@ -19,7 +19,7 @@
   "still_missing": 963,
   "note": "Sire totals count the progeny we hold. Breeding is complete for races up to 2026-07-22. After that date our live source carries it for about half of runners; we recover most of the rest from the same horse's other races, but not all. Recent races are therefore under-counted in sire totals."
  },
- "collected_through": "2026-11-17T11:00:02Z",
+ "collected_through": "2026-11-17T15:00:02Z",
  "distance_bands": [
   {
    "key": "sprint",
@@ -4827,7 +4827,7 @@
     "off_utc": "2026-11-17T12:40:00+00:00",
     "going": "heavy",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-17",
    "status": "has_history",
@@ -6502,7 +6502,7 @@
     "off_utc": "2026-11-17T12:40:00+00:00",
     "going": "heavy",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-17",
    "status": "has_history",
@@ -8720,12 +8720,12 @@
     }
    ],
    "jockey": {
-    "name": "Eoghan Finegan(5)",
-    "runs": 283,
-    "wins": 28,
-    "places": 75,
-    "win_pct": 9.9,
-    "place_pct": 26.5
+    "name": "James Smith(3)",
+    "runs": 415,
+    "wins": 42,
+    "places": 108,
+    "win_pct": 10.1,
+    "place_pct": 26.0
    },
    "trainer": {
     "name": "W J Martin",
@@ -8760,22 +8760,22 @@
     "place_pct": 60.0
    },
    "jockey_at_course": {
-    "name": "Eoghan Finegan(5)",
+    "name": "James Smith(3)",
     "key": "Limerick",
-    "runs": 10,
-    "wins": 2,
-    "places": 3,
-    "win_pct": 20.0,
-    "place_pct": 30.0
+    "runs": 17,
+    "wins": 1,
+    "places": 5,
+    "win_pct": 5.9,
+    "place_pct": 29.4
    },
    "jockey_at_distance": {
-    "name": "Eoghan Finegan(5)",
+    "name": "James Smith(3)",
     "key": "staying",
-    "runs": 282,
-    "wins": 28,
-    "places": 75,
-    "win_pct": 9.9,
-    "place_pct": 26.6
+    "runs": 415,
+    "wins": 42,
+    "places": 108,
+    "win_pct": 10.1,
+    "place_pct": 26.0
    },
    "trainer_at_distance": {
     "name": "W J Martin",
@@ -8979,7 +8979,7 @@
     "off_utc": "2026-11-17T13:10:00+00:00",
     "going": "heavy",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-17",
    "status": "has_history",
@@ -12456,12 +12456,12 @@
     }
    ],
    "jockey": {
-    "name": "Eoghan Finegan(5)",
-    "runs": 283,
-    "wins": 28,
-    "places": 75,
-    "win_pct": 9.9,
-    "place_pct": 26.5
+    "name": "Conor Smithers(7)",
+    "runs": 333,
+    "wins": 19,
+    "places": 65,
+    "win_pct": 5.7,
+    "place_pct": 19.5
    },
    "trainer": {
     "name": "James M Barcoe",
@@ -12496,22 +12496,22 @@
     "place_pct": 0.0
    },
    "jockey_at_course": {
-    "name": "Eoghan Finegan(5)",
+    "name": "Conor Smithers(7)",
     "key": "Limerick",
-    "runs": 10,
-    "wins": 2,
-    "places": 3,
-    "win_pct": 20.0,
-    "place_pct": 30.0
+    "runs": 15,
+    "wins": 0,
+    "places": 2,
+    "win_pct": 0.0,
+    "place_pct": 13.3
    },
    "jockey_at_distance": {
-    "name": "Eoghan Finegan(5)",
+    "name": "Conor Smithers(7)",
     "key": "staying",
-    "runs": 282,
-    "wins": 28,
-    "places": 75,
-    "win_pct": 9.9,
-    "place_pct": 26.6
+    "runs": 333,
+    "wins": 19,
+    "places": 65,
+    "win_pct": 5.7,
+    "place_pct": 19.5
    },
    "trainer_at_course": {
     "name": "James M Barcoe",
@@ -13023,7 +13023,7 @@
     "off_utc": "2026-11-17T13:40:00+00:00",
     "going": "heavy",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-17",
    "status": "has_history",
@@ -14697,7 +14697,7 @@
     "off_utc": "2026-11-17T13:55:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-17",
    "status": "has_history",
@@ -18825,7 +18825,7 @@
     "off_utc": "2026-11-17T14:25:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-17",
    "status": "has_history",
@@ -21533,12 +21533,12 @@
     }
    ],
    "jockey": {
-    "name": "Eoghan Finegan(5)",
-    "runs": 283,
-    "wins": 28,
-    "places": 75,
-    "win_pct": 9.9,
-    "place_pct": 26.5
+    "name": "James Smith(3)",
+    "runs": 415,
+    "wins": 42,
+    "places": 108,
+    "win_pct": 10.1,
+    "place_pct": 26.0
    },
    "trainer": {
     "name": "W J O'Doherty",
@@ -21573,22 +21573,22 @@
     "place_pct": 0.0
    },
    "jockey_at_course": {
-    "name": "Eoghan Finegan(5)",
+    "name": "James Smith(3)",
     "key": "Limerick",
-    "runs": 10,
-    "wins": 2,
-    "places": 3,
-    "win_pct": 20.0,
-    "place_pct": 30.0
+    "runs": 17,
+    "wins": 1,
+    "places": 5,
+    "win_pct": 5.9,
+    "place_pct": 29.4
    },
    "jockey_at_distance": {
-    "name": "Eoghan Finegan(5)",
+    "name": "James Smith(3)",
     "key": "staying",
-    "runs": 282,
-    "wins": 28,
-    "places": 75,
-    "win_pct": 9.9,
-    "place_pct": 26.6
+    "runs": 415,
+    "wins": 42,
+    "places": 108,
+    "win_pct": 10.1,
+    "place_pct": 26.0
    },
    "trainer_at_course": {
     "name": "W J O'Doherty",
@@ -24102,7 +24102,7 @@
     "off_utc": "2026-11-17T15:00:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-17",
    "status": "has_history",
@@ -25553,7 +25553,7 @@
     "off_utc": "2026-11-17T15:00:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-17",
    "status": "has_history",
@@ -25905,7 +25905,7 @@
     "off_utc": "2026-11-17T15:00:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-17",
    "status": "has_history",
@@ -26161,7 +26161,7 @@
     "off_utc": "2026-11-17T15:00:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-17",
    "status": "has_history",
@@ -26904,7 +26904,7 @@
     "off_utc": "2026-11-17T15:00:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-17",
    "status": "has_history",
@@ -27286,7 +27286,7 @@
     "off_utc": "2026-11-17T15:15:00+00:00",
     "going": "heavy",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-17",
    "status": "has_history",
@@ -27921,7 +27921,7 @@
     "off_utc": "2026-11-17T15:15:00+00:00",
     "going": "heavy",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-17",
    "status": "has_history",
@@ -28314,12 +28314,12 @@
     }
    ],
    "jockey": {
-    "name": "Eoghan Finegan(5)",
-    "runs": 283,
-    "wins": 28,
-    "places": 75,
-    "win_pct": 9.9,
-    "place_pct": 26.5
+    "name": "Niall Moore(5)",
+    "runs": 526,
+    "wins": 32,
+    "places": 105,
+    "win_pct": 6.1,
+    "place_pct": 20.0
    },
    "trainer": {
     "name": "W J Martin",
@@ -28354,22 +28354,22 @@
     "place_pct": 23.1
    },
    "jockey_at_course": {
-    "name": "Eoghan Finegan(5)",
+    "name": "Niall Moore(5)",
     "key": "Limerick",
-    "runs": 10,
+    "runs": 56,
     "wins": 2,
-    "places": 3,
-    "win_pct": 20.0,
-    "place_pct": 30.0
+    "places": 10,
+    "win_pct": 3.6,
+    "place_pct": 17.9
    },
    "jockey_at_distance": {
-    "name": "Eoghan Finegan(5)",
+    "name": "Niall Moore(5)",
     "key": "staying",
-    "runs": 282,
-    "wins": 28,
-    "places": 75,
-    "win_pct": 9.9,
-    "place_pct": 26.6
+    "runs": 526,
+    "wins": 32,
+    "places": 105,
+    "win_pct": 6.1,
+    "place_pct": 20.0
    },
    "trainer_at_distance": {
     "name": "W J Martin",
@@ -29820,7 +29820,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-11-17T15:30:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -29953,7 +29953,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-11-17T15:30:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -30112,7 +30112,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-11-17T15:30:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -30327,7 +30327,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-11-17T15:30:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -30462,7 +30462,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-11-17T15:30:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -30654,7 +30654,7 @@
    "race": {
     "venue": "Carlisle",
     "off_utc": "2026-11-17T15:30:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -31901,7 +31901,7 @@
     "off_utc": "2026-11-17T15:50:00+00:00",
     "going": "heavy",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-17",
    "status": "has_history",
@@ -36577,7 +36577,7 @@
     "off_utc": "2026-11-17T17:30:00+00:00",
     "going": "good",
     "distance": "middle",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-17",
    "status": "has_history",
@@ -37742,7 +37742,7 @@
     "off_utc": "2026-11-17T17:30:00+00:00",
     "going": "good",
     "distance": "middle",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-17",
    "status": "has_history",
@@ -45946,7 +45946,7 @@
     "off_utc": "2026-11-17T19:30:00+00:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-17",
    "status": "has_history",
