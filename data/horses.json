@@ -1,6 +1,6 @@
 {
  "schema": "horses_v5",
- "generated_at": "2026-11-18T12:00:02Z",
+ "generated_at": "2026-11-18T16:00:04Z",
  "source": "Historical race results",
  "note": "Every figure is computed using only races run STRICTLY BEFORE the race it describes — the `as_of` date on each horse. Groups with fewer than two runs are omitted rather than shown as a rate, because a 100% strike rate over one run is noise wearing the clothes of a finding. Our archive runs to 2026-11-17: a horse that ran after that date has those runs missing here, so read `career` as what we hold, not as a complete record.",
  "history_depth": {
@@ -19,7 +19,7 @@
   "still_missing": 958,
   "note": "Sire totals count the progeny we hold. Breeding is complete for races up to 2026-07-22. After that date our live source carries it for about half of runners; we recover most of the rest from the same horse's other races, but not all. Recent races are therefore under-counted in sire totals."
  },
- "collected_through": "2026-11-18T11:00:02Z",
+ "collected_through": "2026-11-18T15:00:02Z",
  "distance_bands": [
   {
    "key": "sprint",
@@ -9248,7 +9248,7 @@
     "off_utc": "2026-11-18T14:08:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-18",
    "status": "has_history",
@@ -17828,7 +17828,7 @@
     "off_utc": "2026-11-18T14:48:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-18",
    "status": "no_record",
@@ -22085,7 +22085,7 @@
     "off_utc": "2026-11-18T15:00:00+00:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "reserve"
+    "runner_status": "runner"
    },
    "as_of": "2026-11-18",
    "status": "has_history",
@@ -22174,6 +22174,14 @@
      "place_pct": 23.4
     }
    ],
+   "jockey": {
+    "name": "Sadhbh Tormey(7)",
+    "runs": 135,
+    "wins": 7,
+    "places": 32,
+    "win_pct": 5.2,
+    "place_pct": 23.7
+   },
    "trainer": {
     "name": "P Sweeney",
     "runs": 87,
@@ -22205,6 +22213,24 @@
     "places": 0,
     "win_pct": 0.0,
     "place_pct": 0.0
+   },
+   "jockey_at_course": {
+    "name": "Sadhbh Tormey(7)",
+    "key": "Dundalk (AW)",
+    "runs": 41,
+    "wins": 2,
+    "places": 8,
+    "win_pct": 4.9,
+    "place_pct": 19.5
+   },
+   "jockey_at_distance": {
+    "name": "Sadhbh Tormey(7)",
+    "key": "mile",
+    "runs": 55,
+    "wins": 1,
+    "places": 11,
+    "win_pct": 1.8,
+    "place_pct": 20.0
    },
    "trainer_at_course": {
     "name": "P Sweeney",
@@ -31569,7 +31595,7 @@
     "off_utc": "2026-11-18T16:00:00+00:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-18",
    "status": "debut",
@@ -35926,7 +35952,7 @@
     "off_utc": "2026-11-18T16:30:00+00:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-18",
    "status": "has_history",
@@ -36077,7 +36103,7 @@
     "off_utc": "2026-11-18T16:30:00+00:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "reserve"
+    "runner_status": "runner"
    },
    "as_of": "2026-11-18",
    "status": "has_history",
@@ -36126,6 +36152,14 @@
      "place_pct": 12.5
     }
    ],
+   "jockey": {
+    "name": "Sam Coen(5)",
+    "runs": 268,
+    "wins": 39,
+    "places": 105,
+    "win_pct": 14.6,
+    "place_pct": 39.2
+   },
    "trainer": {
     "name": "David Marnane",
     "runs": 779,
@@ -36157,6 +36191,24 @@
     "places": 2,
     "win_pct": 11.1,
     "place_pct": 22.2
+   },
+   "jockey_at_course": {
+    "name": "Sam Coen(5)",
+    "key": "Dundalk (AW)",
+    "runs": 77,
+    "wins": 9,
+    "places": 35,
+    "win_pct": 11.7,
+    "place_pct": 45.5
+   },
+   "jockey_at_distance": {
+    "name": "Sam Coen(5)",
+    "key": "mile",
+    "runs": 122,
+    "wins": 23,
+    "places": 57,
+    "win_pct": 18.9,
+    "place_pct": 46.7
    },
    "trainer_at_course": {
     "name": "David Marnane",
@@ -40738,7 +40790,7 @@
     "off_utc": "2026-11-18T17:40:00+00:00",
     "going": "good",
     "distance": "middle",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-18",
    "status": "has_history",
@@ -41530,12 +41582,12 @@
     }
    ],
    "jockey": {
-    "name": "Jack Cleary(5)",
-    "runs": 614,
-    "wins": 28,
-    "places": 115,
-    "win_pct": 4.6,
-    "place_pct": 18.7
+    "name": "Rory Mulligan(5)",
+    "runs": 365,
+    "wins": 30,
+    "places": 95,
+    "win_pct": 8.2,
+    "place_pct": 26.0
    },
    "trainer": {
     "name": "Michael Paul Ryan",
@@ -41570,22 +41622,22 @@
     "place_pct": 0.0
    },
    "jockey_at_course": {
-    "name": "Jack Cleary(5)",
+    "name": "Rory Mulligan(5)",
     "key": "Dundalk (AW)",
-    "runs": 167,
-    "wins": 9,
-    "places": 32,
-    "win_pct": 5.4,
-    "place_pct": 19.2
+    "runs": 114,
+    "wins": 10,
+    "places": 31,
+    "win_pct": 8.8,
+    "place_pct": 27.2
    },
    "jockey_at_distance": {
-    "name": "Jack Cleary(5)",
+    "name": "Rory Mulligan(5)",
     "key": "middle",
-    "runs": 162,
-    "wins": 1,
-    "places": 21,
-    "win_pct": 0.6,
-    "place_pct": 13.0
+    "runs": 88,
+    "wins": 6,
+    "places": 22,
+    "win_pct": 6.8,
+    "place_pct": 25.0
    },
    "recent_30d": {
     "days": 30,
@@ -42114,7 +42166,7 @@
     "off_utc": "2026-11-18T17:40:00+00:00",
     "going": "good",
     "distance": "middle",
-    "runner_status": "reserve"
+    "runner_status": "runner"
    },
    "as_of": "2026-11-18",
    "status": "has_history",
@@ -42171,6 +42223,14 @@
      "place_pct": 0.0
     }
    ],
+   "jockey": {
+    "name": "Patrick McGettigan(5)",
+    "runs": 309,
+    "wins": 23,
+    "places": 74,
+    "win_pct": 7.4,
+    "place_pct": 23.9
+   },
    "trainer": {
     "name": "Thomas Patrick McGettigan",
     "runs": 26,
@@ -42195,6 +42255,14 @@
     "win_pct": 5.3,
     "place_pct": 31.0
    },
+   "jockey_here": {
+    "name": "Patrick McGettigan(5)",
+    "runs": 2,
+    "wins": 0,
+    "places": 0,
+    "win_pct": 0.0,
+    "place_pct": 0.0
+   },
    "trainer_here": {
     "name": "Thomas Patrick McGettigan",
     "runs": 7,
@@ -42202,6 +42270,24 @@
     "places": 0,
     "win_pct": 0.0,
     "place_pct": 0.0
+   },
+   "jockey_at_course": {
+    "name": "Patrick McGettigan(5)",
+    "key": "Dundalk (AW)",
+    "runs": 92,
+    "wins": 9,
+    "places": 27,
+    "win_pct": 9.8,
+    "place_pct": 29.3
+   },
+   "jockey_at_distance": {
+    "name": "Patrick McGettigan(5)",
+    "key": "middle",
+    "runs": 83,
+    "wins": 6,
+    "places": 19,
+    "win_pct": 7.2,
+    "place_pct": 22.9
    },
    "recent_30d": {
     "days": 30,
@@ -51334,7 +51420,7 @@
     "off_utc": "2026-11-18T20:00:00+00:00",
     "going": "soft",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-18",
    "status": "has_history",
