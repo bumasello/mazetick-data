@@ -1,6 +1,6 @@
 {
  "schema": "horses_v5",
- "generated_at": "2026-11-21T12:00:03Z",
+ "generated_at": "2026-11-21T16:00:03Z",
  "source": "Historical race results",
  "note": "Every figure is computed using only races run STRICTLY BEFORE the race it describes — the `as_of` date on each horse. Groups with fewer than two runs are omitted rather than shown as a rate, because a 100% strike rate over one run is noise wearing the clothes of a finding. Our archive runs to 2026-11-20: a horse that ran after that date has those runs missing here, so read `career` as what we hold, not as a complete record.",
  "history_depth": {
@@ -19,7 +19,7 @@
   "still_missing": 943,
   "note": "Sire totals count the progeny we hold. Breeding is complete for races up to 2026-07-22. After that date our live source carries it for about half of runners; we recover most of the rest from the same horse's other races, but not all. Recent races are therefore under-counted in sire totals."
  },
- "collected_through": "2026-11-21T11:00:01Z",
+ "collected_through": "2026-11-21T15:00:02Z",
  "distance_bands": [
   {
    "key": "sprint",
@@ -24731,7 +24731,7 @@
     "off_utc": "2026-11-21T13:23:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-21",
    "status": "has_history",
@@ -30539,7 +30539,7 @@
     "off_utc": "2026-11-21T13:50:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-21",
    "status": "has_history",
@@ -36025,7 +36025,7 @@
     "off_utc": "2026-11-21T14:20:00+00:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-21",
    "status": "has_history",
@@ -38103,12 +38103,12 @@
     }
    ],
    "jockey": {
-    "name": "Jason Watson",
-    "runs": 3448,
-    "wins": 403,
-    "places": 1247,
-    "win_pct": 11.7,
-    "place_pct": 36.2
+    "name": "Cieren Fallon",
+    "runs": 3812,
+    "wins": 543,
+    "places": 1490,
+    "win_pct": 14.2,
+    "place_pct": 39.1
    },
    "trainer": {
     "name": "Michael Appleby",
@@ -38135,21 +38135,13 @@
     "place_pct": 30.5
    },
    "jockey_trainer": {
-    "jockey": "Jason Watson",
+    "jockey": "Cieren Fallon",
     "trainer": "Michael Appleby",
-    "runs": 226,
-    "wins": 31,
-    "places": 90,
-    "win_pct": 13.7,
-    "place_pct": 39.8
-   },
-   "jockey_here": {
-    "name": "Jason Watson",
-    "runs": 4,
-    "wins": 1,
-    "places": 2,
-    "win_pct": 25.0,
-    "place_pct": 50.0
+    "runs": 102,
+    "wins": 8,
+    "places": 28,
+    "win_pct": 7.8,
+    "place_pct": 27.5
    },
    "trainer_here": {
     "name": "Michael Appleby",
@@ -38160,22 +38152,22 @@
     "place_pct": 35.5
    },
    "jockey_at_course": {
-    "name": "Jason Watson",
+    "name": "Cieren Fallon",
     "key": "Lingfield (AW)",
-    "runs": 264,
-    "wins": 31,
-    "places": 100,
-    "win_pct": 11.7,
-    "place_pct": 37.9
+    "runs": 301,
+    "wins": 29,
+    "places": 97,
+    "win_pct": 9.6,
+    "place_pct": 32.2
    },
    "jockey_at_distance": {
-    "name": "Jason Watson",
+    "name": "Cieren Fallon",
     "key": "sprint",
-    "runs": 1122,
-    "wins": 125,
-    "places": 390,
-    "win_pct": 11.1,
-    "place_pct": 34.8
+    "runs": 1126,
+    "wins": 143,
+    "places": 403,
+    "win_pct": 12.7,
+    "place_pct": 35.8
    },
    "trainer_at_course": {
     "name": "Michael Appleby",
@@ -38380,7 +38372,7 @@
     "off_utc": "2026-11-21T14:25:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-21",
    "status": "has_history",
@@ -40383,7 +40375,7 @@
     "off_utc": "2026-11-21T14:33:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-21",
    "status": "has_history",
@@ -41699,7 +41691,7 @@
     "off_utc": "2026-11-21T14:40:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-21",
    "status": "has_history",
@@ -45468,12 +45460,12 @@
     }
    ],
    "jockey": {
-    "name": "Millie Wonnacott(5)",
-    "runs": 396,
-    "wins": 49,
-    "places": 141,
-    "win_pct": 12.4,
-    "place_pct": 35.6
+    "name": "Amie Waugh(3)",
+    "runs": 920,
+    "wins": 53,
+    "places": 202,
+    "win_pct": 5.8,
+    "place_pct": 22.0
    },
    "trainer": {
     "name": "Barry Murtagh",
@@ -45499,14 +45491,6 @@
     "win_pct": 6.1,
     "place_pct": 28.2
    },
-   "jockey_here": {
-    "name": "Millie Wonnacott(5)",
-    "runs": 2,
-    "wins": 1,
-    "places": 1,
-    "win_pct": 50.0,
-    "place_pct": 50.0
-   },
    "trainer_here": {
     "name": "Barry Murtagh",
     "runs": 4,
@@ -45515,14 +45499,23 @@
     "win_pct": 0.0,
     "place_pct": 0.0
    },
+   "jockey_at_course": {
+    "name": "Amie Waugh(3)",
+    "key": "Newcastle (AW)",
+    "runs": 164,
+    "wins": 10,
+    "places": 34,
+    "win_pct": 6.1,
+    "place_pct": 20.7
+   },
    "jockey_at_distance": {
-    "name": "Millie Wonnacott(5)",
+    "name": "Amie Waugh(3)",
     "key": "middle",
-    "runs": 61,
-    "wins": 6,
-    "places": 14,
-    "win_pct": 9.8,
-    "place_pct": 23.0
+    "runs": 140,
+    "wins": 11,
+    "places": 31,
+    "win_pct": 7.9,
+    "place_pct": 22.1
    },
    "trainer_at_course": {
     "name": "Barry Murtagh",
@@ -63875,7 +63868,7 @@
    "by_course": [],
    "by_distance": [],
    "jockey": {
-    "name": "Ben Kennedy(7)",
+    "name": "Benjamin P Kennedy",
     "runs": 333,
     "wins": 7,
     "places": 35,
@@ -63907,7 +63900,7 @@
     "place_pct": 22.0
    },
    "jockey_trainer": {
-    "jockey": "Ben Kennedy(7)",
+    "jockey": "Benjamin P Kennedy",
     "trainer": "D Buckley",
     "runs": 10,
     "wins": 0,
@@ -63916,7 +63909,7 @@
     "place_pct": 20.0
    },
    "jockey_at_course": {
-    "name": "Ben Kennedy(7)",
+    "name": "Benjamin P Kennedy",
     "key": "Punchestown",
     "runs": 34,
     "wins": 0,
@@ -63925,7 +63918,7 @@
     "place_pct": 11.8
    },
    "jockey_at_distance": {
-    "name": "Ben Kennedy(7)",
+    "name": "Benjamin P Kennedy",
     "key": "staying",
     "runs": 306,
     "wins": 6,
@@ -71250,7 +71243,7 @@
     "off_utc": "2026-11-21T18:00:00+00:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-21",
    "status": "has_history",
