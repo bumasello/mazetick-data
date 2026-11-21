@@ -1,6 +1,6 @@
 {
  "schema": "horses_v5",
- "generated_at": "2026-11-21T07:00:03Z",
+ "generated_at": "2026-11-21T12:00:03Z",
  "source": "Historical race results",
  "note": "Every figure is computed using only races run STRICTLY BEFORE the race it describes — the `as_of` date on each horse. Groups with fewer than two runs are omitted rather than shown as a rate, because a 100% strike rate over one run is noise wearing the clothes of a finding. Our archive runs to 2026-11-20: a horse that ran after that date has those runs missing here, so read `career` as what we hold, not as a complete record.",
  "history_depth": {
@@ -19,7 +19,7 @@
   "still_missing": 943,
   "note": "Sire totals count the progeny we hold. Breeding is complete for races up to 2026-07-22. After that date our live source carries it for about half of runners; we recover most of the rest from the same horse's other races, but not all. Recent races are therefore under-counted in sire totals."
  },
- "collected_through": "2026-11-21T06:00:02Z",
+ "collected_through": "2026-11-21T11:00:01Z",
  "distance_bands": [
   {
    "key": "sprint",
@@ -1289,7 +1289,7 @@
     "off_utc": "2026-11-21T11:00:00+00:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-21",
    "status": "has_history",
@@ -4790,7 +4790,7 @@
     "off_utc": "2026-11-21T11:53:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-21",
    "status": "debut",
@@ -6027,7 +6027,7 @@
     "off_utc": "2026-11-21T11:53:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "reserve"
+    "runner_status": "runner"
    },
    "as_of": "2026-11-21",
    "status": "debut",
@@ -6041,6 +6041,14 @@
    "by_going": [],
    "by_course": [],
    "by_distance": [],
+   "jockey": {
+    "name": "Conor Stone-Walsh",
+    "runs": 927,
+    "wins": 66,
+    "places": 213,
+    "win_pct": 7.1,
+    "place_pct": 23.0
+   },
    "trainer": {
     "name": "Mrs Denise Foster",
     "runs": 931,
@@ -6064,6 +6072,24 @@
     "places": 122,
     "win_pct": 10.3,
     "place_pct": 32.2
+   },
+   "jockey_at_course": {
+    "name": "Conor Stone-Walsh",
+    "key": "Punchestown",
+    "runs": 52,
+    "wins": 2,
+    "places": 9,
+    "win_pct": 3.8,
+    "place_pct": 17.3
+   },
+   "jockey_at_distance": {
+    "name": "Conor Stone-Walsh",
+    "key": "staying",
+    "runs": 684,
+    "wins": 38,
+    "places": 144,
+    "win_pct": 5.6,
+    "place_pct": 21.1
    },
    "trainer_at_course": {
     "name": "Mrs Denise Foster",
@@ -10592,7 +10618,7 @@
     "off_utc": "2026-11-21T12:20:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-21",
    "status": "has_history",
@@ -12419,7 +12445,7 @@
     "off_utc": "2026-11-21T12:28:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-21",
    "status": "has_history",
@@ -13613,7 +13639,7 @@
     "off_utc": "2026-11-21T12:28:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "reserve"
+    "runner_status": "runner"
    },
    "as_of": "2026-11-21",
    "status": "has_history",
@@ -13654,6 +13680,14 @@
      "place_pct": 66.7
     }
    ],
+   "jockey": {
+    "name": "Shane O'Callaghan(3)",
+    "runs": 808,
+    "wins": 51,
+    "places": 184,
+    "win_pct": 6.3,
+    "place_pct": 22.8
+   },
    "trainer": {
     "name": "Ross O'Sullivan",
     "runs": 1726,
@@ -13678,6 +13712,15 @@
     "win_pct": 11.9,
     "place_pct": 33.5
    },
+   "jockey_trainer": {
+    "jockey": "Shane O'Callaghan(3)",
+    "trainer": "Ross O'Sullivan",
+    "runs": 84,
+    "wins": 5,
+    "places": 22,
+    "win_pct": 6.0,
+    "place_pct": 26.2
+   },
    "trainer_here": {
     "name": "Ross O'Sullivan",
     "runs": 3,
@@ -13685,6 +13728,24 @@
     "places": 2,
     "win_pct": 66.7,
     "place_pct": 66.7
+   },
+   "jockey_at_course": {
+    "name": "Shane O'Callaghan(3)",
+    "key": "Punchestown",
+    "runs": 91,
+    "wins": 3,
+    "places": 14,
+    "win_pct": 3.3,
+    "place_pct": 15.4
+   },
+   "jockey_at_distance": {
+    "name": "Shane O'Callaghan(3)",
+    "key": "staying",
+    "runs": 807,
+    "wins": 51,
+    "places": 184,
+    "win_pct": 6.3,
+    "place_pct": 22.8
    },
    "trainer_at_course": {
     "name": "Ross O'Sullivan",
@@ -18707,7 +18768,7 @@
     "off_utc": "2026-11-21T12:55:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-21",
    "status": "has_history",
@@ -25089,7 +25150,7 @@
     "off_utc": "2026-11-21T13:30:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-21",
    "status": "has_history",
@@ -28858,7 +28919,7 @@
     "off_utc": "2026-11-21T13:45:00+00:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-21",
    "status": "has_history",
@@ -34656,7 +34717,7 @@
     "off_utc": "2026-11-21T14:05:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-21",
    "status": "has_history",
@@ -37752,7 +37813,7 @@
     "off_utc": "2026-11-21T14:20:00+00:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-21",
    "status": "has_history",
@@ -54861,7 +54922,7 @@
     "off_utc": "2026-11-21T15:23:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-21",
    "status": "has_history",
@@ -62518,7 +62579,7 @@
     "off_utc": "2026-11-21T15:48:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-21",
    "status": "has_history",
@@ -74762,7 +74823,7 @@
     "off_utc": "2026-11-21T18:30:00+00:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-21",
    "status": "has_history",
