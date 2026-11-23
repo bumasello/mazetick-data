@@ -1,6 +1,6 @@
 {
  "schema": "horses_v5",
- "generated_at": "2026-11-23T12:00:03Z",
+ "generated_at": "2026-11-23T16:00:03Z",
  "source": "Historical race results",
  "note": "Every figure is computed using only races run STRICTLY BEFORE the race it describes — the `as_of` date on each horse. Groups with fewer than two runs are omitted rather than shown as a rate, because a 100% strike rate over one run is noise wearing the clothes of a finding. Our archive runs to 2026-11-22: a horse that ran after that date has those runs missing here, so read `career` as what we hold, not as a complete record.",
  "history_depth": {
@@ -19,7 +19,7 @@
   "still_missing": 936,
   "note": "Sire totals count the progeny we hold. Breeding is complete for races up to 2026-07-22. After that date our live source carries it for about half of runners; we recover most of the rest from the same horse's other races, but not all. Recent races are therefore under-counted in sire totals."
  },
- "collected_through": "2026-11-23T11:00:02Z",
+ "collected_through": "2026-11-23T15:00:01Z",
  "distance_bands": [
   {
    "key": "sprint",
@@ -4874,7 +4874,7 @@
     "off_utc": "2026-11-23T12:55:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-23",
    "status": "has_history",
@@ -5955,12 +5955,12 @@
     }
    ],
    "jockey": {
-    "name": "Brian Hughes",
-    "runs": 5282,
-    "wins": 930,
-    "places": 2551,
-    "win_pct": 17.6,
-    "place_pct": 48.3
+    "name": "Kielan Woods",
+    "runs": 2170,
+    "wins": 273,
+    "places": 878,
+    "win_pct": 12.6,
+    "place_pct": 40.5
    },
    "trainer": {
     "name": "Donald McCain",
@@ -5987,13 +5987,13 @@
     "place_pct": 27.9
    },
    "jockey_trainer": {
-    "jockey": "Brian Hughes",
+    "jockey": "Kielan Woods",
     "trainer": "Donald McCain",
-    "runs": 1759,
-    "wins": 361,
-    "places": 941,
-    "win_pct": 20.5,
-    "place_pct": 53.5
+    "runs": 13,
+    "wins": 0,
+    "places": 2,
+    "win_pct": 0.0,
+    "place_pct": 15.4
    },
    "trainer_here": {
     "name": "Donald McCain",
@@ -6004,22 +6004,22 @@
     "place_pct": 60.0
    },
    "jockey_at_course": {
-    "name": "Brian Hughes",
+    "name": "Kielan Woods",
     "key": "Bangor-on-Dee",
-    "runs": 264,
-    "wins": 59,
-    "places": 153,
-    "win_pct": 22.3,
-    "place_pct": 58.0
+    "runs": 58,
+    "wins": 10,
+    "places": 25,
+    "win_pct": 17.2,
+    "place_pct": 43.1
    },
    "jockey_at_distance": {
-    "name": "Brian Hughes",
+    "name": "Kielan Woods",
     "key": "staying",
-    "runs": 5271,
-    "wins": 930,
-    "places": 2551,
-    "win_pct": 17.6,
-    "place_pct": 48.4
+    "runs": 2170,
+    "wins": 273,
+    "places": 878,
+    "win_pct": 12.6,
+    "place_pct": 40.5
    },
    "trainer_at_course": {
     "name": "Donald McCain",
@@ -10917,12 +10917,12 @@
     }
    ],
    "jockey": {
-    "name": "Charlie Deutsch",
-    "runs": 1873,
-    "wins": 247,
-    "places": 703,
-    "win_pct": 13.2,
-    "place_pct": 37.5
+    "name": "Stan Sheppard",
+    "runs": 1328,
+    "wins": 198,
+    "places": 532,
+    "win_pct": 14.9,
+    "place_pct": 40.1
    },
    "trainer": {
     "name": "Venetia Williams",
@@ -10948,23 +10948,6 @@
     "win_pct": 8.6,
     "place_pct": 24.6
    },
-   "jockey_trainer": {
-    "jockey": "Charlie Deutsch",
-    "trainer": "Venetia Williams",
-    "runs": 1241,
-    "wins": 184,
-    "places": 501,
-    "win_pct": 14.8,
-    "place_pct": 40.4
-   },
-   "jockey_here": {
-    "name": "Charlie Deutsch",
-    "runs": 4,
-    "wins": 2,
-    "places": 3,
-    "win_pct": 50.0,
-    "place_pct": 75.0
-   },
    "trainer_here": {
     "name": "Venetia Williams",
     "runs": 8,
@@ -10974,22 +10957,22 @@
     "place_pct": 62.5
    },
    "jockey_at_course": {
-    "name": "Charlie Deutsch",
+    "name": "Stan Sheppard",
     "key": "Bangor-on-Dee",
-    "runs": 85,
-    "wins": 15,
-    "places": 24,
-    "win_pct": 17.6,
-    "place_pct": 28.2
+    "runs": 48,
+    "wins": 5,
+    "places": 15,
+    "win_pct": 10.4,
+    "place_pct": 31.2
    },
    "jockey_at_distance": {
-    "name": "Charlie Deutsch",
+    "name": "Stan Sheppard",
     "key": "staying",
-    "runs": 1868,
-    "wins": 247,
-    "places": 702,
-    "win_pct": 13.2,
-    "place_pct": 37.6
+    "runs": 1328,
+    "wins": 198,
+    "places": 532,
+    "win_pct": 14.9,
+    "place_pct": 40.1
    },
    "trainer_at_course": {
     "name": "Venetia Williams",
@@ -14739,12 +14722,12 @@
    "by_course": [],
    "by_distance": [],
    "jockey": {
-    "name": "Charlie Deutsch",
-    "runs": 1873,
-    "wins": 247,
-    "places": 703,
-    "win_pct": 13.2,
-    "place_pct": 37.5
+    "name": "Stan Sheppard",
+    "runs": 1328,
+    "wins": 198,
+    "places": 532,
+    "win_pct": 14.9,
+    "place_pct": 40.1
    },
    "trainer": {
     "name": "Mel Rowley",
@@ -14762,32 +14745,23 @@
     "win_pct": 16.0,
     "place_pct": 36.0
    },
-   "jockey_trainer": {
-    "jockey": "Charlie Deutsch",
-    "trainer": "Mel Rowley",
-    "runs": 166,
-    "wins": 22,
-    "places": 62,
-    "win_pct": 13.3,
-    "place_pct": 37.3
-   },
    "jockey_at_course": {
-    "name": "Charlie Deutsch",
+    "name": "Stan Sheppard",
     "key": "Bangor-on-Dee",
-    "runs": 85,
-    "wins": 15,
-    "places": 24,
-    "win_pct": 17.6,
-    "place_pct": 28.2
+    "runs": 48,
+    "wins": 5,
+    "places": 15,
+    "win_pct": 10.4,
+    "place_pct": 31.2
    },
    "jockey_at_distance": {
-    "name": "Charlie Deutsch",
+    "name": "Stan Sheppard",
     "key": "staying",
-    "runs": 1868,
-    "wins": 247,
-    "places": 702,
-    "win_pct": 13.2,
-    "place_pct": 37.6
+    "runs": 1328,
+    "wins": 198,
+    "places": 532,
+    "win_pct": 14.9,
+    "place_pct": 40.1
    },
    "trainer_at_course": {
     "name": "Mel Rowley",
@@ -16987,7 +16961,7 @@
     "off_utc": "2026-11-23T14:42:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-23",
    "status": "has_history",
@@ -17995,12 +17969,12 @@
    "by_course": [],
    "by_distance": [],
    "jockey": {
-    "name": "Charlie Deutsch",
-    "runs": 1873,
-    "wins": 247,
-    "places": 703,
-    "win_pct": 13.2,
-    "place_pct": 37.5
+    "name": "Bryan Carver",
+    "runs": 1350,
+    "wins": 172,
+    "places": 485,
+    "win_pct": 12.7,
+    "place_pct": 35.9
    },
    "trainer": {
     "name": "Mel Rowley",
@@ -18026,32 +18000,23 @@
     "win_pct": 10.4,
     "place_pct": 34.0
    },
-   "jockey_trainer": {
-    "jockey": "Charlie Deutsch",
-    "trainer": "Mel Rowley",
-    "runs": 166,
-    "wins": 22,
-    "places": 62,
-    "win_pct": 13.3,
-    "place_pct": 37.3
-   },
    "jockey_at_course": {
-    "name": "Charlie Deutsch",
+    "name": "Bryan Carver",
     "key": "Bangor-on-Dee",
-    "runs": 85,
-    "wins": 15,
-    "places": 24,
-    "win_pct": 17.6,
-    "place_pct": 28.2
+    "runs": 23,
+    "wins": 0,
+    "places": 3,
+    "win_pct": 0.0,
+    "place_pct": 13.0
    },
    "jockey_at_distance": {
-    "name": "Charlie Deutsch",
+    "name": "Bryan Carver",
     "key": "staying",
-    "runs": 1868,
-    "wins": 247,
-    "places": 702,
-    "win_pct": 13.2,
-    "place_pct": 37.6
+    "runs": 1350,
+    "wins": 172,
+    "places": 485,
+    "win_pct": 12.7,
+    "place_pct": 35.9
    },
    "trainer_at_course": {
     "name": "Mel Rowley",
@@ -21481,12 +21446,12 @@
    "by_course": [],
    "by_distance": [],
    "jockey": {
-    "name": "Charlie Deutsch",
-    "runs": 1873,
-    "wins": 247,
-    "places": 703,
-    "win_pct": 13.2,
-    "place_pct": 37.5
+    "name": "Stan Sheppard",
+    "runs": 1328,
+    "wins": 198,
+    "places": 532,
+    "win_pct": 14.9,
+    "place_pct": 40.1
    },
    "trainer": {
     "name": "Mel Rowley",
@@ -21512,32 +21477,23 @@
     "win_pct": 12.3,
     "place_pct": 35.5
    },
-   "jockey_trainer": {
-    "jockey": "Charlie Deutsch",
-    "trainer": "Mel Rowley",
-    "runs": 166,
-    "wins": 22,
-    "places": 62,
-    "win_pct": 13.3,
-    "place_pct": 37.3
-   },
    "jockey_at_course": {
-    "name": "Charlie Deutsch",
+    "name": "Stan Sheppard",
     "key": "Bangor-on-Dee",
-    "runs": 85,
-    "wins": 15,
-    "places": 24,
-    "win_pct": 17.6,
-    "place_pct": 28.2
+    "runs": 48,
+    "wins": 5,
+    "places": 15,
+    "win_pct": 10.4,
+    "place_pct": 31.2
    },
    "jockey_at_distance": {
-    "name": "Charlie Deutsch",
+    "name": "Stan Sheppard",
     "key": "staying",
-    "runs": 1868,
-    "wins": 247,
-    "places": 702,
-    "win_pct": 13.2,
-    "place_pct": 37.6
+    "runs": 1328,
+    "wins": 198,
+    "places": 532,
+    "win_pct": 14.9,
+    "place_pct": 40.1
    },
    "trainer_at_course": {
     "name": "Mel Rowley",
@@ -48811,7 +48767,7 @@
     "off_utc": "2026-11-23T19:00:00+00:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-23",
    "status": "has_history",
@@ -59432,7 +59388,7 @@
     "off_utc": "2026-11-23T20:00:00+00:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-23",
    "status": "has_history",
