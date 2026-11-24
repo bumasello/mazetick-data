@@ -1,6 +1,6 @@
 {
  "schema": "horses_v5",
- "generated_at": "2026-11-24T07:00:03Z",
+ "generated_at": "2026-11-24T12:00:03Z",
  "source": "Historical race results",
  "note": "Every figure is computed using only races run STRICTLY BEFORE the race it describes — the `as_of` date on each horse. Groups with fewer than two runs are omitted rather than shown as a rate, because a 100% strike rate over one run is noise wearing the clothes of a finding. Our archive runs to 2026-11-23: a horse that ran after that date has those runs missing here, so read `career` as what we hold, not as a complete record.",
  "history_depth": {
@@ -19,7 +19,7 @@
   "still_missing": 934,
   "note": "Sire totals count the progeny we hold. Breeding is complete for races up to 2026-07-22. After that date our live source carries it for about half of runners; we recover most of the rest from the same horse's other races, but not all. Recent races are therefore under-counted in sire totals."
  },
- "collected_through": "2026-11-24T06:00:01Z",
+ "collected_through": "2026-11-24T11:00:02Z",
  "distance_bands": [
   {
    "key": "sprint",
@@ -3713,7 +3713,7 @@
     "off_utc": "2026-11-24T12:08:00+00:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-24",
    "status": "has_history",
@@ -5775,12 +5775,12 @@
     }
    ],
    "jockey": {
-    "name": "Charlie Deutsch",
-    "runs": 1879,
-    "wins": 247,
-    "places": 704,
-    "win_pct": 13.1,
-    "place_pct": 37.5
+    "name": "Charlie Hammond",
+    "runs": 1695,
+    "wins": 204,
+    "places": 618,
+    "win_pct": 12.0,
+    "place_pct": 36.5
    },
    "trainer": {
     "name": "Mel Rowley",
@@ -5807,13 +5807,21 @@
     "place_pct": 48.3
    },
    "jockey_trainer": {
-    "jockey": "Charlie Deutsch",
+    "jockey": "Charlie Hammond",
     "trainer": "Mel Rowley",
-    "runs": 169,
-    "wins": 22,
-    "places": 62,
-    "win_pct": 13.0,
-    "place_pct": 36.7
+    "runs": 30,
+    "wins": 4,
+    "places": 10,
+    "win_pct": 13.3,
+    "place_pct": 33.3
+   },
+   "jockey_here": {
+    "name": "Charlie Hammond",
+    "runs": 3,
+    "wins": 0,
+    "places": 2,
+    "win_pct": 0.0,
+    "place_pct": 66.7
    },
    "trainer_here": {
     "name": "Mel Rowley",
@@ -5824,22 +5832,22 @@
     "place_pct": 40.0
    },
    "jockey_at_course": {
-    "name": "Charlie Deutsch",
+    "name": "Charlie Hammond",
     "key": "Southwell",
-    "runs": 32,
-    "wins": 4,
-    "places": 14,
+    "runs": 104,
+    "wins": 13,
+    "places": 40,
     "win_pct": 12.5,
-    "place_pct": 43.8
+    "place_pct": 38.5
    },
    "jockey_at_distance": {
-    "name": "Charlie Deutsch",
+    "name": "Charlie Hammond",
     "key": "staying",
-    "runs": 1874,
-    "wins": 247,
-    "places": 703,
-    "win_pct": 13.2,
-    "place_pct": 37.5
+    "runs": 1693,
+    "wins": 204,
+    "places": 618,
+    "win_pct": 12.0,
+    "place_pct": 36.5
    },
    "trainer_at_course": {
     "name": "Mel Rowley",
@@ -6882,7 +6890,7 @@
     "off_utc": "2026-11-24T12:38:00+00:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-24",
    "status": "debut",
@@ -8531,6 +8539,14 @@
      "place_pct": 100.0
     }
    ],
+   "jockey": {
+    "name": "Dylan Johnston",
+    "runs": 650,
+    "wins": 81,
+    "places": 254,
+    "win_pct": 12.5,
+    "place_pct": 39.1
+   },
    "trainer": {
     "name": "Henry de Bromhead",
     "runs": 5006,
@@ -8562,6 +8578,15 @@
     "places": 2,
     "win_pct": 0.0,
     "place_pct": 100.0
+   },
+   "jockey_at_distance": {
+    "name": "Dylan Johnston",
+    "key": "staying",
+    "runs": 649,
+    "wins": 81,
+    "places": 254,
+    "win_pct": 12.5,
+    "place_pct": 39.1
    },
    "trainer_at_course": {
     "name": "Henry de Bromhead",
@@ -19589,12 +19614,12 @@
     }
    ],
    "jockey": {
-    "name": "Charlie Deutsch",
-    "runs": 1879,
-    "wins": 247,
-    "places": 704,
-    "win_pct": 13.1,
-    "place_pct": 37.5
+    "name": "Liam Harrison",
+    "runs": 1046,
+    "wins": 129,
+    "places": 389,
+    "win_pct": 12.3,
+    "place_pct": 37.2
    },
    "trainer": {
     "name": "Tom Ward",
@@ -19629,22 +19654,22 @@
     "place_pct": 0.0
    },
    "jockey_at_course": {
-    "name": "Charlie Deutsch",
+    "name": "Liam Harrison",
     "key": "Southwell",
-    "runs": 32,
-    "wins": 4,
-    "places": 14,
-    "win_pct": 12.5,
-    "place_pct": 43.8
+    "runs": 50,
+    "wins": 5,
+    "places": 20,
+    "win_pct": 10.0,
+    "place_pct": 40.0
    },
    "jockey_at_distance": {
-    "name": "Charlie Deutsch",
+    "name": "Liam Harrison",
     "key": "staying",
-    "runs": 1874,
-    "wins": 247,
-    "places": 703,
-    "win_pct": 13.2,
-    "place_pct": 37.5
+    "runs": 1046,
+    "wins": 129,
+    "places": 389,
+    "win_pct": 12.3,
+    "place_pct": 37.2
    },
    "trainer_at_course": {
     "name": "Tom Ward",
@@ -20742,7 +20767,7 @@
     "off_utc": "2026-11-24T13:38:00+00:00",
     "going": "good",
     "distance": "middle",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-24",
    "status": "has_history",
@@ -22820,7 +22845,7 @@
     "off_utc": "2026-11-24T13:45:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-24",
    "status": "has_history",
@@ -30923,7 +30948,7 @@
     "off_utc": "2026-11-24T14:15:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-24",
    "status": "has_history",
@@ -31991,7 +32016,7 @@
     "off_utc": "2026-11-24T14:15:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-24",
    "status": "has_history",
@@ -32735,7 +32760,7 @@
     "off_utc": "2026-11-24T14:15:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-24",
    "status": "has_history",
@@ -33137,7 +33162,7 @@
     "off_utc": "2026-11-24T14:15:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "reserve"
+    "runner_status": "runner"
    },
    "as_of": "2026-11-24",
    "status": "has_history",
@@ -33194,6 +33219,14 @@
      "place_pct": 16.7
     }
    ],
+   "jockey": {
+    "name": "Harry Sexton(7)",
+    "runs": 422,
+    "wins": 17,
+    "places": 74,
+    "win_pct": 4.0,
+    "place_pct": 17.5
+   },
    "trainer": {
     "name": "John Joseph Hanlon",
     "runs": 2042,
@@ -33218,6 +33251,15 @@
     "win_pct": 8.0,
     "place_pct": 26.6
    },
+   "jockey_trainer": {
+    "jockey": "Harry Sexton(7)",
+    "trainer": "John Joseph Hanlon",
+    "runs": 84,
+    "wins": 3,
+    "places": 14,
+    "win_pct": 3.6,
+    "place_pct": 16.7
+   },
    "trainer_here": {
     "name": "John Joseph Hanlon",
     "runs": 2,
@@ -33225,6 +33267,24 @@
     "places": 0,
     "win_pct": 0.0,
     "place_pct": 0.0
+   },
+   "jockey_at_course": {
+    "name": "Harry Sexton(7)",
+    "key": "Tramore",
+    "runs": 20,
+    "wins": 0,
+    "places": 1,
+    "win_pct": 0.0,
+    "place_pct": 5.0
+   },
+   "jockey_at_distance": {
+    "name": "Harry Sexton(7)",
+    "key": "staying",
+    "runs": 419,
+    "wins": 17,
+    "places": 74,
+    "win_pct": 4.1,
+    "place_pct": 17.7
    },
    "trainer_at_course": {
     "name": "John Joseph Hanlon",
@@ -33278,7 +33338,7 @@
     "off_utc": "2026-11-24T14:15:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "reserve"
+    "runner_status": "runner"
    },
    "as_of": "2026-11-24",
    "status": "has_history",
@@ -33301,6 +33361,14 @@
      "place_pct": 0.0
     }
    ],
+   "jockey": {
+    "name": "Mike O'Connor",
+    "runs": 1145,
+    "wins": 78,
+    "places": 260,
+    "win_pct": 6.8,
+    "place_pct": 22.7
+   },
    "trainer": {
     "name": "Henry de Bromhead",
     "runs": 5006,
@@ -33325,6 +33393,15 @@
     "win_pct": 17.4,
     "place_pct": 45.1
    },
+   "jockey_trainer": {
+    "jockey": "Mike O'Connor",
+    "trainer": "Henry de Bromhead",
+    "runs": 394,
+    "wins": 46,
+    "places": 135,
+    "win_pct": 11.7,
+    "place_pct": 34.3
+   },
    "trainer_here": {
     "name": "Henry de Bromhead",
     "runs": 2,
@@ -33332,6 +33409,24 @@
     "places": 0,
     "win_pct": 0.0,
     "place_pct": 0.0
+   },
+   "jockey_at_course": {
+    "name": "Mike O'Connor",
+    "key": "Tramore",
+    "runs": 107,
+    "wins": 5,
+    "places": 24,
+    "win_pct": 4.7,
+    "place_pct": 22.4
+   },
+   "jockey_at_distance": {
+    "name": "Mike O'Connor",
+    "key": "staying",
+    "runs": 1132,
+    "wins": 77,
+    "places": 257,
+    "win_pct": 6.8,
+    "place_pct": 22.7
    },
    "trainer_at_course": {
     "name": "Henry de Bromhead",
@@ -36821,7 +36916,7 @@
     "off_utc": "2026-11-24T14:38:00+00:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-24",
    "status": "has_history",
@@ -38376,7 +38471,7 @@
     "off_utc": "2026-11-24T14:38:00+00:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-24",
    "status": "has_history",
@@ -40705,7 +40800,7 @@
     "off_utc": "2026-11-24T14:45:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-24",
    "status": "has_history",
@@ -41837,7 +41932,7 @@
     "off_utc": "2026-11-24T14:45:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "reserve"
+    "runner_status": "runner"
    },
    "as_of": "2026-11-24",
    "status": "has_history",
@@ -41851,6 +41946,14 @@
    "by_going": [],
    "by_course": [],
    "by_distance": [],
+   "jockey": {
+    "name": "Michael Kenneally(3)",
+    "runs": 350,
+    "wins": 34,
+    "places": 90,
+    "win_pct": 9.7,
+    "place_pct": 25.7
+   },
    "trainer": {
     "name": "Denis Gerard Hogan",
     "runs": 3532,
@@ -41874,6 +41977,24 @@
     "places": 781,
     "win_pct": 9.5,
     "place_pct": 29.9
+   },
+   "jockey_at_course": {
+    "name": "Michael Kenneally(3)",
+    "key": "Tramore",
+    "runs": 18,
+    "wins": 3,
+    "places": 6,
+    "win_pct": 16.7,
+    "place_pct": 33.3
+   },
+   "jockey_at_distance": {
+    "name": "Michael Kenneally(3)",
+    "key": "staying",
+    "runs": 350,
+    "wins": 34,
+    "places": 90,
+    "win_pct": 9.7,
+    "place_pct": 25.7
    },
    "trainer_at_course": {
     "name": "Denis Gerard Hogan",
@@ -48715,7 +48836,7 @@
     "off_utc": "2026-11-24T15:15:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-24",
    "status": "has_history",
@@ -49616,7 +49737,7 @@
     "off_utc": "2026-11-24T15:15:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-24",
    "status": "has_history",
@@ -51139,7 +51260,7 @@
     "off_utc": "2026-11-24T15:15:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "reserve"
+    "runner_status": "runner"
    },
    "as_of": "2026-11-24",
    "status": "has_history",
@@ -51188,6 +51309,14 @@
      "place_pct": 12.5
     }
    ],
+   "jockey": {
+    "name": "J. J. Slevin",
+    "runs": 2731,
+    "wins": 246,
+    "places": 746,
+    "win_pct": 9.0,
+    "place_pct": 27.3
+   },
    "trainer": {
     "name": "P A Fahy",
     "runs": 905,
@@ -51212,6 +51341,15 @@
     "win_pct": 8.5,
     "place_pct": 25.1
    },
+   "jockey_trainer": {
+    "jockey": "J. J. Slevin",
+    "trainer": "P A Fahy",
+    "runs": 17,
+    "wins": 0,
+    "places": 1,
+    "win_pct": 0.0,
+    "place_pct": 5.9
+   },
    "trainer_here": {
     "name": "P A Fahy",
     "runs": 8,
@@ -51219,6 +51357,24 @@
     "places": 1,
     "win_pct": 12.5,
     "place_pct": 12.5
+   },
+   "jockey_at_course": {
+    "name": "J. J. Slevin",
+    "key": "Tramore",
+    "runs": 134,
+    "wins": 10,
+    "places": 28,
+    "win_pct": 7.5,
+    "place_pct": 20.9
+   },
+   "jockey_at_distance": {
+    "name": "J. J. Slevin",
+    "key": "staying",
+    "runs": 2718,
+    "wins": 246,
+    "places": 745,
+    "win_pct": 9.1,
+    "place_pct": 27.4
    },
    "trainer_at_course": {
     "name": "P A Fahy",
@@ -56261,7 +56417,7 @@
     "off_utc": "2026-11-24T15:50:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-24",
    "status": "has_history",
@@ -60452,7 +60608,7 @@
     "off_utc": "2026-11-24T17:00:00+00:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-24",
    "status": "has_history",
@@ -64303,7 +64459,7 @@
     "off_utc": "2026-11-24T18:30:00+00:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-24",
    "status": "has_history",
@@ -65932,7 +66088,7 @@
     "off_utc": "2026-11-24T19:00:00+00:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-24",
    "status": "has_history",
@@ -67084,7 +67240,7 @@
     "off_utc": "2026-11-24T19:30:00+00:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-24",
    "status": "has_history",
@@ -71434,7 +71590,7 @@
     "off_utc": "2026-11-24T20:30:00+00:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-24",
    "status": "has_history",
