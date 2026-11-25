@@ -1,6 +1,6 @@
 {
  "schema": "horses_v5",
- "generated_at": "2026-11-25T12:00:03Z",
+ "generated_at": "2026-11-25T16:00:02Z",
  "source": "Historical race results",
  "note": "Every figure is computed using only races run STRICTLY BEFORE the race it describes — the `as_of` date on each horse. Groups with fewer than two runs are omitted rather than shown as a rate, because a 100% strike rate over one run is noise wearing the clothes of a finding. Our archive runs to 2026-11-24: a horse that ran after that date has those runs missing here, so read `career` as what we hold, not as a complete record.",
  "history_depth": {
@@ -19,7 +19,7 @@
   "still_missing": 932,
   "note": "Sire totals count the progeny we hold. Breeding is complete for races up to 2026-07-22. After that date our live source carries it for about half of runners; we recover most of the rest from the same horse's other races, but not all. Recent races are therefore under-counted in sire totals."
  },
- "collected_through": "2026-11-25T11:00:02Z",
+ "collected_through": "2026-11-25T15:00:01Z",
  "distance_bands": [
   {
    "key": "sprint",
@@ -10719,7 +10719,7 @@
     "off_utc": "2026-11-25T13:46:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-25",
    "status": "has_history",
@@ -16327,7 +16327,7 @@
     "off_utc": "2026-11-25T14:16:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-25",
    "status": "has_history",
@@ -23555,7 +23555,7 @@
     "off_utc": "2026-11-25T14:46:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-25",
    "status": "has_history",
@@ -24209,7 +24209,7 @@
     "off_utc": "2026-11-25T14:46:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-25",
    "status": "has_history",
@@ -25575,12 +25575,12 @@
    "by_course": [],
    "by_distance": [],
    "jockey": {
-    "name": "Billy Garritty",
-    "runs": 2561,
-    "wins": 264,
-    "places": 828,
-    "win_pct": 10.3,
-    "place_pct": 32.3
+    "name": "Joanna Mason",
+    "runs": 2891,
+    "wins": 302,
+    "places": 916,
+    "win_pct": 10.4,
+    "place_pct": 31.7
    },
    "trainer": {
     "name": "Michael & David Easterby",
@@ -25607,31 +25607,31 @@
     "place_pct": 32.2
    },
    "jockey_trainer": {
-    "jockey": "Billy Garritty",
+    "jockey": "Joanna Mason",
     "trainer": "Michael & David Easterby",
-    "runs": 548,
-    "wins": 56,
-    "places": 169,
-    "win_pct": 10.2,
-    "place_pct": 30.8
+    "runs": 1001,
+    "wins": 109,
+    "places": 329,
+    "win_pct": 10.9,
+    "place_pct": 32.9
    },
    "jockey_at_course": {
-    "name": "Billy Garritty",
+    "name": "Joanna Mason",
     "key": "Newcastle (AW)",
-    "runs": 402,
-    "wins": 39,
-    "places": 126,
-    "win_pct": 9.7,
-    "place_pct": 31.3
+    "runs": 382,
+    "wins": 32,
+    "places": 109,
+    "win_pct": 8.4,
+    "place_pct": 28.5
    },
    "jockey_at_distance": {
-    "name": "Billy Garritty",
+    "name": "Joanna Mason",
     "key": "sprint",
-    "runs": 899,
-    "wins": 99,
-    "places": 308,
-    "win_pct": 11.0,
-    "place_pct": 34.3
+    "runs": 1082,
+    "wins": 118,
+    "places": 329,
+    "win_pct": 10.9,
+    "place_pct": 30.4
    },
    "trainer_at_course": {
     "name": "Michael & David Easterby",
@@ -34330,7 +34330,7 @@
     "off_utc": "2026-11-25T15:31:00+00:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "reserve"
+    "runner_status": "runner"
    },
    "as_of": "2026-11-25",
    "status": "has_history",
@@ -34467,6 +34467,14 @@
      "place_pct": 15.0
     }
    ],
+   "jockey": {
+    "name": "Nina Doherty(10)",
+    "runs": 26,
+    "wins": 0,
+    "places": 7,
+    "win_pct": 0.0,
+    "place_pct": 26.9
+   },
    "trainer": {
     "name": "Thomas Coyle",
     "runs": 308,
@@ -34498,6 +34506,24 @@
     "places": 7,
     "win_pct": 5.7,
     "place_pct": 20.0
+   },
+   "jockey_at_course": {
+    "name": "Nina Doherty(10)",
+    "key": "Dundalk (AW)",
+    "runs": 16,
+    "wins": 0,
+    "places": 5,
+    "win_pct": 0.0,
+    "place_pct": 31.2
+   },
+   "jockey_at_distance": {
+    "name": "Nina Doherty(10)",
+    "key": "mile",
+    "runs": 14,
+    "wins": 0,
+    "places": 5,
+    "win_pct": 0.0,
+    "place_pct": 35.7
    },
    "trainer_at_course": {
     "name": "Thomas Coyle",
@@ -75102,7 +75128,7 @@
     "off_utc": "2026-11-25T20:30:00+00:00",
     "going": "soft",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-25",
    "status": "has_history",
