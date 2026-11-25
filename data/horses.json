@@ -1,6 +1,6 @@
 {
  "schema": "horses_v5",
- "generated_at": "2026-11-25T16:00:02Z",
+ "generated_at": "2026-11-25T21:30:02Z",
  "source": "Historical race results",
  "note": "Every figure is computed using only races run STRICTLY BEFORE the race it describes — the `as_of` date on each horse. Groups with fewer than two runs are omitted rather than shown as a rate, because a 100% strike rate over one run is noise wearing the clothes of a finding. Our archive runs to 2026-11-24: a horse that ran after that date has those runs missing here, so read `career` as what we hold, not as a complete record.",
  "history_depth": {
@@ -19,7 +19,7 @@
   "still_missing": 932,
   "note": "Sire totals count the progeny we hold. Breeding is complete for races up to 2026-07-22. After that date our live source carries it for about half of runners; we recover most of the rest from the same horse's other races, but not all. Recent races are therefore under-counted in sire totals."
  },
- "collected_through": "2026-11-25T15:00:01Z",
+ "collected_through": "2026-11-25T19:00:02Z",
  "distance_bands": [
   {
    "key": "sprint",
@@ -35380,7 +35380,7 @@
     "off_utc": "2026-11-25T15:37:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-25",
    "status": "debut",
@@ -41287,12 +41287,12 @@
    "by_course": [],
    "by_distance": [],
    "jockey": {
-    "name": "Finley Marsh",
-    "runs": 2131,
-    "wins": 247,
-    "places": 712,
-    "win_pct": 11.6,
-    "place_pct": 33.4
+    "name": "Luke Morris",
+    "runs": 7046,
+    "wins": 700,
+    "places": 2321,
+    "win_pct": 9.9,
+    "place_pct": 32.9
    },
    "trainer": {
     "name": "Ed de Giles",
@@ -41318,23 +41318,32 @@
     "win_pct": 10.4,
     "place_pct": 31.1
    },
+   "jockey_trainer": {
+    "jockey": "Luke Morris",
+    "trainer": "Ed de Giles",
+    "runs": 44,
+    "wins": 3,
+    "places": 12,
+    "win_pct": 6.8,
+    "place_pct": 27.3
+   },
    "jockey_at_course": {
-    "name": "Finley Marsh",
+    "name": "Luke Morris",
     "key": "Kempton (AW)",
-    "runs": 262,
-    "wins": 27,
-    "places": 79,
-    "win_pct": 10.3,
-    "place_pct": 30.2
+    "runs": 862,
+    "wins": 64,
+    "places": 241,
+    "win_pct": 7.4,
+    "place_pct": 28.0
    },
    "jockey_at_distance": {
-    "name": "Finley Marsh",
+    "name": "Luke Morris",
     "key": "mile",
-    "runs": 908,
-    "wins": 103,
-    "places": 276,
-    "win_pct": 11.3,
-    "place_pct": 30.4
+    "runs": 2919,
+    "wins": 258,
+    "places": 914,
+    "win_pct": 8.8,
+    "place_pct": 31.3
    },
    "trainer_at_course": {
     "name": "Ed de Giles",
@@ -60938,12 +60947,12 @@
     }
    ],
    "jockey": {
-    "name": "Molly Keegan-Price(7)",
-    "runs": 36,
-    "wins": 6,
-    "places": 10,
-    "win_pct": 16.7,
-    "place_pct": 27.8
+    "name": "Oliver Carmichael(5)",
+    "runs": 203,
+    "wins": 17,
+    "places": 46,
+    "win_pct": 8.4,
+    "place_pct": 22.7
    },
    "trainer": {
     "name": "Gemma Tutty",
@@ -60978,13 +60987,13 @@
     "place_pct": 50.0
    },
    "jockey_at_distance": {
-    "name": "Molly Keegan-Price(7)",
+    "name": "Oliver Carmichael(5)",
     "key": "mile",
-    "runs": 16,
-    "wins": 3,
-    "places": 3,
-    "win_pct": 18.8,
-    "place_pct": 18.8
+    "runs": 97,
+    "wins": 8,
+    "places": 19,
+    "win_pct": 8.2,
+    "place_pct": 19.6
    },
    "trainer_at_course": {
     "name": "Gemma Tutty",
