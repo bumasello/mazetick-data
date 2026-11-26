@@ -1,6 +1,6 @@
 {
  "schema": "horses_v5",
- "generated_at": "2026-11-26T12:00:02Z",
+ "generated_at": "2026-11-26T16:00:03Z",
  "source": "Historical race results",
  "note": "Every figure is computed using only races run STRICTLY BEFORE the race it describes — the `as_of` date on each horse. Groups with fewer than two runs are omitted rather than shown as a rate, because a 100% strike rate over one run is noise wearing the clothes of a finding. Our archive runs to 2026-11-25: a horse that ran after that date has those runs missing here, so read `career` as what we hold, not as a complete record.",
  "history_depth": {
@@ -19,7 +19,7 @@
   "still_missing": 928,
   "note": "Sire totals count the progeny we hold. Breeding is complete for races up to 2026-07-22. After that date our live source carries it for about half of runners; we recover most of the rest from the same horse's other races, but not all. Recent races are therefore under-counted in sire totals."
  },
- "collected_through": "2026-11-26T11:00:02Z",
+ "collected_through": "2026-11-26T15:00:02Z",
  "distance_bands": [
   {
    "key": "sprint",
@@ -5633,12 +5633,12 @@
     }
    ],
    "jockey": {
-    "name": "Jonathan England",
-    "runs": 1014,
-    "wins": 133,
-    "places": 396,
-    "win_pct": 13.1,
-    "place_pct": 39.1
+    "name": "Gavin Sheehan",
+    "runs": 3027,
+    "wins": 538,
+    "places": 1386,
+    "win_pct": 17.8,
+    "place_pct": 45.8
    },
    "trainer": {
     "name": "Sam England",
@@ -5664,23 +5664,6 @@
     "win_pct": 13.5,
     "place_pct": 37.3
    },
-   "jockey_trainer": {
-    "jockey": "Jonathan England",
-    "trainer": "Sam England",
-    "runs": 987,
-    "wins": 132,
-    "places": 391,
-    "win_pct": 13.4,
-    "place_pct": 39.6
-   },
-   "jockey_here": {
-    "name": "Jonathan England",
-    "runs": 7,
-    "wins": 0,
-    "places": 0,
-    "win_pct": 0.0,
-    "place_pct": 0.0
-   },
    "trainer_here": {
     "name": "Sam England",
     "runs": 12,
@@ -5690,22 +5673,22 @@
     "place_pct": 0.0
    },
    "jockey_at_course": {
-    "name": "Jonathan England",
+    "name": "Gavin Sheehan",
     "key": "Market Rasen",
-    "runs": 73,
-    "wins": 9,
-    "places": 30,
-    "win_pct": 12.3,
-    "place_pct": 41.1
+    "runs": 98,
+    "wins": 15,
+    "places": 46,
+    "win_pct": 15.3,
+    "place_pct": 46.9
    },
    "jockey_at_distance": {
-    "name": "Jonathan England",
+    "name": "Gavin Sheehan",
     "key": "staying",
-    "runs": 977,
-    "wins": 130,
-    "places": 390,
-    "win_pct": 13.3,
-    "place_pct": 39.9
+    "runs": 3022,
+    "wins": 538,
+    "places": 1384,
+    "win_pct": 17.8,
+    "place_pct": 45.8
    },
    "trainer_at_course": {
     "name": "Sam England",
@@ -8063,6 +8046,14 @@
     "win_pct": 34.4,
     "place_pct": 63.2
    },
+   "trainer": {
+    "name": "W. P. Mullins",
+    "runs": 6505,
+    "wins": 1550,
+    "places": 3201,
+    "win_pct": 23.8,
+    "place_pct": 49.2
+   },
    "sire": {
     "name": "Ocovango",
     "runs": 2625,
@@ -8079,6 +8070,15 @@
     "win_pct": 9.5,
     "place_pct": 29.9
    },
+   "jockey_trainer": {
+    "jockey": "Paul Townend",
+    "trainer": "W. P. Mullins",
+    "runs": 2018,
+    "wins": 726,
+    "places": 1311,
+    "win_pct": 36.0,
+    "place_pct": 65.0
+   },
    "jockey_here": {
     "name": "Paul Townend",
     "runs": 5,
@@ -8086,6 +8086,14 @@
     "places": 3,
     "win_pct": 60.0,
     "place_pct": 60.0
+   },
+   "trainer_here": {
+    "name": "W. P. Mullins",
+    "runs": 14,
+    "wins": 6,
+    "places": 8,
+    "win_pct": 42.9,
+    "place_pct": 57.1
    },
    "jockey_at_course": {
     "name": "Paul Townend",
@@ -8104,6 +8112,24 @@
     "places": 1391,
     "win_pct": 34.4,
     "place_pct": 63.3
+   },
+   "trainer_at_course": {
+    "name": "W. P. Mullins",
+    "key": "Thurles",
+    "runs": 219,
+    "wins": 77,
+    "places": 152,
+    "win_pct": 35.2,
+    "place_pct": 69.4
+   },
+   "trainer_at_distance": {
+    "name": "W. P. Mullins",
+    "key": "staying",
+    "runs": 6353,
+    "wins": 1531,
+    "places": 3153,
+    "win_pct": 24.1,
+    "place_pct": 49.6
    },
    "days_since_last_run": 211,
    "ident": {
@@ -8196,6 +8222,14 @@
     "win_pct": 10.4,
     "place_pct": 30.6
    },
+   "trainer": {
+    "name": "W. P. Mullins",
+    "runs": 6505,
+    "wins": 1550,
+    "places": 3201,
+    "win_pct": 23.8,
+    "place_pct": 49.2
+   },
    "sire": {
     "name": "Sulamani",
     "runs": 1725,
@@ -8211,6 +8245,23 @@
     "places": 636,
     "win_pct": 12.9,
     "place_pct": 38.4
+   },
+   "jockey_trainer": {
+    "jockey": "Danny Mullins",
+    "trainer": "W. P. Mullins",
+    "runs": 822,
+    "wins": 124,
+    "places": 344,
+    "win_pct": 15.1,
+    "place_pct": 41.8
+   },
+   "trainer_here": {
+    "name": "W. P. Mullins",
+    "runs": 15,
+    "wins": 6,
+    "places": 10,
+    "win_pct": 40.0,
+    "place_pct": 66.7
    },
    "jockey_at_course": {
     "name": "Danny Mullins",
@@ -8229,6 +8280,24 @@
     "places": 913,
     "win_pct": 10.4,
     "place_pct": 30.5
+   },
+   "trainer_at_course": {
+    "name": "W. P. Mullins",
+    "key": "Thurles",
+    "runs": 219,
+    "wins": 77,
+    "places": 152,
+    "win_pct": 35.2,
+    "place_pct": 69.4
+   },
+   "trainer_at_distance": {
+    "name": "W. P. Mullins",
+    "key": "staying",
+    "runs": 6353,
+    "wins": 1531,
+    "places": 3153,
+    "win_pct": 24.1,
+    "place_pct": 49.6
    },
    "days_since_last_run": 208,
    "ident": {
@@ -8321,6 +8390,14 @@
     "win_pct": 8.6,
     "place_pct": 28.0
    },
+   "trainer": {
+    "name": "W. P. Mullins",
+    "runs": 6505,
+    "wins": 1550,
+    "places": 3201,
+    "win_pct": 23.8,
+    "place_pct": 49.2
+   },
    "sire": {
     "name": "Coastal Path",
     "runs": 1197,
@@ -8336,6 +8413,23 @@
     "places": 470,
     "win_pct": 13.7,
     "place_pct": 39.3
+   },
+   "jockey_trainer": {
+    "jockey": "Daniel King",
+    "trainer": "W. P. Mullins",
+    "runs": 19,
+    "wins": 1,
+    "places": 6,
+    "win_pct": 5.3,
+    "place_pct": 31.6
+   },
+   "trainer_here": {
+    "name": "W. P. Mullins",
+    "runs": 13,
+    "wins": 3,
+    "places": 9,
+    "win_pct": 23.1,
+    "place_pct": 69.2
    },
    "jockey_at_course": {
     "name": "Daniel King",
@@ -8354,6 +8448,24 @@
     "places": 325,
     "win_pct": 8.4,
     "place_pct": 26.6
+   },
+   "trainer_at_course": {
+    "name": "W. P. Mullins",
+    "key": "Thurles",
+    "runs": 219,
+    "wins": 77,
+    "places": 152,
+    "win_pct": 35.2,
+    "place_pct": 69.4
+   },
+   "trainer_at_distance": {
+    "name": "W. P. Mullins",
+    "key": "staying",
+    "runs": 6353,
+    "wins": 1531,
+    "places": 3153,
+    "win_pct": 24.1,
+    "place_pct": 49.6
    },
    "days_since_last_run": 230,
    "ident": {
@@ -8462,6 +8574,14 @@
     "win_pct": 7.6,
     "place_pct": 24.6
    },
+   "trainer": {
+    "name": "W. P. Mullins",
+    "runs": 6505,
+    "wins": 1550,
+    "places": 3201,
+    "win_pct": 23.8,
+    "place_pct": 49.2
+   },
    "sire": {
     "name": "Valirann",
     "runs": 1287,
@@ -8478,6 +8598,15 @@
     "win_pct": 11.0,
     "place_pct": 29.3
    },
+   "jockey_trainer": {
+    "jockey": "Sean O'Keeffe",
+    "trainer": "W. P. Mullins",
+    "runs": 311,
+    "wins": 36,
+    "places": 110,
+    "win_pct": 11.6,
+    "place_pct": 35.4
+   },
    "jockey_here": {
     "name": "Sean O'Keeffe",
     "runs": 4,
@@ -8485,6 +8614,14 @@
     "places": 1,
     "win_pct": 25.0,
     "place_pct": 25.0
+   },
+   "trainer_here": {
+    "name": "W. P. Mullins",
+    "runs": 16,
+    "wins": 4,
+    "places": 9,
+    "win_pct": 25.0,
+    "place_pct": 56.2
    },
    "jockey_at_course": {
     "name": "Sean O'Keeffe",
@@ -8503,6 +8640,24 @@
     "places": 695,
     "win_pct": 7.6,
     "place_pct": 24.6
+   },
+   "trainer_at_course": {
+    "name": "W. P. Mullins",
+    "key": "Thurles",
+    "runs": 219,
+    "wins": 77,
+    "places": 152,
+    "win_pct": 35.2,
+    "place_pct": 69.4
+   },
+   "trainer_at_distance": {
+    "name": "W. P. Mullins",
+    "key": "staying",
+    "runs": 6353,
+    "wins": 1531,
+    "places": 3153,
+    "win_pct": 24.1,
+    "place_pct": 49.6
    },
    "days_since_last_run": 229,
    "ident": {
@@ -16937,7 +17092,7 @@
     "off_utc": "2026-11-26T13:47:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-26",
    "status": "has_history",
@@ -17499,7 +17654,7 @@
     "off_utc": "2026-11-26T13:47:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-26",
    "status": "has_history",
@@ -18044,7 +18199,7 @@
     "off_utc": "2026-11-26T13:47:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-26",
    "status": "no_record",
@@ -19307,7 +19462,7 @@
     "off_utc": "2026-11-26T13:56:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-26",
    "status": "has_history",
@@ -19823,6 +19978,23 @@
     "win_pct": 34.4,
     "place_pct": 63.2
    },
+   "trainer": {
+    "name": "W. P. Mullins",
+    "runs": 6505,
+    "wins": 1550,
+    "places": 3201,
+    "win_pct": 23.8,
+    "place_pct": 49.2
+   },
+   "jockey_trainer": {
+    "jockey": "Paul Townend",
+    "trainer": "W. P. Mullins",
+    "runs": 2018,
+    "wins": 726,
+    "places": 1311,
+    "win_pct": 36.0,
+    "place_pct": 65.0
+   },
    "jockey_at_course": {
     "name": "Paul Townend",
     "key": "Thurles",
@@ -19840,6 +20012,24 @@
     "places": 1391,
     "win_pct": 34.4,
     "place_pct": 63.3
+   },
+   "trainer_at_course": {
+    "name": "W. P. Mullins",
+    "key": "Thurles",
+    "runs": 219,
+    "wins": 77,
+    "places": 152,
+    "win_pct": 35.2,
+    "place_pct": 69.4
+   },
+   "trainer_at_distance": {
+    "name": "W. P. Mullins",
+    "key": "staying",
+    "runs": 6353,
+    "wins": 1531,
+    "places": 3153,
+    "win_pct": 24.1,
+    "place_pct": 49.6
    },
    "ident": {
     "age": "3",
@@ -20348,7 +20538,7 @@
     "off_utc": "2026-11-26T14:05:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-26",
    "status": "has_history",
@@ -25242,6 +25432,14 @@
     "win_pct": 32.5,
     "place_pct": 62.5
    },
+   "trainer": {
+    "name": "W. P. Mullins",
+    "runs": 6505,
+    "wins": 1550,
+    "places": 3201,
+    "win_pct": 23.8,
+    "place_pct": 49.2
+   },
    "sire": {
     "name": "Ivanhowe",
     "runs": 71,
@@ -25257,6 +25455,15 @@
     "places": 27,
     "win_pct": 16.9,
     "place_pct": 38.0
+   },
+   "jockey_trainer": {
+    "jockey": "Mr P. W. Mullins",
+    "trainer": "W. P. Mullins",
+    "runs": 775,
+    "wins": 263,
+    "places": 500,
+    "win_pct": 33.9,
+    "place_pct": 64.5
    },
    "jockey_at_course": {
     "name": "Mr P. W. Mullins",
@@ -25275,6 +25482,24 @@
     "places": 586,
     "win_pct": 32.3,
     "place_pct": 62.5
+   },
+   "trainer_at_course": {
+    "name": "W. P. Mullins",
+    "key": "Thurles",
+    "runs": 219,
+    "wins": 77,
+    "places": 152,
+    "win_pct": 35.2,
+    "place_pct": 69.4
+   },
+   "trainer_at_distance": {
+    "name": "W. P. Mullins",
+    "key": "staying",
+    "runs": 6353,
+    "wins": 1531,
+    "places": 3153,
+    "win_pct": 24.1,
+    "place_pct": 49.6
    },
    "ident": {
     "age": "4",
@@ -26326,7 +26551,7 @@
     "off_utc": "2026-11-26T14:31:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-26",
    "status": "has_history",
@@ -29840,7 +30065,7 @@
     "off_utc": "2026-11-26T14:57:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-26",
    "status": "has_history",
@@ -31076,7 +31301,7 @@
    "race": {
     "venue": "Thurles",
     "off_utc": "2026-11-26T15:06:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -31184,7 +31409,7 @@
    "race": {
     "venue": "Thurles",
     "off_utc": "2026-11-26T15:06:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -31309,7 +31534,7 @@
    "race": {
     "venue": "Thurles",
     "off_utc": "2026-11-26T15:06:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -31475,7 +31700,7 @@
    "race": {
     "venue": "Thurles",
     "off_utc": "2026-11-26T15:06:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -31618,7 +31843,7 @@
    "race": {
     "venue": "Thurles",
     "off_utc": "2026-11-26T15:06:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -31726,7 +31951,7 @@
    "race": {
     "venue": "Thurles",
     "off_utc": "2026-11-26T15:06:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -31851,7 +32076,7 @@
    "race": {
     "venue": "Thurles",
     "off_utc": "2026-11-26T15:06:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -31960,7 +32185,7 @@
    "race": {
     "venue": "Thurles",
     "off_utc": "2026-11-26T15:06:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -32050,7 +32275,7 @@
    "race": {
     "venue": "Thurles",
     "off_utc": "2026-11-26T15:06:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -32176,7 +32401,7 @@
    "race": {
     "venue": "Thurles",
     "off_utc": "2026-11-26T15:06:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -32200,6 +32425,14 @@
     "win_pct": 34.4,
     "place_pct": 63.2
    },
+   "trainer": {
+    "name": "W. P. Mullins",
+    "runs": 6505,
+    "wins": 1550,
+    "places": 3201,
+    "win_pct": 23.8,
+    "place_pct": 49.2
+   },
    "sire": {
     "name": "Beaumec De Houelle",
     "runs": 206,
@@ -32215,6 +32448,15 @@
     "places": 85,
     "win_pct": 14.1,
     "place_pct": 41.3
+   },
+   "jockey_trainer": {
+    "jockey": "Paul Townend",
+    "trainer": "W. P. Mullins",
+    "runs": 2018,
+    "wins": 726,
+    "places": 1311,
+    "win_pct": 36.0,
+    "place_pct": 65.0
    },
    "jockey_at_course": {
     "name": "Paul Townend",
@@ -32234,6 +32476,24 @@
     "win_pct": 34.4,
     "place_pct": 63.3
    },
+   "trainer_at_course": {
+    "name": "W. P. Mullins",
+    "key": "Thurles",
+    "runs": 219,
+    "wins": 77,
+    "places": 152,
+    "win_pct": 35.2,
+    "place_pct": 69.4
+   },
+   "trainer_at_distance": {
+    "name": "W. P. Mullins",
+    "key": "staying",
+    "runs": 6353,
+    "wins": 1531,
+    "places": 3153,
+    "win_pct": 24.1,
+    "place_pct": 49.6
+   },
    "ident": {
     "age": "4",
     "sex": "gelding",
@@ -32249,7 +32509,7 @@
    "race": {
     "venue": "Thurles",
     "off_utc": "2026-11-26T15:06:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -32400,7 +32660,7 @@
    "race": {
     "venue": "Thurles",
     "off_utc": "2026-11-26T15:06:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -32542,7 +32802,7 @@
    "race": {
     "venue": "Thurles",
     "off_utc": "2026-11-26T15:06:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -32642,7 +32902,7 @@
    "race": {
     "venue": "Thurles",
     "off_utc": "2026-11-26T15:06:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -32751,7 +33011,7 @@
    "race": {
     "venue": "Thurles",
     "off_utc": "2026-11-26T15:06:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -32919,7 +33179,7 @@
    "race": {
     "venue": "Thurles",
     "off_utc": "2026-11-26T15:06:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -33027,7 +33287,7 @@
    "race": {
     "venue": "Thurles",
     "off_utc": "2026-11-26T15:06:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -33117,7 +33377,7 @@
    "race": {
     "venue": "Thurles",
     "off_utc": "2026-11-26T15:06:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -36233,7 +36493,7 @@
    "race": {
     "venue": "Thurles",
     "off_utc": "2026-11-26T15:39:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -36401,7 +36661,7 @@
    "race": {
     "venue": "Thurles",
     "off_utc": "2026-11-26T15:39:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -36535,7 +36795,7 @@
    "race": {
     "venue": "Thurles",
     "off_utc": "2026-11-26T15:39:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -36684,7 +36944,7 @@
    "race": {
     "venue": "Thurles",
     "off_utc": "2026-11-26T15:39:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -36717,6 +36977,14 @@
     "win_pct": 34.4,
     "place_pct": 63.2
    },
+   "trainer": {
+    "name": "W. P. Mullins",
+    "runs": 6505,
+    "wins": 1550,
+    "places": 3201,
+    "win_pct": 23.8,
+    "place_pct": 49.2
+   },
    "sire": {
     "name": "Siyouni",
     "runs": 2992,
@@ -36732,6 +37000,23 @@
     "places": 63,
     "win_pct": 11.4,
     "place_pct": 31.3
+   },
+   "jockey_trainer": {
+    "jockey": "Paul Townend",
+    "trainer": "W. P. Mullins",
+    "runs": 2018,
+    "wins": 726,
+    "places": 1311,
+    "win_pct": 36.0,
+    "place_pct": 65.0
+   },
+   "trainer_here": {
+    "name": "W. P. Mullins",
+    "runs": 2,
+    "wins": 0,
+    "places": 0,
+    "win_pct": 0.0,
+    "place_pct": 0.0
    },
    "jockey_at_course": {
     "name": "Paul Townend",
@@ -36750,6 +37035,24 @@
     "places": 1391,
     "win_pct": 34.4,
     "place_pct": 63.3
+   },
+   "trainer_at_course": {
+    "name": "W. P. Mullins",
+    "key": "Thurles",
+    "runs": 219,
+    "wins": 77,
+    "places": 152,
+    "win_pct": 35.2,
+    "place_pct": 69.4
+   },
+   "trainer_at_distance": {
+    "name": "W. P. Mullins",
+    "key": "staying",
+    "runs": 6353,
+    "wins": 1531,
+    "places": 3153,
+    "win_pct": 24.1,
+    "place_pct": 49.6
    },
    "recent_30d": {
     "days": 30,
@@ -36783,7 +37086,7 @@
    "race": {
     "venue": "Thurles",
     "off_utc": "2026-11-26T15:39:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -37014,7 +37317,7 @@
    "race": {
     "venue": "Thurles",
     "off_utc": "2026-11-26T15:39:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -37230,7 +37533,7 @@
    "race": {
     "venue": "Thurles",
     "off_utc": "2026-11-26T15:39:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -37396,7 +37699,7 @@
    "race": {
     "venue": "Thurles",
     "off_utc": "2026-11-26T15:39:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -37579,7 +37882,7 @@
    "race": {
     "venue": "Thurles",
     "off_utc": "2026-11-26T15:39:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -37793,7 +38096,7 @@
    "race": {
     "venue": "Thurles",
     "off_utc": "2026-11-26T15:39:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -37944,7 +38247,7 @@
    "race": {
     "venue": "Thurles",
     "off_utc": "2026-11-26T15:39:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -38126,7 +38429,7 @@
    "race": {
     "venue": "Thurles",
     "off_utc": "2026-11-26T15:39:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -38260,7 +38563,7 @@
    "race": {
     "venue": "Thurles",
     "off_utc": "2026-11-26T15:39:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -38419,7 +38722,7 @@
    "race": {
     "venue": "Thurles",
     "off_utc": "2026-11-26T15:39:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -38618,7 +38921,7 @@
    "race": {
     "venue": "Thurles",
     "off_utc": "2026-11-26T15:39:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -38856,7 +39159,7 @@
    "race": {
     "venue": "Thurles",
     "off_utc": "2026-11-26T15:39:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "non_runner"
    },
@@ -39063,7 +39366,7 @@
    "race": {
     "venue": "Thurles",
     "off_utc": "2026-11-26T15:39:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -39253,7 +39556,7 @@
    "race": {
     "venue": "Thurles",
     "off_utc": "2026-11-26T15:39:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -39428,7 +39731,7 @@
    "race": {
     "venue": "Thurles",
     "off_utc": "2026-11-26T15:39:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -39595,7 +39898,7 @@
    "race": {
     "venue": "Thurles",
     "off_utc": "2026-11-26T15:39:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "reserve"
    },
@@ -39776,7 +40079,7 @@
    "race": {
     "venue": "Thurles",
     "off_utc": "2026-11-26T15:39:00+00:00",
-    "going": "good",
+    "going": "soft",
     "distance": "staying",
     "runner_status": "reserve"
    },
@@ -44769,7 +45072,7 @@
     "off_utc": "2026-11-26T17:00:00+00:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-26",
    "status": "has_history",
@@ -45643,7 +45946,7 @@
     "off_utc": "2026-11-26T17:30:00+00:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-26",
    "status": "has_history",
