@@ -1,9 +1,2761 @@
 {
  "schema": "horses_index_v1",
- "generated_at": "2026-11-26T21:30:02Z",
+ "generated_at": "2026-11-27T07:00:03Z",
  "note": "Every horse we have seen declared, newest first. A record is true as of its `last_declared` date and is never deleted; a horse that stops running becomes dated, not wrong.",
- "count": 14347,
+ "count": 14429,
  "horses": [
+  {
+   "slug": "zoffman",
+   "name": "Zoffman",
+   "last_declared": "2026-11-27",
+   "runs": 32,
+   "wins": 3,
+   "status": "has_history"
+  },
+  {
+   "slug": "zgharta",
+   "name": "Zgharta",
+   "last_declared": "2026-11-27",
+   "runs": 11,
+   "wins": 2,
+   "status": "has_history"
+  },
+  {
+   "slug": "zephlyn",
+   "name": "Zephlyn",
+   "last_declared": "2026-11-27",
+   "runs": 46,
+   "wins": 5,
+   "status": "has_history"
+  },
+  {
+   "slug": "zen-diva",
+   "name": "Zen Diva",
+   "last_declared": "2026-11-27",
+   "runs": 11,
+   "wins": 4,
+   "status": "has_history"
+  },
+  {
+   "slug": "wonderful-eagle",
+   "name": "Wonderful Eagle",
+   "last_declared": "2026-11-27",
+   "runs": 13,
+   "wins": 6,
+   "status": "has_history"
+  },
+  {
+   "slug": "wild-berries",
+   "name": "Wild Berries",
+   "last_declared": "2026-11-27",
+   "runs": 6,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "whos-liby",
+   "name": "Who's Liby",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "debut"
+  },
+  {
+   "slug": "western-monkey",
+   "name": "Western Monkey",
+   "last_declared": "2026-11-27",
+   "runs": 1,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "waysong",
+   "name": "Waysong",
+   "last_declared": "2026-11-27",
+   "runs": 2,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "warrant-holder",
+   "name": "Warrant Holder",
+   "last_declared": "2026-11-27",
+   "runs": 9,
+   "wins": 3,
+   "status": "has_history"
+  },
+  {
+   "slug": "walking-on-air",
+   "name": "Walking On Air",
+   "last_declared": "2026-11-27",
+   "runs": 23,
+   "wins": 2,
+   "status": "has_history"
+  },
+  {
+   "slug": "walk-on-son",
+   "name": "Walk On Son",
+   "last_declared": "2026-11-27",
+   "runs": 10,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "wade-out",
+   "name": "Wade Out",
+   "last_declared": "2026-11-27",
+   "runs": 10,
+   "wins": 5,
+   "status": "has_history"
+  },
+  {
+   "slug": "victorious-star",
+   "name": "Victorious Star",
+   "last_declared": "2026-11-27",
+   "runs": 2,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "vaguely-royal",
+   "name": "Vaguely Royal",
+   "last_declared": "2026-11-27",
+   "runs": 33,
+   "wins": 4,
+   "status": "has_history"
+  },
+  {
+   "slug": "usuario-amigo",
+   "name": "Usuario Amigo",
+   "last_declared": "2026-11-27",
+   "runs": 26,
+   "wins": 2,
+   "status": "has_history"
+  },
+  {
+   "slug": "urban-road",
+   "name": "Urban Road",
+   "last_declared": "2026-11-27",
+   "runs": 56,
+   "wins": 7,
+   "status": "has_history"
+  },
+  {
+   "slug": "union-island",
+   "name": "Union Island",
+   "last_declared": "2026-11-27",
+   "runs": 37,
+   "wins": 6,
+   "status": "has_history"
+  },
+  {
+   "slug": "under-the-sun",
+   "name": "Under The Sun",
+   "last_declared": "2026-11-27",
+   "runs": 20,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "unbelievable-jeff",
+   "name": "Unbelievable Jeff",
+   "last_declared": "2026-11-27",
+   "runs": 2,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "twinjets",
+   "name": "Twinjets",
+   "last_declared": "2026-11-27",
+   "runs": 19,
+   "wins": 7,
+   "status": "has_history"
+  },
+  {
+   "slug": "tutti-quanti",
+   "name": "Tutti Quanti",
+   "last_declared": "2026-11-27",
+   "runs": 9,
+   "wins": 3,
+   "status": "has_history"
+  },
+  {
+   "slug": "turbo-charger",
+   "name": "Turbo Charger",
+   "last_declared": "2026-11-27",
+   "runs": 2,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "tribal-moon",
+   "name": "Tribal Moon",
+   "last_declared": "2026-11-27",
+   "runs": 16,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "toothless",
+   "name": "Toothless",
+   "last_declared": "2026-11-27",
+   "runs": 16,
+   "wins": 5,
+   "status": "has_history"
+  },
+  {
+   "slug": "too-cool-forshrule",
+   "name": "Too Cool Forshrule",
+   "last_declared": "2026-11-27",
+   "runs": 13,
+   "wins": 3,
+   "status": "has_history"
+  },
+  {
+   "slug": "tina-tereshkova",
+   "name": "Tina Tereshkova",
+   "last_declared": "2026-11-27",
+   "runs": 7,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "thosegirlsdontplay",
+   "name": "Thosegirlsdontplay",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "debut"
+  },
+  {
+   "slug": "thomas-mor",
+   "name": "Thomas Mor",
+   "last_declared": "2026-11-27",
+   "runs": 9,
+   "wins": 4,
+   "status": "has_history"
+  },
+  {
+   "slug": "thesoldiersminit",
+   "name": "Thesoldiersminit",
+   "last_declared": "2026-11-27",
+   "runs": 4,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "the-resdev-tyke",
+   "name": "The Resdev Tyke",
+   "last_declared": "2026-11-27",
+   "runs": 6,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "the-love-machine",
+   "name": "The Love Machine",
+   "last_declared": "2026-11-27",
+   "runs": 10,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "the-cosy-corner",
+   "name": "The Cosy Corner",
+   "last_declared": "2026-11-27",
+   "runs": 5,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "thaloria",
+   "name": "Thaloria",
+   "last_declared": "2026-11-27",
+   "runs": 12,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "tee-aitch-aye",
+   "name": "Tee Aitch Aye",
+   "last_declared": "2026-11-27",
+   "runs": 21,
+   "wins": 2,
+   "status": "has_history"
+  },
+  {
+   "slug": "teddy-blue",
+   "name": "Teddy Blue",
+   "last_declared": "2026-11-27",
+   "runs": 30,
+   "wins": 5,
+   "status": "has_history"
+  },
+  {
+   "slug": "taurus-bay",
+   "name": "Taurus Bay",
+   "last_declared": "2026-11-27",
+   "runs": 3,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "tatateo",
+   "name": "Tatateo",
+   "last_declared": "2026-11-27",
+   "runs": 15,
+   "wins": 3,
+   "status": "has_history"
+  },
+  {
+   "slug": "tasever",
+   "name": "Tasever",
+   "last_declared": "2026-11-27",
+   "runs": 52,
+   "wins": 4,
+   "status": "has_history"
+  },
+  {
+   "slug": "tally-ho-back",
+   "name": "Tally Ho Back",
+   "last_declared": "2026-11-27",
+   "runs": 2,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "talka",
+   "name": "Talka",
+   "last_declared": "2026-11-27",
+   "runs": 3,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "swietenia",
+   "name": "Swietenia",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "debut"
+  },
+  {
+   "slug": "supremely-west",
+   "name": "Supremely West",
+   "last_declared": "2026-11-27",
+   "runs": 17,
+   "wins": 7,
+   "status": "has_history"
+  },
+  {
+   "slug": "sunshine-and-roses",
+   "name": "Sunshine And Roses",
+   "last_declared": "2026-11-27",
+   "runs": 18,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "strong-leader",
+   "name": "Strong Leader",
+   "last_declared": "2026-11-27",
+   "runs": 19,
+   "wins": 7,
+   "status": "has_history"
+  },
+  {
+   "slug": "storm-on-jura",
+   "name": "Storm On Jura",
+   "last_declared": "2026-11-27",
+   "runs": 17,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "stick-to-the-board",
+   "name": "Stick To The Board",
+   "last_declared": "2026-11-27",
+   "runs": 2,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "stellar-path",
+   "name": "Stellar Path",
+   "last_declared": "2026-11-27",
+   "runs": 6,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "star-of-jupiter",
+   "name": "Star of Jupiter",
+   "last_declared": "2026-11-27",
+   "runs": 25,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "star-harbour",
+   "name": "Star Harbour",
+   "last_declared": "2026-11-27",
+   "runs": 54,
+   "wins": 4,
+   "status": "has_history"
+  },
+  {
+   "slug": "star-allure",
+   "name": "Star Allure",
+   "last_declared": "2026-11-27",
+   "runs": 14,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "spinning-wheel",
+   "name": "Spinning Wheel",
+   "last_declared": "2026-11-27",
+   "runs": 9,
+   "wins": 4,
+   "status": "has_history"
+  },
+  {
+   "slug": "spicy-margarita",
+   "name": "Spicy Margarita",
+   "last_declared": "2026-11-27",
+   "runs": 15,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "spec-of-light",
+   "name": "Spec of Light",
+   "last_declared": "2026-11-27",
+   "runs": 21,
+   "wins": 3,
+   "status": "has_history"
+  },
+  {
+   "slug": "sovereign-cry",
+   "name": "Sovereign Cry",
+   "last_declared": "2026-11-27",
+   "runs": 13,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "southover-gardens",
+   "name": "Southover Gardens",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "debut"
+  },
+  {
+   "slug": "sorrento-sunset",
+   "name": "Sorrento Sunset",
+   "last_declared": "2026-11-27",
+   "runs": 5,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "someones-wish",
+   "name": "Someone's Wish",
+   "last_declared": "2026-11-27",
+   "runs": 30,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "soldiers-tree",
+   "name": "Soldier's Tree",
+   "last_declared": "2026-11-27",
+   "runs": 6,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "soldier-reeves",
+   "name": "Soldier Reeves",
+   "last_declared": "2026-11-27",
+   "runs": 3,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "soldier-poet",
+   "name": "Soldier Poet",
+   "last_declared": "2026-11-27",
+   "runs": 2,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "solar-palace",
+   "name": "Solar Palace",
+   "last_declared": "2026-11-27",
+   "runs": 1,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "so-this-is-love",
+   "name": "So This Is Love",
+   "last_declared": "2026-11-27",
+   "runs": 1,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "snowrocco",
+   "name": "Snowrocco",
+   "last_declared": "2026-11-27",
+   "runs": 11,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "snapaudaciaheros",
+   "name": "Snapaudaciaheros",
+   "last_declared": "2026-11-27",
+   "runs": 15,
+   "wins": 2,
+   "status": "has_history"
+  },
+  {
+   "slug": "smokey-malone",
+   "name": "Smokey Malone",
+   "last_declared": "2026-11-27",
+   "runs": 65,
+   "wins": 11,
+   "status": "has_history"
+  },
+  {
+   "slug": "sledgehammer",
+   "name": "Sledgehammer",
+   "last_declared": "2026-11-27",
+   "runs": 9,
+   "wins": 3,
+   "status": "has_history"
+  },
+  {
+   "slug": "sisterandbrother",
+   "name": "Sisterandbrother",
+   "last_declared": "2026-11-27",
+   "runs": 63,
+   "wins": 9,
+   "status": "has_history"
+  },
+  {
+   "slug": "signora-fortuna",
+   "name": "Signora Fortuna",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "debut"
+  },
+  {
+   "slug": "shushi",
+   "name": "Shushi",
+   "last_declared": "2026-11-27",
+   "runs": 7,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "shooting",
+   "name": "Shooting",
+   "last_declared": "2026-11-27",
+   "runs": 1,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "shamanka",
+   "name": "Shamanka",
+   "last_declared": "2026-11-27",
+   "runs": 9,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "scriabin",
+   "name": "Scriabin",
+   "last_declared": "2026-11-27",
+   "runs": 11,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "scots-poet",
+   "name": "Scots Poet",
+   "last_declared": "2026-11-27",
+   "runs": 44,
+   "wins": 9,
+   "status": "has_history"
+  },
+  {
+   "slug": "scarlet-dream",
+   "name": "Scarlet Dream",
+   "last_declared": "2026-11-27",
+   "runs": 7,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "saxophonic",
+   "name": "Saxophonic",
+   "last_declared": "2026-11-27",
+   "runs": 12,
+   "wins": 2,
+   "status": "has_history"
+  },
+  {
+   "slug": "satono-chevalier",
+   "name": "Satono Chevalier",
+   "last_declared": "2026-11-27",
+   "runs": 36,
+   "wins": 5,
+   "status": "has_history"
+  },
+  {
+   "slug": "sassi-lady",
+   "name": "Sassi Lady",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "debut"
+  },
+  {
+   "slug": "saint-polo",
+   "name": "Saint Polo",
+   "last_declared": "2026-11-27",
+   "runs": 10,
+   "wins": 4,
+   "status": "has_history"
+  },
+  {
+   "slug": "saint-acclaim",
+   "name": "Saint Acclaim",
+   "last_declared": "2026-11-27",
+   "runs": 4,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "sadie-rose",
+   "name": "Sadie Rose",
+   "last_declared": "2026-11-27",
+   "runs": 3,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "royal-infantry",
+   "name": "Royal Infantry",
+   "last_declared": "2026-11-27",
+   "runs": 14,
+   "wins": 6,
+   "status": "has_history"
+  },
+  {
+   "slug": "royal-baroness",
+   "name": "Royal Baroness",
+   "last_declared": "2026-11-27",
+   "runs": 6,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "rose-chimes",
+   "name": "Rose Chimes",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "debut"
+  },
+  {
+   "slug": "rosanella",
+   "name": "Rosanella",
+   "last_declared": "2026-11-27",
+   "runs": 4,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "rock-on-ronnie",
+   "name": "Rock On Ronnie",
+   "last_declared": "2026-11-27",
+   "runs": 3,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "riyazanka",
+   "name": "Riyazanka",
+   "last_declared": "2026-11-27",
+   "runs": 3,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "river-kwai",
+   "name": "River Kwai",
+   "last_declared": "2026-11-27",
+   "runs": 1,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "river-glance",
+   "name": "River Glance",
+   "last_declared": "2026-11-27",
+   "runs": 6,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "rias-angel",
+   "name": "Ria's Angel",
+   "last_declared": "2026-11-27",
+   "runs": 2,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "rejoinder",
+   "name": "Rejoinder",
+   "last_declared": "2026-11-27",
+   "runs": 5,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "regal-thunder",
+   "name": "Regal Thunder",
+   "last_declared": "2026-11-27",
+   "runs": 3,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "red-moon",
+   "name": "Red Moon",
+   "last_declared": "2026-11-27",
+   "runs": 10,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "raziyya",
+   "name": "Raziyya",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "debut"
+  },
+  {
+   "slug": "purosangue",
+   "name": "Purosangue",
+   "last_declared": "2026-11-27",
+   "runs": 27,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "probing",
+   "name": "Probing",
+   "last_declared": "2026-11-27",
+   "runs": 1,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "princess-aurelia",
+   "name": "Princess Aurelia",
+   "last_declared": "2026-11-27",
+   "runs": 1,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "prince-rupert",
+   "name": "Prince Rupert",
+   "last_declared": "2026-11-27",
+   "runs": 1,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "prince-andorra",
+   "name": "Prince Andorra",
+   "last_declared": "2026-11-27",
+   "runs": 9,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "primoz",
+   "name": "Primoz",
+   "last_declared": "2026-11-27",
+   "runs": 16,
+   "wins": 5,
+   "status": "has_history"
+  },
+  {
+   "slug": "presentandcorrect",
+   "name": "Presentandcorrect",
+   "last_declared": "2026-11-27",
+   "runs": 6,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "present-perfect",
+   "name": "Present Perfect",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "debut"
+  },
+  {
+   "slug": "popeye-doyle",
+   "name": "Popeye Doyle",
+   "last_declared": "2026-11-27",
+   "runs": 15,
+   "wins": 2,
+   "status": "has_history"
+  },
+  {
+   "slug": "pop-it-pebbles",
+   "name": "Pop It Pebbles",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "debut"
+  },
+  {
+   "slug": "plan-de-stan",
+   "name": "Plan de Stan",
+   "last_declared": "2026-11-27",
+   "runs": 3,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "pillar-of-hope",
+   "name": "Pillar Of Hope",
+   "last_declared": "2026-11-27",
+   "runs": 27,
+   "wins": 5,
+   "status": "has_history"
+  },
+  {
+   "slug": "phils-dream",
+   "name": "Phil's Dream",
+   "last_declared": "2026-11-27",
+   "runs": 14,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "phantom-shadow",
+   "name": "Phantom Shadow",
+   "last_declared": "2026-11-27",
+   "runs": 11,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "parvenue-fling",
+   "name": "Parvenue Fling",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "debut"
+  },
+  {
+   "slug": "partisan-hero",
+   "name": "Partisan Hero",
+   "last_declared": "2026-11-27",
+   "runs": 26,
+   "wins": 6,
+   "status": "has_history"
+  },
+  {
+   "slug": "palazzo-persico",
+   "name": "Palazzo Persico",
+   "last_declared": "2026-11-27",
+   "runs": 36,
+   "wins": 3,
+   "status": "has_history"
+  },
+  {
+   "slug": "palamon",
+   "name": "Palamon",
+   "last_declared": "2026-11-27",
+   "runs": 34,
+   "wins": 4,
+   "status": "has_history"
+  },
+  {
+   "slug": "pal-of-mine",
+   "name": "Pal Of Mine",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "debut"
+  },
+  {
+   "slug": "our-rarest-hour",
+   "name": "Our Rarest Hour",
+   "last_declared": "2026-11-27",
+   "runs": 1,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "ouattara",
+   "name": "Ouattara",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "debut"
+  },
+  {
+   "slug": "oor-wish",
+   "name": "Oor Wish",
+   "last_declared": "2026-11-27",
+   "runs": 6,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "one-cool-bear",
+   "name": "One Cool Bear",
+   "last_declared": "2026-11-27",
+   "runs": 15,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "on-the-bubble",
+   "name": "On The Bubble",
+   "last_declared": "2026-11-27",
+   "runs": 41,
+   "wins": 2,
+   "status": "has_history"
+  },
+  {
+   "slug": "old-harrovian",
+   "name": "Old Harrovian",
+   "last_declared": "2026-11-27",
+   "runs": 11,
+   "wins": 3,
+   "status": "has_history"
+  },
+  {
+   "slug": "off-spin",
+   "name": "Off Spin",
+   "last_declared": "2026-11-27",
+   "runs": 25,
+   "wins": 2,
+   "status": "has_history"
+  },
+  {
+   "slug": "octo-gane",
+   "name": "Octo Gane",
+   "last_declared": "2026-11-27",
+   "runs": 3,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "ocean-heights",
+   "name": "Ocean Heights",
+   "last_declared": "2026-11-27",
+   "runs": 44,
+   "wins": 5,
+   "status": "has_history"
+  },
+  {
+   "slug": "oatsoeasy",
+   "name": "Oatsoeasy",
+   "last_declared": "2026-11-27",
+   "runs": 1,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "novak",
+   "name": "Novak",
+   "last_declared": "2026-11-27",
+   "runs": 80,
+   "wins": 10,
+   "status": "has_history"
+  },
+  {
+   "slug": "not-just-any-eagle",
+   "name": "Not Just Any Eagle",
+   "last_declared": "2026-11-27",
+   "runs": 28,
+   "wins": 4,
+   "status": "has_history"
+  },
+  {
+   "slug": "northern-man",
+   "name": "Northern Man",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "no_record"
+  },
+  {
+   "slug": "nobotheratall",
+   "name": "Nobotheratall",
+   "last_declared": "2026-11-27",
+   "runs": 10,
+   "wins": 2,
+   "status": "has_history"
+  },
+  {
+   "slug": "nobody-told-me",
+   "name": "Nobody Told Me",
+   "last_declared": "2026-11-27",
+   "runs": 24,
+   "wins": 2,
+   "status": "has_history"
+  },
+  {
+   "slug": "no-time-faults",
+   "name": "No Time Faults",
+   "last_declared": "2026-11-27",
+   "runs": 5,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "no-ordinary-joe",
+   "name": "No Ordinary Joe",
+   "last_declared": "2026-11-27",
+   "runs": 33,
+   "wins": 5,
+   "status": "has_history"
+  },
+  {
+   "slug": "nevershedatear",
+   "name": "Nevershedatear",
+   "last_declared": "2026-11-27",
+   "runs": 7,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "neddies-boy",
+   "name": "Neddies Boy",
+   "last_declared": "2026-11-27",
+   "runs": 13,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "navrom",
+   "name": "Navrom",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "debut"
+  },
+  {
+   "slug": "national-question",
+   "name": "National Question",
+   "last_declared": "2026-11-27",
+   "runs": 31,
+   "wins": 4,
+   "status": "has_history"
+  },
+  {
+   "slug": "nathalie-jolie",
+   "name": "Nathalie Jolie",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "no_record"
+  },
+  {
+   "slug": "my-cubby-bear",
+   "name": "My Cubby Bear",
+   "last_declared": "2026-11-27",
+   "runs": 2,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "musical-gems",
+   "name": "Musical Gems",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "debut"
+  },
+  {
+   "slug": "murat",
+   "name": "Murat",
+   "last_declared": "2026-11-27",
+   "runs": 7,
+   "wins": 2,
+   "status": "has_history"
+  },
+  {
+   "slug": "mr-fustic",
+   "name": "Mr Fustic",
+   "last_declared": "2026-11-27",
+   "runs": 39,
+   "wins": 6,
+   "status": "has_history"
+  },
+  {
+   "slug": "moyanna-castle",
+   "name": "Moyanna Castle",
+   "last_declared": "2026-11-27",
+   "runs": 2,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "moving-force",
+   "name": "Moving Force",
+   "last_declared": "2026-11-27",
+   "runs": 14,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "movin-and-groovin",
+   "name": "Movin And Groovin",
+   "last_declared": "2026-11-27",
+   "runs": 12,
+   "wins": 3,
+   "status": "has_history"
+  },
+  {
+   "slug": "moonset",
+   "name": "Moonset",
+   "last_declared": "2026-11-27",
+   "runs": 6,
+   "wins": 2,
+   "status": "has_history"
+  },
+  {
+   "slug": "moon-in-matera",
+   "name": "Moon In Matera",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "debut"
+  },
+  {
+   "slug": "montassib",
+   "name": "Montassib",
+   "last_declared": "2026-11-27",
+   "runs": 25,
+   "wins": 7,
+   "status": "has_history"
+  },
+  {
+   "slug": "moi-mon-vieux",
+   "name": "Moi Mon Vieux",
+   "last_declared": "2026-11-27",
+   "runs": 5,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "mister-adam",
+   "name": "Mister Adam",
+   "last_declared": "2026-11-27",
+   "runs": 4,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "mirissa-beach",
+   "name": "Mirissa Beach",
+   "last_declared": "2026-11-27",
+   "runs": 3,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "mint-man",
+   "name": "Mint Man",
+   "last_declared": "2026-11-27",
+   "runs": 17,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "military-order",
+   "name": "Military Order",
+   "last_declared": "2026-11-27",
+   "runs": 13,
+   "wins": 6,
+   "status": "has_history"
+  },
+  {
+   "slug": "midnight-escape",
+   "name": "Midnight Escape",
+   "last_declared": "2026-11-27",
+   "runs": 1,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "mattys-mate",
+   "name": "Matty's Mate",
+   "last_declared": "2026-11-27",
+   "runs": 1,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "masterius",
+   "name": "Masterius",
+   "last_declared": "2026-11-27",
+   "runs": 4,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "masterfield",
+   "name": "Masterfield",
+   "last_declared": "2026-11-27",
+   "runs": 5,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "masked-man",
+   "name": "Masked Man",
+   "last_declared": "2026-11-27",
+   "runs": 2,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "magnolia",
+   "name": "Magnolia",
+   "last_declared": "2026-11-27",
+   "runs": 11,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "ma-shantou",
+   "name": "Ma Shantou",
+   "last_declared": "2026-11-27",
+   "runs": 11,
+   "wins": 5,
+   "status": "has_history"
+  },
+  {
+   "slug": "ludor",
+   "name": "Lud'or",
+   "last_declared": "2026-11-27",
+   "runs": 7,
+   "wins": 2,
+   "status": "has_history"
+  },
+  {
+   "slug": "low-tide",
+   "name": "Low Tide",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "debut"
+  },
+  {
+   "slug": "lover-desbois",
+   "name": "Lover Desbois",
+   "last_declared": "2026-11-27",
+   "runs": 2,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "love-orchid",
+   "name": "Love Orchid",
+   "last_declared": "2026-11-27",
+   "runs": 11,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "loughmourne",
+   "name": "Loughmourne",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "no_record"
+  },
+  {
+   "slug": "lone-star",
+   "name": "Lone Star",
+   "last_declared": "2026-11-27",
+   "runs": 44,
+   "wins": 5,
+   "status": "has_history"
+  },
+  {
+   "slug": "lillistar",
+   "name": "Lillistar",
+   "last_declared": "2026-11-27",
+   "runs": 31,
+   "wins": 2,
+   "status": "has_history"
+  },
+  {
+   "slug": "lili-marleen",
+   "name": "Lili Marleen",
+   "last_declared": "2026-11-27",
+   "runs": 9,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "lihyan",
+   "name": "Lihyan",
+   "last_declared": "2026-11-27",
+   "runs": 29,
+   "wins": 6,
+   "status": "has_history"
+  },
+  {
+   "slug": "light-speed",
+   "name": "Light Speed",
+   "last_declared": "2026-11-27",
+   "runs": 23,
+   "wins": 2,
+   "status": "has_history"
+  },
+  {
+   "slug": "let-me-free",
+   "name": "Let Me Free",
+   "last_declared": "2026-11-27",
+   "runs": 2,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "leonie",
+   "name": "Leonie",
+   "last_declared": "2026-11-27",
+   "runs": 8,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "le-patron",
+   "name": "Le Patron",
+   "last_declared": "2026-11-27",
+   "runs": 13,
+   "wins": 4,
+   "status": "has_history"
+  },
+  {
+   "slug": "le-frimeur",
+   "name": "Le Frimeur",
+   "last_declared": "2026-11-27",
+   "runs": 2,
+   "wins": 2,
+   "status": "has_history"
+  },
+  {
+   "slug": "lavida-adiva",
+   "name": "Lavida Adiva",
+   "last_declared": "2026-11-27",
+   "runs": 18,
+   "wins": 3,
+   "status": "has_history"
+  },
+  {
+   "slug": "laristote",
+   "name": "Laristote",
+   "last_declared": "2026-11-27",
+   "runs": 4,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "landsborough",
+   "name": "Landsborough",
+   "last_declared": "2026-11-27",
+   "runs": 1,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "lallygag",
+   "name": "Lallygag",
+   "last_declared": "2026-11-27",
+   "runs": 22,
+   "wins": 6,
+   "status": "has_history"
+  },
+  {
+   "slug": "laios-tresor",
+   "name": "Laios Tresor",
+   "last_declared": "2026-11-27",
+   "runs": 3,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "lady-kluck",
+   "name": "Lady Kluck",
+   "last_declared": "2026-11-27",
+   "runs": 5,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "lady-bb",
+   "name": "Lady Bb",
+   "last_declared": "2026-11-27",
+   "runs": 1,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "kokoro",
+   "name": "Kokoro",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "debut"
+  },
+  {
+   "slug": "kodiak-gold",
+   "name": "Kodiak Gold",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "debut"
+  },
+  {
+   "slug": "koala-rose",
+   "name": "Koala Rose",
+   "last_declared": "2026-11-27",
+   "runs": 7,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "klub-de-reve",
+   "name": "Klub de Reve",
+   "last_declared": "2026-11-27",
+   "runs": 3,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "klapton-boy",
+   "name": "Klapton Boy",
+   "last_declared": "2026-11-27",
+   "runs": 8,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "kite-beach",
+   "name": "Kite Beach",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "debut"
+  },
+  {
+   "slug": "king-chaos",
+   "name": "King Chaos",
+   "last_declared": "2026-11-27",
+   "runs": 24,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "killarney",
+   "name": "Killarney",
+   "last_declared": "2026-11-27",
+   "runs": 2,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "kent-de-thaix",
+   "name": "Kent de Thaix",
+   "last_declared": "2026-11-27",
+   "runs": 5,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "kennys-jewel",
+   "name": "Kenny's Jewel",
+   "last_declared": "2026-11-27",
+   "runs": 4,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "keable",
+   "name": "Keable",
+   "last_declared": "2026-11-27",
+   "runs": 13,
+   "wins": 3,
+   "status": "has_history"
+  },
+  {
+   "slug": "kayf-dancer",
+   "name": "Kayf Dancer",
+   "last_declared": "2026-11-27",
+   "runs": 10,
+   "wins": 2,
+   "status": "has_history"
+  },
+  {
+   "slug": "katana",
+   "name": "Katana",
+   "last_declared": "2026-11-27",
+   "runs": 9,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "kap-ouest",
+   "name": "Kap Ouest",
+   "last_declared": "2026-11-27",
+   "runs": 8,
+   "wins": 2,
+   "status": "has_history"
+  },
+  {
+   "slug": "kalypsa",
+   "name": "Kalypsa",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "debut"
+  },
+  {
+   "slug": "jumeirah-pearl",
+   "name": "Jumeirah Pearl",
+   "last_declared": "2026-11-27",
+   "runs": 1,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "jubilate",
+   "name": "Jubilate",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "debut"
+  },
+  {
+   "slug": "johnny-moonshine",
+   "name": "Johnny Moonshine",
+   "last_declared": "2026-11-27",
+   "runs": 4,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "jetaway-holiday",
+   "name": "Jetaway Holiday",
+   "last_declared": "2026-11-27",
+   "runs": 3,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "jaycee-reidy",
+   "name": "Jaycee Reidy",
+   "last_declared": "2026-11-27",
+   "runs": 2,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "jaipaletemps",
+   "name": "Jaipaletemps",
+   "last_declared": "2026-11-27",
+   "runs": 11,
+   "wins": 2,
+   "status": "has_history"
+  },
+  {
+   "slug": "its-a-love-thing",
+   "name": "It's A Love Thing",
+   "last_declared": "2026-11-27",
+   "runs": 61,
+   "wins": 9,
+   "status": "has_history"
+  },
+  {
+   "slug": "isthatrightkatie",
+   "name": "Isthatrightkatie",
+   "last_declared": "2026-11-27",
+   "runs": 6,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "issar-dairy",
+   "name": "Issar d'Airy",
+   "last_declared": "2026-11-27",
+   "runs": 19,
+   "wins": 4,
+   "status": "has_history"
+  },
+  {
+   "slug": "island-getaway",
+   "name": "Island Getaway",
+   "last_declared": "2026-11-27",
+   "runs": 3,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "isaac-des-obeaux",
+   "name": "Isaac des Obeaux",
+   "last_declared": "2026-11-27",
+   "runs": 16,
+   "wins": 4,
+   "status": "has_history"
+  },
+  {
+   "slug": "invino-honnetete",
+   "name": "Invino Honnetete",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "no_record"
+  },
+  {
+   "slug": "invincible-irish",
+   "name": "Invincible Irish",
+   "last_declared": "2026-11-27",
+   "runs": 7,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "inoui-machin",
+   "name": "Inoui Machin",
+   "last_declared": "2026-11-27",
+   "runs": 12,
+   "wins": 4,
+   "status": "has_history"
+  },
+  {
+   "slug": "in-sequence",
+   "name": "In Sequence",
+   "last_declared": "2026-11-27",
+   "runs": 1,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "impose-toi",
+   "name": "Impose Toi",
+   "last_declared": "2026-11-27",
+   "runs": 13,
+   "wins": 4,
+   "status": "has_history"
+  },
+  {
+   "slug": "il-ridoto",
+   "name": "Il Ridoto",
+   "last_declared": "2026-11-27",
+   "runs": 26,
+   "wins": 3,
+   "status": "has_history"
+  },
+  {
+   "slug": "iamyouare",
+   "name": "Iamyouare",
+   "last_declared": "2026-11-27",
+   "runs": 9,
+   "wins": 3,
+   "status": "has_history"
+  },
+  {
+   "slug": "im-spartacus",
+   "name": "I'm Spartacus",
+   "last_declared": "2026-11-27",
+   "runs": 24,
+   "wins": 4,
+   "status": "has_history"
+  },
+  {
+   "slug": "hunters-spring",
+   "name": "Hunters Spring",
+   "last_declared": "2026-11-27",
+   "runs": 8,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "humble-jumble",
+   "name": "Humble Jumble",
+   "last_declared": "2026-11-27",
+   "runs": 5,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "huit-reflets",
+   "name": "Huit Reflets",
+   "last_declared": "2026-11-27",
+   "runs": 36,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "hollywood-treasure",
+   "name": "Hollywood Treasure",
+   "last_declared": "2026-11-27",
+   "runs": 5,
+   "wins": 2,
+   "status": "has_history"
+  },
+  {
+   "slug": "hint-of-the-jungle",
+   "name": "Hint of The Jungle",
+   "last_declared": "2026-11-27",
+   "runs": 26,
+   "wins": 4,
+   "status": "has_history"
+  },
+  {
+   "slug": "hijo-de-la-luna",
+   "name": "Hijo de La Luna",
+   "last_declared": "2026-11-27",
+   "runs": 25,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "hey-stella",
+   "name": "Hey Stella",
+   "last_declared": "2026-11-27",
+   "runs": 4,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "hasiyna",
+   "name": "Hasiyna",
+   "last_declared": "2026-11-27",
+   "runs": 20,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "hardly-surprising",
+   "name": "Hardly Surprising",
+   "last_declared": "2026-11-27",
+   "runs": 2,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "harbour-light",
+   "name": "Harbour Light",
+   "last_declared": "2026-11-27",
+   "runs": 8,
+   "wins": 4,
+   "status": "has_history"
+  },
+  {
+   "slug": "guevara",
+   "name": "Guevara",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "no_record"
+  },
+  {
+   "slug": "gracious-gift",
+   "name": "Gracious Gift",
+   "last_declared": "2026-11-27",
+   "runs": 2,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "graceful-gracie",
+   "name": "Graceful Gracie",
+   "last_declared": "2026-11-27",
+   "runs": 2,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "go-athletico",
+   "name": "Go Athletico",
+   "last_declared": "2026-11-27",
+   "runs": 24,
+   "wins": 2,
+   "status": "has_history"
+  },
+  {
+   "slug": "glitz-and-glamour",
+   "name": "Glitz And Glamour",
+   "last_declared": "2026-11-27",
+   "runs": 5,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "glenroyal",
+   "name": "Glenroyal",
+   "last_declared": "2026-11-27",
+   "runs": 9,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "gintime",
+   "name": "Gintime",
+   "last_declared": "2026-11-27",
+   "runs": 7,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "georges",
+   "name": "Georges",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "debut"
+  },
+  {
+   "slug": "gemirande",
+   "name": "Gemirande",
+   "last_declared": "2026-11-27",
+   "runs": 23,
+   "wins": 5,
+   "status": "has_history"
+  },
+  {
+   "slug": "gemini-man",
+   "name": "Gemini Man",
+   "last_declared": "2026-11-27",
+   "runs": 38,
+   "wins": 4,
+   "status": "has_history"
+  },
+  {
+   "slug": "geezer-rockstar",
+   "name": "Geezer Rockstar",
+   "last_declared": "2026-11-27",
+   "runs": 12,
+   "wins": 4,
+   "status": "has_history"
+  },
+  {
+   "slug": "gallant-lion",
+   "name": "Gallant Lion",
+   "last_declared": "2026-11-27",
+   "runs": 35,
+   "wins": 5,
+   "status": "has_history"
+  },
+  {
+   "slug": "gaineamh-min",
+   "name": "Gaineamh Min",
+   "last_declared": "2026-11-27",
+   "runs": 4,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "fredegund",
+   "name": "Fredegund",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "debut"
+  },
+  {
+   "slug": "francisco-alvares",
+   "name": "Francisco Alvares",
+   "last_declared": "2026-11-27",
+   "runs": 1,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "fox-in-flight",
+   "name": "Fox In Flight",
+   "last_declared": "2026-11-27",
+   "runs": 9,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "forest-bay",
+   "name": "Forest Bay",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "debut"
+  },
+  {
+   "slug": "fools-rush-in",
+   "name": "Fools Rush In",
+   "last_declared": "2026-11-27",
+   "runs": 73,
+   "wins": 11,
+   "status": "has_history"
+  },
+  {
+   "slug": "flying-fortress",
+   "name": "Flying Fortress",
+   "last_declared": "2026-11-27",
+   "runs": 17,
+   "wins": 2,
+   "status": "has_history"
+  },
+  {
+   "slug": "flick-of-an-eye",
+   "name": "Flick of An Eye",
+   "last_declared": "2026-11-27",
+   "runs": 3,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "flash-du-pistolet",
+   "name": "Flash du Pistolet",
+   "last_declared": "2026-11-27",
+   "runs": 19,
+   "wins": 2,
+   "status": "has_history"
+  },
+  {
+   "slug": "flamingo-rose",
+   "name": "Flamingo Rose",
+   "last_declared": "2026-11-27",
+   "runs": 15,
+   "wins": 2,
+   "status": "has_history"
+  },
+  {
+   "slug": "flame-of-forest",
+   "name": "Flame Of Forest",
+   "last_declared": "2026-11-27",
+   "runs": 10,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "five-moons",
+   "name": "Five Moons",
+   "last_declared": "2026-11-27",
+   "runs": 8,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "final-dash",
+   "name": "Final Dash",
+   "last_declared": "2026-11-27",
+   "runs": 1,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "fiery-logic",
+   "name": "Fiery Logic",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "debut"
+  },
+  {
+   "slug": "faymiss",
+   "name": "Faymiss",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "debut"
+  },
+  {
+   "slug": "favour-and-fortune",
+   "name": "Favour And Fortune",
+   "last_declared": "2026-11-27",
+   "runs": 17,
+   "wins": 5,
+   "status": "has_history"
+  },
+  {
+   "slug": "fashionelle",
+   "name": "Fashionelle",
+   "last_declared": "2026-11-27",
+   "runs": 29,
+   "wins": 2,
+   "status": "has_history"
+  },
+  {
+   "slug": "falcon-nine",
+   "name": "Falcon Nine",
+   "last_declared": "2026-11-27",
+   "runs": 42,
+   "wins": 2,
+   "status": "has_history"
+  },
+  {
+   "slug": "ezz-al-leith",
+   "name": "Ezz Al Leith",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "debut"
+  },
+  {
+   "slug": "eyeeye",
+   "name": "Eyeeye",
+   "last_declared": "2026-11-27",
+   "runs": 20,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "ever-flowing",
+   "name": "Ever Flowing",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "debut"
+  },
+  {
+   "slug": "evenwood-sonofagun",
+   "name": "Evenwood Sonofagun",
+   "last_declared": "2026-11-27",
+   "runs": 39,
+   "wins": 2,
+   "status": "has_history"
+  },
+  {
+   "slug": "evara",
+   "name": "Evara",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "debut"
+  },
+  {
+   "slug": "etalon",
+   "name": "Etalon",
+   "last_declared": "2026-11-27",
+   "runs": 22,
+   "wins": 5,
+   "status": "has_history"
+  },
+  {
+   "slug": "espritroyale",
+   "name": "Espritroyale",
+   "last_declared": "2026-11-27",
+   "runs": 9,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "enziya",
+   "name": "Enziya",
+   "last_declared": "2026-11-27",
+   "runs": 8,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "emily-estherfaye",
+   "name": "Emily Estherfaye",
+   "last_declared": "2026-11-27",
+   "runs": 5,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "elm-creek",
+   "name": "Elm Creek",
+   "last_declared": "2026-11-27",
+   "runs": 5,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "el-fox",
+   "name": "El Fox",
+   "last_declared": "2026-11-27",
+   "runs": 12,
+   "wins": 2,
+   "status": "has_history"
+  },
+  {
+   "slug": "echo-valley",
+   "name": "Echo Valley",
+   "last_declared": "2026-11-27",
+   "runs": 9,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "earth-king",
+   "name": "Earth King",
+   "last_declared": "2026-11-27",
+   "runs": 20,
+   "wins": 4,
+   "status": "has_history"
+  },
+  {
+   "slug": "dusky-days",
+   "name": "Dusky Days",
+   "last_declared": "2026-11-27",
+   "runs": 26,
+   "wins": 2,
+   "status": "has_history"
+  },
+  {
+   "slug": "dundeelin",
+   "name": "Dundeelin",
+   "last_declared": "2026-11-27",
+   "runs": 2,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "duhallow-storm",
+   "name": "Duhallow Storm",
+   "last_declared": "2026-11-27",
+   "runs": 2,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "dshipdatnevrsailed",
+   "name": "Dshipdatnevrsailed",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "no_record"
+  },
+  {
+   "slug": "double-time",
+   "name": "Double Time",
+   "last_declared": "2026-11-27",
+   "runs": 33,
+   "wins": 6,
+   "status": "has_history"
+  },
+  {
+   "slug": "dollars-dream",
+   "name": "Dollar's Dream",
+   "last_declared": "2026-11-27",
+   "runs": 12,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "delta",
+   "name": "Delta",
+   "last_declared": "2026-11-27",
+   "runs": 7,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "deep-sleep",
+   "name": "Deep Sleep",
+   "last_declared": "2026-11-27",
+   "runs": 12,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "deep-cave",
+   "name": "Deep Cave",
+   "last_declared": "2026-11-27",
+   "runs": 16,
+   "wins": 2,
+   "status": "has_history"
+  },
+  {
+   "slug": "dead-cert",
+   "name": "Dead Cert",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "no_record"
+  },
+  {
+   "slug": "days-of-joy",
+   "name": "Days of Joy",
+   "last_declared": "2026-11-27",
+   "runs": 1,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "dandyville",
+   "name": "Dandyville",
+   "last_declared": "2026-11-27",
+   "runs": 34,
+   "wins": 7,
+   "status": "has_history"
+  },
+  {
+   "slug": "cuban-court",
+   "name": "Cuban Court",
+   "last_declared": "2026-11-27",
+   "runs": 23,
+   "wins": 6,
+   "status": "has_history"
+  },
+  {
+   "slug": "crestofdistinction",
+   "name": "Crestofdistinction",
+   "last_declared": "2026-11-27",
+   "runs": 10,
+   "wins": 3,
+   "status": "has_history"
+  },
+  {
+   "slug": "country-mile",
+   "name": "Country Mile",
+   "last_declared": "2026-11-27",
+   "runs": 7,
+   "wins": 4,
+   "status": "has_history"
+  },
+  {
+   "slug": "cool-million",
+   "name": "Cool Million",
+   "last_declared": "2026-11-27",
+   "runs": 3,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "clonmacash",
+   "name": "Clonmacash",
+   "last_declared": "2026-11-27",
+   "runs": 41,
+   "wins": 6,
+   "status": "has_history"
+  },
+  {
+   "slug": "cites",
+   "name": "Cites",
+   "last_declared": "2026-11-27",
+   "runs": 2,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "choir-of-angels",
+   "name": "Choir of Angels",
+   "last_declared": "2026-11-27",
+   "runs": 1,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "choir-boy",
+   "name": "Choir Boy",
+   "last_declared": "2026-11-27",
+   "runs": 5,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "chiquitita-bee",
+   "name": "Chiquitita Bee",
+   "last_declared": "2026-11-27",
+   "runs": 5,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "chicago-caray",
+   "name": "Chicago Caray",
+   "last_declared": "2026-11-27",
+   "runs": 3,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "chesham",
+   "name": "Chesham",
+   "last_declared": "2026-11-27",
+   "runs": 1,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "charlie-darling",
+   "name": "Charlie Darling",
+   "last_declared": "2026-11-27",
+   "runs": 24,
+   "wins": 3,
+   "status": "has_history"
+  },
+  {
+   "slug": "chachaboo",
+   "name": "Chachaboo",
+   "last_declared": "2026-11-27",
+   "runs": 1,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "catchintsavo",
+   "name": "Catchintsavo",
+   "last_declared": "2026-11-27",
+   "runs": 7,
+   "wins": 2,
+   "status": "has_history"
+  },
+  {
+   "slug": "castledown",
+   "name": "Castledown",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "debut"
+  },
+  {
+   "slug": "carrigans-grove",
+   "name": "Carrigans Grove",
+   "last_declared": "2026-11-27",
+   "runs": 13,
+   "wins": 2,
+   "status": "has_history"
+  },
+  {
+   "slug": "carcaci-castle",
+   "name": "Carcaci Castle",
+   "last_declared": "2026-11-27",
+   "runs": 18,
+   "wins": 3,
+   "status": "has_history"
+  },
+  {
+   "slug": "camatillo",
+   "name": "Camatillo",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "debut"
+  },
+  {
+   "slug": "caldwell-potter",
+   "name": "Caldwell Potter",
+   "last_declared": "2026-11-27",
+   "runs": 12,
+   "wins": 6,
+   "status": "has_history"
+  },
+  {
+   "slug": "bye-bye-now",
+   "name": "Bye Bye Now",
+   "last_declared": "2026-11-27",
+   "runs": 8,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "by-the-book",
+   "name": "By The Book",
+   "last_declared": "2026-11-27",
+   "runs": 5,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "buzz-box",
+   "name": "Buzz Box",
+   "last_declared": "2026-11-27",
+   "runs": 10,
+   "wins": 3,
+   "status": "has_history"
+  },
+  {
+   "slug": "burk-flight",
+   "name": "Burk Flight",
+   "last_declared": "2026-11-27",
+   "runs": 2,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "bruce-banner",
+   "name": "Bruce Banner",
+   "last_declared": "2026-11-27",
+   "runs": 22,
+   "wins": 2,
+   "status": "has_history"
+  },
+  {
+   "slug": "bright-legend",
+   "name": "Bright Legend",
+   "last_declared": "2026-11-27",
+   "runs": 28,
+   "wins": 2,
+   "status": "has_history"
+  },
+  {
+   "slug": "brand-new-man",
+   "name": "Brand New Man",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "no_record"
+  },
+  {
+   "slug": "boy-named-sioux",
+   "name": "Boy Named Sioux",
+   "last_declared": "2026-11-27",
+   "runs": 14,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "bowmore",
+   "name": "Bowmore",
+   "last_declared": "2026-11-27",
+   "runs": 17,
+   "wins": 2,
+   "status": "has_history"
+  },
+  {
+   "slug": "bouboule",
+   "name": "Bouboule",
+   "last_declared": "2026-11-27",
+   "runs": 21,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "bodygroove",
+   "name": "Bodygroove",
+   "last_declared": "2026-11-27",
+   "runs": 22,
+   "wins": 2,
+   "status": "has_history"
+  },
+  {
+   "slug": "bluey",
+   "name": "Bluey",
+   "last_declared": "2026-11-27",
+   "runs": 12,
+   "wins": 6,
+   "status": "has_history"
+  },
+  {
+   "slug": "blue-sky-dreaming",
+   "name": "Blue Sky Dreaming",
+   "last_declared": "2026-11-27",
+   "runs": 4,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "blue-anthem",
+   "name": "Blue Anthem",
+   "last_declared": "2026-11-27",
+   "runs": 26,
+   "wins": 3,
+   "status": "has_history"
+  },
+  {
+   "slug": "blizzard-of-oz",
+   "name": "Blizzard of Oz",
+   "last_declared": "2026-11-27",
+   "runs": 17,
+   "wins": 4,
+   "status": "has_history"
+  },
+  {
+   "slug": "blackjack",
+   "name": "Blackjack",
+   "last_declared": "2026-11-27",
+   "runs": 60,
+   "wins": 8,
+   "status": "has_history"
+  },
+  {
+   "slug": "bint-al-daar",
+   "name": "Bint Al Daar",
+   "last_declared": "2026-11-27",
+   "runs": 41,
+   "wins": 4,
+   "status": "has_history"
+  },
+  {
+   "slug": "biglesisback",
+   "name": "Biglesisback",
+   "last_declared": "2026-11-27",
+   "runs": 5,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "betsen",
+   "name": "Betsen",
+   "last_declared": "2026-11-27",
+   "runs": 19,
+   "wins": 2,
+   "status": "has_history"
+  },
+  {
+   "slug": "bedouin-star",
+   "name": "Bedouin Star",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "debut"
+  },
+  {
+   "slug": "beckfords-folly",
+   "name": "Beckford's Folly",
+   "last_declared": "2026-11-27",
+   "runs": 7,
+   "wins": 3,
+   "status": "has_history"
+  },
+  {
+   "slug": "beauty-generation",
+   "name": "Beauty Generation",
+   "last_declared": "2026-11-27",
+   "runs": 22,
+   "wins": 3,
+   "status": "has_history"
+  },
+  {
+   "slug": "beat-the-retreat",
+   "name": "Beat The Retreat",
+   "last_declared": "2026-11-27",
+   "runs": 22,
+   "wins": 3,
+   "status": "has_history"
+  },
+  {
+   "slug": "baysline",
+   "name": "Baysline",
+   "last_declared": "2026-11-27",
+   "runs": 1,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "battle-of-arsuf",
+   "name": "Battle of Arsuf",
+   "last_declared": "2026-11-27",
+   "runs": 1,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "bassenthwaite",
+   "name": "Bassenthwaite",
+   "last_declared": "2026-11-27",
+   "runs": 9,
+   "wins": 2,
+   "status": "has_history"
+  },
+  {
+   "slug": "bass-player",
+   "name": "Bass Player",
+   "last_declared": "2026-11-27",
+   "runs": 34,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "barbossa",
+   "name": "Barbossa",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "debut"
+  },
+  {
+   "slug": "bannister",
+   "name": "Bannister",
+   "last_declared": "2026-11-27",
+   "runs": 30,
+   "wins": 4,
+   "status": "has_history"
+  },
+  {
+   "slug": "aztec-moon",
+   "name": "Aztec Moon",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "debut"
+  },
+  {
+   "slug": "audacious-annie",
+   "name": "Audacious Annie",
+   "last_declared": "2026-11-27",
+   "runs": 9,
+   "wins": 3,
+   "status": "has_history"
+  },
+  {
+   "slug": "astute-power",
+   "name": "Astute Power",
+   "last_declared": "2026-11-27",
+   "runs": 5,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "ask-a-sainte",
+   "name": "Ask A Sainte",
+   "last_declared": "2026-11-27",
+   "runs": 10,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "ashes-and-arrows",
+   "name": "Ashes And Arrows",
+   "last_declared": "2026-11-27",
+   "runs": 0,
+   "wins": 0,
+   "status": "debut"
+  },
+  {
+   "slug": "anxious-moments",
+   "name": "Anxious Moments",
+   "last_declared": "2026-11-27",
+   "runs": 6,
+   "wins": 2,
+   "status": "has_history"
+  },
+  {
+   "slug": "anightaway",
+   "name": "Anightaway",
+   "last_declared": "2026-11-27",
+   "runs": 6,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "angelardo",
+   "name": "Angelardo",
+   "last_declared": "2026-11-27",
+   "runs": 13,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "andaman-fifty",
+   "name": "Andaman Fifty",
+   "last_declared": "2026-11-27",
+   "runs": 3,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "all-hail",
+   "name": "All Hail",
+   "last_declared": "2026-11-27",
+   "runs": 10,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "alfred-tennyson",
+   "name": "Alfred Tennyson",
+   "last_declared": "2026-11-27",
+   "runs": 17,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "alentejo",
+   "name": "Alentejo",
+   "last_declared": "2026-11-27",
+   "runs": 11,
+   "wins": 1,
+   "status": "has_history"
+  },
+  {
+   "slug": "al-qatem",
+   "name": "Al Qatem",
+   "last_declared": "2026-11-27",
+   "runs": 3,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "akrramm",
+   "name": "Akrramm",
+   "last_declared": "2026-11-27",
+   "runs": 6,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "aint-nobody",
+   "name": "Ain't Nobody",
+   "last_declared": "2026-11-27",
+   "runs": 19,
+   "wins": 2,
+   "status": "has_history"
+  },
+  {
+   "slug": "afloat",
+   "name": "Afloat",
+   "last_declared": "2026-11-27",
+   "runs": 27,
+   "wins": 4,
+   "status": "has_history"
+  },
+  {
+   "slug": "accoya",
+   "name": "Accoya",
+   "last_declared": "2026-11-27",
+   "runs": 1,
+   "wins": 0,
+   "status": "has_history"
+  },
+  {
+   "slug": "a-pretty-penny",
+   "name": "A Pretty Penny",
+   "last_declared": "2026-11-27",
+   "runs": 8,
+   "wins": 2,
+   "status": "has_history"
+  },
+  {
+   "slug": "a-chara",
+   "name": "A Chara",
+   "last_declared": "2026-11-27",
+   "runs": 2,
+   "wins": 0,
+   "status": "has_history"
+  },
   {
    "slug": "wungudi",
    "name": "Wungudi",
@@ -2589,14 +5341,6 @@
    "status": "has_history"
   },
   {
-   "slug": "bright-legend",
-   "name": "Bright Legend",
-   "last_declared": "2026-11-26",
-   "runs": 27,
-   "wins": 2,
-   "status": "has_history"
-  },
-  {
    "slug": "bowgate-street",
    "name": "Bowgate Street",
    "last_declared": "2026-11-26",
@@ -2626,14 +5370,6 @@
    "last_declared": "2026-11-26",
    "runs": 4,
    "wins": 1,
-   "status": "has_history"
-  },
-  {
-   "slug": "bluey",
-   "name": "Bluey",
-   "last_declared": "2026-11-26",
-   "runs": 11,
-   "wins": 5,
    "status": "has_history"
   },
   {
@@ -3093,14 +5829,6 @@
    "status": "has_history"
   },
   {
-   "slug": "victorious-star",
-   "name": "Victorious Star",
-   "last_declared": "2026-11-25",
-   "runs": 1,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "venture-capital",
    "name": "Venture Capital",
    "last_declared": "2026-11-25",
@@ -3531,14 +6259,6 @@
    "runs": 16,
    "wins": 2,
    "status": "has_history"
-  },
-  {
-   "slug": "solar-palace",
-   "name": "Solar Palace",
-   "last_declared": "2026-11-25",
-   "runs": 0,
-   "wins": 0,
-   "status": "debut"
   },
   {
    "slug": "soizick",
@@ -7197,14 +9917,6 @@
    "status": "has_history"
   },
   {
-   "slug": "sledgehammer",
-   "name": "Sledgehammer",
-   "last_declared": "2026-11-24",
-   "runs": 8,
-   "wins": 2,
-   "status": "has_history"
-  },
-  {
    "slug": "silent-strike",
    "name": "Silent Strike",
    "last_declared": "2026-11-24",
@@ -7605,14 +10317,6 @@
    "status": "has_history"
   },
   {
-   "slug": "purosangue",
-   "name": "Purosangue",
-   "last_declared": "2026-11-24",
-   "runs": 26,
-   "wins": 1,
-   "status": "has_history"
-  },
-  {
    "slug": "prosewriter",
    "name": "Prosewriter",
    "last_declared": "2026-11-24",
@@ -7857,14 +10561,6 @@
    "name": "Nordic Norm",
    "last_declared": "2026-11-24",
    "runs": 15,
-   "wins": 1,
-   "status": "has_history"
-  },
-  {
-   "slug": "nobody-told-me",
-   "name": "Nobody Told Me",
-   "last_declared": "2026-11-24",
-   "runs": 23,
    "wins": 1,
    "status": "has_history"
   },
@@ -8507,14 +11203,6 @@
    "runs": 0,
    "wins": 0,
    "status": "debut"
-  },
-  {
-   "slug": "lady-kluck",
-   "name": "Lady Kluck",
-   "last_declared": "2026-11-24",
-   "runs": 5,
-   "wins": 1,
-   "status": "has_history"
   },
   {
    "slug": "lady-aurora",
@@ -9250,14 +11938,6 @@
    "last_declared": "2026-11-24",
    "runs": 33,
    "wins": 3,
-   "status": "has_history"
-  },
-  {
-   "slug": "eyeeye",
-   "name": "Eyeeye",
-   "last_declared": "2026-11-24",
-   "runs": 19,
-   "wins": 0,
    "status": "has_history"
   },
   {
@@ -16309,14 +18989,6 @@
    "status": "has_history"
   },
   {
-   "slug": "tasever",
-   "name": "Tasever",
-   "last_declared": "2026-11-21",
-   "runs": 51,
-   "wins": 4,
-   "status": "has_history"
-  },
-  {
    "slug": "tangara-bay",
    "name": "Tangara Bay",
    "last_declared": "2026-11-21",
@@ -17147,14 +19819,6 @@
    "runs": 0,
    "wins": 0,
    "status": "debut"
-  },
-  {
-   "slug": "off-spin",
-   "name": "Off Spin",
-   "last_declared": "2026-11-21",
-   "runs": 24,
-   "wins": 2,
-   "status": "has_history"
   },
   {
    "slug": "ocean-murphy",
@@ -19701,22 +22365,6 @@
    "status": "has_history"
   },
   {
-   "slug": "usuario-amigo",
-   "name": "Usuario Amigo",
-   "last_declared": "2026-11-20",
-   "runs": 25,
-   "wins": 2,
-   "status": "has_history"
-  },
-  {
-   "slug": "urban-road",
-   "name": "Urban Road",
-   "last_declared": "2026-11-20",
-   "runs": 55,
-   "wins": 7,
-   "status": "has_history"
-  },
-  {
    "slug": "unstoppable-army",
    "name": "Unstoppable Army",
    "last_declared": "2026-11-20",
@@ -19746,14 +22394,6 @@
    "last_declared": "2026-11-20",
    "runs": 4,
    "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "tribal-moon",
-   "name": "Tribal Moon",
-   "last_declared": "2026-11-20",
-   "runs": 15,
-   "wins": 1,
    "status": "has_history"
   },
   {
@@ -19890,14 +22530,6 @@
    "last_declared": "2026-11-20",
    "runs": 19,
    "wins": 4,
-   "status": "has_history"
-  },
-  {
-   "slug": "the-cosy-corner",
-   "name": "The Cosy Corner",
-   "last_declared": "2026-11-20",
-   "runs": 4,
-   "wins": 0,
    "status": "has_history"
   },
   {
@@ -20073,14 +22705,6 @@
    "name": "Sovereign Banter",
    "last_declared": "2026-11-20",
    "runs": 10,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "sorrento-sunset",
-   "name": "Sorrento Sunset",
-   "last_declared": "2026-11-20",
-   "runs": 4,
    "wins": 0,
    "status": "has_history"
   },
@@ -20361,14 +22985,6 @@
    "name": "Requiem",
    "last_declared": "2026-11-20",
    "runs": 6,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "rejoinder",
-   "name": "Rejoinder",
-   "last_declared": "2026-11-20",
-   "runs": 4,
    "wins": 0,
    "status": "has_history"
   },
@@ -20658,14 +23274,6 @@
    "last_declared": "2026-11-20",
    "runs": 24,
    "wins": 6,
-   "status": "has_history"
-  },
-  {
-   "slug": "one-cool-bear",
-   "name": "One Cool Bear",
-   "last_declared": "2026-11-20",
-   "runs": 14,
-   "wins": 1,
    "status": "has_history"
   },
   {
@@ -21229,14 +23837,6 @@
    "status": "has_history"
   },
   {
-   "slug": "king-chaos",
-   "name": "King Chaos",
-   "last_declared": "2026-11-20",
-   "runs": 23,
-   "wins": 1,
-   "status": "has_history"
-  },
-  {
    "slug": "king-casper",
    "name": "King Casper",
    "last_declared": "2026-11-20",
@@ -21389,14 +23989,6 @@
    "status": "has_history"
   },
   {
-   "slug": "invincible-irish",
-   "name": "Invincible Irish",
-   "last_declared": "2026-11-20",
-   "runs": 6,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "intense-appeal",
    "name": "Intense Appeal",
    "last_declared": "2026-11-20",
@@ -21506,14 +24098,6 @@
    "last_declared": "2026-11-20",
    "runs": 1,
    "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "hasiyna",
-   "name": "Hasiyna",
-   "last_declared": "2026-11-20",
-   "runs": 20,
-   "wins": 1,
    "status": "has_history"
   },
   {
@@ -21677,14 +24261,6 @@
    "status": "has_history"
   },
   {
-   "slug": "flying-fortress",
-   "name": "Flying Fortress",
-   "last_declared": "2026-11-20",
-   "runs": 16,
-   "wins": 1,
-   "status": "has_history"
-  },
-  {
    "slug": "fire-in-the-air",
    "name": "Fire In The Air",
    "last_declared": "2026-11-20",
@@ -21785,14 +24361,6 @@
    "name": "Epic Arch",
    "last_declared": "2026-11-20",
    "runs": 3,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "elm-creek",
-   "name": "Elm Creek",
-   "last_declared": "2026-11-20",
-   "runs": 4,
    "wins": 0,
    "status": "has_history"
   },
@@ -22485,14 +25053,6 @@
    "status": "has_history"
   },
   {
-   "slug": "all-hail",
-   "name": "All Hail",
-   "last_declared": "2026-11-20",
-   "runs": 9,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "all-about-trev",
    "name": "All About Trev",
    "last_declared": "2026-11-20",
@@ -22546,14 +25106,6 @@
    "last_declared": "2026-11-20",
    "runs": 21,
    "wins": 1,
-   "status": "has_history"
-  },
-  {
-   "slug": "afloat",
-   "name": "Afloat",
-   "last_declared": "2026-11-20",
-   "runs": 26,
-   "wins": 4,
    "status": "has_history"
   },
   {
@@ -23269,14 +25821,6 @@
    "status": "has_history"
   },
   {
-   "slug": "rock-on-ronnie",
-   "name": "Rock On Ronnie",
-   "last_declared": "2026-11-19",
-   "runs": 2,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "roc-my-haarth",
    "name": "Roc My Haarth",
    "last_declared": "2026-11-19",
@@ -23515,14 +26059,6 @@
    "runs": 8,
    "wins": 0,
    "status": "has_history"
-  },
-  {
-   "slug": "our-rarest-hour",
-   "name": "Our Rarest Hour",
-   "last_declared": "2026-11-19",
-   "runs": 0,
-   "wins": 0,
-   "status": "no_record"
   },
   {
    "slug": "our-absent-friends",
@@ -25085,14 +27621,6 @@
    "status": "has_history"
   },
   {
-   "slug": "burk-flight",
-   "name": "Burk Flight",
-   "last_declared": "2026-11-19",
-   "runs": 1,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "brother-walfrid",
    "name": "Brother Walfrid",
    "last_declared": "2026-11-19",
@@ -25685,14 +28213,6 @@
    "status": "has_history"
   },
   {
-   "slug": "tina-tereshkova",
-   "name": "Tina Tereshkova",
-   "last_declared": "2026-11-18",
-   "runs": 6,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "thriving-miss-lacy",
    "name": "Thriving Miss Lacy",
    "last_declared": "2026-11-18",
@@ -26162,14 +28682,6 @@
    "last_declared": "2026-11-18",
    "runs": 33,
    "wins": 3,
-   "status": "has_history"
-  },
-  {
-   "slug": "prince-andorra",
-   "name": "Prince Andorra",
-   "last_declared": "2026-11-18",
-   "runs": 8,
-   "wins": 0,
    "status": "has_history"
   },
   {
@@ -27613,14 +30125,6 @@
    "status": "has_history"
   },
   {
-   "slug": "chiquitita-bee",
-   "name": "Chiquitita Bee",
-   "last_declared": "2026-11-18",
-   "runs": 4,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "chester-nimitz",
    "name": "Chester Nimitz",
    "last_declared": "2026-11-18",
@@ -27643,14 +30147,6 @@
    "runs": 39,
    "wins": 6,
    "status": "has_history"
-  },
-  {
-   "slug": "chachaboo",
-   "name": "Chachaboo",
-   "last_declared": "2026-11-18",
-   "runs": 0,
-   "wins": 0,
-   "status": "debut"
   },
   {
    "slug": "celtic-comet",
@@ -27794,14 +30290,6 @@
    "last_declared": "2026-11-18",
    "runs": 4,
    "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "blue-anthem",
-   "name": "Blue Anthem",
-   "last_declared": "2026-11-18",
-   "runs": 25,
-   "wins": 3,
    "status": "has_history"
   },
   {
@@ -28093,14 +30581,6 @@
    "status": "has_history"
   },
   {
-   "slug": "walk-on-son",
-   "name": "Walk On Son",
-   "last_declared": "2026-11-17",
-   "runs": 10,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "vixey",
    "name": "Vixey",
    "last_declared": "2026-11-17",
@@ -28338,14 +30818,6 @@
    "last_declared": "2026-11-17",
    "runs": 4,
    "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "snapaudaciaheros",
-   "name": "Snapaudaciaheros",
-   "last_declared": "2026-11-17",
-   "runs": 15,
-   "wins": 2,
    "status": "has_history"
   },
   {
@@ -28690,14 +31162,6 @@
    "last_declared": "2026-11-17",
    "runs": 2,
    "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "national-question",
-   "name": "National Question",
-   "last_declared": "2026-11-17",
-   "runs": 31,
-   "wins": 4,
    "status": "has_history"
   },
   {
@@ -29485,14 +31949,6 @@
    "status": "has_history"
   },
   {
-   "slug": "enziya",
-   "name": "Enziya",
-   "last_declared": "2026-11-17",
-   "runs": 7,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "edmond-halley",
    "name": "Edmond Halley",
    "last_declared": "2026-11-17",
@@ -29842,14 +32298,6 @@
    "last_declared": "2026-11-17",
    "runs": 3,
    "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "bruce-banner",
-   "name": "Bruce Banner",
-   "last_declared": "2026-11-17",
-   "runs": 22,
-   "wins": 2,
    "status": "has_history"
   },
   {
@@ -30437,14 +32885,6 @@
    "status": "has_history"
   },
   {
-   "slug": "saxophonic",
-   "name": "Saxophonic",
-   "last_declared": "2026-11-16",
-   "runs": 11,
-   "wins": 2,
-   "status": "has_history"
-  },
-  {
    "slug": "ruby-punch",
    "name": "Ruby Punch",
    "last_declared": "2026-11-16",
@@ -30829,14 +33269,6 @@
    "status": "has_history"
   },
   {
-   "slug": "its-a-love-thing",
-   "name": "It's A Love Thing",
-   "last_declared": "2026-11-16",
-   "runs": 60,
-   "wins": 8,
-   "status": "has_history"
-  },
-  {
    "slug": "ionian",
    "name": "Ionian",
    "last_declared": "2026-11-16",
@@ -30901,14 +33333,6 @@
    "status": "has_history"
   },
   {
-   "slug": "graceful-gracie",
-   "name": "Graceful Gracie",
-   "last_declared": "2026-11-16",
-   "runs": 1,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "good-girl-rachel",
    "name": "Good Girl Rachel",
    "last_declared": "2026-11-16",
@@ -30937,14 +33361,6 @@
    "name": "Go Go Girl",
    "last_declared": "2026-11-16",
    "runs": 2,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "glitz-and-glamour",
-   "name": "Glitz And Glamour",
-   "last_declared": "2026-11-16",
-   "runs": 4,
    "wins": 0,
    "status": "has_history"
   },
@@ -31170,14 +33586,6 @@
    "last_declared": "2026-11-16",
    "runs": 19,
    "wins": 5,
-   "status": "has_history"
-  },
-  {
-   "slug": "betsen",
-   "name": "Betsen",
-   "last_declared": "2026-11-16",
-   "runs": 18,
-   "wins": 2,
    "status": "has_history"
   },
   {
@@ -32245,27 +34653,11 @@
    "status": "has_history"
   },
   {
-   "slug": "killarney",
-   "name": "Killarney",
-   "last_declared": "2026-11-15",
-   "runs": 1,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "kazansky",
    "name": "Kazansky",
    "last_declared": "2026-11-15",
    "runs": 3,
    "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "kap-ouest",
-   "name": "Kap Ouest",
-   "last_declared": "2026-11-15",
-   "runs": 8,
-   "wins": 2,
    "status": "has_history"
   },
   {
@@ -32329,14 +34721,6 @@
    "name": "It's Bobsled Time",
    "last_declared": "2026-11-15",
    "runs": 4,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "island-getaway",
-   "name": "Island Getaway",
-   "last_declared": "2026-11-15",
-   "runs": 2,
    "wins": 0,
    "status": "has_history"
   },
@@ -32653,14 +35037,6 @@
    "status": "has_history"
   },
   {
-   "slug": "dundeelin",
-   "name": "Dundeelin",
-   "last_declared": "2026-11-15",
-   "runs": 1,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "dundee-law",
    "name": "Dundee Law",
    "last_declared": "2026-11-15",
@@ -32697,14 +35073,6 @@
    "name": "Dernier Set",
    "last_declared": "2026-11-15",
    "runs": 2,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "days-of-joy",
-   "name": "Days of Joy",
-   "last_declared": "2026-11-15",
-   "runs": 1,
    "wins": 0,
    "status": "has_history"
   },
@@ -33186,14 +35554,6 @@
    "last_declared": "2026-11-14",
    "runs": 8,
    "wins": 2,
-   "status": "has_history"
-  },
-  {
-   "slug": "wonderful-eagle",
-   "name": "Wonderful Eagle",
-   "last_declared": "2026-11-14",
-   "runs": 13,
-   "wins": 6,
    "status": "has_history"
   },
   {
@@ -33893,14 +36253,6 @@
    "status": "has_history"
   },
   {
-   "slug": "palamon",
-   "name": "Palamon",
-   "last_declared": "2026-11-14",
-   "runs": 33,
-   "wins": 3,
-   "status": "has_history"
-  },
-  {
    "slug": "outofafrika",
    "name": "Outofafrika",
    "last_declared": "2026-11-14",
@@ -34106,14 +36458,6 @@
    "last_declared": "2026-11-14",
    "runs": 5,
    "wins": 2,
-   "status": "has_history"
-  },
-  {
-   "slug": "moi-mon-vieux",
-   "name": "Moi Mon Vieux",
-   "last_declared": "2026-11-14",
-   "runs": 4,
-   "wins": 0,
    "status": "has_history"
   },
   {
@@ -34469,14 +36813,6 @@
    "status": "has_history"
   },
   {
-   "slug": "kennys-jewel",
-   "name": "Kenny's Jewel",
-   "last_declared": "2026-11-14",
-   "runs": 4,
-   "wins": 1,
-   "status": "has_history"
-  },
-  {
    "slug": "karnaval-point",
    "name": "Karnaval Point",
    "last_declared": "2026-11-14",
@@ -34661,14 +36997,6 @@
    "status": "has_history"
   },
   {
-   "slug": "inoui-machin",
-   "name": "Inoui Machin",
-   "last_declared": "2026-11-14",
-   "runs": 12,
-   "wins": 4,
-   "status": "has_history"
-  },
-  {
    "slug": "independent-lady",
    "name": "Independent Lady",
    "last_declared": "2026-11-14",
@@ -34842,14 +37170,6 @@
    "last_declared": "2026-11-14",
    "runs": 6,
    "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "geezer-rockstar",
-   "name": "Geezer Rockstar",
-   "last_declared": "2026-11-14",
-   "runs": 12,
-   "wins": 4,
    "status": "has_history"
   },
   {
@@ -35349,14 +37669,6 @@
    "status": "has_history"
   },
   {
-   "slug": "blizzard-of-oz",
-   "name": "Blizzard of Oz",
-   "last_declared": "2026-11-14",
-   "runs": 16,
-   "wins": 4,
-   "status": "has_history"
-  },
-  {
    "slug": "bleu-de-vassy",
    "name": "Bleu De Vassy",
    "last_declared": "2026-11-14",
@@ -35565,14 +37877,6 @@
    "status": "has_history"
   },
   {
-   "slug": "wild-berries",
-   "name": "Wild Berries",
-   "last_declared": "2026-11-13",
-   "runs": 6,
-   "wins": 1,
-   "status": "has_history"
-  },
-  {
    "slug": "whermyrosemarygoes",
    "name": "Whermyrosemarygoes",
    "last_declared": "2026-11-13",
@@ -35586,14 +37890,6 @@
    "last_declared": "2026-11-13",
    "runs": 15,
    "wins": 2,
-   "status": "has_history"
-  },
-  {
-   "slug": "waysong",
-   "name": "Waysong",
-   "last_declared": "2026-11-13",
-   "runs": 1,
-   "wins": 0,
    "status": "has_history"
   },
   {
@@ -35749,22 +38045,6 @@
    "status": "has_history"
   },
   {
-   "slug": "star-harbour",
-   "name": "Star Harbour",
-   "last_declared": "2026-11-13",
-   "runs": 53,
-   "wins": 4,
-   "status": "has_history"
-  },
-  {
-   "slug": "spicy-margarita",
-   "name": "Spicy Margarita",
-   "last_declared": "2026-11-13",
-   "runs": 15,
-   "wins": 1,
-   "status": "has_history"
-  },
-  {
    "slug": "sonoran",
    "name": "Sonoran",
    "last_declared": "2026-11-13",
@@ -35833,14 +38113,6 @@
    "name": "Scolyer",
    "last_declared": "2026-11-13",
    "runs": 2,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "scarlet-dream",
-   "name": "Scarlet Dream",
-   "last_declared": "2026-11-13",
-   "runs": 6,
    "wins": 0,
    "status": "has_history"
   },
@@ -35997,14 +38269,6 @@
    "status": "has_history"
   },
   {
-   "slug": "no-ordinary-joe",
-   "name": "No Ordinary Joe",
-   "last_declared": "2026-11-13",
-   "runs": 32,
-   "wins": 5,
-   "status": "has_history"
-  },
-  {
    "slug": "mystic-rose",
    "name": "Mystic Rose",
    "last_declared": "2026-11-13",
@@ -36125,14 +38389,6 @@
    "status": "has_history"
   },
   {
-   "slug": "love-orchid",
-   "name": "Love Orchid",
-   "last_declared": "2026-11-13",
-   "runs": 10,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "lock-stock",
    "name": "Lock Stock",
    "last_declared": "2026-11-13",
@@ -36186,14 +38442,6 @@
    "last_declared": "2026-11-13",
    "runs": 23,
    "wins": 1,
-   "status": "has_history"
-  },
-  {
-   "slug": "klapton-boy",
-   "name": "Klapton Boy",
-   "last_declared": "2026-11-13",
-   "runs": 7,
-   "wins": 0,
    "status": "has_history"
   },
   {
@@ -36491,14 +38739,6 @@
    "runs": 24,
    "wins": 5,
    "status": "has_history"
-  },
-  {
-   "slug": "francisco-alvares",
-   "name": "Francisco Alvares",
-   "last_declared": "2026-11-13",
-   "runs": 0,
-   "wins": 0,
-   "status": "debut"
   },
   {
    "slug": "follow-your-luck",
@@ -37042,14 +39282,6 @@
    "last_declared": "2026-11-12",
    "runs": 21,
    "wins": 1,
-   "status": "has_history"
-  },
-  {
-   "slug": "unbelievable-jeff",
-   "name": "Unbelievable Jeff",
-   "last_declared": "2026-11-12",
-   "runs": 1,
-   "wins": 0,
    "status": "has_history"
   },
   {
@@ -37597,14 +39829,6 @@
    "status": "has_history"
   },
   {
-   "slug": "koala-rose",
-   "name": "Koala Rose",
-   "last_declared": "2026-11-12",
-   "runs": 6,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "kingston-silver",
    "name": "Kingston Silver",
    "last_declared": "2026-11-12",
@@ -37845,14 +40069,6 @@
    "status": "has_history"
   },
   {
-   "slug": "echo-valley",
-   "name": "Echo Valley",
-   "last_declared": "2026-11-12",
-   "runs": 9,
-   "wins": 1,
-   "status": "has_history"
-  },
-  {
    "slug": "eastern-rock",
    "name": "Eastern Rock",
    "last_declared": "2026-11-12",
@@ -38018,14 +40234,6 @@
    "last_declared": "2026-11-12",
    "runs": 28,
    "wins": 3,
-   "status": "has_history"
-  },
-  {
-   "slug": "bouboule",
-   "name": "Bouboule",
-   "last_declared": "2026-11-12",
-   "runs": 20,
-   "wins": 0,
    "status": "has_history"
   },
   {
@@ -38245,14 +40453,6 @@
    "status": "has_history"
   },
   {
-   "slug": "thaloria",
-   "name": "Thaloria",
-   "last_declared": "2026-11-11",
-   "runs": 11,
-   "wins": 1,
-   "status": "has_history"
-  },
-  {
    "slug": "tarsus",
    "name": "Tarsus",
    "last_declared": "2026-11-11",
@@ -38338,14 +40538,6 @@
    "last_declared": "2026-11-11",
    "runs": 32,
    "wins": 2,
-   "status": "has_history"
-  },
-  {
-   "slug": "sovereign-cry",
-   "name": "Sovereign Cry",
-   "last_declared": "2026-11-11",
-   "runs": 12,
-   "wins": 1,
    "status": "has_history"
   },
   {
@@ -38467,14 +40659,6 @@
    "runs": 0,
    "wins": 0,
    "status": "debut"
-  },
-  {
-   "slug": "riyazanka",
-   "name": "Riyazanka",
-   "last_declared": "2026-11-11",
-   "runs": 2,
-   "wins": 0,
-   "status": "has_history"
   },
   {
    "slug": "river-don",
@@ -38637,14 +40821,6 @@
    "status": "debut"
   },
   {
-   "slug": "movin-and-groovin",
-   "name": "Movin And Groovin",
-   "last_declared": "2026-11-11",
-   "runs": 11,
-   "wins": 2,
-   "status": "has_history"
-  },
-  {
    "slug": "morning-approach",
    "name": "Morning Approach",
    "last_declared": "2026-11-11",
@@ -38666,14 +40842,6 @@
    "last_declared": "2026-11-11",
    "runs": 1,
    "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "mint-man",
-   "name": "Mint Man",
-   "last_declared": "2026-11-11",
-   "runs": 16,
-   "wins": 1,
    "status": "has_history"
   },
   {
@@ -38777,14 +40945,6 @@
    "name": "Lethimfly",
    "last_declared": "2026-11-11",
    "runs": 8,
-   "wins": 1,
-   "status": "has_history"
-  },
-  {
-   "slug": "leonie",
-   "name": "Leonie",
-   "last_declared": "2026-11-11",
-   "runs": 7,
    "wins": 1,
    "status": "has_history"
   },
@@ -38933,27 +41093,11 @@
    "status": "has_history"
   },
   {
-   "slug": "isthatrightkatie",
-   "name": "Isthatrightkatie",
-   "last_declared": "2026-11-11",
-   "runs": 5,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "initial-blue",
    "name": "Initial Blue",
    "last_declared": "2026-11-11",
    "runs": 24,
    "wins": 4,
-   "status": "has_history"
-  },
-  {
-   "slug": "in-sequence",
-   "name": "In Sequence",
-   "last_declared": "2026-11-11",
-   "runs": 1,
-   "wins": 0,
    "status": "has_history"
   },
   {
@@ -39125,14 +41269,6 @@
    "status": "has_history"
   },
   {
-   "slug": "emily-estherfaye",
-   "name": "Emily Estherfaye",
-   "last_declared": "2026-11-11",
-   "runs": 4,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "elzante",
    "name": "Elzante",
    "last_declared": "2026-11-11",
@@ -39261,27 +41397,11 @@
    "status": "has_history"
   },
   {
-   "slug": "chicago-caray",
-   "name": "Chicago Caray",
-   "last_declared": "2026-11-11",
-   "runs": 2,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "charisma-cat",
    "name": "Charisma Cat",
    "last_declared": "2026-11-11",
    "runs": 9,
    "wins": 5,
-   "status": "has_history"
-  },
-  {
-   "slug": "carrigans-grove",
-   "name": "Carrigans Grove",
-   "last_declared": "2026-11-11",
-   "runs": 12,
-   "wins": 2,
    "status": "has_history"
   },
   {
@@ -39437,14 +41557,6 @@
    "status": "has_history"
   },
   {
-   "slug": "beat-the-retreat",
-   "name": "Beat The Retreat",
-   "last_declared": "2026-11-11",
-   "runs": 21,
-   "wins": 3,
-   "status": "has_history"
-  },
-  {
    "slug": "beach-barbie",
    "name": "Beach Barbie",
    "last_declared": "2026-11-11",
@@ -39481,14 +41593,6 @@
    "name": "Athair Mor",
    "last_declared": "2026-11-11",
    "runs": 6,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "astute-power",
-   "name": "Astute Power",
-   "last_declared": "2026-11-11",
-   "runs": 4,
    "wins": 0,
    "status": "has_history"
   },
@@ -39922,14 +42026,6 @@
    "last_declared": "2026-11-10",
    "runs": 21,
    "wins": 2,
-   "status": "has_history"
-  },
-  {
-   "slug": "ocean-heights",
-   "name": "Ocean Heights",
-   "last_declared": "2026-11-10",
-   "runs": 43,
-   "wins": 5,
    "status": "has_history"
   },
   {
@@ -40621,14 +42717,6 @@
    "status": "has_history"
   },
   {
-   "slug": "tatateo",
-   "name": "Tatateo",
-   "last_declared": "2026-11-09",
-   "runs": 14,
-   "wins": 3,
-   "status": "has_history"
-  },
-  {
    "slug": "swift-charm",
    "name": "Swift Charm",
    "last_declared": "2026-11-09",
@@ -40842,14 +42930,6 @@
    "last_declared": "2026-11-09",
    "runs": 1,
    "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "nobotheratall",
-   "name": "Nobotheratall",
-   "last_declared": "2026-11-09",
-   "runs": 9,
-   "wins": 1,
    "status": "has_history"
   },
   {
@@ -42869,14 +44949,6 @@
    "status": "debut"
   },
   {
-   "slug": "bowmore",
-   "name": "Bowmore",
-   "last_declared": "2026-11-08",
-   "runs": 16,
-   "wins": 2,
-   "status": "has_history"
-  },
-  {
    "slug": "bowensonfire",
    "name": "Bowensonfire",
    "last_declared": "2026-11-08",
@@ -43045,30 +45117,6 @@
    "status": "has_history"
   },
   {
-   "slug": "zgharta",
-   "name": "Zgharta",
-   "last_declared": "2026-11-07",
-   "runs": 10,
-   "wins": 2,
-   "status": "has_history"
-  },
-  {
-   "slug": "zephlyn",
-   "name": "Zephlyn",
-   "last_declared": "2026-11-07",
-   "runs": 45,
-   "wins": 5,
-   "status": "has_history"
-  },
-  {
-   "slug": "zen-diva",
-   "name": "Zen Diva",
-   "last_declared": "2026-11-07",
-   "runs": 10,
-   "wins": 4,
-   "status": "has_history"
-  },
-  {
    "slug": "your-darling",
    "name": "Your Darling",
    "last_declared": "2026-11-07",
@@ -43213,14 +45261,6 @@
    "status": "has_history"
   },
   {
-   "slug": "union-island",
-   "name": "Union Island",
-   "last_declared": "2026-11-07",
-   "runs": 36,
-   "wins": 6,
-   "status": "has_history"
-  },
-  {
    "slug": "u-sure-do",
    "name": "U Sure Do",
    "last_declared": "2026-11-07",
@@ -43325,14 +45365,6 @@
    "status": "has_history"
   },
   {
-   "slug": "thomas-mor",
-   "name": "Thomas Mor",
-   "last_declared": "2026-11-07",
-   "runs": 9,
-   "wins": 4,
-   "status": "has_history"
-  },
-  {
    "slug": "the-doyen-chief",
    "name": "The Doyen Chief",
    "last_declared": "2026-11-07",
@@ -43345,14 +45377,6 @@
    "name": "The Chancie Grey",
    "last_declared": "2026-11-07",
    "runs": 4,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "taurus-bay",
-   "name": "Taurus Bay",
-   "last_declared": "2026-11-07",
-   "runs": 2,
    "wins": 0,
    "status": "has_history"
   },
@@ -43389,14 +45413,6 @@
    "status": "debut"
   },
   {
-   "slug": "sunshine-and-roses",
-   "name": "Sunshine And Roses",
-   "last_declared": "2026-11-07",
-   "runs": 18,
-   "wins": 1,
-   "status": "has_history"
-  },
-  {
    "slug": "sunday-girl",
    "name": "Sunday Girl",
    "last_declared": "2026-11-07",
@@ -43426,14 +45442,6 @@
    "last_declared": "2026-11-07",
    "runs": 30,
    "wins": 3,
-   "status": "has_history"
-  },
-  {
-   "slug": "stick-to-the-board",
-   "name": "Stick To The Board",
-   "last_declared": "2026-11-07",
-   "runs": 2,
-   "wins": 1,
    "status": "has_history"
   },
   {
@@ -43493,14 +45501,6 @@
    "status": "has_history"
   },
   {
-   "slug": "someones-wish",
-   "name": "Someone's Wish",
-   "last_declared": "2026-11-07",
-   "runs": 29,
-   "wins": 1,
-   "status": "has_history"
-  },
-  {
    "slug": "soames-forsyte",
    "name": "Soames Forsyte",
    "last_declared": "2026-11-07",
@@ -43514,14 +45514,6 @@
    "last_declared": "2026-11-07",
    "runs": 7,
    "wins": 3,
-   "status": "has_history"
-  },
-  {
-   "slug": "sisterandbrother",
-   "name": "Sisterandbrother",
-   "last_declared": "2026-11-07",
-   "runs": 62,
-   "wins": 9,
    "status": "has_history"
   },
   {
@@ -44013,14 +46005,6 @@
    "status": "has_history"
   },
   {
-   "slug": "on-the-bubble",
-   "name": "On The Bubble",
-   "last_declared": "2026-11-07",
-   "runs": 40,
-   "wins": 2,
-   "status": "has_history"
-  },
-  {
    "slug": "on-a-diamond",
    "name": "On A Diamond",
    "last_declared": "2026-11-07",
@@ -44210,14 +46194,6 @@
    "last_declared": "2026-11-07",
    "runs": 1,
    "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "montassib",
-   "name": "Montassib",
-   "last_declared": "2026-11-07",
-   "runs": 24,
-   "wins": 7,
    "status": "has_history"
   },
   {
@@ -44445,26 +46421,10 @@
    "status": "has_history"
   },
   {
-   "slug": "lone-star",
-   "name": "Lone Star",
-   "last_declared": "2026-11-07",
-   "runs": 43,
-   "wins": 5,
-   "status": "has_history"
-  },
-  {
    "slug": "lir-speciale",
    "name": "Lir Speciale",
    "last_declared": "2026-11-07",
    "runs": 41,
-   "wins": 6,
-   "status": "has_history"
-  },
-  {
-   "slug": "lihyan",
-   "name": "Lihyan",
-   "last_declared": "2026-11-07",
-   "runs": 28,
    "wins": 6,
    "status": "has_history"
   },
@@ -45005,14 +46965,6 @@
    "status": "has_history"
   },
   {
-   "slug": "harbour-light",
-   "name": "Harbour Light",
-   "last_declared": "2026-11-07",
-   "runs": 7,
-   "wins": 3,
-   "status": "has_history"
-  },
-  {
    "slug": "harbour-lake",
    "name": "Harbour Lake",
    "last_declared": "2026-11-07",
@@ -45197,14 +47149,6 @@
    "status": "has_history"
   },
   {
-   "slug": "fools-rush-in",
-   "name": "Fools Rush In",
-   "last_declared": "2026-11-07",
-   "runs": 72,
-   "wins": 11,
-   "status": "has_history"
-  },
-  {
    "slug": "fleu-du-glaye",
    "name": "Fleu du Glaye",
    "last_declared": "2026-11-07",
@@ -45269,14 +47213,6 @@
    "status": "has_history"
   },
   {
-   "slug": "favour-and-fortune",
-   "name": "Favour And Fortune",
-   "last_declared": "2026-11-07",
-   "runs": 16,
-   "wins": 5,
-   "status": "has_history"
-  },
-  {
    "slug": "fandom",
    "name": "Fandom",
    "last_declared": "2026-11-07",
@@ -45298,22 +47234,6 @@
    "last_declared": "2026-11-07",
    "runs": 9,
    "wins": 2,
-   "status": "has_history"
-  },
-  {
-   "slug": "evenwood-sonofagun",
-   "name": "Evenwood Sonofagun",
-   "last_declared": "2026-11-07",
-   "runs": 38,
-   "wins": 2,
-   "status": "has_history"
-  },
-  {
-   "slug": "etalon",
-   "name": "Etalon",
-   "last_declared": "2026-11-07",
-   "runs": 21,
-   "wins": 5,
    "status": "has_history"
   },
   {
@@ -45354,14 +47274,6 @@
    "last_declared": "2026-11-07",
    "runs": 8,
    "wins": 1,
-   "status": "has_history"
-  },
-  {
-   "slug": "dusky-days",
-   "name": "Dusky Days",
-   "last_declared": "2026-11-07",
-   "runs": 25,
-   "wins": 2,
    "status": "has_history"
   },
   {
@@ -45413,14 +47325,6 @@
    "status": "has_history"
   },
   {
-   "slug": "dollars-dream",
-   "name": "Dollar's Dream",
-   "last_declared": "2026-11-07",
-   "runs": 11,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "divilabother",
    "name": "Divilabother",
    "last_declared": "2026-11-07",
@@ -45453,14 +47357,6 @@
    "status": "debut"
   },
   {
-   "slug": "deep-cave",
-   "name": "Deep Cave",
-   "last_declared": "2026-11-07",
-   "runs": 15,
-   "wins": 2,
-   "status": "has_history"
-  },
-  {
    "slug": "decem-starr",
    "name": "Decem Starr",
    "last_declared": "2026-11-07",
@@ -45490,14 +47386,6 @@
    "last_declared": "2026-11-07",
    "runs": 43,
    "wins": 7,
-   "status": "has_history"
-  },
-  {
-   "slug": "crestofdistinction",
-   "name": "Crestofdistinction",
-   "last_declared": "2026-11-07",
-   "runs": 9,
-   "wins": 2,
    "status": "has_history"
   },
   {
@@ -45837,14 +47725,6 @@
    "status": "has_history"
   },
   {
-   "slug": "blackjack",
-   "name": "Blackjack",
-   "last_declared": "2026-11-07",
-   "runs": 59,
-   "wins": 7,
-   "status": "has_history"
-  },
-  {
    "slug": "black-eddy",
    "name": "Black Eddy",
    "last_declared": "2026-11-07",
@@ -46101,14 +47981,6 @@
    "status": "has_history"
   },
   {
-   "slug": "a-chara",
-   "name": "A Chara",
-   "last_declared": "2026-11-07",
-   "runs": 1,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "wynette",
    "name": "Wynette",
    "last_declared": "2026-11-06",
@@ -46333,14 +48205,6 @@
    "status": "has_history"
   },
   {
-   "slug": "snowrocco",
-   "name": "Snowrocco",
-   "last_declared": "2026-11-06",
-   "runs": 10,
-   "wins": 1,
-   "status": "has_history"
-  },
-  {
    "slug": "smokehouse",
    "name": "Smokehouse",
    "last_declared": "2026-11-06",
@@ -46445,22 +48309,6 @@
    "status": "has_history"
   },
   {
-   "slug": "royal-infantry",
-   "name": "Royal Infantry",
-   "last_declared": "2026-11-06",
-   "runs": 13,
-   "wins": 5,
-   "status": "has_history"
-  },
-  {
-   "slug": "rosanella",
-   "name": "Rosanella",
-   "last_declared": "2026-11-06",
-   "runs": 3,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "robert-dores",
    "name": "Robert d'Ores",
    "last_declared": "2026-11-06",
@@ -46473,14 +48321,6 @@
    "name": "Risky Obsession",
    "last_declared": "2026-11-06",
    "runs": 2,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "rias-angel",
-   "name": "Ria's Angel",
-   "last_declared": "2026-11-06",
-   "runs": 1,
    "wins": 0,
    "status": "has_history"
   },
@@ -47269,14 +49109,6 @@
    "status": "debut"
   },
   {
-   "slug": "flash-du-pistolet",
-   "name": "Flash du Pistolet",
-   "last_declared": "2026-11-06",
-   "runs": 18,
-   "wins": 2,
-   "status": "has_history"
-  },
-  {
    "slug": "flanker-jet",
    "name": "Flanker Jet",
    "last_declared": "2026-11-06",
@@ -47517,14 +49349,6 @@
    "status": "has_history"
   },
   {
-   "slug": "carcaci-castle",
-   "name": "Carcaci Castle",
-   "last_declared": "2026-11-06",
-   "runs": 17,
-   "wins": 3,
-   "status": "has_history"
-  },
-  {
    "slug": "canta-castela",
    "name": "Canta Castela",
    "last_declared": "2026-11-06",
@@ -47733,14 +49557,6 @@
    "status": "no_record"
   },
   {
-   "slug": "ask-a-sainte",
-   "name": "Ask A Sainte",
-   "last_declared": "2026-11-06",
-   "runs": 9,
-   "wins": 1,
-   "status": "has_history"
-  },
-  {
    "slug": "aqua-bleu",
    "name": "Aqua Bleu",
    "last_declared": "2026-11-06",
@@ -47789,14 +49605,6 @@
    "status": "has_history"
   },
   {
-   "slug": "zoffman",
-   "name": "Zoffman",
-   "last_declared": "2026-11-05",
-   "runs": 31,
-   "wins": 3,
-   "status": "has_history"
-  },
-  {
    "slug": "young-doran",
    "name": "Young Doran",
    "last_declared": "2026-11-05",
@@ -47842,22 +49650,6 @@
    "last_declared": "2026-11-05",
    "runs": 6,
    "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "western-monkey",
-   "name": "Western Monkey",
-   "last_declared": "2026-11-05",
-   "runs": 0,
-   "wins": 0,
-   "status": "no_record"
-  },
-  {
-   "slug": "walking-on-air",
-   "name": "Walking On Air",
-   "last_declared": "2026-11-05",
-   "runs": 22,
-   "wins": 2,
    "status": "has_history"
   },
   {
@@ -48349,14 +50141,6 @@
    "status": "has_history"
   },
   {
-   "slug": "regal-thunder",
-   "name": "Regal Thunder",
-   "last_declared": "2026-11-05",
-   "runs": 2,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "read-all-about-it",
    "name": "Read All About It",
    "last_declared": "2026-11-05",
@@ -48433,14 +50217,6 @@
    "name": "Presley",
    "last_declared": "2026-11-05",
    "runs": 1,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "presentandcorrect",
-   "name": "Presentandcorrect",
-   "last_declared": "2026-11-05",
-   "runs": 5,
    "wins": 0,
    "status": "has_history"
   },
@@ -48569,14 +50345,6 @@
    "name": "Old Kenmare",
    "last_declared": "2026-11-05",
    "runs": 9,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "octo-gane",
-   "name": "Octo Gane",
-   "last_declared": "2026-11-05",
-   "runs": 2,
    "wins": 0,
    "status": "has_history"
   },
@@ -49133,14 +50901,6 @@
    "status": "has_history"
   },
   {
-   "slug": "jetaway-holiday",
-   "name": "Jetaway Holiday",
-   "last_declared": "2026-11-05",
-   "runs": 2,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "jenson-benson",
    "name": "Jenson Benson",
    "last_declared": "2026-11-05",
@@ -49171,14 +50931,6 @@
    "runs": 0,
    "wins": 0,
    "status": "debut"
-  },
-  {
-   "slug": "jaipaletemps",
-   "name": "Jaipaletemps",
-   "last_declared": "2026-11-05",
-   "runs": 10,
-   "wins": 2,
-   "status": "has_history"
   },
   {
    "slug": "itsallfrenchtome",
@@ -49218,14 +50970,6 @@
    "last_declared": "2026-11-05",
    "runs": 18,
    "wins": 9,
-   "status": "has_history"
-  },
-  {
-   "slug": "humble-jumble",
-   "name": "Humble Jumble",
-   "last_declared": "2026-11-05",
-   "runs": 4,
-   "wins": 1,
    "status": "has_history"
   },
   {
@@ -50493,14 +52237,6 @@
    "status": "has_history"
   },
   {
-   "slug": "the-resdev-tyke",
-   "name": "The Resdev Tyke",
-   "last_declared": "2026-11-04",
-   "runs": 5,
-   "wins": 1,
-   "status": "has_history"
-  },
-  {
    "slug": "the-resdev-scholar",
    "name": "The Resdev Scholar",
    "last_declared": "2026-11-04",
@@ -50635,22 +52371,6 @@
    "runs": 0,
    "wins": 0,
    "status": "debut"
-  },
-  {
-   "slug": "storm-on-jura",
-   "name": "Storm On Jura",
-   "last_declared": "2026-11-04",
-   "runs": 16,
-   "wins": 1,
-   "status": "has_history"
-  },
-  {
-   "slug": "star-allure",
-   "name": "Star Allure",
-   "last_declared": "2026-11-04",
-   "runs": 13,
-   "wins": 0,
-   "status": "has_history"
   },
   {
    "slug": "stagge-hyll",
@@ -50837,14 +52557,6 @@
    "status": "has_history"
   },
   {
-   "slug": "saint-acclaim",
-   "name": "Saint Acclaim",
-   "last_declared": "2026-11-04",
-   "runs": 3,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "russian-rumour",
    "name": "Russian Rumour",
    "last_declared": "2026-11-04",
@@ -51013,14 +52725,6 @@
    "status": "has_history"
   },
   {
-   "slug": "princess-aurelia",
-   "name": "Princess Aurelia",
-   "last_declared": "2026-11-04",
-   "runs": 0,
-   "wins": 0,
-   "status": "debut"
-  },
-  {
    "slug": "prince-of-petra",
    "name": "Prince of Petra",
    "last_declared": "2026-11-04",
@@ -51073,14 +52777,6 @@
    "name": "Poetic Parable",
    "last_declared": "2026-11-04",
    "runs": 1,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "plan-de-stan",
-   "name": "Plan de Stan",
-   "last_declared": "2026-11-04",
-   "runs": 2,
    "wins": 0,
    "status": "has_history"
   },
@@ -51245,14 +52941,6 @@
    "status": "no_record"
   },
   {
-   "slug": "neddies-boy",
-   "name": "Neddies Boy",
-   "last_declared": "2026-11-04",
-   "runs": 12,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "ned-broy",
    "name": "Ned Broy",
    "last_declared": "2026-11-04",
@@ -51317,14 +53005,6 @@
    "status": "debut"
   },
   {
-   "slug": "moyanna-castle",
-   "name": "Moyanna Castle",
-   "last_declared": "2026-11-04",
-   "runs": 1,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "motawaared",
    "name": "Motawaared",
    "last_declared": "2026-11-04",
@@ -51377,14 +53057,6 @@
    "name": "Miss Veronika",
    "last_declared": "2026-11-04",
    "runs": 4,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "mirissa-beach",
-   "name": "Mirissa Beach",
-   "last_declared": "2026-11-04",
-   "runs": 2,
    "wins": 0,
    "status": "has_history"
   },
@@ -51813,14 +53485,6 @@
    "status": "has_history"
   },
   {
-   "slug": "hint-of-the-jungle",
-   "name": "Hint of The Jungle",
-   "last_declared": "2026-11-04",
-   "runs": 25,
-   "wins": 4,
-   "status": "has_history"
-  },
-  {
    "slug": "highbury-hill",
    "name": "Highbury Hill",
    "last_declared": "2026-11-04",
@@ -51925,28 +53589,12 @@
    "status": "has_history"
   },
   {
-   "slug": "go-athletico",
-   "name": "Go Athletico",
-   "last_declared": "2026-11-04",
-   "runs": 23,
-   "wins": 2,
-   "status": "has_history"
-  },
-  {
    "slug": "ghost-fire",
    "name": "Ghost Fire",
    "last_declared": "2026-11-04",
    "runs": 0,
    "wins": 0,
    "status": "debut"
-  },
-  {
-   "slug": "gemini-man",
-   "name": "Gemini Man",
-   "last_declared": "2026-11-04",
-   "runs": 37,
-   "wins": 4,
-   "status": "has_history"
   },
   {
    "slug": "gemical",
@@ -51989,14 +53637,6 @@
    "status": "has_history"
   },
   {
-   "slug": "fox-in-flight",
-   "name": "Fox In Flight",
-   "last_declared": "2026-11-04",
-   "runs": 8,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "force-and-valour",
    "name": "Force And Valour",
    "last_declared": "2026-11-04",
@@ -52011,14 +53651,6 @@
    "runs": 8,
    "wins": 0,
    "status": "has_history"
-  },
-  {
-   "slug": "final-dash",
-   "name": "Final Dash",
-   "last_declared": "2026-11-04",
-   "runs": 0,
-   "wins": 0,
-   "status": "debut"
   },
   {
    "slug": "fiery-anne",
@@ -52253,14 +53885,6 @@
    "status": "debut"
   },
   {
-   "slug": "dandyville",
-   "name": "Dandyville",
-   "last_declared": "2026-11-04",
-   "runs": 33,
-   "wins": 7,
-   "status": "has_history"
-  },
-  {
    "slug": "dandys-angel",
    "name": "Dandy's Angel",
    "last_declared": "2026-11-04",
@@ -52405,14 +54029,6 @@
    "status": "has_history"
   },
   {
-   "slug": "choir-of-angels",
-   "name": "Choir of Angels",
-   "last_declared": "2026-11-04",
-   "runs": 0,
-   "wins": 0,
-   "status": "debut"
-  },
-  {
    "slug": "chevere",
    "name": "Chevere",
    "last_declared": "2026-11-04",
@@ -52426,14 +54042,6 @@
    "last_declared": "2026-11-04",
    "runs": 2,
    "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "charlie-darling",
-   "name": "Charlie Darling",
-   "last_declared": "2026-11-04",
-   "runs": 23,
-   "wins": 3,
    "status": "has_history"
   },
   {
@@ -52829,14 +54437,6 @@
    "status": "has_history"
   },
   {
-   "slug": "accoya",
-   "name": "Accoya",
-   "last_declared": "2026-11-04",
-   "runs": 0,
-   "wins": 0,
-   "status": "debut"
-  },
-  {
    "slug": "ablon",
    "name": "Ablon",
    "last_declared": "2026-11-04",
@@ -53117,14 +54717,6 @@
    "status": "has_history"
   },
   {
-   "slug": "soldier-poet",
-   "name": "Soldier Poet",
-   "last_declared": "2026-11-03",
-   "runs": 1,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "so-proud",
    "name": "So Proud",
    "last_declared": "2026-11-03",
@@ -53154,14 +54746,6 @@
    "last_declared": "2026-11-03",
    "runs": 4,
    "wins": 1,
-   "status": "has_history"
-  },
-  {
-   "slug": "shushi",
-   "name": "Shushi",
-   "last_declared": "2026-11-03",
-   "runs": 6,
-   "wins": 0,
    "status": "has_history"
   },
   {
@@ -53493,14 +55077,6 @@
    "status": "debut"
   },
   {
-   "slug": "moving-force",
-   "name": "Moving Force",
-   "last_declared": "2026-11-03",
-   "runs": 13,
-   "wins": 1,
-   "status": "has_history"
-  },
-  {
    "slug": "moves-like-gold",
    "name": "Moves Like Gold",
    "last_declared": "2026-11-03",
@@ -53773,14 +55349,6 @@
    "status": "debut"
   },
   {
-   "slug": "jaycee-reidy",
-   "name": "Jaycee Reidy",
-   "last_declared": "2026-11-03",
-   "runs": 1,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "jambearee",
    "name": "Jambearee",
    "last_declared": "2026-11-03",
@@ -53794,14 +55362,6 @@
    "last_declared": "2026-11-03",
    "runs": 17,
    "wins": 2,
-   "status": "has_history"
-  },
-  {
-   "slug": "huit-reflets",
-   "name": "Huit Reflets",
-   "last_declared": "2026-11-03",
-   "runs": 35,
-   "wins": 1,
    "status": "has_history"
   },
   {
@@ -53893,14 +55453,6 @@
    "status": "has_history"
   },
   {
-   "slug": "gintime",
-   "name": "Gintime",
-   "last_declared": "2026-11-03",
-   "runs": 6,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "georgie-simmons",
    "name": "Georgie Simmons",
    "last_declared": "2026-11-03",
@@ -53922,14 +55474,6 @@
    "last_declared": "2026-11-03",
    "runs": 4,
    "wins": 1,
-   "status": "has_history"
-  },
-  {
-   "slug": "gallant-lion",
-   "name": "Gallant Lion",
-   "last_declared": "2026-11-03",
-   "runs": 34,
-   "wins": 5,
    "status": "has_history"
   },
   {
@@ -53977,14 +55521,6 @@
    "name": "Evening Blues",
    "last_declared": "2026-11-03",
    "runs": 9,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "espritroyale",
-   "name": "Espritroyale",
-   "last_declared": "2026-11-03",
-   "runs": 8,
    "wins": 0,
    "status": "has_history"
   },
@@ -54165,14 +55701,6 @@
    "status": "has_history"
   },
   {
-   "slug": "blue-sky-dreaming",
-   "name": "Blue Sky Dreaming",
-   "last_declared": "2026-11-03",
-   "runs": 3,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "blackjack-hills",
    "name": "Blackjack Hills",
    "last_declared": "2026-11-03",
@@ -54194,14 +55722,6 @@
    "last_declared": "2026-11-03",
    "runs": 5,
    "wins": 2,
-   "status": "has_history"
-  },
-  {
-   "slug": "bint-al-daar",
-   "name": "Bint Al Daar",
-   "last_declared": "2026-11-03",
-   "runs": 40,
-   "wins": 4,
    "status": "has_history"
   },
   {
@@ -54365,14 +55885,6 @@
    "status": "has_history"
   },
   {
-   "slug": "al-qatem",
-   "name": "Al Qatem",
-   "last_declared": "2026-11-03",
-   "runs": 2,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "ad-caelum",
    "name": "Ad Caelum",
    "last_declared": "2026-11-03",
@@ -54473,14 +55985,6 @@
    "name": "Upton's Mighty Oak",
    "last_declared": "2026-11-02",
    "runs": 5,
-   "wins": 1,
-   "status": "has_history"
-  },
-  {
-   "slug": "under-the-sun",
-   "name": "Under The Sun",
-   "last_declared": "2026-11-02",
-   "runs": 19,
    "wins": 1,
    "status": "has_history"
   },
@@ -55109,14 +56613,6 @@
    "status": "has_history"
   },
   {
-   "slug": "katana",
-   "name": "Katana",
-   "last_declared": "2026-11-02",
-   "runs": 8,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "kapability",
    "name": "Kapability",
    "last_declared": "2026-11-02",
@@ -55349,14 +56845,6 @@
    "status": "has_history"
   },
   {
-   "slug": "deep-sleep",
-   "name": "Deep Sleep",
-   "last_declared": "2026-11-02",
-   "runs": 11,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "davita-blaze",
    "name": "Davita Blaze",
    "last_declared": "2026-11-02",
@@ -55433,14 +56921,6 @@
    "name": "Clarissa Eclipse",
    "last_declared": "2026-11-02",
    "runs": 3,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "choir-boy",
-   "name": "Choir Boy",
-   "last_declared": "2026-11-02",
-   "runs": 4,
    "wins": 0,
    "status": "has_history"
   },
@@ -55594,14 +57074,6 @@
    "last_declared": "2026-11-02",
    "runs": 5,
    "wins": 2,
-   "status": "has_history"
-  },
-  {
-   "slug": "anxious-moments",
-   "name": "Anxious Moments",
-   "last_declared": "2026-11-02",
-   "runs": 5,
-   "wins": 1,
    "status": "has_history"
   },
   {
@@ -55997,14 +57469,6 @@
    "status": "no_record"
   },
   {
-   "slug": "supremely-west",
-   "name": "Supremely West",
-   "last_declared": "2026-11-01",
-   "runs": 16,
-   "wins": 7,
-   "status": "has_history"
-  },
-  {
    "slug": "sunrise-strider",
    "name": "Sunrise Strider",
    "last_declared": "2026-11-01",
@@ -56273,14 +57737,6 @@
    "name": "Red Oak",
    "last_declared": "2026-11-01",
    "runs": 4,
-   "wins": 1,
-   "status": "has_history"
-  },
-  {
-   "slug": "red-moon",
-   "name": "Red Moon",
-   "last_declared": "2026-11-01",
-   "runs": 9,
    "wins": 1,
    "status": "has_history"
   },
@@ -56603,14 +58059,6 @@
    "runs": 16,
    "wins": 2,
    "status": "has_history"
-  },
-  {
-   "slug": "midnight-escape",
-   "name": "Midnight Escape",
-   "last_declared": "2026-11-01",
-   "runs": 0,
-   "wins": 0,
-   "status": "no_record"
   },
   {
    "slug": "mickey-the-steel",
@@ -57925,14 +59373,6 @@
    "status": "debut"
   },
   {
-   "slug": "twinjets",
-   "name": "Twinjets",
-   "last_declared": "2026-10-31",
-   "runs": 18,
-   "wins": 7,
-   "status": "has_history"
-  },
-  {
    "slug": "twelve-bars",
    "name": "Twelve Bars",
    "last_declared": "2026-10-31",
@@ -58061,14 +59501,6 @@
    "status": "has_history"
   },
   {
-   "slug": "teddy-blue",
-   "name": "Teddy Blue",
-   "last_declared": "2026-10-31",
-   "runs": 29,
-   "wins": 5,
-   "status": "has_history"
-  },
-  {
    "slug": "tanking-along",
    "name": "Tanking Along",
    "last_declared": "2026-10-31",
@@ -58114,14 +59546,6 @@
    "last_declared": "2026-10-31",
    "runs": 18,
    "wins": 1,
-   "status": "has_history"
-  },
-  {
-   "slug": "strong-leader",
-   "name": "Strong Leader",
-   "last_declared": "2026-10-31",
-   "runs": 18,
-   "wins": 6,
    "status": "has_history"
   },
   {
@@ -58195,14 +59619,6 @@
    "runs": 18,
    "wins": 3,
    "status": "has_history"
-  },
-  {
-   "slug": "so-this-is-love",
-   "name": "So This Is Love",
-   "last_declared": "2026-10-31",
-   "runs": 0,
-   "wins": 0,
-   "status": "debut"
   },
   {
    "slug": "so-lovely",
@@ -58733,14 +60149,6 @@
    "status": "has_history"
   },
   {
-   "slug": "masterius",
-   "name": "Masterius",
-   "last_declared": "2026-10-31",
-   "runs": 3,
-   "wins": 1,
-   "status": "has_history"
-  },
-  {
    "slug": "marty-mcfly",
    "name": "Marty McFly",
    "last_declared": "2026-10-31",
@@ -58829,14 +60237,6 @@
    "status": "has_history"
   },
   {
-   "slug": "lili-marleen",
-   "name": "Lili Marleen",
-   "last_declared": "2026-10-31",
-   "runs": 8,
-   "wins": 1,
-   "status": "has_history"
-  },
-  {
    "slug": "lieber-nicc",
    "name": "Lieber Nicc",
    "last_declared": "2026-10-31",
@@ -58866,14 +60266,6 @@
    "last_declared": "2026-10-31",
    "runs": 3,
    "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "lavida-adiva",
-   "name": "Lavida Adiva",
-   "last_declared": "2026-10-31",
-   "runs": 17,
-   "wins": 3,
    "status": "has_history"
   },
   {
@@ -59725,14 +61117,6 @@
    "status": "has_history"
   },
   {
-   "slug": "battle-of-arsuf",
-   "name": "Battle of Arsuf",
-   "last_declared": "2026-10-31",
-   "runs": 0,
-   "wins": 0,
-   "status": "no_record"
-  },
-  {
    "slug": "banbridge",
    "name": "Banbridge",
    "last_declared": "2026-10-31",
@@ -60469,14 +61853,6 @@
    "status": "debut"
   },
   {
-   "slug": "primoz",
-   "name": "Primoz",
-   "last_declared": "2026-10-30",
-   "runs": 15,
-   "wins": 5,
-   "status": "has_history"
-  },
-  {
    "slug": "premier-division",
    "name": "Premier Division",
    "last_declared": "2026-10-30",
@@ -60530,14 +61906,6 @@
    "last_declared": "2026-10-30",
    "runs": 27,
    "wins": 3,
-   "status": "has_history"
-  },
-  {
-   "slug": "pillar-of-hope",
-   "name": "Pillar Of Hope",
-   "last_declared": "2026-10-30",
-   "runs": 26,
-   "wins": 5,
    "status": "has_history"
   },
   {
@@ -60597,14 +61965,6 @@
    "status": "has_history"
   },
   {
-   "slug": "old-harrovian",
-   "name": "Old Harrovian",
-   "last_declared": "2026-10-30",
-   "runs": 11,
-   "wins": 3,
-   "status": "has_history"
-  },
-  {
    "slug": "ohailbhic",
    "name": "Ohailbhic",
    "last_declared": "2026-10-30",
@@ -60621,14 +61981,6 @@
    "status": "has_history"
   },
   {
-   "slug": "not-just-any-eagle",
-   "name": "Not Just Any Eagle",
-   "last_declared": "2026-10-30",
-   "runs": 27,
-   "wins": 3,
-   "status": "has_history"
-  },
-  {
    "slug": "northerly",
    "name": "Northerly",
    "last_declared": "2026-10-30",
@@ -60642,14 +61994,6 @@
    "last_declared": "2026-10-30",
    "runs": 5,
    "wins": 2,
-   "status": "has_history"
-  },
-  {
-   "slug": "nevershedatear",
-   "name": "Nevershedatear",
-   "last_declared": "2026-10-30",
-   "runs": 6,
-   "wins": 0,
    "status": "has_history"
   },
   {
@@ -60898,14 +62242,6 @@
    "last_declared": "2026-10-30",
    "runs": 16,
    "wins": 4,
-   "status": "has_history"
-  },
-  {
-   "slug": "lillistar",
-   "name": "Lillistar",
-   "last_declared": "2026-10-30",
-   "runs": 30,
-   "wins": 1,
    "status": "has_history"
   },
   {
@@ -61277,14 +62613,6 @@
    "status": "has_history"
   },
   {
-   "slug": "gaineamh-min",
-   "name": "Gaineamh Min",
-   "last_declared": "2026-10-30",
-   "runs": 3,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "gaelic-seer",
    "name": "Gaelic Seer",
    "last_declared": "2026-10-30",
@@ -61330,14 +62658,6 @@
    "last_declared": "2026-10-30",
    "runs": 18,
    "wins": 5,
-   "status": "has_history"
-  },
-  {
-   "slug": "flame-of-forest",
-   "name": "Flame Of Forest",
-   "last_declared": "2026-10-30",
-   "runs": 9,
-   "wins": 1,
    "status": "has_history"
   },
   {
@@ -61685,14 +63005,6 @@
    "status": "has_history"
   },
   {
-   "slug": "bye-bye-now",
-   "name": "Bye Bye Now",
-   "last_declared": "2026-10-30",
-   "runs": 7,
-   "wins": 1,
-   "status": "has_history"
-  },
-  {
    "slug": "briery-bluebelle",
    "name": "Briery Bluebelle",
    "last_declared": "2026-10-30",
@@ -61779,14 +63091,6 @@
    "runs": 27,
    "wins": 3,
    "status": "has_history"
-  },
-  {
-   "slug": "baysline",
-   "name": "Baysline",
-   "last_declared": "2026-10-30",
-   "runs": 0,
-   "wins": 0,
-   "status": "debut"
   },
   {
    "slug": "bay-dream-believer",
@@ -62101,14 +63405,6 @@
    "status": "has_history"
   },
   {
-   "slug": "toothless",
-   "name": "Toothless",
-   "last_declared": "2026-10-29",
-   "runs": 15,
-   "wins": 4,
-   "status": "has_history"
-  },
-  {
    "slug": "togeather-forever",
    "name": "Togeather Forever",
    "last_declared": "2026-10-29",
@@ -62243,14 +63539,6 @@
    "runs": 0,
    "wins": 0,
    "status": "no_record"
-  },
-  {
-   "slug": "smokey-malone",
-   "name": "Smokey Malone",
-   "last_declared": "2026-10-29",
-   "runs": 64,
-   "wins": 11,
-   "status": "has_history"
   },
   {
    "slug": "smash-royale",
@@ -62397,14 +63685,6 @@
    "status": "has_history"
   },
   {
-   "slug": "river-glance",
-   "name": "River Glance",
-   "last_declared": "2026-10-29",
-   "runs": 5,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "rinky-tinky-tinky",
    "name": "Rinky Tinky Tinky",
    "last_declared": "2026-10-29",
@@ -62475,14 +63755,6 @@
    "runs": 0,
    "wins": 0,
    "status": "no_record"
-  },
-  {
-   "slug": "popeye-doyle",
-   "name": "Popeye Doyle",
-   "last_declared": "2026-10-29",
-   "runs": 14,
-   "wins": 2,
-   "status": "has_history"
   },
   {
    "slug": "pirates-paradise",
@@ -62818,14 +64090,6 @@
    "last_declared": "2026-10-29",
    "runs": 10,
    "wins": 1,
-   "status": "has_history"
-  },
-  {
-   "slug": "light-speed",
-   "name": "Light Speed",
-   "last_declared": "2026-10-29",
-   "runs": 22,
-   "wins": 2,
    "status": "has_history"
   },
   {
@@ -63725,14 +64989,6 @@
    "status": "has_history"
   },
   {
-   "slug": "bannister",
-   "name": "Bannister",
-   "last_declared": "2026-10-29",
-   "runs": 29,
-   "wins": 4,
-   "status": "has_history"
-  },
-  {
    "slug": "arnaz",
    "name": "Arnaz",
    "last_declared": "2026-10-29",
@@ -63802,14 +65058,6 @@
    "last_declared": "2026-10-29",
    "runs": 56,
    "wins": 7,
-   "status": "has_history"
-  },
-  {
-   "slug": "akrramm",
-   "name": "Akrramm",
-   "last_declared": "2026-10-29",
-   "runs": 5,
-   "wins": 0,
    "status": "has_history"
   },
   {
@@ -64117,14 +65365,6 @@
    "status": "has_history"
   },
   {
-   "slug": "shamanka",
-   "name": "Shamanka",
-   "last_declared": "2026-10-28",
-   "runs": 8,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "shadowbelle",
    "name": "Shadowbelle",
    "last_declared": "2026-10-28",
@@ -64298,14 +65538,6 @@
    "last_declared": "2026-10-28",
    "runs": 4,
    "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "palazzo-persico",
-   "name": "Palazzo Persico",
-   "last_declared": "2026-10-28",
-   "runs": 35,
-   "wins": 3,
    "status": "has_history"
   },
   {
@@ -64525,14 +65757,6 @@
    "status": "has_history"
   },
   {
-   "slug": "let-me-free",
-   "name": "Let Me Free",
-   "last_declared": "2026-10-28",
-   "runs": 1,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "leo-phelps",
    "name": "Leo Phelps",
    "last_declared": "2026-10-28",
@@ -64549,28 +65773,12 @@
    "status": "has_history"
   },
   {
-   "slug": "lallygag",
-   "name": "Lallygag",
-   "last_declared": "2026-10-28",
-   "runs": 21,
-   "wins": 6,
-   "status": "has_history"
-  },
-  {
    "slug": "lahore-da-king",
    "name": "Lahore Da King",
    "last_declared": "2026-10-28",
    "runs": 11,
    "wins": 1,
    "status": "has_history"
-  },
-  {
-   "slug": "lady-bb",
-   "name": "Lady Bb",
-   "last_declared": "2026-10-28",
-   "runs": 0,
-   "wins": 0,
-   "status": "debut"
   },
   {
    "slug": "krak",
@@ -64805,14 +66013,6 @@
    "status": "debut"
   },
   {
-   "slug": "flamingo-rose",
-   "name": "Flamingo Rose",
-   "last_declared": "2026-10-28",
-   "runs": 14,
-   "wins": 2,
-   "status": "has_history"
-  },
-  {
    "slug": "fizzy-bear",
    "name": "Fizzy Bear",
    "last_declared": "2026-10-28",
@@ -64906,14 +66106,6 @@
    "last_declared": "2026-10-28",
    "runs": 36,
    "wins": 5,
-   "status": "has_history"
-  },
-  {
-   "slug": "cuban-court",
-   "name": "Cuban Court",
-   "last_declared": "2026-10-28",
-   "runs": 22,
-   "wins": 6,
    "status": "has_history"
   },
   {
@@ -65361,14 +66553,6 @@
    "name": "Thomas Tallis",
    "last_declared": "2026-10-27",
    "runs": 7,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "thesoldiersminit",
-   "name": "Thesoldiersminit",
-   "last_declared": "2026-10-27",
-   "runs": 3,
    "wins": 0,
    "status": "has_history"
   },
@@ -65845,14 +67029,6 @@
    "status": "has_history"
   },
   {
-   "slug": "mister-adam",
-   "name": "Mister Adam",
-   "last_declared": "2026-10-27",
-   "runs": 4,
-   "wins": 1,
-   "status": "has_history"
-  },
-  {
    "slug": "miraculous",
    "name": "Miraculous",
    "last_declared": "2026-10-27",
@@ -65898,14 +67074,6 @@
    "last_declared": "2026-10-27",
    "runs": 8,
    "wins": 1,
-   "status": "has_history"
-  },
-  {
-   "slug": "masterfield",
-   "name": "Masterfield",
-   "last_declared": "2026-10-27",
-   "runs": 4,
-   "wins": 0,
    "status": "has_history"
   },
   {
@@ -65989,14 +67157,6 @@
    "status": "no_record"
   },
   {
-   "slug": "laristote",
-   "name": "Laristote",
-   "last_declared": "2026-10-27",
-   "runs": 3,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "kudos-too",
    "name": "Kudos Too",
    "last_declared": "2026-10-27",
@@ -66010,14 +67170,6 @@
    "last_declared": "2026-10-27",
    "runs": 3,
    "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "kent-de-thaix",
-   "name": "Kent de Thaix",
-   "last_declared": "2026-10-27",
-   "runs": 4,
-   "wins": 1,
    "status": "has_history"
   },
   {
@@ -66085,26 +67237,10 @@
    "status": "has_history"
   },
   {
-   "slug": "iamyouare",
-   "name": "Iamyouare",
-   "last_declared": "2026-10-27",
-   "runs": 8,
-   "wins": 2,
-   "status": "has_history"
-  },
-  {
    "slug": "hvar",
    "name": "Hvar",
    "last_declared": "2026-10-27",
    "runs": 11,
-   "wins": 1,
-   "status": "has_history"
-  },
-  {
-   "slug": "hunters-spring",
-   "name": "Hunters Spring",
-   "last_declared": "2026-10-27",
-   "runs": 7,
    "wins": 1,
    "status": "has_history"
   },
@@ -66205,14 +67341,6 @@
    "status": "has_history"
   },
   {
-   "slug": "glenroyal",
-   "name": "Glenroyal",
-   "last_declared": "2026-10-27",
-   "runs": 9,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "glen-road",
    "name": "Glen Road",
    "last_declared": "2026-10-27",
@@ -66242,14 +67370,6 @@
    "last_declared": "2026-10-27",
    "runs": 6,
    "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "falcon-nine",
-   "name": "Falcon Nine",
-   "last_declared": "2026-10-27",
-   "runs": 41,
-   "wins": 2,
    "status": "has_history"
   },
   {
@@ -66434,22 +67554,6 @@
    "last_declared": "2026-10-27",
    "runs": 5,
    "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "boy-named-sioux",
-   "name": "Boy Named Sioux",
-   "last_declared": "2026-10-27",
-   "runs": 13,
-   "wins": 1,
-   "status": "has_history"
-  },
-  {
-   "slug": "bodygroove",
-   "name": "Bodygroove",
-   "last_declared": "2026-10-27",
-   "runs": 21,
-   "wins": 2,
    "status": "has_history"
   },
   {
@@ -66685,27 +67789,11 @@
    "status": "has_history"
   },
   {
-   "slug": "vaguely-royal",
-   "name": "Vaguely Royal",
-   "last_declared": "2026-10-26",
-   "runs": 32,
-   "wins": 4,
-   "status": "has_history"
-  },
-  {
    "slug": "twilight-guest",
    "name": "Twilight Guest",
    "last_declared": "2026-10-26",
    "runs": 42,
    "wins": 3,
-   "status": "has_history"
-  },
-  {
-   "slug": "turbo-charger",
-   "name": "Turbo Charger",
-   "last_declared": "2026-10-26",
-   "runs": 1,
-   "wins": 0,
    "status": "has_history"
   },
   {
@@ -66831,14 +67919,6 @@
   {
    "slug": "tangled-webb",
    "name": "Tangled Webb",
-   "last_declared": "2026-10-26",
-   "runs": 2,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "talka",
-   "name": "Talka",
    "last_declared": "2026-10-26",
    "runs": 2,
    "wins": 0,
@@ -69093,27 +70173,11 @@
    "status": "has_history"
   },
   {
-   "slug": "klub-de-reve",
-   "name": "Klub de Reve",
-   "last_declared": "2026-10-25",
-   "runs": 3,
-   "wins": 1,
-   "status": "has_history"
-  },
-  {
    "slug": "kir",
    "name": "Kir",
    "last_declared": "2026-10-25",
    "runs": 5,
    "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "keable",
-   "name": "Keable",
-   "last_declared": "2026-10-25",
-   "runs": 13,
-   "wins": 3,
    "status": "has_history"
   },
   {
@@ -69445,14 +70509,6 @@
    "status": "has_history"
   },
   {
-   "slug": "too-cool-forshrule",
-   "name": "Too Cool Forshrule",
-   "last_declared": "2026-10-24",
-   "runs": 12,
-   "wins": 3,
-   "status": "has_history"
-  },
-  {
    "slug": "tipsy-tiger",
    "name": "Tipsy Tiger",
    "last_declared": "2026-10-24",
@@ -69661,14 +70717,6 @@
    "status": "has_history"
   },
   {
-   "slug": "scots-poet",
-   "name": "Scots Poet",
-   "last_declared": "2026-10-24",
-   "runs": 43,
-   "wins": 8,
-   "status": "has_history"
-  },
-  {
    "slug": "scienza",
    "name": "Scienza",
    "last_declared": "2026-10-24",
@@ -69794,14 +70842,6 @@
    "last_declared": "2026-10-24",
    "runs": 23,
    "wins": 1,
-   "status": "has_history"
-  },
-  {
-   "slug": "oor-wish",
-   "name": "Oor Wish",
-   "last_declared": "2026-10-24",
-   "runs": 5,
-   "wins": 0,
    "status": "has_history"
   },
   {
@@ -70059,14 +71099,6 @@
    "runs": 2,
    "wins": 1,
    "status": "has_history"
-  },
-  {
-   "slug": "landsborough",
-   "name": "Landsborough",
-   "last_declared": "2026-10-24",
-   "runs": 0,
-   "wins": 0,
-   "status": "no_record"
   },
   {
    "slug": "la-luna-artista",
@@ -70365,14 +71397,6 @@
    "status": "no_record"
   },
   {
-   "slug": "flick-of-an-eye",
-   "name": "Flick of An Eye",
-   "last_declared": "2026-10-24",
-   "runs": 2,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "flash-bardot",
    "name": "Flash Bardot",
    "last_declared": "2026-10-24",
@@ -70565,14 +71589,6 @@
    "status": "has_history"
   },
   {
-   "slug": "catchintsavo",
-   "name": "Catchintsavo",
-   "last_declared": "2026-10-24",
-   "runs": 6,
-   "wins": 2,
-   "status": "has_history"
-  },
-  {
    "slug": "castlemont",
    "name": "Castlemont",
    "last_declared": "2026-10-24",
@@ -70602,14 +71618,6 @@
    "last_declared": "2026-10-24",
    "runs": 8,
    "wins": 2,
-   "status": "has_history"
-  },
-  {
-   "slug": "by-the-book",
-   "name": "By The Book",
-   "last_declared": "2026-10-24",
-   "runs": 5,
-   "wins": 1,
    "status": "has_history"
   },
   {
@@ -71442,14 +72450,6 @@
    "last_declared": "2026-10-23",
    "runs": 10,
    "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "phils-dream",
-   "name": "Phil's Dream",
-   "last_declared": "2026-10-23",
-   "runs": 13,
-   "wins": 1,
    "status": "has_history"
   },
   {
@@ -72709,14 +73709,6 @@
    "status": "has_history"
   },
   {
-   "slug": "aint-nobody",
-   "name": "Ain't Nobody",
-   "last_declared": "2026-10-23",
-   "runs": 18,
-   "wins": 2,
-   "status": "has_history"
-  },
-  {
    "slug": "age-of-reason",
    "name": "Age Of Reason",
    "last_declared": "2026-10-23",
@@ -73213,14 +74205,6 @@
    "status": "has_history"
   },
   {
-   "slug": "oatsoeasy",
-   "name": "Oatsoeasy",
-   "last_declared": "2026-10-22",
-   "runs": 0,
-   "wins": 0,
-   "status": "no_record"
-  },
-  {
    "slug": "odriscoll",
    "name": "O'Driscoll",
    "last_declared": "2026-10-22",
@@ -73259,14 +74243,6 @@
    "runs": 0,
    "wins": 0,
    "status": "debut"
-  },
-  {
-   "slug": "moonset",
-   "name": "Moonset",
-   "last_declared": "2026-10-22",
-   "runs": 5,
-   "wins": 2,
-   "status": "has_history"
   },
   {
    "slug": "mohaymenah",
@@ -73405,14 +74381,6 @@
    "status": "has_history"
   },
   {
-   "slug": "laios-tresor",
-   "name": "Laios Tresor",
-   "last_declared": "2026-10-22",
-   "runs": 2,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "lady-vega",
    "name": "Lady Vega",
    "last_declared": "2026-10-22",
@@ -73461,14 +74429,6 @@
    "status": "has_history"
   },
   {
-   "slug": "kayf-dancer",
-   "name": "Kayf Dancer",
-   "last_declared": "2026-10-22",
-   "runs": 9,
-   "wins": 2,
-   "status": "has_history"
-  },
-  {
    "slug": "katie-cant-count",
    "name": "Katie Can't Count",
    "last_declared": "2026-10-22",
@@ -73506,14 +74466,6 @@
    "last_declared": "2026-10-22",
    "runs": 12,
    "wins": 2,
-   "status": "has_history"
-  },
-  {
-   "slug": "johnny-moonshine",
-   "name": "Johnny Moonshine",
-   "last_declared": "2026-10-22",
-   "runs": 3,
-   "wins": 0,
    "status": "has_history"
   },
   {
@@ -73682,14 +74634,6 @@
    "last_declared": "2026-10-22",
    "runs": 16,
    "wins": 2,
-   "status": "has_history"
-  },
-  {
-   "slug": "five-moons",
-   "name": "Five Moons",
-   "last_declared": "2026-10-22",
-   "runs": 7,
-   "wins": 0,
    "status": "has_history"
   },
   {
@@ -73969,14 +74913,6 @@
    "name": "Bel Amigo",
    "last_declared": "2026-10-22",
    "runs": 8,
-   "wins": 3,
-   "status": "has_history"
-  },
-  {
-   "slug": "beauty-generation",
-   "name": "Beauty Generation",
-   "last_declared": "2026-10-22",
-   "runs": 22,
    "wins": 3,
    "status": "has_history"
   },
@@ -74737,14 +75673,6 @@
    "name": "My Lady d'Ex",
    "last_declared": "2026-10-21",
    "runs": 3,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "my-cubby-bear",
-   "name": "My Cubby Bear",
-   "last_declared": "2026-10-21",
-   "runs": 2,
    "wins": 0,
    "status": "has_history"
   },
@@ -75773,14 +76701,6 @@
    "status": "has_history"
   },
   {
-   "slug": "tee-aitch-aye",
-   "name": "Tee Aitch Aye",
-   "last_declared": "2026-10-20",
-   "runs": 20,
-   "wins": 2,
-   "status": "has_history"
-  },
-  {
    "slug": "tabasco-river",
    "name": "Tabasco River",
    "last_declared": "2026-10-20",
@@ -76445,14 +77365,6 @@
    "status": "has_history"
   },
   {
-   "slug": "hey-stella",
-   "name": "Hey Stella",
-   "last_declared": "2026-10-20",
-   "runs": 3,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "heddon-street",
    "name": "Heddon Street",
    "last_declared": "2026-10-20",
@@ -76737,14 +77649,6 @@
    "name": "Black Fury",
    "last_declared": "2026-10-20",
    "runs": 3,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "biglesisback",
-   "name": "Biglesisback",
-   "last_declared": "2026-10-20",
-   "runs": 4,
    "wins": 0,
    "status": "has_history"
   },
@@ -77205,14 +78109,6 @@
    "status": "has_history"
   },
   {
-   "slug": "star-of-jupiter",
-   "name": "Star of Jupiter",
-   "last_declared": "2026-10-19",
-   "runs": 24,
-   "wins": 1,
-   "status": "has_history"
-  },
-  {
    "slug": "star-of-commala",
    "name": "Star of Commala",
    "last_declared": "2026-10-19",
@@ -77234,14 +78130,6 @@
    "last_declared": "2026-10-19",
    "runs": 49,
    "wins": 4,
-   "status": "has_history"
-  },
-  {
-   "slug": "spec-of-light",
-   "name": "Spec of Light",
-   "last_declared": "2026-10-19",
-   "runs": 20,
-   "wins": 2,
    "status": "has_history"
   },
   {
@@ -77345,14 +78233,6 @@
    "name": "Sceptic",
    "last_declared": "2026-10-19",
    "runs": 31,
-   "wins": 5,
-   "status": "has_history"
-  },
-  {
-   "slug": "satono-chevalier",
-   "name": "Satono Chevalier",
-   "last_declared": "2026-10-19",
-   "runs": 36,
    "wins": 5,
    "status": "has_history"
   },
@@ -80221,14 +81101,6 @@
    "status": "has_history"
   },
   {
-   "slug": "saint-polo",
-   "name": "Saint Polo",
-   "last_declared": "2026-10-17",
-   "runs": 9,
-   "wins": 3,
-   "status": "has_history"
-  },
-  {
    "slug": "royale-union",
    "name": "Royale Union",
    "last_declared": "2026-10-17",
@@ -81285,14 +82157,6 @@
    "status": "has_history"
   },
   {
-   "slug": "el-fox",
-   "name": "El Fox",
-   "last_declared": "2026-10-17",
-   "runs": 11,
-   "wins": 1,
-   "status": "has_history"
-  },
-  {
    "slug": "el-capitaine",
    "name": "El Capitaine",
    "last_declared": "2026-10-17",
@@ -81314,14 +82178,6 @@
    "last_declared": "2026-10-17",
    "runs": 6,
    "wins": 2,
-   "status": "has_history"
-  },
-  {
-   "slug": "duhallow-storm",
-   "name": "Duhallow Storm",
-   "last_declared": "2026-10-17",
-   "runs": 1,
-   "wins": 0,
    "status": "has_history"
   },
   {
@@ -81458,14 +82314,6 @@
    "last_declared": "2026-10-17",
    "runs": 1,
    "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "country-mile",
-   "name": "Country Mile",
-   "last_declared": "2026-10-17",
-   "runs": 6,
-   "wins": 4,
    "status": "has_history"
   },
   {
@@ -83533,14 +84381,6 @@
    "status": "has_history"
   },
   {
-   "slug": "shooting",
-   "name": "Shooting",
-   "last_declared": "2026-10-15",
-   "runs": 0,
-   "wins": 0,
-   "status": "no_record"
-  },
-  {
    "slug": "shifra",
    "name": "Shifra",
    "last_declared": "2026-10-15",
@@ -83977,14 +84817,6 @@
    "name": "Maillot Vert",
    "last_declared": "2026-10-15",
    "runs": 4,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "magnolia",
-   "name": "Magnolia",
-   "last_declared": "2026-10-15",
-   "runs": 10,
    "wins": 0,
    "status": "has_history"
   },
@@ -84869,14 +85701,6 @@
    "status": "no_record"
   },
   {
-   "slug": "tutti-quanti",
-   "name": "Tutti Quanti",
-   "last_declared": "2026-10-14",
-   "runs": 8,
-   "wins": 3,
-   "status": "has_history"
-  },
-  {
    "slug": "trinculo",
    "name": "Trinculo",
    "last_declared": "2026-10-14",
@@ -85570,14 +86394,6 @@
    "last_declared": "2026-10-14",
    "runs": 12,
    "wins": 2,
-   "status": "has_history"
-  },
-  {
-   "slug": "double-time",
-   "name": "Double Time",
-   "last_declared": "2026-10-14",
-   "runs": 32,
-   "wins": 6,
    "status": "has_history"
   },
   {
@@ -88221,14 +89037,6 @@
    "status": "has_history"
   },
   {
-   "slug": "anightaway",
-   "name": "Anightaway",
-   "last_declared": "2026-10-12",
-   "runs": 5,
-   "wins": 1,
-   "status": "has_history"
-  },
-  {
    "slug": "amorist",
    "name": "Amorist",
    "last_declared": "2026-10-12",
@@ -89909,14 +90717,6 @@
    "status": "has_history"
   },
   {
-   "slug": "probing",
-   "name": "Probing",
-   "last_declared": "2026-10-10",
-   "runs": 0,
-   "wins": 0,
-   "status": "debut"
-  },
-  {
    "slug": "pourquoi-poi",
    "name": "Pourquoi Poi",
    "last_declared": "2026-10-10",
@@ -90185,14 +90985,6 @@
    "name": "Masterly",
    "last_declared": "2026-10-10",
    "runs": 2,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "masked-man",
-   "name": "Masked Man",
-   "last_declared": "2026-10-10",
-   "runs": 1,
    "wins": 0,
    "status": "has_history"
   },
@@ -92114,14 +92906,6 @@
    "last_declared": "2026-10-09",
    "runs": 15,
    "wins": 1,
-   "status": "has_history"
-  },
-  {
-   "slug": "hollywood-treasure",
-   "name": "Hollywood Treasure",
-   "last_declared": "2026-10-09",
-   "runs": 4,
-   "wins": 2,
    "status": "has_history"
   },
   {
@@ -94157,14 +94941,6 @@
    "status": "has_history"
   },
   {
-   "slug": "the-love-machine",
-   "name": "The Love Machine",
-   "last_declared": "2026-10-07",
-   "runs": 9,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "tamzan",
    "name": "Tamzan",
    "last_declared": "2026-10-07",
@@ -94635,14 +95411,6 @@
    "runs": 3,
    "wins": 0,
    "status": "has_history"
-  },
-  {
-   "slug": "jumeirah-pearl",
-   "name": "Jumeirah Pearl",
-   "last_declared": "2026-10-07",
-   "runs": 0,
-   "wins": 0,
-   "status": "debut"
   },
   {
    "slug": "jesus-green",
@@ -97821,14 +98589,6 @@
    "status": "has_history"
   },
   {
-   "slug": "alentejo",
-   "name": "Alentejo",
-   "last_declared": "2026-10-04",
-   "runs": 10,
-   "wins": 1,
-   "status": "has_history"
-  },
-  {
    "slug": "a-lovely-manoeuvre",
    "name": "A Lovely Manoeuvre",
    "last_declared": "2026-10-04",
@@ -100773,14 +101533,6 @@
    "status": "has_history"
   },
   {
-   "slug": "forest-bay",
-   "name": "Forest Bay",
-   "last_declared": "2026-10-01",
-   "runs": 0,
-   "wins": 0,
-   "status": "debut"
-  },
-  {
    "slug": "fleetwater",
    "name": "Fleetwater",
    "last_declared": "2026-10-01",
@@ -101381,14 +102133,6 @@
    "status": "debut"
   },
   {
-   "slug": "mr-fustic",
-   "name": "Mr Fustic",
-   "last_declared": "2026-09-30",
-   "runs": 38,
-   "wins": 6,
-   "status": "has_history"
-  },
-  {
    "slug": "mr-devlin",
    "name": "Mr Devlin",
    "last_declared": "2026-09-30",
@@ -101725,14 +102469,6 @@
    "status": "has_history"
   },
   {
-   "slug": "clonmacash",
-   "name": "Clonmacash",
-   "last_declared": "2026-09-30",
-   "runs": 40,
-   "wins": 6,
-   "status": "has_history"
-  },
-  {
    "slug": "bullrider",
    "name": "Bullrider",
    "last_declared": "2026-09-30",
@@ -101973,14 +102709,6 @@
    "status": "has_history"
   },
   {
-   "slug": "royal-baroness",
-   "name": "Royal Baroness",
-   "last_declared": "2026-09-29",
-   "runs": 5,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "red-shea",
    "name": "Red Shea",
    "last_declared": "2026-09-29",
@@ -102010,14 +102738,6 @@
    "last_declared": "2026-09-29",
    "runs": 2,
    "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "novak",
-   "name": "Novak",
-   "last_declared": "2026-09-29",
-   "runs": 79,
-   "wins": 10,
    "status": "has_history"
   },
   {
@@ -102129,14 +102849,6 @@
    "name": "Howlin Wolf",
    "last_declared": "2026-09-29",
    "runs": 6,
-   "wins": 1,
-   "status": "has_history"
-  },
-  {
-   "slug": "hijo-de-la-luna",
-   "name": "Hijo de La Luna",
-   "last_declared": "2026-09-29",
-   "runs": 24,
    "wins": 1,
    "status": "has_history"
   },
@@ -102530,14 +103242,6 @@
    "last_declared": "2026-09-28",
    "runs": 13,
    "wins": 4,
-   "status": "has_history"
-  },
-  {
-   "slug": "stellar-path",
-   "name": "Stellar Path",
-   "last_declared": "2026-09-28",
-   "runs": 6,
-   "wins": 0,
    "status": "has_history"
   },
   {
@@ -105133,14 +105837,6 @@
    "status": "has_history"
   },
   {
-   "slug": "bassenthwaite",
-   "name": "Bassenthwaite",
-   "last_declared": "2026-09-26",
-   "runs": 8,
-   "wins": 2,
-   "status": "has_history"
-  },
-  {
    "slug": "barry-lyndon",
    "name": "Barry Lyndon",
    "last_declared": "2026-09-26",
@@ -105757,14 +106453,6 @@
    "status": "has_history"
   },
   {
-   "slug": "military-order",
-   "name": "Military Order",
-   "last_declared": "2026-09-25",
-   "runs": 12,
-   "wins": 5,
-   "status": "has_history"
-  },
-  {
    "slug": "max-mayfield",
    "name": "Max Mayfield",
    "last_declared": "2026-09-25",
@@ -106129,14 +106817,6 @@
    "name": "Discussion",
    "last_declared": "2026-09-25",
    "runs": 4,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
-   "slug": "delta",
-   "name": "Delta",
-   "last_declared": "2026-09-25",
-   "runs": 6,
    "wins": 0,
    "status": "has_history"
   },
@@ -111949,14 +112629,6 @@
    "status": "debut"
   },
   {
-   "slug": "sadie-rose",
-   "name": "Sadie Rose",
-   "last_declared": "2026-09-17",
-   "runs": 2,
-   "wins": 0,
-   "status": "has_history"
-  },
-  {
    "slug": "rogue-supremacy",
    "name": "Rogue Supremacy",
    "last_declared": "2026-09-17",
@@ -113058,14 +113730,6 @@
    "last_declared": "2026-09-16",
    "runs": 41,
    "wins": 3,
-   "status": "has_history"
-  },
-  {
-   "slug": "a-pretty-penny",
-   "name": "A Pretty Penny",
-   "last_declared": "2026-09-16",
-   "runs": 7,
-   "wins": 2,
    "status": "has_history"
   },
   {
@@ -114426,14 +115090,6 @@
    "last_declared": "2026-09-13",
    "runs": 5,
    "wins": 2,
-   "status": "has_history"
-  },
-  {
-   "slug": "partisan-hero",
-   "name": "Partisan Hero",
-   "last_declared": "2026-09-13",
-   "runs": 25,
-   "wins": 6,
    "status": "has_history"
   },
   {
