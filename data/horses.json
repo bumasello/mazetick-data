@@ -1,6 +1,6 @@
 {
  "schema": "horses_v5",
- "generated_at": "2026-11-27T12:00:03Z",
+ "generated_at": "2026-11-27T16:00:03Z",
  "source": "Historical race results",
  "note": "Every figure is computed using only races run STRICTLY BEFORE the race it describes — the `as_of` date on each horse. Groups with fewer than two runs are omitted rather than shown as a rate, because a 100% strike rate over one run is noise wearing the clothes of a finding. Our archive runs to 2026-11-26: a horse that ran after that date has those runs missing here, so read `career` as what we hold, not as a complete record.",
  "history_depth": {
@@ -19,7 +19,7 @@
   "still_missing": 924,
   "note": "Sire totals count the progeny we hold. Breeding is complete for races up to 2026-07-22. After that date our live source carries it for about half of runners; we recover most of the rest from the same horse's other races, but not all. Recent races are therefore under-counted in sire totals."
  },
- "collected_through": "2026-11-27T11:00:02Z",
+ "collected_through": "2026-11-27T15:00:02Z",
  "distance_bands": [
   {
    "key": "sprint",
@@ -3919,7 +3919,7 @@
     "off_utc": "2026-11-27T12:10:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-27",
    "status": "has_history",
@@ -7274,7 +7274,7 @@
     "off_utc": "2026-11-27T12:40:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-27",
    "status": "has_history",
@@ -16277,7 +16277,7 @@
     "off_utc": "2026-11-27T14:25:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-27",
    "status": "has_history",
@@ -16468,7 +16468,7 @@
     "off_utc": "2026-11-27T14:25:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-27",
    "status": "has_history",
@@ -21086,7 +21086,7 @@
     "off_utc": "2026-11-27T15:00:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-27",
    "status": "has_history",
@@ -21706,7 +21706,7 @@
     "off_utc": "2026-11-27T15:00:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-27",
    "status": "has_history",
@@ -22200,7 +22200,7 @@
     "off_utc": "2026-11-27T15:00:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-27",
    "status": "has_history",
@@ -28838,7 +28838,7 @@
     "off_utc": "2026-11-27T15:35:00+00:00",
     "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-27",
    "status": "has_history",
@@ -39464,7 +39464,7 @@
     "off_utc": "2026-11-27T18:00:00+00:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "reserve"
+    "runner_status": "runner"
    },
    "as_of": "2026-11-27",
    "status": "debut",
@@ -39478,6 +39478,14 @@
    "by_going": [],
    "by_course": [],
    "by_distance": [],
+   "jockey": {
+    "name": "Siobhan Rutledge",
+    "runs": 1372,
+    "wins": 79,
+    "places": 247,
+    "win_pct": 5.8,
+    "place_pct": 18.0
+   },
    "trainer": {
     "name": "Eddie & Patrick Harty",
     "runs": 609,
@@ -39501,6 +39509,24 @@
     "places": 451,
     "win_pct": 14.1,
     "place_pct": 40.8
+   },
+   "jockey_at_course": {
+    "name": "Siobhan Rutledge",
+    "key": "Dundalk (AW)",
+    "runs": 511,
+    "wins": 38,
+    "places": 102,
+    "win_pct": 7.4,
+    "place_pct": 20.0
+   },
+   "jockey_at_distance": {
+    "name": "Siobhan Rutledge",
+    "key": "sprint",
+    "runs": 278,
+    "wins": 16,
+    "places": 51,
+    "win_pct": 5.8,
+    "place_pct": 18.3
    },
    "trainer_at_course": {
     "name": "Eddie & Patrick Harty",
@@ -46725,7 +46751,7 @@
     "off_utc": "2026-11-27T19:00:00+00:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-27",
    "status": "has_history",
