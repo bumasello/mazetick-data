@@ -1,6 +1,6 @@
 {
  "schema": "horses_v5",
- "generated_at": "2026-11-27T07:00:03Z",
+ "generated_at": "2026-11-27T12:00:03Z",
  "source": "Historical race results",
  "note": "Every figure is computed using only races run STRICTLY BEFORE the race it describes — the `as_of` date on each horse. Groups with fewer than two runs are omitted rather than shown as a rate, because a 100% strike rate over one run is noise wearing the clothes of a finding. Our archive runs to 2026-11-26: a horse that ran after that date has those runs missing here, so read `career` as what we hold, not as a complete record.",
  "history_depth": {
@@ -19,7 +19,7 @@
   "still_missing": 924,
   "note": "Sire totals count the progeny we hold. Breeding is complete for races up to 2026-07-22. After that date our live source carries it for about half of runners; we recover most of the rest from the same horse's other races, but not all. Recent races are therefore under-counted in sire totals."
  },
- "collected_through": "2026-11-27T06:00:01Z",
+ "collected_through": "2026-11-27T11:00:02Z",
  "distance_bands": [
   {
    "key": "sprint",
@@ -82,7 +82,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T11:40:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -233,7 +233,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T11:40:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -349,7 +349,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T11:40:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -509,7 +509,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T11:40:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -660,7 +660,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T11:40:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -768,7 +768,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T11:40:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -903,7 +903,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T11:40:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -1028,9 +1028,9 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T11:40:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-27",
    "status": "has_history",
@@ -1145,7 +1145,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T11:40:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -1254,7 +1254,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T11:40:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -1363,7 +1363,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T11:40:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -1505,7 +1505,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T11:40:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -1640,7 +1640,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T11:40:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -3017,12 +3017,12 @@
     }
    ],
    "jockey": {
-    "name": "Jonathan England",
-    "runs": 1015,
-    "wins": 134,
-    "places": 397,
-    "win_pct": 13.2,
-    "place_pct": 39.1
+    "name": "Richie McLernon",
+    "runs": 2168,
+    "wins": 231,
+    "places": 638,
+    "win_pct": 10.7,
+    "place_pct": 29.4
    },
    "trainer": {
     "name": "Sam England",
@@ -3048,23 +3048,6 @@
     "win_pct": 14.5,
     "place_pct": 37.1
    },
-   "jockey_trainer": {
-    "jockey": "Jonathan England",
-    "trainer": "Sam England",
-    "runs": 988,
-    "wins": 133,
-    "places": 392,
-    "win_pct": 13.5,
-    "place_pct": 39.7
-   },
-   "jockey_here": {
-    "name": "Jonathan England",
-    "runs": 2,
-    "wins": 1,
-    "places": 2,
-    "win_pct": 50.0,
-    "place_pct": 100.0
-   },
    "trainer_here": {
     "name": "Sam England",
     "runs": 3,
@@ -3074,22 +3057,22 @@
     "place_pct": 66.7
    },
    "jockey_at_course": {
-    "name": "Jonathan England",
+    "name": "Richie McLernon",
     "key": "Doncaster",
-    "runs": 47,
-    "wins": 4,
-    "places": 14,
-    "win_pct": 8.5,
-    "place_pct": 29.8
+    "runs": 55,
+    "wins": 6,
+    "places": 15,
+    "win_pct": 10.9,
+    "place_pct": 27.3
    },
    "jockey_at_distance": {
-    "name": "Jonathan England",
+    "name": "Richie McLernon",
     "key": "staying",
-    "runs": 978,
-    "wins": 131,
-    "places": 391,
-    "win_pct": 13.4,
-    "place_pct": 40.0
+    "runs": 2165,
+    "wins": 231,
+    "places": 638,
+    "win_pct": 10.7,
+    "place_pct": 29.5
    },
    "trainer_at_course": {
     "name": "Sam England",
@@ -3283,7 +3266,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T12:10:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -3382,7 +3365,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T12:10:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "non_runner"
    },
@@ -3481,7 +3464,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T12:10:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -3633,7 +3616,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T12:10:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -3775,7 +3758,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T12:10:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -3934,7 +3917,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T12:10:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -4093,7 +4076,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T12:10:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -4209,7 +4192,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T12:10:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -4360,7 +4343,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T12:10:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -4519,7 +4502,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T12:10:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -4671,7 +4654,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T12:10:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -4797,7 +4780,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T12:10:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -4947,7 +4930,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T12:10:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -6845,7 +6828,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T12:40:00+00:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -7004,7 +6987,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T12:40:00+00:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -7147,7 +7130,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T12:40:00+00:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -7289,7 +7272,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T12:40:00+00:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -9229,7 +9212,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T13:15:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -9397,7 +9380,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T13:15:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -9547,7 +9530,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T13:15:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -9681,7 +9664,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T13:15:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -9841,7 +9824,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T13:15:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -9949,7 +9932,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T13:15:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -10115,7 +10098,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T13:15:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -12104,7 +12087,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T13:50:00+00:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -12272,7 +12255,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T13:50:00+00:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -12423,7 +12406,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T13:50:00+00:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -12615,7 +12598,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T13:50:00+00:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -12807,7 +12790,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T13:50:00+00:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -15303,7 +15286,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T14:25:00+00:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -15494,7 +15477,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T14:25:00+00:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -15644,7 +15627,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T14:25:00+00:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -15876,7 +15859,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T14:25:00+00:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -16092,9 +16075,9 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T14:25:00+00:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-27",
    "status": "has_history",
@@ -16292,7 +16275,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T14:25:00+00:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -16483,7 +16466,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T14:25:00+00:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -16634,7 +16617,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T14:25:00+00:00",
-    "going": null,
+    "going": "good",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -20933,7 +20916,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T15:00:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -21101,7 +21084,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T15:00:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -21252,7 +21235,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T15:00:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -21404,7 +21387,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T15:00:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -21596,7 +21579,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T15:00:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -21721,7 +21704,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T15:00:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -21889,7 +21872,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T15:00:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -22024,7 +22007,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T15:00:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -22215,7 +22198,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T15:00:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -22375,7 +22358,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T15:00:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -22527,7 +22510,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T15:00:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -26182,7 +26165,7 @@
     "off_utc": "2026-11-27T15:20:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-27",
    "status": "has_history",
@@ -26536,7 +26519,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T15:35:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -26720,7 +26703,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T15:35:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -26863,7 +26846,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T15:35:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -27055,7 +27038,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T15:35:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -27231,7 +27214,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T15:35:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -27407,7 +27390,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T15:35:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -27606,7 +27589,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T15:35:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -27795,7 +27778,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T15:35:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -27920,7 +27903,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T15:35:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -28120,7 +28103,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T15:35:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -28288,7 +28271,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T15:35:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -28486,7 +28469,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T15:35:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -28670,7 +28653,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T15:35:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -28853,7 +28836,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T15:35:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -29029,7 +29012,7 @@
    "race": {
     "venue": "Newbury",
     "off_utc": "2026-11-27T15:35:00+00:00",
-    "going": null,
+    "going": "soft",
     "distance": "staying",
     "runner_status": "runner"
    },
@@ -32854,7 +32837,7 @@
     "off_utc": "2026-11-27T16:15:00+00:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-27",
    "status": "debut",
@@ -33178,7 +33161,7 @@
     "off_utc": "2026-11-27T16:15:00+00:00",
     "going": "good",
     "distance": "mile",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-27",
    "status": "debut",
@@ -38352,7 +38335,7 @@
     "off_utc": "2026-11-27T18:00:00+00:00",
     "going": "good",
     "distance": "sprint",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-27",
    "status": "debut",
@@ -39960,7 +39943,7 @@
     "off_utc": "2026-11-27T18:15:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-27",
    "status": "has_history",
@@ -44559,7 +44542,7 @@
     "off_utc": "2026-11-27T18:45:00+00:00",
     "going": "good",
     "distance": "middle",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-27",
    "status": "has_history",
@@ -50580,7 +50563,7 @@
     "off_utc": "2026-11-27T19:30:00+00:00",
     "going": "good",
     "distance": "staying",
-    "runner_status": "runner"
+    "runner_status": "non_runner"
    },
    "as_of": "2026-11-27",
    "status": "has_history",
